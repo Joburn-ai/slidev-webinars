@@ -3555,12 +3555,73 @@ Can you feel how that confidence would change everything for your teen? That's t
 ---
 layout: default
 ---
+<v-click at="4">
+
+<div class="text-3xl mt-6">
+Instead of just guessing
+</div>
+
+</v-click>
+
+<!--
+Can you feel how that confidence would change everything for your teen? That's the power of understanding what graders actually want instead of just guessing.
+-->
+
+---
+layout: default
+---
 
 # What You Just Experienced
 
 <v-clicks>
 
-In **60
+In **60 seconds**, you felt:
+
+The shift from **confusion** to clarity
+
+From **anxiety** to confidence
+
+That's exactly what happens when your teen learns to think like an AP grader
+
+Instead of just thinking like a student
+
+</v-clicks>
+
+<!--
+What you just experienced in 60 seconds—that shift from confusion to clarity, from anxiety to confidence—that's exactly what happens when your teen learns to think like an AP grader instead of just thinking like a student. And this is just one tiny piece of what we teach.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# Thank You!
+
+<v-click>
+
+<div class="text-4xl mt-12" style="color: var(--brand-accent);">
+Questions?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8">
+Contact: **info@supportedtutoring.com**
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl mt-12 opacity-70">
+SupportED Tutoring - Guarantee Your Teen Scores 4s and 5s
+</div>
+
+</v-click>
+
 
 
 
