@@ -1,5 +1,3 @@
-Markdown:
-"plaintext
 ---
 theme: default
 background: https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1920
@@ -2372,3 +2370,4 @@ layout: center
 <v-click>
 <div class="text-2xl mt-8">
 Because traditional prep focuses on <strong class="text-accent">input" 
+
