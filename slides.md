@@ -12,23 +12,19 @@ mdc: true
 ---
 <style>
 :root {
-  --brand-primary: 
-#1e40af;
-  --brand-secondary: 
-#3b82f6;
-  --brand-accent: 
-#f59e0b;
-  --brand-gold: 
-#d97706;
+  --brand-primary: #1e40af;
+  --brand-secondary: #3b82f6;
+  --brand-accent: #f59e0b;
+  --brand-gold: #d97706;
 }
+
 .slidev-layout {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.8rem;
   line-height: 1.6;
-  background: linear-gradient(135deg, 
-#f8fafc 0%, 
-#e0e7ff 100%);
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
 }
+
 h1 {
   font-size: 4rem !important;
   font-weight: 800;
@@ -38,36 +34,39 @@ h1 {
   background-clip: text;
   margin-bottom: 1.5rem;
 }
+
 h2 {
   font-size: 3rem;
   font-weight: 700;
   color: var(--brand-primary);
   margin-bottom: 1.5rem;
 }
+
 strong {
   color: var(--brand-primary);
   font-weight: 700;
 }
+
 .text-accent {
   color: var(--brand-accent);
   font-weight: 700;
 }
+
 .gold {
   color: var(--brand-gold);
 }
+
 .callout {
-  background: 
-#fef3c7;
+  background: #fef3c7;
   border-left: 4px solid var(--brand-accent);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0.5rem;
 }
+
 .callout-danger {
-  background: 
-#fee2e2;
-  border-left: 4px solid 
-#dc2626;
+  background: #fee2e2;
+  border-left: 4px solid #dc2626;
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0.5rem;
@@ -2370,5 +2369,6 @@ layout: center
 <v-click>
 <div class="text-2xl mt-8">
 Because traditional prep focuses on <strong class="text-accent">input" 
+
 
 
