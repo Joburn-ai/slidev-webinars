@@ -1,4 +1,7 @@
 ---
+theme: default
+css: ./style.css
+---
 # You can also start simply with 'default'
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
@@ -634,3 +637,4 @@ class: text-center
 [Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
 
 <PoweredBySlidev mt-10 />
+
