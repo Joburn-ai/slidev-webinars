@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1920
+background: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80
 title: Brain Chemistry Reset - Medication Freedom Pathway
 class: text-center
 highlighter: shiki
@@ -51,9 +51,11 @@ strong {
 }
 </style>
 
+<div style="background: rgba(0,0,0,0.5); padding: 3rem; border-radius: 1rem; backdrop-filter: blur(4px);">
+
 # Brain Chemistry Reset
 
-<div class="text-xl opacity-80">
+<div class="text-xl opacity-90 text-white">
 The Medication Freedom Pathway
 </div>
 
@@ -61,6 +63,8 @@ The Medication Freedom Pathway
   <span @click="$slidev.nav.next" class="px-6 py-3 rounded cursor-pointer bg-blue-600 hover:bg-blue-700 text-white">
     Let's Begin →
   </span>
+</div>
+
 </div>
 
 <!--
@@ -212,7 +216,8 @@ FALSE
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920&q=80
 background: white
 ---
 
@@ -241,18 +246,20 @@ background: white
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1495567720989-cebdbdd97913?w=1920&q=80
 class: text-center
-background: white
 ---
 
-<div v-click="1" class="text-2xl px-12">
-Your brain isn't <strong>broken</strong>
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
+
+<div v-click="1" class="text-2xl px-12 text-white">
+Your brain isn't <strong class="text-yellow-300">broken</strong>
 </div>
 
 <v-click at="2">
 
-<div class="text-5xl font-bold mt-12 text-green-600">
+<div class="text-5xl font-bold mt-12 text-green-400">
 It's DEPLETED
 </div>
 
@@ -260,11 +267,13 @@ It's DEPLETED
 
 <v-click at="3">
 
-<div class="text-xl mt-8 opacity-70">
+<div class="text-xl mt-8 opacity-90 text-white">
 Big difference.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 "Your brain isn't 'broken'—it's depleted. Big difference. Let's keep going!"
@@ -322,7 +331,8 @@ FALSE
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920&q=80
 background: white
 ---
 
@@ -408,9 +418,14 @@ FALSE
 -->
 
 ---
-layout: two-cols
+layout: image-right
+image: https://images.unsplash.com/photo-1568560193119-bb880c65862a?w=1920&q=80
 background: white
 ---
+
+<div class="grid grid-cols-2 gap-8">
+
+<div>
 
 # ❌ WITHOUT Support
 
@@ -424,7 +439,9 @@ Most people <strong>fail</strong>
 
 </v-clicks>
 
-::right::
+</div>
+
+<div>
 
 # ✅ WITH Proper Support
 
@@ -438,23 +455,29 @@ Can be smooth and <strong>safe</strong>
 
 </v-clicks>
 
+</div>
+
+</div>
+
 <!--
 "Coming off meds WITHOUT proper support IS dangerous. But with the right biochemical restoration protocol—rebuilding your brain's natural chemistry BEFORE and DURING the taper—it can be smooth, safe, and successful."
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1920&q=80
 class: text-center
-background: white
 ---
 
-<div v-click="1" class="text-xl px-16">
-The problem isn't that people <strong>shouldn't</strong> come off meds
+<div style="background: rgba(0,0,0,0.5); padding: 2rem; border-radius: 1rem;">
+
+<div v-click="1" class="text-xl px-16 text-white">
+The problem isn't that people <strong class="text-yellow-300">shouldn't</strong> come off meds
 </div>
 
 <v-click at="2">
 
-<div class="text-2xl font-bold mt-12 px-12 text-blue-600">
+<div class="text-2xl font-bold mt-12 px-12 text-blue-300">
 The problem is they're trying to do it
 </div>
 
@@ -462,11 +485,13 @@ The problem is they're trying to do it
 
 <v-click at="3">
 
-<div class="text-3xl font-bold mt-4 text-blue-600">
+<div class="text-3xl font-bold mt-4 text-green-400">
 WITHOUT THE RIGHT TOOLS
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 "The problem isn't that people shouldn't come off meds. The problem is they're trying to do it without the right tools."
@@ -604,7 +629,8 @@ FALSE
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=1920&q=80
 background: white
 ---
 
@@ -693,10 +719,12 @@ Most of what we've been told is outdated or flat-out wrong
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1920&q=80
 class: text-center
-background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)
 ---
+
+<div style="background: linear-gradient(135deg, rgba(37, 99, 235, 0.85) 0%, rgba(124, 58, 237, 0.85) 100%); padding: 3rem; border-radius: 1rem; backdrop-filter: blur(4px);">
 
 <div class="text-white">
 
@@ -722,11 +750,13 @@ And more importantly...
 
 <v-click at="4">
 
-<div class="text-5xl font-bold mt-8 text-green-400">
+<div class="text-5xl font-bold mt-8 text-yellow-300">
 What you can DO about it
 </div>
 
 </v-click>
+
+</div>
 
 </div>
 
