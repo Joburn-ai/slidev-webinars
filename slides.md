@@ -8,7 +8,7 @@ background: https://cover.sli.dev
 title: Welcome to Slidev
 info: |
   ## Slidev Starter Template
-  Presentation slides for developers.
+  Presentation slides for developers and engineers. whatever
 
   Learn more at [Sli.dev](https://sli.dev)
 # apply unocss classes to the current slide
