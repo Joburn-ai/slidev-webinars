@@ -73,14 +73,12 @@ The Medication Freedom Pathway
 </div>
 
 <!--
-PRE-WEBINAR WELCOME (START RECORDING 10 MIN EARLY)
-[Background music playing, welcome slide showing]
-"Hey everyone! Welcome! I can see people starting to join us. I'm Carla, and I'm so excited to have you here today..."
+Hey everyone! Welcome! I can see people starting to join us. I'm Carla, and I'm so excited to have you here today.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -97,9 +95,12 @@ We'll start in just a few minutes
 </v-click>
 
 <!--
-IMAGE: Community, people gathering, welcoming environment
-PURPOSE: Warm welcome visual
-"While we're waiting for a few more people to join, go ahead and drop in the chat where you're joining from. I'd love to see where everyone's at!"
+While we're waiting for a few more people to join, go ahead and drop in the chat where you're joining from. I'd love to see where everyone's at!
+[Read and acknowledge chat responses]
+Great! I see we've got people from [locations]. This is awesome.
+We're going to start in just a few minutes. In the meantime, make sure you can hear me okay—if you can, drop a thumbs up in the chat.
+[Wait for responses]
+Perfect! I'm seeing lots of thumbs up. We're good to go.
 -->
 
 ---
@@ -127,7 +128,11 @@ background: white
 </v-clicks>
 
 <!--
-"Quick housekeeping before we dive in: First, throughout this training, I'll be answering questions live..."
+Quick housekeeping before we dive in:
+First, throughout this training, I'll be answering questions live. If you have a question, drop it in the Q&A box (not the chat), and I'll get to as many as I can.
+Second, you're going to want to take notes. What I'm about to share with you has taken me years to learn, and I'm going to pack it all into the next 90 minutes.
+And third, stick around until the end because I have something special for everyone who stays. It's going to be worth your time, I promise.
+Alright, we've got a great group here. We're going to start in just 2 more minutes. Get your notebooks ready!
 -->
 
 ---
@@ -148,14 +153,14 @@ class: text-center
 </div>
 
 <!--
-IMAGE: Question mark, curiosity, mystery
-PURPOSE: Create intrigue and engagement
-"Alright everyone, we're going to dive right in with something fun..."
+Alright everyone, we're going to dive right in with something fun.
+I'm going to give you 5 true or false questions about psychiatric medications and brain chemistry. Type "T" for true or "F" for false in the chat. Let's see how much you actually know!
+Ready? Here we go:
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -172,9 +177,7 @@ Let's see how much you actually know!
 </v-click>
 
 <!--
-IMAGE: Students, quiz, engagement, learning
-PURPOSE: Interactive moment
-"I'm going to give you 5 true or false questions about psychiatric medications and brain chemistry. Type 'T' for true or 'F' for false in the chat."
+Type "T" for true or "F" for false in the chat. Let's see how much you actually know!
 -->
 
 ---
@@ -208,12 +211,13 @@ TRUE or FALSE?
 </div>
 
 <!--
-"Depression is caused by a chemical imbalance in the brain. True or false? Drop your answer in the chat—T or F!"
+Depression is caused by a chemical imbalance in the brain. True or false?
+Drop your answer in the chat—T or F!
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -230,9 +234,7 @@ Interesting!
 </v-click>
 
 <!--
-IMAGE: Person thinking, pondering, curious
-PURPOSE: Moment of anticipation
-"I'm seeing a lot of T's... some F's... interesting!"
+I'm seeing a lot of T's... some F's... interesting!
 -->
 
 ---
@@ -254,7 +256,7 @@ FALSE
 </v-click>
 
 <!--
-"The answer is... FALSE."
+The answer is... FALSE.
 -->
 
 ---
@@ -278,14 +280,12 @@ It was pharmaceutical <strong>marketing</strong>
 </v-click>
 
 <!--
-IMAGE: Brain, science, neurons
-PURPOSE: Scientific credibility moment
-"The 'chemical imbalance' theory was actually never proven. It was pharmaceutical marketing."
+The 'chemical imbalance' theory was actually never proven. It was pharmaceutical marketing.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -302,9 +302,7 @@ Not diseases
 </v-click>
 
 <!--
-IMAGE: Symptom concept, medical chart, health indicators
-PURPOSE: Reframe mental health understanding
-"What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction..."
+What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction—nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
 -->
 
 ---
@@ -339,12 +337,12 @@ background: white
 </v-clicks>
 
 <!--
-"...nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances."
+nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -369,9 +367,7 @@ Big difference
 </v-click>
 
 <!--
-IMAGE: Brain health, nourishment, restoration
-PURPOSE: Hope and reframe
-"Your brain isn't 'broken'—it's depleted. Big difference."
+Your brain isn't 'broken'—it's depleted. Big difference.
 -->
 
 ---
@@ -385,7 +381,7 @@ Let's keep going!
 </div>
 
 <!--
-"Let's keep going!"
+Let's keep going!
 -->
 
 ---
@@ -419,12 +415,12 @@ TRUE or FALSE?
 </div>
 
 <!--
-"Antidepressants fix the root cause of depression. True or false?"
+Antidepressants fix the root cause of depression. True or false?
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -441,9 +437,7 @@ You're catching on!
 </v-click>
 
 <!--
-IMAGE: Medication, pills, prescription
-PURPOSE: Visual reference
-"I'm seeing mostly F's this time... you're catching on!"
+I'm seeing mostly F's this time... you're catching on!
 -->
 
 ---
@@ -465,12 +459,12 @@ FALSE
 </v-click>
 
 <!--
-"The answer is FALSE."
+The answer is FALSE.
 -->
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1920
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
 background: white
 ---
 
@@ -493,14 +487,12 @@ But don't address <strong>WHY</strong> production stopped
 </v-clicks>
 
 <!--
-IMAGE: Pills, medication bottles
-PURPOSE: Visual of medication reality
-"Antidepressants suppress symptoms by artificially manipulating neurotransmitter levels. But they don't address WHY..."
+Antidepressants suppress symptoms by artificially manipulating neurotransmitter levels. But they don't address WHY your brain stopped producing those neurotransmitters naturally in the first place.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -525,9 +517,7 @@ The light turns off, but the engine is still broken
 </v-click>
 
 <!--
-IMAGE: Car dashboard, check engine light, mechanic
-PURPOSE: Powerful metaphor visualization
-"It's like putting a piece of tape over your car's 'check engine' light. The light turns off, but the engine is still broken."
+It's like putting a piece of tape over your car's 'check engine' light. The light turns off, but the engine is still broken.
 -->
 
 ---
@@ -541,7 +531,7 @@ Next question!
 </div>
 
 <!--
-"Next question!"
+Next question!
 -->
 
 ---
@@ -575,12 +565,12 @@ TRUE or FALSE?
 </div>
 
 <!--
-"Coming off psychiatric medications is dangerous and should never be attempted. True or false?"
+Coming off psychiatric medications is dangerous and should never be attempted. True or false?
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -597,9 +587,7 @@ Some T's, some F's
 </v-click>
 
 <!--
-IMAGE: Uncertainty, decision, contemplation
-PURPOSE: Reflect audience uncertainty
-"Okay, I'm seeing mixed answers here. Some T's, some F's."
+Okay, I'm seeing mixed answers here. Some T's, some F's.
 -->
 
 ---
@@ -629,7 +617,7 @@ FALSE
 </v-click>
 
 <!--
-"The answer is... FALSE (with an important caveat)."
+The answer is... FALSE (with an important caveat).
 -->
 
 ---
@@ -676,12 +664,12 @@ Support before AND during taper
 </v-clicks>
 
 <!--
-"Coming off meds WITHOUT proper support IS dangerous. But with the right biochemical restoration protocol—rebuilding your brain's natural chemistry BEFORE and DURING the taper—it can be smooth, safe, and successful."
+Coming off meds WITHOUT proper support IS dangerous. But with the right biochemical restoration protocol—rebuilding your brain's natural chemistry BEFORE and DURING the taper—it can be smooth, safe, and successful.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -698,9 +686,7 @@ They're trying to do it without the right tools
 </v-click>
 
 <!--
-IMAGE: Tools, support, helping hands
-PURPOSE: Solution imagery
-"The problem isn't that people shouldn't come off meds. The problem is they're trying to do it without the right tools."
+The problem isn't that people shouldn't come off meds. The problem is they're trying to do it without the right tools.
 -->
 
 ---
@@ -714,7 +700,7 @@ Alright, two more!
 </div>
 
 <!--
-"Alright, two more!"
+Alright, two more!
 -->
 
 ---
@@ -748,12 +734,12 @@ TRUE or FALSE?
 </div>
 
 <!--
-"Natural supplements can't work for 'serious' mental health issues. True or false?"
+Natural supplements can't work for 'serious' mental health issues. True or false?
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -770,9 +756,7 @@ You're paying attention
 </v-click>
 
 <!--
-IMAGE: Attentive, engaged, learning
-PURPOSE: Positive reinforcement
-"I see a lot of F's! You're paying attention."
+I see a lot of F's! You're paying attention.
 -->
 
 ---
@@ -794,12 +778,12 @@ FALSE
 </v-click>
 
 <!--
-"The answer is FALSE."
+The answer is FALSE.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -816,9 +800,7 @@ Random supplements don't work
 </v-click>
 
 <!--
-IMAGE: Supplements scattered randomly
-PURPOSE: Illustrate the problem
-"But here's the thing—random supplements don't work."
+But here's the thing—random supplements don't work.
 -->
 
 ---
@@ -846,42 +828,43 @@ Based on <strong>YOUR</strong> specific deficiencies
 </v-clicks>
 
 <!--
-IMAGE: Supplements, amino acids, natural medicine organized
-PURPOSE: Show natural approach done right
-"Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail..."
+Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail with natural approaches.
+Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes.
 -->
 
 ---
-layout: cover
-background: https://images.unsplash.com/photo-1434494343833-76b479733705?w=1920
+layout: center
 class: text-center
+background: white
 ---
 
-<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-white text-3xl px-12">
-    Targeted amino acid therapy can restore neurotransmitter production in
-  </div>
-  <v-click>
-  <div class="text-white text-6xl font-bold mt-12" style="color: #10b981;">
-    MINUTES to HOURS
-  </div>
-  </v-click>
-  <v-click>
-  <div class="text-white text-2xl mt-8 opacity-90">
-    Not months. Not years. Minutes.
-  </div>
-  </v-click>
+<div class="text-3xl px-12">
+Targeted amino acid therapy can restore neurotransmitter production in
 </div>
 
+<v-click>
+
+<div class="text-6xl font-bold mt-12" style="color: var(--brand-accent);">
+MINUTES to HOURS
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70">
+Not months. Not years. Minutes.
+</div>
+
+</v-click>
+
 <!--
-IMAGE: Fast action, speed, breakthrough moment
-PURPOSE: Dramatic impact of speed
-"Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes."
+Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -898,9 +881,8 @@ Last question!
 </v-click>
 
 <!--
-IMAGE: Anticipation, pointing forward, next step
-PURPOSE: Building to final question
-"I'll show you exactly how in a few minutes. Last question!"
+I'll show you exactly how in a few minutes.
+Last question!
 -->
 
 ---
@@ -934,12 +916,12 @@ TRUE or FALSE?
 </div>
 
 <!--
-"If you've been on medication for years, your brain is permanently damaged. True or false?"
+If you've been on medication for years, your brain is permanently damaged. True or false?
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -956,9 +938,7 @@ I hope so, because...
 </v-click>
 
 <!--
-IMAGE: Hope, positive anticipation
-PURPOSE: Building to hopeful answer
-"Okay, lots of F's... I hope so, because..."
+Okay, lots of F's... I hope so, because...
 -->
 
 ---
@@ -980,7 +960,7 @@ FALSE
 </v-click>
 
 <!--
-"The answer is FALSE."
+The answer is FALSE.
 -->
 
 ---
@@ -1001,14 +981,12 @@ class: text-center
 </div>
 
 <!--
-IMAGE: Hope, healing, breakthrough, sunrise, new beginning
-PURPOSE: Emotional turning point - from despair to hope
-"Your brain has an incredible capacity to heal when given the right support."
+Your brain has an incredible capacity to heal when given the right support.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -1033,14 +1011,12 @@ And watched their brains restore natural production
 </v-click>
 
 <!--
-IMAGE: Success, achievement, transformation
-PURPOSE: Real results proof
-"I've worked with clients who've been on medications for 5, 10, even 16+ years, and watched their brains restore natural neurotransmitter production."
+I've worked with clients who've been on medications for 5, 10, even 16+ years, and watched their brains restore natural neurotransmitter production.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -1057,9 +1033,7 @@ It's about addressing the ROOT CAUSE
 </v-click>
 
 <!--
-IMAGE: Root system, foundation, deep healing
-PURPOSE: Root cause metaphor
-"It's not about how long you've been on meds. It's about whether you're addressing the ROOT CAUSE of why you needed them in the first place."
+It's not about how long you've been on meds. It's about whether you're addressing the ROOT CAUSE of why you needed them in the first place.
 -->
 
 ---
@@ -1077,5 +1051,5 @@ And that's exactly what we're going to talk about today
 </div>
 
 <!--
-"And that's exactly what we're going to talk about today."
+And that's exactly what we're going to talk about today.
 -->
