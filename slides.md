@@ -1247,20 +1247,6 @@ background: white
 ---
 
 <div class="text-3xl px-12">
-But here's what <strong>really</strong> qualifies me to teach this
-</div>
-
-<!--
-But here's what really qualifies me to teach this:
--->
-
----
-layout: center
-class: text-center
-background: white
----
-
-<div class="text-3xl px-12">
 Seven years ago, someone I love
 </div>
 
@@ -1970,6 +1956,7 @@ class: text-center
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
+
 
 
 
