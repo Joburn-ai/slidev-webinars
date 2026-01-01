@@ -265,8 +265,6 @@ image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
-
 # The Truth
 
 <div class="text-2xl">
@@ -304,7 +302,7 @@ Not diseases
 </v-click>
 
 <!--
-What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction.
+What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction—nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
 -->
 
 ---
@@ -1874,4 +1872,3 @@ Let me show you what's actually going on in your brain right now
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
-
