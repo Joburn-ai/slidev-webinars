@@ -177,7 +177,7 @@ Let's see how much you actually know!
 </v-click>
 
 <!--
-Type "T" for true or "F" for false in the chat. Let's see how much you actually know!
+Ready? Here we go:
 -->
 
 ---
@@ -234,6 +234,7 @@ Interesting!
 </v-click>
 
 <!--
+[Wait 5-10 seconds, acknowledge responses]
 I'm seeing a lot of T's... some F's... interesting!
 -->
 
@@ -261,7 +262,7 @@ The answer is... FALSE.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
+image: https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=1920
 background: white
 ---
 
@@ -342,7 +343,7 @@ background: white
 </div>
 
 <!--
-nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
+Nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
 -->
 
 ---
@@ -442,6 +443,7 @@ You're catching on!
 </v-click>
 
 <!--
+[Wait for responses]
 I'm seeing mostly F's this time... you're catching on!
 -->
 
@@ -469,7 +471,7 @@ The answer is FALSE.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
+image: https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=1920
 background: white
 ---
 
@@ -596,6 +598,7 @@ Some T's, some F's
 </v-click>
 
 <!--
+[Wait for responses]
 Okay, I'm seeing mixed answers here. Some T's, some F's.
 -->
 
@@ -783,6 +786,7 @@ You're paying attention
 </v-click>
 
 <!--
+[Wait for responses]
 I see a lot of F's! You're paying attention.
 -->
 
@@ -832,7 +836,7 @@ But here's the thing—random supplements don't work.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=1920
+image: https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=1920
 background: white
 ---
 
@@ -860,7 +864,6 @@ Based on <strong>YOUR</strong> specific deficiencies
 
 <!--
 Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail with natural approaches.
-Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes.
 -->
 
 ---
@@ -969,6 +972,7 @@ I hope so, because...
 </v-click>
 
 <!--
+[Wait for responses]
 Okay, lots of F's... I hope so, because...
 -->
 
@@ -1226,7 +1230,7 @@ But here's what really qualifies me to teach this:
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1445633629932-0029acc44e88?w=1920
+background: https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=1920
 class: text-center
 ---
 
@@ -1247,7 +1251,7 @@ Seven years ago, someone I love was trapped in a living hell.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
+image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1920
 background: white
 ---
 
@@ -1467,7 +1471,7 @@ And here's what happened:
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1513151233558-d860c5398176?w=1920
+background: https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1920
 class: text-center
 ---
 
@@ -1523,7 +1527,7 @@ Not months of suffering. Not years of withdrawal. A cakewalk.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
+image: https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1920
 background: white
 ---
 
@@ -1635,7 +1639,7 @@ People who thought they were 'broken.' People who'd been told they'd need meds f
 
 ---
 layout: cover
-background: https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1920
+background: https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1920
 class: text-center
 ---
 
@@ -1722,7 +1726,7 @@ And now she describes herself as 'more alive than I've been in a decade.'
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=1920
+image: https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=1920
 background: white
 ---
 
@@ -1797,7 +1801,7 @@ Just steady, confident progress
 </v-click>
 
 <!--
-No brain zaps, no panic attacks, no relapse. Just steady, confident progress.
+Just steady, confident progress.
 -->
 
 ---
