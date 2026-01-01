@@ -1,636 +1,1175 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
+theme: default
+title: Brain Chemistry Reset - The Medication Freedom Pathway
+background: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
 class: text-center
-# https://sli.dev/features/drawing
+highlighter: shiki
+lineNumbers: false
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
 <style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+:root {
+  --brand-primary: #3b82f6;
+  --brand-secondary: #8b5cf6;
+  --brand-accent: #10b981;
+}
+
+strong {
+  color: var(--brand-primary);
+  font-weight: 700;
+}
+
+.callout {
+  background: #e0f2fe;
+  border-left: 4px solid var(--brand-accent);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+}
+
+.callout-success {
+  background: #dcfce7;
+  border-left: 4px solid #16a34a;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+}
+
+.callout-danger {
+  background: #fee2e2;
+  border-left: 4px solid #dc2626;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+}
+
+.callout-warning {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
 }
 </style>
 
-<!--
-Here is another comment.
--->
+# Brain Chemistry Reset
 
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
+<div class="text-2xl mt-4 text-gray-300">
+The Medication Freedom Pathway
 </div>
-<div>
 
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
+<div class="pt-12">
+  <span @click="$slidev.nav.next" class="px-6 py-3 rounded-lg cursor-pointer bg-blue-600 hover:bg-blue-700 text-white font-semibold">
+    Join Us →
+  </span>
 </div>
 
 <!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
+PRE-WEBINAR WELCOME (START RECORDING 10 MIN EARLY)
+[Background music playing, welcome slide showing]
+"Hey everyone! Welcome! I can see people starting to join us. I'm Carla, and I'm so excited to have you here today..."
 -->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
 
 ---
 layout: center
 class: text-center
+background: white
 ---
 
-# Learn More
+<v-click>
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+<div class="text-3xl px-12">
+Welcome! Drop in the chat where you're joining from
+</div>
 
-<PoweredBySlidev mt-10 />
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+We'll start in just a few minutes
+</div>
+
+</v-click>
+
+<!--
+"While we're waiting for a few more people to join, go ahead and drop in the chat where you're joining from. I'd love to see where everyone's at!"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+# Quick Housekeeping
+
+<v-clicks>
+
+<div class="text-2xl px-12 mt-8">
+📝 <strong>Take notes</strong> - Years of learning packed into 90 minutes
+</div>
+
+<div class="text-2xl px-12 mt-6">
+❓ <strong>Questions?</strong> Drop them in the Q&A box
+</div>
+
+<div class="text-2xl px-12 mt-6">
+🎁 <strong>Stick around</strong> - Special offer at the end
+</div>
+
+</v-clicks>
+
+<!--
+"Quick housekeeping before we dive in: First, throughout this training, I'll be answering questions live..."
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-6xl font-bold">
+    Quick Pop Quiz
+  </div>
+  <v-click>
+  <div class="text-white text-3xl mt-4">
+    TRUE or FALSE?
+  </div>
+  </v-click>
+</div>
+
+<!--
+IMAGE: Question mark, curiosity, mystery
+PURPOSE: Create intrigue and engagement
+"Alright everyone, we're going to dive right in with something fun..."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Type "T" for true or "F" for false in the chat
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Let's see how much you actually know!
+</div>
+
+</v-click>
+
+<!--
+"I'm going to give you 5 true or false questions about psychiatric medications and brain chemistry. Type 'T' for true or 'F' for false in the chat."
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<v-click>
+
+<div class="text-2xl px-12">
+QUESTION 1
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+Depression is caused by a chemical imbalance in the brain
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"Depression is caused by a chemical imbalance in the brain. True or false? Drop your answer in the chat—T or F!"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+I'm seeing a lot of T's... some F's...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12">
+Interesting!
+</div>
+
+</v-click>
+
+<!--
+"I'm seeing a lot of T's... some F's... interesting!"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-4xl font-bold">
+The answer is...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-8xl font-bold mt-12 text-red-600">
+FALSE
+</div>
+
+</v-click>
+
+<!--
+"The answer is... FALSE."
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
+background: white
+---
+
+# The Truth
+
+<v-clicks>
+
+<div class="text-2xl">
+The "chemical imbalance" theory was <strong>never proven</strong>
+</div>
+
+<div class="text-2xl mt-4">
+It was pharmaceutical <strong>marketing</strong>
+</div>
+
+</v-clicks>
+
+<!--
+IMAGE: Brain, science, neurons
+PURPOSE: Scientific credibility moment
+"The 'chemical imbalance' theory was actually never proven. It was pharmaceutical marketing."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Depression and anxiety are <strong>SYMPTOMS</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 px-12 opacity-70">
+Not diseases
+</div>
+
+</v-click>
+
+<!--
+"What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction..."
+-->
+
+---
+layout: default
+background: white
+---
+
+# Symptoms of What?
+
+<v-clicks>
+
+<div class="text-2xl">
+✓ Nutrient deficiencies
+</div>
+
+<div class="text-2xl mt-4">
+✓ Neurotransmitter depletion
+</div>
+
+<div class="text-2xl mt-4">
+✓ Inflammation
+</div>
+
+<div class="text-2xl mt-4">
+✓ Gut problems
+</div>
+
+<div class="text-2xl mt-4">
+✓ Hormone imbalances
+</div>
+
+</v-clicks>
+
+<!--
+"...nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-4xl px-12">
+Your brain isn't <strong>broken</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+It's depleted
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 opacity-70">
+Big difference
+</div>
+
+</v-click>
+
+<!--
+"Your brain isn't 'broken'—it's depleted. Big difference."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Let's keep going!
+</div>
+
+</v-click>
+
+<!--
+"Let's keep going!"
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<v-click>
+
+<div class="text-2xl px-12">
+QUESTION 2
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+Antidepressants fix the root cause of depression
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"Antidepressants fix the root cause of depression. True or false?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+I'm seeing mostly F's this time...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12">
+You're catching on!
+</div>
+
+</v-click>
+
+<!--
+"I'm seeing mostly F's this time... you're catching on!"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-4xl font-bold">
+The answer is
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-8xl font-bold mt-12 text-red-600">
+FALSE
+</div>
+
+</v-click>
+
+<!--
+"The answer is FALSE."
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
+background: white
+---
+
+# What Antidepressants Actually Do
+
+<v-clicks>
+
+<div class="text-2xl">
+They <strong>suppress symptoms</strong>
+</div>
+
+<div class="text-2xl mt-4">
+By artificially manipulating neurotransmitters
+</div>
+
+<div class="text-2xl mt-4">
+But don't address <strong>WHY</strong> production stopped
+</div>
+
+</v-clicks>
+
+<!--
+IMAGE: Medication, pills, prescription
+PURPOSE: Visual reference to medications
+"Antidepressants suppress symptoms by artificially manipulating neurotransmitter levels. But they don't address WHY..."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+It's like putting tape over your car's
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-8" style="color: var(--brand-primary);">
+"Check Engine" light
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 px-12 opacity-70">
+The light turns off, but the engine is still broken
+</div>
+
+</v-click>
+
+<!--
+"It's like putting a piece of tape over your car's 'check engine' light. The light turns off, but the engine is still broken."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Next question!
+</div>
+
+</v-click>
+
+<!--
+"Next question!"
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<v-click>
+
+<div class="text-2xl px-12">
+QUESTION 3
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8">
+Coming off psychiatric medications is dangerous and should never be attempted
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"Coming off psychiatric medications is dangerous and should never be attempted. True or false?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+I'm seeing mixed answers here
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Some T's, some F's
+</div>
+
+</v-click>
+
+<!--
+"Okay, I'm seeing mixed answers here. Some T's, some F's."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-4xl font-bold">
+The answer is...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-7xl font-bold mt-8 text-red-600">
+FALSE
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70">
+(with an important caveat)
+</div>
+
+</v-click>
+
+<!--
+"The answer is... FALSE (with an important caveat)."
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+# ❌ Without Proper Support
+
+<v-clicks>
+
+<div class="text-xl">
+Coming off meds IS dangerous
+</div>
+
+<div class="text-xl mt-4">
+Brain zaps, panic, relapse
+</div>
+
+<div class="text-xl mt-4">
+Most people crash
+</div>
+
+</v-clicks>
+
+::right::
+
+# ✅ With Right Tools
+
+<v-clicks>
+
+<div class="text-xl">
+Can be smooth and safe
+</div>
+
+<div class="text-xl mt-4">
+Biochemical restoration protocol
+</div>
+
+<div class="text-xl mt-4">
+Support before AND during taper
+</div>
+
+</v-clicks>
+
+<!--
+"Coming off meds WITHOUT proper support IS dangerous. But with the right biochemical restoration protocol—rebuilding your brain's natural chemistry BEFORE and DURING the taper—it can be smooth, safe, and successful."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+The problem isn't that people <strong>shouldn't</strong> come off meds
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+They're trying to do it without the right tools
+</div>
+
+</v-click>
+
+<!--
+"The problem isn't that people shouldn't come off meds. The problem is they're trying to do it without the right tools."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Alright, two more!
+</div>
+
+</v-click>
+
+<!--
+"Alright, two more!"
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<v-click>
+
+<div class="text-2xl px-12">
+QUESTION 4
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8">
+Natural supplements can't work for "serious" mental health issues
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"Natural supplements can't work for 'serious' mental health issues. True or false?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+I see a lot of F's!
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12">
+You're paying attention
+</div>
+
+</v-click>
+
+<!--
+"I see a lot of F's! You're paying attention."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-4xl font-bold">
+The answer is
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-8xl font-bold mt-12 text-red-600">
+FALSE
+</div>
+
+</v-click>
+
+<!--
+"The answer is FALSE."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+But here's the thing...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+Random supplements don't work
+</div>
+
+</v-click>
+
+<!--
+"But here's the thing—random supplements don't work."
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=1920
+background: white
+---
+
+# The Difference
+
+<v-clicks>
+
+<div class="text-2xl">
+❌ Throwing 5-HTP at the problem
+</div>
+
+<div class="text-2xl mt-6">
+✅ <strong>Targeted</strong> amino acid therapy
+</div>
+
+<div class="text-2xl mt-6">
+Based on <strong>YOUR</strong> specific deficiencies
+</div>
+
+</v-clicks>
+
+<!--
+IMAGE: Supplements, amino acids, natural medicine
+PURPOSE: Show natural approach
+"Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail..."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Targeted amino acid therapy can restore neurotransmitter production in
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-6xl font-bold mt-12" style="color: var(--brand-accent);">
+MINUTES to HOURS
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70">
+Not months. Not years. Minutes.
+</div>
+
+</v-click>
+
+<!--
+"Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+I'll show you exactly how in a few minutes
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Last question!
+</div>
+
+</v-click>
+
+<!--
+"I'll show you exactly how in a few minutes. Last question!"
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<v-click>
+
+<div class="text-2xl px-12">
+QUESTION 5
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8">
+If you've been on medication for years, your brain is permanently damaged
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"If you've been on medication for years, your brain is permanently damaged. True or false?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+Lots of F's...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+I hope so, because...
+</div>
+
+</v-click>
+
+<!--
+"Okay, lots of F's... I hope so, because..."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-4xl font-bold">
+The answer is
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-8xl font-bold mt-12 text-red-600">
+FALSE
+</div>
+
+</v-click>
+
+<!--
+"The answer is FALSE."
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <v-click>
+  <div class="text-white text-4xl font-bold px-12">
+    Your brain has an incredible capacity to heal
+  </div>
+  </v-click>
+  <v-click>
+  <div class="text-white text-2xl mt-6">
+    When given the right support
+  </div>
+  </v-click>
+</div>
+
+<!--
+IMAGE: Hope, healing, breakthrough, sunrise
+PURPOSE: Emotional turning point - from despair to hope
+"Your brain has an incredible capacity to heal when given the right support."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+I've worked with clients on medications for
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-8" style="color: var(--brand-primary);">
+5, 10, even 16+ years
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+And watched their brains restore natural production
+</div>
+
+</v-click>
+
+<!--
+"I've worked with clients who've been on medications for 5, 10, even 16+ years, and watched their brains restore natural neurotransmitter production."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<v-click>
+
+<div class="text-3xl px-12">
+It's not about how <strong>long</strong> you've been on meds
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+It's about addressing the ROOT CAUSE
+</div>
+
+</v-click>
+
+<!--
+"It's not about how long you've been on meds. It's about whether you're addressing the ROOT CAUSE of why you needed them in the first place."
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<v-click>
+
+<div class="text-4xl font-bold px-12">
+And that's exactly what we're going to talk about today
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"And that's exactly what we're going to talk about today."
+-->
