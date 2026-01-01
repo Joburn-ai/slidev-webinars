@@ -145,13 +145,12 @@ class: text-center
   <div class="text-white text-6xl font-bold">
     Quick Pop Quiz
   </div>
-</div>
-
-<v-click>
+  <v-click>
   <div class="text-white text-3xl mt-4">
     TRUE or FALSE?
   </div>
-</v-click>
+  </v-click>
+</div>
 
 <!--
 Alright everyone, we're going to dive right in with something fun.
@@ -266,8 +265,6 @@ image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
-
 # The Truth
 
 <div class="text-2xl">
@@ -305,7 +302,7 @@ Not diseases
 </v-click>
 
 <!--
-What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction
+What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction—nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
 -->
 
 ---
@@ -863,6 +860,7 @@ Based on <strong>YOUR</strong> specific deficiencies
 
 <!--
 Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail with natural approaches.
+Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes.
 -->
 
 ---
@@ -1006,13 +1004,12 @@ class: text-center
   <div class="text-white text-4xl font-bold px-12">
     Your brain has an incredible capacity to heal
   </div>
-</div>
-
-<v-click>
+  <v-click>
   <div class="text-white text-2xl mt-6">
     When given the right support
   </div>
-</v-click>
+  </v-click>
+</div>
 
 <!--
 Your brain has an incredible capacity to heal when given the right support.
@@ -1087,7 +1084,6 @@ And that's exactly what we're going to talk about today
 <!--
 And that's exactly what we're going to talk about today.
 -->
-
 
 ---
 layout: center
@@ -1876,4 +1872,3 @@ Let me show you what's actually going on in your brain right now
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
-
