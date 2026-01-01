@@ -302,13 +302,16 @@ Not diseases
 </v-click>
 
 <!--
-What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction—nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
+What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 # Symptoms of What?
 
@@ -335,6 +338,8 @@ background: white
 </div>
 
 </v-clicks>
+
+</div>
 
 <!--
 nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
@@ -468,6 +473,8 @@ image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 # What Antidepressants Actually Do
 
 <div class="text-2xl">
@@ -485,6 +492,8 @@ But don't address <strong>WHY</strong> production stopped
 </div>
 
 </v-clicks>
+
+</div>
 
 <!--
 Antidepressants suppress symptoms by artificially manipulating neurotransmitter levels. But they don't address WHY your brain stopped producing those neurotransmitters naturally in the first place.
@@ -621,9 +630,15 @@ The answer is... FALSE (with an important caveat).
 -->
 
 ---
-layout: two-cols
+layout: default
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="grid grid-cols-2 gap-12">
+
+<div>
 
 # ❌ Without Proper Support
 
@@ -643,7 +658,9 @@ Most people crash
 
 </v-clicks>
 
-::right::
+</div>
+
+<div>
 
 # ✅ With Right Tools
 
@@ -662,6 +679,16 @@ Support before AND during taper
 </div>
 
 </v-clicks>
+
+</div>
+
+</div>
+
+<div class="mt-8">
+<img src="https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=1920" class="rounded-lg shadow-lg" style="max-height: 200px; width: 100%; object-fit: cover;" />
+</div>
+
+</div>
 
 <!--
 Coming off meds WITHOUT proper support IS dangerous. But with the right biochemical restoration protocol—rebuilding your brain's natural chemistry BEFORE and DURING the taper—it can be smooth, safe, and successful.
@@ -809,6 +836,8 @@ image: https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=1920
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 # The Difference
 
 <div class="text-2xl">
@@ -827,9 +856,10 @@ Based on <strong>YOUR</strong> specific deficiencies
 
 </v-clicks>
 
+</div>
+
 <!--
 Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail with natural approaches.
-Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes.
 -->
 
 ---
