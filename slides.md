@@ -145,12 +145,13 @@ class: text-center
   <div class="text-white text-6xl font-bold">
     Quick Pop Quiz
   </div>
-  <v-click>
+</div>
+
+<v-click>
   <div class="text-white text-3xl mt-4">
     TRUE or FALSE?
   </div>
-  </v-click>
-</div>
+</v-click>
 
 <!--
 Alright everyone, we're going to dive right in with something fun.
@@ -1005,12 +1006,13 @@ class: text-center
   <div class="text-white text-4xl font-bold px-12">
     Your brain has an incredible capacity to heal
   </div>
-  <v-click>
+</div>
+
+<v-click>
   <div class="text-white text-2xl mt-6">
     When given the right support
   </div>
-  </v-click>
-</div>
+</v-click>
 
 <!--
 Your brain has an incredible capacity to heal when given the right support.
@@ -1874,3 +1876,4 @@ Let me show you what's actually going on in your brain right now
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
+
