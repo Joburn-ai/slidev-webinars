@@ -79,18 +79,14 @@ PRE-WEBINAR WELCOME (START RECORDING 10 MIN EARLY)
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 Welcome! Drop in the chat where you're joining from
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -101,6 +97,8 @@ We'll start in just a few minutes
 </v-click>
 
 <!--
+IMAGE: Community, people gathering, welcoming environment
+PURPOSE: Warm welcome visual
 "While we're waiting for a few more people to join, go ahead and drop in the chat where you're joining from. I'd love to see where everyone's at!"
 -->
 
@@ -156,18 +154,14 @@ PURPOSE: Create intrigue and engagement
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 Type "T" for true or "F" for false in the chat
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -178,6 +172,8 @@ Let's see how much you actually know!
 </v-click>
 
 <!--
+IMAGE: Students, quiz, engagement, learning
+PURPOSE: Interactive moment
 "I'm going to give you 5 true or false questions about psychiatric medications and brain chemistry. Type 'T' for true or 'F' for false in the chat."
 -->
 
@@ -189,13 +185,9 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-white">
 
-<v-click>
-
 <div class="text-2xl px-12">
 QUESTION 1
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -220,18 +212,14 @@ TRUE or FALSE?
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 I'm seeing a lot of T's... some F's...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -242,6 +230,8 @@ Interesting!
 </v-click>
 
 <!--
+IMAGE: Person thinking, pondering, curious
+PURPOSE: Moment of anticipation
 "I'm seeing a lot of T's... some F's... interesting!"
 -->
 
@@ -251,13 +241,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-4xl font-bold">
 The answer is...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -279,17 +265,17 @@ background: white
 
 # The Truth
 
-<v-clicks>
-
 <div class="text-2xl">
 The "chemical imbalance" theory was <strong>never proven</strong>
 </div>
+
+<v-click>
 
 <div class="text-2xl mt-4">
 It was pharmaceutical <strong>marketing</strong>
 </div>
 
-</v-clicks>
+</v-click>
 
 <!--
 IMAGE: Brain, science, neurons
@@ -298,18 +284,14 @@ PURPOSE: Scientific credibility moment
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 Depression and anxiety are <strong>SYMPTOMS</strong>
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -320,6 +302,8 @@ Not diseases
 </v-click>
 
 <!--
+IMAGE: Symptom concept, medical chart, health indicators
+PURPOSE: Reframe mental health understanding
 "What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction..."
 -->
 
@@ -330,11 +314,11 @@ background: white
 
 # Symptoms of What?
 
-<v-clicks>
-
 <div class="text-2xl">
 ✓ Nutrient deficiencies
 </div>
+
+<v-clicks>
 
 <div class="text-2xl mt-4">
 ✓ Neurotransmitter depletion
@@ -359,18 +343,14 @@ background: white
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-4xl px-12">
 Your brain isn't <strong>broken</strong>
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -389,6 +369,8 @@ Big difference
 </v-click>
 
 <!--
+IMAGE: Brain health, nourishment, restoration
+PURPOSE: Hope and reframe
 "Your brain isn't 'broken'—it's depleted. Big difference."
 -->
 
@@ -398,13 +380,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-3xl px-12">
 Let's keep going!
 </div>
-
-</v-click>
 
 <!--
 "Let's keep going!"
@@ -418,13 +396,9 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-white">
 
-<v-click>
-
 <div class="text-2xl px-12">
 QUESTION 2
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -449,18 +423,14 @@ TRUE or FALSE?
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 I'm seeing mostly F's this time...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -471,6 +441,8 @@ You're catching on!
 </v-click>
 
 <!--
+IMAGE: Medication, pills, prescription
+PURPOSE: Visual reference
 "I'm seeing mostly F's this time... you're catching on!"
 -->
 
@@ -480,13 +452,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-4xl font-bold">
 The answer is
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -502,17 +470,17 @@ FALSE
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
+image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1920
 background: white
 ---
 
 # What Antidepressants Actually Do
 
-<v-clicks>
-
 <div class="text-2xl">
 They <strong>suppress symptoms</strong>
 </div>
+
+<v-clicks>
 
 <div class="text-2xl mt-4">
 By artificially manipulating neurotransmitters
@@ -525,24 +493,20 @@ But don't address <strong>WHY</strong> production stopped
 </v-clicks>
 
 <!--
-IMAGE: Medication, pills, prescription
-PURPOSE: Visual reference to medications
+IMAGE: Pills, medication bottles
+PURPOSE: Visual of medication reality
 "Antidepressants suppress symptoms by artificially manipulating neurotransmitter levels. But they don't address WHY..."
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 It's like putting tape over your car's
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -561,6 +525,8 @@ The light turns off, but the engine is still broken
 </v-click>
 
 <!--
+IMAGE: Car dashboard, check engine light, mechanic
+PURPOSE: Powerful metaphor visualization
 "It's like putting a piece of tape over your car's 'check engine' light. The light turns off, but the engine is still broken."
 -->
 
@@ -570,13 +536,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-3xl px-12">
 Next question!
 </div>
-
-</v-click>
 
 <!--
 "Next question!"
@@ -590,13 +552,9 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-white">
 
-<v-click>
-
 <div class="text-2xl px-12">
 QUESTION 3
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -621,18 +579,14 @@ TRUE or FALSE?
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 I'm seeing mixed answers here
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -643,6 +597,8 @@ Some T's, some F's
 </v-click>
 
 <!--
+IMAGE: Uncertainty, decision, contemplation
+PURPOSE: Reflect audience uncertainty
 "Okay, I'm seeing mixed answers here. Some T's, some F's."
 -->
 
@@ -652,13 +608,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-4xl font-bold">
 The answer is...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -687,11 +639,11 @@ background: white
 
 # ❌ Without Proper Support
 
-<v-clicks>
-
 <div class="text-xl">
 Coming off meds IS dangerous
 </div>
+
+<v-clicks>
 
 <div class="text-xl mt-4">
 Brain zaps, panic, relapse
@@ -707,11 +659,11 @@ Most people crash
 
 # ✅ With Right Tools
 
-<v-clicks>
-
 <div class="text-xl">
 Can be smooth and safe
 </div>
+
+<v-clicks>
 
 <div class="text-xl mt-4">
 Biochemical restoration protocol
@@ -728,18 +680,14 @@ Support before AND during taper
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 The problem isn't that people <strong>shouldn't</strong> come off meds
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -750,6 +698,8 @@ They're trying to do it without the right tools
 </v-click>
 
 <!--
+IMAGE: Tools, support, helping hands
+PURPOSE: Solution imagery
 "The problem isn't that people shouldn't come off meds. The problem is they're trying to do it without the right tools."
 -->
 
@@ -759,13 +709,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-3xl px-12">
 Alright, two more!
 </div>
-
-</v-click>
 
 <!--
 "Alright, two more!"
@@ -779,13 +725,9 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-white">
 
-<v-click>
-
 <div class="text-2xl px-12">
 QUESTION 4
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -810,18 +752,14 @@ TRUE or FALSE?
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 I see a lot of F's!
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -832,6 +770,8 @@ You're paying attention
 </v-click>
 
 <!--
+IMAGE: Attentive, engaged, learning
+PURPOSE: Positive reinforcement
 "I see a lot of F's! You're paying attention."
 -->
 
@@ -841,13 +781,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-4xl font-bold">
 The answer is
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -862,18 +798,14 @@ FALSE
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 But here's the thing...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -884,6 +816,8 @@ Random supplements don't work
 </v-click>
 
 <!--
+IMAGE: Supplements scattered randomly
+PURPOSE: Illustrate the problem
 "But here's the thing—random supplements don't work."
 -->
 
@@ -895,11 +829,11 @@ background: white
 
 # The Difference
 
-<v-clicks>
-
 <div class="text-2xl">
 ❌ Throwing 5-HTP at the problem
 </div>
+
+<v-clicks>
 
 <div class="text-2xl mt-6">
 ✅ <strong>Targeted</strong> amino acid therapy
@@ -912,58 +846,48 @@ Based on <strong>YOUR</strong> specific deficiencies
 </v-clicks>
 
 <!--
-IMAGE: Supplements, amino acids, natural medicine
-PURPOSE: Show natural approach
+IMAGE: Supplements, amino acids, natural medicine organized
+PURPOSE: Show natural approach done right
 "Throwing 5-HTP and magnesium at the problem without understanding YOUR specific neurotransmitter deficiencies is why most people fail..."
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1434494343833-76b479733705?w=1920
 class: text-center
-background: white
 ---
 
-<v-click>
-
-<div class="text-3xl px-12">
-Targeted amino acid therapy can restore neurotransmitter production in
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    Targeted amino acid therapy can restore neurotransmitter production in
+  </div>
+  <v-click>
+  <div class="text-white text-6xl font-bold mt-12" style="color: #10b981;">
+    MINUTES to HOURS
+  </div>
+  </v-click>
+  <v-click>
+  <div class="text-white text-2xl mt-8 opacity-90">
+    Not months. Not years. Minutes.
+  </div>
+  </v-click>
 </div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-6xl font-bold mt-12" style="color: var(--brand-accent);">
-MINUTES to HOURS
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-2xl mt-8 opacity-70">
-Not months. Not years. Minutes.
-</div>
-
-</v-click>
 
 <!--
+IMAGE: Fast action, speed, breakthrough moment
+PURPOSE: Dramatic impact of speed
 "Targeted amino acid therapy, on the other hand, can restore neurotransmitter production in MINUTES to HOURS. Not months. Not years. Minutes."
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 I'll show you exactly how in a few minutes
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -974,6 +898,8 @@ Last question!
 </v-click>
 
 <!--
+IMAGE: Anticipation, pointing forward, next step
+PURPOSE: Building to final question
 "I'll show you exactly how in a few minutes. Last question!"
 -->
 
@@ -985,13 +911,9 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-white">
 
-<v-click>
-
 <div class="text-2xl px-12">
 QUESTION 5
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1016,18 +938,14 @@ TRUE or FALSE?
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 Lots of F's...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1038,6 +956,8 @@ I hope so, because...
 </v-click>
 
 <!--
+IMAGE: Hope, positive anticipation
+PURPOSE: Building to hopeful answer
 "Okay, lots of F's... I hope so, because..."
 -->
 
@@ -1047,13 +967,9 @@ class: text-center
 background: white
 ---
 
-<v-click>
-
 <div class="text-4xl font-bold">
 The answer is
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1074,11 +990,9 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <v-click>
   <div class="text-white text-4xl font-bold px-12">
     Your brain has an incredible capacity to heal
   </div>
-  </v-click>
   <v-click>
   <div class="text-white text-2xl mt-6">
     When given the right support
@@ -1087,24 +1001,20 @@ class: text-center
 </div>
 
 <!--
-IMAGE: Hope, healing, breakthrough, sunrise
+IMAGE: Hope, healing, breakthrough, sunrise, new beginning
 PURPOSE: Emotional turning point - from despair to hope
 "Your brain has an incredible capacity to heal when given the right support."
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 I've worked with clients on medications for
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1123,22 +1033,20 @@ And watched their brains restore natural production
 </v-click>
 
 <!--
+IMAGE: Success, achievement, transformation
+PURPOSE: Real results proof
 "I've worked with clients who've been on medications for 5, 10, even 16+ years, and watched their brains restore natural neurotransmitter production."
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=1920
 background: white
 ---
-
-<v-click>
 
 <div class="text-3xl px-12">
 It's not about how <strong>long</strong> you've been on meds
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1149,6 +1057,8 @@ It's about addressing the ROOT CAUSE
 </v-click>
 
 <!--
+IMAGE: Root system, foundation, deep healing
+PURPOSE: Root cause metaphor
 "It's not about how long you've been on meds. It's about whether you're addressing the ROOT CAUSE of why you needed them in the first place."
 -->
 
@@ -1160,13 +1070,9 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-white">
 
-<v-click>
-
 <div class="text-4xl font-bold px-12">
 And that's exactly what we're going to talk about today
 </div>
-
-</v-click>
 
 </div>
 
