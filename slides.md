@@ -3277,8 +3277,8 @@ Getting off medication is one thing. Staying off is another.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1606166325683-329d3a1ab6e8?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -3555,8 +3555,8 @@ Let me give you a real example.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -3607,8 +3607,8 @@ She tried to taper twice before. Failed both times.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-left
+image: https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=1920
 background: white
 ---
 
@@ -3789,8 +3789,8 @@ Six months later, she's still medication-free, still stable, still thriving.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -4164,7 +4164,8 @@ Quick Assessment: Which neurotransmitter are YOU deficient in?
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?w=1920
 background: white
 ---
 
@@ -4229,7 +4230,8 @@ If you're nodding along to most of those, you're likely low in serotonin.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=1920
 background: white
 ---
 
@@ -4294,7 +4296,8 @@ If these sound like you, you're likely low in dopamine.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920
 background: white
 ---
 
@@ -4825,3 +4828,4 @@ The Medication Freedom Program
 <!--
 Let me introduce you to The Medication Freedom Program.
 -->
+
