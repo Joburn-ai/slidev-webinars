@@ -1108,10 +1108,12 @@ So if you got a few of those wrong, don't worry—you're not alone.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1532012197267-da84d127e765?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Most of what we've been told about depression, anxiety, and psychiatric medications is
@@ -1125,27 +1127,28 @@ Outdated or flat-out wrong
 
 </v-click>
 
+</div>
+
 <!--
 Most of what we've been told about depression, anxiety, and psychiatric medications is outdated or just flat-out wrong.
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920
 class: text-center
-background: white
 ---
 
-<div class="text-3xl px-12">
-Over the next hour, I'm going to show you what's <strong>actually TRUE</strong>
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    Over the next hour, I'm going to show you what's <strong>actually TRUE</strong>
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-12" style="color: #10b981;">
+    And more importantly, what you can DO about it
+  </div>
+  </v-click>
 </div>
-
-<v-click>
-
-<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
-And more importantly, what you can DO about it
-</div>
-
-</v-click>
 
 <!--
 And over the next hour, I'm going to show you what's actually TRUE—and more importantly, what you can DO about it.
@@ -1222,32 +1225,33 @@ But here's what really qualifies me to teach this:
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1445633629932-0029acc44e88?w=1920
 class: text-center
-background: white
 ---
 
-<div class="text-3xl px-12">
-Seven years ago, someone I love
+<div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    Seven years ago, someone I love
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-12" style="color: #ef4444;">
+    Was trapped in a living hell
+  </div>
+  </v-click>
 </div>
-
-<v-click>
-
-<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
-Was trapped in a living hell
-</div>
-
-</v-click>
 
 <!--
 Seven years ago, someone I love was trapped in a living hell.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 They'd been on psychiatric medications for
@@ -1260,6 +1264,8 @@ They'd been on psychiatric medications for
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 They'd been on psychiatric medications for 16 years.
@@ -1288,10 +1294,12 @@ Not just antidepressants—opiates, benzodiazepines, you name it.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1541199249251-f713e6145474?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Every time they tried to come off
@@ -1312,6 +1320,8 @@ They'd end up right back on, sometimes at even higher doses
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 Every time they tried to come off, the withdrawal was so unbearable they'd end up right back on, sometimes at even higher doses.
@@ -1370,13 +1380,15 @@ And their doctors kept saying the same thing: 'You're just one of those people w
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1526628953301-c8dd3f2b6d8f?w=1920
 class: text-center
-background: white
 ---
 
-<div class="text-4xl font-bold px-12">
-But I refused to accept that
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-4xl font-bold px-12">
+    But I refused to accept that
+  </div>
 </div>
 
 <!--
@@ -1384,10 +1396,12 @@ But I refused to accept that.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 I'd spent years studying clinical nutrition and brain chemistry
@@ -1400,6 +1414,8 @@ I knew there <strong>HAD</strong> to be a way
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 I'd spent years studying clinical nutrition and brain chemistry. I knew there HAD to be a way to support the brain naturally—to rebuild the neurotransmitter production that medications had suppressed.
@@ -1450,30 +1466,26 @@ And here's what happened:
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1513151233558-d860c5398176?w=1920
 class: text-center
-background: white
 ---
 
-<div class="text-3xl px-12">
-My family member—who everyone said would never get off fentanyl—
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    My family member—who everyone said would never get off fentanyl—
+  </div>
+  <v-click>
+  <div class="text-white text-3xl mt-8 px-12">
+    Described their withdrawal as a
+  </div>
+  </v-click>
+  <v-click>
+  <div class="text-white text-6xl font-bold mt-12" style="color: #10b981;">
+    "CAKEWALK"
+  </div>
+  </v-click>
 </div>
-
-<v-click>
-
-<div class="text-3xl mt-8 px-12">
-Described their withdrawal as a
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-6xl font-bold mt-12" style="color: var(--brand-accent);">
-"CAKEWALK"
-</div>
-
-</v-click>
 
 <!--
 My family member—who everyone said would never get off fentanyl—described their withdrawal as a 'cakewalk.'
@@ -1510,10 +1522,12 @@ Not months of suffering. Not years of withdrawal. A cakewalk.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Because we didn't just taper the medication and hope for the best
@@ -1526,6 +1540,8 @@ We rebuilt their brain's natural chemistry FIRST
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 Because we didn't just taper the medication and hope for the best. We rebuilt their brain's natural chemistry FIRST.
@@ -1562,10 +1578,12 @@ And here's what I realized: This isn't a one-off miracle. This is a replicable s
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Since then, I've helped dozens of people safely transition off psychiatric medications
@@ -1578,6 +1596,8 @@ Using the exact same approach
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 Since then, I've helped dozens of people safely transition off psychiatric medications using the exact same approach.
@@ -1614,48 +1634,43 @@ People who thought they were 'broken.' People who'd been told they'd need meds f
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1920
 class: text-center
-background: white
 ---
 
-<div class="text-3xl px-12">
-And they're now living
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    And they're now living
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-8" style="color: #10b981;">
+    Medication-free
+  </div>
+  </v-click>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-6" style="color: #10b981;">
+    Emotionally alive
+  </div>
+  </v-click>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-6" style="color: #10b981;">
+    Biochemically stable
+  </div>
+  </v-click>
 </div>
-
-<v-click>
-
-<div class="text-4xl font-bold mt-8" style="color: var(--brand-accent);">
-Medication-free
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-4xl font-bold mt-6" style="color: var(--brand-accent);">
-Emotionally alive
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-4xl font-bold mt-6" style="color: var(--brand-accent);">
-Biochemically stable
-</div>
-
-</v-click>
 
 <!--
 And they're now living medication-free, emotionally alive, and biochemically stable.
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Client on antidepressants for <strong>8 years</strong>
@@ -1685,6 +1700,8 @@ Within 6 months: Completely medication-free
 
 </v-click>
 
+</div>
+
 <!--
 Like [Client Name], who was on antidepressants for 8 years. She was emotionally numb, gained 30 pounds, had zero sex drive, and felt like a shadow of herself. Within 6 weeks of starting amino acid therapy, her mood stabilized. Within 6 months, she was completely medication-free.
 -->
@@ -1704,10 +1721,12 @@ And now she describes herself as 'more alive than I've been in a decade.'
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=1920
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Another client tried to taper <strong>three times</strong>
@@ -1736,6 +1755,8 @@ Smooth transition
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 Or [Client Name], who'd tried to taper three times and failed every time. The withdrawal symptoms were so severe she'd end up right back on her full dose within weeks. But with biochemical support, she transitioned smoothly—no brain zaps, no panic attacks, no relapse.
@@ -1852,22 +1873,21 @@ And at the end, I'm going to share an opportunity for a small group of people to
 -->
 
 ---
-layout: center
+layout: cover
+background: https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1920
 class: text-center
-background: white
 ---
 
-<div class="text-3xl px-12">
-But before we get there
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    But before we get there
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-12" style="color: #3b82f6;">
+    Let me show you what's actually going on in your brain right now
+  </div>
+  </v-click>
 </div>
-
-<v-click>
-
-<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
-Let me show you what's actually going on in your brain right now
-</div>
-
-</v-click>
 
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
