@@ -1957,6 +1957,1581 @@ class: text-center
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
 
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
 
+<div class="text-white">
 
+<div class="text-5xl font-bold px-12">
+SECTION 1
+</div>
 
+<v-click>
+
+<div class="text-3xl mt-8">
+What's Actually Happening in Your Brain
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Alright, let's dive in. Section 1: What's actually happening in your brain.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+To understand why you're stuck
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+We need to talk about neurotransmitters
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+To understand why you're stuck on medications—or why you feel the way you do—we need to talk about neurotransmitters.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Neurotransmitters are chemical messengers
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+They control mood, energy, sleep, focus, appetite
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Neurotransmitters are chemical messengers in your brain. They control your mood, energy, sleep, focus, appetite—basically everything that makes you feel like YOU.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+The main players:
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+Serotonin, Dopamine, GABA
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The main players are serotonin, dopamine, and GABA.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Big 3 Neurotransmitters
+
+<v-clicks>
+
+<div class="text-2xl mt-4">
+🧠 <strong>Serotonin</strong> → Mood stability, sleep, emotional regulation
+</div>
+
+<div class="text-2xl mt-4">
+⚡ <strong>Dopamine</strong> → Motivation, pleasure, focus, drive
+</div>
+
+<div class="text-2xl mt-4">
+🛡️ <strong>GABA</strong> → Calm, relaxation, anxiety control
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Serotonin controls mood stability, sleep, and emotional regulation. Dopamine handles motivation, pleasure, focus, and drive. GABA is your calm-down neurotransmitter—it controls relaxation and keeps anxiety in check.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+When these are balanced
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+You feel GOOD
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+When these three are balanced and working properly, you feel GOOD. You have energy, you're emotionally stable, you sleep well, you feel motivated.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1502139214982-d0ad755818d8?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    But when they're depleted
+  </div>
+  <v-click>
+  <div class="text-white text-5xl font-bold mt-12" style="color: #ef4444;">
+    That's when depression and anxiety show up
+  </div>
+  </v-click>
+</div>
+
+<!--
+But when they're depleted? That's when depression and anxiety show up.
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ⬇️ Low Serotonin
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+😔 Depression
+</div>
+
+<div class="text-xl mt-2">
+😰 Anxiety
+</div>
+
+<div class="text-xl mt-2">
+😡 Irritability
+</div>
+
+<div class="text-xl mt-2">
+😴 Poor sleep
+</div>
+
+</v-clicks>
+
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full">
+
+# ⬇️ Low Dopamine
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+😑 No motivation
+</div>
+
+<div class="text-xl mt-2">
+🥱 Fatigue
+</div>
+
+<div class="text-xl mt-2">
+🍩 Sugar cravings
+</div>
+
+<div class="text-xl mt-2">
+🧠 Brain fog
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Low serotonin? You get depression, anxiety, irritability, poor sleep. Low dopamine? No motivation, constant fatigue, sugar cravings, brain fog.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ⬇️ Low GABA
+
+<v-clicks>
+
+<div class="text-2xl mt-8">
+😨 Constant worry
+</div>
+
+<div class="text-2xl mt-6">
+💭 Racing thoughts
+</div>
+
+<div class="text-2xl mt-6">
+😰 Panic attacks
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Low GABA? Constant worry, racing thoughts, panic attacks.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Sound familiar?
+</div>
+
+</div>
+
+<!--
+Sound familiar?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Now here's where it gets interesting
+</div>
+
+</div>
+
+<!--
+Now here's where it gets interesting.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Your brain <strong>makes</strong> these neurotransmitters
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+From building blocks called amino acids
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your brain MAKES these neurotransmitters. It manufactures them from building blocks called amino acids.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Think of amino acids as
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+Raw materials
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Think of amino acids as raw materials. Your brain uses them to build neurotransmitters, just like a factory uses raw materials to make products.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Building Blocks
+
+<v-clicks>
+
+<div class="text-2xl mt-6">
+<strong>Tryptophan</strong> → Serotonin
+</div>
+
+<div class="text-2xl mt-4">
+<strong>Tyrosine</strong> → Dopamine
+</div>
+
+<div class="text-2xl mt-4">
+<strong>Glutamine</strong> → GABA
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Tryptophan gets converted into serotonin. Tyrosine gets converted into dopamine. Glutamine gets converted into GABA.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+So if your brain has enough amino acids
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+It can make plenty of neurotransmitters
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+So if your brain has enough amino acids, it can make plenty of neurotransmitters. You feel great.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+But if you're deficient in these amino acids
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 text-red-600">
+Production stops
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But if you're deficient in these amino acids? Production stops. You run out of neurotransmitters.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    And THAT'S when you start feeling
+  </div>
+  <v-click>
+  <div class="text-white text-5xl font-bold mt-12" style="color: #ef4444;">
+    Depressed, anxious, exhausted
+  </div>
+  </v-click>
+</div>
+
+<!--
+And THAT'S when you start feeling depressed, anxious, exhausted.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is the <strong>ROOT CAUSE</strong>
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Not a "chemical imbalance"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+A biochemical deficiency
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is the ROOT CAUSE. Not a mysterious "chemical imbalance." A biochemical deficiency—your brain doesn't have the raw materials it needs to make neurotransmitters.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Now, what do antidepressants do?
+</div>
+
+</div>
+
+<!--
+Now, what do antidepressants do?
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+They don't help you <strong>make more</strong> neurotransmitters
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12 px-12">
+They just recycle what little you have left
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They don't help you MAKE more neurotransmitters. They just recycle what little you have left.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+It's like trying to fill a bucket with a hole in it
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+By scooping the same water back in over and over
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's like trying to fill a bucket with a hole in it by scooping the same water back in over and over.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Eventually, you run out
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+And that's why the medication stops working
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Eventually, you run out. And that's why the medication stops working after a while.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+But here's the game-changer
+</div>
+
+</div>
+
+<!--
+But here's the game-changer:
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    When you give your brain the amino acids it needs
+  </div>
+  <v-click>
+  <div class="text-white text-5xl font-bold mt-12" style="color: #10b981;">
+    It starts making neurotransmitters again
+  </div>
+  </v-click>
+</div>
+
+<!--
+When you give your brain the amino acids it needs, it starts making neurotransmitters again. Naturally. On its own.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+And this happens in
+</div>
+
+<v-click>
+
+<div class="text-6xl font-bold mt-12" style="color: var(--brand-accent);">
+MINUTES
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And this happens in MINUTES. Not weeks. Not months. Minutes.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This brings us to the 3 biochemical breakthroughs
+</div>
+
+</div>
+
+<!--
+This brings us to the 3 biochemical breakthroughs I want to share with you today.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-6xl font-bold">
+BREAKTHROUGH #1
+</div>
+
+<v-click>
+
+<div class="text-4xl mt-12">
+Rapid Neurotransmitter Restoration
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Breakthrough number 1: Rapid Neurotransmitter Restoration.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Using targeted amino acids
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+We can restore neurotransmitter levels <strong>quickly</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Using targeted amino acids, we can restore neurotransmitter levels quickly and effectively.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Not by tricking your brain
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+By giving it what it needs to heal itself
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Not by tricking your brain into recycling what little neurotransmitters you have left. But by giving it the raw materials it needs to heal itself.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# How It Works
+
+<v-clicks>
+
+<div class="text-2xl mt-6">
+<strong>Step 1:</strong> Identify which neurotransmitters are deficient
+</div>
+
+<div class="text-2xl mt-4">
+<strong>Step 2:</strong> Provide the specific amino acid precursors
+</div>
+
+<div class="text-2xl mt-4">
+<strong>Step 3:</strong> Brain converts them into neurotransmitters
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Here's how it works: Step 1, identify which neurotransmitters are deficient. Step 2, provide the specific amino acid precursors your brain needs. Step 3, your brain converts them into neurotransmitters naturally.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+For example, if you're low in serotonin
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12 px-12">
+We give you <strong>5-HTP</strong> or <strong>Tryptophan</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+For example, if you're low in serotonin, we give you 5-HTP or tryptophan.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Your brain takes that amino acid
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+And converts it directly into serotonin
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+Within 30-90 minutes
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your brain takes that amino acid and converts it directly into serotonin. Within 30 to 90 minutes, you have more serotonin available.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1509909756405-be0199881695?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Same with dopamine
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Give the brain L-Tyrosine, it makes dopamine
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Same with dopamine. Give the brain L-Tyrosine, and boom—it makes dopamine.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Same with GABA
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Provide L-Glutamine or L-Theanine, GABA production increases
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Same with GABA. Provide L-Glutamine or L-Theanine, and GABA production increases.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is why my clients feel a shift
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+IMMEDIATELY
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is why my clients feel a shift IMMEDIATELY. Not in weeks. Not after some mysterious "adjustment period." Right away.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    One client described it as
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-8" style="color: #10b981;">
+    "Like someone turned the lights back on"
+  </div>
+  </v-click>
+</div>
+
+<!--
+One client described it as "like someone turned the lights back on."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Another said
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+"I felt calm for the first time in 10 years"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Another said, "I felt calm for the first time in 10 years."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is the power of working <strong>with</strong> your brain's chemistry
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Not against it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is the power of working WITH your brain's chemistry, not against it.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-6xl font-bold">
+BREAKTHROUGH #2
+</div>
+
+<v-click>
+
+<div class="text-4xl mt-12">
+Medication Taper Support
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Breakthrough number 2: Medication Taper Support.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Here's why most people fail when they try to come off meds
+</div>
+
+</div>
+
+<!--
+Here's why most people fail when they try to come off meds:
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+They're trying to taper while their brain is <strong>already depleted</strong>
+</div>
+
+</div>
+
+<!--
+They're trying to taper while their brain is already depleted.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+It's like trying to run a marathon
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 text-red-600">
+On an empty tank
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's like trying to run a marathon on an empty tank. Of course you crash.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+What we do instead is
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+Build up your neurotransmitters FIRST
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+What we do instead is build up your neurotransmitters FIRST.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+We restore your brain's natural production
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+<strong>Before</strong> we start reducing medication
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+We restore your brain's natural production BEFORE we even start reducing medication.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    So when you do start tapering
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-12" style="color: #10b981;">
+    Your brain has backup support
+  </div>
+  </v-click>
+</div>
+
+<!--
+So when you DO start tapering, your brain has backup support.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+It's not relying solely on the medication anymore
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+It's making its own neurotransmitters
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's not relying solely on the medication anymore. It's making its own neurotransmitters.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is why my clients describe their tapers as
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+"Surprisingly easy"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is why my clients describe their tapers as "surprisingly easy."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+No severe withdrawal
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+No relapse
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+No feeling like death for weeks
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+No severe withdrawal. No relapse. No feeling like death for weeks on end.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12" style="color: var(--brand-accent);">
+Just smooth, supported progress
+</div>
+
+</div>
+
+<!--
+Just smooth, supported progress.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-6xl font-bold">
+BREAKTHROUGH #3
+</div>
+
+<v-click>
+
+<div class="text-4xl mt-12">
+Long-Term Biochemical Stability
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Breakthrough number 3: Long-Term Biochemical Stability.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Getting off medication is one thing
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+Staying off is another
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Getting off medication is one thing. Staying off is another.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1606166325683-329d3a1ab6e8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Most people relapse because they never addressed
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+The underlying deficiency
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most people relapse because they never addressed the underlying deficiency.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+They get off the meds
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Feel okay for a few weeks or months
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 text-red-600">
+Then crash again
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They get off the meds, feel okay for a few weeks or months, then crash again.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Why?
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12 px-12">
+Because their brain is still deficient in the nutrients it needs
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Why? Because their brain is still deficient in the nutrients it needs to keep producing neurotransmitters.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+What we do is create
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+Long-term biochemical stability
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+What we do is create long-term biochemical stability.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The 3 Pillars of Stability
+
+<v-clicks>
+
+<div class="text-2xl mt-6">
+<strong>1. Amino Acid Support</strong> → Ongoing neurotransmitter production
+</div>
+
+<div class="text-2xl mt-4">
+<strong>2. Nutrient Cofactors</strong> → B vitamins, magnesium, zinc for conversion
+</div>
+
+<div class="text-2xl mt-4">
+<strong>3. Lifestyle Optimization</strong> → Sleep, stress, diet foundations
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+We focus on three pillars: Number one, amino acid support for ongoing neurotransmitter production. Number two, nutrient cofactors like B vitamins, magnesium, and zinc that help with conversion. Number three, lifestyle optimization—sleep, stress management, diet foundations.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This isn't about taking supplements forever
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12 px-12">
+It's about teaching your brain to sustain itself
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This isn't about taking supplements forever. It's about teaching your brain to sustain itself naturally.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1488998427799-e3362cec87c3?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    Most of my clients
+  </div>
+  <v-click>
+  <div class="text-white text-4xl font-bold mt-8" style="color: #10b981;">
+    Reduce amino acid dosages significantly within 6-12 months
+  </div>
+  </v-click>
+</div>
+
+<!--
+Most of my clients reduce their amino acid dosages significantly within 6 to 12 months as their brain learns to sustain production on its own.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Some stop taking them altogether
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Others stay on a low maintenance dose
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Some stop taking them altogether. Others stay on a low maintenance dose, which is totally fine.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Either way
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+They're medication-free and stable
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Either way, they're medication-free and biochemically stable.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+Now let me show you what this looks like in real life
+</div>
+
+</div>
+
+<!--
+Now let me show you what this looks like in real life.
+-->
