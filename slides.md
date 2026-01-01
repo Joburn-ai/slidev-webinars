@@ -290,6 +290,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 Depression and anxiety are <strong>SYMPTOMS</strong>
 </div>
@@ -301,6 +303,8 @@ Not diseases
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction.
@@ -818,6 +822,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 But here's the thing...
 </div>
@@ -829,6 +835,8 @@ Random supplements don't work
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 But here's the thing—random supplements don't work.
@@ -1164,8 +1172,6 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
-
 <div class="text-3xl px-12">
 But first, let me tell you who I am
 </div>
@@ -1177,8 +1183,6 @@ And why you should listen to me
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 But first, let me tell you who I am and why you should listen to me.
@@ -1618,8 +1622,8 @@ And here's what I realized: This isn't a one-off miracle. This is a replicable s
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -1959,3 +1963,4 @@ class: text-center
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
+
