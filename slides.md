@@ -262,7 +262,7 @@ The answer is... FALSE.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=1920
+image: https://images.unsplash.com/photo-1617791160505-6f00504e3619?w=1920
 background: white
 ---
 
@@ -303,7 +303,7 @@ Not diseases
 </v-click>
 
 <!--
-What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction—nutrient deficiencies, neurotransmitter depletion, inflammation, gut problems, hormone imbalances.
+What we now know is that depression and anxiety are SYMPTOMS of biochemical dysfunction.
 -->
 
 ---
@@ -1164,6 +1164,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 But first, let me tell you who I am
 </div>
@@ -1175,6 +1177,8 @@ And why you should listen to me
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 But first, let me tell you who I am and why you should listen to me.
@@ -1220,8 +1224,12 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 But here's what <strong>really</strong> qualifies me to teach this
+</div>
+
 </div>
 
 <!--
@@ -1281,6 +1289,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-2xl px-12">
 Not just antidepressants
 </div>
@@ -1292,6 +1302,8 @@ Opiates, benzodiazepines, you name it
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 Not just antidepressants—opiates, benzodiazepines, you name it.
@@ -1337,6 +1349,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 They'd been through psychiatric wards
 </div>
@@ -1357,6 +1371,8 @@ Nothing worked
 
 </v-click>
 
+</div>
+
 <!--
 They'd been through psychiatric wards. They'd tried every medication combination imaginable. Nothing worked.
 -->
@@ -1366,6 +1382,8 @@ layout: center
 class: text-center
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 And their doctors kept saying the same thing:
@@ -1378,6 +1396,8 @@ And their doctors kept saying the same thing:
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 And their doctors kept saying the same thing: 'You're just one of those people who'll need medication for life.'
@@ -1431,6 +1451,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 So I developed a protocol
 </div>
@@ -1451,6 +1473,8 @@ To restore brain chemistry BEFORE and DURING medication reduction
 
 </v-click>
 
+</div>
+
 <!--
 So I developed a protocol. A systematic approach using targeted amino acid therapy to restore brain chemistry BEFORE and DURING medication reduction.
 -->
@@ -1461,8 +1485,12 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 And here's what happened:
+</div>
+
 </div>
 
 <!--
@@ -1501,6 +1529,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-2xl px-12">
 Not months of suffering
 </div>
@@ -1520,6 +1550,8 @@ A cakewalk
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 Not months of suffering. Not years of withdrawal. A cakewalk.
@@ -1557,6 +1589,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 And here's what I realized:
 </div>
@@ -1576,6 +1610,8 @@ This is a replicable system
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 And here's what I realized: This isn't a one-off miracle. This is a replicable system.
@@ -1613,6 +1649,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-2xl px-12">
 People who thought they were "broken"
 </div>
@@ -1633,35 +1671,48 @@ People who'd tried to come off before and failed
 
 </v-click>
 
+</div>
+
 <!--
 People who thought they were 'broken.' People who'd been told they'd need meds forever. People who'd tried to come off before and failed.
 -->
 
 ---
-layout: cover
-background: https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1920
+layout: center
 class: text-center
+background: white
 ---
 
-<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-white text-3xl px-12">
-    And they're now living
-  </div>
-  <v-click>
-  <div class="text-white text-4xl font-bold mt-8" style="color: #10b981;">
-    Medication-free
-  </div>
-  </v-click>
-  <v-click>
-  <div class="text-white text-4xl font-bold mt-6" style="color: #10b981;">
-    Emotionally alive
-  </div>
-  </v-click>
-  <v-click>
-  <div class="text-white text-4xl font-bold mt-6" style="color: #10b981;">
-    Biochemically stable
-  </div>
-  </v-click>
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+And they're now living
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8" style="color: #10b981;">
+Medication-free
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-6" style="color: #10b981;">
+Emotionally alive
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-6" style="color: #10b981;">
+Biochemically stable
+</div>
+
+</v-click>
+
 </div>
 
 <!--
@@ -1716,8 +1767,12 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-4xl font-bold px-12">
 "More alive than I've been in a decade"
+</div>
+
 </div>
 
 <!--
@@ -1763,7 +1818,7 @@ Smooth transition
 </div>
 
 <!--
-Or [Client Name], who'd tried to taper three times and failed every time. The withdrawal symptoms were so severe she'd end up right back on her full dose within weeks. But with biochemical support, she transitioned smoothly—no brain zaps, no panic attacks, no relapse.
+Or [Client Name], who'd tried to taper three times and failed every time. The withdrawal symptoms were so severe she'd end up right back on her full dose within weeks. But with biochemical support, she transitioned smoothly.
 -->
 
 ---
@@ -1771,6 +1826,8 @@ layout: center
 class: text-center
 background: white
 ---
+
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-2xl px-12">
 No brain zaps
@@ -1800,8 +1857,10 @@ Just steady, confident progress
 
 </v-click>
 
+</div>
+
 <!--
-Just steady, confident progress.
+No brain zaps, no panic attacks, no relapse. Just steady, confident progress.
 -->
 
 ---
@@ -1860,6 +1919,8 @@ class: text-center
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 <div class="text-3xl px-12">
 And at the end, I'm going to share an opportunity
 </div>
@@ -1871,6 +1932,8 @@ For a small group of people to work with me directly
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 And at the end, I'm going to share an opportunity for a small group of people to work with me directly.
