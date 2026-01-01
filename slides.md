@@ -3004,8 +3004,8 @@ Here's why most people fail when they try to come off meds:
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -3535,3 +3535,4 @@ Now let me show you what this looks like in real life
 <!--
 Now let me show you what this looks like in real life.
 -->
+
