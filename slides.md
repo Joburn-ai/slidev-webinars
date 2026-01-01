@@ -4164,8 +4164,8 @@ Quick Assessment: Which neurotransmitter are YOU deficient in?
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -4230,8 +4230,8 @@ If you're nodding along to most of those, you're likely low in serotonin.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -4296,8 +4296,8 @@ If these sound like you, you're likely low in dopamine.
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920
+layout: center
+class: text-center
 background: white
 ---
 
@@ -4828,4 +4828,5 @@ The Medication Freedom Program
 <!--
 Let me introduce you to The Medication Freedom Program.
 -->
+
 
