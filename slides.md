@@ -3536,3 +3536,1292 @@ Now let me show you what this looks like in real life
 Now let me show you what this looks like in real life.
 -->
 
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Let me give you a real example
+</div>
+
+</div>
+
+<!--
+Let me give you a real example.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Sarah, 42 years old
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+On Lexapro for 6 years
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Meet Sarah. She's 42 years old, been on Lexapro for 6 years.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Tried to taper twice before
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 text-red-600">
+Failed both times
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+She tried to taper twice before. Failed both times.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Within 2 weeks of reducing her dose
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Severe anxiety, brain zaps, crying spells
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Within 2 weeks of reducing her dose, she'd get severe anxiety, brain zaps, crying spells.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+So she'd go right back to her full dose
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Defeated and discouraged
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+So she'd go right back to her full dose, feeling defeated and discouraged.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+When she came to me, here's what we did
+</div>
+
+</div>
+
+<!--
+When she came to me, here's what we did:
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Sarah's Protocol
+
+<v-clicks>
+
+<div class="text-2xl mt-6">
+<strong>Week 1-4:</strong> Amino acid therapy only (no taper yet)
+</div>
+
+<div class="text-2xl mt-4">
+<strong>Week 5-12:</strong> Slow medication taper with continued support
+</div>
+
+<div class="text-2xl mt-4">
+<strong>Week 13+:</strong> Medication-free, amino acid maintenance
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Week 1 through 4, we did amino acid therapy only. No taper yet. Just building up her serotonin naturally. Week 5 through 12, we started a slow medication taper while continuing the amino acid support. Week 13 and beyond, she was medication-free and on amino acid maintenance.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    The result?
+  </div>
+  <v-click>
+  <div class="text-white text-5xl font-bold mt-12" style="color: #10b981;">
+    Zero withdrawal symptoms
+  </div>
+  </v-click>
+</div>
+
+<!--
+The result? Zero withdrawal symptoms.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+She described the taper as
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+"Totally manageable"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+She described the taper as "totally manageable."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Six months later, she's still medication-free
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Still stable
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+Still thriving
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Six months later, she's still medication-free, still stable, still thriving.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Another example: Michael
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+10 years on multiple psychiatric medications
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Another example: Michael. He'd been on multiple psychiatric medications for 10 years.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Antidepressant, anti-anxiety med, sleep medication
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+His doctors told him he'd never get off them
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Antidepressant, anti-anxiety medication, sleep medication. His doctors told him he'd never get off them.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+He felt trapped
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Emotionally numb
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+Like he was just existing, not living
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+He felt trapped, emotionally numb, like he was just existing—not living.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+We ran a neurotransmitter assessment
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+All three were severely depleted
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+We ran a neurotransmitter assessment. Serotonin, dopamine, GABA—all three were severely depleted.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+We created a targeted protocol
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Addressing each deficiency specifically
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+We created a targeted protocol addressing each deficiency specifically.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Within 3 weeks
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+He felt like a different person
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Within 3 weeks, he felt like a different person.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Energy was back
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+Motivation returned
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+Anxiety levels dropped significantly
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Energy was back. Motivation returned. Anxiety levels dropped significantly.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+We started his medication taper at week 6
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Slow and steady
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+We started his medication taper at week 6. Slow and steady.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    Eight months later
+  </div>
+  <v-click>
+  <div class="text-white text-5xl font-bold mt-12" style="color: #10b981;">
+    Completely medication-free
+  </div>
+  </v-click>
+</div>
+
+<!--
+Eight months later, he was completely medication-free.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+His wife said
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+"I got my husband back"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+His wife said, "I got my husband back."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+These aren't isolated stories
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+This is the protocol
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+These aren't isolated stories. This is what happens when you follow the protocol.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Now, you might be wondering
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+"How do I know which neurotransmitters I'm deficient in?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now, you might be wondering, "How do I know which neurotransmitters I'm deficient in?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Great question
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Let me show you
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Great question. Let me show you.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-5xl font-bold px-12">
+QUICK ASSESSMENT
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8">
+Which Neurotransmitter Are YOU Deficient In?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Quick Assessment: Which neurotransmitter are YOU deficient in?
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Low Serotonin Signs
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+😔 Depression or sadness
+</div>
+
+<div class="text-xl mt-2">
+😰 Anxiety or worry
+</div>
+
+<div class="text-xl mt-2">
+😴 Trouble sleeping
+</div>
+
+<div class="text-xl mt-2">
+😡 Irritability
+</div>
+
+<div class="text-xl mt-2">
+🍰 Carb cravings (especially at night)
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Low serotonin signs: depression or sadness, anxiety or worry, trouble sleeping, irritability, carb cravings especially at night.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If you're nodding along to most of those
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+You're likely low in serotonin
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If you're nodding along to most of those, you're likely low in serotonin.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Low Dopamine Signs
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+🥱 Low motivation or drive
+</div>
+
+<div class="text-xl mt-2">
+😑 Lack of pleasure or joy
+</div>
+
+<div class="text-xl mt-2">
+💤 Constant fatigue
+</div>
+
+<div class="text-xl mt-2">
+🧠 Difficulty focusing
+</div>
+
+<div class="text-xl mt-2">
+🍭 Sugar or caffeine dependence
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Low dopamine signs: low motivation or drive, lack of pleasure or joy, constant fatigue, difficulty focusing, sugar or caffeine dependence.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If these sound like you
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+You're likely low in dopamine
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If these sound like you, you're likely low in dopamine.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Low GABA Signs
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+😨 Constant anxiety or tension
+</div>
+
+<div class="text-xl mt-2">
+💭 Racing thoughts
+</div>
+
+<div class="text-xl mt-2">
+😰 Panic attacks
+</div>
+
+<div class="text-xl mt-2">
+😬 Muscle tension
+</div>
+
+<div class="text-xl mt-2">
+😖 Easily overwhelmed
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Low GABA signs: constant anxiety or tension, racing thoughts, panic attacks, muscle tension, easily overwhelmed.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If these resonate
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+You're likely low in GABA
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If these resonate, you're likely low in GABA.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Most people are deficient in
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+More than one
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most people are deficient in more than one.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+And that's okay
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Because once you know what's depleted
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+You know exactly what to restore
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And that's okay. Because once you know what's depleted, you know exactly what to restore.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is what I do with every client
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+Identify deficiencies, create targeted protocol
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is what I do with every single client. We identify the specific deficiencies, then create a targeted protocol.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+No guessing
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+No random supplementation
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+Precision restoration
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+No guessing. No random supplementation. Precision restoration.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Now, here's what I want you to understand
+</div>
+
+</div>
+
+<!--
+Now, here's what I want you to understand:
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Everything I've shared with you today is
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+DOABLE
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Everything I've shared with you today is doable.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+It's not some far-off dream
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+This is a proven, systematic approach
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's not some far-off dream. This is a proven, systematic approach.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
+    And you don't have to figure it out alone
+  </div>
+</div>
+
+<!--
+And you don't have to figure it out alone.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Which brings me to why I'm here today
+</div>
+
+</div>
+
+<!--
+Which brings me to why I'm here today.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+I want to invite you to work with me directly
+</div>
+
+</div>
+
+<!--
+I want to invite you to work with me directly.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+To help you get off psychiatric medications safely
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Restore your brain's natural chemistry
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12">
+And finally feel like yourself again
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+To help you get off psychiatric medications safely, restore your brain's natural chemistry, and finally feel like yourself again.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+But before I tell you about the program
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+I need to be completely honest with you
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But before I tell you about the program, I need to be completely honest with you about something.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This isn't for everyone
+</div>
+
+</div>
+
+<!--
+This isn't for everyone.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# This ISN'T For You If:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+❌ You want a magic pill with zero effort
+</div>
+
+<div class="text-xl mt-3">
+❌ You're not willing to make lifestyle changes
+</div>
+
+<div class="text-xl mt-3">
+❌ You expect instant results without doing the work
+</div>
+
+<div class="text-xl mt-3">
+❌ You're not ready to take responsibility for your health
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+This isn't for you if: you want a magic pill with zero effort. You're not willing to make any lifestyle changes. You expect instant results without doing the work. You're not ready to take responsibility for your own health.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If that's you, this program won't work for you
+</div>
+
+<v-click>
+
+<div class="text-2xl mt-8 opacity-70 px-12">
+And I'd rather be upfront about it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If that's you, this program won't work for you. And I'd rather be upfront about it.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# This IS For You If:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+✅ You're ready to take control of your mental health
+</div>
+
+<div class="text-xl mt-3">
+✅ You're willing to follow a proven protocol
+</div>
+
+<div class="text-xl mt-3">
+✅ You want expert guidance every step of the way
+</div>
+
+<div class="text-xl mt-3">
+✅ You're committed to getting off medication safely
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+This IS for you if: you're ready to take control of your mental health. You're willing to follow a proven protocol. You want expert guidance every step of the way. You're committed to getting off medications safely and sustainably.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If that sounds like you
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+Keep listening
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If that sounds like you, keep listening.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-5xl font-bold px-12">
+Let me introduce you to
+</div>
+
+<v-click>
+
+<div class="text-6xl font-bold mt-12" style="color: #10b981;">
+The Medication Freedom Program
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Let me introduce you to The Medication Freedom Program.
+-->
