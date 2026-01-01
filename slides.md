@@ -262,7 +262,7 @@ The answer is... FALSE.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1617791160505-6f00504e3619?w=1920
+image: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
 background: white
 ---
 
@@ -844,7 +844,7 @@ But here's the thing—random supplements don't work.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=1920
+image: https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=1920
 background: white
 ---
 
@@ -1241,21 +1241,36 @@ But here's what really qualifies me to teach this:
 -->
 
 ---
-layout: cover
-background: https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=1920
+layout: center
 class: text-center
+background: white
 ---
 
-<div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
-  <div class="text-white text-3xl px-12">
-    Seven years ago, someone I love
-  </div>
-  <v-click>
-  <div class="text-white text-4xl font-bold mt-12" style="color: #ef4444;">
-    Was trapped in a living hell
-  </div>
-  </v-click>
+<div class="text-3xl px-12">
+But here's what <strong>really</strong> qualifies me to teach this
 </div>
+
+<!--
+But here's what really qualifies me to teach this:
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="text-3xl px-12">
+Seven years ago, someone I love
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
+Was trapped in a living hell
+</div>
+
+</v-click>
 
 <!--
 Seven years ago, someone I love was trapped in a living hell.
@@ -1724,12 +1739,10 @@ And they're now living medication-free, emotionally alive, and biochemically sta
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1920
+layout: center
+class: text-center
 background: white
 ---
-
-<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Client on antidepressants for <strong>8 years</strong>
@@ -1759,8 +1772,6 @@ Within 6 months: Completely medication-free
 
 </v-click>
 
-</div>
-
 <!--
 Like [Client Name], who was on antidepressants for 8 years. She was emotionally numb, gained 30 pounds, had zero sex drive, and felt like a shadow of herself. Within 6 weeks of starting amino acid therapy, her mood stabilized. Within 6 months, she was completely medication-free.
 -->
@@ -1784,12 +1795,10 @@ And now she describes herself as 'more alive than I've been in a decade.'
 -->
 
 ---
-layout: image-right
-image: https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=1920
+layout: center
+class: text-center
 background: white
 ---
-
-<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Another client tried to taper <strong>three times</strong>
@@ -1818,8 +1827,6 @@ Smooth transition
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 Or [Client Name], who'd tried to taper three times and failed every time. The withdrawal symptoms were so severe she'd end up right back on her full dose within weeks. But with biochemical support, she transitioned smoothly.
@@ -1963,5 +1970,6 @@ class: text-center
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
+
 
 
