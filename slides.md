@@ -4829,10 +4829,6 @@ The Medication Freedom Program
 Let me introduce you to The Medication Freedom Program.
 -->
 
-# SECTION 4: THE OFFER
-## Brain Chemistry Reset - The Medication Freedom Pathway
-## (~100 slides)
-
 ---
 layout: center
 class: text-center
@@ -4963,6 +4959,12 @@ Don't guess. Don't waste time. Experience freedom.
 </div>
 
 </v-click>
+
+---
+layout: image
+image: https://images.unsplash.com/photo-1494883759339-0b042055a4ee?w=1920
+backgroundSize: contain
+---
 
 <!--
 You can take what you learned today and try to figure this out on your own. Buy some amino acids. Guess at the doses. Hope it works. Or... you can work with me directly to create YOUR personalized plan. So you don't have to guess. So you don't waste time. So you finally experience freedom.
@@ -5117,12 +5119,12 @@ So pay attention.
 -->
 
 ---
-layout: cover
-background: https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=1920
+layout: center
 class: text-center
+style: 'background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);'
 ---
 
-<div style="background: rgba(0,0,0,0.7); padding: 3rem; border-radius: 1rem;">
+<div style="padding: 3rem; border-radius: 1rem;">
   <div class="text-white text-5xl font-bold">
     I'm calling this:
   </div>
@@ -7359,6 +7361,8 @@ layout: two-cols
 background: white
 ---
 
+<div class="flex flex-col justify-center h-full">
+
 # Option 1: Full Support Path
 
 <div class="text-xl mt-6" style="color: var(--brand-accent);">
@@ -7381,7 +7385,11 @@ Maximum support.
 
 </v-clicks>
 
+</div>
+
 ::right::
+
+<div class="flex flex-col justify-center h-full">
 
 # Option 2: Core Path
 
@@ -7404,6 +7412,8 @@ Phases 1-3 only.
 </div>
 
 </v-clicks>
+
+</div>
 
 <!--
 So you have two options: Option 1 Full Support Path $1,497 - Everything, all phases, group coaching, maximum support. Option 2 Core Path $997 - Same strategy, less support, phases 1-3 only.
@@ -7490,7 +7500,8 @@ And if you want to make it even easier, both options have payment plans.
 -->
 
 ---
-layout: default
+layout: center
+class: text-center
 background: white
 ---
 
@@ -7500,15 +7511,15 @@ background: white
 
 <v-clicks>
 
-<div class="text-xl mt-4">
+<div class="text-xl mt-6">
 💳 Pay in full: <strong>$1,497</strong>
 </div>
 
-<div class="text-xl mt-3">
+<div class="text-xl mt-4">
 💳 OR 3-pay: <strong>$550 × 3 months</strong> = $1,650
 </div>
 
-<div class="text-xl mt-3">
+<div class="text-xl mt-4">
 💳 OR 6-pay: <strong>$297 × 6 months</strong> = $1,782
 </div>
 
@@ -7521,7 +7532,8 @@ FULL SUPPORT PATH $1,497: Pay in full $1,497, OR 3-pay $550 times 3 months equal
 -->
 
 ---
-layout: default
+layout: center
+class: text-center
 background: white
 ---
 
@@ -7531,11 +7543,11 @@ background: white
 
 <v-clicks>
 
-<div class="text-xl mt-4">
+<div class="text-xl mt-6">
 💳 Pay in full: <strong>$997</strong>
 </div>
 
-<div class="text-xl mt-3">
+<div class="text-xl mt-4">
 💳 OR 3-pay: <strong>$350 × 3 months</strong> = $1,050
 </div>
 
@@ -7761,7 +7773,8 @@ Click the link in the chat right now. [PASTE LINK IN CHAT]
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1920
 background: white
 ---
 
@@ -7872,7 +7885,8 @@ Remember...
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1501139083538-0139583c060f?w=1920
 background: white
 ---
 
@@ -7939,14 +7953,6 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 <div class="text-5xl font-bold px-12">
 TAKE ACTION NOW
 </div>
-
-<v-click>
-
-<div class="text-3xl mt-12">
-[Drop link again]
-</div>
-
-</v-click>
 
 </div>
 
@@ -8036,4 +8042,3 @@ class: text-center
 <!--
 [Stay on for 5-10 minutes to answer final questions in chat]
 -->
-
