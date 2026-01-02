@@ -7938,6 +7938,15 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-5xl font-bold px-12">
 TAKE ACTION NOW
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+[Drop link again]
+</div>
+
+</v-click>
 
 </div>
 
@@ -8027,3 +8036,4 @@ class: text-center
 <!--
 [Stay on for 5-10 minutes to answer final questions in chat]
 -->
+
