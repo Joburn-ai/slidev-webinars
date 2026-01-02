@@ -4829,10 +4829,6 @@ The Medication Freedom Program
 Let me introduce you to The Medication Freedom Program.
 -->
 
-# SECTION 4: THE OFFER
-## Brain Chemistry Reset - The Medication Freedom Pathway
-## (~100 slides)
-
 ---
 layout: center
 class: text-center
@@ -5117,12 +5113,12 @@ So pay attention.
 -->
 
 ---
-layout: cover
-background: https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=1920
+layout: center
 class: text-center
+style: 'background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);'
 ---
 
-<div style="background: rgba(0,0,0,0.7); padding: 3rem; border-radius: 1rem;">
+<div style="padding: 3rem; border-radius: 1rem;">
   <div class="text-white text-5xl font-bold">
     I'm calling this:
   </div>
@@ -8030,3 +8026,4 @@ class: text-center
 <!--
 [Stay on for 5-10 minutes to answer final questions in chat]
 -->
+
