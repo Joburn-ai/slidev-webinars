@@ -8027,3 +8027,974 @@ class: text-center
 [Stay on for 5-10 minutes to answer final questions in chat]
 -->
 
+# SECTION 5: Q&A AND FINAL CLOSE
+## Objection Handling + Final Push
+## (~36 slides)
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12">
+Now, I know some of you have questions
+</div>
+
+</div>
+
+<!--
+Now, I know some of you have questions.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Let me address the most common ones
+</div>
+
+</div>
+
+<!--
+Let me address the most common ones.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+OBJECTION #1
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+"I've tried supplements before"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Objection #1: "I've tried supplements before"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+I hear you
+</div>
+
+</div>
+
+<!--
+I hear you.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Here's The Difference:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+❌ <strong>Random supplements</strong> - Guessing what you need
+</div>
+
+<div class="text-xl mt-3">
+✅ <strong>Precision protocol</strong> - Based on YOUR deficiencies
+</div>
+
+<div class="text-xl mt-3">
+❌ <strong>Generic dosing</strong> - One-size-fits-all
+</div>
+
+<div class="text-xl mt-3">
+✅ <strong>Titrated support</strong> - Adjusted to YOUR response
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Here's the difference: Random supplements - you're guessing what you need. Precision protocol - based on YOUR deficiencies. Generic dosing - one-size-fits-all. Titrated support - adjusted to YOUR response.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This isn't about taking random things and hoping
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+This is clinical precision
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This isn't about taking random things and hoping. This is clinical precision.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+OBJECTION #2
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+"What if I can't get off meds?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Objection #2: "What if I can't get off meds?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Most people who say this
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+Haven't tried the right approach
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most people who say this haven't tried the right approach.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Reality:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+You've been trying to STOP medication
+</div>
+
+<div class="text-xl mt-3">
+Without REBUILDING what it suppressed
+</div>
+
+<div class="text-xl mt-3">
+That's why you crash every time
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+The reality: You've been trying to STOP medication without REBUILDING what it suppressed. That's why you crash every time.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+When you rebuild FIRST
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+Your brain doesn't need the medication anymore
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+When you rebuild FIRST, your brain doesn't need the medication anymore.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+OBJECTION #3
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+"Can I afford this?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Objection #3: "Can I afford this?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Let's do the math
+</div>
+
+</div>
+
+<!--
+Let's do the math.
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Staying Stuck:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+💊 Medication: $50-200/month
+</div>
+
+<div class="text-xl mt-3">
+👨‍⚕️ Doctor visits: $100-300/month
+</div>
+
+<div class="text-xl mt-3">
+🧠 Therapy: $200-400/month
+</div>
+
+<div class="text-xl mt-3">
+📊 <strong>Total: $350-900/month</strong>
+</div>
+
+<div class="text-xl mt-3">
+⏰ <strong>Forever</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full">
+
+# Getting Free:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+💳 Core Path: $350/month × 3
+</div>
+
+<div class="text-xl mt-3">
+💳 Full Support: $550/month × 3
+</div>
+
+<div class="text-xl mt-3">
+✅ <strong>Total: $1,050-1,650</strong>
+</div>
+
+<div class="text-xl mt-3">
+✅ <strong>One time</strong>
+</div>
+
+<div class="text-xl mt-3">
+✅ <strong>Then you're FREE</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Staying stuck: Medication $50-200/month, Doctor visits $100-300/month, Therapy $200-400/month, Total $350-900/month, Forever. Getting free: Core Path $350/month times 3, Full Support $550/month times 3, Total $1,050-1,650, One time, Then you're FREE.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+You're already spending the money
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+This just redirects it toward FREEDOM
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You're already spending the money. This just redirects it toward FREEDOM.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+OBJECTION #4
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+"What if my doctor disagrees?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Objection #4: "What if my doctor disagrees?"
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Important Clarification:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+This is <strong>nutritional support</strong>
+</div>
+
+<div class="text-xl mt-3">
+Not medical advice
+</div>
+
+<div class="text-xl mt-3">
+You work WITH your doctor
+</div>
+
+<div class="text-xl mt-3">
+To taper safely
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Important clarification: This is nutritional support, not medical advice. You work WITH your doctor to taper safely.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+We're not replacing medical care
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+We're COMPLEMENTING it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+We're not replacing medical care. We're COMPLEMENTING it.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Most doctors are supportive
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+When they see you stabilizing
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most doctors are supportive when they see you stabilizing.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+OBJECTION #5
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+"How long will this take?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Objection #5: "How long will this take?"
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Timeline:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+📅 <strong>Core program:</strong> 10 weeks
+</div>
+
+<div class="text-xl mt-3">
+🧠 <strong>Your brain:</strong> Individual timing
+</div>
+
+<div class="text-xl mt-3">
+💊 <strong>Taper timeline:</strong> Works with YOUR pace
+</div>
+
+<div class="text-xl mt-3">
+✅ <strong>Goal:</strong> Sustainable, not rushed
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Timeline: Core program 10 weeks. Your brain - individual timing. Taper timeline - works with YOUR pace. Goal - sustainable, not rushed.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Some people taper during the program
+</div>
+
+</div>
+
+<!--
+Some people taper during the program.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Others take a few months after
+</div>
+
+</div>
+
+<!--
+Others take a few months after.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12">
+It depends on YOUR brain
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12 px-12">
+And we support you through YOUR timeline
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It depends on YOUR brain. And we support you through YOUR timeline.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-4xl font-bold px-12">
+OBJECTION #6
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+"Which path should I choose?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Objection #6: "Which path should I choose?"
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Choose Full Support If:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+✓ You want maximum guidance
+</div>
+
+<div class="text-xl mt-3">
+✓ You value community support
+</div>
+
+<div class="text-xl mt-3">
+✓ You want all 4 phases
+</div>
+
+<div class="text-xl mt-3">
+✓ You need accountability
+</div>
+
+</v-clicks>
+
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full">
+
+# Choose Core If:
+
+<v-clicks>
+
+<div class="text-xl mt-4">
+✓ You're more self-directed
+</div>
+
+<div class="text-xl mt-3">
+✓ You prefer less intensive support
+</div>
+
+<div class="text-xl mt-3">
+✓ You're comfortable with phases 1-3
+</div>
+
+<div class="text-xl mt-3">
+✓ You want to save money
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Choose Full Support if: You want maximum guidance, you value community support, you want all 4 phases, you need accountability. Choose Core if: You're more self-directed, you prefer less intensive support, you're comfortable with phases 1-3, you want to save money.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Either way
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+You're getting a proven system
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Either way, you're getting a proven system.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12">
+Any other questions?
+</div>
+
+</div>
+
+<!--
+Any other questions?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Drop them in the chat
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-12">
+And I'll answer them right now
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Drop them in the chat and I'll answer them right now.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-5xl font-bold px-12">
+FINAL REMINDER
+</div>
+
+</div>
+
+<!--
+Final reminder.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This offer expires in
+</div>
+
+<v-click>
+
+<div class="text-7xl font-bold mt-12 text-red-600">
+48 HOURS
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This offer expires in 48 hours.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Only 15 spots available
+</div>
+
+</div>
+
+<!--
+Only 15 spots available.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This cohort won't reopen for 8-10 weeks
+</div>
+
+</div>
+
+<!--
+This cohort won't reopen for 8-10 weeks.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
+---
+
+<div class="text-white">
+
+<div class="text-6xl font-bold px-12">
+CLICK THE LINK
+</div>
+
+<v-click>
+
+<div class="text-4xl mt-12">
+Choose your path
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl mt-8">
+Get started TODAY
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Click the link. Choose your path. Get started TODAY.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+I'll see you on the inside
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-accent);">
+Let's get you FREE
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+I'll see you on the inside. Let's get you FREE.
+-->
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1920
+class: text-center
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 3rem; border-radius: 1rem;">
+  <div class="text-white text-5xl font-bold">
+    Thank You
+  </div>
+  <v-click>
+  <div class="text-white text-3xl mt-8">
+    Questions? Stay for Q&A
+  </div>
+  </v-click>
+</div>
+
+<!--
+Thank you. Questions? Stay for Q&A.
+-->
+
+---
+layout: end
+class: text-center
+---
+
+# Brain Chemistry Reset
+
+## The Medication Freedom Pathway
+
+<div class="text-xl mt-8 opacity-70">
+© 2026 Carla Valencia
+</div>
+
+<!--
+[End of presentation - stay available for live Q&A in chat]
+-->
