@@ -114,11 +114,11 @@ background: white
 <v-clicks>
 
 <div class="text-2xl px-12 mt-8">
-📝 <strong>Take notes</strong> - Years of learning packed into 90 minutes
+❓ <strong>Questions?</strong> Drop them in the Q&A box
 </div>
 
 <div class="text-2xl px-12 mt-6">
-❓ <strong>Questions?</strong> Drop them in the Q&A box
+📝 <strong>Take notes</strong> - Years of learning packed into 90 minutes
 </div>
 
 <div class="text-2xl px-12 mt-6">
@@ -8994,4 +8994,5 @@ class: text-center
 <!--
 [End of presentation - stay available for live Q&A in chat]
 -->
+
 
