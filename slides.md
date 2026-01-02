@@ -8027,10 +8027,6 @@ class: text-center
 [Stay on for 5-10 minutes to answer final questions in chat]
 -->
 
-# SECTION 5: Q&A AND FINAL CLOSE
-## Objection Handling + Final Push
-## (~36 slides)
-
 ---
 layout: center
 class: text-center
@@ -8998,3 +8994,4 @@ class: text-center
 <!--
 [End of presentation - stay available for live Q&A in chat]
 -->
+
