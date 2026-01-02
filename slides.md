@@ -4852,7 +4852,8 @@ Alright, here's where we are.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1552581234-26160f608093?w=1920
 background: white
 ---
 
@@ -5160,7 +5161,8 @@ This is my proven system where I work with you personally to...
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1920
 background: white
 ---
 
@@ -5243,7 +5245,8 @@ Component #1: 30-Minute Brain Chemistry Blueprint Session.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920
 background: white
 ---
 
@@ -5392,7 +5395,8 @@ Based on your blueprint, I create your exact protocol.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1920
 background: white
 ---
 
@@ -5449,7 +5453,8 @@ This isn't generic mood support. This is built specifically for MEDICATION REDUC
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1920
 background: white
 ---
 
@@ -5550,7 +5555,8 @@ We identify the biochemical pattern keeping you stuck on meds.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1920
 background: white
 ---
 
@@ -5797,7 +5803,8 @@ Phase 1: Stabilize Before Touching Meds.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1920
 background: white
 ---
 
@@ -5898,7 +5905,8 @@ We rebuild what medication suppressed.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=1920
 background: white
 ---
 
@@ -6007,7 +6015,8 @@ As medication lowers, support increases.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920
 background: white
 ---
 
@@ -6108,7 +6117,8 @@ This is where independence is built.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1920
 background: white
 ---
 
@@ -6279,7 +6289,8 @@ Used strategically to...
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1920
 background: white
 ---
 
@@ -6562,7 +6573,8 @@ Live weekly group calls to...
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920
 background: white
 ---
 
@@ -7075,7 +7087,8 @@ $1,497 for everything I just described.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=1920
 background: white
 ---
 
@@ -7254,7 +7267,8 @@ But less intensive support...
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
 background: white
 ---
 
@@ -7588,7 +7602,8 @@ Alright, here's where we are.
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1920
 background: white
 ---
 
@@ -7923,15 +7938,6 @@ background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 
 <div class="text-5xl font-bold px-12">
 TAKE ACTION NOW
-</div>
-
-<v-click>
-
-<div class="text-3xl mt-12">
-[Drop link again]
-</div>
-
-</v-click>
 
 </div>
 
