@@ -1051,7 +1051,7 @@ You want your teen scoring <strong>4s and 5s</strong> on all AP exams
 </div>
 
 <!--
-Look, I know why you're here tonight. You want your teen scoring 4s and 5s on all AP exams while experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
+Look, I know why you're here tonight. You want your teen scoring 4s and 5s on all AP exams.
 -->
 
 ---
@@ -1085,12 +1085,12 @@ And acceptance to their <strong>dream school</strong>
 </div>
 
 <!--
-while experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
+While experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
 -->
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224311-beee2ece89ed?w=1920
+image: https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1920
 background: white
 ---
 
@@ -1147,7 +1147,7 @@ But not knowing what alternative exists
 </div>
 
 <!--
-all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
+All while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
 -->
 
 ---
@@ -1181,7 +1181,7 @@ The right <strong>resources</strong>
 </div>
 
 <!--
-You're desperately trying to find the right tutors, prep courses, and resources to guarantee your teen's AP success so they can get into their dream college faster while saving maximum tuition costs through earned credits.
+You're desperately trying to find the right tutors, prep courses, and resources.
 -->
 
 ---
@@ -1215,7 +1215,7 @@ While saving maximum tuition costs through earned credits
 </div>
 
 <!--
-so they can get into their dream college faster while saving maximum tuition costs through earned credits.
+To guarantee your teen's AP success so they can get into their dream college faster while saving maximum tuition costs through earned credits.
 -->
 
 ---
@@ -1272,7 +1272,7 @@ But here's what's really happening.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224311-beee2ece89ed?w=1920
+image: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
 background: white
 ---
 
@@ -1321,7 +1321,7 @@ All while your overwhelmed student juggles sports, activities, and mounting pres
 </div>
 
 <!--
-seeing classmates get A's but score 2s and 3s, throwing money at tutors and prep materials without knowing if it's the right approach, all while their overwhelmed student juggles sports, activities, and mounting pressure with exams approaching fast.
+Seeing classmates get A's but score 2s and 3s, throwing money at tutors and prep materials without knowing if it's the right approach.
 -->
 
 ---
@@ -1389,12 +1389,12 @@ You keep running into the same <strong>brutal reality</strong>
 </div>
 
 <!--
-But instead, you keep running into the same brutal reality...
+But instead, you keep running into the same brutal reality.
 -->
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224311-beee2ece89ed?w=1920
+image: https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=1920
 background: white
 ---
 
@@ -1417,7 +1417,7 @@ Only to get devastating 2s and 3s that waste a year of effort and thousands in f
 </div>
 
 <!--
-watching their straight-A student walk out of AP exams in tears, only to get devastating 2s and 3s that waste a year of effort and thousands in future tuition.
+Watching their straight-A student walk out of AP exams in tears, only to get devastating 2s and 3s that waste a year of effort and thousands in future tuition.
 -->
 
 ---
@@ -1451,7 +1451,7 @@ As their stressed teen <span class="text-accent">burns out</span> from activitie
 </div>
 
 <!--
-And the normal pattern? Talented students getting A's in class but consistently scoring 2s and 3s on exams while overwhelmed families throw money at every solution as their stressed teen burns out from activities, sports, and academic pressure.
+And the normal pattern? Talented students getting A's in class but consistently scoring 2s and 3s on exams while overwhelmed families throw money at every solution.
 -->
 
 ---
@@ -1477,7 +1477,7 @@ A proven system with insider scoring secrets
 </div>
 
 <!--
-What you really want is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s.
+What you really want is a proven system with insider scoring secrets.
 -->
 
 ---
@@ -1511,7 +1511,7 @@ While maintaining their packed schedule and giving the whole family <strong>peac
 </div>
 
 <!--
-allowing their busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule, giving the whole family peace of mind and saving tens of thousands in tuition.
+That bridges the gap between classroom A's and exam 5s, allowing their busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule.
 -->
 
 ---
@@ -1588,12 +1588,12 @@ And the whole family sacrificing mental health and relationships in pursuit of s
 </div>
 
 <!--
-families spending more money on ineffective tutoring that reinforces wrong approaches, teens losing confidence as they watch others who study less score better, and the whole family sacrificing mental health and relationships in pursuit of scores that never improve because the strategy is fundamentally wrong.
+Families spending more money on ineffective tutoring that reinforces wrong approaches, teens losing confidence as they watch others who study less score better.
 -->
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=1920
+image: https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=1920
 background: white
 ---
 
@@ -1616,7 +1616,7 @@ A brilliant, hardworking student whose dreams <strong>crumble in senior year</st
 </div>
 
 <!--
-The thing you fear most? Their teen becoming another heartbreaking statistic - a brilliant, hardworking student whose dreams crumble in senior year when low AP scores destroy college plans.
+The thing you fear most? Their teen becoming another heartbreaking statistic - a brilliant, hardworking student whose dreams crumble in senior year.
 -->
 
 ---
@@ -1650,7 +1650,7 @@ While wondering if you failed by not knowing how to navigate a system other fami
 </div>
 
 <!--
-forcing parents to tell their accomplished child that despite all their sacrifices it wasn't enough, while wondering if they failed by not knowing how to navigate a system other families somehow figured out.
+When low AP scores destroy college plans, forcing parents to tell their accomplished child that despite all their sacrifices it wasn't enough.
 -->
 
 ---
@@ -1676,7 +1676,7 @@ The invisible scoring gap that even certified teachers don't understand
 </div>
 
 <!--
-And the biggest obstacle of all? The invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused.
+And the biggest obstacle of all? The invisible scoring gap that even certified teachers don't understand.
 -->
 
 ---
@@ -1710,7 +1710,7 @@ All while realizing that traditional 'work harder' approaches actually make thin
 </div>
 
 <!--
-all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
+Combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused.
 -->
 
 ---
@@ -1736,7 +1736,7 @@ That moment your teen walks out of AP exams with <span class="text-accent">genui
 </div>
 
 <!--
-What you keep missing - that moment their teen walks out of AP exams with genuine confidence, knowing they nailed every section and will get the 5s they need.
+What you keep missing - that moment their teen walks out of AP exams with genuine confidence.
 -->
 
 ---
@@ -1770,7 +1770,7 @@ While giving the whole family the peace of mind that comes from knowing you gave
 </div>
 
 <!--
-becoming the success story other parents admire while giving the whole family the peace of mind that comes from knowing they gave their child every advantage and watched them rise to meet their potential.
+Knowing they nailed every section and will get the 5s they need, becoming the success story other parents admire.
 -->
 
 ---
@@ -1830,7 +1830,7 @@ You have the unfair advantage of knowing exactly what AP graders want
 </div>
 
 <!--
-But here's what most parents don't realize... once you understand the hidden scoring gap, you have the unfair advantage of knowing exactly what AP graders want while other families waste time on irrelevant classroom skills.
+But here's what most parents don't realize... once you understand the hidden scoring gap, you have the unfair advantage of knowing exactly what AP graders want.
 -->
 
 ---
@@ -1858,7 +1858,7 @@ And your teen's packed schedule actually becomes an <strong>asset</strong> when 
 </div>
 
 <!--
-while other families waste time on irrelevant classroom skills. And your teen's packed schedule actually becomes an asset when you have the right system.
+While other families waste time on irrelevant classroom skills. And your teen's packed schedule actually becomes an asset when you have the right system.
 -->
 
 ---
@@ -1884,7 +1884,7 @@ That average students never develop
 </div>
 
 <!--
-they learn efficiency and time management that average students never develop.
+They learn efficiency and time management that average students never develop.
 -->
 
 ---
@@ -1910,7 +1910,7 @@ Imagine your teen systematically scoring <strong>5s</strong> on every AP exam
 </div>
 
 <!--
-Instead of fighting this uphill battle, imagine your teen systematically scoring 5s on every AP exam while maintaining their activities and sanity.
+Instead of fighting this uphill battle, imagine your teen systematically scoring 5s on every AP exam.
 -->
 
 ---
@@ -1944,12 +1944,12 @@ Before this webinar ends
 </div>
 
 <!--
-That's exactly what we're going to show you how to make happen before this webinar ends.
+While maintaining their activities and sanity. That's exactly what we're going to show you how to make happen before this webinar ends.
 -->
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
+image: https://images.unsplash.com/photo-1588072432836-e10032774350?w=1920
 background: white
 ---
 
@@ -2058,7 +2058,7 @@ Still struggle with actual AP exam performance
 </div>
 
 <!--
-only to watch your straight-A student still struggle with actual AP exam performance.
+Only to watch your straight-A student still struggle with actual AP exam performance.
 -->
 
 ---
@@ -2147,7 +2147,7 @@ And because of all the <span class="text-accent">conflicting advice</span> from 
 </div>
 
 <!--
-And I get it. Because of the invisible gap between classroom grades and AP exam scoring, and because of all the conflicting advice from tutors who don't understand the real scoring systems, it's now even more complicated to know what will actually work.
+And I get it. Because of the invisible gap between classroom grades and AP exam scoring, and because of all the conflicting advice from tutors who don't understand the real scoring systems.
 -->
 
 ---
@@ -2173,7 +2173,7 @@ How do you turn that classroom success into the 4s and 5s they need for college 
 </div>
 
 <!--
-Even if your teen is getting A's in their AP classes, how do you turn that classroom success into the 4s and 5s they need for college credit?
+It's now even more complicated to know what will actually work. Even if your teen is getting A's in their AP classes, how do you turn that classroom success into the 4s and 5s they need for college credit?
 -->
 
 ---
@@ -2267,7 +2267,7 @@ Knowing they'll score the <span class="text-accent">5s</span> that save your fam
 </div>
 
 <!--
-to watch your teen confidently walk into those AP exams knowing they'll score the 5s that save your family tens of thousands in tuition.
+To watch your teen confidently walk into those AP exams knowing they'll score the 5s that save your family tens of thousands in tuition.
 -->
 
 ---
