@@ -2288,5 +2288,2527 @@ How does that sound?
 How does that sound?
 -->
 
+---
+layout: center
+class: text-center
+background: white
+---
 
+<div class="flex flex-col justify-center h-full">
 
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Here are the questions that should be on your mind
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+How easy is it to turn classroom A's into exam 5s and get those <strong>massive college savings</strong>?
+</div>
+
+<div class="text-xl px-12 mb-4">
+What's the best way to prepare for AP exams with the <span class="text-accent">least stress</span> and overwhelm?
+</div>
+
+<div class="text-xl px-12 mb-4">
+What should you realistically expect if you use the AP Prep Method with <strong>insider College Board knowledge</strong>?
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+How easy is it to turn classroom A's into exam 5s and get those massive college savings? What's the best way to prepare for AP exams with the least stress and overwhelm? What should you realistically expect if you use the AP Prep Method with insider College Board knowledge?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+How quickly can you go from <strong>worried parent</strong> to confident knowing your teen will dominate these exams?
+</div>
+
+<div class="text-xl px-12 mb-4">
+How much effort does it take to finally bridge that gap between good grades and <span class="text-accent">actual AP success</span>?
+</div>
+
+</v-clicks>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 font-bold" style="color: var(--brand-primary);">
+I've got the answers—in fact, better answers than you'll find anywhere else
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+How quickly can you go from worried parent to confident knowing your teen will dominate these exams? How much effort does it take to finally bridge that gap between good grades and actual AP success? I've got the answers—in fact, better answers than you'll find anywhere else.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-5xl font-bold px-12">
+THE SOLUTION
+</div>
+
+</div>
+
+<!--
+The Solution.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-12 opacity-80">
+Introducing...
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold px-12 mb-8" style="color: var(--brand-primary);">
+The 3-Step AP Prep Method
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+Mechanism Breakdown
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The 3-Step AP Prep Method - Mechanism Breakdown.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl mb-8 px-12 opacity-80">
+MECHANISM 1
+</div>
+
+<div class="text-6xl font-bold px-12">
+AP Insider Intelligence
+</div>
+
+</div>
+
+<!--
+Mechanism 1: AP Insider Intelligence.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Why This Matters
+
+<div class="text-xl">
+This mechanism is absolutely <strong>critical</strong> because it addresses the root cause
+</div>
+
+<v-click>
+
+<div class="text-xl mt-4">
+Of why straight-A students score <span class="text-accent">2s and 3s</span> on AP exams
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This mechanism is absolutely critical because it addresses the root cause of why straight-A students score 2s and 3s on AP exams.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Most parents think success comes from <strong>content mastery</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+But that's like thinking you can win at poker just by knowing the rules
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most parents think success comes from content mastery, but that's like thinking you can win at poker just by knowing the rules.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+You need to understand how the game is actually played and scored
+</div>
+
+</div>
+
+<!--
+You need to understand how the game is actually played and scored.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+If your teen skips this foundation...
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+They'll keep doing what every other <strong>struggling student</strong> does
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+Study harder using classroom methods that have <span class="text-accent">zero correlation</span> with exam success
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If your teen skips this foundation, they'll keep doing what every other struggling student does: study harder using classroom methods that have zero correlation with exam success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-danger">
+<div class="text-xl">
+They'll burn out, lose confidence, and waste months of effort because they're optimizing for the <strong>wrong outcome</strong>
+</div>
+</div>
+
+</div>
+
+<!--
+They'll burn out, lose confidence, and waste months of effort because they're optimizing for the wrong outcome.
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❌ Traditional Tutoring
+
+<v-clicks>
+
+<div class="text-xl">
+Teaching more history or math
+</div>
+
+<div class="text-xl opacity-70">
+More <strong>content</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full">
+
+# ✅ Our Approach
+
+<v-clicks>
+
+<div class="text-xl">
+Teaching how AP graders <span class="text-accent">think</span>
+</div>
+
+<div class="text-xl opacity-70">
+What they <strong>reward</strong> and what gets <strong>ignored</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+This is completely different from traditional tutoring because we're not teaching your teen more history or math—we're teaching them how AP graders think, what they reward, and what gets ignored.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+It's like having the answer key to the psychology behind every question
+</div>
+
+</div>
+
+<!--
+It's like having the answer key to the psychology behind every question.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+AP Insider Intelligence has three core components
+</div>
+
+</div>
+
+<!--
+AP Insider Intelligence has three core components working together.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Component 1
+
+## Rubric Revelation
+
+<div class="text-xl">
+We decode the <strong>actual scoring rubrics</strong> that AP graders use
+</div>
+
+</div>
+
+<!--
+First, Rubric Revelation—we decode the actual scoring rubrics that AP graders use.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+These aren't the generic guidelines your teen's teacher shows in class
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+These are the detailed, point-by-point criteria
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+That determine whether an essay gets a <span class="text-accent">2 or a 6</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+These aren't the generic guidelines your teen's teacher shows in class. These are the detailed, point-by-point criteria that determine whether an essay gets a 2 or a 6.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Component 2
+
+## Pattern Recognition
+
+<div class="text-xl">
+We show your teen the <strong>response patterns</strong> that consistently score high
+</div>
+
+</div>
+
+<!--
+Second, Pattern Recognition—we show your teen the response patterns that consistently score high.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+It's like learning to see the Matrix
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Once they know what graders are looking for, they <strong>can't unsee it</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's like learning to see the Matrix—once they know what graders are looking for, they can't unsee it.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Component 3
+
+## Expectation Management
+
+<div class="text-xl">
+Your teen will understand exactly what <strong>'good enough for a 5'</strong> looks like
+</div>
+
+</div>
+
+<!--
+Third, Expectation Management—your teen will understand exactly what 'good enough for a 5' looks like.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Versus <span class="text-accent">'perfectionist overkill'</span> that wastes time
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Without adding points
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Versus 'perfectionist overkill' that wastes time without adding points.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Think of it like learning to speak a new language
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+Except instead of Spanish or French, your teen is learning to speak <strong>'AP Grader'</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Think of it like learning to speak a new language—except instead of Spanish or French, your teen is learning to speak 'AP Grader.'
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+The implementation happens through our Scoring System Immersion
+</div>
+
+</div>
+
+<!--
+The implementation happens through our Scoring System Immersion.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Your teen starts by analyzing <strong>high-scoring sample responses</strong> alongside the actual grader comments
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+They see exactly why one essay earned a <span class="text-accent">6</span> while another earned a <span class="text-accent">3</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen starts by analyzing high-scoring sample responses alongside the actual grader comments. They see exactly why one essay earned a 6 while another earned a 3.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+Even when both students clearly <strong>knew the material</strong>
+</div>
+
+</div>
+
+<!--
+Even when both students clearly knew the material.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Next Step
+
+<div class="text-xl mb-4">
+They practice <strong>Reverse Engineering</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl">
+Taking their own past work and evaluating it using the <span class="text-accent">real rubrics</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Next, they practice Reverse Engineering—taking their own past work and evaluating it using the real rubrics.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+This creates those 'aha!' moments
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Where they finally understand why their classroom A's didn't translate to exam success
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This creates those 'aha!' moments where they finally understand why their classroom A's didn't translate to exam success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Finally, they develop <strong>Grader Empathy</strong>
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+The ability to read any AP question and immediately know what the grader wants to see
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Finally, they develop Grader Empathy—the ability to read any AP question and immediately know what the grader wants to see in the response.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8">
+No more guessing
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold">
+No more hoping
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+No more guessing, no more hoping.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout">
+<div class="text-xl font-bold mb-2">💡 The Key</div>
+<div class="text-xl">
+Starting with <strong>analysis</strong> before creation
+</div>
+</div>
+
+</div>
+
+<!--
+The key is starting with analysis before creation.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Most students jump straight to practice tests
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+But that's like trying to hit a target you can't see
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 font-bold" style="color: var(--brand-primary);">
+First, we make the target visible
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most students jump straight to practice tests, but that's like trying to hit a target you can't see. First, we make the target visible.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Once your teen masters AP Insider Intelligence...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Everything changes
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Once your teen masters AP Insider Intelligence, everything changes.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# What Happens
+
+<div class="text-xl mb-4">
+They'll read practice questions with <strong>complete clarity</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl">
+Knowing exactly what needs to be addressed and how much <span class="text-accent">detail is required</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They'll read practice questions with complete clarity, knowing exactly what needs to be addressed and how much detail is required.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+The stress disappears because uncertainty disappears
+</div>
+
+</div>
+
+<!--
+The stress disappears because uncertainty disappears.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Externally, you'll notice your teen approaching AP work with <strong>confidence</strong> instead of anxiety
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+They'll stop asking 'Is this good enough?' because <span class="text-accent">they'll know</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Externally, you'll notice your teen approaching AP work with confidence instead of anxiety. They'll stop asking 'Is this good enough?' because they'll know.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Their practice scores will <strong>jump immediately</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+Not because they learned more content, but because they finally understand the game
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Their practice scores will jump immediately—not because they learned more content, but because they finally understand the game.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+But here's what matters most:
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen will develop the <strong>analytical thinking skills</strong> that make them unstoppable in college
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But here's what matters most: your teen will develop the analytical thinking skills that make them unstoppable in college.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+They'll be the student who reads assignment requirements and delivers <strong>exactly what professors want</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+While their classmates struggle with confusion
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They'll be the student who reads assignment requirements and delivers exactly what professors want, while their classmates struggle with confusion.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Are you ready to give your teen this unfair advantage?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+That transforms them from someone who works hard to someone who <span class="text-accent">works smart</span>?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Are you ready to give your teen this unfair advantage that transforms them from someone who works hard to someone who works smart?
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl mb-8 px-12 opacity-80">
+MECHANISM 2
+</div>
+
+<div class="text-6xl font-bold px-12">
+Subject-Specific Response Mastery
+</div>
+
+</div>
+
+<!--
+Mechanism 2: Subject-Specific Response Mastery.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+This mechanism matters because <strong>generic study advice</strong> fails catastrophically
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+When applied to AP exams
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This mechanism matters because generic study advice fails catastrophically when applied to AP exams.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Telling your teen to 'write a good essay' is like telling them to 'drive safely'
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Without teaching them the <strong>specific rules of the road</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 font-bold text-red-600">
+It's not actionable, and it leads to crashes
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Telling your teen to 'write a good essay' is like telling them to 'drive safely' without teaching them the specific rules of the road—it's not actionable, and it leads to crashes.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Without subject-specific frameworks, your teen is essentially <strong>winging it</strong> on every question type
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+They might have brilliant insights about the Civil War, but if they don't know how to structure a <span class="text-accent">DBQ</span>...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Without subject-specific frameworks, your teen is essentially winging it on every question type. They might have brilliant insights about the Civil War, but if they don't know how to structure a DBQ.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold text-red-600">
+Those insights become worthless on exam day
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+This is why smart kids get devastated by their scores
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Those insights become worthless on exam day. This is why smart kids get devastated by their scores.
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❌ Traditional Prep
+
+<v-clicks>
+
+<div class="text-xl">
+Focuses on <strong>content review</strong>
+</div>
+
+<div class="text-xl opacity-70">
+What you know
+</div>
+
+</v-clicks>
+
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full">
+
+# ✅ Our Approach
+
+<v-clicks>
+
+<div class="text-xl">
+Tests how well you can <span class="text-accent">demonstrate</span> what you know
+</div>
+
+<div class="text-xl opacity-70">
+Using specific <strong>formats</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Traditional prep completely misses this because it focuses on content review. But AP exams don't test what you know—they test how well you can demonstrate what you know using very specific formats.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+It's the difference between being a great chef
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+And being able to compete on a cooking show with <strong>strict rules</strong> and <strong>time limits</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's the difference between being a great chef and being able to compete on a cooking show with strict rules and time limits.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Response Mastery is built on Subject-Specific Templates
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+That work like <span class="text-accent">GPS for your teen's brain</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Response Mastery is built on Subject-Specific Templates that work like GPS for your teen's brain.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1461532257246-777de18cd58b?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# For AP History
+
+<div class="text-xl">
+We provide the exact <strong>DBQ and LEQ structures</strong> that graders expect
+</div>
+
+</div>
+
+<!--
+For AP History: We provide the exact DBQ and LEQ structures that graders expect.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Your teen learns the <strong>7-paragraph formula</strong>
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+The contextualization requirements
+</div>
+
+<div class="text-xl px-12">
+And the evidence integration patterns that separate <span class="text-accent">5s from 3s</span>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Your teen learns the 7-paragraph formula, the contextualization requirements, and the evidence integration patterns that separate 5s from 3s.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# For AP Sciences
+
+<div class="text-xl">
+We break down <strong>FRQ response sequences</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl mt-4">
+The specific steps, vocabulary, and explanation depth required for <span class="text-accent">maximum points</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+For AP Sciences: We break down FRQ response sequences—the specific steps, vocabulary, and explanation depth required for maximum points.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+No more losing points for <strong>'not showing work'</strong> when your teen actually knew the answer
+</div>
+
+</div>
+
+<!--
+No more losing points for 'not showing work' when your teen actually knew the answer.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# For AP English
+
+<div class="text-xl">
+We reveal the <strong>literary analysis frameworks</strong> that turn book discussions into sophisticated arguments
+</div>
+
+</div>
+
+<!--
+For AP English: We reveal the literary analysis frameworks that turn book discussions into sophisticated arguments.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Your teen learns <strong>thesis construction</strong>
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+Evidence selection
+</div>
+
+<div class="text-xl px-12">
+And commentary techniques that <span class="text-accent">impress graders</span>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Your teen learns thesis construction, evidence selection, and commentary techniques that impress graders.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# For AP Math
+
+<div class="text-xl">
+We provide the <strong>problem-solving methodologies</strong> that demonstrate understanding clearly
+</div>
+
+<v-click>
+
+<div class="text-xl mt-4">
+Even when calculations get <span class="text-accent">messy</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+For AP Math: We provide the problem-solving methodologies that demonstrate understanding clearly, even when calculations get messy.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+It's like giving your teen a different key for each specific lock
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+Instead of one generic key that doesn't quite fit anywhere
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's like giving your teen a different key for each specific lock, instead of one generic key that doesn't quite fit anywhere.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Implementation follows our Template-Practice-Perfect system
+</div>
+
+</div>
+
+<!--
+Implementation follows our Template-Practice-Perfect system.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Week 1-2: Template Installation
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen learns the specific structure for each question type they'll face
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Week 1-2: Template Installation—Your teen learns the specific structure for each question type they'll face.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+We don't just show them examples; we give them <strong>fill-in-the-blank frameworks</strong> they can use immediately
+</div>
+
+</div>
+
+<!--
+We don't just show them examples; we give them fill-in-the-blank frameworks they can use immediately.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Week 3-4: Guided Practice
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen applies these templates to past exam questions with <span class="text-accent">coaching feedback</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Week 3-4: Guided Practice—Your teen applies these templates to past exam questions with coaching feedback.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+They learn to adapt the frameworks to different content while maintaining the <strong>scoring structure</strong>
+</div>
+
+</div>
+
+<!--
+They learn to adapt the frameworks to different content while maintaining the scoring structure.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Week 5-6: Timed Mastery
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen practices under exam conditions until the templates become <span class="text-accent">automatic</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Week 5-6: Timed Mastery—Your teen practices under exam conditions until the templates become automatic.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+By this point, they're not thinking about structure anymore
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+They're focused entirely on content because the format is habitual
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+By this point, they're not thinking about structure anymore—they're focused entirely on content because the format is habitual.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout">
+<div class="text-xl font-bold mb-2">💡 The Critical Insight</div>
+<div class="text-xl">
+We teach <strong>structure first</strong>, then overlay content
+</div>
+<div class="text-lg mt-2 opacity-70">
+Most prep does the opposite and wonders why students freeze up under pressure
+</div>
+</div>
+
+</div>
+
+<!--
+The critical insight: we teach structure first, then overlay content. Most prep does the opposite and wonders why students freeze up under pressure.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Once your teen has Response Mastery...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+They approach every AP question with <span class="text-accent">surgical precision</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Once your teen has Response Mastery, they approach every AP question with surgical precision.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+They'll read a DBQ prompt and <strong>immediately know</strong>:
+</div>
+
+<v-clicks>
+
+<div class="text-lg px-12 mb-2">
+Paragraph 1 needs contextualization
+</div>
+
+<div class="text-lg px-12 mb-2">
+Paragraph 2 starts the argument
+</div>
+
+<div class="text-lg px-12 mb-2">
+Paragraphs 3-5 develop evidence
+</div>
+
+<div class="text-lg px-12 mb-2">
+Paragraph 6 addresses complexity
+</div>
+
+<div class="text-lg px-12">
+Paragraph 7 concludes with significance
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+They'll read a DBQ prompt and immediately know: paragraph 1 needs contextualization, paragraph 2 starts the argument, paragraphs 3-5 develop evidence, paragraph 6 addresses complexity, paragraph 7 concludes with significance.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+You'll see them tackle practice exams with the confidence of someone who knows <strong>exactly what they're doing</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+No more staring at blank pages or running out of time because they don't know how to organize their thoughts
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You'll see them tackle practice exams with the confidence of someone who knows exactly what they're doing. No more staring at blank pages or running out of time because they don't know how to organize their thoughts.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Most importantly, these organizational skills transfer to:
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+<strong>College writing</strong>
+</div>
+
+<div class="text-xl px-12 mb-4">
+<strong>Research projects</strong>
+</div>
+
+<div class="text-xl px-12">
+<strong>Professional communication</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Most importantly, these organizational skills transfer to college writing, research projects, and professional communication.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+Your teen develops the ability to structure complex ideas clearly
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+A skill that pays dividends for life
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen develops the ability to structure complex ideas clearly—a skill that pays dividends for life.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Will you commit to giving your teen these frameworks?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+That turn confusion into clarity and anxiety into <span class="text-accent">confidence</span>?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Will you commit to giving your teen these frameworks that turn confusion into clarity and anxiety into confidence?
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl mb-8 px-12 opacity-80">
+MECHANISM 3
+</div>
+
+<div class="text-6xl font-bold px-12">
+Pre-Grade Confidence System
+</div>
+
+</div>
+
+<!--
+Mechanism 3: Pre-Grade Confidence System.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+This mechanism is the <strong>secret weapon</strong> that separates our students from everyone else
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Most teens walk into AP exams with <span class="text-accent">hope and prayer</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This mechanism is the secret weapon that separates our students from everyone else. Most teens walk into AP exams with hope and prayer.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Our students walk in knowing their scores
+</div>
+
+</div>
+
+<!--
+Our students walk in knowing their scores.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+This isn't cockiness
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+It's mathematical certainty based on practiced self-assessment
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This isn't cockiness; it's mathematical certainty based on practiced self-assessment.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Without this system, your teen remains <strong>dependent on external validation</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+And prone to <span class="text-accent">test anxiety</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Without this system, your teen remains dependent on external validation and prone to test anxiety.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+They'll second-guess themselves, change correct answers, and leave exams feeling <strong>uncertain</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Even when they performed well
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They'll second-guess themselves, change correct answers, and leave exams feeling uncertain even when they performed well.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-warning">
+<div class="text-xl">
+This uncertainty creates a <strong>negative feedback loop</strong> that undermines confidence and performance
+</div>
+</div>
+
+</div>
+
+<!--
+This uncertainty creates a negative feedback loop that undermines confidence and performance.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+This is revolutionary because traditional prep focuses on <strong>input (studying)</strong>
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+Without teaching output evaluation (self-grading)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is revolutionary because traditional prep focuses on input (studying) without teaching output evaluation (self-grading).
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+It's like learning to cook without ever tasting your food—you have no idea if you're improving or making the <strong>same mistakes</strong> repeatedly
+</div>
+
+</div>
+
+<!--
+It's like learning to cook without ever tasting your food—you have no idea if you're improving or making the same mistakes repeatedly.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+The Pre-Grade System operates through Predictive Self-Assessment
+</div>
+
+</div>
+
+<!--
+The Pre-Grade System operates through Predictive Self-Assessment.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Component 1
+
+## Internal Scoring Calibration
+
+<div class="text-xl">
+Your teen learns to evaluate their own work using the <strong>exact same criteria</strong> AP graders use
+</div>
+
+</div>
+
+<!--
+Internal Scoring Calibration—Your teen learns to evaluate their own work using the exact same criteria AP graders use.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+They develop the ability to read their essays and predict: <strong>'This is a 4, needs stronger evidence for a 5'</strong>
+</div>
+
+</div>
+
+<!--
+They develop the ability to read their essays and predict: 'This is a 4, needs stronger evidence for a 5.'
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Component 2
+
+## Performance Forecasting
+
+<div class="text-xl">
+Before taking any practice exam, your teen <strong>predicts their score range</strong> based on their preparation level
+</div>
+
+</div>
+
+<!--
+Performance Forecasting—Before taking any practice exam, your teen predicts their score range based on their preparation level.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+After the exam, they self-grade <strong>before seeing official results</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+This builds <span class="text-accent">metacognitive awareness</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+After the exam, they self-grade before seeing official results. This builds metacognitive awareness.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1517842645767-c639042777db?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Component 3
+
+## Gap Analysis Mastery
+
+<div class="text-xl">
+When predictions don't match results, your teen learns to diagnose <strong>exactly what went wrong</strong>
+</div>
+
+</div>
+
+<!--
+Gap Analysis Mastery—When predictions don't match results, your teen learns to diagnose exactly what went wrong and how to fix it.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+No more generic 'study harder'
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+They identify specific skill deficits and address them systematically
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+No more generic 'study harder'—they identify specific skill deficits and address them systematically.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+It's like developing an internal coach
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+Who can provide instant, accurate feedback without waiting for teacher grades or official scores
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's like developing an internal coach who can provide instant, accurate feedback without waiting for teacher grades or official scores.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+The system builds through Calibration Training
+</div>
+
+</div>
+
+<!--
+The system builds through Calibration Training.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Phase 1: Rubric Internalization
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen practices scoring sample responses until their evaluations match <strong>official grades</strong> consistently
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Phase 1: Rubric Internalization—Your teen practices scoring sample responses until their evaluations match official grades consistently.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+This develops their internal <span class="text-accent">'scoring radar'</span>
+</div>
+
+</div>
+
+<!--
+This develops their internal 'scoring radar.'
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Phase 2: Self-Evaluation Practice
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen begins grading their own practice work <strong>before checking answers</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Phase 2: Self-Evaluation Practice—Your teen begins grading their own practice work before checking answers.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+They learn to identify their strengths and weaknesses <span class="text-accent">objectively</span>
+</div>
+
+</div>
+
+<!--
+They learn to identify their strengths and weaknesses objectively.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Phase 3: Predictive Accuracy
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your teen starts <strong>predicting their performance</strong> before attempting practice exams
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Phase 3: Predictive Accuracy—Your teen starts predicting their performance before attempting practice exams, then compares predictions to results.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+Over time, their predictions become <span class="text-accent">incredibly accurate</span>
+</div>
+
+</div>
+
+<!--
+Over time, their predictions become incredibly accurate.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Phase 4: Real-Time Adjustment
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+During actual exams, your teen can <strong>monitor their performance</strong> and adjust strategy mid-test
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Phase 4: Real-Time Adjustment—During actual exams, your teen can monitor their performance and adjust strategy mid-test.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+They know when to spend more time on an essay that could jump from a <strong>4 to a 5</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+Or when to move on from a question that's already <span class="text-accent">solid</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They know when to spend more time on an essay that could jump from a 4 to a 5, or when to move on from a question that's already solid.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Once your teen has the Pre-Grade System...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Test anxiety becomes <strong>impossible</strong> because uncertainty disappears
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Once your teen has the Pre-Grade System, test anxiety becomes impossible because uncertainty disappears.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+They'll finish AP exams feeling <strong>confident</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Because they know exactly how they performed
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+No more agonizing wait for scores—they already know
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They'll finish AP exams feeling confident because they know exactly how they performed. No more agonizing wait for scores—they already know.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+You'll watch your teen approach not just AP exams, but all academic challenges, with <strong>unshakeable confidence</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+They become the student who knows their capabilities accurately and can <span class="text-accent">self-correct in real-time</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You'll watch your teen approach not just AP exams, but all academic challenges, with unshakeable confidence. They become the student who knows their capabilities accurately and can self-correct in real-time.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Beyond academics, this develops crucial life skills:
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+<strong>Self-awareness</strong>
+</div>
+
+<div class="text-xl px-12 mb-4">
+<strong>Objective self-evaluation</strong>
+</div>
+
+<div class="text-xl px-12">
+The ability to <strong>continuously improve</strong> without external motivation
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Beyond academics, this develops crucial life skills: self-awareness, objective self-evaluation, and the ability to continuously improve without external motivation.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+Your teen becomes internally driven rather than externally dependent
+</div>
+
+</div>
+
+<!--
+Your teen becomes internally driven rather than externally dependent.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Are you ready to give your teen the confidence?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+That comes from knowing exactly where they stand and how to <span class="text-accent">improve</span>?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
+-->
