@@ -7188,7 +7188,7 @@ background: white
 
 <v-clicks>
 
-**Step 1:** Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right now
+**Step 1:** Go to <strong style="color: var(--brand-secondary);">[YourURL.com]</strong> right now
 
 **Step 2:** Choose your payment option (full payment or 3 installments)
 
@@ -7260,7 +7260,7 @@ Imagine this.
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920
+image: https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1920
 background: white
 ---
 
@@ -7326,7 +7326,7 @@ Then the scores come back
 
 <v-click>
 
-<div class="text-5xl font-bold px-12" style="color: var(--brand-accent);">
+<div class="text-5xl font-bold px-12" style="color: var(--brand-secondary);">
 5s across the board
 </div>
 
@@ -7448,7 +7448,7 @@ All you have to do is go to:
 
 <v-click>
 
-<div class="text-6xl font-bold px-12" style="color: var(--brand-accent);">
+<div class="text-6xl font-bold px-12" style="color: var(--brand-secondary);">
 [YourURL.com]
 </div>
 
@@ -7773,7 +7773,7 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 <v-click>
 
 <div class="text-4xl px-12 mb-8">
-Go to: <strong style="color: var(--brand-accent);">[YourURL.com]</strong>
+Go to: <strong style="color: var(--brand-secondary);">[YourURL.com]</strong>
 </div>
 
 </v-click>
@@ -7793,7 +7793,8 @@ Take Action Now. Go to: YourURL.com and secure your spot in the next cohort.
 -->
 
 ---
-layout: default
+layout: center
+class: text-center
 background: white
 ---
 
@@ -7873,7 +7874,7 @@ Now go secure your spot at:
 
 <v-click>
 
-<div class="text-5xl font-bold px-12 mt-8" style="color: var(--brand-accent);">
+<div class="text-5xl font-bold px-12 mt-8" style="color: var(--brand-secondary);">
 [YourURL.com]
 </div>
 
@@ -7910,3 +7911,4 @@ Questions? Email: support@apmasteryacademy.com
 <!--
 AP Mastery Academy. Enroll Now: YourURL.com. Questions? Email: support@apmasteryacademy.com
 -->
+
