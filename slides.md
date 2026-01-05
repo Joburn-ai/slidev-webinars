@@ -1027,3 +1027,1263 @@ Let's talk about <span class="text-accent">why this keeps showing up</span> and 
 <!--
 you're not alone. Let's talk about why this keeps showing up, and more importantly, what you can do about it...
 -->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+Look, I know why you're here tonight.
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+You want your teen scoring <strong>4s and 5s</strong> on all AP exams
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Look, I know why you're here tonight. You want your teen scoring 4s and 5s on all AP exams while experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+While experiencing a <span class="text-accent">stress-free journey</span>
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-4">
+That leads to <strong>$40,000+</strong> in college savings
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+And acceptance to their <strong>dream school</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+while experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1554224311-beee2ece89ed?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# But Right Now...
+
+<div class="text-xl mb-4">
+You're dealing with the <strong>invisible scoring gap</strong> that even certified teachers don't understand
+</div>
+
+<v-click>
+
+<div class="text-xl">
+Combined with overwhelming floods of conflicting advice
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But right now, you're dealing with the invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+All while realizing that traditional <strong>'work harder'</strong> approaches...
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold px-12 text-red-600">
+Actually make things worse
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+But not knowing what alternative exists
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+You're desperately trying to find...
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+The right <strong>tutors</strong>
+</div>
+
+<div class="text-xl px-12 mb-3">
+The right <strong>prep courses</strong>
+</div>
+
+<div class="text-xl px-12">
+The right <strong>resources</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+You're desperately trying to find the right tutors, prep courses, and resources to guarantee your teen's AP success so they can get into their dream college faster while saving maximum tuition costs through earned credits.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+To guarantee your teen's AP success
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold mb-4" style="color: var(--brand-primary);">
+So they can get into their dream college <span class="text-accent">faster</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+While saving maximum tuition costs through earned credits
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+so they can get into their dream college faster while saving maximum tuition costs through earned credits.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8">
+And maybe you've had some wins
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+✓ Your teen is ahead academically with <strong>solid grades</strong> in AP classes
+</div>
+
+<div class="text-xl px-12 mb-4">
+✓ You've found tutoring support that's helping with <strong>homework consistency</strong>
+</div>
+
+<div class="text-xl px-12">
+✓ Your child seems more <strong>college-ready</strong> than you were at that age
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+And maybe you've had some wins. Your teen is ahead academically with solid grades in AP classes, you've found tutoring support that's helping with homework consistency, and your child seems more college-ready than you were at that age.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12">
+But here's what's <em>really</em> happening...
+</div>
+
+</div>
+
+<!--
+But here's what's really happening.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1554224311-beee2ece89ed?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Reality
+
+<div class="text-xl">
+You're watching your teen get <strong>solid grades</strong> in AP classes while secretly panicking about whether that translates to actual exam success
+</div>
+
+</div>
+
+<!--
+You're watching their teen get solid grades in AP classes while secretly panicking about whether that translates to actual exam success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Seeing classmates get <strong>A's</strong> but score 2s and 3s
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+Throwing money at tutors and prep materials without knowing if it's the <span class="text-accent">right approach</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+All while your overwhelmed student juggles sports, activities, and mounting pressure with <strong>exams approaching fast</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+seeing classmates get A's but score 2s and 3s, throwing money at tutors and prep materials without knowing if it's the right approach, all while their overwhelmed student juggles sports, activities, and mounting pressure with exams approaching fast.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8 opacity-70">
+Deep down, you dream of...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-4">
+Your child confidently walking into every AP exam <strong>knowing</strong> they'll score a 5
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-4">
+Getting into their dream college with <span class="text-accent">maximum credits</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+And the whole family feeling <strong>proud</strong> and <strong>financially relieved</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Deep down, you dream of your child confidently walking into every AP exam knowing they'll score a 5, getting into their dream college with maximum credits, and the whole family feeling proud and financially relieved.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+But instead...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+You keep running into the same <strong>brutal reality</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But instead, you keep running into the same brutal reality...
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1554224311-beee2ece89ed?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Brutal Reality
+
+<div class="text-xl mb-4">
+Watching your straight-A student walk out of AP exams <strong>in tears</strong>
+</div>
+
+<v-click>
+
+<div class="callout-danger">
+Only to get devastating 2s and 3s that waste a year of effort and thousands in future tuition
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+watching their straight-A student walk out of AP exams in tears, only to get devastating 2s and 3s that waste a year of effort and thousands in future tuition.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+And the normal pattern?
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+Talented students getting <strong>A's in class</strong> but consistently scoring <strong>2s and 3s</strong> on exams
+</div>
+
+<div class="text-xl px-12 mb-3">
+While overwhelmed families throw money at every solution
+</div>
+
+<div class="text-xl px-12">
+As their stressed teen <span class="text-accent">burns out</span> from activities, sports, and academic pressure
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+And the normal pattern? Talented students getting A's in class but consistently scoring 2s and 3s on exams while overwhelmed families throw money at every solution as their stressed teen burns out from activities, sports, and academic pressure.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+What you <em>really</em> want is...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+A proven system with insider scoring secrets
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+What you really want is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+That bridges the gap between <strong>classroom A's</strong> and <strong>exam 5s</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Allowing your busy athlete/musician/leader to confidently <span class="text-accent">dominate AP exams</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+While maintaining their packed schedule and giving the whole family <strong>peace of mind</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+allowing their busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule, giving the whole family peace of mind and saving tens of thousands in tuition.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-warning">
+<div class="text-2xl font-bold mb-3">⚠️ The Second Trap</div>
+<div class="text-xl">
+Believing that working harder and doing more practice tests will eventually break through, when <strong>strategy matters more than volume</strong>
+</div>
+</div>
+
+</div>
+
+<!--
+But here's the second trap most families fall into... believing that working harder and doing more practice tests will eventually break through, when strategy matters more than volume.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+And what happens when you try to push through this limitation?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Students burning out from endless practice tests while still scoring <strong>2s and 3s</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And what happens when you try to push through this limitation? Students burning out from endless practice tests while still scoring 2s and 3s.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+Families spending more money on ineffective tutoring that <strong>reinforces wrong approaches</strong>
+</div>
+
+<div class="text-xl px-12 mb-4">
+Teens losing confidence as they watch others who study <em>less</em> score <span class="text-accent">better</span>
+</div>
+
+<div class="text-xl px-12">
+And the whole family sacrificing mental health and relationships in pursuit of scores that never improve
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+families spending more money on ineffective tutoring that reinforces wrong approaches, teens losing confidence as they watch others who study less score better, and the whole family sacrificing mental health and relationships in pursuit of scores that never improve because the strategy is fundamentally wrong.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Your Biggest Fear
+
+<div class="text-xl">
+Your teen becoming another heartbreaking statistic
+</div>
+
+<v-click>
+
+<div class="text-xl mt-4 opacity-80">
+A brilliant, hardworking student whose dreams <strong>crumble in senior year</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The thing you fear most? Their teen becoming another heartbreaking statistic - a brilliant, hardworking student whose dreams crumble in senior year when low AP scores destroy college plans.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+When low AP scores destroy college plans
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-4">
+Forcing you to tell your accomplished child that despite all their sacrifices <strong>it wasn't enough</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+While wondering if you failed by not knowing how to navigate a system other families somehow figured out
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+forcing parents to tell their accomplished child that despite all their sacrifices it wasn't enough, while wondering if they failed by not knowing how to navigate a system other families somehow figured out.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+And the biggest obstacle of all?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+The invisible scoring gap that even certified teachers don't understand
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And the biggest obstacle of all? The invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Combined with overwhelming floods of <span class="text-accent">conflicting advice</span>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+And expensive solutions that leave families more <strong>confused</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+All while realizing that traditional 'work harder' approaches actually make things worse but <strong>not knowing what alternative exists</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+What you keep missing...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+That moment your teen walks out of AP exams with <span class="text-accent">genuine confidence</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+What you keep missing - that moment their teen walks out of AP exams with genuine confidence, knowing they nailed every section and will get the 5s they need.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Knowing they nailed every section and will get the <strong>5s they need</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Becoming the success story other parents <span class="text-accent">admire</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+While giving the whole family the peace of mind that comes from knowing you gave your child <strong>every advantage</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+becoming the success story other parents admire while giving the whole family the peace of mind that comes from knowing they gave their child every advantage and watched them rise to meet their potential.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+You keep fighting against...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold text-red-600">
+The cycle of classroom A's followed by devastating AP exam disappointments
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You keep fighting against the cycle of classroom A's followed by devastating AP exam disappointments.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+But here's what most parents don't realize...
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Once you understand the <strong>hidden scoring gap</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+You have the unfair advantage of knowing exactly what AP graders want
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But here's what most parents don't realize... once you understand the hidden scoring gap, you have the unfair advantage of knowing exactly what AP graders want while other families waste time on irrelevant classroom skills.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+While other families waste time on irrelevant classroom skills
+</div>
+
+<v-click>
+
+<div class="callout-success">
+<div class="text-xl">
+And your teen's packed schedule actually becomes an <strong>asset</strong> when you have the right system
+</div>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+while other families waste time on irrelevant classroom skills. And your teen's packed schedule actually becomes an asset when you have the right system.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+They learn <span class="text-accent">efficiency</span> and <span class="text-accent">time management</span>
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold">
+That average students never develop
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+they learn efficiency and time management that average students never develop.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12 mb-12">
+Instead of fighting this uphill battle...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12">
+Imagine your teen systematically scoring <strong>5s</strong> on every AP exam
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Instead of fighting this uphill battle, imagine your teen systematically scoring 5s on every AP exam while maintaining their activities and sanity.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+While maintaining their activities and sanity
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+That's exactly what we're going to show you how to make happen
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Before this webinar ends
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's exactly what we're going to show you how to make happen before this webinar ends.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# I Get It
+
+<div class="text-xl mb-4">
+Look, I know many of you have been <strong>burned before</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl">
+By tutors and prep programs that promised results but left you more <span class="text-accent">frustrated</span> than when you started
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Look, I know many of you have been burned before by tutors and prep programs that promised results but left you more frustrated than when you started.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Maybe you've watched your honor student come home <strong>in tears</strong> after an AP exam
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Wondering how someone with a <strong>95 average</strong> could feel so unprepared
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Maybe you've watched your honor student come home in tears after an AP exam, wondering how someone with a 95 average could feel so unprepared.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+I'm going to guess that some of you have already tried the traditional route
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+Hired <strong>expensive tutors</strong>
+</div>
+
+<div class="text-xl px-12 mb-3">
+Bought every <strong>prep book</strong> on Amazon
+</div>
+
+<div class="text-xl px-12">
+Maybe even enrolled in those generic <strong>AP courses</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+I'm going to guess that some of you have already tried the traditional route—hired expensive tutors, bought every prep book on Amazon, maybe even enrolled in those generic AP courses to fix this.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Only to watch your straight-A student...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold text-red-600">
+Still struggle with actual AP exam performance
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+only to watch your straight-A student still struggle with actual AP exam performance.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-danger">
+<div class="text-2xl font-bold mb-3">No wonder it's so scary</div>
+<div class="text-xl">
+To invest in another AP solution
+</div>
+</div>
+
+</div>
+
+<!--
+No wonder it's so scary to invest in another AP solution.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+The problem isn't <em>trying</em> to help your teen succeed
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+It's the certainty that you might waste more money and time
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+While your child's college dreams hang in the balance
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The problem isn't trying to help your teen succeed, it's the certainty that you might waste more money and time while your child's college dreams hang in the balance.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+And I get it.
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Because of the <strong>invisible gap</strong> between classroom grades and AP exam scoring
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+And because of all the <span class="text-accent">conflicting advice</span> from tutors who don't understand the real scoring systems
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And I get it. Because of the invisible gap between classroom grades and AP exam scoring, and because of all the conflicting advice from tutors who don't understand the real scoring systems, it's now even more complicated to know what will actually work.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Even if your teen is getting <strong>A's</strong> in their AP classes...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+How do you turn that classroom success into the 4s and 5s they need for college credit?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Even if your teen is getting A's in their AP classes, how do you turn that classroom success into the 4s and 5s they need for college credit?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+These are the challenges I know you're dealing with
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Which is why when you see the approach I have for you today...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+You'll say 'Ok... now I see how this time will be different'
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+These are the challenges I know you're dealing with, which is why when you see the approach I have for you today, you'll say 'Ok... now I see how this time will be different.'
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-12 mb-8">
+So that no matter what has happened in the past...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12">
+Today is a <strong>new day</strong> with a <strong>new hope</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+So that no matter what has happened to you in the past, today is a new day with a new hope and completely new possibility.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-4">
+And completely new possibility to watch your teen...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Confidently walk into those AP exams
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Knowing they'll score the <span class="text-accent">5s</span> that save your family tens of thousands in tuition
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+to watch your teen confidently walk into those AP exams knowing they'll score the 5s that save your family tens of thousands in tuition.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-5xl font-bold" style="color: var(--brand-primary);">
+How does that sound?
+</div>
+
+</div>
+
+<!--
+How does that sound?
+-->
