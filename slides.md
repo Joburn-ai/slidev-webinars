@@ -4813,3 +4813,1842 @@ That comes from knowing exactly where they stand and how to <span class="text-ac
 Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
 
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-8">
+Now here's what this means for you...
+</div>
+
+<v-click>
+
+<div class="text-white text-3xl px-12">
+And your teen
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now here's what this means for you and your teen.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+You now understand the <strong>three mechanisms</strong> that separate confident 5-scorers
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+From frustrated students who work hard but score low
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You now understand the three mechanisms that separate confident 5-scorers from frustrated students who work hard but score low.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-4">
+<strong>AP Insider Intelligence</strong> - Understanding exactly what graders want
+</div>
+
+<div class="text-xl px-12 mb-4">
+<strong>Subject-Specific Response Mastery</strong> - The templates that guarantee high scores
+</div>
+
+<div class="text-xl px-12">
+<strong>Pre-Grade Confidence System</strong> - The ability to self-assess and predict scores accurately
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+AP Insider Intelligence - Understanding exactly what graders want. Subject-Specific Response Mastery - The templates that guarantee high scores. Pre-Grade Confidence System - The ability to self-assess and predict scores accurately.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+The question becomes...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+How do you actually <span class="text-accent">implement</span> all of this?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The question becomes: how do you actually implement all of this?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Sure, you could try to <strong>figure it out yourself</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Piece together information from various sources
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12">
+Hope you get the scoring rubrics right and the templates correct
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Sure, you could try to figure it out yourself, piece together information from various sources, hope you get the scoring rubrics right and the templates correct.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-danger">
+<div class="text-xl">
+But here's the reality: <strong>one wrong interpretation</strong> of a rubric could cost your teen an entire point level
+</div>
+</div>
+
+</div>
+
+<!--
+But here's the reality: one wrong interpretation of a rubric could cost your teen an entire point level.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+And time is your enemy here
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+AP exams are in <strong>May</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 font-bold text-red-600">
+You don't have months to experiment and figure this out through trial and error
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And time is your enemy here. AP exams are in May. You don't have months to experiment and figure this out through trial and error.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Or you could hire tutors
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+And hope they understand <span class="text-accent">insider scoring secrets</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+(Spoiler: most don't, even the expensive ones)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Or you could hire tutors and hope they understand insider scoring secrets. Spoiler: most don't, even the expensive ones.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+Which is exactly why I created...
+</div>
+
+</div>
+
+<!--
+Which is exactly why I created something different.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-xl mb-8 px-12 opacity-80">
+Introducing...
+</div>
+
+<div class="text-white text-7xl font-bold px-12">
+AP MASTERY ACADEMY
+</div>
+
+</div>
+
+<!--
+Introducing AP Mastery Academy.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+A <strong>12-week intensive coaching program</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+That takes your teen from <span class="text-accent">worried</span> to <strong>confident 5-scorer</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+A 12-week intensive coaching program that takes your teen from worried to confident 5-scorer.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+Using the exact <strong>three mechanisms</strong> I just walked you through
+</div>
+
+</div>
+
+<!--
+Using the exact three mechanisms I just walked you through.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Here's what you're getting
+</div>
+
+</div>
+
+<!--
+Here's what you're getting.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-8">
+COMPONENT 1
+</div>
+
+<v-click>
+
+<div class="text-white text-4xl px-12">
+12 Weeks of Expert 1-on-1 Coaching
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-white text-2xl px-12 mt-6 opacity-80">
+($2,800 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 1: 12 Weeks of Expert 1-on-1 Coaching. $2,800 Value.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## 12 Weeks of Expert 1-on-1 Coaching
+
+**($2,800 Value)**
+
+<v-clicks>
+
+✓ **Dedicated AP Expert Coach** - Someone who scored a 5 themselves and has coached hundreds of students to the same ($2,800)
+
+✓ **Weekly 1-Hour Sessions** - 12 personalized coaching calls tailored to your teen's specific subjects and needs ($1,200)
+
+✓ **4 Full-Length Practice Exams** - Complete with detailed scoring, feedback, and improvement roadmaps ($800)
+
+✓ **FRQ Mastery Training** - Deep dive on every free-response question type they'll face ($600)
+
+✓ **24/7 Slack Support** - Get questions answered anytime, not just during sessions ($400)
+
+</v-clicks>
+
+</div>
+
+<!--
+12 Weeks of Expert 1-on-1 Coaching. $2,800 Value. Dedicated AP Expert Coach - Someone who scored a 5 themselves and has coached hundreds of students to the same. Weekly 1-Hour Sessions - 12 personalized coaching calls tailored to your teen's specific subjects and needs. 4 Full-Length Practice Exams - Complete with detailed scoring, feedback, and improvement roadmaps. FRQ Mastery Training - Deep dive on every free-response question type they'll face. 24/7 Slack Support - Get questions answered anytime, not just during sessions.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-success">
+<div class="text-xl font-bold mb-2">✅ Result</div>
+<div class="text-xl">
+Your teen gets <strong>personalized attention</strong> from someone who has actually walked this path successfully
+</div>
+</div>
+
+</div>
+
+<!--
+Result: Your teen gets personalized attention from someone who has actually walked this path successfully.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+Not generic classroom instruction where they're one of <strong>30 students</strong>
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 font-bold" style="color: var(--brand-primary);">
+But targeted coaching that addresses their specific gaps and accelerates their progress
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Not generic classroom instruction where they're one of 30 students, but targeted coaching that addresses their specific gaps and accelerates their progress.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Can you see how valuable this is?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Having a <strong>dedicated expert</strong> who knows exactly what College Board is looking for
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+And can guide your teen through every challenge that comes up?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Can you see how valuable this is? Having a dedicated expert who knows exactly what College Board is looking for and can guide your teen through every challenge that comes up?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+If I offered this standalone, I'd charge <strong>$2,800 minimum</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+And families would gladly pay it knowing their teen will score <span class="text-accent">4s and 5s</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If I offered this standalone, I'd charge $2,800 minimum. And families would gladly pay it knowing their teen will score 4s and 5s.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+But that's just Component 1
+</div>
+
+</div>
+
+<!--
+But that's just Component 1.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-8">
+COMPONENT 2
+</div>
+
+<v-click>
+
+<div class="text-white text-4xl px-12">
+Lifetime Access to AP Mastery Platform
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-white text-2xl px-12 mt-6 opacity-80">
+($7,056 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 2: Lifetime Access to AP Mastery Platform. $7,056 Value.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## Lifetime Access to AP Mastery Platform
+
+**($7,056 Value)**
+
+<v-clicks>
+
+✓ **All 38 AP Exam Courses** - Every single AP subject covered with comprehensive video lessons ($4,788)
+
+✓ **10,000+ Practice Questions** - Organized by difficulty and aligned with actual College Board standards ($1,200)
+
+✓ **Subject-Specific Templates Library** - Pre-built frameworks for every question type across all exams ($468)
+
+✓ **Score Prediction Tools** - AI-powered systems that accurately forecast your teen's performance ($300)
+
+✓ **Monthly Live Q&A Sessions** - Join me and expert coaches for group coaching on tough topics ($300)
+
+</v-clicks>
+
+</div>
+
+<!--
+Lifetime Access to AP Mastery Platform. $7,056 Value. All 38 AP Exam Courses - Every single AP subject covered with comprehensive video lessons. 10,000+ Practice Questions - Organized by difficulty and aligned with actual College Board standards. Subject-Specific Templates Library - Pre-built frameworks for every question type across all exams. Score Prediction Tools - AI-powered systems that accurately forecast your teen's performance. Monthly Live Q&A Sessions - Join me and expert coaches for group coaching on tough topics.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-success">
+<div class="text-xl font-bold mb-2">✅ Result</div>
+<div class="text-xl">
+Your teen never runs out of <strong>high-quality practice materials</strong>
+</div>
+</div>
+
+</div>
+
+<!--
+Result: Your teen never runs out of high-quality practice materials.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+And if they take multiple AP exams across different years?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+They have everything they need for every single one
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+All in one place, accessible forever
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And if they take multiple AP exams across different years? They have everything they need for every single one. All in one place, accessible forever.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Most families spend <strong>$147 per AP prep book</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+Times 5-8 exams over high school
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold text-red-600">
+That's $735-$1,176 just on outdated books
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most families spend $147 per AP prep book times 5-8 exams over high school. That's $735-$1,176 just on outdated books.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+You're getting lifetime access to continuously updated materials
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+For every AP exam that exists
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+At a value of <span class="text-accent">$7,056</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You're getting lifetime access to continuously updated materials for every AP exam that exists at a value of $7,056.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-8">
+COMPONENT 3
+</div>
+
+<v-click>
+
+<div class="text-white text-4xl px-12">
+College Application Accelerator Package
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-white text-2xl px-12 mt-6 opacity-80">
+($2,400 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 3: College Application Accelerator Package. $2,400 Value.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## College Application Accelerator Package
+
+**($2,400 Value)**
+
+<v-clicks>
+
+✓ **Strategic College List Builder** - Data-driven tool showing which schools offer credit for which AP scores ($400)
+
+✓ **Tuition Savings Calculator** - Precise forecasting of exactly how much money your family will save ($200)
+
+✓ **Personal Statement Workshop** - How to leverage AP success in college essays for maximum impact ($800)
+
+✓ **Interview Preparation Toolkit** - Use AP achievement as proof of intellectual curiosity and work ethic ($600)
+
+✓ **Scholarship Opportunity Database** - Exclusive access to scholarships specifically for high AP scorers ($400)
+
+</v-clicks>
+
+</div>
+
+<!--
+College Application Accelerator Package. $2,400 Value. Strategic College List Builder - Data-driven tool showing which schools offer credit for which AP scores. Tuition Savings Calculator - Precise forecasting of exactly how much money your family will save. Personal Statement Workshop - How to leverage AP success in college essays for maximum impact. Interview Preparation Toolkit - Use AP achievement as proof of intellectual curiosity and work ethic. Scholarship Opportunity Database - Exclusive access to scholarships specifically for high AP scorers.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-success">
+<div class="text-xl font-bold mb-2">✅ Result</div>
+<div class="text-xl">
+You maximize both <strong>college acceptance chances</strong> and <strong>financial savings</strong>
+</div>
+</div>
+
+</div>
+
+<!--
+Result: You maximize both college acceptance chances and financial savings.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Because here's what most families don't realize:
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+AP scores aren't just about college credit
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because here's what most families don't realize: AP scores aren't just about college credit.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+They're a powerful <strong>college application differentiator</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+That demonstrates your teen can handle <span class="text-accent">college-level work</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They're a powerful college application differentiator that demonstrates your teen can handle college-level work.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+And when you show colleges that your teen has <strong>eight 5s</strong> on their transcript?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+Admissions officers take notice
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And when you show colleges that your teen has eight 5s on their transcript? Admissions officers take notice.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+This package ensures you <strong>leverage that achievement</strong> for everything it's worth
+</div>
+
+</div>
+
+<!--
+This package ensures you leverage that achievement for everything it's worth.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-8">
+COMPONENT 4
+</div>
+
+<v-click>
+
+<div class="text-white text-4xl px-12">
+Parent Success Partnership
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-white text-2xl px-12 mt-6 opacity-80">
+($500 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 4: Parent Success Partnership. $500 Value.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## Parent Success Partnership
+
+**($500 Value)**
+
+<v-clicks>
+
+✓ **Weekly Progress Reports** - Know exactly where your teen stands and what they're working on ($200)
+
+✓ **Monthly Parent Coaching Calls** - Learn how to support without adding pressure ($150)
+
+✓ **Private Facebook Community** - Connect with other families on the same journey ($100)
+
+✓ **Emergency Support Access** - Direct line to coaches when your teen hits a roadblock ($50)
+
+</v-clicks>
+
+</div>
+
+<!--
+Parent Success Partnership. $500 Value. Weekly Progress Reports - Know exactly where your teen stands and what they're working on. Monthly Parent Coaching Calls - Learn how to support without adding pressure. Private Facebook Community - Connect with other families on the same journey. Emergency Support Access - Direct line to coaches when your teen hits a roadblock.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-success">
+<div class="text-xl font-bold mb-2">✅ Result</div>
+<div class="text-xl">
+You stay <strong>informed and involved</strong> without micromanaging
+</div>
+</div>
+
+</div>
+
+<!--
+Result: You stay informed and involved without micromanaging.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+One of the biggest challenges parents face is:
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold text-red-600">
+Not knowing if their investment is actually working
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+One of the biggest challenges parents face is not knowing if their investment is actually working.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+You send your teen to tutoring and just <strong>hope</strong> it helps
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+With us, you get <span class="text-accent">complete transparency</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You send your teen to tutoring and just hope it helps. With us, you get complete transparency.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+You'll see the progress in real-time
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+And know exactly what's happening every step of the way
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You'll see the progress in real-time and know exactly what's happening every step of the way.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Let's add this up
+</div>
+
+</div>
+
+<!--
+Let's add this up.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## Total Value Summary
+
+<v-clicks>
+
+**Component 1:** 12 Weeks of Expert 1-on-1 Coaching - $2,800
+
+**Component 2:** Lifetime Platform Access - $7,056
+
+**Component 3:** College Application Accelerator - $2,400
+
+**Component 4:** Parent Success Partnership - $500
+
+<div class="callout-success mt-6">
+<div class="text-2xl font-bold">TOTAL VALUE: $12,756</div>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Total Value Summary. Component 1: 12 Weeks of Expert 1-on-1 Coaching - $2,800. Component 2: Lifetime Platform Access - $7,056. Component 3: College Application Accelerator - $2,400. Component 4: Parent Success Partnership - $500. TOTAL VALUE: $12,756.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Nearly <strong>$13,000</strong> in documented value
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+And remember, that's conservative
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Nearly $13,000 in documented value. And remember, that's conservative.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Because I'm not even counting the <strong>$40,000+ in tuition savings</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Your family will realize when your teen enters college with <span class="text-accent">30+ credits</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because I'm not even counting the $40,000+ in tuition savings your family will realize when your teen enters college with 30+ credits.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+But we're not done yet
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Because I'm also including these <strong>exclusive bonuses</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But we're not done yet. Because I'm also including these exclusive bonuses.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-4xl font-bold px-12 mb-8">
+BONUS #1
+</div>
+
+<v-click>
+
+<div class="text-white text-3xl px-12">
+Test Day Strategy Guide
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-white text-xl px-12 mt-6 opacity-80">
+($297 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Bonus #1: Test Day Strategy Guide. $297 Value.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## Test Day Strategy Guide
+
+**($297 Value)**
+
+<v-clicks>
+
+✓ **Time Management Protocols** - Exactly how to pace each section for maximum points
+
+✓ **Question Triage System** - Which questions to answer first, which to save for later
+
+✓ **Stress Management Techniques** - Proven methods to stay calm under pressure
+
+✓ **Break Optimization** - What to eat, how to reset between sections
+
+</v-clicks>
+
+</div>
+
+<!--
+Test Day Strategy Guide. $297 Value. Time Management Protocols - Exactly how to pace each section for maximum points. Question Triage System - Which questions to answer first, which to save for later. Stress Management Techniques - Proven methods to stay calm under pressure. Break Optimization - What to eat, how to reset between sections.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+Your teen will walk into that exam room with a <strong>battle-tested plan</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+Not just knowledge, but <span class="text-accent">strategy</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen will walk into that exam room with a battle-tested plan. Not just knowledge, but strategy.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-4xl font-bold px-12 mb-8">
+BONUS #2
+</div>
+
+<v-click>
+
+<div class="text-white text-3xl px-12">
+Score Guarantee Protection
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-white text-xl px-12 mt-6 opacity-80">
+(Priceless)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Bonus #2: Score Guarantee Protection. Priceless.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Here's how confident I am in this system:
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+If your teen completes the program and doesn't score at least <strong>one point higher</strong> than their diagnostic
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Here's how confident I am in this system: If your teen completes the program and doesn't score at least one point higher than their diagnostic.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-accent);">
+We'll coach them for FREE until they do
+</div>
+
+</div>
+
+<!--
+We'll coach them for FREE until they do.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+That's right
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+If you follow the program and your teen doesn't improve, we keep working with them at <strong>no additional cost</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's right. If you follow the program and your teen doesn't improve, we keep working with them at no additional cost.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+Because I know this works
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+And I'm willing to back it up completely
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because I know this works, and I'm willing to back it up completely.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Updated Total Value
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+Core Program: $12,756
+</div>
+
+<div class="text-xl px-12 mb-3">
+Bonus #1: $297
+</div>
+
+<div class="text-xl px-12 mb-3">
+Bonus #2: Priceless
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Updated Total Value. Core Program: $12,756. Bonus #1: $297. Bonus #2: Priceless.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl px-12 font-bold" style="color: var(--brand-primary);">
+Over $13,000 in total value
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+Plus the guarantee that removes all risk
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Over $13,000 in total value plus the guarantee that removes all risk.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12">
+So what's the investment?
+</div>
+
+</div>
+
+<!--
+So what's the investment?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+If I bundled all of this at even a <strong>50% discount</strong>...
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold">
+I'd be charging $6,500 minimum
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If I bundled all of this at even a 50% discount, I'd be charging $6,500 minimum.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+And honestly, families would pay it
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+Because they know the alternative costs <strong>$40,000+</strong> in wasted tuition
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And honestly, families would pay it because they know the alternative costs $40,000+ in wasted tuition.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+But here's the thing...
+</div>
+
+</div>
+
+<!--
+But here's the thing.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+My mission isn't to make this <strong>exclusive</strong> for wealthy families
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+It's to make AP success <span class="text-accent">accessible</span> to every motivated student
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+My mission isn't to make this exclusive for wealthy families. It's to make AP success accessible to every motivated student.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Which is why for families who join during this webinar...
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+The investment isn't $6,500
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Which is why for families who join during this webinar, the investment isn't $6,500.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-4">
+It's not even $5,000
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold mb-4">
+Or $4,000
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold">
+Or $3,500
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's not even $5,000. Or $4,000. Or $3,500.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-12">
+For families who take action today...
+</div>
+
+<v-click>
+
+<div class="text-7xl font-bold px-12" style="color: var(--brand-accent);">
+Just $2,997
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+For families who take action today, just $2,997.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+That's <strong>77% off</strong> the full value
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+For a program that could save your family <span class="text-accent">$40,000+</span> in college tuition
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's 77% off the full value for a program that could save your family $40,000+ in college tuition.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8 font-bold" style="color: var(--brand-primary);">
+Let's put this in perspective
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mb-3">
+One semester of college tuition: <strong>$20,000+</strong>
+</div>
+
+<div class="text-xl px-12 mb-3">
+Private SAT tutoring: <strong>$5,000-$10,000</strong>
+</div>
+
+<div class="text-xl px-12">
+AP Mastery Academy: <span class="text-accent">$2,997</span>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Let's put this in perspective. One semester of college tuition: $20,000+. Private SAT tutoring: $5,000-$10,000. AP Mastery Academy: $2,997.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+And here's the best part
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+You can split this into <strong>three easy payments</strong> of $999
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And here's the best part. You can split this into three easy payments of $999.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+That's less than <strong>$85 per week</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+For the program that guarantees your teen scores <span class="text-accent">4s and 5s</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+And saves you tens of thousands in tuition
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's less than $85 per week for the program that guarantees your teen scores 4s and 5s and saves you tens of thousands in tuition.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Most families spend more than that on...
+</div>
+
+<v-clicks>
+
+<div class="text-xl px-12 mt-8 mb-3">
+Random tutoring sessions that don't work
+</div>
+
+<div class="text-xl px-12 mb-3">
+Prep books they never use
+</div>
+
+<div class="text-xl px-12">
+Test anxiety without a real solution
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Most families spend more than that on random tutoring sessions that don't work, prep books they never use, and test anxiety without a real solution.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-12">
+Ready to secure your spot?
+</div>
+
+<v-click>
+
+<div class="text-white text-3xl px-12">
+Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right now
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Ready to secure your spot? Go to YourURL.com right now.
+-->
