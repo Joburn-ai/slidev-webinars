@@ -62,7 +62,7 @@ strong {
 
 # Brain Chemistry Reset
 
-<div class="text-2xl mt-4 text-gray-800">
+<div class="text-2xl mt-4 text-white">
 The Medication Freedom Pathway
 </div>
 
@@ -142,11 +142,11 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-6xl font-bold">
+  <div class="text-white text-6xl font-bold">
     Quick Pop Quiz
   </div>
   <v-click>
-  <div class="text-gray-800 text-3xl mt-4">
+  <div class="text-white text-3xl mt-4">
     TRUE or FALSE?
   </div>
   </v-click>
@@ -1013,11 +1013,11 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-4xl font-bold px-12">
+  <div class="text-white text-4xl font-bold px-12">
     Your brain has an incredible capacity to heal
   </div>
   <v-click>
-  <div class="text-gray-800 text-2xl mt-6">
+  <div class="text-white text-2xl mt-6">
     When given the right support
   </div>
   </v-click>
@@ -1152,7 +1152,7 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-3xl px-12">
+  <div class="text-white text-3xl px-12">
     Over the next hour, I'm going to show you what's <strong>actually TRUE</strong>
   </div>
   <v-click>
@@ -1415,7 +1415,7 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-4xl font-bold px-12">
+  <div class="text-white text-4xl font-bold px-12">
     But I refused to accept that
   </div>
 </div>
@@ -1509,11 +1509,11 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-3xl px-12">
+  <div class="text-white text-3xl px-12">
     My family member—who everyone said would never get off fentanyl—
   </div>
   <v-click>
-  <div class="text-gray-800 text-3xl mt-8 px-12">
+  <div class="text-white text-3xl mt-8 px-12">
     Described their withdrawal as a
   </div>
   </v-click>
@@ -1943,7 +1943,7 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-3xl px-12">
+  <div class="text-white text-3xl px-12">
     But before we get there
   </div>
   <v-click>
@@ -2532,7 +2532,7 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-4xl font-bold px-12">
+  <div class="text-white text-4xl font-bold px-12">
     But here's what changes everything
   </div>
 </div>
@@ -2654,11 +2654,11 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-6xl font-bold">
+  <div class="text-white text-6xl font-bold">
     Neurotransmitter Restoration
   </div>
   <v-click>
-  <div class="text-gray-800 text-3xl mt-8">
+  <div class="text-white text-3xl mt-8">
     The biochemical breakthrough that changes everything
   </div>
   </v-click>
@@ -3152,10 +3152,15 @@ background: white
 <v-clicks>
 
 ❌ Taking 5-HTP when you're not actually low in serotonin
+
 ❌ Taking too little to make a difference
+
 ❌ Taking too much and creating imbalances
+
 ❌ Taking at the wrong time of day
+
 ❌ Not accounting for cofactors (vitamins/minerals needed for conversion)
+
 ❌ Not testing to see what YOU specifically need
 
 </v-clicks>
@@ -3260,11 +3265,11 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-6xl font-bold">
+  <div class="text-white text-6xl font-bold">
     The Taper Protocol
   </div>
   <v-click>
-  <div class="text-gray-800 text-3xl mt-8">
+  <div class="text-white text-3xl mt-8">
     Why slow isn't always safe
   </div>
   </v-click>
@@ -3733,11 +3738,11 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-6xl font-bold">
+  <div class="text-white text-6xl font-bold">
     Root Cause Resolution
   </div>
   <v-click>
-  <div class="text-gray-800 text-3xl mt-8">
+  <div class="text-white text-3xl mt-8">
     Why you got depleted in the first place
   </div>
   </v-click>
@@ -4040,15 +4045,15 @@ background: white
 <v-clicks>
 
 <div class="text-2xl mt-6 text-gray-800">
-**1. Neurotransmitter Restoration** — Targeted amino acids rebuild production in 30-90 minutes
+<strong>1. Neurotransmitter Restoration</strong> — Targeted amino acids rebuild production in 30-90 minutes
 </div>
 
 <div class="text-2xl mt-6 text-gray-800">
-**2. Micro-Taper Protocol** — Slow, strategic reduction with amino acid compensation at every step
+<strong>2. Micro-Taper Protocol</strong> — Slow, strategic reduction with amino acid compensation at every step
 </div>
 
 <div class="text-2xl mt-6 text-gray-800">
-**3. Root Cause Resolution** — Fix the underlying issues (gut, inflammation, nutrients, stress)
+<strong>3. Root Cause Resolution</strong> — Fix the underlying issues (gut, inflammation, nutrients, stress)
 </div>
 
 </v-clicks>
@@ -4268,7 +4273,7 @@ class: text-center
 ---
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-gray-800 text-5xl font-bold">
+  <div class="text-white text-5xl font-bold">
     The Medication Freedom Pathway
   </div>
 </div>
@@ -4333,15 +4338,15 @@ background: white
 <v-clicks>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Comprehensive questionnaire** — Identify YOUR specific deficiencies
+✓ <strong>Comprehensive questionnaire</strong> — Identify YOUR specific deficiencies
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Personalized amino acid protocol** — Exact doses, timing, brands
+✓ <strong>Personalized amino acid protocol</strong> — Exact doses, timing, brands
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Symptom tracking system** — Know what's working (and what isn't)
+✓ <strong>Symptom tracking system</strong> — Know what's working (and what isn't)
 </div>
 
 </v-clicks>
@@ -4370,19 +4375,19 @@ background: white
 <v-clicks>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Step-by-step taper schedule** — Customized to YOUR medication
+✓ <strong>Step-by-step taper schedule</strong> — Customized to YOUR medication
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Weekly dose adjustments** — What to reduce when
+✓ <strong>Weekly dose adjustments<strong> — What to reduce when
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Amino acid compensation chart** — Match support to medication reductions
+✓ <strong>Amino acid compensation chart</strong> — Match support to medication reductions
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Withdrawal symptom guide** — What's normal vs. concerning
+✓ <strong>Withdrawal symptom guide</strong> — What's normal vs. concerning
 </div>
 
 </v-clicks>
@@ -4411,19 +4416,19 @@ background: white
 <v-clicks>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Gut healing protocol** — Repair leaky gut, rebalance microbiome
+✓ <strong>Gut healing protocol</strong> — Repair leaky gut, rebalance microbiome
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Anti-inflammatory nutrition plan** — Foods that support (not sabotage)
+✓ <strong>Anti-inflammatory nutrition plan</strong> — Foods that support (not sabotage)
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Blood sugar stabilization guide** — Prevent dopamine crashes
+✓ <strong>Blood sugar stabilization guide</strong> — Prevent dopamine crashes
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Targeted supplement recommendations** — Fill nutrient gaps
+✓ <strong>Targeted supplement recommendations</strong> — Fill nutrient gaps
 </div>
 
 </v-clicks>
@@ -4452,19 +4457,19 @@ background: white
 <v-clicks>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **24 live calls over 6 months** — Ask questions, get support
+✓ <strong>24 live calls over 6 months</strong> — Ask questions, get support
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Hot seat coaching** — Troubleshoot YOUR specific challenges
+✓ <strong>Hot seat coaching</strong> — Troubleshoot YOUR specific challenges
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Community support** — Connect with others on the same journey
+✓ <strong>Community support</strong> — Connect with others on the same journey
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Call recordings** — Access anytime if you miss a session
+✓ <strong>Call recordings</strong> — Access anytime if you miss a session
 </div>
 
 </v-clicks>
@@ -4493,15 +4498,15 @@ background: white
 <v-clicks>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Direct messaging with me** — Monday-Friday support
+✓ <strong>Direct messaging with me</strong> — Monday-Friday support
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **24-hour response time** — Get answers when you need them
+✓ <strong>24-hour response time</strong> — Get answers when you need them
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Crisis support** — For moments when you need immediate guidance
+✓ <strong>Crisis support</strong> — For moments when you need immediate guidance
 </div>
 
 </v-clicks>
@@ -4530,19 +4535,19 @@ background: white
 <v-clicks>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Recipe database** — Brain-chemistry-supportive meals
+✓ <strong>Recipe database</strong> — Brain-chemistry-supportive meals
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Supplement shopping guide** — Best brands, where to buy
+✓ <strong>Supplement shopping guide</strong> — Best brands, where to buy
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Meal plans & prep guides** — Make nutrition easy
+✓ <strong>Meal plans & prep guides</strong> — Make nutrition easy
 </div>
 
 <div class="text-xl mt-4 text-gray-800">
-✓ **Stress management toolkit** — Regulate nervous system
+✓ <strong>Stress management toolkit</strong> — Regulate nervous system
 </div>
 
 </v-clicks>
@@ -5419,3 +5424,4 @@ background: https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920
 <!--
 Your freedom awaits. Go to [YourURL.com] now.
 -->
+
