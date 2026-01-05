@@ -1,636 +1,1228 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
+theme: default
+title: AP Exam Success - The Parent's Blueprint
+background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 class: text-center
-# https://sli.dev/features/drawing
+highlighter: shiki
+lineNumbers: false
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
 <style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+:root {
+  --brand-primary: #194494;
+  --brand-secondary: #ba9e11;
+  --brand-accent: #f2e8b6;
+}
+
+strong {
+  color: var(--brand-primary);
+  font-weight: 700;
+}
+
+.text-accent {
+  color: var(--brand-secondary);
+  font-weight: 700;
+}
+
+.callout {
+  background: color-mix(in srgb, var(--brand-accent) 40%, white);
+  border-left: 4px solid var(--brand-secondary);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+}
+
+.callout-success {
+  background: #dcfce7;
+  border-left: 4px solid #16a34a;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+}
+
+.callout-danger {
+  background: #fee2e2;
+  border-left: 4px solid #dc2626;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+}
+
+.callout-warning {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
 }
 </style>
 
-<!--
-Here is another comment.
--->
+# AP Exam Success
 
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
+<div class="text-2xl mt-4 opacity-80">
+The Parent's Blueprint for 4s and 5s
 </div>
-<div>
 
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
+<div class="pt-12">
+  <span @click="$slidev.nav.next" class="px-6 py-3 rounded-lg cursor-pointer text-white font-semibold" style="background: var(--brand-primary);">
+    Let's Begin →
+  </span>
 </div>
 
 <!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
+Welcome everyone! To kick off this webinar, I have 5 simple True/False questions about AP exams and college admissions.
 -->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
 
 ---
 layout: center
 class: text-center
+background: white
 ---
 
-# Learn More
+<div class="flex flex-col justify-center h-full">
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+<div class="text-3xl mb-8 px-12">
+Welcome everyone!
+</div>
 
-<PoweredBySlidev mt-10 />
+<v-click>
+
+<div class="text-2xl px-12 opacity-80">
+To kick off this webinar, I have <strong>5 simple True/False questions</strong> about AP exams and college admissions.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl mt-8 px-12">
+Your answers are <span class="text-accent">critical</span> to your teen's college success and your family's financial future.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your answers are critical to your teen's college success and your family's financial future. I'll ask you a question and you type T for True or F for False in the chat. Ready? Let's see what you really know...
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 opacity-60 mb-4">
+POP QUIZ INSTRUCTIONS
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+I'll ask you a question
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+Type <strong class="text-4xl">T</strong> for True or <strong class="text-4xl">F</strong> for False in the chat
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold mt-12" style="color: var(--brand-primary);">
+Ready? Let's see what you really know...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Ready? Let's see what you really know...
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-xl mb-8 px-12 opacity-80">
+QUESTION 1
+</div>
+
+<div class="text-white text-4xl font-bold px-12">
+True or False?
+</div>
+
+</div>
+
+<!--
+True or False: If your student gets an A in their AP class, they're guaranteed to score a 4 or 5 on the AP exam.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+If your student gets an <strong>A in their AP class</strong>...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-12">
+They're <span class="text-accent">guaranteed</span> to score a 4 or 5 on the AP exam.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-primary);">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If your student gets an A in their AP class, they're guaranteed to score a 4 or 5 on the AP exam.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-7xl font-bold mb-8 text-red-600">
+FALSE
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 opacity-80">
+This is one of the most <strong>dangerous misconceptions</strong> parents have.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+False. This is one of the most dangerous misconceptions parents have.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Shocking Truth
+
+<v-click>
+
+<div class="text-xl">
+Classroom grades and AP exam scores operate on <strong>completely different systems</strong>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="callout-danger mt-4">
+⚠️ Your straight-A student could easily score a 2 or 3
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Classroom grades and AP exam scores operate on completely different systems. Your straight-A student could easily score a 2 or 3 because AP teachers focus on content mastery, while AP graders use specific scoring frameworks that most teachers never see.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+<strong>AP teachers</strong> focus on content mastery
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+But AP graders use specific scoring frameworks
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+That most teachers <strong>never see</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+because AP teachers focus on content mastery, while AP graders use specific scoring frameworks that most teachers never see.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+This gap costs families...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-6xl font-bold mb-4" style="color: var(--brand-secondary);">
+$40,000+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+In lost college credits <strong>every year</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This gap costs families $40,000+ in lost college credits every year.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-xl mb-8 px-12 opacity-80">
+QUESTION 2
+</div>
+
+<div class="text-white text-4xl font-bold px-12">
+True or False?
+</div>
+
+</div>
+
+<!--
+True or False: The best way to improve AP scores is to do more practice tests and study longer hours.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold mb-8">
+The best way to improve AP scores is...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Do more practice tests and study longer hours
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-primary);">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The best way to improve AP scores is to do more practice tests and study longer hours.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-7xl font-bold mb-8 text-red-600">
+FALSE
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+More practice <strong>without the right strategy</strong> actually reinforces wrong approaches.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+False. More practice without the right strategy actually reinforces wrong approaches.
+-->
+
+---
+layout: two-cols
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❌ Wrong Approach
+
+<v-clicks>
+
+<div class="text-xl">
+Practice with terrible form
+</div>
+
+<div class="text-xl opacity-70">
+You get really good at <strong>missing the mark</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full">
+
+# ✅ Right Approach
+
+<v-clicks>
+
+<div class="text-xl">
+Practice with <span class="text-accent">strategic frameworks</span>
+</div>
+
+<div class="text-xl opacity-70">
+You systematically <strong>improve</strong>
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+It's like practicing free throws with terrible form - you'll get really good at missing the mark. Students who score 4s and 5s don't study more; they study strategically using the exact frameworks AP graders use.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-4">
+Students who score 4s and 5s...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold px-12" style="color: var(--brand-primary);">
+Don't study <em>more</em>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They study <span class="text-accent">strategically</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+Using the exact frameworks AP graders use
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Students who score 4s and 5s don't study more; they study strategically using the exact frameworks AP graders use.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-danger">
+<div class="text-2xl font-bold mb-2">⚠️ The Truth</div>
+<div class="text-xl">
+Volume without strategy is why exhausted students still fail
+</div>
+</div>
+
+</div>
+
+<!--
+Volume without strategy is why exhausted students still fail.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-xl mb-8 px-12 opacity-80">
+QUESTION 3
+</div>
+
+<div class="text-white text-4xl font-bold px-12">
+True or False?
+</div>
+
+</div>
+
+<!--
+True or False: Expensive private tutors give you the best chance of AP success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold mb-8">
+Expensive private tutors...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Give you the <strong>best chance</strong> of AP success
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-primary);">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Expensive private tutors give you the best chance of AP success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-7xl font-bold mb-8 text-red-600">
+FALSE
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Most private tutors charge <strong>$125+ per hour</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+But lack College Board certification and insider knowledge
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+False. Most private tutors charge $125+ per hour but lack College Board certification and insider knowledge of how exams are actually scored.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# What They Teach
+
+<v-click>
+
+<div class="text-xl mb-4">
+They teach <strong>content</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl font-bold" style="color: var(--brand-primary);">
+Not scoring strategy
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They teach content, not scoring strategy.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-danger">
+<div class="text-xl mb-2">
+That's why parents spend <strong>thousands</strong> on tutoring
+</div>
+<div class="text-xl">
+And still watch their kids miss college credits
+</div>
+</div>
+
+</div>
+
+<!--
+That's why parents spend thousands on tutoring and still watch their kids miss college credits.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+The most successful students use...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-12" style="color: var(--brand-primary);">
+Certified AP teachers
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+Who know the <span class="text-accent">scoring systems</span> from the inside
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The most successful students use certified AP teachers who know the scoring systems from the inside.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-xl mb-8 px-12 opacity-80">
+QUESTION 4
+</div>
+
+<div class="text-white text-4xl font-bold px-12">
+True or False?
+</div>
+
+</div>
+
+<!--
+True or False: With college admissions getting more competitive every year, it's nearly impossible for the average student to stand out.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-6">
+With college admissions getting <strong>more competitive</strong> every year...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold">
+It's nearly impossible for the average student to stand out
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-primary);">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+With college admissions getting more competitive every year, it's nearly impossible for the average student to stand out.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-7xl font-bold mb-8 text-red-600">
+FALSE
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+While competition has increased <strong>300%</strong> in five years...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+False. While competition has increased 300% in five years, most families are still using outdated strategies from your generation.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+Most families are still using...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold px-12 text-red-600">
+Outdated strategies
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+From <em>your</em> generation
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+most families are still using outdated strategies from your generation.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-4">
+The 'secret' isn't working harder...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold px-12" style="color: var(--brand-primary);">
+It's knowing what admissions officers actually look for
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8">
+Now that <span class="text-accent">AI screens applications</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The 'secret' isn't working harder - it's knowing what admissions officers actually look for now that AI screens applications.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-success">
+<div class="text-xl mb-2">
+When you understand the <strong>new rules</strong>...
+</div>
+<div class="text-xl">
+Your student becomes the <span class="text-accent">obvious choice</span>
+</div>
+<div class="text-lg mt-2 opacity-70">
+While everyone else gets filtered out
+</div>
+</div>
+
+</div>
+
+<!--
+When you understand the new rules, your student becomes the obvious choice while everyone else gets filtered out.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-xl mb-8 px-12 opacity-80">
+QUESTION 5 (FINAL)
+</div>
+
+<div class="text-white text-4xl font-bold px-12">
+True or False?
+</div>
+
+</div>
+
+<!--
+True or False: As long as your student works hard, everything will work out for college admissions and AP success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+As long as your student <strong>works hard</strong>...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold">
+Everything will work out for college admissions and AP success
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-primary);">
+TRUE or FALSE?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+As long as your student works hard, everything will work out for college admissions and AP success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-7xl font-bold mb-8 text-red-600">
+FALSE
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Hard work <strong>without the right system</strong> leads to...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+False. Hard work without the right system leads to burnout, wasted time, and devastating disappointment.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold mb-8 px-12">
+Hard work without the right system leads to:
+</div>
+
+<v-clicks>
+
+<div class="text-2xl px-12 mb-3">
+😓 Burnout
+</div>
+
+<div class="text-2xl px-12 mb-3">
+⏰ Wasted time
+</div>
+
+<div class="text-2xl px-12">
+💔 Devastating disappointment
+</div>
+
+</v-clicks>
+
+</div>
+
+<!--
+Hard work without the right system leads to burnout, wasted time, and devastating disappointment.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# The Painful Truth
+
+<v-click>
+
+<div class="text-xl mb-4">
+Right now, <strong>thousands</strong> of hardworking students are heading toward 2s and 3s
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl">
+Losing <span class="text-accent">tens of thousands</span> in college credits
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Right now, thousands of hardworking students are heading toward 2s and 3s on their AP exams, losing tens of thousands in college credits
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+All while their parents think...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold px-12 text-red-600">
+"Working harder is the answer"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+all while their parents think 'working harder' is the answer.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-danger">
+<div class="text-2xl font-bold mb-3">⚠️ The Painful Truth</div>
+<div class="text-xl">
+Effort without strategy is just <strong>expensive failure</strong>
+</div>
+</div>
+
+</div>
+
+<!--
+The painful truth is that effort without strategy is just expensive failure.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-white text-5xl font-bold px-12 mb-12">
+Pop Quiz Complete!
+</div>
+
+<v-click>
+
+<div class="text-white text-2xl px-12">
+Now let's talk about what this <strong>really means</strong> for your family...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And that's exactly what we need to talk about next. Because if you're feeling overwhelmed by changing admissions requirements, worried your straight-A student might still fail their AP exams, and terrified you're falling behind in an increasingly competitive landscape... you're not alone.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+If you're feeling <strong>overwhelmed</strong> by changing admissions requirements...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+Worried your straight-A student might still <strong>fail</strong> their AP exams...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+And terrified you're <strong>falling behind</strong> in an increasingly competitive landscape...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because if you're feeling overwhelmed by changing admissions requirements, worried your straight-A student might still fail their AP exams, and terrified you're falling behind in an increasingly competitive landscape...
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-5xl font-bold mb-12" style="color: var(--brand-primary);">
+You're not alone
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12">
+Let's talk about <span class="text-accent">why this keeps showing up</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+And more importantly, what you can <strong>do about it</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+you're not alone. Let's talk about why this keeps showing up, and more importantly, what you can do about it...
+-->
