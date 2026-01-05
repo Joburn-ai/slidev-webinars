@@ -1569,11 +1569,11 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-clicks>
-
 <div class="text-xl px-12 mb-4">
 Families spending more money on ineffective tutoring that <strong>reinforces wrong approaches</strong>
 </div>
+
+<v-clicks>
 
 <div class="text-xl px-12 mb-4">
 Teens losing confidence as they watch others who study <em>less</em> score <span class="text-accent">better</span>
@@ -1650,7 +1650,7 @@ While wondering if you failed by not knowing how to navigate a system other fami
 </div>
 
 <!--
-When low AP scores destroy college plans, forcing parents to tell their accomplished child that despite all their sacrifices it wasn't enough.
+When low AP scores destroy college plans, forcing parents to tell their accomplished child that despite all their sacrifices it wasn't enough. While wondering if you failed by not knowing how to navigate a system other families somehow figured out.
 -->
 
 ---
@@ -1710,7 +1710,7 @@ All while realizing that traditional 'work harder' approaches actually make thin
 </div>
 
 <!--
-Combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused.
+Combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused. All while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
 -->
 
 ---
@@ -2287,3 +2287,4 @@ How does that sound?
 <!--
 How does that sound?
 -->
+
