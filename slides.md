@@ -192,7 +192,7 @@ QUESTION 1
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8 text-white">
+<div class="text-5xl font-bold mt-12 px-8 text-gray-800">
 Depression is caused by a chemical imbalance in the brain
 </div>
 
@@ -200,7 +200,7 @@ Depression is caused by a chemical imbalance in the brain
 
 <v-click>
 
-<div class="text-3xl mt-12 text-white">
+<div class="text-3xl mt-12 text-gray-600">
 TRUE or FALSE?
 </div>
 
@@ -402,7 +402,7 @@ QUESTION 2
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8 text-white">
+<div class="text-5xl font-bold mt-12 px-8 text-gray-800">
 Antidepressants fix the root cause of depression
 </div>
 
@@ -410,7 +410,7 @@ Antidepressants fix the root cause of depression
 
 <v-click>
 
-<div class="text-3xl mt-12 text-white">
+<div class="text-3xl mt-12 text-gray-600">
 TRUE or FALSE?
 </div>
 
@@ -561,7 +561,7 @@ Coming off psychiatric medications is dangerous and should never be attempted
 
 <v-click>
 
-<div class="text-3xl mt-12 text-white">
+<div class="text-3xl mt-12 text-gray-600">
 TRUE or FALSE?
 </div>
 
@@ -745,7 +745,7 @@ Natural supplements can't work for "serious" mental health issues
 
 <v-click>
 
-<div class="text-3xl mt-12 text-white">
+<div class="text-3xl mt-12 text-gray-600">
 TRUE or FALSE?
 </div>
 
@@ -931,7 +931,7 @@ If you've been on medication for years, your brain is permanently damaged
 
 <v-click>
 
-<div class="text-3xl mt-12 text-white">
+<div class="text-3xl mt-12 text-gray-600">
 TRUE or FALSE?
 </div>
 
@@ -1193,3 +1193,4 @@ Advanced certification in Amino Acid Therapy
 <!--
 My name is Carla Bate, and I'm a Master's-educated Clinical Nutritionist with advanced certification in Amino Acid Therapy.
 -->
+
