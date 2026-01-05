@@ -197,8 +197,6 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
 <div class="text-2xl px-12">
 QUESTION 1
 </div>
@@ -411,8 +409,6 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
 <div class="text-2xl px-12">
 QUESTION 2
 </div>
@@ -565,8 +561,6 @@ layout: center
 class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
-
-<div class="text-white">
 
 <div class="text-2xl px-12">
 QUESTION 3
@@ -753,8 +747,6 @@ layout: center
 class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
-
-<div class="text-white">
 
 <div class="text-2xl px-12">
 QUESTION 4
@@ -944,8 +936,6 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
 <div class="text-2xl px-12">
 QUESTION 5
 </div>
@@ -1096,8 +1086,6 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
 <div class="text-4xl font-bold px-12">
 And that's exactly what we're going to talk about today
 </div>
@@ -1204,8 +1192,6 @@ layout: center
 class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
-
-<div class="text-white">
 
 <div class="text-5xl font-bold">
 Carla Bate
@@ -1877,8 +1863,6 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
 <div class="text-3xl px-12">
 So today, I'm going to show you exactly how this works
 </div>
@@ -1967,4 +1951,5 @@ class: text-center
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
+
 
