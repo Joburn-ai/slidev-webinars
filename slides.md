@@ -6653,4 +6653,1260 @@ Go to <strong style="color: var(--brand-secondary);">[YourURL.com]</strong> righ
 Ready to secure your spot? Go to YourURL.com right now.
 -->
 
+---
+layout: center
+class: text-center
+background: white
+---
 
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Now, I need to be honest with you about something...
+</div>
+
+</div>
+
+<!--
+Now, I need to be honest with you about something.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+This <strong>webinar-only pricing</strong> of $2,997
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+And the payment plan option of three payments of $999
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 font-bold text-red-600">
+Only available during this live presentation
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This webinar-only pricing of $2,997, and the payment plan option of three payments of $999, is only available during this live presentation.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Once this webinar ends, the program goes back to its <strong>standard pricing</strong> of $4,997
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+That's an extra $2,000 you'd pay by waiting
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Once this webinar ends, the program goes back to its standard pricing of $4,997. That's an extra $2,000 you'd pay by waiting.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+Why am I doing this?
+</div>
+
+</div>
+
+<!--
+Why am I doing this?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Because I know that families who take <strong>immediate action</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Are the ones who see the <span class="text-accent">biggest results</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because I know that families who take immediate action are the ones who see the biggest results.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+The families who say <strong>"I'll think about it"</strong> and come back later?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+They've lost precious weeks of preparation time
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+And their teens are that much closer to exam day without a plan
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The families who say "I'll think about it" and come back later? They've lost precious weeks of preparation time, and their teens are that much closer to exam day without a plan.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+But there's another reason for the deadline
+</div>
+
+</div>
+
+<!--
+But there's another reason for the deadline.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+We can only accept <strong>50 new students</strong> into each cohort
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Because we provide <span class="text-accent">1-on-1 coaching</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6">
+And we refuse to compromise the quality of attention each student receives
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+We can only accept 50 new students into each cohort because we provide 1-on-1 coaching, and we refuse to compromise the quality of attention each student receives.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="callout-warning">
+<div class="text-xl font-bold mb-2">⚠️ Real Talk</div>
+<div class="text-xl">
+Our <strong>last cohort</strong> filled up with 22 spots remaining before the webinar even ended
+</div>
+</div>
+
+</div>
+
+<!--
+Real Talk: Our last cohort filled up with 22 spots remaining before the webinar even ended.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Families who waited until after the presentation to decide?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold text-red-600">
+They were placed on a waitlist
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+And had to wait months for the next available cohort
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Families who waited until after the presentation to decide? They were placed on a waitlist and had to wait months for the next available cohort.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+By which point, <strong>AP exams were too close</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+And they missed the window to make a real difference
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+By which point, AP exams were too close, and they missed the window to make a real difference.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+Don't let that be your family
+</div>
+
+</div>
+
+<!--
+Don't let that be your family.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Let me address the questions I know are going through your mind right now
+</div>
+
+</div>
+
+<!--
+Let me address the questions I know are going through your mind right now.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❓ "What if my teen is too busy?"
+
+<v-click>
+
+<div class="text-xl mb-4">
+Perfect. This program is <strong>designed</strong> for busy, high-achieving students.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl">
+The weekly sessions are <span class="text-accent">one hour</span>, and the self-study work integrates with their existing homework schedule.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if my teen is too busy?" Perfect. This program is designed for busy, high-achieving students. The weekly sessions are one hour, and the self-study work integrates with their existing homework schedule.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❓ "What if they're taking multiple AP exams?"
+
+<v-click>
+
+<div class="text-xl mb-4">
+Even better. The <strong>platform access</strong> covers all 38 AP subjects.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl">
+Your coach will help prioritize and create a strategy that maximizes results across <span class="text-accent">all their exams</span>.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if they're taking multiple AP exams?" Even better. The platform access covers all 38 AP subjects. Your coach will help prioritize and create a strategy that maximizes results across all their exams.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❓ "What if we're already working with a tutor?"
+
+<v-click>
+
+<div class="text-xl mb-4">
+Great question. Most families find our approach <strong>complements</strong> existing tutoring.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl">
+We focus on <span class="text-accent">exam strategy and scoring systems</span>, which most tutors don't cover.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if we're already working with a tutor?" Great question. Most families find our approach complements existing tutoring. We focus on exam strategy and scoring systems, which most tutors don't cover.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❓ "What if my teen isn't motivated?"
+
+<v-click>
+
+<div class="text-xl mb-4">
+Honestly? This probably isn't the right fit. This program requires <strong>commitment</strong> from the student.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl">
+But if your teen wants to succeed and just needs <span class="text-accent">the right system</span>? Perfect.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if my teen isn't motivated?" Honestly? This probably isn't the right fit. This program requires commitment from the student. But if your teen wants to succeed and just needs the right system? Perfect.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# ❓ "What if it doesn't work for us?"
+
+<v-click>
+
+<div class="text-xl mb-4">
+Remember the <strong>Score Guarantee Protection</strong>?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl">
+If your teen completes the program and doesn't improve, we keep coaching them <span class="text-accent">for free</span> until they do.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if it doesn't work for us?" Remember the Score Guarantee Protection? If your teen completes the program and doesn't improve, we keep coaching them for free until they do.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+You literally cannot lose
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+Either your teen gets results, or we keep working until they do
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You literally cannot lose. Either your teen gets results, or we keep working until they do.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-12" style="color: var(--brand-primary);">
+Here's what happens next
+</div>
+
+</div>
+
+<!--
+Here's what happens next.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## The Enrollment Process
+
+<v-clicks>
+
+**Step 1:** Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right now
+
+**Step 2:** Choose your payment option (full payment or 3 installments)
+
+**Step 3:** Complete the brief student profile (helps us match you with the perfect coach)
+
+**Step 4:** You'll receive an email within 24 hours with your coach assignment and first session scheduling link
+
+**Step 5:** Your teen's first session happens within the next 7 days
+
+</v-clicks>
+
+</div>
+
+<!--
+The Enrollment Process. Step 1: Go to YourURL.com right now. Step 2: Choose your payment option - full payment or 3 installments. Step 3: Complete the brief student profile - helps us match you with the perfect coach. Step 4: You'll receive an email within 24 hours with your coach assignment and first session scheduling link. Step 5: Your teen's first session happens within the next 7 days.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+That's how fast we move
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+From "I'm worried about AP exams" to "We have a plan and expert support"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-8 opacity-70">
+In less than one week
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's how fast we move. From "I'm worried about AP exams" to "We have a plan and expert support" in less than one week.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8">
+Imagine this...
+</div>
+
+</div>
+
+<!--
+Imagine this.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+# Three Months From Now
+
+<div class="text-xl">
+Your teen walks into AP exams with <strong>complete confidence</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl mt-4">
+Knowing exactly what each grader wants to see
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Three months from now. Your teen walks into AP exams with complete confidence, knowing exactly what each grader wants to see.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+They finish each exam feeling <strong>certain</strong> they nailed it
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+No anxiety, no second-guessing, just <span class="text-accent">quiet confidence</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They finish each exam feeling certain they nailed it. No anxiety, no second-guessing, just quiet confidence.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Then the scores come back
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold px-12" style="color: var(--brand-accent);">
+5s across the board
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Then the scores come back. 5s across the board.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Your teen becomes the success story that <strong>other parents</strong> ask about
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+"How did you do it? What's your secret?"
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen becomes the success story that other parents ask about. "How did you do it? What's your secret?"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+And when college acceptance letters arrive?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold" style="color: var(--brand-primary);">
+Your teen enters with 30+ credits already completed
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And when college acceptance letters arrive? Your teen enters with 30+ credits already completed.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+Saving your family <strong>$40,000+</strong> in tuition
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+While giving them a massive head start on their <span class="text-accent">college career</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Saving your family $40,000+ in tuition while giving them a massive head start on their college career.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+That future is available to you right now
+</div>
+
+</div>
+
+<!--
+That future is available to you right now.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+All you have to do is go to:
+</div>
+
+<v-click>
+
+<div class="text-6xl font-bold px-12" style="color: var(--brand-accent);">
+[YourURL.com]
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+All you have to do is go to: YourURL.com
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+And click the <strong>"Secure My Spot"</strong> button
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 opacity-70">
+That's it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And click the "Secure My Spot" button. That's it.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+You're <strong>three clicks</strong> away from transforming your teen's AP exam results
+</div>
+
+</div>
+
+<!--
+You're three clicks away from transforming your teen's AP exam results.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+Or...
+</div>
+
+</div>
+
+<!--
+Or.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+You could close this page and go back to <strong>hoping</strong> things work out
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Watching your teen struggle with traditional prep methods that <span class="text-accent">aren't designed for AP success</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You could close this page and go back to hoping things work out, watching your teen struggle with traditional prep methods that aren't designed for AP success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-8">
+Throwing money at expensive tutors who don't understand <strong>insider scoring secrets</strong>
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Only to watch those devastating 2s and 3s come back in July
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Throwing money at expensive tutors who don't understand insider scoring secrets, only to watch those devastating 2s and 3s come back in July.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 font-bold text-red-600">
+After it's too late to do anything about it
+</div>
+
+</div>
+
+<!--
+After it's too late to do anything about it.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+That's the real risk here
+</div>
+
+</div>
+
+<!--
+That's the real risk here.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+It's not that this program won't work
+</div>
+
+<v-click>
+
+<div class="text-xl px-12 mb-4">
+It's that you'll wait too long to start
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 font-bold mt-8" style="color: var(--brand-primary);">
+And miss the window where we can make the biggest difference
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's not that this program won't work. It's that you'll wait too long to start and miss the window where we can make the biggest difference.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+So let me ask you one final question:
+</div>
+
+</div>
+
+<!--
+So let me ask you one final question.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+If not now, when?
+</div>
+
+</div>
+
+<!--
+If not now, when?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12 mb-4">
+If not this proven system with expert coaches, then what?
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+If not with a <span class="text-accent">guarantee</span> that removes all risk, then how?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If not this proven system with expert coaches, then what? If not with a guarantee that removes all risk, then how?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Your teen deserves this
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mb-8">
+Your family deserves this
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-primary);">
+And you deserve the peace of mind
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen deserves this. Your family deserves this. And you deserve the peace of mind.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-xl px-12">
+That comes from knowing you did everything possible to <strong>set them up for success</strong>
+</div>
+
+</div>
+
+<!--
+That comes from knowing you did everything possible to set them up for success.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-5xl font-bold px-12 mb-12">
+🎯 TAKE ACTION NOW
+</div>
+
+<v-click>
+
+<div class="text-4xl px-12 mb-8">
+Go to: <strong style="color: var(--brand-accent);">[YourURL.com]</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12">
+And secure your spot in the next cohort
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Take Action Now. Go to: YourURL.com and secure your spot in the next cohort.
+-->
+
+---
+layout: default
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+## ✅ What You're Getting Today
+
+<v-clicks>
+
+✓ 12 Weeks of Expert 1-on-1 Coaching
+
+✓ Lifetime Platform Access (All 38 AP Exams)
+
+✓ College Application Accelerator
+
+✓ Parent Success Partnership
+
+✓ Test Day Strategy Guide
+
+✓ Score Guarantee Protection
+
+✓ Webinar-Only Pricing: Just $2,997 (or 3 payments of $999)
+
+</v-clicks>
+
+</div>
+
+<!--
+What You're Getting Today. 12 Weeks of Expert 1-on-1 Coaching. Lifetime Platform Access - All 38 AP Exams. College Application Accelerator. Parent Success Partnership. Test Day Strategy Guide. Score Guarantee Protection. Webinar-Only Pricing: Just $2,997 or 3 payments of $999.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12 font-bold mb-8" style="color: var(--brand-primary);">
+I'll see you on the inside
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Where we'll transform your teen from <strong>worried</strong> to <span class="text-accent">confident 5-scorer</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+I'll see you on the inside, where we'll transform your teen from worried to confident 5-scorer.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12 mb-8">
+Thank you for your time today
+</div>
+
+<v-click>
+
+<div class="text-xl px-12">
+Now go secure your spot at:
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold px-12 mt-8" style="color: var(--brand-accent);">
+[YourURL.com]
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Thank you for your time today. Now go secure your spot at: YourURL.com
+-->
+
+---
+layout: end
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-6xl font-bold mb-12">
+AP MASTERY ACADEMY
+</div>
+
+<div class="text-3xl mb-8">
+Enroll Now: <strong style="color: var(--brand-accent);">[YourURL.com]</strong>
+</div>
+
+<div class="text-xl opacity-80">
+Questions? Email: support@apmasteryacademy.com
+</div>
+
+</div>
+
+<!--
+AP Mastery Academy. Enroll Now: YourURL.com. Questions? Email: support@apmasteryacademy.com
+-->
