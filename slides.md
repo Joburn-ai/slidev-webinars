@@ -18,17 +18,6 @@ mdc: true
   --brand-accent: #10b981;
 }
 
-/* Force default text to be dark */
-.slidev-layout {
-  color: #1a1a1a !important;
-}
-
-/* Only make text white when explicitly inside .text-white wrapper */
-.text-white,
-.text-white * {
-  color: white !important;
-}
-
 strong {
   color: var(--brand-primary);
   font-weight: 700;
@@ -73,9 +62,7 @@ strong {
 
 # Brain Chemistry Reset
 
-<div class="text-white">
-
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-white">
 The Medication Freedom Pathway
 </div>
 
@@ -83,8 +70,6 @@ The Medication Freedom Pathway
   <span @click="$slidev.nav.next" class="px-6 py-3 rounded-lg cursor-pointer bg-blue-600 hover:bg-blue-700 text-white font-semibold">
     Join Us →
   </span>
-</div>
-
 </div>
 
 <!--
@@ -97,13 +82,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Welcome! Drop in the chat where you're joining from
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-600">
 We'll start in just a few minutes
 </div>
 
@@ -111,6 +96,11 @@ We'll start in just a few minutes
 
 <!--
 While we're waiting for a few more people to join, go ahead and drop in the chat where you're joining from. I'd love to see where everyone's at!
+[Read and acknowledge chat responses]
+Great! I see we've got people from [locations]. This is awesome.
+We're going to start in just a few minutes. In the meantime, make sure you can hear me okay—if you can, drop a thumbs up in the chat.
+[Wait for responses]
+Perfect! I'm seeing lots of thumbs up. We're good to go.
 -->
 
 ---
@@ -123,15 +113,15 @@ background: white
 
 <v-clicks>
 
-<div class="text-2xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8 text-gray-800">
 ❓ <strong>Questions?</strong> Drop them in the Q&A box
 </div>
 
-<div class="text-2xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6 text-gray-800">
 📝 <strong>Take notes</strong> - Years of learning packed into 90 minutes
 </div>
 
-<div class="text-2xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6 text-gray-800">
 🎁 <strong>Stick around</strong> - Special offer at the end
 </div>
 
@@ -142,6 +132,7 @@ Quick housekeeping before we dive in:
 First, throughout this training, I'll be answering questions live. If you have a question, drop it in the Q&A box (not the chat), and I'll get to as many as I can.
 Second, you're going to want to take notes. What I'm about to share with you has taken me years to learn, and I'm going to pack it all into the next 90 minutes.
 And third, stick around until the end because I have something special for everyone who stays. It's going to be worth your time, I promise.
+Alright, we've got a great group here. We're going to start in just 2 more minutes. Get your notebooks ready!
 -->
 
 ---
@@ -150,12 +141,12 @@ background: https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=1920
 class: text-center
 ---
 
-<div class="text-white" style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-6xl font-bold">
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-6xl font-bold">
     Quick Pop Quiz
   </div>
   <v-click>
-  <div class="text-3xl mt-4">
+  <div class="text-white text-3xl mt-4">
     TRUE or FALSE?
   </div>
   </v-click>
@@ -163,7 +154,8 @@ class: text-center
 
 <!--
 Alright everyone, we're going to dive right in with something fun.
-I'm going to give you 5 true or false questions about psychiatric medications and brain chemistry.
+I'm going to give you 5 true or false questions about psychiatric medications and brain chemistry. Type "T" for true or "F" for false in the chat. Let's see how much you actually know!
+Ready? Here we go:
 -->
 
 ---
@@ -172,13 +164,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Type "T" for true or "F" for false in the chat
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-600">
 Let's see how much you actually know!
 </div>
 
@@ -194,15 +186,13 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-white">
 QUESTION 1
 </div>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8">
+<div class="text-5xl font-bold mt-12 px-8 text-white">
 Depression is caused by a chemical imbalance in the brain
 </div>
 
@@ -210,13 +200,11 @@ Depression is caused by a chemical imbalance in the brain
 
 <v-click>
 
-<div class="text-3xl mt-12">
+<div class="text-3xl mt-12 text-white">
 TRUE or FALSE?
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 Depression is caused by a chemical imbalance in the brain. True or false?
@@ -229,13 +217,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 I'm seeing a lot of T's... some F's...
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12">
+<div class="text-4xl font-bold mt-12 text-gray-800">
 Interesting!
 </div>
 
@@ -252,7 +240,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-4xl font-bold">
+<div class="text-4xl font-bold text-gray-800">
 The answer is...
 </div>
 
@@ -276,13 +264,13 @@ background: white
 
 # The Truth
 
-<div class="text-2xl">
+<div class="text-2xl text-gray-800">
 The "chemical imbalance" theory was <strong>never proven</strong>
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 It was pharmaceutical <strong>marketing</strong>
 </div>
 
@@ -300,13 +288,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Depression and anxiety are <strong>SYMPTOMS</strong>
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-600">
 Not diseases
 </div>
 
@@ -328,25 +316,25 @@ background: white
 
 # Symptoms of What?
 
-<div class="text-2xl">
+<div class="text-2xl text-gray-800">
 ✓ Nutrient deficiencies
 </div>
 
 <v-clicks>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 ✓ Neurotransmitter depletion
 </div>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 ✓ Inflammation
 </div>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 ✓ Gut problems
 </div>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 ✓ Hormone imbalances
 </div>
 
@@ -364,7 +352,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-4xl px-12">
+<div class="text-4xl px-12 text-gray-800">
 Your brain isn't <strong>broken</strong>
 </div>
 
@@ -378,7 +366,7 @@ It's depleted
 
 <v-click>
 
-<div class="text-3xl mt-8">
+<div class="text-3xl mt-8 text-gray-600">
 Big difference
 </div>
 
@@ -394,7 +382,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Let's keep going!
 </div>
 
@@ -408,15 +396,13 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-white">
 QUESTION 2
 </div>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8">
+<div class="text-5xl font-bold mt-12 px-8 text-white">
 Antidepressants fix the root cause of depression
 </div>
 
@@ -424,13 +410,11 @@ Antidepressants fix the root cause of depression
 
 <v-click>
 
-<div class="text-3xl mt-12">
+<div class="text-3xl mt-12 text-white">
 TRUE or FALSE?
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 Antidepressants fix the root cause of depression. True or false?
@@ -442,13 +426,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 I'm seeing mostly F's this time...
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12">
+<div class="text-4xl font-bold mt-12 text-gray-800">
 You're catching on!
 </div>
 
@@ -465,7 +449,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-4xl font-bold">
+<div class="text-4xl font-bold text-gray-800">
 The answer is
 </div>
 
@@ -491,17 +475,17 @@ background: white
 
 # What Antidepressants Actually Do
 
-<div class="text-2xl">
+<div class="text-2xl text-gray-800">
 They <strong>suppress symptoms</strong>
 </div>
 
 <v-clicks>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 By artificially manipulating neurotransmitters
 </div>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-gray-800">
 But don't address <strong>WHY</strong> production stopped
 </div>
 
@@ -519,7 +503,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 It's like putting tape over your car's
 </div>
 
@@ -533,7 +517,7 @@ It's like putting tape over your car's
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-600">
 The light turns off, but the engine is still broken
 </div>
 
@@ -549,7 +533,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Next question!
 </div>
 
@@ -563,15 +547,13 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-white">
 QUESTION 3
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8">
+<div class="text-4xl font-bold mt-12 px-8 text-white">
 Coming off psychiatric medications is dangerous and should never be attempted
 </div>
 
@@ -579,13 +561,11 @@ Coming off psychiatric medications is dangerous and should never be attempted
 
 <v-click>
 
-<div class="text-3xl mt-12">
+<div class="text-3xl mt-12 text-white">
 TRUE or FALSE?
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 Coming off psychiatric medications is dangerous and should never be attempted. True or false?
@@ -597,13 +577,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 I'm seeing mixed answers here
 </div>
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 Some T's, some F's
 </div>
 
@@ -620,7 +600,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-4xl font-bold">
+<div class="text-4xl font-bold text-gray-800">
 The answer is...
 </div>
 
@@ -634,7 +614,7 @@ FALSE
 
 <v-click>
 
-<div class="text-2xl mt-8">
+<div class="text-2xl mt-8 text-gray-600">
 (with an important caveat)
 </div>
 
@@ -657,17 +637,17 @@ background: white
 
 # ❌ Without Proper Support
 
-<div class="text-xl">
+<div class="text-xl text-gray-800">
 Coming off meds IS dangerous
 </div>
 
 <v-clicks>
 
-<div class="text-xl mt-4">
+<div class="text-xl mt-4 text-gray-800">
 Brain zaps, panic, relapse
 </div>
 
-<div class="text-xl mt-4">
+<div class="text-xl mt-4 text-gray-800">
 Most people crash
 </div>
 
@@ -679,17 +659,17 @@ Most people crash
 
 # ✅ With Right Tools
 
-<div class="text-xl">
+<div class="text-xl text-gray-800">
 Can be smooth and safe
 </div>
 
 <v-clicks>
 
-<div class="text-xl mt-4">
+<div class="text-xl mt-4 text-gray-800">
 Biochemical restoration protocol
 </div>
 
-<div class="text-xl mt-4">
+<div class="text-xl mt-4 text-gray-800">
 Support before AND during taper
 </div>
 
@@ -715,7 +695,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 The problem isn't that people <strong>shouldn't</strong> come off meds
 </div>
 
@@ -737,7 +717,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Alright, two more!
 </div>
 
@@ -751,15 +731,13 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-white">
 QUESTION 4
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8">
+<div class="text-4xl font-bold mt-12 px-8 text-white">
 Natural supplements can't work for "serious" mental health issues
 </div>
 
@@ -767,13 +745,11 @@ Natural supplements can't work for "serious" mental health issues
 
 <v-click>
 
-<div class="text-3xl mt-12">
+<div class="text-3xl mt-12 text-white">
 TRUE or FALSE?
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 Natural supplements can't work for 'serious' mental health issues. True or false?
@@ -785,13 +761,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 I see a lot of F's!
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12">
+<div class="text-4xl font-bold mt-12 text-gray-800">
 You're paying attention
 </div>
 
@@ -808,7 +784,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-4xl font-bold">
+<div class="text-4xl font-bold text-gray-800">
 The answer is
 </div>
 
@@ -832,7 +808,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 But here's the thing...
 </div>
 
@@ -860,17 +836,17 @@ background: white
 
 # The Difference
 
-<div class="text-2xl">
+<div class="text-2xl text-gray-800">
 ❌ Throwing 5-HTP at the problem
 </div>
 
 <v-clicks>
 
-<div class="text-2xl mt-6">
+<div class="text-2xl mt-6 text-gray-800">
 ✅ <strong>Targeted</strong> amino acid therapy
 </div>
 
-<div class="text-2xl mt-6">
+<div class="text-2xl mt-6 text-gray-800">
 Based on <strong>YOUR</strong> specific deficiencies
 </div>
 
@@ -888,7 +864,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Targeted amino acid therapy can restore neurotransmitter production in
 </div>
 
@@ -902,7 +878,7 @@ MINUTES to HOURS
 
 <v-click>
 
-<div class="text-2xl mt-8">
+<div class="text-2xl mt-8 text-gray-600">
 Not months. Not years. Minutes.
 </div>
 
@@ -918,13 +894,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 I'll show you exactly how in a few minutes
 </div>
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 Last question!
 </div>
 
@@ -941,15 +917,13 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-white">
 QUESTION 5
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8">
+<div class="text-4xl font-bold mt-12 px-8 text-white">
 If you've been on medication for years, your brain is permanently damaged
 </div>
 
@@ -957,13 +931,11 @@ If you've been on medication for years, your brain is permanently damaged
 
 <v-click>
 
-<div class="text-3xl mt-12">
+<div class="text-3xl mt-12 text-white">
 TRUE or FALSE?
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 If you've been on medication for years, your brain is permanently damaged. True or false?
@@ -975,13 +947,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Lots of F's...
 </div>
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 I hope so, because...
 </div>
 
@@ -998,7 +970,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-4xl font-bold">
+<div class="text-4xl font-bold text-gray-800">
 The answer is
 </div>
 
@@ -1020,12 +992,12 @@ background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920
 class: text-center
 ---
 
-<div class="text-white" style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-4xl font-bold px-12">
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-4xl font-bold px-12">
     Your brain has an incredible capacity to heal
   </div>
   <v-click>
-  <div class="text-2xl mt-6">
+  <div class="text-white text-2xl mt-6">
     When given the right support
   </div>
   </v-click>
@@ -1041,7 +1013,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 I've worked with clients on medications for
 </div>
 
@@ -1055,7 +1027,7 @@ I've worked with clients on medications for
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 And watched their brains restore natural production
 </div>
 
@@ -1071,7 +1043,7 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 It's not about how <strong>long</strong> you've been on meds
 </div>
 
@@ -1093,12 +1065,8 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-4xl font-bold px-12">
+<div class="text-4xl font-bold px-12 text-white">
 And that's exactly what we're going to talk about today
-</div>
-
 </div>
 
 <!--
@@ -1111,13 +1079,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 So if you got a few of those wrong, don't worry
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-600">
 You're not alone
 </div>
 
@@ -1135,7 +1103,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Most of what we've been told about depression, anxiety, and psychiatric medications is
 </div>
 
@@ -1159,12 +1127,12 @@ background: https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920
 class: text-center
 ---
 
-<div class="text-white" style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
-  <div class="text-3xl px-12">
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+  <div class="text-white text-3xl px-12">
     Over the next hour, I'm going to show you what's <strong>actually TRUE</strong>
   </div>
   <v-click>
-  <div class="text-4xl font-bold mt-12" style="color: #10b981;">
+  <div class="text-white text-4xl font-bold mt-12" style="color: #10b981;">
     And more importantly, what you can DO about it
   </div>
   </v-click>
@@ -1180,13 +1148,13 @@ class: text-center
 background: white
 ---
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 But first, let me tell you who I am
 </div>
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 And why you should listen to me
 </div>
 
@@ -1202,15 +1170,13 @@ class: text-center
 background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)
 ---
 
-<div class="text-white">
-
-<div class="text-5xl font-bold">
+<div class="text-5xl font-bold text-white">
 Carla Bate
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8">
+<div class="text-2xl mt-8 text-white">
 Master's-educated Clinical Nutritionist
 </div>
 
@@ -1218,13 +1184,11 @@ Master's-educated Clinical Nutritionist
 
 <v-click>
 
-<div class="text-2xl mt-4">
+<div class="text-2xl mt-4 text-white">
 Advanced certification in Amino Acid Therapy
 </div>
 
 </v-click>
-
-</div>
 
 <!--
 My name is Carla Bate, and I'm a Master's-educated Clinical Nutritionist with advanced certification in Amino Acid Therapy.
