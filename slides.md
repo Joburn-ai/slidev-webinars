@@ -1588,7 +1588,7 @@ And the whole family sacrificing mental health and relationships in pursuit of s
 </div>
 
 <!--
-Families spending more money on ineffective tutoring that reinforces wrong approaches, teens losing confidence as they watch others who study less score better.
+Families spending more money on ineffective tutoring that reinforces wrong approaches, teens losing confidence as they watch others who study less score better, And the whole family sacrificing mental health and relationships in pursuit of scores that never improve.
 -->
 
 ---
@@ -2287,4 +2287,5 @@ How does that sound?
 <!--
 How does that sound?
 -->
+
 
