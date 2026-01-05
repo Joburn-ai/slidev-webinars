@@ -18,6 +18,17 @@ mdc: true
   --brand-accent: #10b981;
 }
 
+/* Force default text to be dark */
+.slidev-layout {
+  color: #1a1a1a !important;
+}
+
+/* Only make text white when explicitly inside .text-white wrapper */
+.text-white,
+.text-white * {
+  color: white !important;
+}
+
 strong {
   color: var(--brand-primary);
   font-weight: 700;
@@ -1956,3 +1967,4 @@ class: text-center
 <!--
 But before we get there, let me show you what's actually going on in your brain right now.
 -->
+
