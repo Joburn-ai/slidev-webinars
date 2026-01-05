@@ -78,7 +78,7 @@ The Parent's Blueprint for 4s and 5s
 </div>
 
 <!--
-Welcome everyone! To kick off this webinar, I have 5 simple True/False questions about AP exams and college admissions.
+Welcome everyone!
 -->
 
 ---
@@ -112,7 +112,7 @@ Your answers are <span class="text-accent">critical</span> to your teen's colleg
 </div>
 
 <!--
-Your answers are critical to your teen's college success and your family's financial future. I'll ask you a question and you type T for True or F for False in the chat. Ready? Let's see what you really know...
+To kick off this webinar, I have 5 simple True/False questions about AP exams and college admissions. Your answers are critical to your teen's college success and your family's financial future.
 -->
 
 ---
@@ -130,15 +130,7 @@ POP QUIZ INSTRUCTIONS
 <v-click>
 
 <div class="text-2xl px-12">
-I'll ask you a question
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-2xl px-12 mt-4">
-Type <strong class="text-4xl">T</strong> for True or <strong class="text-4xl">F</strong> for False in the chat
+I'll ask you a question and you type T for True or F for False in the chat.
 </div>
 
 </v-click>
@@ -154,7 +146,7 @@ Ready? Let's see what you really know...
 </div>
 
 <!--
-Ready? Let's see what you really know...
+I'll ask you a question and you type T for True or F for False in the chat. Ready? Let's see what you really know...
 -->
 
 ---
@@ -165,18 +157,18 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-xl mb-8 px-12 opacity-80">
+<div class="text-xl mb-8 px-12 opacity-80">
 QUESTION 1
 </div>
 
-<div class="text-white text-4xl font-bold px-12">
+<div class="text-4xl font-bold px-12">
 True or False?
 </div>
 
 </div>
 
 <!--
-True or False: If your student gets an A in their AP class, they're guaranteed to score a 4 or 5 on the AP exam.
+Question 1: True or False?
 -->
 
 ---
@@ -187,13 +179,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-8">
 If your student gets an <strong>A in their AP class</strong>...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -214,7 +202,7 @@ TRUE or FALSE?
 </div>
 
 <!--
-If your student gets an A in their AP class, they're guaranteed to score a 4 or 5 on the AP exam.
+If your student gets an A in their AP class, they're guaranteed to score a 4 or 5 on the AP exam. True or False?
 -->
 
 ---
@@ -253,13 +241,9 @@ background: white
 
 # The Shocking Truth
 
-<v-click>
-
 <div class="text-xl">
 Classroom grades and AP exam scores operate on <strong>completely different systems</strong>.
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -272,7 +256,7 @@ Classroom grades and AP exam scores operate on <strong>completely different syst
 </div>
 
 <!--
-Classroom grades and AP exam scores operate on completely different systems. Your straight-A student could easily score a 2 or 3 because AP teachers focus on content mastery, while AP graders use specific scoring frameworks that most teachers never see.
+Classroom grades and AP exam scores operate on completely different systems. Your straight-A student could easily score a 2 or 3.
 -->
 
 ---
@@ -283,13 +267,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-xl px-12 mb-4">
 <strong>AP teachers</strong> focus on content mastery
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -310,7 +290,7 @@ That most teachers <strong>never see</strong>
 </div>
 
 <!--
-because AP teachers focus on content mastery, while AP graders use specific scoring frameworks that most teachers never see.
+AP teachers focus on content mastery, but AP graders use specific scoring frameworks that most teachers never see.
 -->
 
 ---
@@ -321,13 +301,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-8">
 This gap costs families...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -359,18 +335,18 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-xl mb-8 px-12 opacity-80">
+<div class="text-xl mb-8 px-12 opacity-80">
 QUESTION 2
 </div>
 
-<div class="text-white text-4xl font-bold px-12">
+<div class="text-4xl font-bold px-12">
 True or False?
 </div>
 
 </div>
 
 <!--
-True or False: The best way to improve AP scores is to do more practice tests and study longer hours.
+Question 2: True or False?
 -->
 
 ---
@@ -381,13 +357,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-3xl px-12 font-bold mb-8">
 The best way to improve AP scores is...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -408,7 +380,7 @@ TRUE or FALSE?
 </div>
 
 <!--
-The best way to improve AP scores is to do more practice tests and study longer hours.
+The best way to improve AP scores is to do more practice tests and study longer hours. True or False?
 -->
 
 ---
@@ -481,7 +453,7 @@ You systematically <strong>improve</strong>
 </div>
 
 <!--
-It's like practicing free throws with terrible form - you'll get really good at missing the mark. Students who score 4s and 5s don't study more; they study strategically using the exact frameworks AP graders use.
+It's like practicing free throws with terrible form - you'll get really good at missing the mark.
 -->
 
 ---
@@ -492,13 +464,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-4">
 Students who score 4s and 5s...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -512,14 +480,6 @@ Don't study <em>more</em>
 
 <div class="text-3xl px-12 mt-8">
 They study <span class="text-accent">strategically</span>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-xl px-12 mt-6 opacity-70">
-Using the exact frameworks AP graders use
 </div>
 
 </v-click>
@@ -559,18 +519,18 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-xl mb-8 px-12 opacity-80">
+<div class="text-xl mb-8 px-12 opacity-80">
 QUESTION 3
 </div>
 
-<div class="text-white text-4xl font-bold px-12">
+<div class="text-4xl font-bold px-12">
 True or False?
 </div>
 
 </div>
 
 <!--
-True or False: Expensive private tutors give you the best chance of AP success.
+Question 3: True or False?
 -->
 
 ---
@@ -581,13 +541,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-3xl px-12 font-bold mb-8">
 Expensive private tutors...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -608,7 +564,7 @@ TRUE or FALSE?
 </div>
 
 <!--
-Expensive private tutors give you the best chance of AP success.
+Expensive private tutors give you the best chance of AP success. True or False?
 -->
 
 ---
@@ -626,15 +582,7 @@ FALSE
 <v-click>
 
 <div class="text-2xl px-12">
-Most private tutors charge <strong>$125+ per hour</strong>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-xl px-12 mt-6 opacity-70">
-But lack College Board certification and insider knowledge
+Most private tutors charge <strong>$125+ per hour</strong> but lack College Board certification
 </div>
 
 </v-click>
@@ -647,7 +595,7 @@ False. Most private tutors charge $125+ per hour but lack College Board certific
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+image: https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1920
 background: white
 ---
 
@@ -655,13 +603,9 @@ background: white
 
 # What They Teach
 
-<v-click>
-
 <div class="text-xl mb-4">
 They teach <strong>content</strong>
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -687,10 +631,7 @@ background: white
 
 <div class="callout-danger">
 <div class="text-xl mb-2">
-That's why parents spend <strong>thousands</strong> on tutoring
-</div>
-<div class="text-xl">
-And still watch their kids miss college credits
+That's why parents spend <strong>thousands</strong> on tutoring and still watch their kids miss college credits
 </div>
 </div>
 
@@ -708,13 +649,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-8">
 The most successful students use...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -746,18 +683,18 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-xl mb-8 px-12 opacity-80">
+<div class="text-xl mb-8 px-12 opacity-80">
 QUESTION 4
 </div>
 
-<div class="text-white text-4xl font-bold px-12">
+<div class="text-4xl font-bold px-12">
 True or False?
 </div>
 
 </div>
 
 <!--
-True or False: With college admissions getting more competitive every year, it's nearly impossible for the average student to stand out.
+Question 4: True or False?
 -->
 
 ---
@@ -768,13 +705,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-6">
 With college admissions getting <strong>more competitive</strong> every year...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -795,7 +728,7 @@ TRUE or FALSE?
 </div>
 
 <!--
-With college admissions getting more competitive every year, it's nearly impossible for the average student to stand out.
+With college admissions getting more competitive every year, it's nearly impossible for the average student to stand out. True or False?
 -->
 
 ---
@@ -813,7 +746,7 @@ FALSE
 <v-click>
 
 <div class="text-xl px-12">
-While competition has increased <strong>300%</strong> in five years...
+While competition has increased <strong>300%</strong> in five years, most families are still using outdated strategies
 </div>
 
 </v-click>
@@ -832,51 +765,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
-<div class="text-2xl px-12 mb-8">
-Most families are still using...
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-4xl font-bold px-12 text-red-600">
-Outdated strategies
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-xl px-12 mt-6 opacity-70">
-From <em>your</em> generation
-</div>
-
-</v-click>
-
-</div>
-
-<!--
-most families are still using outdated strategies from your generation.
--->
-
----
-layout: center
-class: text-center
-background: white
----
-
-<div class="flex flex-col justify-center h-full">
-
-<v-click>
-
 <div class="text-2xl px-12 mb-4">
 The 'secret' isn't working harder...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -909,14 +800,8 @@ background: white
 <div class="flex flex-col justify-center h-full">
 
 <div class="callout-success">
-<div class="text-xl mb-2">
-When you understand the <strong>new rules</strong>...
-</div>
 <div class="text-xl">
-Your student becomes the <span class="text-accent">obvious choice</span>
-</div>
-<div class="text-lg mt-2 opacity-70">
-While everyone else gets filtered out
+When you understand the new rules, your student becomes the obvious choice while everyone else gets filtered out
 </div>
 </div>
 
@@ -934,18 +819,18 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-xl mb-8 px-12 opacity-80">
+<div class="text-xl mb-8 px-12 opacity-80">
 QUESTION 5 (FINAL)
 </div>
 
-<div class="text-white text-4xl font-bold px-12">
+<div class="text-4xl font-bold px-12">
 True or False?
 </div>
 
 </div>
 
 <!--
-True or False: As long as your student works hard, everything will work out for college admissions and AP success.
+Question 5: True or False?
 -->
 
 ---
@@ -956,13 +841,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-8">
 As long as your student <strong>works hard</strong>...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -983,7 +864,7 @@ TRUE or FALSE?
 </div>
 
 <!--
-As long as your student works hard, everything will work out for college admissions and AP success.
+As long as your student works hard, everything will work out for college admissions and AP success. True or False?
 -->
 
 ---
@@ -1001,7 +882,7 @@ FALSE
 <v-click>
 
 <div class="text-2xl px-12">
-Hard work <strong>without the right system</strong> leads to...
+Hard work <strong>without the right system</strong> leads to burnout, wasted time, and devastating disappointment
 </div>
 
 </v-click>
@@ -1010,40 +891,6 @@ Hard work <strong>without the right system</strong> leads to...
 
 <!--
 False. Hard work without the right system leads to burnout, wasted time, and devastating disappointment.
--->
-
----
-layout: center
-class: text-center
-background: white
----
-
-<div class="flex flex-col justify-center h-full">
-
-<div class="text-3xl font-bold mb-8 px-12">
-Hard work without the right system leads to:
-</div>
-
-<v-clicks>
-
-<div class="text-2xl px-12 mb-3">
-😓 Burnout
-</div>
-
-<div class="text-2xl px-12 mb-3">
-⏰ Wasted time
-</div>
-
-<div class="text-2xl px-12">
-💔 Devastating disappointment
-</div>
-
-</v-clicks>
-
-</div>
-
-<!--
-Hard work without the right system leads to burnout, wasted time, and devastating disappointment.
 -->
 
 ---
@@ -1056,13 +903,9 @@ background: white
 
 # The Painful Truth
 
-<v-click>
-
 <div class="text-xl mb-4">
-Right now, <strong>thousands</strong> of hardworking students are heading toward 2s and 3s
+Right now, <strong>thousands</strong> of hardworking students are heading toward 2s and 3s on their AP exams
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1075,37 +918,7 @@ Losing <span class="text-accent">tens of thousands</span> in college credits
 </div>
 
 <!--
-Right now, thousands of hardworking students are heading toward 2s and 3s on their AP exams, losing tens of thousands in college credits
--->
-
----
-layout: center
-class: text-center
-background: white
----
-
-<div class="flex flex-col justify-center h-full">
-
-<v-click>
-
-<div class="text-2xl px-12 mb-8">
-All while their parents think...
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-4xl font-bold px-12 text-red-600">
-"Working harder is the answer"
-</div>
-
-</v-click>
-
-</div>
-
-<!--
-all while their parents think 'working harder' is the answer.
+Right now, thousands of hardworking students are heading toward 2s and 3s on their AP exams, losing tens of thousands in college credits, all while their parents think 'working harder' is the answer.
 -->
 
 ---
@@ -1137,13 +950,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-12">
+<div class="text-5xl font-bold px-12 mb-12">
 Pop Quiz Complete!
 </div>
 
 <v-click>
 
-<div class="text-white text-2xl px-12">
+<div class="text-2xl px-12">
 Now let's talk about what this <strong>really means</strong> for your family...
 </div>
 
@@ -1152,7 +965,7 @@ Now let's talk about what this <strong>really means</strong> for your family...
 </div>
 
 <!--
-And that's exactly what we need to talk about next. Because if you're feeling overwhelmed by changing admissions requirements, worried your straight-A student might still fail their AP exams, and terrified you're falling behind in an increasingly competitive landscape... you're not alone.
+And that's exactly what we need to talk about next.
 -->
 
 ---
@@ -1163,13 +976,9 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-click>
-
 <div class="text-2xl px-12 mb-8">
 If you're feeling <strong>overwhelmed</strong> by changing admissions requirements...
 </div>
-
-</v-click>
 
 <v-click>
 
@@ -1208,15 +1017,7 @@ You're not alone
 <v-click>
 
 <div class="text-2xl px-12">
-Let's talk about <span class="text-accent">why this keeps showing up</span>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-2xl px-12 mt-4">
-And more importantly, what you can <strong>do about it</strong>
+Let's talk about <span class="text-accent">why this keeps showing up</span> and more importantly, what you can <strong>do about it</strong>
 </div>
 
 </v-click>
