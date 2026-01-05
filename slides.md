@@ -4821,13 +4821,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-8">
+<div class="text-5xl font-bold px-12 mb-8">
 Now here's what this means for you...
 </div>
 
 <v-click>
 
-<div class="text-white text-3xl px-12">
+<div class="text-3xl px-12">
 And your teen
 </div>
 
@@ -5069,11 +5069,11 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-xl mb-8 px-12 opacity-80">
+<div class="text-xl mb-8 px-12 opacity-80">
 Introducing...
 </div>
 
-<div class="text-white text-7xl font-bold px-12">
+<div class="text-7xl font-bold px-12">
 AP MASTERY ACADEMY
 </div>
 
@@ -5153,13 +5153,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-8">
+<div class="text-5xl font-bold px-12 mb-8">
 COMPONENT 1
 </div>
 
 <v-click>
 
-<div class="text-white text-4xl px-12">
+<div class="text-4xl px-12">
 12 Weeks of Expert 1-on-1 Coaching
 </div>
 
@@ -5167,7 +5167,7 @@ COMPONENT 1
 
 <v-click>
 
-<div class="text-white text-2xl px-12 mt-6 opacity-80">
+<div class="text-2xl px-12 mt-6 opacity-80">
 ($2,800 Value)
 </div>
 
@@ -5343,13 +5343,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-8">
+<div class="text-5xl font-bold px-12 mb-8">
 COMPONENT 2
 </div>
 
 <v-click>
 
-<div class="text-white text-4xl px-12">
+<div class="text-4xl px-12">
 Lifetime Access to AP Mastery Platform
 </div>
 
@@ -5357,7 +5357,7 @@ Lifetime Access to AP Mastery Platform
 
 <v-click>
 
-<div class="text-white text-2xl px-12 mt-6 opacity-80">
+<div class="text-2xl px-12 mt-6 opacity-80">
 ($7,056 Value)
 </div>
 
@@ -5531,13 +5531,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-8">
+<div class="text-5xl font-bold px-12 mb-8">
 COMPONENT 3
 </div>
 
 <v-click>
 
-<div class="text-white text-4xl px-12">
+<div class="text-4xl px-12">
 College Application Accelerator Package
 </div>
 
@@ -5545,7 +5545,7 @@ College Application Accelerator Package
 
 <v-click>
 
-<div class="text-white text-2xl px-12 mt-6 opacity-80">
+<div class="text-2xl px-12 mt-6 opacity-80">
 ($2,400 Value)
 </div>
 
@@ -5713,13 +5713,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-8">
+<div class="text-5xl font-bold px-12 mb-8">
 COMPONENT 4
 </div>
 
 <v-click>
 
-<div class="text-white text-4xl px-12">
+<div class="text-4xl px-12">
 Parent Success Partnership
 </div>
 
@@ -5727,7 +5727,7 @@ Parent Success Partnership
 
 <v-click>
 
-<div class="text-white text-2xl px-12 mt-6 opacity-80">
+<div class="text-2xl px-12 mt-6 opacity-80">
 ($500 Value)
 </div>
 
@@ -6002,13 +6002,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-4xl font-bold px-12 mb-8">
+<div class="text-4xl font-bold px-12 mb-8">
 BONUS #1
 </div>
 
 <v-click>
 
-<div class="text-white text-3xl px-12">
+<div class="text-3xl px-12">
 Test Day Strategy Guide
 </div>
 
@@ -6016,7 +6016,7 @@ Test Day Strategy Guide
 
 <v-click>
 
-<div class="text-white text-xl px-12 mt-6 opacity-80">
+<div class="text-xl px-12 mt-6 opacity-80">
 ($297 Value)
 </div>
 
@@ -6091,13 +6091,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-4xl font-bold px-12 mb-8">
+<div class="text-4xl font-bold px-12 mb-8">
 BONUS #2
 </div>
 
 <v-click>
 
-<div class="text-white text-3xl px-12">
+<div class="text-3xl px-12">
 Score Guarantee Protection
 </div>
 
@@ -6105,7 +6105,7 @@ Score Guarantee Protection
 
 <v-click>
 
-<div class="text-white text-xl px-12 mt-6 opacity-80">
+<div class="text-xl px-12 mt-6 opacity-80">
 (Priceless)
 </div>
 
@@ -6635,13 +6635,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-white text-5xl font-bold px-12 mb-12">
+<div class="text-5xl font-bold px-12 mb-12">
 Ready to secure your spot?
 </div>
 
 <v-click>
 
-<div class="text-white text-3xl px-12">
+<div class="text-3xl px-12">
 Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right now
 </div>
 
@@ -6652,3 +6652,4 @@ Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right n
 <!--
 Ready to secure your spot? Go to YourURL.com right now.
 -->
+
