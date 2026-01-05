@@ -4873,11 +4873,11 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-clicks>
-
 <div class="text-xl px-12 mb-4">
 <strong>AP Insider Intelligence</strong> - Understanding exactly what graders want
 </div>
+
+<v-clicks>
 
 <div class="text-xl px-12 mb-4">
 <strong>Subject-Specific Response Mastery</strong> - The templates that guarantee high scores
@@ -6151,7 +6151,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold" style="color: var(--brand-accent);">
+<div class="text-3xl px-12 font-bold" style="color: var(--brand-secondary);">
 We'll coach them for FREE until they do
 </div>
 
@@ -6461,7 +6461,7 @@ For families who take action today...
 
 <v-click>
 
-<div class="text-7xl font-bold px-12" style="color: var(--brand-accent);">
+<div class="text-7xl font-bold px-12" style="color: var(--brand-secondary);">
 Just $2,997
 </div>
 
@@ -6642,7 +6642,7 @@ Ready to secure your spot?
 <v-click>
 
 <div class="text-3xl px-12">
-Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right now
+Go to <strong style="color: var(--brand-secondary);">[YourURL.com]</strong> right now
 </div>
 
 </v-click>
@@ -6652,4 +6652,5 @@ Go to <strong style="color: var(--brand-accent);">[YourURL.com]</strong> right n
 <!--
 Ready to secure your spot? Go to YourURL.com right now.
 -->
+
 
