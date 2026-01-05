@@ -2352,11 +2352,11 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<v-clicks>
-
 <div class="text-xl px-12 mb-4">
 How quickly can you go from <strong>worried parent</strong> to confident knowing your teen will dominate these exams?
 </div>
+
+<v-clicks>
 
 <div class="text-xl px-12 mb-4">
 How much effort does it take to finally bridge that gap between good grades and <span class="text-accent">actual AP success</span>?
@@ -4812,3 +4812,4 @@ That comes from knowing exactly where they stand and how to <span class="text-ac
 <!--
 Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
