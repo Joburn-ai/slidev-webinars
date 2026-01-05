@@ -5115,7 +5115,7 @@ So pay attention.
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);'
+style: white
 ---
 
 <div style="padding: 3rem; border-radius: 1rem;">
@@ -8994,4 +8994,5 @@ class: text-center
 <!--
 [End of presentation - stay available for live Q&A in chat]
 -->
+
 
