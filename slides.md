@@ -5,6 +5,7 @@ background: https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1920
 class: text-center
 highlighter: shiki
 lineNumbers: false
+download: true
 drawings:
   persist: false
 transition: slide-left
@@ -8994,5 +8995,6 @@ class: text-center
 <!--
 [End of presentation - stay available for live Q&A in chat]
 -->
+
 
 
