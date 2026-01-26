@@ -1951,43 +1951,37 @@ Traditional prep completely misses this because it focuses on content review. Bu
 -->
 
 ---
-layout: two-cols
+layout: center
+class: text-center
 background: white
 ---
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl font-bold mb-6" style="color: var(--brand-primary);">
-It's the Difference Between
+<div class="text-3xl px-12">
+It's the difference between
 </div>
 
-<v-clicks>
+<v-click>
 
-- Being a great chef
-- Who knows every recipe by heart
-- Has all the skills and knowledge
-
-</v-clicks>
-
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+being a <strong>great chef</strong>
 </div>
 
-::right::
+</v-click>
 
-<div class="flex flex-col justify-center h-full">
+<v-click>
+  
+<div class="text-2xl mt-8 px-12 opacity-70">
+and being able to compete on a cooking show
+</div>
 
-<v-clicks>
-
-- And being able to compete on a <strong>cooking show</strong>
-- With strict rules, time limits, and specific judging criteria
-- Where presentation format matters as much as the food
-
-</v-clicks>
+</v-click>
 
 </div>
 
 <!--
-It's the difference between being a great chef and being able to compete on a cooking show with strict rules and time limits.
--->
+It’s the difference between being a great chef who knows every recipe by heart and has all the skills, and being able to compete on a cooking show, where strict rules, time limits, and judging criteria mean that presentation matters as much as the food.-->
 
 ---
 layout: default
@@ -2903,5 +2897,6 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
 
 
