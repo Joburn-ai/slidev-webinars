@@ -6612,5 +6612,1288 @@ Where your teen's AP success story begins
 I'll see you on the inside, where your teen's AP success story begins.
 -->
 
+---
+layout: center
+class: text-center
+background: white
+---
 
+<div class="flex flex-col justify-center h-full">
 
+<div class="text-3xl px-12">
+Before we wrap up, let me address a few questions you might have
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12 opacity-70">
+These are the most common concerns families bring up
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Before we wrap up, let me address a few questions you might have. These are the most common concerns families bring up when considering the AP Exam Success Blueprint.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+❓ "What if my teen is already getting good grades?"
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+That's exactly the point
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Good grades don't automatically translate to good AP scores
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Remember those two essays we looked at?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Both students had straight A's
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if my teen is already getting good grades?" That's exactly the point. Good grades don't automatically translate to good AP scores. Remember those two essays we looked at? Both students had straight A's.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+One understood the invisible scoring gap
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+The other didn't
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+That's the difference between a 3 and a 6
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Between no credit and full credit
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Between wasting time and saving $40,000+
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+One understood the invisible scoring gap. The other didn't. That's the difference between a 3 and a 6. Between no credit and full credit. Between wasting time and saving $40,000+.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+❓ "My teen is taking multiple AP classes. Will this work for all of them?"
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Absolutely
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+That's the beauty of lifetime platform access
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+All 38 AP subjects are covered
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"My teen is taking multiple AP classes. Will this work for all of them?" Absolutely. That's the beauty of lifetime platform access. All 38 AP subjects are covered with the same methodology applied to each.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12">
+The three core principles work universally
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+AP Insider Intelligence applies to every AP exam
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Subject-Specific Response Mastery gets customized for each subject
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Pre-Grade Confidence System works across all exams
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Your teen masters the system once, applies it everywhere
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The three core principles work universally. AP Insider Intelligence applies to every AP exam. Subject-Specific Response Mastery gets customized for each subject. Pre-Grade Confidence System works across all exams. Your teen masters the system once, applies it everywhere.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+❓ "What if we miss a coaching session?"
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Life happens. We get it.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+All sessions are recorded
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Your teen can watch the replay and still get full value
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Plus we have 24/7 Slack support for questions between sessions
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if we miss a coaching session?" Life happens. We get it. All sessions are recorded. Your teen can watch the replay and still get full value. Plus we have 24/7 Slack support for questions between sessions.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+❓ "Is this only for top students?"
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Not at all
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+This is for any student who wants to score 4s and 5s
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Whether they're currently getting B's or A's
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"Is this only for top students?" Not at all. This is for any student who wants to score 4s and 5s, whether they're currently getting B's or A's.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12">
+The system teaches them <strong>exactly</strong> what AP graders want
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+It's not about being naturally gifted
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+It's about understanding the game
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+And we teach them how to play it masterfully
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The system teaches them exactly what AP graders want. It's not about being naturally gifted. It's about understanding the game. And we teach them how to play it masterfully.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+❓ "What if my teen doesn't have time for this?"
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+This actually <strong>saves</strong> them time
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Because they stop wasting hours studying the wrong things
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+"What if my teen doesn't have time for this?" This actually saves them time because they stop wasting hours studying the wrong things.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+They learn to work smarter, not harder
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Most students spend 20+ hours per week studying for AP exams
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Our students spend 8-10 hours and get better results
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Because they know exactly what to focus on
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They learn to work smarter, not harder. Most students spend 20+ hours per week studying for AP exams. Our students spend 8-10 hours and get better results because they know exactly what to focus on.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+The weekly coaching sessions are just <strong>one hour</strong>
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Everything else fits into their existing study schedule
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+They're already studying for AP exams
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+We just make sure every minute counts
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The weekly coaching sessions are just one hour. Everything else fits into their existing study schedule. They're already studying for AP exams—we just make sure every minute counts.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+Here's what you need to understand
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+The AP exam season comes once a year
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Every May, your teen will sit for their exams
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They get one shot to score 4s and 5s
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Here's what you need to understand: The AP exam season comes once a year. Every May, your teen will sit for their exams. They get one shot to score 4s and 5s.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If they go in unprepared
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+If they rely on classroom prep alone
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+If they don't understand the invisible scoring gap
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8 text-red-600">
+They'll score 2s and 3s
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If they go in unprepared, if they rely on classroom prep alone, if they don't understand the invisible scoring gap, they'll score 2s and 3s.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+And you'll be sitting there in August
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Looking at those scores
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Watching your teen's face fall as they realize
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8 text-red-600">
+All that work was for nothing
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And you'll be sitting there in August, looking at those scores, watching your teen's face fall as they realize all that work was for nothing.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Or you can give them the blueprint today
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+So they walk into May exams knowing <strong>exactly</strong> what to do
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And walk out confident they scored 5s
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Or you can give them the blueprint today, so they walk into May exams knowing exactly what to do and walk out confident they scored 5s.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+Picture your teen in August
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Opening that AP score report
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Seeing 4s and 5s across the board
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Knowing they earned thousands in college credit
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Feeling proud, confident, and ready for college
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Picture your teen in August, opening that AP score report, seeing 4s and 5s across the board, knowing they earned thousands in college credit, feeling proud, confident, and ready for college.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+That's the outcome we're guaranteeing
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+4s and 5s, or your money back
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12 opacity-70">
+There's literally no risk
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's the outcome we're guaranteeing. 4s and 5s, or your money back. There's literally no risk.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+The only risk
+</div>
+
+<v-click>
+
+<div class="text-4xl px-12 mt-12">
+Is waiting
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+And watching this opportunity close
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The only risk is waiting and watching this opportunity close.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Remember, we're capping enrollment at <strong>50 families</strong>
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Once those spots fill, the doors close until March
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And if your teen has AP exams in May
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8 text-red-600">
+March will be too late
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Remember, we're capping enrollment at 50 families. Once those spots fill, the doors close until March. And if your teen has AP exams in May, March will be too late.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Don't be the parent who waits
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Who tells themselves "I'll think about it"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Only to watch enrollment fill up
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And their teen struggle through another AP exam unprepared
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Don't be the parent who waits, who tells themselves "I'll think about it," only to watch enrollment fill up and their teen struggle through another AP exam unprepared.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Your teen deserves better than hope
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They deserve <strong>certainty</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They deserve to walk into those exams knowing they're going to dominate
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Give them that gift today
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen deserves better than hope. They deserve certainty. They deserve to walk into those exams knowing they're going to dominate. Give them that gift today.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold px-8">
+APExamBlueprint.com
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Click the button below right now
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Secure your spot before they're gone
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+APExamBlueprint.com. Click the button below right now. Secure your spot before they're gone.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-5xl font-bold px-8" style="color: var(--brand-primary);">
+$2,997
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Or 3 payments of $1,099
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+✓ All 4 Core Components ($12,756 value)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+✓ Both Bonuses ($494 value)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+✓ 100% Money-Back Guarantee
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+✓ Lifetime Platform Access
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+$2,997. Or 3 payments of $1,099. All 4 Core Components ($12,756 value). Both Bonuses ($494 value). 100% Money-Back Guarantee. Lifetime Platform Access.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+One investment
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Every AP exam your teen will ever take
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+For the rest of their high school career
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+That's less than $500 per AP exam
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+When each 5 could save them $3,000-$4,000 in college credit
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+One investment. Every AP exam your teen will ever take. For the rest of their high school career. That's less than $500 per AP exam when each 5 could save them $3,000-$4,000 in college credit.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+The math is simple
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Your teen takes 5 AP exams and scores 5s on all of them
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+That's $15,000-$20,000 in college credit saved
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Your $2,997 investment just returned 500-670%
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The math is simple. Your teen takes 5 AP exams and scores 5s on all of them. That's $15,000-$20,000 in college credit saved. Your $2,997 investment just returned 500-670%.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Where else can you get that kind of guaranteed return?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12 opacity-70">
+On an investment in your teen's future
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6 opacity-70">
+With zero risk
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6 opacity-70">
+And a 100% money-back guarantee
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Where else can you get that kind of guaranteed return? On an investment in your teen's future. With zero risk. And a 100% money-back guarantee.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+This is your moment
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+To give your teen the competitive advantage they need
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+To transform anxiety into confidence
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+To turn 2s and 3s into 4s and 5s
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is your moment to give your teen the competitive advantage they need, to transform anxiety into confidence, to turn 2s and 3s into 4s and 5s.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Six months from now
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+You'll either be celebrating your teen's 4s and 5s
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Or wishing you had taken action today
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Choose celebration
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Six months from now, you'll either be celebrating your teen's 4s and 5s, or wishing you had taken action today. Choose celebration.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-7xl font-bold px-8">
+APExamBlueprint.com
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8">
+Click Below Now
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+50 spots. December cohort. Enrollment closes soon.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+APExamBlueprint.com. Click Below Now. 50 spots. December cohort. Enrollment closes soon.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+I can't wait to welcome you inside
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+And watch your teen transform into an AP exam master
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12 opacity-70">
+See you on the inside
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+I can't wait to welcome you inside and watch your teen transform into an AP exam master. See you on the inside.
+-->
+
+---
+layout: end
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold">
+Thank You
+</div>
+
+<v-click>
+
+<div class="text-3xl mt-12">
+APExamBlueprint.com
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl mt-12 opacity-70">
+Questions? Email us at support@apexamblueprint.com
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
+-->
