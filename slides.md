@@ -5552,7 +5552,7 @@ The College Credit Calculator shows you exactly how much money your teen will sa
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920
+image: https://images.unsplash.com/photo-1663593823544-e8fdda3e0659?w=1920
 background: white
 ---
 
@@ -6611,3 +6611,4 @@ Where your teen's AP success story begins
 <!--
 I'll see you on the inside, where your teen's AP success story begins.
 -->
+
