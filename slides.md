@@ -2394,7 +2394,7 @@ Pre-Grade Confidence System
 </div>
 
 <!--
-Mechanism 3: Pre-Grade Confidence System. This mechanism is the secret weapon that separates our students from everyone else.
+Mechanism 3: Pre-Grade Confidence System.
 -->
 
 ---
@@ -2502,6 +2502,32 @@ This is revolutionary because traditional prep focuses on input (studying) witho
 -->
 
 ---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+It's like learning to cook <strong>without ever tasting your food</strong>
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+no idea if you're improving or making the same mistakes
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's like learning to cook without ever tasting your food—you have no idea if you're improving or making the same mistakes repeatedly.
+-->
+
+---
 layout: two-cols
 background: white
 ---
@@ -2543,7 +2569,7 @@ background: white
 </div>
 
 <!--
-It's like learning to cook without ever tasting your food—you have no idea if you're improving or making the same mistakes repeatedly.
+The traditional approach—studying content, taking practice tests, and hoping for the best—leaves students unsure if they’re actually improving. In contrast, the Pre-Grade System uses frameworks to study, allows students to self-assess before grading, shows exactly where they stand, and tracks improvement scientifically.
 -->
 
 ---
@@ -2568,7 +2594,7 @@ The Pre-Grade System operates through <strong>Predictive Self-Assessment</strong
 </div>
 
 <!--
-The Pre-Grade System operates through Predictive Self-Assessment.
+The Pre-Grade System operates through Predictive Self-Assessment - teaching your teen to evaluate their own work using the exact same criteria AP graders use.
 -->
 
 ---
@@ -2594,7 +2620,7 @@ Component 1: Internal Scoring Calibration
 </div>
 
 <!--
-Internal Scoring Calibration—Your teen learns to evaluate their own work using the exact same criteria AP graders use. They develop the ability to read their essays and predict: 'This is a 4, needs stronger evidence for a 5.'
+Component 1, Internal Scoring Calibration, teaches your teen to evaluate their own work using the exact criteria AP graders use, develop the ability to read their essays and predict scores—like recognizing “This is a 4, needs stronger evidence for a 5”—and become their own best critic and coach.
 -->
 
 ---
@@ -2620,7 +2646,7 @@ Component 2: Performance Forecasting
 </div>
 
 <!--
-Performance Forecasting—Before taking any practice exam, your teen predicts their score range based on their preparation level. After the exam, they self-grade before seeing official results. This builds metacognitive awareness.
+Component 2, Performance Forecasting, helps your teen predict their score range before taking any practice exam based on their preparation and strengths, then self-grade after the exam before seeing official results, building metacognitive awareness that compounds over time.
 -->
 
 ---
@@ -2646,7 +2672,7 @@ Component 3: Gap Analysis Mastery
 </div>
 
 <!--
-Gap Analysis Mastery—When predictions don't match results, your teen learns to diagnose exactly what went wrong and how to fix it. No more generic 'study harder'—they identify specific skill deficits and address them systematically.
+Component 3, Gap Analysis Mastery, teaches your teen to diagnose exactly what went wrong when predictions don’t match results and how to fix it systematically, eliminating generic “study harder” advice and allowing them to identify and address specific skill deficits with precision.
 -->
 
 ---
@@ -2731,7 +2757,7 @@ Phase 2: Self-Evaluation Practice
 </div>
 
 <!--
-Phase 2: Self-Evaluation Practice—Your teen begins grading their own practice work before checking answers. They learn to identify their strengths and weaknesses objectively.
+Phase 2: Self-Evaluation Practice—Your teen begins grading their own practice work before checking answers. They learn to identify their strengths and weaknesses objectively without the emotional bias that usually clouds self-assessment. Here, they build honest, accurate self-awareness.
 -->
 
 ---
@@ -2757,7 +2783,7 @@ Phase 3: Predictive Accuracy
 </div>
 
 <!--
-Phase 3: Predictive Accuracy—Your teen starts predicting their performance before attempting practice exams, then compares predictions to results. Over time, their predictions become incredibly accurate.
+Phase 3: Predictive Accuracy—Your teen starts predicting their performance before attempting practice exams, then compares predictions to results. Over time, their predictions become incredibly accurate and they develop true self-knowledge about their abilities.
 -->
 
 ---
@@ -2788,7 +2814,7 @@ Phase 4: Real-Time Adjustment—During actual exams, your teen can monitor their
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920
+image: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1920
 background: white
 ---
 
@@ -2898,6 +2924,7 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
 
 
 
