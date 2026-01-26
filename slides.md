@@ -3226,7 +3226,7 @@ Now Look at Essay B
 <v-click>
 
 <div class="text-lg italic px-4 opacity-80">
-"Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system..."
+"Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system. The American Revolution fundamentally transformed this relationship from one of colonial dependence to sovereign independence, though the extent of this transformation varied across economic, political, and social dimensions. While political sovereignty marked an absolute break with British authority, economic and cultural ties demonstrated significant continuity in the decades following 1783."
 </div>
 
 </v-click>
@@ -3328,7 +3328,7 @@ To earn this point, students must:
 <v-click>
 
 <div class="text-3xl font-bold px-12 mt-8" style="color: var(--brand-accent);">
-"Describes a broader historical context relevant to the prompt"
+"Describe a broader historical context relevant to the prompt"
 </div>
 
 </v-click>
@@ -3352,7 +3352,7 @@ They must place the topic in <strong>BROADER historical context</strong>
 </div>
 
 <!--
-Look at the first line: "Contextualization - 1 point." To earn this point, students must: "Describes a broader historical context relevant to the prompt." Not just mention events. Not just list facts. They must place the topic in BROADER historical context.
+Look at the first line: "Contextualization - 1 point." To earn this point, students must: "Describe a broader historical context relevant to the prompt." Not just mention events. Not just list facts. They must place the topic in BROADER historical context.
 -->
 
 ---
@@ -3843,7 +3843,7 @@ One understood the GAME. One didn't.
 
 <v-click>
 
-<div class=" text-4xl font-bold mt-12 px-8" style="color: var(--brand-secondary);">
+<div class=" text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 That's the invisible scoring gap.
 </div>
 
@@ -4111,4 +4111,5 @@ Are you starting to see how this changes everything for your teen's AP success?
 <!--
 The full AP Prep Method takes this insight and applies it systematically across every subject your teen is taking. They develop what I call 'Grader Vision'—the ability to see exactly what any AP question is really asking for. Right now, you've had just a taste of what's possible. Are you starting to see how this changes everything for your teen's AP success?
 -->
+
 
