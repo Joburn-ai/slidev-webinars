@@ -218,7 +218,7 @@ Classroom grades and AP exam scores operate on completely different systems. You
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920
+image: https://images.unsplash.com/photo-1574607383476-f517f260d30b?w=1920
 background: white
 ---
 
@@ -331,14 +331,14 @@ background: white
 ❌ Volume Without Strategy
 </div>
 
-<v-clicks>
+<v-click>
 
-- More hours studying
-- More practice tests
-- More exhaustion
-- Same poor results
+- Students study MORE hours
+- Take MORE practice tests
+- Get MORE exhausted
+- Still fail with same poor results
 
-</v-clicks>
+</v-click>
 
 </div>
 
@@ -347,23 +347,22 @@ background: white
 <div class="flex flex-col justify-center h-full">
 
 <div class="text-2xl font-bold mb-4" style="color: var(--brand-accent);">
-✅ Strategic Study
+✅ Students Who Score 4s and 5s
 </div>
 
-<v-clicks>
+<v-click>
 
-- Using exact frameworks AP graders use
-- Less time spent studying
-- Better results achieved
-- Consistent 4s and 5s
+- <strong>Don't study more</strong> - they study strategically
+- Use the <strong>exact frameworks</strong> AP graders use
+- Less time, better results
+- Consistent 4s and 5s every time
 
-</v-clicks>
+</v-click>
 
 </div>
 
 <!--
-Students who score 4s and 5s don't study more; they study strategically using the exact frameworks AP graders use. Volume without strategy is why exhausted students still fail.
--->
+Many students fall into the trap of volume without strategy: they study more hours, take more practice tests, grow more exhausted, and still fail with the same poor results. In contrast, students who consistently score 4s and 5s don’t study more—they study strategically, using the exact frameworks AP graders use, spending less time while getting better results and earning consistent top scores.-->
 
 ---
 layout: center
@@ -423,13 +422,13 @@ background: white
 ---
 
 <div class="flex flex-col justify-center h-full">
-
+  
 <div class="text-3xl font-bold mb-8" style="color: var(--brand-primary);">
 What Most Tutors Are Missing
 </div>
 
 <v-clicks>
-
+  
 - <strong>College Board certification</strong> - They've never seen the actual scoring rubrics
 - <strong>Insider knowledge</strong> - They don't understand how exams are graded
 - <strong>Strategic frameworks</strong> - They teach content, not scoring strategy
@@ -440,12 +439,11 @@ What Most Tutors Are Missing
 </div>
 
 <!--
-They teach content, not scoring strategy. That's why parents spend thousands on tutoring and still watch their kids miss college credits.
--->
+Most of them are missing key things that actually matter for exam success: they aren’t College Board–certified, so they’ve never seen the real scoring rubrics; they lack insider knowledge of how exams are actually graded; they focus on teaching content instead of strategic scoring frameworks; and as a result, even after parents spend thousands of dollars, students still end up missing credits.-->
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1920
+image: https://images.unsplash.com/photo-1625225233840-695456021cde?w=1920
 background: white
 ---
 
@@ -717,7 +715,7 @@ class: text-center
 background: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1920
 ---
 
-<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
 <div class=" text-4xl font-bold px-8">
 I know why you're here tonight
@@ -735,32 +733,6 @@ You want your teen scoring 4s and 5s on all AP exams while experiencing a <stron
 
 <!--
 Look, I know why you're here tonight. You want your teen scoring 4s and 5s on all AP exams while experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
--->
-
----
-layout: default
-background: white
----
-
-<div class="flex flex-col justify-center h-full">
-
-<div class="text-3xl font-bold mb-8" style="color: var(--brand-primary);">
-What You Really Want
-</div>
-
-<v-clicks>
-
-- Teen scoring <strong>4s and 5s</strong> on all AP exams
-- A <strong>stress-free journey</strong> to college success
-- <strong>$40,000+ savings</strong> in college tuition through earned credits
-- Acceptance to their <strong>dream school</strong> with advanced standing
-
-</v-clicks>
-
-</div>
-
-<!--
-You want your teen scoring 4s and 5s on all AP exams while experiencing a stress-free journey that leads to $40,000+ in college savings and acceptance to their dream school.
 -->
 
 ---
@@ -885,7 +857,7 @@ While <strong>secretly panicking</strong> about whether that translates to actua
 </div>
 
 <!--
-You're watching their teen get solid grades in AP classes while secretly panicking about whether that translates to actual exam success - seeing classmates get A's but score 2s and 3s.
+You're watching their teen get solid grades in AP classes while secretly panicking about whether that translates to actual exam success.
 -->
 
 ---
@@ -964,7 +936,7 @@ The reality that breaks parents' hearts every single year...
 </div>
 
 <!--
-But instead, you keep running into the same brutal reality... watching their straight-A student walk out of AP exams in tears.
+But instead, you keep running into the same brutal reality... the reality that breaks parents' hearts every single year.
 -->
 
 ---
@@ -973,7 +945,7 @@ class: text-center
 background: https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1920
 ---
 
-<div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
 <div class=" text-4xl font-bold px-8">
 Watching your straight-A student walk out of AP exams <strong>in tears</strong>
@@ -1031,18 +1003,10 @@ background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 What You Really Want
 </div>
 
-<v-click>
-
-<div class="text-3xl px-8 mt-8">
-A proven system with <strong>insider scoring secrets</strong> that bridges the gap between classroom A's and exam 5s
-</div>
-
-</v-click>
-
 </div>
 
 <!--
-What you really want is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s, allowing their busy athlete/musician/leader to confidently dominate AP exams.
+What you really want...
 -->
 
 ---
@@ -1069,7 +1033,7 @@ The Complete Vision
 </div>
 
 <!--
-What you really want is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s, allowing their busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule, giving the whole family peace of mind and saving tens of thousands in tuition.
+Is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s, allowing their busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule, giving the whole family peace of mind and saving tens of thousands in tuition.
 -->
 
 ---
@@ -1165,7 +1129,7 @@ class: text-center
 background: https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1920
 ---
 
-<div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
 <div class=" text-3xl px-8">
 The thing you fear most?
@@ -1245,3 +1209,4 @@ All while realizing traditional approaches make things worse - but not knowing w
 <!--
 And the biggest obstacle of all? The invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused, all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
 -->
+
