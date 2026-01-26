@@ -2923,3 +2923,1191 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 Your teen becomes internally driven rather than externally dependent. They don't need constant validation from teachers or parents. They know when they've done well and when they need to improve. This self-sufficiency becomes their greatest competitive advantage. The question is, are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
 
+---
+layout: center
+class: text-center
+background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+
+<div class=" text-5xl font-bold px-8">
+Let me show you what I mean about the invisible scoring gap
+</div>
+
+<v-click>
+
+<div class=" text-2xl mt-8 px-8">
+We're going to do something right now that will give you a taste of what your teen experiences
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+I want to show you exactly what I mean about the invisible scoring gap. We're going to do something right now that will give you a taste of what your teen experiences when they master AP Insider Intelligence.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Now, I know you haven't been in a history class for 20 years
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+And I'm not expecting you to remember the French Revolution or the New Deal
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+But what I'm about to show you will make everything <strong>click</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now, I know you haven't been in a history class for 20 years. And I'm not expecting you to remember the French Revolution or the New Deal. But bear with me here—what I'm about to show you will make everything click about why straight-A students struggle on AP exams.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+You're looking at two actual student essay openings
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+From an AP US History exam
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl px-12 mt-6 opacity-70">
+The prompt asked: "Evaluate the extent to which the American Revolution was a turning point in the relationship between Great Britain and its North American colonies."
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You're looking at two actual student essay openings from an AP US History exam. The prompt asked: "Evaluate the extent to which the American Revolution was a turning point in the relationship between Great Britain and its North American colonies."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12">
+Both of these students got <strong>A's in their AP class</strong>
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Both knew the content inside and out
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Both studied hard
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-12" style="color: var(--brand-accent);">
+But one scored a 6 on the DBQ. The other scored a 3.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Both of these students got A's in their AP class. Both knew the content inside and out. Both studied hard. But one scored a 6 on the DBQ. The other scored a 3.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Type in chat right now:
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-primary);">
+Can you tell which one is better just by reading them?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 px-12">
+Type <strong>"A"</strong> or <strong>"B"</strong> or <strong>"CAN'T TELL"</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Type in chat right now: Can you tell which one is better just by reading them? Type "A" or "B" or "CAN'T TELL"
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-12">
+Most of you typed <strong>"CAN'T TELL"</strong>
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 text-red-600">
+And that's exactly the problem
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-12 px-12">
+Your teen can't tell either
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-6 px-12" style="color: var(--brand-accent);">
+Until I show you what I'm about to show you
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most of you typed "CAN'T TELL" - and that's exactly the problem. Your teen can't tell either. Until I show you what I'm about to show you.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
+Here's Essay A
+</div>
+
+<v-click>
+
+<div class="text-lg italic px-4 opacity-80">
+"The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control and had to follow British laws..."
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Here's Essay A: "The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control and had to follow British laws. The colonists were angry about taxation without representation. Important events like the Boston Tea Party and the Stamp Act made things worse. After the Revolution, America became independent and was no longer controlled by Britain. This was a huge change in their relationship."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Does this look familiar?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+This is what an <strong>A+ classroom essay</strong> looks like
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+It has facts. It has events. It shows knowledge.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Most teachers would give this a <strong>90% or higher</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-12 text-red-600">
+So what did the AP grader give it?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Does this look familiar? This is what an A+ classroom essay looks like. It has facts. It has events. It shows knowledge. Most teachers would give this a 90% or higher. So what did the AP grader give it?
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
+Now Look at Essay B
+</div>
+
+<v-click>
+
+<div class="text-lg italic px-4 opacity-80">
+"Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system..."
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now look at Essay B: "Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system. The American Revolution fundamentally transformed this relationship from one of colonial dependence to sovereign independence, though the extent of this transformation varied across economic, political, and social dimensions. While political sovereignty marked an absolute break with British authority, economic and cultural ties demonstrated significant continuity in the decades following 1783."
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+At first glance, it seems more "fancy"
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+But is it actually better? Or is it just using bigger words?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-12" style="color: var(--brand-accent);">
+Let me show you something that will <strong>blow your mind</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now look at this one. At first glance, it seems more "fancy" - but is it actually better? Or is it just using bigger words? Let me show you something that will blow your mind.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+This is the ACTUAL rubric that AP graders use
+</div>
+
+<v-click>
+
+<div class="text-2xl px-8 mt-8">
+Not the summary your teen's teacher shows in class
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-8 mt-8">
+This is the detailed, point-by-point breakdown that determines whether an essay gets a 3 or a 6
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is the ACTUAL rubric that AP graders use. Not the summary your teen's teacher shows in class. This is the detailed, point-by-point breakdown that determines whether an essay gets a 3 or a 6.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+Look at the first line: "Contextualization - 1 point"
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+To earn this point, students must:
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-12 mt-8" style="color: var(--brand-accent);">
+"Describes a broader historical context relevant to the prompt"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Not just mention events. Not just list facts.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+They must place the topic in <strong>BROADER historical context</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Look at the first line: "Contextualization - 1 point." To earn this point, students must: "Describes a broader historical context relevant to the prompt." Not just mention events. Not just list facts. They must place the topic in BROADER historical context.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Now we're going to score these essays together
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+Grab a pen if you have one
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Let's look at Essay A for contextualization
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now we're going to score these essays together. Grab a pen if you have one. Let's look at Essay A for contextualization.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl font-bold mb-6" style="color: var(--brand-primary);">
+Essay A Opening
+</div>
+
+<v-click>
+
+<div class="text-lg italic px-4 opacity-80">
+"The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control..."
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-8">
+Does Essay A explain the <strong>BROADER context</strong>?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Let's look at Essay A for contextualization: "The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control..." Does Essay A explain the BROADER context? Does it tell us what was happening in the mid-18th century that made this revolution possible? Does it connect to larger historical forces?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Type in chat: Does Essay A earn the contextualization point?
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Y or N?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Type in chat: Does Essay A earn the contextualization point? Y or N?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-5xl font-bold text-red-600">
+Answer: NO
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Essay A earns <strong>0 points</strong> for contextualization
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Answer: NO. Essay A earns 0 points for contextualization.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Why?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Because it jumps straight into "the Revolution happened"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Without explaining the broader historical moment
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+It doesn't tell us about Britain's mercantilist policies, the shift in imperial control, or the 18th-century context
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="callout-danger mt-12">
+This is a classroom A. But it's an <strong>AP fail</strong>.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Why? Because it jumps straight into "the Revolution happened" without explaining the broader historical moment. It doesn't tell us about Britain's mercantilist policies, the shift in imperial control, or the 18th-century context. This is a classroom A. But it's an AP fail.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+Current Score
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12">
+Essay A: <span class="text-red-600">0 points</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-8">
+Essay B: <span style="color: var(--brand-accent);">?</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Current Score: Essay A: 0 points Essay B: ?
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl font-bold mb-6" style="color: var(--brand-primary);">
+Essay B for Contextualization
+</div>
+
+<v-click>
+
+<div class="text-lg italic px-4 opacity-80">
+"Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system."
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-8">
+Does THIS explain the broader historical context?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now let's look at Essay B for contextualization: "Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system." Does THIS explain the broader historical context? Does it tell us what was happening BEFORE the revolution that set the stage?
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Type Y or N in chat
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
+Answer: YES
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Essay B earns <strong>1 point</strong> for contextualization
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Type Y or N in chat. Answer: YES. Essay B earns 1 point for contextualization.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Why?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Because it places the revolution within the broader context of <strong>18th-century mercantilist policies</strong> and imperial systems
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+The grader immediately knows this student understands the <strong>BIGGER picture</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Why? Because it places the revolution within the broader context of 18th-century mercantilist policies and imperial systems. The grader immediately knows this student understands the BIGGER picture.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+Current Score
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12">
+Essay A: <span class="text-red-600">0 points</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8">
+Essay B: <span style="color: var(--brand-accent);">1 point</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Can you <strong>FEEL</strong> the difference starting to emerge?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+Same content knowledge. Different execution.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Current Score: Essay A: 0 points Essay B: 1 point. Can you FEEL the difference starting to emerge? Same content knowledge. Different execution.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+If we kept going through the remaining 5 criteria
+</div>
+
+<v-click>
+
+<div class="text-2xl px-8 mt-12">
+Evidence, analysis, sourcing, complexity
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-8 mt-12">
+We'd see the <strong>same pattern</strong> over and over
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Now let's talk about the second rubric criterion: "Thesis/Claim - 1 point." If we kept going through the remaining 5 criteria - evidence, analysis, sourcing, complexity - we'd see the same pattern.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+FINAL SCORES
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 text-red-600">
+Essay A: 3 out of 7 points
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-8" style="color: var(--brand-accent);">
+Essay B: 6 out of 7 points
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+FINAL SCORES: Essay A: 3 out of 7 points Essay B: 6 out of 7 points
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+What does this mean in real numbers?
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+<strong>Essay A (3 points)</strong> = DBQ score of 3 = Overall exam score of 2 or 3 = <span class="text-red-600">No college credit</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+<strong>Essay B (6 points)</strong> = DBQ score of 6 = Overall exam score of 5 = <span style="color: var(--brand-accent);">Full college credit ($3,000+ value)</span>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+What does this mean in real numbers? Essay A (3 points) = DBQ score of 3 = Overall exam score of 2 or 3 = No college credit Essay B (6 points) = DBQ score of 6 = Overall exam score of 5 = Full college credit ($3,000+ value)
+-->
+
+---
+layout: center
+class: text-center
+background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+
+<div class=" text-3xl px-8">
+Both students knew the American Revolution inside and out
+</div>
+
+<v-click>
+
+<div class=" text-3xl px-8 mt-8">
+Both got A's in class. Both studied hard.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class=" text-5xl font-bold mt-12 px-8">
+One understood the GAME. One didn't.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class=" text-4xl font-bold mt-12 px-8" style="color: var(--brand-secondary);">
+That's the invisible scoring gap.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Both students knew the American Revolution inside and out. Both got A's in class. Both studied hard. One understood the GAME. One didn't. That's the invisible scoring gap.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If you can SEE exactly why one essay scored double the other
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+If you can FEEL the difference between content mastery and scoring mastery
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+If this just made everything CLICK about why your straight-A student struggles
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Type "MIND BLOWN" in the chat right now
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If you can SEE exactly why one essay scored double the other... If you can FEEL the difference between content mastery and scoring mastery... If this just made everything CLICK about why your straight-A student struggles... Type "MIND BLOWN" in the chat right now.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+This is what happens when your teen masters AP Insider Intelligence
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+They don't just know the content
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-12 mt-8" style="color: var(--brand-accent);">
+They know what GRADERS want to see
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is what happens when your teen masters AP Insider Intelligence. They don't just know the content. They know what GRADERS want to see.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
+The Transformation
+</div>
+
+<v-clicks>
+
+- They stop <strong>guessing</strong>
+- They stop <strong>hoping</strong>
+- They read a prompt and immediately know what to include
+- The anxiety disappears because the mystery disappears
+
+</v-clicks>
+
+</div>
+
+<!--
+They stop guessing. They stop hoping. They read a prompt and immediately know: What contextualization to include, How to structure their thesis, Which evidence counts, What analysis looks like. The anxiety disappears because the mystery disappears.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Can you see how that confidence would <strong>change everything</strong> for your teen?
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Can you imagine them walking into the exam room KNOWING they're going to score a 5?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Not hoping, not praying, but <strong>KNOWING</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Can you see how that confidence would change everything for your teen? Can you imagine them walking into the exam room KNOWING they're going to score a 5 - not hoping, not praying, but KNOWING?
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+That's exactly what the full AP Prep Method teaches
+</div>
+
+<v-click>
+
+<div class="text-2xl px-8 mt-12">
+And we just showed you one tiny piece - one rubric criterion for one essay type
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl font-bold px-8 mt-12">
+Imagine your teen having this level of clarity for <strong>every single question type</strong> they'll face
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's exactly what the full AP Prep Method teaches. And we just showed you one tiny piece - one rubric criterion for one essay type. Imagine your teen having this level of clarity for DBQs, LEQs, FRQs, and every single question type they'll face.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+That's the power of understanding what graders actually want
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Instead of just studying content
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+This is why our students walk into AP exams feeling calm and confident while their classmates are stressed and uncertain
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+That's the power of understanding what graders actually want instead of just studying content. This is why our students walk into AP exams feeling calm and confident while their classmates are stressed and uncertain.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+They're not <strong>hoping</strong> for good scores
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+They're PREDICTING them
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They're not hoping for good scores—they're predicting them.
+-->
+
+---
+layout: center
+class: text-center
+background: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
+---
+
+<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+
+<div class=" text-4xl font-bold px-8">
+Right now, you've had just a taste of what's possible
+</div>
+
+<v-click>
+
+<div class=" text-3xl px-8 mt-12">
+Are you starting to see how this changes everything for your teen's AP success?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The full AP Prep Method takes this insight and applies it systematically across every subject your teen is taking. They develop what I call 'Grader Vision'—the ability to see exactly what any AP question is really asking for. Right now, you've had just a taste of what's possible. Are you starting to see how this changes everything for your teen's AP success?
+-->
