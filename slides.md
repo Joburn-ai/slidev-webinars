@@ -1233,7 +1233,7 @@ AP Insider Intelligence
 </div>
 
 <!--
-Mechanism 1: AP Insider Intelligence. This mechanism is absolutely critical because it addresses the root cause of why straight-A students score 2s and 3s on AP exams.
+Mechanism 1: AP Insider Intelligence.
 -->
 
 ---
@@ -1285,7 +1285,7 @@ They'll keep doing what every other <strong>struggling student</strong> does
 </div>
 
 <!--
-If your teen skips this foundation, they'll keep doing what every other struggling student does: study harder using classroom methods that have zero correlation with exam success.
+If your teen skips this foundation, they'll keep doing what every other struggling student does:
 -->
 
 ---
@@ -1311,7 +1311,7 @@ What Happens Without This Foundation
 </div>
 
 <!--
-They'll burn out, lose confidence, and waste months of effort because they're optimizing for the wrong outcome.
+They'll study harder using classroom methods that have zero correlation with exam success, burn out, lose confidence, and waste months of effort because they're optimizing for the wrong outcome.
 -->
 
 ---
@@ -1334,18 +1334,10 @@ We're not teaching your teen <strong>more history or math</strong>
 
 </v-click>
 
-<v-click>
-
-<div class="text-3xl mt-8 px-12">
-We're teaching them how <strong>AP graders think</strong>
-</div>
-
-</v-click>
-
 </div>
 
 <!--
-This is completely different from traditional tutoring because we're not teaching your teen more history or math—we're teaching them how AP graders think, what they reward, and what gets ignored.
+This is completely different from traditional tutoring because we're not teaching your teen more history or math.
 -->
 
 ---
@@ -1424,14 +1416,39 @@ Component 2: Pattern Recognition
 - We show your teen the <strong>response patterns</strong> that consistently score high
 - It's like learning to see the Matrix
 - Once they know what graders are looking for, they can't unsee it
-- Every question becomes predictable instead of mysterious
 
 </v-clicks>
 
 </div>
 
 <!--
-Second, Pattern Recognition—we show your teen the response patterns that consistently score high. It's like learning to see the Matrix—once they know what graders are looking for, they can't unsee it.
+Second, Pattern Recognition—we show your teen the response patterns that consistently score high. It's like learning to see the Matrix—once they know what graders are looking for, they can't unsee it. Every question becomes predictable instead of mysterious.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is completely different from traditional tutoring
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+Every question becomes <strong>predictable instead of mysterious</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Every question becomes predictable instead of mysterious.
 -->
 
 ---
@@ -1458,6 +1475,32 @@ Component 3: Expectation Management
 
 <!--
 Third, Expectation Management—your teen will understand exactly what 'good enough for a 5' looks like versus 'perfectionist overkill' that wastes time without adding points.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+They learn to work smart, not just hard
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+Maximum points in <strong>minimum time</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+They learn to work smart, not just hard. Causing them to earn maximum points in minimum time.
 -->
 
 ---
@@ -1562,7 +1605,6 @@ Phase 3: Grader Empathy Development
 - And immediately know what the grader wants to see in the response
 - No more guessing about what to include
 - No more hoping they covered everything
-- Just certainty about what earns points
 
 </v-clicks>
 
@@ -1571,6 +1613,25 @@ Phase 3: Grader Empathy Development
 <!--
 Finally, they develop Grader Empathy—the ability to read any AP question and immediately know what the grader wants to see in the response. No more guessing, no more hoping.
 -->
+
+---
+layout: center
+class: text-center
+background: white
+
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+Just <strong>certainty</strong> about what earns points
+</div>
+
+</div>
+
+<!--
+Just certainty about what earns points.
+-->
+
 
 ---
 layout: center
@@ -1724,7 +1785,7 @@ Are you ready to give your teen this <strong>unfair advantage</strong> that tran
 </div>
 
 <!--
-They'll be the student who reads assignment requirements and delivers exactly what professors want, while their classmates struggle with confusion. Are you ready to give your teen this unfair advantage that transforms them from someone who works hard to someone who works smart?
+They'll be the student who reads assignment requirements and delivers exactly what professors want, while their classmates struggle with confusion. This skill compounds over four years of college and beyond. Are you ready to give your teen this unfair advantage that transforms them from someone who works hard to someone who works smart?
 -->
 
 ---
@@ -1750,7 +1811,7 @@ Subject-Specific Response Mastery
 </div>
 
 <!--
-Mechanism 2: Subject-Specific Response Mastery. This mechanism matters because generic study advice fails catastrophically when applied to AP exams.
+Mechanism 2: Subject-Specific Response Mastery.
 -->
 
 ---
@@ -1776,7 +1837,7 @@ Why Generic Advice Fails Catastrophically
 </div>
 
 <!--
-This mechanism matters because generic study advice fails catastrophically when applied to AP exams. Telling your teen to 'write a good essay' is like telling them to 'drive safely' without teaching them the specific rules of the road—it's not actionable, and it leads to crashes.
+This mechanism matters because generic study advice fails catastrophically when applied to AP exams. Telling your teen to 'write a good essay' is like telling them to 'drive safely' without teaching them the specific rules of the road—it's not actionable, and it leads to crashes. Good intentions without proper frameworks create failure.
 -->
 
 ---
@@ -1806,7 +1867,8 @@ Without subject-specific frameworks, your teen is essentially winging it on ever
 -->
 
 ---
-layout: default
+layout: center
+class: text-center
 background: white
 ---
 
@@ -1816,14 +1878,29 @@ background: white
 The Devastating Reality
 </div>
 
-<v-clicks>
+<div class="text-2xl px-12">
+<v-click>
+They might have brilliant insights about the Civil War
+</v-click>
+</div>
 
-- They might have brilliant insights about the Civil War
-- But if they don't know how to <strong>structure a DBQ</strong>
-- Those insights become <strong>worthless</strong> on exam day
-- This is why smart kids get devastated by their scores
+<div class="text-2xl px-12 mt-4">
+<v-click>
+But if they don't know how to <strong>structure a DBQ</strong>
+</v-click>
+</div>
 
-</v-clicks>
+<div class="text-2xl px-12 mt-4">
+<v-click>
+Those insights become <strong>worthless</strong> on exam day
+</v-click>
+</div>
+
+<div class="text-2xl px-12 mt-4">
+<v-click>
+This is why smart kids get devastated by their scores
+</v-click>
+</div>
 
 </div>
 
@@ -2826,3 +2903,4 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
