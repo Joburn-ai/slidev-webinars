@@ -2929,7 +2929,7 @@ class: text-center
 background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 ---
 
-<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
 <div class=" text-5xl font-bold px-8">
 Let me show you what I mean about the invisible scoring gap
@@ -3150,7 +3150,7 @@ Here's Essay A
 <v-click>
 
 <div class="text-lg italic px-4 opacity-80">
-"The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control and had to follow British laws..."
+"The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control and had to follow British laws. The colonists were angry about taxation without representation. Important events like the Boston Tea Party and the Stamp Act made things worse. After the Revolution, America became independent and was no longer controlled by Britain. This was a huge change in their relationship."
 </div>
 
 </v-click>
@@ -3819,7 +3819,7 @@ class: text-center
 background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 ---
 
-<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
 <div class=" text-3xl px-8">
 Both students knew the American Revolution inside and out
@@ -4092,7 +4092,7 @@ class: text-center
 background: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
 ---
 
-<div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
+<div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
 <div class=" text-4xl font-bold px-8">
 Right now, you've had just a taste of what's possible
@@ -4111,3 +4111,4 @@ Are you starting to see how this changes everything for your teen's AP success?
 <!--
 The full AP Prep Method takes this insight and applies it systematically across every subject your teen is taking. They develop what I call 'Grader Vision'—the ability to see exactly what any AP question is really asking for. Right now, you've had just a taste of what's possible. Are you starting to see how this changes everything for your teen's AP success?
 -->
+
