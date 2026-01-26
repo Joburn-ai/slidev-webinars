@@ -1422,7 +1422,7 @@ Component 2: Pattern Recognition
 </div>
 
 <!--
-Second, Pattern Recognition—we show your teen the response patterns that consistently score high. It's like learning to see the Matrix—once they know what graders are looking for, they can't unsee it. Every question becomes predictable instead of mysterious.
+Second, Pattern Recognition—we show your teen the response patterns that consistently score high. It's like learning to see the Matrix—once they know what graders are looking for, they can't unsee it.
 -->
 
 ---
@@ -1448,7 +1448,7 @@ Every question becomes <strong>predictable instead of mysterious</strong>
 </div>
 
 <!--
-Every question becomes predictable instead of mysterious.
+This is completely different from traditional tutoring because every question becomes predictable instead of mysterious.
 -->
 
 ---
@@ -1466,8 +1466,6 @@ Component 3: Expectation Management
 
 - Your teen understands exactly what <strong>'good enough for a 5'</strong> looks like
 - Versus 'perfectionist overkill' that wastes time without adding points
-- They learn to work smart, not just hard
-- Maximum points in minimum time
 
 </v-clicks>
 
@@ -1981,7 +1979,7 @@ and being able to compete on a cooking show
 </div>
 
 <!--
-It’s the difference between being a great chef who knows every recipe by heart and has all the skills, and being able to compete on a cooking show, where strict rules, time limits, and judging criteria mean that presentation matters as much as the food.-->
+It’s the difference between being a great chef who knows every recipe by heart and has all the skills; and being able to compete on a cooking show, where strict rules, time limits, and judging criteria mean that presentation matters as much as the food.-->
 
 ---
 layout: default
@@ -2924,3 +2922,4 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. They don't need constant validation from teachers or parents. They know when they've done well and when they need to improve. This self-sufficiency becomes their greatest competitive advantage. The question is, are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
