@@ -2200,7 +2200,7 @@ Week 3-4: Guided Practice—Your teen applies these templates to past exam quest
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1600895154961-2b50148d0e9e?w=1920
+image: https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920
 background: white
 ---
 
@@ -2898,6 +2898,7 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
 
 
 
