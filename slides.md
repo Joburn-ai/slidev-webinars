@@ -4112,4 +4112,2502 @@ Are you starting to see how this changes everything for your teen's AP success?
 The full AP Prep Method takes this insight and applies it systematically across every subject your teen is taking. They develop what I call 'Grader Vision'—the ability to see exactly what any AP question is really asking for. Right now, you've had just a taste of what's possible. Are you starting to see how this changes everything for your teen's AP success?
 -->
 
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
 
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+It's with great pleasure...
+</div>
+
+<v-click>
+
+<div class="text-6xl font-bold mt-12 px-8">
+I introduce you to...
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+It's with great pleasure I introduce you to the complete solution.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-7xl font-bold px-8">
+AP Exam Success Blueprint
+</div>
+
+<v-click>
+
+<div class="text-3xl px-8 mt-12">
+The only system that guarantees your teen scores 4s and 5s
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+AP Exam Success Blueprint - the only system that guarantees your teen scores 4s and 5s on every AP exam they take.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This isn't another tutoring service where you're <strong>hoping</strong> for results
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+This isn't another prep course promising to "cover the content"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+This is a complete TRANSFORMATION of how your teen approaches AP exams
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This isn't another tutoring service where you're hoping for results. This isn't another prep course promising to "cover the content." This is a complete transformation of how your teen approaches AP exams.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+From the moment they sign up
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+To the moment they walk out of their AP exam confident they scored a 5
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+We're with them every single step
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+From the moment they sign up to the moment they walk out of their AP exam confident they scored a 5, we're with them every single step.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
+Here's What You Get
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4">
+Four complete components
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-4">
+Worth over <strong>$13,000</strong> in total value
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-4">
+Designed to work together as an integrated system
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Here's what you get: Four complete components worth over $13,000 in total value, designed to work together as an integrated system.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold px-8">
+COMPONENT 1
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+12 Weeks of 1-on-1 Coaching
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-8">
+($2,800 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 1: 12 Weeks of 1-on-1 Coaching ($2,800 Value)
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+12 Weeks of 1-on-1 Coaching
+</div>
+
+<div class="text-2xl px-12 mt-12">
+
+<v-click>
+
+✓ <strong>Expert Coach Assignment</strong> — Someone who scored a 5 on the exam themselves (Value: $800)
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>4 Full Practice Exams</strong> — Timed, scored, and reviewed in detail (Value: $600)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>FRQ Mastery Sessions</strong> — Master the written portion that most students fear (Value: $500)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>24/7 Slack Support</strong> — Get help anytime, even at 11 PM before the exam (Value: $400)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Confidence Guarantee</strong> — Know you'll score a 5 before you sit down (Value: $500)
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+12 Weeks of 1-on-1 Coaching: Expert Coach Assignment - Someone who scored a 5 on the exam themselves (Value: $800). 4 Full Practice Exams - Timed, scored, and reviewed in detail (Value: $600). FRQ Mastery Sessions - Master the written portion that most students fear (Value: $500). 24/7 Slack Support - Get help anytime, even at 11 PM before the exam (Value: $400). Confidence Guarantee - Know you'll score a 5 before you sit down (Value: $500).
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Your teen gets matched with a coach who actually <strong>lived</strong> what they're going through
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Not someone who just "knows the content"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Someone who scored a 5 and can show them exactly how to do it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen gets matched with a coach who actually lived what they're going through. Not someone who just "knows the content"—someone who scored a 5 themselves and can show them exactly how to do it.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+Every single week for 12 weeks
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+They work through actual AP questions together
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Your teen gets immediate feedback on what they're doing right and where they need adjustment
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+No waiting days for responses
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Real-time guidance exactly when they need it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Every single week for 12 weeks, they work through actual AP questions together. Your teen gets immediate feedback on what they're doing right and where they need adjustment. No waiting days for responses. Real-time guidance exactly when they need it.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Can you see how this eliminates the guessing game?
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+No more wondering <strong>"Did I do this right?"</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+No more waiting until the actual exam to find out if their approach works
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+They KNOW they're on track every single week
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Can you see how this eliminates the guessing game? No more wondering "Did I do this right?" No more waiting until the actual exam to find out if their approach works. They KNOW they're on track every single week.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If I offered this standalone
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Just the 12 weeks of 1-on-1 coaching with an expert who scored a 5
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+I'd charge $2,800 minimum
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+Because that's what this level of personalized attention is worth
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If I offered this standalone—just the 12 weeks of 1-on-1 coaching with an expert who scored a 5—I'd charge $2,800 minimum. Because that's what this level of personalized attention is worth.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold px-8">
+COMPONENT 2
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+Lifetime Access to Our Platform
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-8">
+($7,056 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 2: Lifetime Access to Our Platform ($7,056 Value)
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+Lifetime Access to Our Platform
+</div>
+
+<div class="text-2xl px-12 mt-12">
+
+<v-click>
+
+✓ <strong>All 38 AP Exams Covered</strong> — Every subject your teen might take (Value: $4,560)
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Updated Content Every Year</strong> — Never outdated, always current (Value: $800/year)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Subject-Specific Templates</strong> — For every question type they'll face (Value: $896)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Video Walkthroughs</strong> — Watch experts demonstrate perfect responses (Value: $600)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Practice Question Library</strong> — Thousands of questions organized by difficulty (Value: $1,200)
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+Lifetime Access to Our Platform: All 38 AP Exams Covered - Every subject your teen might take (Value: $4,560). Updated Content Every Year - Never outdated, always current (Value: $800/year). Subject-Specific Templates - For every question type they'll face (Value: $896). Video Walkthroughs - Watch experts demonstrate perfect responses (Value: $600). Practice Question Library - Thousands of questions organized by difficulty (Value: $1,200).
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This isn't just for <strong>one year</strong>
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Your teen gets access for <strong>LIFE</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Taking AP History this year? Covered.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+AP Sciences next year? Covered.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-4">
+AP English junior year? Covered.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This isn't just for one year. Your teen gets access for LIFE. Taking AP History this year? Covered. AP Sciences next year? Covered. AP English junior year? Covered.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+Every single AP exam follows the same principles
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+AP Insider Intelligence works across all subjects
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Subject-Specific Response Mastery gets customized for each exam
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Pre-Grade Confidence System applies everywhere
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Every single AP exam follows the same principles. AP Insider Intelligence works across all subjects. Subject-Specific Response Mastery gets customized for each exam. Pre-Grade Confidence System applies everywhere.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Most students take <strong>4-6 AP exams</strong> throughout high school
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+At $120 per AP exam for College Board registration alone
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Plus the $3,000-$4,000 in college credit <strong>per exam</strong> they could earn
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+We're talking about $18,000-$24,000 in potential college savings
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most students take 4-6 AP exams throughout high school. At $120 per AP exam for College Board registration alone, plus the $3,000-$4,000 in college credit per exam they could earn with a score of 4 or 5, we're talking about $18,000-$24,000 in potential college savings.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+And your teen gets the blueprint for <strong>ALL of them</strong>
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Not just one subject
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+Every AP exam they'll ever take
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+For the rest of their academic career
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+And your teen gets the blueprint for ALL of them. Not just one subject. Every AP exam they'll ever take, for the rest of their academic career.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If I charged what most platforms charge
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+$120 per subject per year (industry standard)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Times 38 AP subjects = $4,560 per year
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Over 4 years of high school = $18,240
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+But you're getting LIFETIME access
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If I charged what most platforms charge - $120 per subject per year (industry standard) - times 38 AP subjects equals $4,560 per year. Over 4 years of high school, that's $18,240. But you're getting LIFETIME access.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Conservative value for 4 years of high school
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+$7,056
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+That's Component 2 alone
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Conservative value for 4 years of high school: $7,056. That's Component 2 alone.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold px-8">
+COMPONENT 3
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+The Score Prediction System
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-8">
+($2,400+ Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 3: The Score Prediction System ($2,400+ Value)
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+The Score Prediction System
+</div>
+
+<div class="text-2xl px-12 mt-12">
+
+<v-click>
+
+✓ <strong>Rubric Internalization Training</strong> — Learn to score like an AP grader (Value: $600)
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Self-Evaluation Mastery</strong> — Grade your own work with precision (Value: $500)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Predictive Accuracy Development</strong> — Know your score before you get it (Value: $800)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Gap Analysis Tools</strong> — Diagnose exactly what needs improvement (Value: $500)
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+The Score Prediction System: Rubric Internalization Training - Learn to score like an AP grader (Value: $600). Self-Evaluation Mastery - Grade your own work with precision (Value: $500). Predictive Accuracy Development - Know your score before you get it (Value: $800). Gap Analysis Tools - Diagnose exactly what needs improvement (Value: $500).
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Remember that third mechanism I showed you?
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+The Pre-Grade Confidence System where students predict their own scores with mathematical certainty?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+This is where we teach them exactly how to do it
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Remember that third mechanism I showed you? The Pre-Grade Confidence System where students predict their own scores with mathematical certainty? This is where we teach them exactly how to do it.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+Your teen learns to see their own work through the eyes of an AP grader
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+They practice scoring sample essays until they can match the official AP scores within 1 point
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Then they apply that same lens to their own practice work
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your teen learns to see their own work through the eyes of an AP grader. They practice scoring sample essays until they can match the official AP scores within 1 point. Then they apply that same lens to their own practice work.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Within 4-6 weeks of training
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Your teen will be able to finish a practice exam
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Predict their score to within 1-2 points
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Before even checking the answer key
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Within 4-6 weeks of training, your teen will be able to finish a practice exam, predict their score to within 1-2 points, before even checking the answer key.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Can you imagine what this does for their confidence?
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They're not <strong>hoping</strong> they did well
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+They KNOW they did well
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+Before they even submit the exam
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Can you imagine what this does for their confidence? They're not hoping they did well. They KNOW they did well—before they even submit the exam.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This level of self-assessment training
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Where someone develops the ability to objectively evaluate their own performance
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+Worth a minimum of $2,400
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+Because it's a skill they'll use for the rest of their life
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This level of self-assessment training—where someone develops the ability to objectively evaluate their own performance—is worth a minimum of $2,400. Because it's a skill they'll use for the rest of their life, not just for AP exams.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold px-8">
+COMPONENT 4
+</div>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+Monthly Group Coaching Calls
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl mt-8 px-8">
+($500 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Component 4: Monthly Group Coaching Calls ($500 Value)
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+Monthly Group Coaching Calls
+</div>
+
+<div class="text-2xl px-12 mt-12">
+
+<v-click>
+
+✓ <strong>Live Q&A Sessions</strong> — Ask anything about any AP exam (Value: $200)
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Hot Seat Coaching</strong> — Watch others get coached through challenges (Value: $150)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Strategy Updates</strong> — Latest AP exam changes and insights (Value: $100)
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ <strong>Community Support</strong> — Connect with other families in the program (Value: $50)
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+Monthly Group Coaching Calls: Live Q&A Sessions - Ask anything about any AP exam (Value: $200). Hot Seat Coaching - Watch others get coached through challenges (Value: $150). Strategy Updates - Latest AP exam changes and insights (Value: $100). Community Support - Connect with other families in the program (Value: $50).
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Once a month, we bring all our students together
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They get to ask questions, share wins, and learn from each other
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+We address the most common challenges students are facing
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+We update them on any changes to AP exam formats or scoring
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+And they build relationships with other high-achieving students
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Once a month, we bring all our students together. They get to ask questions, share wins, and learn from each other. We address the most common challenges students are facing. We update them on any changes to AP exam formats or scoring. And they build relationships with other high-achieving students.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This is where your teen realizes
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+They're not alone in this journey
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Everyone else in the program is scoring 4s and 5s too
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+It becomes the norm, not the exception
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This is where your teen realizes they're not alone in this journey. Everyone else in the program is scoring 4s and 5s too. It becomes the norm, not the exception.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+If you hired someone for monthly coaching calls
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Just one hour per month for expert guidance and Q&A
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+You'd pay at least $500
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+If you hired someone for monthly coaching calls—just one hour per month for expert guidance and Q&A—you'd pay at least $500.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+Let's add this up
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+<strong>Component 1:</strong> 12 Weeks of 1-on-1 Coaching = $2,800
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+<strong>Component 2:</strong> Lifetime Platform Access = $7,056
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+<strong>Component 3:</strong> Score Prediction System = $2,400
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+<strong>Component 4:</strong> Monthly Group Calls = $500
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8">
+TOTAL VALUE: $12,756
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Let's add this up: Component 1: 12 Weeks of 1-on-1 Coaching equals $2,800. Component 2: Lifetime Platform Access equals $7,056. Component 3: Score Prediction System equals $2,400. Component 4: Monthly Group Calls equals $500. TOTAL VALUE: $12,756.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+$12,756 in Core Value
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+And that's before we even get to the bonuses
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8 opacity-70">
+Yes, there are bonuses
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+$12,756 in core value. And that's before we even get to the bonuses. Yes, there are bonuses.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+BONUS #1
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8">
+The College Credit Calculator
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 px-8">
+($297 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Bonus #1: The College Credit Calculator ($297 Value)
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+The College Credit Calculator
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Shows you exactly how much money your teen will save at their target colleges
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+Based on their specific AP exam scores
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+For the specific schools they're interested in
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+The College Credit Calculator shows you exactly how much money your teen will save at their target colleges based on their specific AP exam scores, for the specific schools they're interested in.
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-2xl px-4">
+You plug in their scores
+</div>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+You select their target universities
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+And it calculates the exact dollar amount in tuition savings
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-4 mt-6">
+Plus how many credits they'll enter college with
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You plug in their scores. You select their target universities. And it calculates the exact dollar amount in tuition savings, plus how many credits they'll enter college with.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Most families have <strong>no idea</strong> how much they're actually saving
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+They know AP scores "help"
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+But they don't realize that five 5s could mean graduating a full semester early
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+That's $30,000-$40,000 in savings at many private universities
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Most families have no idea how much they're actually saving. They know AP scores "help," but they don't realize that five 5s could mean graduating a full semester early. That's $30,000-$40,000 in savings at many private universities.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+This bonus puts everything in concrete numbers
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+So you can see <strong>exactly</strong> what your investment is returning
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+Value: $297
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+This bonus puts everything in concrete numbers so you can see exactly what your investment is returning. Value: $297.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+BONUS #2
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8">
+Parent's Guide to Supporting AP Success
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 px-8">
+($197 Value)
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Bonus #2: Parent's Guide to Supporting AP Success ($197 Value)
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
+Parent's Guide to Supporting AP Success
+</div>
+
+<div class="text-2xl px-12 mt-12">
+
+<v-click>
+
+✓ What to say (and what NOT to say) during study sessions
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ How to tell if your teen is actually prepared or just "feels" prepared
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ Warning signs that your teen is burning out
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ How to support without micromanaging
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4">
+✓ What to do the week before the exam
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+Parent's Guide to Supporting AP Success: What to say (and what NOT to say) during study sessions. How to tell if your teen is actually prepared or just "feels" prepared. Warning signs that your teen is burning out. How to support without micromanaging. What to do the week before the exam.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Because here's the truth
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Your support matters <strong>tremendously</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+But most parents don't know how to help without adding pressure
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+This guide shows you exactly how to be their greatest asset
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because here's the truth: Your support matters tremendously. But most parents don't know how to help without adding pressure. This guide shows you exactly how to be their greatest asset without becoming a source of stress.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+You'll know exactly what questions to ask
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+How to gauge their real readiness
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And when to step in versus when to step back
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+Value: $197
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+You'll know exactly what questions to ask, how to gauge their real readiness, and when to step in versus when to step back. Value: $197.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+Total Investment Breakdown
+</div>
+
+<div class="text-2xl px-12 mt-12">
+
+<v-click>
+
+<strong>Core Components:</strong> $12,756
+
+</v-click>
+
+<v-click>
+
+<div class="mt-6">
+<strong>Bonus #1:</strong> College Credit Calculator = $297
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-6">
+<strong>Bonus #2:</strong> Parent's Guide = $197
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-12 text-5xl font-bold">
+TOTAL VALUE: $13,250
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+Total Investment Breakdown: Core Components: $12,756. Bonus #1: College Credit Calculator equals $297. Bonus #2: Parent's Guide equals $197. TOTAL VALUE: $13,250.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+$13,250 in Total Value
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Now, if I bundled this at a discount
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Just the four core components alone
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+I'd charge $7,200 minimum
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+$13,250 in total value. Now, if I bundled this at a discount—just the four core components alone—I'd charge $7,200 minimum.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Because for most families
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+A single semester of college credit savings alone justifies that investment
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+And we're talking about preparing your teen for <strong>multiple AP exams</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Over <strong>multiple years</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+With <strong>lifetime access</strong>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Because for most families, a single semester of college credit savings alone justifies that investment. And we're talking about preparing your teen for multiple AP exams over multiple years with lifetime access.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+But because you're here today
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Because you showed up for this presentation
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Because you care enough to invest time learning how to help your teen
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+I'm not going to charge you $7,200
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+But because you're here today—because you showed up for this presentation, because you care enough to invest time learning how to help your teen—I'm not going to charge you $7,200.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-4xl px-8">
+Your investment today
+</div>
+
+<v-click>
+
+<div class="text-8xl font-bold mt-12">
+$2,997
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-8 mt-12">
+Or 3 payments of $1,099
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Your investment today: $2,997. Or 3 payments of $1,099.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Let me put that in perspective
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Most families spend $3,000-$5,000 per year on AP tutoring
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+For <strong>one subject</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+With no guarantee of results
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+You're getting ALL subjects, lifetime access, AND a guarantee for less than one year of traditional tutoring
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Let me put that in perspective. Most families spend $3,000-$5,000 per year on AP tutoring for one subject with no guarantee of results. You're getting ALL subjects, lifetime access, AND a guarantee for less than one year of traditional tutoring.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+Speaking of guarantees
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Let me make this the easiest decision you'll ever make
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Speaking of guarantees, let me make this the easiest decision you'll ever make.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+THE GUARANTEE
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+If your teen completes the program
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And doesn't score at least a 4 on their AP exam
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold px-12 mt-12">
+We'll refund 100% of your investment
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-8">
+No questions asked
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+THE GUARANTEE: If your teen completes the program and doesn't score at least a 4 on their AP exam, we'll refund 100% of your investment. No questions asked.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Let me be crystal clear about what "complete the program" means
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Your teen attends their 1-on-1 coaching sessions
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Completes the practice exams
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Goes through the Score Prediction System training
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Uses the templates and tools we provide
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Let me be crystal clear about what "complete the program" means: Your teen attends their 1-on-1 coaching sessions. Completes the practice exams. Goes through the Score Prediction System training. Uses the templates and tools we provide.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Basically, if they show up and do the work
+</div>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+They WILL score a 4 or 5
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Or you get your money back
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Basically, if they show up and do the work, they WILL score a 4 or 5. Or you get your money back.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+I can make this guarantee because
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+I've seen it work for <strong>600+ students</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Across every AP subject
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+This system works
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+I can make this guarantee because I've seen it work for 600+ students across every AP subject. This system works.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-4xl font-bold px-8">
+Here's what happens next
+</div>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+Click the button below this video
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+You'll be taken to our secure enrollment page
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Complete your enrollment
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+Get instant access to the platform
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+We'll reach out within 24 hours to schedule your teen's first 1-on-1 coaching session
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Here's what happens next: Click the button below this video. You'll be taken to our secure enrollment page. Complete your enrollment. Get instant access to the platform. We'll reach out within 24 hours to schedule your teen's first 1-on-1 coaching session.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Within one week
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Your teen will have their roadmap
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Their personal coach
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And a clear path to scoring 4s and 5s on every AP exam they take
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Within one week, your teen will have their roadmap, their personal coach, and a clear path to scoring 4s and 5s on every AP exam they take.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
+---
+
+<div class="">
+
+<div class="text-5xl font-bold px-8">
+Go to APExamBlueprint.com right now
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+And secure your spot in the December cohort
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-12">
+We only accept 50 families per cohort
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl px-12 mt-6">
+To ensure every student gets the attention they deserve
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Go to APExamBlueprint.com right now and secure your spot in the December cohort. We only accept 50 families per cohort to ensure every student gets the attention they deserve.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Once those 50 spots are filled
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Enrollment closes
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And the next cohort doesn't start until March
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8 text-red-600">
+Which might be too late for your teen's May AP exams
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Once those 50 spots are filled, enrollment closes. And the next cohort doesn't start until March—which might be too late for your teen's May AP exams.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-3xl px-12">
+Don't let this opportunity slip away
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Don't let your teen face another AP exam feeling uncertain and anxious
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+Give them the confidence, the clarity, and the system they need
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+To score 4s and 5s on every exam
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+Don't let this opportunity slip away. Don't let your teen face another AP exam feeling uncertain and anxious. Give them the confidence, the clarity, and the system they need to score 4s and 5s on every exam.
+-->
+
+---
+layout: center
+class: text-center
+background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
+---
+
+<div class="">
+
+<div class="text-6xl font-bold px-8">
+APExamBlueprint.com
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Click the button below
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+Secure your spot
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-8">
+And let's get your teen on the path to AP exam success
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+APExamBlueprint.com. Click the button below. Secure your spot. And let's get your teen on the path to AP exam success.
+-->
+
+---
+layout: center
+class: text-center
+background: white
+---
+
+<div class="flex flex-col justify-center h-full">
+
+<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+I'll see you on the inside
+</div>
+
+<v-click>
+
+<div class="text-3xl px-12 mt-12">
+Where your teen's AP success story begins
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+I'll see you on the inside, where your teen's AP success story begins.
+-->
