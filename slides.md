@@ -326,39 +326,39 @@ background: white
 ---
 
 <div class="flex flex-col justify-center h-full">
-
+  
 <div class="text-2xl font-bold mb-4 text-red-600">
 ❌ Volume Without Strategy
 </div>
-
-<v-click>
-
-- Students study MORE hours
-- Take MORE practice tests
-- Get MORE exhausted
-- Still fail with same poor results
-
-</v-click>
-
+  
+<v-clicks>
+  
+- More hours studying
+- More practice tests
+- More exhaustion
+- Same poor results
+  
+</v-clicks>
+  
 </div>
 
 ::right::
 
 <div class="flex flex-col justify-center h-full">
-
+  
 <div class="text-2xl font-bold mb-4" style="color: var(--brand-accent);">
-✅ Students Who Score 4s and 5s
+✅ Strategic Study
 </div>
-
-<v-click>
-
-- <strong>Don't study more</strong> - they study strategically
-- Use the <strong>exact frameworks</strong> AP graders use
-- Less time, better results
-- Consistent 4s and 5s every time
-
-</v-click>
-
+  
+<v-clicks>
+  
+- Using exact frameworks AP graders use
+- Less time spent studying
+- Better results achieved
+- Consistent 4s and 5s
+  
+</v-clicks>
+  
 </div>
 
 <!--
@@ -681,32 +681,6 @@ You're not alone
 
 <!--
 And that's exactly what we need to talk about next. Because if you're feeling overwhelmed by changing admissions requirements, worried your straight-A student might still fail their AP exams, and terrified you're falling behind in an increasingly competitive landscape... you're not alone.
--->
-
----
-layout: default
-background: white
----
-
-<div class="flex flex-col justify-center h-full">
-
-<div class="text-3xl font-bold mb-8" style="color: var(--brand-primary);">
-Why You're Here Tonight
-</div>
-
-<v-clicks>
-
-- Overwhelmed by <strong>changing admissions requirements</strong>
-- Worried your straight-A student might still fail their AP exams
-- Terrified you're <strong>falling behind</strong> in an increasingly competitive landscape
-- Desperately searching for a solution that actually works
-
-</v-clicks>
-
-</div>
-
-<!--
-Because if you're feeling overwhelmed by changing admissions requirements, worried your straight-A student might still fail their AP exams, and terrified you're falling behind in an increasingly competitive landscape... you're not alone. Let's talk about why this keeps happening, and more importantly, what you can do about it.
 -->
 
 ---
@@ -1033,7 +1007,7 @@ The Complete Vision
 </div>
 
 <!--
-Is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s, allowing their busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule, giving the whole family peace of mind and saving tens of thousands in tuition.
+Is a proven system with insider scoring secrets that bridges the gap between classroom A's and exam 5s, allowing your busy athlete/musician/leader to confidently dominate AP exams while maintaining their packed schedule, giving the whole family peace of mind and saving tens of thousands in tuition.
 -->
 
 ---
@@ -1146,7 +1120,7 @@ Your teen becoming another <strong>heartbreaking statistic</strong>
 </div>
 
 <!--
-The thing you fear most? Their teen becoming another heartbreaking statistic - a brilliant, hardworking student whose dreams crumble in senior year.
+The thing you fear most? Their teen becoming another heartbreaking statistic.
 -->
 
 ---
@@ -1209,4 +1183,5 @@ All while realizing traditional approaches make things worse - but not knowing w
 <!--
 And the biggest obstacle of all? The invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused, all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
 -->
+
 
