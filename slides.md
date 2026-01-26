@@ -150,7 +150,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 # QUESTION 1
 
@@ -220,7 +220,7 @@ Classroom grades and AP exam scores operate on completely different systems. You
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920
+image: https://unsplash.com/photos/woman-shopping-at-a-plant-nursery-with-a-basket-SLgCDEqHav4
 background: white
 ---
 
@@ -248,7 +248,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 # QUESTION 2
 
@@ -365,7 +365,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 # QUESTION 3
 
@@ -462,7 +462,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 # QUESTION 4
 
@@ -569,7 +569,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 # QUESTION 5
 
@@ -670,7 +670,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 <div class="text-3xl px-12">
 And that's exactly what we need to talk about next
@@ -747,13 +747,13 @@ background: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1920
 
 <div style="background: rgba(0,0,0,0.6); padding: 2rem; border-radius: 1rem;">
 
-<div class="text-white text-3xl px-8">
+<div class=" text-3xl px-8">
 I know why you're here tonight
 </div>
 
 <v-click>
 
-<div class="text-white text-5xl font-bold mt-8 px-8">
+<div class=" text-5xl font-bold mt-8 px-8">
 You want your teen scoring 4s and 5s
 </div>
 
@@ -991,13 +991,13 @@ background: https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1920
 
 <div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
 
-<div class="text-white text-4xl font-bold px-8">
+<div class=" text-4xl font-bold px-8">
 Watching your straight-A student walk out of AP exams in tears
 </div>
 
 <v-click>
 
-<div class="text-white text-3xl mt-8 px-8">
+<div class=" text-3xl mt-8 px-8">
 Only to get devastating 2s and 3s
 </div>
 
@@ -1058,7 +1058,7 @@ class: text-center
 background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 ---
 
-<div class="text-white">
+<div class="">
 
 # What You Really Want
 
@@ -1187,13 +1187,13 @@ background: https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1920
 
 <div style="background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 1rem;">
 
-<div class="text-white text-3xl px-8">
+<div class=" text-3xl px-8">
 The thing you fear most?
 </div>
 
 <v-click>
 
-<div class="text-white text-4xl font-bold mt-8 px-8">
+<div class=" text-4xl font-bold mt-8 px-8">
 Your teen becoming another heartbreaking statistic
 </div>
 
@@ -1255,3 +1255,4 @@ The <strong>invisible scoring gap</strong> that even certified teachers don't un
 <!--
 And the biggest obstacle of all? The invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused.
 -->
+
