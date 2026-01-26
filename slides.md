@@ -2922,11 +2922,5 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 </div>
 
 <!--
-Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
+Your teen becomes internally driven rather than externally dependent. They don't need constant validation from teachers or parents. They know when they've done well and when they need to improve. This self-sufficiency becomes their greatest competitive advantage. The question is, are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
-
-
-
-
-
-
