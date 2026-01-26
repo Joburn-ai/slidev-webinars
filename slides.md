@@ -2109,7 +2109,7 @@ For AP Math Students
 </div>
 
 <!--
-For AP Math: We provide the problem-solving methodologies that demonstrate understanding clearly, even when calculations get messy.
+For AP Math students, we provide problem-solving methodologies that clearly demonstrate understanding, show graders your thinking even when calculations get messy, highlight the key steps needed for partial credit, and teach how to structure work so it’s impossible to miss points.
 -->
 
 ---
@@ -2172,13 +2172,14 @@ Implementation follows our Template-Practice-Perfect system. Week 1-2: Template 
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920
 background: white
 ---
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl font-bold mb-4">
+<div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
 Week 3-4: Guided Practice
 </div>
 
@@ -2198,13 +2199,14 @@ Week 3-4: Guided Practice—Your teen applies these templates to past exam quest
 -->
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1600895154961-2b50148d0e9e?w=1920
 background: white
 ---
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl font-bold mb-4">
+<div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
 Week 5-6: Timed Mastery
 </div>
 
@@ -2274,14 +2276,13 @@ Once Your Teen Has Response Mastery
 - They approach every AP question with <strong>surgical precision</strong>
 - They'll read a DBQ prompt and immediately know the exact structure
 - Paragraph 1: contextualization, Paragraph 2: thesis, Paragraphs 3-5: evidence
-- No more staring at blank pages wondering where to start
 
 </v-clicks>
 
 </div>
 
 <!--
-Once your teen has Response Mastery, they approach every AP question with surgical precision. They'll read a DBQ prompt and immediately know: paragraph 1 needs contextualization, paragraph 2 starts the argument, paragraphs 3-5 develop evidence, paragraph 6 addresses complexity, paragraph 7 concludes with significance.
+Once your teen has Response Mastery, they approach every AP question with surgical precision. They'll read a DBQ prompt and immediately know: paragraph 1 needs contextualization, paragraph 2 starts the argument, paragraphs 3-5 develop evidence, paragraph 6 addresses complexity, paragraph 7 concludes with significance. 
 -->
 
 ---
@@ -2307,7 +2308,7 @@ What You'll See Change
 </div>
 
 <!--
-You'll see them tackle practice exams with the confidence of someone who knows exactly what they're doing. No more staring at blank pages or running out of time because they don't know how to organize their thoughts.
+You'll see them tackle practice exams with the confidence of someone who knows exactly what they're doing. No more staring at blank pages or running out of time because they don't know how to organize their thoughts. Just systematic, confident execution every single time.
 -->
 
 ---
@@ -2367,7 +2368,7 @@ Will you commit to giving your teen these frameworks that turn <strong>confusion
 </div>
 
 <!--
-Your teen develops the ability to structure complex ideas clearly—a skill that pays dividends for life. Will you commit to giving your teen these frameworks that turn confusion into clarity and anxiety into confidence?
+Your teen develops the ability to structure complex ideas clearly—a skill that pays dividends for life. They become the employee who writes clear reports. The professional who communicates ideas that get approved. Will you commit to giving your teen these frameworks that turn confusion into clarity and anxiety into confidence?
 -->
 
 ---
@@ -2897,6 +2898,7 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
 
 
 
