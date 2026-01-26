@@ -1429,7 +1429,7 @@ Second, Pattern Recognition—we show your teen the response patterns that consi
 layout: center
 class: text-center
 background: white
-
+---
 
 <div class="flex flex-col justify-center h-full">
 
@@ -1481,7 +1481,7 @@ Third, Expectation Management—your teen will understand exactly what 'good eno
 layout: center
 class: text-center
 background: white
-
+---
 
 <div class="flex flex-col justify-center h-full">
 
@@ -1618,7 +1618,7 @@ Finally, they develop Grader Empathy—the ability to read any AP question and i
 layout: center
 class: text-center
 background: white
-
+---
 
 <div class="flex flex-col justify-center h-full">
 
@@ -2903,4 +2903,5 @@ Are you ready to give your teen the confidence that comes from <strong>knowing e
 <!--
 Your teen becomes internally driven rather than externally dependent. Are you ready to give your teen the confidence that comes from knowing exactly where they stand and how to improve?
 -->
+
 
