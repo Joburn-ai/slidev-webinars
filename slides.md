@@ -196,7 +196,7 @@ False. This is one of the most dangerous misconceptions parents have. Classroom 
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224311-beee2c867a8d?w=1920
+image: https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920
 background: white
 ---
 
@@ -476,7 +476,7 @@ False. Most private tutors charge $125+ per hour but lack College Board certific
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1920
+image: https://images.unsplash.com/photo-1600895154961-2b50148d0e9e?w=1920
 background: white
 ---
 
@@ -2387,3 +2387,4 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
+
