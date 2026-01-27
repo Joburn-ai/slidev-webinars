@@ -884,7 +884,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 And that's exactly what we need to talk about next
@@ -926,7 +926,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-5xl font-bold">
 You're Not Alone
@@ -1363,7 +1363,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-4xl font-bold">
 What You Really Want
@@ -1405,7 +1405,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-2xl px-12">
 While maintaining their packed schedule
@@ -1646,7 +1646,7 @@ class: text-center
 style: 'background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);'
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-4xl font-bold">
 The Biggest Obstacle of All
@@ -1935,7 +1935,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
 Instead of fighting this uphill battle...
@@ -1977,7 +1977,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-5xl font-bold">
 That's Exactly What
@@ -2278,7 +2278,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-2xl px-12">
 So that no matter what has happened to you in the past
@@ -2360,7 +2360,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full text-white">
+<div class="flex flex-col justify-center h-full">
 
 <div class="text-5xl font-bold">
 Now Here's What Matters
@@ -2387,6 +2387,7 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
+
 
 
 
