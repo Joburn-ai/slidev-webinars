@@ -196,7 +196,7 @@ False. This is one of the most dangerous misconceptions parents have. Classroom 
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920
+image: https://images.unsplash.com/photo-1554224311-beee2c867a8d?w=1920
 background: white
 ---
 
@@ -476,7 +476,7 @@ False. Most private tutors charge $125+ per hour but lack College Board certific
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1625225233840-695456021cde?w=1920
+image: https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1920
 background: white
 ---
 
@@ -884,7 +884,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-3xl px-12">
 And that's exactly what we need to talk about next
@@ -926,7 +926,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-5xl font-bold">
 You're Not Alone
@@ -950,7 +950,7 @@ And more importantly...
 
 <v-click>
 
-<div class="text-3xl font-bold mt-6" style="color: var(--brand-secondary);">
+<div class="text-3xl font-bold mt-6" style="color: var(--brand-accent);">
 What you can do about it
 </div>
 
@@ -1363,7 +1363,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-4xl font-bold">
 What You Really Want
@@ -1405,7 +1405,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-2xl px-12">
 While maintaining their packed schedule
@@ -1421,7 +1421,7 @@ Giving the whole family <strong>peace of mind</strong>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8" style="color: var(--brand-secondary);">
+<div class="text-4xl font-bold mt-8" style="color: var(--brand-accent);">
 And saving tens of thousands in tuition
 </div>
 
@@ -1643,10 +1643,10 @@ Forcing parents to tell their accomplished child that despite all their sacrific
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);'
+background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-4xl font-bold">
 The Biggest Obstacle of All
@@ -1935,7 +1935,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-3xl px-12">
 Instead of fighting this uphill battle...
@@ -1977,7 +1977,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-5xl font-bold">
 That's Exactly What
@@ -1985,7 +1985,7 @@ That's Exactly What
 
 <v-click>
 
-<div class="text-6xl font-bold mt-8" style="color: var(--brand-secondary);">
+<div class="text-6xl font-bold mt-8" style="color: var(--brand-accent);">
 We're Going to Show You
 </div>
 
@@ -2278,7 +2278,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-2xl px-12">
 So that no matter what has happened to you in the past
@@ -2360,7 +2360,7 @@ class: text-center
 background: white
 ---
 
-<div class="flex flex-col justify-center h-full">
+<div class="flex flex-col justify-center h-full text-gray-800">
 
 <div class="text-5xl font-bold">
 Now Here's What Matters
@@ -2387,7 +2387,3 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
-
-
-
-
