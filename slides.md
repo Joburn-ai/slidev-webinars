@@ -92,7 +92,7 @@ background: white
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 I have <strong>5 simple True/False questions</strong> about AP exams and college admissions
 </div>
 
@@ -100,7 +100,7 @@ I have <strong>5 simple True/False questions</strong> about AP exams and college
 
 <v-click>
 
-<div class="text-xl mt-6 px-12 opacity-70">
+<div class="text-xl mt-6 px-12 text-gray-700">
 Your answers are critical to your teen's college success and your family's financial future
 </div>
 
@@ -108,7 +108,7 @@ Your answers are critical to your teen's college success and your family's finan
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-2xl mt-8 px-12 text-gray-800" style="color: var(--brand-accent);">
 Type <strong>T</strong> for True or <strong>F</strong> for False in the chat
 </div>
 
@@ -132,7 +132,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold">
+<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
 If your student gets an A in their AP class...
 </div>
 
@@ -140,7 +140,7 @@ If your student gets an A in their AP class...
 
 <v-click>
 
-<div class="text-3xl mt-6 px-12 font-bold">
+<div class="text-3xl mt-6 px-12 font-bold text-gray-800">
 They're <span style="color: var(--brand-accent);">guaranteed</span> to score a 4 or 5 on the AP exam
 </div>
 
@@ -148,7 +148,7 @@ They're <span style="color: var(--brand-accent);">guaranteed</span> to score a 4
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold">
+<div class="text-4xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -174,7 +174,7 @@ FALSE
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 This is one of the <strong>most dangerous misconceptions</strong> parents have
 </div>
 
@@ -182,7 +182,7 @@ This is one of the <strong>most dangerous misconceptions</strong> parents have
 
 <v-click>
 
-<div class="text-xl mt-6 px-12 opacity-80">
+<div class="text-xl mt-6 px-12 text-gray-700">
 Classroom grades and AP exam scores operate on <strong>completely different systems</strong>
 </div>
 
@@ -196,7 +196,7 @@ False. This is one of the most dangerous misconceptions parents have. Classroom 
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920
+image: https://images.unsplash.com/photo-1554224311-beee2c867a8d?w=1920
 background: white
 ---
 
@@ -206,13 +206,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Your straight-A student could <strong>easily score a 2 or 3</strong>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 Because AP teachers focus on <strong>content mastery</strong>
 </div>
 
@@ -220,7 +222,7 @@ Because AP teachers focus on <strong>content mastery</strong>
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 While AP graders use <strong>specific scoring frameworks</strong> that most teachers never see
 </div>
 
@@ -246,7 +248,7 @@ $40,000+
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 That's what this gap costs families in <strong>lost college credits</strong> every year
 </div>
 
@@ -270,7 +272,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold">
+<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
 The best way to improve AP scores is to...
 </div>
 
@@ -278,7 +280,7 @@ The best way to improve AP scores is to...
 
 <v-click>
 
-<div class="text-3xl mt-6 px-12 font-bold">
+<div class="text-3xl mt-6 px-12 font-bold text-gray-800">
 Do <span style="color: var(--brand-accent);">more practice tests</span> and study <span style="color: var(--brand-accent);">longer hours</span>
 </div>
 
@@ -286,7 +288,7 @@ Do <span style="color: var(--brand-accent);">more practice tests</span> and stud
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold">
+<div class="text-4xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -312,7 +314,7 @@ FALSE
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 More practice <strong>without the right strategy</strong> actually reinforces wrong approaches
 </div>
 
@@ -335,14 +337,16 @@ background: white
 # Like Practicing Basketball...
 
 <v-click>
-<div class="mt-6">
+
+<div class="text-xl text-gray-800">
 With <strong>terrible form</strong>
 </div>
+
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 You'll get really good at <span class="text-red-600"><strong>missing</strong></span>
 </div>
 
@@ -350,7 +354,7 @@ You'll get really good at <span class="text-red-600"><strong>missing</strong></s
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 Students who score 4s and 5s don't study <strong>more</strong>
 </div>
 
@@ -358,7 +362,7 @@ Students who score 4s and 5s don't study <strong>more</strong>
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 They study <strong>strategically</strong> using the frameworks AP graders use
 </div>
 
@@ -378,7 +382,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Volume without strategy is why...
 </div>
 
@@ -416,7 +420,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold">
+<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
 <span style="color: var(--brand-accent);">Expensive private tutors</span> give you the best chance of AP success
 </div>
 
@@ -424,7 +428,7 @@ background: white
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold">
+<div class="text-4xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -450,7 +454,7 @@ FALSE
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 Most private tutors charge <strong>$125+ per hour</strong>
 </div>
 
@@ -458,7 +462,7 @@ Most private tutors charge <strong>$125+ per hour</strong>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 But lack <strong>College Board certification</strong> and insider knowledge
 </div>
 
@@ -482,13 +486,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 They teach <strong>content</strong>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 Not <strong>scoring strategy</strong>
 </div>
 
@@ -516,7 +522,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 The most successful students use...
 </div>
 
@@ -530,7 +536,7 @@ Certified AP Teachers
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 Who know the scoring systems <strong>from the inside</strong>
 </div>
 
@@ -554,7 +560,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold">
+<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
 With college admissions getting more competitive every year...
 </div>
 
@@ -562,7 +568,7 @@ With college admissions getting more competitive every year...
 
 <v-click>
 
-<div class="text-3xl mt-6 px-12 font-bold">
+<div class="text-3xl mt-6 px-12 font-bold text-gray-800">
 It's <span class="text-red-600">nearly impossible</span> for the average student to stand out
 </div>
 
@@ -570,7 +576,7 @@ It's <span class="text-red-600">nearly impossible</span> for the average student
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold">
+<div class="text-4xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -596,7 +602,7 @@ FALSE
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 While competition has increased <strong>300%</strong> in five years...
 </div>
 
@@ -604,7 +610,7 @@ While competition has increased <strong>300%</strong> in five years...
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 Most families are still using <strong>outdated strategies</strong> from your generation
 </div>
 
@@ -628,13 +634,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 The "secret" isn't working <strong>harder</strong>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 It's knowing what <strong>admissions officers</strong> actually look for now
 </div>
 
@@ -642,7 +650,7 @@ It's knowing what <strong>admissions officers</strong> actually look for now
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 Now that <strong>AI screens applications</strong>
 </div>
 
@@ -662,7 +670,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 When you understand the <strong>new rules</strong>...
 </div>
 
@@ -676,7 +684,7 @@ Your Student Becomes the Obvious Choice
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12 opacity-70">
+<div class="text-2xl mt-6 px-12 text-gray-700">
 While everyone else gets filtered out
 </div>
 
@@ -700,7 +708,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold">
+<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
 As long as your student <span style="color: var(--brand-accent);">works hard</span>...
 </div>
 
@@ -708,7 +716,7 @@ As long as your student <span style="color: var(--brand-accent);">works hard</sp
 
 <v-click>
 
-<div class="text-3xl mt-6 px-12 font-bold">
+<div class="text-3xl mt-6 px-12 font-bold text-gray-800">
 Everything will work out for college admissions and AP success
 </div>
 
@@ -716,7 +724,7 @@ Everything will work out for college admissions and AP success
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold">
+<div class="text-4xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -742,7 +750,7 @@ FALSE
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12 font-bold">
+<div class="text-3xl mt-8 px-12 font-bold text-gray-800">
 This is the most <span class="text-red-600">dangerous</span> myth of all
 </div>
 
@@ -766,13 +774,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Hard work <strong>without the right system</strong> leads to...
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 ❌ Burnout
 </div>
 
@@ -780,7 +790,7 @@ Hard work <strong>without the right system</strong> leads to...
 
 <v-click>
 
-<div class="mt-2">
+<div class="mt-2 text-xl text-gray-800">
 ❌ Wasted time
 </div>
 
@@ -788,7 +798,7 @@ Hard work <strong>without the right system</strong> leads to...
 
 <v-click>
 
-<div class="mt-2">
+<div class="mt-2 text-xl text-gray-800">
 ❌ Devastating disappointment
 </div>
 
@@ -808,7 +818,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 Right now, thousands of hardworking students are heading toward...
 </div>
 
@@ -822,7 +832,7 @@ Right now, thousands of hardworking students are heading toward...
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 Losing <strong>tens of thousands</strong> in college credits
 </div>
 
@@ -842,13 +852,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 All while their parents think...
 </div>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8">
+<div class="text-4xl font-bold mt-8 text-gray-800">
 "Working harder is the answer"
 </div>
 
@@ -882,7 +892,7 @@ And that's exactly what we need to talk about next
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 opacity-90">
+<div class="text-2xl mt-8 px-12">
 Because if you're feeling overwhelmed by changing admissions requirements...
 </div>
 
@@ -890,7 +900,7 @@ Because if you're feeling overwhelmed by changing admissions requirements...
 
 <v-click>
 
-<div class="text-2xl mt-4 px-12 opacity-90">
+<div class="text-2xl mt-4 px-12">
 Worried your straight-A student might still fail their AP exams...
 </div>
 
@@ -898,7 +908,7 @@ Worried your straight-A student might still fail their AP exams...
 
 <v-click>
 
-<div class="text-2xl mt-4 px-12 opacity-90">
+<div class="text-2xl mt-4 px-12">
 And terrified you're falling behind in an increasingly competitive landscape...
 </div>
 
@@ -962,11 +972,13 @@ background: white
 
 # I Know Why You're Here
 
+<div class="text-xl text-gray-800">
 You want your teen scoring <strong>4s and 5s</strong> on all AP exams
+</div>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 While experiencing a <strong>stress-free journey</strong>
 </div>
 
@@ -974,7 +986,7 @@ While experiencing a <strong>stress-free journey</strong>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 That leads to <strong>$40,000+ in college savings</strong>
 </div>
 
@@ -982,7 +994,7 @@ That leads to <strong>$40,000+ in college savings</strong>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 And acceptance to their <strong>dream school</strong>
 </div>
 
@@ -1002,7 +1014,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold">
+<div class="text-3xl px-12 font-bold text-gray-800">
 But right now, you're dealing with...
 </div>
 
@@ -1047,10 +1059,21 @@ background: white
 
 <v-clicks>
 
+<div class="text-xl text-gray-800">
 - Find the <strong>right tutors</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Discover the best <strong>prep courses</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Sort through endless <strong>resources</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Guarantee your teen's <strong>AP success</strong>
+</div>
 
 </v-clicks>
 
@@ -1064,10 +1087,21 @@ background: white
 
 <v-clicks>
 
+<div class="text-xl text-gray-800">
 - Teen is <strong>ahead academically</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Solid <strong>grades in AP classes</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Found <strong>tutoring support</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Teen seems more <strong>college-ready</strong>
+</div>
 
 </v-clicks>
 
@@ -1089,13 +1123,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 You're watching their teen get <strong>solid grades</strong> in AP classes
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 While <strong>secretly panicking</strong> about whether that translates to exam success
 </div>
 
@@ -1103,7 +1139,7 @@ While <strong>secretly panicking</strong> about whether that translates to exam 
 
 <v-click>
 
-<div class="mt-4">
+<div class="mt-4 text-xl text-gray-800">
 Seeing classmates get A's but score <strong>2s and 3s</strong>
 </div>
 
@@ -1123,13 +1159,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 Throwing <strong>money at tutors</strong> and prep materials
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 Without knowing if it's the <strong>right approach</strong>
 </div>
 
@@ -1137,7 +1173,7 @@ Without knowing if it's the <strong>right approach</strong>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 All while their overwhelmed student juggles <strong>sports, activities, and mounting pressure</strong>
 </div>
 
@@ -1145,7 +1181,7 @@ All while their overwhelmed student juggles <strong>sports, activities, and moun
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 With exams approaching <strong>fast</strong>
 </div>
 
@@ -1169,13 +1205,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Your child <strong>confidently walking</strong> into every AP exam
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 <strong>Knowing</strong> they'll score a 5
 </div>
 
@@ -1183,7 +1221,7 @@ Your child <strong>confidently walking</strong> into every AP exam
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 Getting into their <strong>dream college</strong> with maximum credits
 </div>
 
@@ -1191,7 +1229,7 @@ Getting into their <strong>dream college</strong> with maximum credits
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 The whole family feeling <strong>proud and financially relieved</strong>
 </div>
 
@@ -1211,7 +1249,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold">
+<div class="text-3xl px-12 font-bold text-gray-800">
 But instead, you keep running into the same brutal reality...
 </div>
 
@@ -1241,13 +1279,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Watching their straight-A student <strong>walk out of AP exams in tears</strong>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 Only to get devastating <strong>2s and 3s</strong>
 </div>
 
@@ -1255,7 +1295,7 @@ Only to get devastating <strong>2s and 3s</strong>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 That waste <strong>a year of effort</strong>
 </div>
 
@@ -1263,7 +1303,7 @@ That waste <strong>a year of effort</strong>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 And <strong>thousands in future tuition</strong>
 </div>
 
@@ -1283,7 +1323,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 The normal pattern?
 </div>
 
@@ -1403,11 +1443,13 @@ background: white
 
 # The Second Trap
 
+<div class="text-xl text-gray-800">
 Most families fall into...
+</div>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 <strong>Believing</strong> that working harder and doing more practice tests will eventually break through
 </div>
 
@@ -1435,13 +1477,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold">
+<div class="text-3xl px-12 font-bold text-gray-800">
 What happens when you try to push through this limitation?
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 Students <strong>burning out</strong> from endless practice tests
 </div>
 
@@ -1449,7 +1491,7 @@ Students <strong>burning out</strong> from endless practice tests
 
 <v-click>
 
-<div class="text-2xl mt-4 px-12">
+<div class="text-2xl mt-4 px-12 text-gray-800">
 While <strong>still scoring 2s and 3s</strong>
 </div>
 
@@ -1472,10 +1514,21 @@ background: white
 
 <v-clicks>
 
+<div class="text-xl text-gray-800">
 - Families spending more money on <strong>ineffective tutoring</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - That reinforces <strong>wrong approaches</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Teens losing <strong>confidence</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Watching others who study less <strong>score better</strong>
+</div>
 
 </v-clicks>
 
@@ -1489,10 +1542,21 @@ background: white
 
 <v-clicks>
 
+<div class="text-xl text-gray-800">
 - The whole family <strong>sacrificing mental health</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Damaged <strong>relationships</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Pursuit of scores that <strong>never improve</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Because the strategy is <strong>fundamentally wrong</strong>
+</div>
 
 </v-clicks>
 
@@ -1514,13 +1578,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Their teen becoming another <strong>heartbreaking statistic</strong>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 A brilliant, hardworking student whose <strong>dreams crumble</strong> in senior year
 </div>
 
@@ -1528,7 +1594,7 @@ A brilliant, hardworking student whose <strong>dreams crumble</strong> in senior
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 When low AP scores <strong>destroy college plans</strong>
 </div>
 
@@ -1548,13 +1614,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 Forcing parents to tell their accomplished child...
 </div>
 
 <v-click>
 
-<div class="text-3xl font-bold mt-8 px-12">
+<div class="text-3xl font-bold mt-8 px-12 text-gray-800">
 "Despite all their sacrifices, it wasn't enough"
 </div>
 
@@ -1562,7 +1628,7 @@ Forcing parents to tell their accomplished child...
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 opacity-70">
+<div class="text-2xl mt-8 px-12 text-gray-700">
 While wondering if they failed by not knowing how to navigate a system other families somehow figured out
 </div>
 
@@ -1624,7 +1690,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 All while realizing that traditional "work harder" approaches...
 </div>
 
@@ -1638,7 +1704,7 @@ MAKE THINGS WORSE
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 But not knowing what <strong>alternative exists</strong>
 </div>
 
@@ -1662,13 +1728,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 That moment their teen <strong>walks out of AP exams</strong> with genuine confidence
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 <strong>Knowing</strong> they nailed every section
 </div>
 
@@ -1676,7 +1744,7 @@ That moment their teen <strong>walks out of AP exams</strong> with genuine confi
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 And will get the <strong>5s they need</strong>
 </div>
 
@@ -1696,13 +1764,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 Becoming the <strong>success story</strong> other parents admire
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 While giving the whole family the <strong>peace of mind</strong>
 </div>
 
@@ -1710,7 +1778,7 @@ While giving the whole family the <strong>peace of mind</strong>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 That comes from knowing they gave their child <strong>every advantage</strong>
 </div>
 
@@ -1738,7 +1806,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold">
+<div class="text-3xl px-12 font-bold text-gray-800">
 You keep fighting against the cycle of...
 </div>
 
@@ -1752,7 +1820,7 @@ Classroom A's
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 Followed by
 </div>
 
@@ -1783,13 +1851,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Once you understand the <strong>hidden scoring gap</strong>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 You have the <strong>unfair advantage</strong> of knowing exactly what AP graders want
 </div>
 
@@ -1805,7 +1875,9 @@ You have the <strong>unfair advantage</strong> of knowing exactly what AP grader
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Waste time on <strong>irrelevant classroom skills</strong>
+</div>
 
 </v-click>
 
@@ -1831,13 +1903,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 Your teen's packed schedule actually becomes an <strong>asset</strong>
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 They learn <strong>efficiency and time management</strong>
 </div>
 
@@ -1945,13 +2017,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Have been <strong>burned before</strong> by tutors and prep programs
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 That promised results but left you <strong>more frustrated</strong>
 </div>
 
@@ -1959,7 +2033,7 @@ That promised results but left you <strong>more frustrated</strong>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 Maybe you've watched your honor student <strong>come home in tears</strong> after an AP exam
 </div>
 
@@ -1979,13 +2053,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-2xl px-12">
+<div class="text-2xl px-12 text-gray-800">
 Wondering how someone with a <strong>95 average</strong>
 </div>
 
 <v-click>
 
-<div class="text-3xl font-bold mt-6 px-12">
+<div class="text-3xl font-bold mt-6 px-12 text-gray-800">
 Could feel so unprepared
 </div>
 
@@ -2008,10 +2082,21 @@ background: white
 
 <v-clicks>
 
+<div class="text-xl text-gray-800">
 - Hired <strong>expensive tutors</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Bought every <strong>prep book</strong> on Amazon
+</div>
+
+<div class="text-xl text-gray-800">
 - Enrolled in <strong>generic AP courses</strong>
+</div>
+
+<div class="text-xl text-gray-800">
 - Watched your straight-A student <strong>still struggle</strong>
+</div>
 
 </v-clicks>
 
@@ -2045,13 +2130,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold">
+<div class="text-3xl px-12 font-bold text-gray-800">
 No wonder it's so scary to invest in another AP solution
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 The problem isn't <strong>trying to help</strong> your teen succeed
 </div>
 
@@ -2059,7 +2144,7 @@ The problem isn't <strong>trying to help</strong> your teen succeed
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 It's the <strong>certainty</strong> that you might waste more money and time
 </div>
 
@@ -2067,7 +2152,7 @@ It's the <strong>certainty</strong> that you might waste more money and time
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12">
+<div class="text-2xl mt-6 px-12 text-gray-800">
 While your child's <strong>college dreams</strong> hang in the balance
 </div>
 
@@ -2091,13 +2176,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Because of the <strong>invisible gap</strong> between classroom grades and AP exam scoring
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 And because of all the <strong>conflicting advice</strong> from tutors who don't understand the real scoring systems
 </div>
 
@@ -2105,7 +2192,7 @@ And because of all the <strong>conflicting advice</strong> from tutors who don't
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 It's now even more complicated to know what will <strong>actually work</strong>
 </div>
 
@@ -2125,7 +2212,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12">
+<div class="text-3xl px-12 text-gray-800">
 Even if your teen is getting <strong>A's in their AP classes</strong>
 </div>
 
@@ -2159,13 +2246,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 font-bold">
+<div class="text-3xl px-12 font-bold text-gray-800">
 These are the challenges I know you're dealing with
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12">
+<div class="text-2xl mt-8 px-12 text-gray-800">
 Which is why when you see the approach I have for you today
 </div>
 
@@ -2231,13 +2318,15 @@ background: white
 
 <v-click>
 
+<div class="text-xl text-gray-800">
 Watch your teen <strong>confidently walk</strong> into those AP exams
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 <strong>Knowing</strong> they'll score the 5s
 </div>
 
@@ -2245,7 +2334,7 @@ Watch your teen <strong>confidently walk</strong> into those AP exams
 
 <v-click>
 
-<div class="mt-6">
+<div class="mt-6 text-xl text-gray-800">
 That save your family <strong>tens of thousands</strong> in tuition
 </div>
 
@@ -2298,5 +2387,3 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
-
-
