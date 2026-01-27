@@ -335,9 +335,9 @@ background: white
 # Like Practicing Basketball...
 
 <v-click>
-
+<div class="mt-6">
 With <strong>terrible form</strong>
-
+</div>
 </v-click>
 
 <v-click>
@@ -2298,4 +2298,5 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
+
 
