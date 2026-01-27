@@ -881,7 +881,7 @@ All while their parents think 'working harder' is the answer. The painful truth 
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -923,7 +923,7 @@ And that's exactly what we need to talk about next. Because if you're feeling ov
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -1360,7 +1360,7 @@ And the normal pattern? Talented students getting A's in class but consistently 
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -1402,7 +1402,7 @@ What you really want is a proven system with insider scoring secrets that bridge
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -1932,7 +1932,7 @@ And your teen's packed schedule actually becomes an asset when you have the righ
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -1974,7 +1974,7 @@ Instead of fighting this uphill battle, imagine your teen systematically scoring
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -2275,7 +2275,7 @@ These are the challenges I know you're dealing with, which is why when you see t
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -2357,7 +2357,7 @@ To watch your teen confidently walk into those AP exams knowing they'll score th
 ---
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);'
+background: white
 ---
 
 <div class="flex flex-col justify-center h-full text-white">
@@ -2387,5 +2387,6 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
+
 
 
