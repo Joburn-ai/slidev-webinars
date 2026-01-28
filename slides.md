@@ -66,7 +66,7 @@ strong {
 
 # AP Score Certainty Masterclass
 
-<div class="text-2xl mt-4 opacity-70">
+<div class="text-3xl mt-4 opacity-70">
 The Insider System That Turns Straight-A Students Into 5-Scorers
 </div>
 
@@ -92,7 +92,7 @@ background: white
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 text-gray-800">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 I have <strong>5 simple True/False questions</strong> about AP exams and college admissions
 </div>
 
@@ -100,7 +100,7 @@ I have <strong>5 simple True/False questions</strong> about AP exams and college
 
 <v-click>
 
-<div class="text-xl mt-6 px-12 text-gray-700">
+<div class="text-2xl mt-6 px-12 text-gray-700">
 Your answers are critical to your teen's college success and your family's financial future
 </div>
 
@@ -108,7 +108,7 @@ Your answers are critical to your teen's college success and your family's finan
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 text-gray-800" style="color: var(--brand-accent);">
+<div class="text-3xl mt-8 px-12 text-gray-800" style="color: var(--brand-accent);">
 Type <strong>T</strong> for True or <strong>F</strong> for False in the chat
 </div>
 
@@ -132,7 +132,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
+<div class="text-4xl mt-12 px-12 font-bold text-gray-800">
 If your student gets an A in their AP class...
 </div>
 
@@ -140,7 +140,7 @@ If your student gets an A in their AP class...
 
 <v-click>
 
-<div class="text-3xl mt-6 px-12 font-bold text-gray-800">
+<div class="text-4xl mt-6 px-12 font-bold text-gray-800">
 They're <span style="color: var(--brand-accent);">guaranteed</span> to score a 4 or 5 on the AP exam
 </div>
 
@@ -148,7 +148,7 @@ They're <span style="color: var(--brand-accent);">guaranteed</span> to score a 4
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold text-gray-800">
+<div class="text-5xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -168,13 +168,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-7xl font-bold text-red-600">
+<div class="text-8xl font-bold text-red-600">
 FALSE
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 text-gray-800">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 This is one of the <strong>most dangerous misconceptions</strong> parents have
 </div>
 
@@ -182,7 +182,7 @@ This is one of the <strong>most dangerous misconceptions</strong> parents have
 
 <v-click>
 
-<div class="text-xl mt-6 px-12 text-gray-700">
+<div class="text-2xl mt-6 px-12 text-gray-700">
 Classroom grades and AP exam scores operate on <strong>completely different systems</strong>
 </div>
 
@@ -206,7 +206,7 @@ background: white
 
 <v-click>
 
-<div class="text-xl text-gray-800">
+<div class="text-2xl text-gray-800">
 Your straight-A student could <strong>easily score a 2 or 3</strong>
 </div>
 
@@ -214,7 +214,7 @@ Your straight-A student could <strong>easily score a 2 or 3</strong>
 
 <v-click>
 
-<div class="mt-4 text-xl text-gray-800">
+<div class="mt-4 text-2xl text-gray-800">
 Because AP teachers focus on <strong>content mastery</strong>
 </div>
 
@@ -222,7 +222,7 @@ Because AP teachers focus on <strong>content mastery</strong>
 
 <v-click>
 
-<div class="mt-4 text-xl text-gray-800">
+<div class="mt-4 text-2xl text-gray-800">
 While AP graders use <strong>specific scoring frameworks</strong> that most teachers never see
 </div>
 
@@ -242,13 +242,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-5xl font-bold" style="color: var(--brand-accent);">
+<div class="text-7xl font-bold" style="color: var(--brand-accent);">
 $40,000+
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12 text-gray-800">
+<div class="text-3xl mt-6 px-12 text-gray-800">
 That's what this gap costs families in <strong>lost college credits</strong> every year
 </div>
 
@@ -272,7 +272,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
+<div class="text-4xl mt-12 px-12 font-bold text-gray-800">
 The best way to improve AP scores is to...
 </div>
 
@@ -280,7 +280,7 @@ The best way to improve AP scores is to...
 
 <v-click>
 
-<div class="text-3xl mt-6 px-12 font-bold text-gray-800">
+<div class="text-4xl mt-6 px-12 font-bold text-gray-800">
 Do <span style="color: var(--brand-accent);">more practice tests</span> and study <span style="color: var(--brand-accent);">longer hours</span>
 </div>
 
@@ -288,7 +288,7 @@ Do <span style="color: var(--brand-accent);">more practice tests</span> and stud
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold text-gray-800">
+<div class="text-5xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -308,13 +308,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-7xl font-bold text-red-600">
+<div class="text-8xl font-bold text-red-600">
 FALSE
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 text-gray-800">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 More practice <strong>without the right strategy</strong> actually reinforces wrong approaches
 </div>
 
@@ -338,7 +338,7 @@ background: white
 
 <v-click>
 
-<div class="text-xl text-gray-800">
+<div class="text-2xl text-gray-800">
 With <strong>terrible form</strong>
 </div>
 
@@ -346,7 +346,7 @@ With <strong>terrible form</strong>
 
 <v-click>
 
-<div class="mt-6 text-xl text-gray-800">
+<div class="mt-6 text-2xl text-gray-800">
 You'll get really good at <span class="text-red-600"><strong>missing</strong></span>
 </div>
 
@@ -354,7 +354,7 @@ You'll get really good at <span class="text-red-600"><strong>missing</strong></s
 
 <v-click>
 
-<div class="mt-6 text-xl text-gray-800">
+<div class="mt-6 text-2xl text-gray-800">
 Students who score 4s and 5s don't study <strong>more</strong>
 </div>
 
@@ -362,7 +362,7 @@ Students who score 4s and 5s don't study <strong>more</strong>
 
 <v-click>
 
-<div class="mt-4 text-xl text-gray-800">
+<div class="mt-4 text-2xl text-gray-800">
 They study <strong>strategically</strong> using the frameworks AP graders use
 </div>
 
@@ -382,13 +382,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-12 text-gray-800">
+<div class="text-4xl px-12 text-gray-800">
 Volume without strategy is why...
 </div>
 
 <v-click>
 
-<div class="text-5xl font-bold text-red-600 mt-8">
+<div class="text-6xl font-bold text-red-600 mt-8">
 EXHAUSTED STUDENTS
 </div>
 
@@ -396,7 +396,7 @@ EXHAUSTED STUDENTS
 
 <v-click>
 
-<div class="text-5xl font-bold text-red-600 mt-4">
+<div class="text-6xl font-bold text-red-600 mt-4">
 STILL FAIL
 </div>
 
@@ -420,7 +420,7 @@ background: white
 
 <v-click>
 
-<div class="text-3xl mt-12 px-12 font-bold text-gray-800">
+<div class="text-4xl mt-12 px-12 font-bold text-gray-800">
 <span style="color: var(--brand-accent);">Expensive private tutors</span> give you the best chance of AP success
 </div>
 
@@ -428,7 +428,7 @@ background: white
 
 <v-click>
 
-<div class="text-4xl mt-12 font-bold text-gray-800">
+<div class="text-5xl mt-12 font-bold text-gray-800">
 True or False?
 </div>
 
@@ -448,13 +448,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-7xl font-bold text-red-600">
+<div class="text-8xl font-bold text-red-600">
 FALSE
 </div>
 
 <v-click>
 
-<div class="text-2xl mt-8 px-12 text-gray-800">
+<div class="text-3xl mt-8 px-12 text-gray-800">
 Most private tutors charge <strong>$125+ per hour</strong>
 </div>
 
@@ -462,7 +462,7 @@ Most private tutors charge <strong>$125+ per hour</strong>
 
 <v-click>
 
-<div class="text-2xl mt-6 px-12 text-gray-800">
+<div class="text-3xl mt-6 px-12 text-gray-800">
 But lack <strong>College Board certification</strong> and insider knowledge
 </div>
 
@@ -486,7 +486,7 @@ background: white
 
 <v-click>
 
-<div class="text-xl text-gray-800">
+<div class="text-2xl text-gray-800">
 They teach <strong>content</strong>
 </div>
 
@@ -494,7 +494,7 @@ They teach <strong>content</strong>
 
 <v-click>
 
-<div class="mt-4 text-xl text-gray-800">
+<div class="mt-4 text-2xl text-gray-800">
 Not <strong>scoring strategy</strong>
 </div>
 
@@ -502,7 +502,7 @@ Not <strong>scoring strategy</strong>
 
 <v-click>
 
-<div class="mt-6 callout-danger">
+<div class="mt-6 callout-danger text-xl">
 That's why parents spend <strong>thousands</strong> on tutoring and still watch their kids miss college credits
 </div>
 
@@ -2387,3 +2387,4 @@ While saving <strong>$40,000+ in college tuition</strong>
 <!--
 Now when it comes to guaranteeing your teen scores 4s and 5s on AP exams while saving $40,000+ in college tuition, here are the questions that should be on your mind.
 -->
+
