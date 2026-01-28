@@ -1072,7 +1072,7 @@ But here's the second trap most families fall into
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 text-red-600 px-12">
+<div class="text-3xl font-bold mt-8 text-red-600 px-12">
 Believing that working harder and doing more practice tests will <strong>eventually break through</strong>
 </div>
 
@@ -1106,10 +1106,14 @@ What Happens When You Try to Push Through
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Students <strong>burning out</strong> from endless practice tests
 - While still scoring 2s and 3s no matter how hard they try
 - Families spending more money on ineffective tutoring
 - That reinforces the wrong approaches instead of fixing them
+
+</div>
 
 </v-clicks>
 
@@ -1132,10 +1136,14 @@ The Downward Spiral
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Teens <strong>losing confidence</strong> as they watch others who study less score better
 - The whole family sacrificing mental health and relationships
 - All in pursuit of scores that never improve
 - Because the fundamental strategy is wrong from the start
+
+</div>
 
 </v-clicks>
 
@@ -1153,13 +1161,13 @@ background: https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1920
 
 <div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
-<div class=" text-3xl px-8">
+<div class="text-3xl px-8">
 The thing you fear most?
 </div>
 
 <v-click>
 
-<div class=" text-4xl font-bold mt-8 px-8">
+<div class="text-4xl font-bold mt-8 px-8">
 Your teen becoming another <strong>heartbreaking statistic</strong>
 </div>
 
@@ -1184,11 +1192,15 @@ The Nightmare Scenario No Parent Wants
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - A brilliant, hardworking student who gave everything they had
 - Dreams crumble in senior year when <strong>low AP scores destroy college plans</strong>
 - Having to tell your accomplished child that despite all their sacrifices, it wasn't enough
 - Wondering if you failed them by not knowing how to navigate this system
 - While watching other families who somehow figured it out
+
+</div>
 
 </v-clicks>
 
@@ -1212,7 +1224,7 @@ And the biggest obstacle of all?
 
 <v-click>
 
-<div class="callout-danger mt-8">
+<div class="callout-danger text-2xl mt-8">
 The <strong>invisible scoring gap</strong> that even certified teachers don't understand, combined with overwhelming conflicting advice and expensive solutions that leave families more confused
 </div>
 
@@ -1272,7 +1284,7 @@ Mechanism 1
 
 <v-click>
 
-<div class="text-6xl font-bold mt-12" style="color: var(--brand-accent);">
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-accent);">
 AP Insider Intelligence
 </div>
 
@@ -1297,10 +1309,14 @@ Why This Mechanism Is Absolutely Critical
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Addresses the <strong>root cause</strong> of why straight-A students score 2s and 3s
 - Most parents think success comes from content mastery
 - But that's like thinking you can win poker just by knowing the rules
 - You need to understand how the game is actually <strong>played and scored</strong>
+
+</div>
 
 </v-clicks>
 
@@ -1324,7 +1340,7 @@ If your teen skips this foundation
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 text-red-600 px-12">
+<div class="text-3xl font-bold mt-8 text-red-600 px-12">
 They'll keep doing what every other <strong>struggling student</strong> does
 </div>
 
@@ -1349,10 +1365,14 @@ What Happens Without This Foundation
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Study harder using <strong>classroom methods</strong> that have zero correlation with exam success
 - Burn out from endless hours with no improvement
 - Lose confidence watching their grades not translate to scores
 - Waste months of effort optimizing for the <strong>wrong outcome</strong>
+
+</div>
 
 </v-clicks>
 
@@ -1376,7 +1396,7 @@ This is completely different from traditional tutoring
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 We're not teaching your teen <strong>more history or math</strong>
 </div>
 
@@ -1402,10 +1422,14 @@ What AP Insider Intelligence Reveals
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - How AP graders <strong>think</strong> at a psychological level
 - What they <strong>reward</strong> with maximum points
 - What gets <strong>ignored</strong> even if it's correct
 - It's like having the answer key to the psychology behind every question
+
+</div>
 
 </v-clicks>
 
@@ -1461,9 +1485,13 @@ Component 2: Pattern Recognition
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - We show your teen the <strong>response patterns</strong> that consistently score high
 - It's like learning to see the Matrix
 - Once they know what graders are looking for, they can't unsee it
+
+</div>
 
 </v-clicks>
 
@@ -1487,7 +1515,7 @@ This is completely different from traditional tutoring
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Every question becomes <strong>predictable instead of mysterious</strong>
 </div>
 
@@ -1512,8 +1540,12 @@ Component 3: Expectation Management
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen understands exactly what <strong>'good enough for a 5'</strong> looks like
 - Versus 'perfectionist overkill' that wastes time without adding points
+
+</div>
 
 </v-clicks>
 
@@ -1537,7 +1569,7 @@ They learn to work smart, not just hard
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Maximum points in <strong>minimum time</strong>
 </div>
 
@@ -1563,7 +1595,7 @@ Think of it like learning to speak a new language
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Except instead of Spanish or French, your teen is learning to speak <strong>'AP Grader'</strong>
 </div>
 
@@ -1621,10 +1653,14 @@ Phase 2: Reverse Engineering
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They practice taking their own past work
 - Evaluating it using the <strong>real rubrics</strong> themselves
 - This creates those 'aha!' moments
 - Where they finally understand why classroom A's didn't translate to exam success
+
+</div>
 
 </v-clicks>
 
@@ -1647,10 +1683,14 @@ Phase 3: Grader Empathy Development
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They develop the ability to <strong>read any AP question</strong>
 - And immediately know what the grader wants to see in the response
 - No more guessing about what to include
 - No more hoping they covered everything
+
+</div>
 
 </v-clicks>
 
@@ -1668,7 +1708,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Just <strong>certainty</strong> about what earns points
 </div>
 
@@ -1693,7 +1733,7 @@ The key is starting with <strong>analysis</strong> before creation
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12 opacity-70">
+<div class="text-2xl mt-8 px-12 opacity-70">
 Most students jump straight to practice tests
 </div>
 
@@ -1701,7 +1741,7 @@ Most students jump straight to practice tests
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12 text-red-600">
+<div class="text-3xl font-bold mt-8 px-12 text-red-600">
 But that's like trying to hit a target you can't see
 </div>
 
@@ -1735,10 +1775,14 @@ What Changes After Your Teen Masters This
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They'll read practice questions with <strong>complete clarity</strong>
 - Knowing exactly what needs to be addressed
 - And how much detail is required
 - The stress disappears because uncertainty disappears
+
+</div>
 
 </v-clicks>
 
@@ -1761,10 +1805,14 @@ What You'll Notice Externally
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen approaching AP work with <strong>confidence</strong> instead of anxiety
 - They'll stop asking 'Is this good enough?' because they'll <strong>know</strong>
 - Their practice scores will jump immediately
 - Not because they learned more content, but because they understand the game
+
+</div>
 
 </v-clicks>
 
@@ -1788,7 +1836,7 @@ But here's what matters most
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Your teen develops <strong>analytical thinking skills</strong> that make them unstoppable in college
 </div>
 
@@ -1813,16 +1861,20 @@ The Long-Term Advantage
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They'll be the student who reads assignment requirements
 - And delivers <strong>exactly what professors want</strong>
 - While their classmates struggle with confusion
 - This skill compounds over four years of college and beyond
 
+</div>
+
 </v-clicks>
 
 <v-click>
 
-<div class="callout mt-8">
+<div class="callout text-2xl mt-8">
 Are you ready to give your teen this <strong>unfair advantage</strong> that transforms them from someone who works hard to someone who works smart?
 </div>
 
@@ -1848,7 +1900,7 @@ Mechanism 2
 
 <v-click>
 
-<div class="text-6xl font-bold mt-12" style="color: var(--brand-secondary);">
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-secondary);">
 Subject-Specific Response Mastery
 </div>
 
@@ -1873,10 +1925,14 @@ Why Generic Advice Fails Catastrophically
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Telling your teen to 'write a good essay' is like telling them to 'drive safely'
 - Without teaching them the <strong>specific rules of the road</strong>
 - It's not actionable, and it leads to crashes
 - Good intentions without proper frameworks create failure
+
+</div>
 
 </v-clicks>
 
@@ -1900,7 +1956,7 @@ Without subject-specific frameworks
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 text-red-600 px-12">
+<div class="text-3xl font-bold mt-8 text-red-600 px-12">
 Your teen is essentially <strong>winging it</strong> on every question type
 </div>
 
@@ -1968,7 +2024,7 @@ Traditional prep completely misses this
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12 opacity-70">
+<div class="text-2xl mt-8 px-12 opacity-70">
 Because it focuses on content review
 </div>
 
@@ -1976,7 +2032,7 @@ Because it focuses on content review
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 But AP exams don't test what you know
 </div>
 
@@ -1984,7 +2040,7 @@ But AP exams don't test what you know
 
 <v-click>
 
-<div class="text-4xl font-bold mt-4 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-4 px-12" style="color: var(--brand-accent);">
 They test how well you can <strong>demonstrate</strong> what you know
 </div>
 
@@ -2010,7 +2066,7 @@ It's the difference between
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 being a <strong>great chef</strong>
 </div>
 
@@ -2018,7 +2074,7 @@ being a <strong>great chef</strong>
 
 <v-click>
   
-<div class="text-3xl mt-8 px-12 opacity-70">
+<div class="text-2xl mt-8 px-12 opacity-70">
 and being able to compete on a cooking show
 </div>
 
@@ -2027,7 +2083,8 @@ and being able to compete on a cooking show
 </div>
 
 <!--
-It’s the difference between being a great chef who knows every recipe by heart and has all the skills; and being able to compete on a cooking show, where strict rules, time limits, and judging criteria mean that presentation matters as much as the food.-->
+It's the difference between being a great chef who knows every recipe by heart and has all the skills; and being able to compete on a cooking show, where strict rules, time limits, and judging criteria mean that presentation matters as much as the food.
+-->
 
 ---
 layout: default
