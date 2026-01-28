@@ -2124,10 +2124,14 @@ For AP History Students
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - We provide the <strong>exact DBQ and LEQ structures</strong> that graders expect
 - Your teen learns the 7-paragraph formula that consistently scores 6s
 - The contextualization requirements that earn that critical first point
 - The evidence integration patterns that separate 5s from 3s
+
+</div>
 
 </v-clicks>
 
@@ -2150,10 +2154,14 @@ For AP Science Students
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - We break down <strong>FRQ response sequences</strong> into exact steps
 - The specific vocabulary that must be used for full credit
 - The explanation depth required for maximum points
 - No more losing points for 'not showing work' when your teen actually knew the answer
+
+</div>
 
 </v-clicks>
 
@@ -2176,10 +2184,14 @@ For AP English Students
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - We reveal the <strong>literary analysis frameworks</strong> that turn book discussions into sophisticated arguments
 - Your teen learns thesis construction that addresses all parts of the prompt
 - Evidence selection techniques that support complex claims
 - Commentary methods that impress graders and demonstrate deep thinking
+
+</div>
 
 </v-clicks>
 
@@ -2202,17 +2214,21 @@ For AP Math Students
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - We provide the <strong>problem-solving methodologies</strong> that demonstrate understanding clearly
 - Even when calculations get messy, graders see the thinking process
 - The key steps that must be shown for partial credit
 - How to structure work so it's impossible to miss points
+
+</div>
 
 </v-clicks>
 
 </div>
 
 <!--
-For AP Math students, we provide problem-solving methodologies that clearly demonstrate understanding, show graders your thinking even when calculations get messy, highlight the key steps needed for partial credit, and teach how to structure work so it’s impossible to miss points.
+For AP Math students, we provide problem-solving methodologies that clearly demonstrate understanding, show graders your thinking even when calculations get messy, highlight the key steps needed for partial credit, and teach how to structure work so it's impossible to miss points.
 -->
 
 ---
@@ -2229,7 +2245,7 @@ It's like giving your teen a different key for each specific lock
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Instead of one generic key that doesn't quite fit anywhere
 </div>
 
@@ -2288,10 +2304,14 @@ Week 3-4: Guided Practice
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen applies these templates to <strong>past exam questions</strong>
 - With coaching feedback at every step
 - They learn to adapt the frameworks to different content
 - While maintaining the scoring structure that graders expect
+
+</div>
 
 </v-clicks>
 
@@ -2315,10 +2335,14 @@ Week 5-6: Timed Mastery
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen practices under <strong>real exam conditions</strong>
 - Until the templates become automatic and effortless
 - By this point, they're not thinking about structure anymore
 - They're focused entirely on content because the format is habitual
+
+</div>
 
 </v-clicks>
 
@@ -2342,7 +2366,7 @@ The critical insight
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 We teach <strong>structure first</strong>, then overlay content
 </div>
 
@@ -2350,7 +2374,7 @@ We teach <strong>structure first</strong>, then overlay content
 
 <v-click>
 
-<div class="text-3xl mt-8 px-12 opacity-70">
+<div class="text-2xl mt-8 px-12 opacity-70">
 Most prep does the opposite and wonders why students freeze up under pressure
 </div>
 
@@ -2376,9 +2400,13 @@ Once Your Teen Has Response Mastery
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They approach every AP question with <strong>surgical precision</strong>
 - They'll read a DBQ prompt and immediately know the exact structure
 - Paragraph 1: contextualization, Paragraph 2: thesis, Paragraphs 3-5: evidence
+
+</div>
 
 </v-clicks>
 
@@ -2401,10 +2429,14 @@ What You'll See Change
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen tackling practice exams with the <strong>confidence</strong> of someone who knows exactly what they're doing
 - No more staring at blank pages unsure where to begin
 - No more running out of time because they don't know how to organize thoughts
 - Just systematic, confident execution every single time
+
+</div>
 
 </v-clicks>
 
@@ -2428,7 +2460,7 @@ Most importantly
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 These organizational skills <strong>transfer to college</strong> writing, research projects, and professional communication
 </div>
 
@@ -2453,16 +2485,20 @@ The Lifelong Skill They're Really Learning
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen develops the ability to <strong>structure complex ideas clearly</strong>
 - A skill that pays dividends for life in any career
 - They become the employee who writes clear reports
 - The professional who communicates ideas that get approved
 
+</div>
+
 </v-clicks>
 
 <v-click>
 
-<div class="callout mt-8">
+<div class="callout text-2xl mt-8">
 Will you commit to giving your teen these frameworks that turn <strong>confusion into clarity</strong> and anxiety into confidence?
 </div>
 
@@ -2488,7 +2524,7 @@ Mechanism 3
 
 <v-click>
 
-<div class="text-6xl font-bold mt-12" style="color: var(--brand-secondary);">
+<div class="text-5xl font-bold mt-12" style="color: var(--brand-secondary);">
 Pre-Grade Confidence System
 </div>
 
@@ -2513,10 +2549,14 @@ The Secret Weapon That Changes Everything
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Most teens walk into AP exams with <strong>hope and prayer</strong>
 - Our students walk in <strong>knowing their scores</strong>
 - This isn't cockiness; it's mathematical certainty
 - Based on practiced self-assessment that becomes second nature
+
+</div>
 
 </v-clicks>
 
@@ -2540,7 +2580,7 @@ Without this system
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 text-red-600 px-12">
+<div class="text-3xl font-bold mt-8 text-red-600 px-12">
 Your teen remains <strong>dependent on external validation</strong> and prone to test anxiety
 </div>
 
@@ -2565,10 +2605,14 @@ What Happens Without Self-Assessment Ability
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They'll <strong>second-guess</strong> themselves during the exam
 - Change correct answers to wrong ones out of uncertainty
 - Leave exams feeling uncertain even when they performed well
 - This uncertainty creates a negative feedback loop that undermines everything
+
+</div>
 
 </v-clicks>
 
@@ -2592,7 +2636,7 @@ This is revolutionary because
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Traditional prep focuses on <strong>input</strong> (studying) without teaching output evaluation (self-grading)
 </div>
 
@@ -2618,7 +2662,7 @@ It's like learning to cook <strong>without ever tasting your food</strong>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 no idea if you're improving or making the same mistakes
 </div>
 
@@ -2643,10 +2687,14 @@ background: white
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Study the content
 - Take practice tests
 - Hope for the best
 - No idea if you're improving
+
+</div>
 
 </v-clicks>
 
@@ -2662,17 +2710,21 @@ background: white
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Study with frameworks
 - Self-assess before grading
 - Know exactly where you stand
 - Track improvement scientifically
+
+</div>
 
 </v-clicks>
 
 </div>
 
 <!--
-The traditional approach—studying content, taking practice tests, and hoping for the best—leaves students unsure if they’re actually improving. In contrast, the Pre-Grade System uses frameworks to study, allows students to self-assess before grading, shows exactly where they stand, and tracks improvement scientifically.
+The traditional approach—studying content, taking practice tests, and hoping for the best—leaves students unsure if they're actually improving. In contrast, the Pre-Grade System uses frameworks to study, allows students to self-assess before grading, shows exactly where they stand, and tracks improvement scientifically.
 -->
 
 ---
@@ -2713,17 +2765,21 @@ Component 1: Internal Scoring Calibration
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen learns to evaluate their own work using the <strong>exact criteria</strong> AP graders use
 - They develop the ability to read their essays and predict scores
 - 'This is a 4, needs stronger evidence for a 5'
 - They become their own best critic and coach
+
+</div>
 
 </v-clicks>
 
 </div>
 
 <!--
-Component 1, Internal Scoring Calibration, teaches your teen to evaluate their own work using the exact criteria AP graders use, develop the ability to read their essays and predict scores—like recognizing “This is a 4, needs stronger evidence for a 5”—and become their own best critic and coach.
+Component 1, Internal Scoring Calibration, teaches your teen to evaluate their own work using the exact criteria AP graders use, develop the ability to read their essays and predict scores—like recognizing "This is a 4, needs stronger evidence for a 5"—and become their own best critic and coach.
 -->
 
 ---
@@ -2739,10 +2795,14 @@ Component 2: Performance Forecasting
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Before taking any practice exam, your teen <strong>predicts their score range</strong>
 - Based on their preparation level and known strengths
 - After the exam, they self-grade before seeing official results
 - This builds metacognitive awareness that compounds over time
+
+</div>
 
 </v-clicks>
 
@@ -2765,17 +2825,21 @@ Component 3: Gap Analysis Mastery
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - When predictions don't match results, your teen learns to <strong>diagnose exactly what went wrong</strong>
 - And how to fix it systematically
 - No more generic 'study harder' advice
 - They identify specific skill deficits and address them with precision
+
+</div>
 
 </v-clicks>
 
 </div>
 
 <!--
-Component 3, Gap Analysis Mastery, teaches your teen to diagnose exactly what went wrong when predictions don’t match results and how to fix it systematically, eliminating generic “study harder” advice and allowing them to identify and address specific skill deficits with precision.
+Component 3, Gap Analysis Mastery, teaches your teen to diagnose exactly what went wrong when predictions don't match results and how to fix it systematically, eliminating generic "study harder" advice and allowing them to identify and address specific skill deficits with precision.
 -->
 
 ---
@@ -2792,7 +2856,7 @@ It's like developing an <strong>internal coach</strong>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 Who can provide instant, accurate feedback without waiting for teacher grades or official scores
 </div>
 
@@ -2850,10 +2914,14 @@ Phase 2: Self-Evaluation Practice
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen begins grading their own practice work <strong>before checking answers</strong>
 - They learn to identify their strengths and weaknesses objectively
 - Without the emotional bias that usually clouds self-assessment
 - Building honest, accurate self-awareness
+
+</div>
 
 </v-clicks>
 
@@ -2876,10 +2944,14 @@ Phase 3: Predictive Accuracy
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen starts <strong>predicting their performance</strong> before attempting practice exams
 - Then compares predictions to actual results
 - Over time, their predictions become incredibly accurate
 - They develop true self-knowledge about their abilities
+
+</div>
 
 </v-clicks>
 
@@ -2902,10 +2974,14 @@ Phase 4: Real-Time Adjustment
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - During actual exams, your teen can <strong>monitor their performance mid-test</strong>
 - And adjust strategy in real-time
 - They know when to spend more time on an essay that could jump from 4 to 5
 - Or when to move on from a question that's already solid
+
+</div>
 
 </v-clicks>
 
@@ -2929,10 +3005,14 @@ Once Your Teen Has the Pre-Grade System
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Test anxiety becomes <strong>impossible</strong> because uncertainty disappears
 - They'll finish AP exams feeling confident
 - Because they know exactly how they performed
 - No more agonizing wait for scores—they already know
+
+</div>
 
 </v-clicks>
 
@@ -2955,10 +3035,14 @@ What You'll Watch Transform
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen approaching not just AP exams, but <strong>all academic challenges</strong>
 - With unshakeable confidence based on accurate self-knowledge
 - They become the student who knows their capabilities accurately
 - And can self-correct in real-time without external validation
+
+</div>
 
 </v-clicks>
 
@@ -2982,7 +3066,7 @@ Beyond academics
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 This develops crucial <strong>life skills</strong>: self-awareness, objective self-evaluation, and continuous improvement
 </div>
 
@@ -3007,16 +3091,20 @@ The Ultimate Transformation
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen becomes <strong>internally driven</strong> rather than externally dependent
 - They don't need constant validation from teachers or parents
 - They know when they've done well and when they need to improve
 - This self-sufficiency becomes their greatest competitive advantage
 
+</div>
+
 </v-clicks>
 
 <v-click>
 
-<div class="callout mt-8">
+<div class="callout text-2xl mt-8">
 Are you ready to give your teen the confidence that comes from <strong>knowing exactly where they stand</strong> and how to improve?
 </div>
 
@@ -3036,13 +3124,13 @@ background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 
 <div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
-<div class=" text-5xl font-bold px-8">
+<div class="text-4xl font-bold px-8">
 Let me show you what I mean about the invisible scoring gap
 </div>
 
 <v-click>
 
-<div class=" text-3xl mt-8 px-8">
+<div class="text-3xl mt-8 px-8">
 We're going to do something right now that will give you a taste of what your teen experiences
 </div>
 
@@ -3068,7 +3156,7 @@ Now, I know you haven't been in a history class for 20 years
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 And I'm not expecting you to remember the French Revolution or the New Deal
 </div>
 
@@ -3076,7 +3164,7 @@ And I'm not expecting you to remember the French Revolution or the New Deal
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 But what I'm about to show you will make everything <strong>click</strong>
 </div>
 
@@ -3152,7 +3240,7 @@ Both studied hard
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-12" style="color: var(--brand-accent);">
 But one scored a 6 on the DBQ. The other scored a 3.
 </div>
 
@@ -3178,7 +3266,7 @@ Type in chat right now:
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-primary);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-primary);">
 Can you tell which one is better just by reading them?
 </div>
 
@@ -3212,7 +3300,7 @@ Most of you typed <strong>"CAN'T TELL"</strong>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 text-red-600">
+<div class="text-4xl font-bold mt-12 text-red-600">
 And that's exactly the problem
 </div>
 
@@ -3254,7 +3342,7 @@ Here's Essay A
 
 <v-click>
 
-<div class="text-lg italic px-4 opacity-80">
+<div class="text-xl italic px-4 opacity-80">
 "The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control and had to follow British laws. The colonists were angry about taxation without representation. Important events like the Boston Tea Party and the Stamp Act made things worse. After the Revolution, America became independent and was no longer controlled by Britain. This was a huge change in their relationship."
 </div>
 
@@ -3304,7 +3392,7 @@ Most teachers would give this a <strong>90% or higher</strong>
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-12 text-red-600">
+<div class="text-3xl font-bold mt-12 px-12 text-red-600">
 So what did the AP grader give it?
 </div>
 
@@ -3330,7 +3418,7 @@ Now Look at Essay B
 
 <v-click>
 
-<div class="text-lg italic px-4 opacity-80">
+<div class="text-xl italic px-4 opacity-80">
 "Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system. The American Revolution fundamentally transformed this relationship from one of colonial dependence to sovereign independence, though the extent of this transformation varied across economic, political, and social dimensions. While political sovereignty marked an absolute break with British authority, economic and cultural ties demonstrated significant continuity in the decades following 1783."
 </div>
 
@@ -3356,7 +3444,7 @@ At first glance, it seems more "fancy"
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 But is it actually better? Or is it just using bigger words?
 </div>
 
@@ -3364,7 +3452,7 @@ But is it actually better? Or is it just using bigger words?
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-12" style="color: var(--brand-accent);">
 Let me show you something that will <strong>blow your mind</strong>
 </div>
 
@@ -3474,7 +3562,7 @@ Now we're going to score these essays together
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 Grab a pen if you have one
 </div>
 
@@ -3482,7 +3570,7 @@ Grab a pen if you have one
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 Let's look at Essay A for contextualization
 </div>
 
@@ -3508,7 +3596,7 @@ Essay A Opening
 
 <v-click>
 
-<div class="text-lg italic px-4 opacity-80">
+<div class="text-xl italic px-4 opacity-80">
 "The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control..."
 </div>
 
@@ -3516,7 +3604,7 @@ Essay A Opening
 
 <v-click>
 
-<div class="text-3xl px-4 mt-8">
+<div class="text-2xl px-4 mt-8">
 Does Essay A explain the <strong>BROADER context</strong>?
 </div>
 
@@ -3542,7 +3630,7 @@ Type in chat: Does Essay A earn the contextualization point?
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 Y or N?
 </div>
 
@@ -3610,7 +3698,7 @@ Without explaining the broader historical moment
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 It doesn't tell us about Britain's mercantilist policies, the shift in imperial control, or the 18th-century context
 </div>
 
@@ -3618,7 +3706,7 @@ It doesn't tell us about Britain's mercantilist policies, the shift in imperial 
 
 <v-click>
 
-<div class="callout-danger mt-12">
+<div class="callout-danger text-2xl mt-12">
 This is a classroom A. But it's an <strong>AP fail</strong>.
 </div>
 
@@ -3644,7 +3732,7 @@ Current Score
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12">
+<div class="text-4xl font-bold mt-12">
 Essay A: <span class="text-red-600">0 points</span>
 </div>
 
@@ -3652,7 +3740,7 @@ Essay A: <span class="text-red-600">0 points</span>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-8">
+<div class="text-4xl font-bold mt-8">
 Essay B: <span style="color: var(--brand-accent);">?</span>
 </div>
 
@@ -3678,7 +3766,7 @@ Essay B for Contextualization
 
 <v-click>
 
-<div class="text-lg italic px-4 opacity-80">
+<div class="text-xl italic px-4 opacity-80">
 "Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system."
 </div>
 
@@ -3686,7 +3774,7 @@ Essay B for Contextualization
 
 <v-click>
 
-<div class="text-3xl px-4 mt-8">
+<div class="text-2xl px-4 mt-8">
 Does THIS explain the broader historical context?
 </div>
 
@@ -3804,7 +3892,7 @@ Can you <strong>FEEL</strong> the difference starting to emerge?
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 Same content knowledge. Different execution.
 </div>
 
@@ -3864,7 +3952,7 @@ FINAL SCORES
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 text-red-600">
+<div class="text-4xl font-bold mt-12 text-red-600">
 Essay A: 3 out of 7 points
 </div>
 
@@ -3872,7 +3960,7 @@ Essay A: 3 out of 7 points
 
 <v-click>
 
-<div class="text-5xl font-bold mt-8" style="color: var(--brand-accent);">
+<div class="text-4xl font-bold mt-8" style="color: var(--brand-accent);">
 Essay B: 6 out of 7 points
 </div>
 
@@ -3898,7 +3986,7 @@ What does this mean in real numbers?
 
 <v-click>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 <strong>Essay A (3 points)</strong> = DBQ score of 3 = Overall exam score of 2 or 3 = <span class="text-red-600">No college credit</span>
 </div>
 
@@ -3906,7 +3994,7 @@ What does this mean in real numbers?
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 <strong>Essay B (6 points)</strong> = DBQ score of 6 = Overall exam score of 5 = <span style="color: var(--brand-accent);">Full college credit ($3,000+ value)</span>
 </div>
 
@@ -3926,13 +4014,13 @@ background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 
 <div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
-<div class=" text-3xl px-8">
+<div class="text-3xl px-8">
 Both students knew the American Revolution inside and out
 </div>
 
 <v-click>
 
-<div class=" text-3xl px-8 mt-8">
+<div class="text-3xl px-8 mt-8">
 Both got A's in class. Both studied hard.
 </div>
 
@@ -3940,7 +4028,7 @@ Both got A's in class. Both studied hard.
 
 <v-click>
 
-<div class=" text-5xl font-bold mt-12 px-8">
+<div class="text-4xl font-bold mt-12 px-8">
 One understood the GAME. One didn't.
 </div>
 
@@ -3948,7 +4036,7 @@ One understood the GAME. One didn't.
 
 <v-click>
 
-<div class=" text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 That's the invisible scoring gap.
 </div>
 
@@ -3990,7 +4078,7 @@ If this just made everything CLICK about why your straight-A student struggles
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 Type "MIND BLOWN" in the chat right now
 </div>
 
@@ -4010,7 +4098,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
 This is what happens when your teen masters AP Insider Intelligence
 </div>
 
@@ -4050,10 +4138,14 @@ The Transformation
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - They stop <strong>guessing</strong>
 - They stop <strong>hoping</strong>
 - They read a prompt and immediately know what to include
 - The anxiety disappears because the mystery disappears
+
+</div>
 
 </v-clicks>
 
@@ -4077,7 +4169,7 @@ Can you see how that confidence would <strong>change everything</strong> for you
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 Can you imagine them walking into the exam room KNOWING they're going to score a 5?
 </div>
 
@@ -4139,7 +4231,7 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-4xl font-bold px-8" style="color: var(--brand-primary);">
+<div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
 That's the power of understanding what graders actually want
 </div>
 
@@ -4153,7 +4245,7 @@ Instead of just studying content
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 This is why our students walk into AP exams feeling calm and confident while their classmates are stressed and uncertain
 </div>
 
@@ -4179,7 +4271,7 @@ They're not <strong>hoping</strong> for good scores
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 They're PREDICTING them
 </div>
 
@@ -4199,13 +4291,13 @@ background: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920
 
 <div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
-<div class=" text-4xl font-bold px-8">
+<div class="text-4xl font-bold px-8">
 Right now, you've had just a taste of what's possible
 </div>
 
 <v-click>
 
-<div class=" text-3xl px-8 mt-12">
+<div class="text-3xl px-8 mt-12">
 Are you starting to see how this changes everything for your teen's AP success?
 </div>
 
@@ -4231,7 +4323,7 @@ It's with great pleasure...
 
 <v-click>
 
-<div class="text-6xl font-bold mt-12 px-8">
+<div class="text-5xl font-bold mt-12 px-8">
 I introduce you to...
 </div>
 
@@ -4251,7 +4343,7 @@ background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 
 <div class="">
 
-<div class="text-7xl font-bold px-8">
+<div class="text-6xl font-bold px-8">
 AP Exam Success Blueprint
 </div>
 
@@ -4291,7 +4383,7 @@ This isn't another prep course promising to "cover the content"
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 This is a complete TRANSFORMATION of how your teen approaches AP exams
 </div>
 
@@ -4325,7 +4417,7 @@ To the moment they walk out of their AP exam confident they scored a 5
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 We're with them every single step
 </div>
 
@@ -4387,7 +4479,7 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="">
 
-<div class="text-6xl font-bold px-8">
+<div class="text-5xl font-bold px-8">
 COMPONENT 1
 </div>
 
@@ -4425,7 +4517,7 @@ background: white
 12 Weeks of 1-on-1 Coaching
 </div>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 
 <v-click>
 
@@ -4495,7 +4587,7 @@ Not someone who just "knows the content"
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 Someone who scored a 5 and can show them exactly how to do it
 </div>
 
@@ -4515,13 +4607,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-4">
+<div class="text-2xl px-4">
 Every single week for 12 weeks
 </div>
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 They work through actual AP questions together
 </div>
 
@@ -4529,7 +4621,7 @@ They work through actual AP questions together
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 Your teen gets immediate feedback on what they're doing right and where they need adjustment
 </div>
 
@@ -4537,7 +4629,7 @@ Your teen gets immediate feedback on what they're doing right and where they nee
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 No waiting days for responses
 </div>
 
@@ -4545,7 +4637,7 @@ No waiting days for responses
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 Real-time guidance exactly when they need it
 </div>
 
@@ -4587,7 +4679,7 @@ No more waiting until the actual exam to find out if their approach works
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 They KNOW they're on track every single week
 </div>
 
@@ -4621,7 +4713,7 @@ Just the 12 weeks of 1-on-1 coaching with an expert who scored a 5
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 I'd charge $2,800 minimum
 </div>
 
@@ -4629,7 +4721,7 @@ I'd charge $2,800 minimum
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 Because that's what this level of personalized attention is worth
 </div>
 
@@ -4649,7 +4741,7 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="">
 
-<div class="text-6xl font-bold px-8">
+<div class="text-5xl font-bold px-8">
 COMPONENT 2
 </div>
 
@@ -4687,7 +4779,7 @@ background: white
 Lifetime Access to Our Platform
 </div>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 
 <v-click>
 
@@ -4757,7 +4849,7 @@ Your teen gets access for <strong>LIFE</strong>
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 Taking AP History this year? Covered.
 </div>
 
@@ -4765,7 +4857,7 @@ Taking AP History this year? Covered.
 
 <v-click>
 
-<div class="text-3xl px-12 mt-4">
+<div class="text-2xl px-12 mt-4">
 AP Sciences next year? Covered.
 </div>
 
@@ -4773,7 +4865,7 @@ AP Sciences next year? Covered.
 
 <v-click>
 
-<div class="text-3xl px-12 mt-4">
+<div class="text-2xl px-12 mt-4">
 AP English junior year? Covered.
 </div>
 
@@ -4793,13 +4885,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-4">
+<div class="text-2xl px-4">
 Every single AP exam follows the same principles
 </div>
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 AP Insider Intelligence works across all subjects
 </div>
 
@@ -4807,7 +4899,7 @@ AP Insider Intelligence works across all subjects
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 Subject-Specific Response Mastery gets customized for each exam
 </div>
 
@@ -4815,7 +4907,7 @@ Subject-Specific Response Mastery gets customized for each exam
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 Pre-Grade Confidence System applies everywhere
 </div>
 
@@ -4841,7 +4933,7 @@ Most students take <strong>4-6 AP exams</strong> throughout high school
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 At $120 per AP exam for College Board registration alone
 </div>
 
@@ -4849,7 +4941,7 @@ At $120 per AP exam for College Board registration alone
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 Plus the $3,000-$4,000 in college credit <strong>per exam</strong> they could earn
 </div>
 
@@ -4857,7 +4949,7 @@ Plus the $3,000-$4,000 in college credit <strong>per exam</strong> they could ea
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 We're talking about $18,000-$24,000 in potential college savings
 </div>
 
@@ -4891,7 +4983,7 @@ Not just one subject
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 Every AP exam they'll ever take
 </div>
 
@@ -4899,7 +4991,7 @@ Every AP exam they'll ever take
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 For the rest of their academic career
 </div>
 
@@ -4925,7 +5017,7 @@ If I charged what most platforms charge
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 $120 per subject per year (industry standard)
 </div>
 
@@ -4933,7 +5025,7 @@ $120 per subject per year (industry standard)
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 Times 38 AP subjects = $4,560 per year
 </div>
 
@@ -4941,7 +5033,7 @@ Times 38 AP subjects = $4,560 per year
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 Over 4 years of high school = $18,240
 </div>
 
@@ -4949,7 +5041,7 @@ Over 4 years of high school = $18,240
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 But you're getting LIFETIME access
 </div>
 
@@ -4983,7 +5075,7 @@ $7,056
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 That's Component 2 alone
 </div>
 
@@ -5003,7 +5095,7 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="">
 
-<div class="text-6xl font-bold px-8">
+<div class="text-5xl font-bold px-8">
 COMPONENT 3
 </div>
 
@@ -5041,7 +5133,7 @@ background: white
 The Score Prediction System
 </div>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 
 <v-click>
 
@@ -5103,7 +5195,7 @@ The Pre-Grade Confidence System where students predict their own scores with mat
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 This is where we teach them exactly how to do it
 </div>
 
@@ -5123,13 +5215,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-4">
+<div class="text-2xl px-4">
 Your teen learns to see their own work through the eyes of an AP grader
 </div>
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 They practice scoring sample essays until they can match the official AP scores within 1 point
 </div>
 
@@ -5137,7 +5229,7 @@ They practice scoring sample essays until they can match the official AP scores 
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 Then they apply that same lens to their own practice work
 </div>
 
@@ -5179,7 +5271,7 @@ Predict their score to within 1-2 points
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 Before even checking the answer key
 </div>
 
@@ -5213,7 +5305,7 @@ They're not <strong>hoping</strong> they did well
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 They KNOW they did well
 </div>
 
@@ -5221,7 +5313,7 @@ They KNOW they did well
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 Before they even submit the exam
 </div>
 
@@ -5255,7 +5347,7 @@ Where someone develops the ability to objectively evaluate their own performance
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 Worth a minimum of $2,400
 </div>
 
@@ -5263,7 +5355,7 @@ Worth a minimum of $2,400
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 Because it's a skill they'll use for the rest of their life
 </div>
 
@@ -5283,7 +5375,7 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 
 <div class="">
 
-<div class="text-6xl font-bold px-8">
+<div class="text-5xl font-bold px-8">
 COMPONENT 4
 </div>
 
@@ -5321,7 +5413,7 @@ background: white
 Monthly Group Coaching Calls
 </div>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 
 <v-click>
 
@@ -5375,7 +5467,7 @@ Once a month, we bring all our students together
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 They get to ask questions, share wins, and learn from each other
 </div>
 
@@ -5383,7 +5475,7 @@ They get to ask questions, share wins, and learn from each other
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 We address the most common challenges students are facing
 </div>
 
@@ -5391,7 +5483,7 @@ We address the most common challenges students are facing
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 We update them on any changes to AP exam formats or scoring
 </div>
 
@@ -5399,7 +5491,7 @@ We update them on any changes to AP exam formats or scoring
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 And they build relationships with other high-achieving students
 </div>
 
@@ -5425,7 +5517,7 @@ This is where your teen realizes
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 They're not alone in this journey
 </div>
 
@@ -5475,7 +5567,7 @@ Just one hour per month for expert guidance and Q&A
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 You'd pay at least $500
 </div>
 
@@ -5501,7 +5593,7 @@ Let's add this up
 
 <v-click>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 <strong>Component 1:</strong> 12 Weeks of 1-on-1 Coaching = $2,800
 </div>
 
@@ -5509,7 +5601,7 @@ Let's add this up
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 <strong>Component 2:</strong> Lifetime Platform Access = $7,056
 </div>
 
@@ -5517,7 +5609,7 @@ Let's add this up
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 <strong>Component 3:</strong> Score Prediction System = $2,400
 </div>
 
@@ -5525,7 +5617,7 @@ Let's add this up
 
 <v-click>
 
-<div class="text-3xl px-12 mt-6">
+<div class="text-2xl px-12 mt-6">
 <strong>Component 4:</strong> Monthly Group Calls = $500
 </div>
 
@@ -5567,7 +5659,7 @@ And that's before we even get to the bonuses
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 Yes, there are bonuses
 </div>
 
@@ -5627,7 +5719,7 @@ The College Credit Calculator
 
 <v-click>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 Shows you exactly how much money your teen will save at their target colleges
 </div>
 
@@ -5635,7 +5727,7 @@ Shows you exactly how much money your teen will save at their target colleges
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 Based on their specific AP exam scores
 </div>
 
@@ -5643,7 +5735,7 @@ Based on their specific AP exam scores
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 For the specific schools they're interested in
 </div>
 
@@ -5663,13 +5755,13 @@ background: white
 
 <div class="flex flex-col justify-center h-full">
 
-<div class="text-3xl px-4">
+<div class="text-2xl px-4">
 You plug in their scores
 </div>
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 You select their target universities
 </div>
 
@@ -5677,7 +5769,7 @@ You select their target universities
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 And it calculates the exact dollar amount in tuition savings
 </div>
 
@@ -5685,7 +5777,7 @@ And it calculates the exact dollar amount in tuition savings
 
 <v-click>
 
-<div class="text-3xl px-4 mt-6">
+<div class="text-2xl px-4 mt-6">
 Plus how many credits they'll enter college with
 </div>
 
@@ -5719,7 +5811,7 @@ They know AP scores "help"
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 But they don't realize that five 5s could mean graduating a full semester early
 </div>
 
@@ -5727,7 +5819,7 @@ But they don't realize that five 5s could mean graduating a full semester early
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8">
+<div class="text-2xl px-12 mt-8">
 That's $30,000-$40,000 in savings at many private universities
 </div>
 
@@ -5761,7 +5853,7 @@ So you can see <strong>exactly</strong> what your investment is returning
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
+<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-primary);">
 Value: $297
 </div>
 
@@ -5819,7 +5911,7 @@ background: white
 Parent's Guide to Supporting AP Success
 </div>
 
-<div class="text-3xl px-12 mt-12">
+<div class="text-2xl px-12 mt-12">
 
 <v-click>
 
@@ -5897,7 +5989,7 @@ But most parents don't know how to help without adding pressure
 
 <v-click>
 
-<div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
 This guide shows you exactly how to be their greatest asset
 </div>
 
@@ -8002,6 +8094,7 @@ Questions? Email us at support@apexamblueprint.com
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
 -->
+
 
 
 
