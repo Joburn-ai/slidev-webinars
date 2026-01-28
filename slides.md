@@ -202,7 +202,7 @@ The Hidden Truth
 </div>
 
 <v-clicks>
-<div class="text-2xl px-8">
+<div class="text-2xl">
 - Classroom grades and AP exam scores operate on <strong>completely different systems</strong>
 - Your straight-A student could easily score a 2 or 3
 - AP teachers focus on content mastery, while AP graders use specific scoring frameworks
@@ -7897,5 +7897,6 @@ Questions? Email us at support@apexamblueprint.com
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
 -->
+
 
 
