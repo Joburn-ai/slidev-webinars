@@ -126,7 +126,7 @@ Type <strong>T for True</strong> or <strong>F for False</strong> in the chat
 
 <v-click>
 
-<div class="text-5xl font-bold mt-12" style="color: var(--brand-primary);">
+<div class="text-4xl font-bold mt-12" style="color: var(--brand-primary);">
 Ready? Let's see what you really know...
 </div>
 
@@ -202,12 +202,16 @@ The Hidden Truth
 </div>
 
 <v-clicks>
+
 <div class="text-2xl">
+
 - Classroom grades and AP exam scores operate on <strong>completely different systems</strong>
 - Your straight-A student could easily score a 2 or 3
 - AP teachers focus on content mastery, while AP graders use specific scoring frameworks
 - Most teachers have never even seen these frameworks
+
 </div>
+
 </v-clicks>
 
 </div>
@@ -230,7 +234,7 @@ The Financial Cost
 
 <v-click>
 
-<div class="callout-danger">
+<div class="callout-danger text-2xl">
 <strong>This gap alone</strong> costs families $40,000+ in lost college credits every single year
 </div>
 
@@ -308,7 +312,7 @@ It's like practicing free throws with terrible form
 
 <v-click>
 
-<div class="text-5xl font-bold mt-8 text-red-600">
+<div class="text-4xl font-bold mt-8 text-red-600 px-8">
 You'll get really good at <strong>missing</strong>
 </div>
 
@@ -332,11 +336,15 @@ background: white
 </div>
   
 <v-clicks>
+
+<div class="text-2xl">
   
 - More hours studying
 - More practice tests
 - More exhaustion
 - Same poor results
+
+</div>
   
 </v-clicks>
   
@@ -351,18 +359,22 @@ background: white
 </div>
   
 <v-clicks>
+
+<div class="text-2xl">
   
 - Using exact frameworks AP graders use
 - Less time spent studying
 - Better results achieved
 - Consistent 4s and 5s
+
+</div>
   
 </v-clicks>
   
 </div>
 
 <!--
-Many students fall into the trap of volume without strategy: they study more hours, take more practice tests, grow more exhausted, and still fail with the same poor results. In contrast, students who consistently score 4s and 5s don’t study more—they study strategically, using the exact frameworks AP graders use, spending less time while getting better results and earning consistent top scores.-->
+Many students fall into the trap of volume without strategy: they study more hours, take more practice tests, grow more exhausted, and still fail with the same poor results. In contrast, students who consistently score 4s and 5s don't study more—they study strategically, using the exact frameworks AP graders use, spending less time while getting better results and earning consistent top scores.-->
 
 ---
 layout: center
@@ -428,18 +440,22 @@ What Most Tutors Are Missing
 </div>
 
 <v-clicks>
+
+<div class="text-2xl">
   
 - <strong>College Board certification</strong> - They've never seen the actual scoring rubrics
 - <strong>Insider knowledge</strong> - They don't understand how exams are graded
 - <strong>Strategic frameworks</strong> - They teach content, not scoring strategy
 - <strong>Real results</strong> - That's why parents spend thousands but kids still miss credits
 
+</div>
+
 </v-clicks>
 
 </div>
 
 <!--
-Most of them are missing key things that actually matter for exam success: they aren’t College Board–certified, so they’ve never seen the real scoring rubrics; they lack insider knowledge of how exams are actually graded; they focus on teaching content instead of strategic scoring frameworks; and as a result, even after parents spend thousands of dollars, students still end up missing credits.-->
+Most of them are missing key things that actually matter for exam success: they aren't College Board–certified, so they've never seen the real scoring rubrics; they lack insider knowledge of how exams are actually graded; they focus on teaching content instead of strategic scoring frameworks; and as a result, even after parents spend thousands of dollars, students still end up missing credits.-->
 
 ---
 layout: image-right
@@ -455,7 +471,7 @@ What Actually Works
 
 <v-click>
 
-<div class="callout-success">
+<div class="callout-success text-2xl">
 The most successful students use <strong>certified AP teachers</strong> who know the scoring systems from the inside
 </div>
 
@@ -533,7 +549,7 @@ The 'secret' isn't working harder
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
+<div class="text-3xl font-bold mt-8 px-12" style="color: var(--brand-accent);">
 It's knowing what admissions officers actually look for <strong>now that AI screens applications</strong>
 </div>
 
@@ -558,7 +574,7 @@ When You Understand the New Rules
 
 <v-click>
 
-<div class="callout">
+<div class="callout text-2xl">
 💡 Your student becomes the <strong>obvious choice</strong> while everyone else gets filtered out by automated systems
 </div>
 
@@ -636,10 +652,14 @@ The Painful Reality
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Thousands of hardworking students heading toward 2s and 3s right now
 - Losing tens of thousands in college credits
 - Parents believing 'working harder' is the answer
 - But effort without strategy is just expensive failure
+
+</div>
 
 </v-clicks>
 
@@ -663,7 +683,7 @@ And that's exactly what we need to talk about next
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-90">
+<div class="text-2xl px-12 mt-8 opacity-90">
 If you're feeling overwhelmed, worried, and terrified about falling behind...
 </div>
 
@@ -691,13 +711,13 @@ background: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1920
 
 <div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
-<div class=" text-4xl font-bold px-8">
+<div class="text-4xl font-bold px-8">
 I know why you're here tonight
 </div>
 
 <v-click>
 
-<div class=" text-3xl mt-8 px-8">
+<div class="text-3xl mt-8 px-8">
 You want your teen scoring 4s and 5s on all AP exams while experiencing a <strong>stress-free journey</strong>
 </div>
 
@@ -722,9 +742,13 @@ But Right Now You're Dealing With
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - The <strong>invisible scoring gap</strong> even certified teachers don't understand
 - Overwhelming floods of conflicting advice everywhere
 - Expensive solutions that confuse families more than they help
+
+</div>
 
 </v-clicks>
 
@@ -736,7 +760,7 @@ But Right Now You're Dealing With
 
 <v-click>
 
-<div class="callout-danger">
+<div class="callout-danger text-2xl">
 And realizing that traditional 'work harder' approaches actually make things <strong>worse</strong> - but not knowing what alternative exists
 </div>
 
@@ -762,10 +786,14 @@ So You're Desperately Trying To
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Find the <strong>right tutors</strong> who actually understand AP scoring
 - Choose effective <strong>prep courses</strong> among hundreds of options
 - Gather the best resources to guarantee your teen's success
 - Get into dream college faster while saving maximum tuition
+
+</div>
 
 </v-clicks>
 
@@ -788,15 +816,19 @@ Maybe You've Had Some Wins
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your teen is <strong>ahead academically</strong> with solid grades in AP classes
 - You've found tutoring support that's helping with homework consistency
 - Your child seems more college-ready than you were at their age
+
+</div>
 
 </v-clicks>
 
 <v-click>
 
-<div class="text-3xl mt-8 opacity-70">
+<div class="text-2xl mt-8 opacity-70">
 But here's what's really happening underneath the surface...
 </div>
 
@@ -822,7 +854,7 @@ You're watching your teen get solid grades in AP classes
 
 <v-click>
 
-<div class="text-4xl font-bold mt-8 text-red-600 px-12">
+<div class="text-3xl font-bold mt-8 text-red-600 px-12">
 While <strong>secretly panicking</strong> about whether that translates to actual exam success
 </div>
 
@@ -847,10 +879,14 @@ The Secret Fears Keeping You Up at Night
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Seeing classmates with A's who still score <strong>2s and 3s</strong> on exams
 - Throwing money at tutors and materials without knowing if it's the right approach
 - Watching your overwhelmed student juggle sports, activities, and mounting pressure
 - Knowing exams are approaching fast with no certainty about outcomes
+
+</div>
 
 </v-clicks>
 
@@ -874,10 +910,14 @@ What You Dream About
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Your child <strong>confidently walking</strong> into every AP exam
 - <strong>Knowing</strong> they'll score a 5 - not hoping, but knowing
 - Getting into dream college with maximum credits already earned
 - The whole family feeling <strong>proud and financially relieved</strong>
+
+</div>
 
 </v-clicks>
 
@@ -901,7 +941,7 @@ But instead, you keep running into the same brutal reality
 
 <v-click>
 
-<div class="text-3xl px-12 mt-8 opacity-70">
+<div class="text-2xl px-12 mt-8 opacity-70">
 The reality that breaks parents' hearts every single year...
 </div>
 
@@ -921,13 +961,13 @@ background: https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1920
 
 <div style="background: rgba(0,0,0,0.4); padding: 2rem; border-radius: 1rem;">
 
-<div class=" text-4xl font-bold px-8">
+<div class="text-4xl font-bold px-8">
 Watching your straight-A student walk out of AP exams <strong>in tears</strong>
 </div>
 
 <v-click>
 
-<div class=" text-3xl mt-8 px-8">
+<div class="text-3xl mt-8 px-8">
 Only to get devastating 2s and 3s that waste a year of effort and thousands in future tuition
 </div>
 
@@ -952,10 +992,14 @@ The Pattern That Keeps Repeating
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - Talented students consistently getting <strong>A's in class</strong>
 - But scoring <strong>2s and 3s</strong> on the actual exams
 - Overwhelmed families throwing money at every solution they can find
 - Stressed teens burning out from juggling activities, sports, and academic pressure
+
+</div>
 
 </v-clicks>
 
@@ -996,11 +1040,15 @@ The Complete Vision
 
 <v-clicks>
 
+<div class="text-2xl">
+
 - A system that <strong>bridges classroom A's to exam 5s</strong> with proven frameworks
 - Your busy athlete/musician/leader can confidently dominate exams
 - While maintaining their packed schedule of activities and commitments
 - Giving the whole family <strong>peace of mind</strong> instead of constant anxiety
 - And saving tens of thousands in tuition through earned college credits
+
+</div>
 
 </v-clicks>
 
@@ -7897,6 +7945,7 @@ Questions? Email us at support@apexamblueprint.com
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
 -->
+
 
 
 
