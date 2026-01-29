@@ -4916,7 +4916,7 @@ AP English junior year? Covered.
 </div>
 
 <!--
-This isn't just for one year. Your teen gets access for LIFE. Taking AP History this year? Covered. AP Sciences next year? Covered. AP English junior year? Covered.
+This isn't just for one week or one month. Your teen gets access for a FULL YEAR. Taking multiple APs? You're covered. Need support week after week? Covered. 1 full year from when you start so you don't suddenly lose support when you need it most.
 -->
 
 ---
@@ -8136,6 +8136,7 @@ Questions? Email us at support@supportedtutoring.com/complete-ace-checkout-webin
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to supportedtutoring.com/complete-ace-checkout-webinar right now and secure your teen's spot. Questions? Email us at support@supportedtutoring.com/complete-ace-checkout-webinar
 -->
+
 
 
 
