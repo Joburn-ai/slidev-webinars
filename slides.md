@@ -336,53 +336,72 @@ It's like practicing free throws with terrible form - you'll get really good at 
 layout: two-cols
 background: white
 ---
-
 <div class="flex flex-col justify-center h-full">
   
 <div class="text-3xl font-bold mb-4 text-red-600">
 ❌ Volume Without Strategy
 </div>
   
-<v-clicks>
-
+<v-click>
 <div class="text-2xl">
-  
 - More hours studying
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - More practice tests
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - More exhaustion
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Same poor results
-
 </div>
-  
-</v-clicks>
+</v-click>
   
 </div>
-
 ::right::
-
 <div class="flex flex-col justify-center h-full">
   
 <div class="text-3xl font-bold mb-4" style="color: var(--brand-accent);">
 ✅ Strategic Study
 </div>
   
-<v-clicks>
-
+<v-click>
 <div class="text-2xl">
-  
 - Using exact frameworks AP graders use
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Less time spent studying
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Better results achieved
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Consistent 4s and 5s
-
 </div>
-  
-</v-clicks>
+</v-click>
   
 </div>
-
 <!--
-Many students fall into the trap of volume without strategy: they study more hours, take more practice tests, grow more exhausted, and still fail with the same poor results. In contrast, students who consistently score 4s and 5s don't study more—they study strategically, using the exact frameworks AP graders use, spending less time while getting better results and earning consistent top scores.-->
+Many students fall into the trap of volume without strategy: they study more hours, take more practice tests, grow more exhausted, and still fail with the same poor results. In contrast, students who consistently score 4s and 5s don't study more—they study strategically, using the exact frameworks AP graders use, spending less time while getting better results and earning consistent top scores.
+-->
 
 ---
 layout: center
@@ -440,30 +459,40 @@ False. Most private tutors charge $125+ per hour but lack College Board certific
 layout: default
 background: white
 ---
-
 <div class="flex flex-col justify-center h-full">
   
 <div class="text-3xl font-bold mb-8" style="color: var(--brand-primary);">
 What Most Tutors Are Missing
 </div>
 
-<v-clicks>
-
+<v-click>
 <div class="text-2xl">
-  
 - <strong>College Board certification</strong> - They've never seen the actual scoring rubrics
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - <strong>Insider knowledge</strong> - They don't understand how exams are graded
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - <strong>Strategic frameworks</strong> - They teach content, not scoring strategy
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - <strong>Real results</strong> - That's why parents spend thousands but kids still miss credits
+</div>
+</v-click>
 
 </div>
-
-</v-clicks>
-
-</div>
-
 <!--
-Most of them are missing key things that actually matter for exam success: they aren't College Board–certified, so they've never seen the real scoring rubrics; they lack insider knowledge of how exams are actually graded; they focus on teaching content instead of strategic scoring frameworks; and as a result, even after parents spend thousands of dollars, students still end up missing credits.-->
+Most of them are missing key things that actually matter for exam success: they aren't College Board–certified, so they've never seen the real scoring rubrics; they lack insider knowledge of how exams are actually graded; they focus on teaching content instead of strategic scoring frameworks; and as a result, even after parents spend thousands of dollars, students still end up missing credits.
+-->
 
 ---
 layout: image-right
@@ -651,28 +680,36 @@ layout: image-right
 image: https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?w=1920
 background: white
 ---
-
 <div class="flex flex-col justify-center h-full">
-
 <div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
 The Painful Reality
 </div>
 
-<v-clicks>
-
+<v-click>
 <div class="text-2xl">
-
 - Thousands of hardworking students heading toward 2s and 3s right now
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Losing tens of thousands in college credits
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Parents believing 'working harder' is the answer
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - But effort without strategy is just expensive failure
+</div>
+</v-click>
 
 </div>
-
-</v-clicks>
-
-</div>
-
 <!--
 Right now, thousands of hardworking students are heading toward 2s and 3s on their AP exams, losing tens of thousands in college credits, all while their parents think 'working harder' is the answer. The painful truth is that effort without strategy is just expensive failure.
 -->
@@ -741,41 +778,38 @@ Look, I know why you're here tonight. You want your teen scoring 4s and 5s on al
 layout: two-cols
 background: white
 ---
-
 <div class="flex flex-col justify-center h-full">
-
 <div class="text-3xl font-bold mb-6" style="color: var(--brand-primary);">
 But Right Now You're Dealing With
 </div>
 
-<v-clicks>
-
+<v-click>
 <div class="text-2xl">
-
 - The <strong>invisible scoring gap</strong> even certified teachers don't understand
-- Overwhelming floods of conflicting advice everywhere
-- Expensive solutions that confuse families more than they help
-
 </div>
-
-</v-clicks>
-
-</div>
-
-::right::
-
-<div class="flex flex-col justify-center h-full">
+</v-click>
 
 <v-click>
-
-<div class="callout-danger text-2xl">
-And realizing that traditional 'work harder' approaches actually make things <strong>worse</strong> - but not knowing what alternative exists
+<div class="text-2xl">
+- Overwhelming floods of conflicting advice everywhere
 </div>
+</v-click>
 
+<v-click>
+<div class="text-2xl">
+- Expensive solutions that confuse families more than they help
+</div>
 </v-click>
 
 </div>
-
+::right::
+<div class="flex flex-col justify-center h-full">
+<v-click>
+<div class="callout-danger text-2xl">
+And realizing that traditional 'work harder' approaches actually make things <strong>worse</strong> - but not knowing what alternative exists
+</div>
+</v-click>
+</div>
 <!--
 But right now, you're dealing with the invisible scoring gap that even certified teachers don't understand combined with overwhelming floods of conflicting advice and expensive solutions that leave families more confused, all while realizing that traditional 'work harder' approaches actually make things worse but not knowing what alternative exists.
 -->
@@ -8102,6 +8136,7 @@ Questions? Email us at support@apexamblueprint.com
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
 -->
+
 
 
 
