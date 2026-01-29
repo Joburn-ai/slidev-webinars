@@ -194,28 +194,36 @@ False. This is one of the most dangerous misconceptions parents have.
 layout: default
 background: white
 ---
-
 <div class="flex flex-col justify-center h-full">
-
 <div class="text-3xl font-bold mb-8" style="color: var(--brand-primary);">
 The Hidden Truth
 </div>
 
-<v-clicks>
-
+<v-click>
 <div class="text-2xl">
-
 - Classroom grades and AP exam scores operate on <strong>completely different systems</strong>
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Your straight-A student could easily score a 2 or 3
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - AP teachers focus on content mastery, while AP graders use specific scoring frameworks
+</div>
+</v-click>
+
+<v-click>
+<div class="text-2xl">
 - Most teachers have never even seen these frameworks
+</div>
+</v-click>
 
 </div>
-
-</v-clicks>
-
-</div>
-
 <!--
 Classroom grades and AP exam scores operate on completely different systems. Your straight-A student could easily score a 2 or 3 because AP teachers focus on content mastery, while AP graders use specific scoring frameworks that most teachers never see.
 -->
@@ -8094,6 +8102,7 @@ Questions? Email us at support@apexamblueprint.com
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
 -->
+
 
 
 
