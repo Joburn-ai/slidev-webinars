@@ -1,6 +1,6 @@
 ---
 theme: default
-title: AP Exam Success Blueprint - Score 4s & 5s Guaranteed
+title: AP Exam Success Complete ACE System - Score 4s & 5s Guaranteed
 background: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1920
 class: text-center
 highlighter: shiki
@@ -70,7 +70,7 @@ strong {
 }
 </style>
 
-# AP Exam Success Blueprint
+# AP Exam Success Complete ACE System
 
 <div class="text-3xl mt-4 text-gray-300">
 Score 4s & 5s Guaranteed - Save $40,000+ in College Tuition
@@ -4344,7 +4344,7 @@ background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 <div class="">
 
 <div class="text-6xl font-bold px-8">
-AP Exam Success Blueprint
+AP Exam Success Complete ACE System
 </div>
 
 <v-click>
@@ -4358,7 +4358,7 @@ The only system that guarantees your teen scores 4s and 5s
 </div>
 
 <!--
-AP Exam Success Blueprint - the only system that guarantees your teen scores 4s and 5s on every AP exam they take.
+AP Exam Success Complete ACE System - the only system that guarantees your teen scores 4s and 5s on every AP exam they take.
 -->
 
 ---
@@ -4748,7 +4748,7 @@ COMPONENT 2
 <v-click>
 
 <div class="text-5xl font-bold mt-12 px-8">
-Lifetime Access to Our Platform
+Year-Round Access to Our Platform
 </div>
 
 </v-click>
@@ -4764,7 +4764,7 @@ Lifetime Access to Our Platform
 </div>
 
 <!--
-Component 2: Lifetime Access to Our Platform ($7,056 Value)
+Component 2: Year-Round Access to Our Platform ($7,056 Value)
 -->
 
 ---
@@ -4776,7 +4776,7 @@ background: white
 <div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl font-bold px-8" style="color: var(--brand-primary);">
-Lifetime Access to Our Platform
+Year-Round Access to Our Platform
 </div>
 
 <div class="text-2xl px-12 mt-12">
@@ -4824,7 +4824,7 @@ Lifetime Access to Our Platform
 </div>
 
 <!--
-Lifetime Access to Our Platform: All 38 AP Exams Covered - Every subject your teen might take (Value: $4,560). Updated Content Every Year - Never outdated, always current (Value: $800/year). Subject-Specific Templates - For every question type they'll face (Value: $896). Video Walkthroughs - Watch experts demonstrate perfect responses (Value: $600). Practice Question Library - Thousands of questions organized by difficulty (Value: $1,200).
+Year-Round Access to Our Platform: All 38 AP Exams Covered - Every subject your teen might take (Value: $4,560). Updated Content Every Year - Never outdated, always current (Value: $800/year). Subject-Specific Templates - For every question type they'll face (Value: $896). Video Walkthroughs - Watch experts demonstrate perfect responses (Value: $600). Practice Question Library - Thousands of questions organized by difficulty (Value: $1,200).
 -->
 
 ---
@@ -4970,7 +4970,7 @@ background: white
 <div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
-And your teen gets the blueprint for <strong>ALL of them</strong>
+And your teen gets the Complete ACE System for <strong>ALL of them</strong>
 </div>
 
 <v-click>
@@ -5000,7 +5000,7 @@ For the rest of their academic career
 </div>
 
 <!--
-And your teen gets the blueprint for ALL of them. Not just one subject. Every AP exam they'll ever take, for the rest of their academic career.
+And your teen gets the Complete ACE System for ALL of them. Not just one subject. Every AP exam they'll ever take, for the rest of their academic career.
 -->
 
 ---
@@ -5042,7 +5042,7 @@ Over 4 years of high school = $18,240
 <v-click>
 
 <div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
-But you're getting LIFETIME access
+But you're getting Year-Round Access
 </div>
 
 </v-click>
@@ -5050,7 +5050,7 @@ But you're getting LIFETIME access
 </div>
 
 <!--
-If I charged what most platforms charge - $120 per subject per year (industry standard) - times 38 AP subjects equals $4,560 per year. Over 4 years of high school, that's $18,240. But you're getting LIFETIME access.
+If I charged what most platforms charge - $120 per subject per year (industry standard) - times 38 AP subjects equals $4,560 per year. Over 4 years of high school, that's $18,240. But you're getting Year-Round Access.
 -->
 
 ---
@@ -6176,7 +6176,7 @@ Over <strong>multiple years</strong>
 <v-click>
 
 <div class="text-3xl px-12 mt-6">
-With <strong>lifetime access</strong>
+With <strong>Year-Round Access</strong>
 </div>
 
 </v-click>
@@ -6184,7 +6184,7 @@ With <strong>lifetime access</strong>
 </div>
 
 <!--
-Because for most families, a single semester of college credit savings alone justifies that investment. And we're talking about preparing your teen for multiple AP exams over multiple years with lifetime access.
+Because for most families, a single semester of college credit savings alone justifies that investment. And we're talking about preparing your teen for multiple AP exams over multiple years with Year-Round Access.
 -->
 
 ---
@@ -6302,7 +6302,7 @@ With no guarantee of results
 <v-click>
 
 <div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
-You're getting ALL subjects, lifetime access, AND a guarantee for less than one year of traditional tutoring
+You're getting ALL subjects, Year-Round Access, AND a guarantee for less than one year of traditional tutoring
 </div>
 
 </v-click>
@@ -6310,7 +6310,7 @@ You're getting ALL subjects, lifetime access, AND a guarantee for less than one 
 </div>
 
 <!--
-Let me put that in perspective. Most families spend $3,000-$5,000 per year on AP tutoring for one subject with no guarantee of results. You're getting ALL subjects, lifetime access, AND a guarantee for less than one year of traditional tutoring.
+Let me put that in perspective. Most families spend $3,000-$5,000 per year on AP tutoring for one subject with no guarantee of results. You're getting ALL subjects, Year-Round Access, AND a guarantee for less than one year of traditional tutoring.
 -->
 
 ---
@@ -6832,7 +6832,7 @@ These are the most common concerns families bring up
 </div>
 
 <!--
-Before we wrap up, let me address a few questions you might have. These are the most common concerns families bring up when considering the AP Exam Success Blueprint.
+Before we wrap up, let me address a few questions you might have. These are the most common concerns families bring up when considering the AP Exam Success Complete ACE System.
 -->
 
 ---
@@ -7414,7 +7414,7 @@ background: white
 <div class="flex flex-col justify-center h-full">
 
 <div class="text-3xl px-12">
-Or you can give them the blueprint today
+Or you can give them the Complete ACE System today
 </div>
 
 <v-click>
@@ -7436,7 +7436,7 @@ And walk out confident they scored 5s
 </div>
 
 <!--
-Or you can give them the blueprint today, so they walk into May exams knowing exactly what to do and walk out confident they scored 5s.
+Or you can give them the Complete ACE System today, so they walk into May exams knowing exactly what to do and walk out confident they scored 5s.
 -->
 
 ---
@@ -8094,6 +8094,7 @@ Questions? Email us at support@apexamblueprint.com
 <!--
 Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
 -->
+
 
 
 
