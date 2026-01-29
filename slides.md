@@ -5644,7 +5644,7 @@ Let's add this up
 <v-click>
 
 <div class="text-2xl px-12 mt-6">
-<strong>Component 2:</strong> Lifetime Platform Access = $7,056
+<strong>Component 2:</strong> Year-long Platform Access = $7,056
 </div>
 
 </v-click>
@@ -5676,7 +5676,7 @@ TOTAL VALUE: $12,756
 </div>
 
 <!--
-Let's add this up: Component 1: 12 Weeks of 1-on-1 Coaching equals $2,800. Component 2: Lifetime Platform Access equals $7,056. Component 3: Score Prediction System equals $2,400. Component 4: Monthly Group Calls equals $500. TOTAL VALUE: $12,756.
+Let's add this up: Component 1: 12 Weeks of 1-on-1 Coaching equals $2,800. Component 2: Year-long Platform Access equals $7,056. Component 3: Score Prediction System equals $2,400. Component 4: Monthly Group Calls equals $500. TOTAL VALUE: $12,756.
 -->
 
 ---
@@ -6294,7 +6294,7 @@ $2,997
 <v-click>
 
 <div class="text-3xl px-8 mt-12">
-Or 3 payments of $1,099
+Or 6 payments of $547
 </div>
 
 </v-click>
@@ -6302,7 +6302,7 @@ Or 3 payments of $1,099
 </div>
 
 <!--
-Your investment today: $2,997. Or 3 payments of $1,099.
+Your investment today: $2,997. Or 6 payments of $547.
 -->
 
 ---
@@ -6412,7 +6412,7 @@ And doesn't score at least a 4 on their AP exam
 <v-click>
 
 <div class="text-4xl font-bold px-12 mt-12">
-We'll refund 100% of your investment
+We'll refund $800 per test prep package you have
 </div>
 
 </v-click>
@@ -6428,7 +6428,7 @@ No questions asked
 </div>
 
 <!--
-THE GUARANTEE: If your teen completes the program and doesn't score at least a 4 on their AP exam, we'll refund 100% of your investment. No questions asked.
+THE GUARANTEE: If your teen completes the program and doesn't score at least a 4 on their AP exam, we'll refund $800 of your investment - for each test prep package you have. No questions asked.
 -->
 
 ---
@@ -6504,7 +6504,7 @@ They WILL score a 4 or 5
 <v-click>
 
 <div class="text-3xl px-12 mt-12">
-Or you get your money back
+Or you get $800 per test prep package back
 </div>
 
 </v-click>
@@ -6512,7 +6512,7 @@ Or you get your money back
 </div>
 
 <!--
-Basically, if they show up and do the work, they WILL score a 4 or 5. Or you get your money back.
+Basically, if they show up and do the work, they WILL score a 4 or 5. Or you get $800 back per test prep package.
 -->
 
 ---
@@ -6666,13 +6666,13 @@ background: linear-gradient(135deg, #194494 0%, #ba9e11 100%)
 <div class="">
 
 <div class="text-5xl font-bold px-8">
-Go to APExamBlueprint.com right now
+Go to supportedtutoring.com/complete-ace-checkout-webinar right now
 </div>
 
 <v-click>
 
 <div class="text-3xl px-12 mt-12">
-And secure your spot in the December cohort
+And secure your spot in the Spring cohort
 </div>
 
 </v-click>
@@ -6696,7 +6696,7 @@ To ensure every student gets the attention they deserve
 </div>
 
 <!--
-Go to APExamBlueprint.com right now and secure your spot in the December cohort. We only accept 50 families per cohort to ensure every student gets the attention they deserve.
+Go to supportedtutoring.com/complete-ace-checkout-webinar right now and secure your spot in the Spring cohort. We only accept 50 families per cohort to ensure every student gets the attention they deserve.
 -->
 
 ---
@@ -6792,7 +6792,7 @@ background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 <div class="">
 
 <div class="text-6xl font-bold px-8">
-APExamBlueprint.com
+supportedtutoring.com/complete-ace-checkout-webinar
 </div>
 
 <v-click>
@@ -6822,7 +6822,7 @@ And let's get your teen on the path to AP exam success
 </div>
 
 <!--
-APExamBlueprint.com. Click the button below. Secure your spot. And let's get your teen on the path to AP exam success.
+supportedtutoring.com/complete-ace-checkout-webinar. Click the button below. Secure your spot. And let's get your teen on the path to AP exam success.
 -->
 
 ---
@@ -7000,7 +7000,7 @@ Absolutely
 <v-click>
 
 <div class="text-3xl px-12 mt-8">
-That's the beauty of lifetime platform access
+That's the beauty of Year-long platform access
 </div>
 
 </v-click>
@@ -7016,7 +7016,7 @@ All 38 AP subjects are covered
 </div>
 
 <!--
-"My teen is taking multiple AP classes. Will this work for all of them?" Absolutely. That's the beauty of lifetime platform access. All 38 AP subjects are covered with the same methodology applied to each.
+"My teen is taking multiple AP classes. Will this work for all of them?" Absolutely. That's the beauty of Year-long platform access. All 38 AP subjects are covered with the same methodology applied to each.
 -->
 
 ---
@@ -7546,7 +7546,7 @@ That's the outcome we're guaranteeing
 <v-click>
 
 <div class="text-4xl font-bold mt-12 px-8" style="color: var(--brand-accent);">
-4s and 5s, or your money back
+4s and 5s, or you get $800 back per test prep package
 </div>
 
 </v-click>
@@ -7562,7 +7562,7 @@ There's literally no risk
 </div>
 
 <!--
-That's the outcome we're guaranteeing. 4s and 5s, or your money back. There's literally no risk.
+That's the outcome we're guaranteeing. 4s and 5s, or $800 per test prep back. There's literally no risk.
 -->
 
 ---
@@ -7734,7 +7734,7 @@ background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 <div class="">
 
 <div class="text-6xl font-bold px-8">
-APExamBlueprint.com
+supportedtutoring.com/complete-ace-checkout-webinar
 </div>
 
 <v-click>
@@ -7756,7 +7756,7 @@ Secure your spot before they're gone
 </div>
 
 <!--
-APExamBlueprint.com. Click the button below right now. Secure your spot before they're gone.
+supportedtutoring.com/complete-ace-checkout-webinar. Click the button below right now. Secure your spot before they're gone.
 -->
 
 ---
@@ -7774,7 +7774,7 @@ $2,997
 <v-click>
 
 <div class="text-3xl px-12 mt-8">
-Or 3 payments of $1,099
+Or 6 payments of $547
 </div>
 
 </v-click>
@@ -7798,7 +7798,7 @@ Or 3 payments of $1,099
 <v-click>
 
 <div class="text-3xl px-12 mt-4">
-✓ 100% Money-Back Guarantee
+✓ $800 per test prep Money-Back Guarantee
 </div>
 
 </v-click>
@@ -7806,7 +7806,7 @@ Or 3 payments of $1,099
 <v-click>
 
 <div class="text-3xl px-12 mt-4">
-✓ Lifetime Platform Access
+✓ Year-long Platform Access
 </div>
 
 </v-click>
@@ -7814,7 +7814,7 @@ Or 3 payments of $1,099
 </div>
 
 <!--
-$2,997. Or 3 payments of $1,099. All 4 Core Components ($12,756 value). Both Bonuses ($494 value). 100% Money-Back Guarantee. Lifetime Platform Access.
+$2,997. Or 6 payments of $547. All 4 Core Components ($12,756 value). Both Bonuses ($494 value). $800 per test prep package Money-Back Guarantee. Year-long Platform Access.
 -->
 
 ---
@@ -7940,7 +7940,7 @@ With zero risk
 <v-click>
 
 <div class="text-3xl px-12 mt-6 opacity-70">
-And a 100% money-back guarantee
+And a money-back guarantee - $800 per test prep package 
 </div>
 
 </v-click>
@@ -7948,7 +7948,7 @@ And a 100% money-back guarantee
 </div>
 
 <!--
-Where else can you get that kind of guaranteed return? On an investment in your teen's future. With zero risk. And a 100% money-back guarantee.
+Where else can you get that kind of guaranteed return? On an investment in your teen's future. With zero risk. And a $800 per test prep package money-back guarantee.
 -->
 
 ---
@@ -8044,7 +8044,7 @@ background: linear-gradient(135deg, #194494 0%, #2b7ed6 100%)
 <div class="">
 
 <div class="text-7xl font-bold px-8">
-APExamBlueprint.com
+supportedtutoring.com/complete-ace-checkout-webinar
 </div>
 
 <v-click>
@@ -8058,7 +8058,7 @@ Click Below Now
 <v-click>
 
 <div class="text-3xl px-12 mt-12">
-50 spots. December cohort. Enrollment closes soon.
+50 spots. Spring cohort. Enrollment closes soon.
 </div>
 
 </v-click>
@@ -8066,7 +8066,7 @@ Click Below Now
 </div>
 
 <!--
-APExamBlueprint.com. Click Below Now. 50 spots. December cohort. Enrollment closes soon.
+supportedtutoring.com/complete-ace-checkout-webinar. Click Below Now. 50 spots. Spring cohort. Enrollment closes soon.
 -->
 
 ---
@@ -8118,7 +8118,7 @@ Thank You
 <v-click>
 
 <div class="text-3xl mt-12">
-APExamBlueprint.com
+supportedtutoring.com/complete-ace-checkout-webinar
 </div>
 
 </v-click>
@@ -8126,7 +8126,7 @@ APExamBlueprint.com
 <v-click>
 
 <div class="text-2xl mt-12 opacity-70">
-Questions? Email us at support@apexamblueprint.com
+Questions? Email us at support@supportedtutoring.com/complete-ace-checkout-webinar
 </div>
 
 </v-click>
@@ -8134,8 +8134,9 @@ Questions? Email us at support@apexamblueprint.com
 </div>
 
 <!--
-Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to APExamBlueprint.com right now and secure your teen's spot. Questions? Email us at support@apexamblueprint.com
+Thank you for your time today. Remember, enrollment closes once we reach 50 families. Go to supportedtutoring.com/complete-ace-checkout-webinar right now and secure your teen's spot. Questions? Email us at support@supportedtutoring.com/complete-ace-checkout-webinar
 -->
+
 
 
 
