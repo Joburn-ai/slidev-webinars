@@ -1050,13 +1050,13 @@ layout: default
 <div class="text-sm uppercase mb-2" style="letter-spacing: 0.3em; color: #C5A55A; font-weight: 700;">Bonus Two</div>
 
 <div class="font-black navy mb-6" style="font-size: 2.75rem; line-height: 1.15; letter-spacing: -0.02em;">
-60-minute 1-on-1 strategy session with Dr. Joe.
+60-minute 1-on-1 strategy session with a senior college coach.
 </div>
 
 <v-click>
 
 <div class="text-xl text-slate-700 max-w-3xl" style="line-height: 1.5;">
-Pre-onboarding. I sit with the family before the program starts. We talk through the specific kid, the specific list, the specific shape of the next 18 months.
+Pre-onboarding. Your dedicated coach sits with the family before the program starts. We talk through the specific kid, the specific list, the specific shape of the next 18 months.
 </div>
 
 </v-click>
@@ -1072,7 +1072,8 @@ This isn't a sales call. It's a strategy session.
 </div>
 
 <!--
-HOOK: Bonus 2 directly with Joe. Personal.
+HOOK: Bonus 2 with a senior college coach.
+VERIFICATION FLAG (founder feedback 2026-05-24): the script says "with me" (Joe), but per John's note the actual delivery is by one of the senior college coaches. If Joe DOES personally deliver this for every family, swap "a senior college coach" back to "Dr. Joe Sebestyen" pre-stage. Joe to confirm which is operationally true.
 TIMING: 25 sec
 TRANSITION: Bonus 3.
 -->

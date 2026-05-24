@@ -924,7 +924,94 @@ BEATS:
   - Walk each bullet slowly
   - PAUSE on "We do."
 TIMING: 45 sec
-TRANSITION: "Drop a school in the chat. Any school. Let me grab one and we'll read it together."
+TRANSITION: "Here's what one of those looks like."
+-->
+
+---
+layout: default
+---
+
+<!-- slide:teaching-demo-cds-sample-58b -->
+
+<div class="h-full flex flex-col justify-center px-8 mx-auto" style="max-width: 920px;">
+
+<div class="text-sm uppercase text-slate-500 mb-2" style="letter-spacing: 0.3em; font-weight: 600;">
+What the CDS shows
+</div>
+
+<div class="font-black navy mb-6" style="font-size: 1.9rem; line-height: 1.15; letter-spacing: -0.02em;">
+A sample read on one school.
+</div>
+
+<div class="overflow-hidden rounded-xl" style="border: 1px solid rgba(27, 54, 93, 0.15);">
+
+<v-click>
+
+<div class="grid grid-cols-2 gap-0">
+  <div class="p-4" style="background: rgba(27, 54, 93, 0.04); border-right: 1px solid rgba(27, 54, 93, 0.1);">
+    <div class="text-xs uppercase text-slate-500" style="letter-spacing: 0.2em; font-weight: 700;">Middle 50% SAT band</div>
+    <div class="text-2xl font-black navy mt-1">1340 - 1490</div>
+  </div>
+  <div class="p-4" style="background: rgba(27, 54, 93, 0.04);">
+    <div class="text-xs uppercase text-slate-500" style="letter-spacing: 0.2em; font-weight: 700;">Middle 50% GPA</div>
+    <div class="text-2xl font-black navy mt-1">3.78 - 4.20</div>
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="grid grid-cols-2 gap-0" style="border-top: 1px solid rgba(27, 54, 93, 0.1);">
+  <div class="p-4" style="border-right: 1px solid rgba(27, 54, 93, 0.1);">
+    <div class="text-xs uppercase text-slate-500" style="letter-spacing: 0.2em; font-weight: 700;">Admit rate</div>
+    <div class="text-2xl font-black navy mt-1">42%</div>
+  </div>
+  <div class="p-4">
+    <div class="text-xs uppercase text-slate-500" style="letter-spacing: 0.2em; font-weight: 700;">% who got need-based aid</div>
+    <div class="text-2xl font-black navy mt-1">63%</div>
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="grid grid-cols-2 gap-0" style="border-top: 1px solid rgba(27, 54, 93, 0.1); background: rgba(197, 165, 90, 0.08);">
+  <div class="p-4" style="border-right: 1px solid rgba(27, 54, 93, 0.1);">
+    <div class="text-xs uppercase mb-1" style="letter-spacing: 0.2em; font-weight: 700; color: #C5A55A;">% who got merit aid</div>
+    <div class="text-2xl font-black navy">38%</div>
+  </div>
+  <div class="p-4">
+    <div class="text-xs uppercase mb-1" style="letter-spacing: 0.2em; font-weight: 700; color: #C5A55A;">Average merit award</div>
+    <div class="text-2xl font-black navy">$22,400</div>
+  </div>
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-4 text-sm italic text-slate-600 text-center" style="line-height: 1.5;">
+Every accredited four-year college publishes one. Numbers above are illustrative. Live demo pulls the real CDS for whatever school the audience drops in chat.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Visual anchor for what Joe is about to pull up. Demo section was too light.
+BEATS:
+  - "Here's what one of those looks like. Just the fields that actually matter."
+  - Walk top row: SAT band + GPA range
+  - Walk middle row: admit rate + need-based aid penetration
+  - Walk gold row: merit aid penetration + average award amount
+  - "When you read it on the school your kid is actually targeting, the math gets very specific very fast."
+TIMING: 45 sec
+TRANSITION: "Now I want to show you live. Drop a school in the chat."
 -->
 
 ---
@@ -964,20 +1051,13 @@ Any school. The one your kid is targeting. The dream. The safety. Doesn't matter
 
 </v-click>
 
-<v-click>
-
-<div class="text-xl mt-6 italic" style="color: rgba(255,255,255,0.6);">
-Joe walks anchor schools first (90 sec each), then opens the floor for one audience-volunteered school.
-</div>
-
-</v-click>
-
 </div>
 
 </div>
 
 <!--
 HOOK: Pure audience interaction. The flex slot in the live demo pattern.
+JOE NOTE (not visible to audience): walk pre-tabbed anchors FIRST (3 schools, 90 sec each), then open floor for one audience-volunteered school (2 min max).
 BEATS:
   - "Drop a school in the chat. Any school."
   - Hold for chat to populate
@@ -1284,8 +1364,8 @@ class: text-center
 
 <v-click>
 
-<div class="font-black" style="font-size: 5rem; line-height: 1.05; color: white; letter-spacing: -0.04em;">
-Nobody owns the whole student.
+<div class="font-black" style="font-size: 4.5rem; line-height: 1.05; color: white; letter-spacing: -0.04em;">
+Nobody sees the whole picture.
 </div>
 
 </v-click>
