@@ -1614,21 +1614,21 @@ image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_
 One framework, distilled
 </div>
 
-<div class="font-black navy mb-8" style="font-size: 2.4rem; line-height: 1.15; letter-spacing: -0.02em;">
-16 years inside the American education system.
+<div class="font-black navy mb-8" style="font-size: 2.2rem; line-height: 1.2; letter-spacing: -0.02em;">
+Sixteen years inside the American education system.
 </div>
 
 <div class="space-y-3 text-xl text-slate-700">
 
 <v-click>
 
-<div>· <strong>30+ families</strong> through college admissions specifically.</div>
+<div>· <strong>Over 30 families</strong> through college admissions specifically.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· <strong>Hundreds of students</strong> across AP and tutoring.</div>
+<div>· <strong>Hundreds of students</strong> across our AP and tutoring programs.</div>
 
 </v-click>
 
