@@ -880,7 +880,7 @@ class: text-center
 <v-click>
 
 <div class="text-base uppercase text-slate-500" style="letter-spacing: 0.35em; font-weight: 600;">
-Tie-Down
+A quick check
 </div>
 
 </v-click>
@@ -975,7 +975,7 @@ class: text-center
 <v-click>
 
 <div style="color: rgba(197, 165, 90, 0.7); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
-Section 2 · Pop Quiz, Round Two
+Pop Quiz · Round Two
 </div>
 
 </v-click>
@@ -2293,7 +2293,7 @@ class: text-center
 <v-click>
 
 <div class="text-base uppercase text-slate-500" style="letter-spacing: 0.4em; font-weight: 600;">
-Section 3
+Before we go any further
 </div>
 
 </v-click>
@@ -2455,7 +2455,7 @@ class: text-center
 <v-click>
 
 <div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
-Yes Momentum · One
+Quick gut check
 </div>
 
 </v-click>
