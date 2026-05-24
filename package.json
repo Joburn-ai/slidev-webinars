@@ -1,17 +1,23 @@
 {
   "packageManager": "pnpm@10.9.0",
-  "name": "slidev-new",
+  "name": "slidev-webinars",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:supported-college": "slidev build supported/college_2026_05_27/slides.md --base / --out dist",
+    "build:giftedgabber-bsmd": "slidev build giftedgabber/bsmd_2026_05_27/slides.md --base / --out dist",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
+    "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
+    "export": "slidev export",
+    "export:supported-college": "slidev export supported/college_2026_05_27/slides.md --without-notes"
   },
   "dependencies": {
-    "@slidev/cli": "^51.6.0",
+    "@slidev/cli": "^52.15.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "@vueuse/motion": "^3.0.3",
     "vue": "^3.5.13"
   }
 }
