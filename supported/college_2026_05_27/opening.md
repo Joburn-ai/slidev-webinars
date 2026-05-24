@@ -1679,4 +1679,864 @@ TIMING: 75 sec
 TRANSITION: "Same school. Same graduating class. Different game."
 -->
 
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-diagnosis-29 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-2xl text-slate-600 italic max-w-3xl mx-auto">
+Same suburb. Same school. Same graduating class.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black gold" style="font-size: 5.5rem; line-height: 1; letter-spacing: -0.04em;">
+Different game.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: The diagnosis. Set up the "what's different" reveal.
+BEATS:
+  - "Same suburb. Same school. Same graduating class."
+  - PAUSE
+  - "Different game."
+TIMING: 15 sec
+TRANSITION: "Family one was playing the prestige game."
+-->
+
+---
+layout: default
+---
+
+<!-- slide:pain-game-comparison-30 -->
+
+<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+
+<div class="text-base uppercase text-slate-500 mb-8" style="letter-spacing: 0.35em; font-weight: 600;">
+The difference
+</div>
+
+<div class="space-y-8">
+
+<v-click>
+
+<div class="flex items-start gap-6 p-6 rounded-xl" style="background: rgba(220, 38, 38, 0.05); border-left: 4px solid #dc2626;">
+  <div class="text-3xl font-black" style="color: #dc2626; min-width: 200px;">Family One</div>
+  <div class="text-2xl text-slate-700" style="line-height: 1.4;">
+    Picked the best brand names they could name. <strong>Applied.</strong>
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-start gap-6 p-6 rounded-xl" style="background: rgba(22, 163, 74, 0.05); border-left: 4px solid #16a34a;">
+  <div class="text-3xl font-black" style="color: #16a34a; min-width: 200px;">Family Two</div>
+  <div class="text-2xl text-slate-700" style="line-height: 1.4;">
+    Picked the schools where their kid is <strong>the exact student</strong> they're looking for. Let the data do the work.
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-center mt-8">
+  <div class="text-3xl font-bold navy" style="line-height: 1.3;">
+    Family One was playing prestige.<br>
+    <span class="gold">Family Two was playing fit.</span>
+  </div>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Name the two games. This is the load-bearing diagnosis.
+BEATS:
+  - "Family one was playing the prestige game. Pick the best brand names you can name and apply."
+  - "Family two was playing the fit game. Pick the schools where your kid is the exact student they're looking for and let the data do the work."
+  - PAUSE
+  - "Family One was playing prestige. Family Two was playing fit."
+TIMING: 60 sec
+TRANSITION: "The difference between the two families wasn't talent. It wasn't effort. It wasn't money."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-not-talent-31 -->
+
+<div class="space-y-10">
+
+<v-click>
+
+<div class="text-2xl text-slate-600 italic">
+The difference between the two families wasn't
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold text-slate-400" style="text-decoration: line-through;">
+talent.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold text-slate-400" style="text-decoration: line-through;">
+effort.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-4xl font-bold text-slate-400" style="text-decoration: line-through;">
+money.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-6xl font-black gold mt-8" style="letter-spacing: -0.03em;">
+It was information.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl font-bold navy mt-6 max-w-3xl mx-auto" style="line-height: 1.3;">
+And the willingness to act on it eighteen months earlier.
+</div>
+
+</v-click>
+
+<!--
+HOOK: The strike-through reveal builds the rhythm. Each line crossed out.
+BEATS:
+  - "Not talent." Strike.
+  - "Not effort." Strike.
+  - "Not money." Strike.
+  - "It was information." HOLD.
+  - "And the willingness to act on it eighteen months earlier."
+TIMING: 30 sec
+TRANSITION: "That's the same expensive mistake."
+-->
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-callback-32 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="font-black navy" style="font-size: 4rem; line-height: 1.1; letter-spacing: -0.03em;">
+That's the
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 6rem; line-height: 1; color: #dc2626; letter-spacing: -0.04em;">
+same expensive mistake.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Callback to the Section 2 opener. The phrase repeats with full weight now.
+BEATS:
+  - PAUSE 2 sec
+  - "That's the same expensive mistake."
+TIMING: 12 sec
+TRANSITION: "And here's why this matters more right now than it has at any point in the last decade."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-why-now-33 -->
+
+<div class="space-y-10">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.35em; font-weight: 600;">
+Why this matters more right now
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 3.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+The parents who don't see this coming
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black gold max-w-3xl mx-auto" style="font-size: 3.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+are the ones who get hit hardest.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Setup for the "what changed in 24 months" bullet sequence.
+BEATS:
+  - "And here's why this matters more right now than it has at any point in the last decade."
+  - "Because the parents who don't see this coming are the ones who get hit hardest."
+TIMING: 18 sec
+TRANSITION: "Here's what changed in the last twenty-four months."
+-->
+
+---
+layout: default
+---
+
+<!-- slide:pain-what-changed-34 -->
+
+<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+
+<div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.35em; font-weight: 600;">
+What changed in the last 24 months
+</div>
+
+<div class="font-black navy mb-8" style="font-size: 2.25rem; line-height: 1.2; letter-spacing: -0.02em;">
+Five forces stacking against your kid right now.
+</div>
+
+<div class="space-y-4">
+
+<v-click>
+
+<div class="flex items-start gap-4 p-4 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
+  <div class="font-black gold text-2xl" style="min-width: 40px;">1.</div>
+  <div class="text-xl text-slate-700" style="line-height: 1.45;">
+    <strong>Toughest acceptance landscape in over a decade</strong> for most categories.
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-start gap-4 p-4 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
+  <div class="font-black gold text-2xl" style="min-width: 40px;">2.</div>
+  <div class="text-xl text-slate-700" style="line-height: 1.45;">
+    <strong>Test-optional reverted.</strong> Scores back in play. Kids who skipped exposed.
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-start gap-4 p-4 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
+  <div class="font-black gold text-2xl" style="min-width: 40px;">3.</div>
+  <div class="text-xl text-slate-700" style="line-height: 1.45;">
+    <strong>AP scores show up on the application story</strong> whether you want them to or not.
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-start gap-4 p-4 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
+  <div class="font-black gold text-2xl" style="min-width: 40px;">4.</div>
+  <div class="text-xl text-slate-700" style="line-height: 1.45;">
+    <strong>AI-written essays flattened the essay edge.</strong> Admissions officers read dozens daily.
+  </div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-start gap-4 p-4 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
+  <div class="font-black gold text-2xl" style="min-width: 40px;">5.</div>
+  <div class="text-xl text-slate-700" style="line-height: 1.45;">
+    <strong>Merit aid budgets tightened.</strong> Schools have less to give. More applicants asking.
+  </div>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Five-force list. Each bullet lands a specific market shift.
+BEATS:
+  - "The cycle just got dramatically more competitive at the schools your kid is targeting. The toughest acceptance landscape in over a decade for most categories."
+  - "Test-optional reverted. Scores are back in play, and the kids who skipped the test are exposed."
+  - "AP scores now show up on your kid's application story whether you want them to or not."
+  - "AI-written essays flattened the essay edge. Admissions officers read dozens of essays a day during the busy weeks and the AI ones blur together."
+  - "Merit aid budgets tightened. The schools have less to give and more applicants asking for it."
+TIMING: 75 sec
+TRANSITION: "So here's what I tell every parent who's been around me for more than ten minutes."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-tidal-wave-35 -->
+
+<div class="absolute inset-0" style="background: radial-gradient(ellipse at center, #2a1f1f 0%, #1a1010 60%, #0a0505 100%);"></div>
+
+<div class="absolute inset-0 flex items-center justify-center px-16">
+
+<div class="text-center max-w-4xl space-y-10">
+
+<v-click>
+
+<div style="color: rgba(220, 38, 38, 0.75); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
+When the tidal wave comes
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 4rem; line-height: 1.1; color: white; letter-spacing: -0.03em;">
+The earthquake hits.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl max-w-3xl mx-auto" style="color: rgba(255,255,255,0.8); line-height: 1.5;">
+Your kid's GPA dips. Too bad.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-bold max-w-3xl mx-auto" style="font-size: 2.75rem; line-height: 1.2; color: #C5A55A; letter-spacing: -0.02em;">
+You just eliminated yourself from the schools they wanted.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl mt-4 italic" style="color: rgba(255,255,255,0.55);">
+Because you don't have the GPA.
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: The line that wakes parents up. NOT to scare, to clarify.
+BEATS:
+  - "So here's what I tell every parent who's been around me for more than ten minutes."
+  - PAUSE
+  - "When the tidal wave comes. When the earthquake hits and your kid's GPA dips. Too bad."
+  - "You just eliminated yourself from the schools they wanted, because you don't have the GPA."
+  - "That's the line that wakes parents up. Not because I want to scare you. Because the cycle does not wait for any family to figure it out."
+TIMING: 35 sec
+TRANSITION: "Sophomore GPA dips? Fixable. Senior GPA dips? Locked."
+-->
+
+---
+layout: default
+---
+
+<!-- slide:pain-hard-edges-36 -->
+
+<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+
+<div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.35em; font-weight: 600;">
+The window has hard edges
+</div>
+
+<div class="font-black navy mb-10" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+We don't get to negotiate them.
+</div>
+
+<div class="grid grid-cols-2 gap-6">
+
+<v-click>
+
+<div class="p-6 rounded-xl" style="background: rgba(22, 163, 74, 0.06); border: 1px solid rgba(22, 163, 74, 0.2);">
+  <div class="text-sm uppercase mb-2" style="letter-spacing: 0.2em; color: #16a34a; font-weight: 700;">Fixable</div>
+  <div class="text-2xl font-bold navy">Sophomore GPA dip</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-6 rounded-xl" style="background: rgba(220, 38, 38, 0.06); border: 1px solid rgba(220, 38, 38, 0.2);">
+  <div class="text-sm uppercase mb-2" style="letter-spacing: 0.2em; color: #dc2626; font-weight: 700;">Locked</div>
+  <div class="text-2xl font-bold navy">Senior GPA dip</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-6 rounded-xl" style="background: rgba(220, 38, 38, 0.06); border: 1px solid rgba(220, 38, 38, 0.2);">
+  <div class="text-sm uppercase mb-2" style="letter-spacing: 0.2em; color: #dc2626; font-weight: 700;">Calendar-locked</div>
+  <div class="text-2xl font-bold navy">SAT dates</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-6 rounded-xl" style="background: rgba(220, 38, 38, 0.06); border: 1px solid rgba(220, 38, 38, 0.2);">
+  <div class="text-sm uppercase mb-2" style="letter-spacing: 0.2em; color: #dc2626; font-weight: 700;">Locked by January</div>
+  <div class="text-2xl font-bold navy">Merit aid awards</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-6 rounded-xl" style="background: rgba(220, 38, 38, 0.06); border: 1px solid rgba(220, 38, 38, 0.2);">
+  <div class="text-sm uppercase mb-2" style="letter-spacing: 0.2em; color: #dc2626; font-weight: 700;">November 1</div>
+  <div class="text-2xl font-bold navy">Early Decision deadlines</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-6 rounded-xl" style="background: rgba(220, 38, 38, 0.06); border: 1px solid rgba(220, 38, 38, 0.2);">
+  <div class="text-sm uppercase mb-2" style="letter-spacing: 0.2em; color: #dc2626; font-weight: 700;">July release</div>
+  <div class="text-2xl font-bold navy">AP scores</div>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Hard dates land harder than soft warnings.
+BEATS:
+  - "Sophomore GPA dips? Fixable. Senior GPA dips? Locked."
+  - "SAT dates are calendar-locked. Merit aid is awarded by January. Early Decision deadlines are November first. AP scores release in July."
+  - PAUSE
+  - "The window has hard edges. We don't get to negotiate them."
+TIMING: 45 sec
+TRANSITION: "And if I'm being honest with you, most of the parents I sit with aren't even worried about this year."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-ladder-37 -->
+
+<div class="space-y-10">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.35em; font-weight: 600;">
+The pain ladder
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-3xl text-slate-700 italic max-w-3xl mx-auto" style="line-height: 1.4;">
+Most parents I sit with aren't even worried about this year.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 3.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+You're worried about next year.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-bold navy max-w-3xl mx-auto" style="font-size: 2.5rem; line-height: 1.25; opacity: 0.85;">
+And the year after that.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Forward escalation. Parents project pain forward.
+BEATS:
+  - Slow read
+  - "Most of the parents I sit with aren't even worried about this year. They're worried about next year, when there are three more APs on the plate, the SAT is finally for real, the activity stack needs to convert into a story, and the application window quietly opens while everyone else is on summer break."
+  - "You're not just worried about this year."
+  - "You're worried about next year. And the year after that."
+TIMING: 35 sec
+TRANSITION: "That feeling, the one where you're not sure if you should be doing more or doing different, that's the feeling we built this entire company to solve."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-bridge-to-section-3-38 -->
+
+<div class="absolute inset-0" style="background: radial-gradient(ellipse at center, #1f4172 0%, #1B365D 50%, #0f1f3a 100%);"></div>
+
+<div class="absolute inset-0 flex items-center justify-center px-16">
+
+<div class="text-center max-w-4xl space-y-10">
+
+<v-click>
+
+<div style="color: rgba(197, 165, 90, 0.75); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
+The reason we built this company
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl max-w-3xl mx-auto" style="color: rgba(255,255,255,0.8); line-height: 1.5; font-style: italic;">
+That feeling. Not sure if you should be doing more or doing different.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 3.5rem; line-height: 1.15; color: white; letter-spacing: -0.03em;">
+That's the feeling we built this entire company to solve.
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Land the empathy bridge. Section 3 (positioning) opens next.
+BEATS:
+  - HOLD slide 3 sec
+  - "That feeling, the one where you're not sure if you should be doing more or doing different..."
+  - PAUSE
+  - "That's the feeling we built this entire company to solve."
+  - PAUSE 2 sec
+TIMING: 25 sec
+TRANSITION: "And later tonight I'm going to show you exactly what thirteen families one cycle ahead of yours walked away with."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:why-listen-opener-39 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.4em; font-weight: 600;">
+Section 3
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy" style="font-size: 5rem; line-height: 1; letter-spacing: -0.04em;">
+Why listen to me?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-600 italic max-w-3xl mx-auto" style="line-height: 1.4;">
+Fair question. Let me answer it directly.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Direct address. Owns the question parents are quietly asking.
+BEATS:
+  - "Before I go any further, you should know who's actually talking to you tonight."
+  - PAUSE
+  - "Fair question. Let me answer it directly."
+TIMING: 15 sec
+TRANSITION: Into the verbatim attribution.
+-->
+
+---
+layout: image-right
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_face/v1779640664/slidev/supported/_brand/other/dr_joe_2026.jpg'
+---
+
+<!-- slide:why-listen-attribution-40 -->
+
+<div class="h-full flex flex-col justify-center pl-4 pr-8">
+
+<div class="text-base uppercase text-slate-500 mb-4" style="letter-spacing: 0.3em; font-weight: 600;">
+Joe Sebestyen
+</div>
+
+<div class="font-black navy mb-8" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+Sixteen years inside the American education system.
+</div>
+
+<div class="space-y-3 text-xl text-slate-700">
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span><strong>Thirty families</strong> through college admissions specifically.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span><strong>Hundreds of students</strong> across AP and tutoring.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Founded SupportED to close the gap in how consultants actually support families.</span>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Verbatim attribution. Per Joe voice DNA (locked 2026-05-14). Required appearance 3x in deck (sections 3, 7, 10).
+BEATS:
+  - "Joe's spent sixteen years inside the American education system."
+  - "We've worked with over thirty families through college admissions specifically, and hundreds more across our AP and tutoring programs."
+  - "I'm not a brand-new consultant who picked this up last cycle. I'm a doctor of education who's been watching this system from the inside for sixteen years and decided to do something about the gap."
+TIMING: 35 sec
+TRANSITION: "Here's why I'm doing this tonight."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:why-listen-mission-41 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.35em; font-weight: 600;">
+Why I'm doing this
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 3.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+I'm tired of watching families
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black gold max-w-3xl mx-auto" style="font-size: 3.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+do everything right and still lose.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-700 max-w-3xl mx-auto mt-4" style="line-height: 1.4;">
+Because they were missing one piece nobody told them about.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Mission framing. Joe's "why" lands as authority, not pity.
+BEATS:
+  - "I'm tired of watching families do everything right and still lose. Because they were missing one piece nobody told them about."
+  - PAUSE
+  - "That's what tonight is for."
+TIMING: 25 sec
+TRANSITION: "So here's what I'm going to do for you in the next sixty minutes."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:why-listen-tie-down-42 -->
+
+<div class="absolute inset-0" style="background: radial-gradient(ellipse at center, #1f4172 0%, #1B365D 50%, #0f1f3a 100%);"></div>
+
+<div class="absolute inset-0 flex items-center justify-center px-16">
+
+<div class="text-center max-w-4xl space-y-10">
+
+<v-click>
+
+<div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
+Yes Momentum · One
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 4.5rem; line-height: 1.05; color: white; letter-spacing: -0.03em;">
+Are you ready to win tonight?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="inline-flex items-center gap-4 mt-8 px-8 py-4 rounded-2xl" style="background: rgba(197, 165, 90, 0.15); border: 2px solid rgba(197, 165, 90, 0.45);">
+  <span class="text-xl" style="color: white;">Type</span>
+  <span class="font-black" style="color: #C5A55A; font-size: 2rem;">YES</span>
+  <span class="text-xl" style="color: rgba(255,255,255,0.75);">in the chat if you're in.</span>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: First tie-down. Behavioral momentum begins. Per Fladlien Section 3 close.
+BEATS:
+  - "Are you ready to win tonight?"
+  - "Type YES in the chat if you're in."
+  - WAIT for chat to populate
+  - Read 3 names back: "Sarah. John. Maria. Welcome."
+TIMING: 30 sec including chat wait
+TRANSITION: "Then let me show you exactly what's about to change in your kid's college admissions strategy."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:why-listen-bridge-to-teaching-43 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.4em; font-weight: 600;">
+Coming up next
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 4rem; line-height: 1.1; letter-spacing: -0.03em;">
+The Four-Pillar System
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-700 max-w-3xl mx-auto italic" style="line-height: 1.4;">
+that turned Family Two's "B-plus" into a full ride at the school of her choice.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Curiosity gap forward into Section 4 (Mechanisms). Tease the brand-name mechanism.
+BEATS:
+  - "Coming up next: the Four-Pillar System."
+  - PAUSE
+  - "That turned Family Two's B-plus into a full ride at the school of her choice."
+TIMING: 15 sec
+TRANSITION: Click into Section 4: Mechanism 1.
+-->
+
+
 
