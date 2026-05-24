@@ -3,6 +3,6 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "buildCommand": "pnpm install --frozen-lockfile=false && pnpm build:supported-college",
-  "outputDirectory": "dist",
+  "outputDirectory": "supported/college_2026_05_27/dist",
   "framework": null
 }
