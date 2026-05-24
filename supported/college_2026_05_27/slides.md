@@ -207,3 +207,15 @@ TRANSITION: Click to first content slide.
 ---
 src: ./opening.md
 ---
+
+---
+src: ./teaching.md
+---
+
+---
+src: ./offer.md
+---
+
+---
+src: ./close.md
+---
