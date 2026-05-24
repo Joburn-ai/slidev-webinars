@@ -5,9 +5,11 @@ class: text-center
 
 <!-- slide:opening-welcome-01 -->
 
+<div class="space-y-8">
+
 <v-click>
 
-<div class="text-3xl mb-6">
+<div class="text-3xl text-slate-600">
 Hey. Welcome in.
 </div>
 
@@ -15,19 +17,21 @@ Hey. Welcome in.
 
 <v-click>
 
-<div class="text-5xl font-bold mt-4" style="color: var(--brand-primary);">
-I'm Dr. Joe Sebestyen
+<div class="font-black navy" style="font-size: 4.5rem; line-height: 1; letter-spacing: -0.03em;">
+I'm Dr. Joe Sebestyen.
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-2xl mt-4 opacity-75">
-Founder of SupportED Tutoring
+<div class="text-2xl text-slate-500 mt-6">
+Founder of SupportED Tutoring.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: Calm, low energy, no hype. You are the most experienced person in the room and you sound like it.
@@ -40,19 +44,63 @@ TRANSITION: "Sixteen years inside the American education system."
 -->
 
 ---
+layout: image-left
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_face/v1779640660/slidev/supported/_brand/other/joe_conf.png'
+---
 
 <!-- slide:opening-creds-02 -->
 
-# 16 years inside the American education system.
+<div class="h-full flex flex-col justify-center pl-4">
 
-<v-clicks>
+<div class="text-sm uppercase tracking-widest text-slate-500 mb-3">
+The Background
+</div>
 
-- Started in AP and tutoring
-- Hundreds of students
-- Recently launched college admissions pilot
-- Thirty families through admissions this last cycle
+<div class="font-black navy mb-8" style="font-size: 3rem; line-height: 1.05; letter-spacing: -0.02em;">
+16 years inside the American education system.
+</div>
 
-</v-clicks>
+<div class="space-y-4 text-2xl">
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-3xl">·</span>
+  <span>Started in AP and tutoring</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-3xl">·</span>
+  <span><strong>Hundreds</strong> of students</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-3xl">·</span>
+  <span>Recently launched college admissions pilot</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-3xl">·</span>
+  <span><strong>Thirty families</strong> through admissions this last cycle</span>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
 
 <!--
 HOOK: Establish credibility without bragging. Math, not hype.
@@ -71,9 +119,11 @@ class: text-center
 
 <!-- slide:opening-frame-03 -->
 
+<div class="space-y-12">
+
 <v-click>
 
-<div class="text-4xl font-bold">
+<div class="text-3xl text-slate-500" style="letter-spacing: 0.02em;">
 Tonight is going to be different.
 </div>
 
@@ -81,7 +131,7 @@ Tonight is going to be different.
 
 <v-click>
 
-<div class="text-7xl font-bold mt-12" style="color: var(--brand-secondary);">
+<div class="font-black gold" style="font-size: 7rem; line-height: 1; letter-spacing: -0.04em;">
 AP is over.
 </div>
 
@@ -89,11 +139,13 @@ AP is over.
 
 <v-click>
 
-<div class="text-4xl mt-8">
+<div class="font-bold navy" style="font-size: 3rem; line-height: 1.1; letter-spacing: -0.02em;">
 The real game starts right now.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: Pattern interrupt. This is not the standard college webinar.
@@ -107,41 +159,48 @@ TRANSITION: "Before I get into anything, I want to do something we do at the sta
 
 ---
 layout: center
-class: text-center
-style: 'background: linear-gradient(135deg, #1B365D 0%, #2a4a7a 100%);'
+class: section-gradient text-white text-center
 ---
 
 <!-- slide:opening-popquiz-intro-04 -->
 
-<div class="text-white">
+<div class="space-y-10">
 
 <v-click>
 
-<div class="text-3xl mb-6 opacity-90">
-Quick Pop Quiz
+<div class="text-2xl opacity-80" style="letter-spacing: 0.2em; text-transform: uppercase;">
+Quick warm-up
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-7xl font-bold" style="color: #C5A55A;">
-5 True / False
+<div class="font-black" style="font-size: 7.5rem; line-height: 1; color: #C5A55A; letter-spacing: -0.04em;">
+Pop Quiz
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-2xl mt-12">
-Type <strong style="color: #C5A55A;">T</strong> or <strong style="color: #C5A55A;">F</strong> in the chat as we go.
+<div class="text-3xl">
+5 True or False questions.
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-xl mt-4 opacity-80">
+<div class="text-2xl mt-8 opacity-90">
+Type <strong style="color: #C5A55A;">T</strong> or <strong style="color: #C5A55A;">F</strong> in the chat.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-lg mt-4 opacity-60">
 No trick questions. ~90% of parents get at least one wrong.
 </div>
 
@@ -167,17 +226,19 @@ class: text-center
 
 <!-- slide:opening-q1-setup-05 -->
 
+<div class="space-y-10">
+
 <v-click>
 
-<div class="text-3xl opacity-60 mb-4">
-Question 1
+<div class="text-lg uppercase text-slate-500" style="letter-spacing: 0.25em;">
+Question 1 of 5
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-8">
+<div class="font-black navy" style="font-size: 4.5rem; line-height: 1; letter-spacing: -0.03em;">
 True or False?
 </div>
 
@@ -185,7 +246,7 @@ True or False?
 
 <v-click>
 
-<div class="text-4xl mt-12 max-w-3xl mx-auto">
+<div class="text-4xl text-slate-700 max-w-3xl mx-auto font-medium" style="line-height: 1.3;">
 Top-50 colleges are always the best return on investment.
 </div>
 
@@ -193,11 +254,13 @@ Top-50 colleges are always the best return on investment.
 
 <v-click>
 
-<div class="text-2xl mt-12 opacity-70">
-Type T or F.
+<div class="text-xl text-slate-500 mt-10">
+Type T or F in the chat.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: Set up the first assumption test.
@@ -216,13 +279,19 @@ class: text-center
 
 <!-- slide:opening-q1-reveal-06 -->
 
-<div v-click.scale class="text-8xl font-bold text-red-600">
-FALSE
-</div>
+<div class="space-y-10">
 
 <v-click>
 
-<div class="text-2xl mt-12 max-w-3xl mx-auto">
+<div class="inline-block px-12 py-6 rounded-full" style="background: rgba(220, 38, 38, 0.1); border: 2px solid #dc2626;">
+  <span class="font-black text-red-600" style="font-size: 6rem; letter-spacing: 0.05em;">FALSE</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-700 max-w-3xl mx-auto" style="line-height: 1.55;">
 The best ROI is the school that gives your kid a <strong>scholarship</strong>, the <strong>network</strong> they'll actually use, and the <strong>program</strong> that lines up with their major.
 </div>
 
@@ -230,7 +299,7 @@ The best ROI is the school that gives your kid a <strong>scholarship</strong>, t
 
 <v-click>
 
-<div class="text-2xl mt-6 max-w-3xl mx-auto opacity-80">
+<div class="text-xl text-slate-500 italic">
 Sometimes that's a top fifty. Often it's not.
 </div>
 
@@ -238,11 +307,13 @@ Sometimes that's a top fifty. Often it's not.
 
 <v-click>
 
-<div class="text-3xl mt-8 font-bold" style="color: #1B365D;">
+<div class="text-3xl font-bold navy max-w-3xl mx-auto" style="line-height: 1.25;">
 The smartest move isn't chasing prestige. It's matching fit to outcome.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: Land the first aha. Belief Swap.
@@ -261,17 +332,19 @@ class: text-center
 
 <!-- slide:opening-q2-setup-07 -->
 
+<div class="space-y-10">
+
 <v-click>
 
-<div class="text-3xl opacity-60 mb-4">
-Question 2
+<div class="text-lg uppercase text-slate-500" style="letter-spacing: 0.25em;">
+Question 2 of 5
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-8">
+<div class="font-black navy" style="font-size: 4.5rem; line-height: 1; letter-spacing: -0.03em;">
 True or False?
 </div>
 
@@ -279,7 +352,7 @@ True or False?
 
 <v-click>
 
-<div class="text-4xl mt-12">
+<div class="text-4xl text-slate-700 font-medium">
 Merit aid is need-based.
 </div>
 
@@ -287,11 +360,13 @@ Merit aid is need-based.
 
 <v-click>
 
-<div class="text-2xl mt-12 opacity-70">
-Type T or F.
+<div class="text-xl text-slate-500 mt-10">
+Type T or F in the chat.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: This one trips up high-income families specifically.
@@ -309,13 +384,19 @@ class: text-center
 
 <!-- slide:opening-q2-reveal-08 -->
 
-<div v-click.scale class="text-8xl font-bold text-red-600">
-FALSE
-</div>
+<div class="space-y-10">
 
 <v-click>
 
-<div class="text-2xl mt-10 max-w-3xl mx-auto">
+<div class="inline-block px-12 py-6 rounded-full" style="background: rgba(220, 38, 38, 0.1); border: 2px solid #dc2626;">
+  <span class="font-black text-red-600" style="font-size: 6rem; letter-spacing: 0.05em;">FALSE</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-700 max-w-3xl mx-auto" style="line-height: 1.55;">
 Merit aid is awarded for <strong>academic strength and profile fit</strong>. It is not means-tested.
 </div>
 
@@ -323,19 +404,21 @@ Merit aid is awarded for <strong>academic strength and profile fit</strong>. It 
 
 <v-click>
 
-<div class="callout-info text-xl max-w-2xl mx-auto mt-8">
-Families pulling in $300K+/year leave significant merit aid on the table because they thought they made too much to qualify.
+<div class="callout-info text-xl max-w-2xl mx-auto text-left">
+Families pulling in <strong>$300K+/year</strong> leave significant merit aid on the table because they thought they made too much to qualify.
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-3xl mt-8 font-bold" style="color: #C5A55A;">
+<div class="text-3xl font-bold gold">
 And merit aid is negotiable.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: This is the assumption that costs families the most money.
@@ -357,17 +440,19 @@ class: text-center
 
 <!-- slide:opening-q3-setup-09 -->
 
+<div class="space-y-10">
+
 <v-click>
 
-<div class="text-3xl opacity-60 mb-4">
-Question 3
+<div class="text-lg uppercase text-slate-500" style="letter-spacing: 0.25em;">
+Question 3 of 5
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-5xl font-bold mt-8">
+<div class="font-black navy" style="font-size: 4.5rem; line-height: 1; letter-spacing: -0.03em;">
 True or False?
 </div>
 
@@ -375,7 +460,7 @@ True or False?
 
 <v-click>
 
-<div class="text-4xl mt-12">
+<div class="text-4xl text-slate-700 font-medium">
 Test-optional is permanent.
 </div>
 
@@ -383,7 +468,7 @@ Test-optional is permanent.
 
 <v-click>
 
-<div class="text-xl mt-8 opacity-70 max-w-2xl mx-auto">
+<div class="text-base text-slate-500 mt-4 max-w-2xl mx-auto italic">
 Quick reminder. Test-optional was the COVID-era policy where schools said you didn't have to send your SAT or ACT scores.
 </div>
 
@@ -391,11 +476,13 @@ Quick reminder. Test-optional was the COVID-era policy where schools said you di
 
 <v-click>
 
-<div class="text-2xl mt-8 opacity-70">
-Type T or F.
+<div class="text-xl text-slate-500 mt-8">
+Type T or F in the chat.
 </div>
 
 </v-click>
+
+</div>
 
 <!--
 HOOK: Refresh memory for parents who tuned out of admissions news.
@@ -415,13 +502,19 @@ class: text-center
 
 <!-- slide:opening-q3-reveal-10 -->
 
-<div v-click.scale class="text-8xl font-bold text-red-600">
-FALSE
-</div>
+<div class="space-y-10">
 
 <v-click>
 
-<div class="text-2xl mt-10 max-w-3xl mx-auto">
+<div class="inline-block px-12 py-6 rounded-full" style="background: rgba(220, 38, 38, 0.1); border: 2px solid #dc2626;">
+  <span class="font-black text-red-600" style="font-size: 6rem; letter-spacing: 0.05em;">FALSE</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-700 max-w-3xl mx-auto" style="line-height: 1.55;">
 Test-optional reverted. <strong>Most selective schools are reading scores again.</strong> Some require them.
 </div>
 
@@ -429,7 +522,7 @@ Test-optional reverted. <strong>Most selective schools are reading scores again.
 
 <v-click>
 
-<div class="text-3xl mt-12 font-bold" style="color: #1B365D;">
+<div class="text-3xl font-bold navy max-w-3xl mx-auto" style="line-height: 1.25;">
 The kids who skipped the SAT because the internet told them it didn't matter
 </div>
 
@@ -437,19 +530,13 @@ The kids who skipped the SAT because the internet told them it didn't matter
 
 <v-click>
 
-<div class="text-4xl mt-6 font-bold text-red-600">
+<div class="text-4xl font-black text-red-600">
 just walked into a brick wall.
 </div>
 
 </v-click>
 
-<v-click>
-
-<div class="text-xl mt-8 opacity-75">
-We'll come back to this one too.
 </div>
-
-</v-click>
 
 <!--
 HOOK: This one lands hard for families who skipped the SAT.
