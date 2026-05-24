@@ -1,32 +1,33 @@
-<!-- slide:opening-welcome-01 -->
 ---
 layout: center
 class: text-center
 ---
 
-<v-click.fade>
+<!-- slide:opening-welcome-01 -->
+
+<v-click>
 
 <div class="text-3xl mb-6">
 Hey. Welcome in.
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.up>
+<v-click>
 
-<div class="text-4xl font-bold" style="color: var(--brand-primary);">
+<div class="text-5xl font-bold mt-4" style="color: var(--brand-primary);">
 I'm Dr. Joe Sebestyen
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-2xl mt-4 opacity-75">
 Founder of SupportED Tutoring
 </div>
 
-</v-click.fade>
+</v-click>
 
 <!--
 HOOK: Calm, low energy, no hype. You are the most experienced person in the room and you sound like it.
@@ -39,13 +40,12 @@ TRANSITION: "Sixteen years inside the American education system."
 -->
 
 ---
+
 <!-- slide:opening-creds-02 -->
-layout: default
----
 
 # 16 years inside the American education system.
 
-<v-clicks .fade>
+<v-clicks>
 
 - Started in AP and tutoring
 - Hundreds of students
@@ -65,136 +65,139 @@ TRANSITION: "Because we kept seeing the gap in how most college consultants actu
 -->
 
 ---
-<!-- slide:opening-frame-03 -->
 layout: center
 class: text-center
 ---
 
-<v-click.fade>
+<!-- slide:opening-frame-03 -->
+
+<v-click>
 
 <div class="text-4xl font-bold">
-Tonight is going to be different
+Tonight is going to be different.
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.scale>
+<v-click>
 
-<div class="text-6xl font-bold mt-8" style="color: var(--brand-secondary);">
+<div class="text-7xl font-bold mt-12" style="color: var(--brand-secondary);">
 AP is over.
 </div>
 
-</v-click.scale>
+</v-click>
 
-<v-click.up>
+<v-click>
 
-<div class="text-4xl mt-6">
+<div class="text-4xl mt-8">
 The real game starts right now.
 </div>
 
-</v-click.up>
+</v-click>
 
 <!--
 HOOK: Pattern interrupt. This is not the standard college webinar.
 BEATS:
   - "Tonight is going to be different from anything you've sat through before about college" then pause
-  - "We're not going to talk about AP scores. AP is over." Hold the slide
+  - "We're not going to talk about AP scores. AP is over." Hold the slide.
   - "The real game starts right now."
 TIMING: 25 sec
 TRANSITION: "Before I get into anything, I want to do something we do at the start of every parent strategy session."
 -->
 
 ---
-<!-- slide:opening-popquiz-intro-04 -->
 layout: center
 class: text-center
-style: 'background: linear-gradient(135deg, var(--brand-primary) 0%, #2a4a7a 100%);'
+style: 'background: linear-gradient(135deg, #1B365D 0%, #2a4a7a 100%);'
 ---
+
+<!-- slide:opening-popquiz-intro-04 -->
 
 <div class="text-white">
 
-<v-click.fade>
+<v-click>
 
-<div class="text-3xl mb-6">
+<div class="text-3xl mb-6 opacity-90">
 Quick Pop Quiz
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.scale>
+<v-click>
 
-<div class="text-7xl font-bold" style="color: var(--brand-secondary);">
+<div class="text-7xl font-bold" style="color: #C5A55A;">
 5 True / False
 </div>
 
-</v-click.scale>
+</v-click>
 
-<v-click.up>
+<v-click>
 
-<div class="text-2xl mt-8">
-Type <strong style="color: var(--brand-secondary);">T</strong> or <strong style="color: var(--brand-secondary);">F</strong> in the chat as we go.
+<div class="text-2xl mt-12">
+Type <strong style="color: #C5A55A;">T</strong> or <strong style="color: #C5A55A;">F</strong> in the chat as we go.
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-xl mt-4 opacity-80">
 No trick questions. ~90% of parents get at least one wrong.
 </div>
 
-</v-click.fade>
+</v-click>
 
 </div>
 
 <!--
 HOOK: Audience interaction begins. Lower the room.
 BEATS:
-  - "We're going to run through a quick Pop Quiz. Five true-or-false questions"
-  - "Type T or F in the chat as we go"
-  - "There are no trick questions. But around ninety percent of parents I sit with get at least one of these wrong"
-  - "I want us to find which one before we go a single step further"
+  - "We're going to run through a quick Pop Quiz. Five true-or-false questions."
+  - "Type T or F in the chat as we go."
+  - "There are no trick questions. But around ninety percent of parents I sit with get at least one of these wrong."
+  - "I want us to find which one before we go a single step further."
 TIMING: 30 sec
 TRANSITION: "Question 1."
 -->
 
 ---
-<!-- slide:opening-q1-setup-05 -->
 layout: center
 class: text-center
 ---
 
-<v-click.fade>
+<!-- slide:opening-q1-setup-05 -->
+
+<v-click>
 
 <div class="text-3xl opacity-60 mb-4">
 Question 1
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.up>
+<v-click>
 
 <div class="text-5xl font-bold mt-8">
 True or False?
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.scale>
+<v-click>
 
-<div class="text-4xl mt-12">
+<div class="text-4xl mt-12 max-w-3xl mx-auto">
 Top-50 colleges are always the best return on investment.
 </div>
 
-</v-click.scale>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-2xl mt-12 opacity-70">
 Type T or F.
 </div>
 
-</v-click.fade>
+</v-click>
 
 <!--
 HOOK: Set up the first assumption test.
@@ -207,42 +210,39 @@ TRANSITION: Reveal the answer.
 -->
 
 ---
-<!-- slide:opening-q1-reveal-06 -->
 layout: center
 class: text-center
 ---
 
-<v-click.scale>
+<!-- slide:opening-q1-reveal-06 -->
 
-<div class="text-8xl font-bold text-red-600">
+<div v-click.scale class="text-8xl font-bold text-red-600">
 FALSE
 </div>
 
-</v-click.scale>
+<v-click>
 
-<v-click.up>
-
-<div class="text-2xl mt-12 max-w-2xl mx-auto">
+<div class="text-2xl mt-12 max-w-3xl mx-auto">
 The best ROI is the school that gives your kid a <strong>scholarship</strong>, the <strong>network</strong> they'll actually use, and the <strong>program</strong> that lines up with their major.
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
-<div class="text-2xl mt-8 max-w-2xl mx-auto opacity-80">
+<div class="text-2xl mt-6 max-w-3xl mx-auto opacity-80">
 Sometimes that's a top fifty. Often it's not.
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.up>
+<v-click>
 
-<div class="text-3xl mt-8 font-bold" style="color: var(--brand-primary);">
+<div class="text-3xl mt-8 font-bold" style="color: #1B365D;">
 The smartest move isn't chasing prestige. It's matching fit to outcome.
 </div>
 
-</v-click.up>
+</v-click>
 
 <!--
 HOOK: Land the first aha. Belief Swap.
@@ -255,42 +255,43 @@ TRANSITION: "Question 2."
 -->
 
 ---
-<!-- slide:opening-q2-setup-07 -->
 layout: center
 class: text-center
 ---
 
-<v-click.fade>
+<!-- slide:opening-q2-setup-07 -->
+
+<v-click>
 
 <div class="text-3xl opacity-60 mb-4">
 Question 2
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.up>
+<v-click>
 
 <div class="text-5xl font-bold mt-8">
 True or False?
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.scale>
+<v-click>
 
 <div class="text-4xl mt-12">
 Merit aid is need-based.
 </div>
 
-</v-click.scale>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-2xl mt-12 opacity-70">
 Type T or F.
 </div>
 
-</v-click.fade>
+</v-click>
 
 <!--
 HOOK: This one trips up high-income families specifically.
@@ -302,42 +303,39 @@ TRANSITION: Reveal.
 -->
 
 ---
-<!-- slide:opening-q2-reveal-08 -->
 layout: center
 class: text-center
 ---
 
-<v-click.scale>
+<!-- slide:opening-q2-reveal-08 -->
 
-<div class="text-8xl font-bold text-red-600">
+<div v-click.scale class="text-8xl font-bold text-red-600">
 FALSE
 </div>
 
-</v-click.scale>
-
-<v-click.up>
+<v-click>
 
 <div class="text-2xl mt-10 max-w-3xl mx-auto">
 Merit aid is awarded for <strong>academic strength and profile fit</strong>. It is not means-tested.
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="callout-info text-xl max-w-2xl mx-auto mt-8">
 Families pulling in $300K+/year leave significant merit aid on the table because they thought they made too much to qualify.
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.up>
+<v-click>
 
-<div class="text-3xl mt-8 font-bold" style="color: var(--brand-secondary);">
+<div class="text-3xl mt-8 font-bold" style="color: #C5A55A;">
 And merit aid is negotiable.
 </div>
 
-</v-click.up>
+</v-click>
 
 <!--
 HOOK: This is the assumption that costs families the most money.
@@ -353,50 +351,51 @@ TRANSITION: "Question 3."
 -->
 
 ---
-<!-- slide:opening-q3-setup-09 -->
 layout: center
 class: text-center
 ---
 
-<v-click.fade>
+<!-- slide:opening-q3-setup-09 -->
+
+<v-click>
 
 <div class="text-3xl opacity-60 mb-4">
 Question 3
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.up>
+<v-click>
 
 <div class="text-5xl font-bold mt-8">
 True or False?
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.scale>
+<v-click>
 
 <div class="text-4xl mt-12">
 Test-optional is permanent.
 </div>
 
-</v-click.scale>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-xl mt-8 opacity-70 max-w-2xl mx-auto">
 Quick reminder. Test-optional was the COVID-era policy where schools said you didn't have to send your SAT or ACT scores.
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-2xl mt-8 opacity-70">
 Type T or F.
 </div>
 
-</v-click.fade>
+</v-click>
 
 <!--
 HOOK: Refresh memory for parents who tuned out of admissions news.
@@ -410,50 +409,47 @@ TRANSITION: Reveal.
 -->
 
 ---
-<!-- slide:opening-q3-reveal-10 -->
 layout: center
 class: text-center
 ---
 
-<v-click.scale>
+<!-- slide:opening-q3-reveal-10 -->
 
-<div class="text-8xl font-bold text-red-600">
+<div v-click.scale class="text-8xl font-bold text-red-600">
 FALSE
 </div>
 
-</v-click.scale>
-
-<v-click.up>
+<v-click>
 
 <div class="text-2xl mt-10 max-w-3xl mx-auto">
 Test-optional reverted. <strong>Most selective schools are reading scores again.</strong> Some require them.
 </div>
 
-</v-click.up>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
-<div class="text-3xl mt-12 font-bold" style="color: var(--brand-primary);">
+<div class="text-3xl mt-12 font-bold" style="color: #1B365D;">
 The kids who skipped the SAT because the internet told them it didn't matter
 </div>
 
-</v-click.fade>
+</v-click>
 
-<v-click.scale>
+<v-click>
 
 <div class="text-4xl mt-6 font-bold text-red-600">
 just walked into a brick wall.
 </div>
 
-</v-click.scale>
+</v-click>
 
-<v-click.fade>
+<v-click>
 
 <div class="text-xl mt-8 opacity-75">
 We'll come back to this one too.
 </div>
 
-</v-click.fade>
+</v-click>
 
 <!--
 HOOK: This one lands hard for families who skipped the SAT.
