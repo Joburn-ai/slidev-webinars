@@ -108,68 +108,68 @@ layout: default
 
 <!-- slide:teaching-mech1-blooms-46 -->
 
-<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+<div class="h-full flex flex-col justify-center px-8 mx-auto" style="max-width: 780px;">
 
-<div class="text-base uppercase text-slate-500 mb-4" style="letter-spacing: 0.3em; font-weight: 600;">
+<div class="text-sm uppercase text-slate-500 mb-3 text-center" style="letter-spacing: 0.3em; font-weight: 600;">
 Bloom's Taxonomy
 </div>
 
-<div class="font-black navy mb-8" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
-The framework educators use to describe levels of thinking.
+<div class="font-black navy mb-6 text-center" style="font-size: 1.9rem; line-height: 1.15; letter-spacing: -0.02em;">
+Six levels of thinking.
 </div>
 
-<div class="space-y-3">
+<div class="space-y-2">
 
 <v-click>
 
-<div class="flex items-center gap-4 p-3 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
-  <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-white" style="background: #94a3b8; font-size: 1.2rem;">1</div>
-  <div class="text-xl text-slate-700">Remembering</div>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="flex items-center gap-4 p-3 rounded-lg" style="background: rgba(27, 54, 93, 0.04);">
-  <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-white" style="background: #94a3b8; font-size: 1.2rem;">2</div>
-  <div class="text-xl text-slate-700">Understanding</div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg" style="background: rgba(148, 163, 184, 0.12);">
+  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-white" style="background: #94a3b8; font-size: 0.95rem;">1</div>
+  <div class="text-base text-slate-700">Remembering</div>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="flex items-center gap-4 p-3 rounded-lg" style="background: rgba(27, 54, 93, 0.08);">
-  <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-white" style="background: #1B365D; font-size: 1.2rem;">3</div>
-  <div class="text-xl text-slate-700"><strong>Applying</strong></div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg" style="background: rgba(148, 163, 184, 0.18);">
+  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-white" style="background: #94a3b8; font-size: 0.95rem;">2</div>
+  <div class="text-base text-slate-700">Understanding</div>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="flex items-center gap-4 p-3 rounded-lg" style="background: rgba(27, 54, 93, 0.08);">
-  <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-white" style="background: #1B365D; font-size: 1.2rem;">4</div>
-  <div class="text-xl text-slate-700"><strong>Analyzing</strong></div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg" style="background: rgba(27, 54, 93, 0.10);">
+  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-white" style="background: #1B365D; font-size: 0.95rem;">3</div>
+  <div class="text-base text-slate-700"><strong>Applying</strong></div>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="flex items-center gap-4 p-3 rounded-lg" style="background: rgba(197, 165, 90, 0.15);">
-  <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-white" style="background: #C5A55A; font-size: 1.2rem;">5</div>
-  <div class="text-xl text-slate-700"><strong>Evaluating</strong></div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg" style="background: rgba(27, 54, 93, 0.14);">
+  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-white" style="background: #1B365D; font-size: 0.95rem;">4</div>
+  <div class="text-base text-slate-700"><strong>Analyzing</strong></div>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="flex items-center gap-4 p-3 rounded-lg" style="background: rgba(197, 165, 90, 0.2);">
-  <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-white" style="background: #C5A55A; font-size: 1.2rem;">6</div>
-  <div class="text-xl text-slate-700"><strong>Creating</strong></div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg" style="background: rgba(197, 165, 90, 0.18);">
+  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-white" style="background: #C5A55A; font-size: 0.95rem;">5</div>
+  <div class="text-base text-slate-700"><strong>Evaluating</strong></div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg" style="background: rgba(197, 165, 90, 0.25);">
+  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-white" style="background: #C5A55A; font-size: 0.95rem;">6</div>
+  <div class="text-base text-slate-700"><strong>Creating</strong></div>
 </div>
 
 </v-click>
