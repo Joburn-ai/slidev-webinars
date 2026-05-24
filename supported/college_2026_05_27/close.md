@@ -487,7 +487,7 @@ The framework worked.
 <!--
 HOOK: Strongest single-line proof. Full ride is the dream parents barely dare to name.
 VERIFIED 2026-05-24 by Gemini vision: Mila committed U Illinois, FULL RIDE / 100% tuition covered. Top 5 public.
-NOTE: Image is 480x720 — request higher-res re-export before stage. If unavailable by deck-lock, fallback to image-left at smaller fixed height with bold typography-driven left column.
+NOTE: Image is 480x720. Request higher-res re-export before stage. If unavailable by deck-lock, fallback to image-left at smaller fixed height with bold typography-driven left column.
 TIMING: 30 sec
 TRANSITION: Two paths close.
 -->
