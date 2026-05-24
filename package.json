@@ -7,9 +7,11 @@
     "build": "slidev build",
     "build:supported-college": "slidev build supported/college_2026_05_27/slides.md --base / --out dist",
     "build:giftedgabber-bsmd": "slidev build giftedgabber/bsmd_2026_05_27/slides.md --base / --out dist",
+    "build:demo-feedback": "slidev build _demo/feedback_demo_2026_05_24/slides.md --base / --out dist",
     "dev": "slidev --open",
     "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
     "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
+    "dev:demo-feedback": "slidev _demo/feedback_demo_2026_05_24/slides.md --open",
     "export": "slidev export",
     "export:supported-college": "slidev export supported/college_2026_05_27/slides.md --without-notes"
   },
