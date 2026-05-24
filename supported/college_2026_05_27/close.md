@@ -191,7 +191,7 @@ TRANSITION: First testimonial.
 
 ---
 layout: image-right
-image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_face/v1779640675/slidev/supported/_brand/testimonial/samiksha.jpg'
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640745/slidev/supported/_brand/testimonial/photo_outcome_card_1xaphhwp.png'
 ---
 
 <!-- slide:close-testimonial-samiksha-128 -->
@@ -199,33 +199,46 @@ image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_
 <div class="h-full flex flex-col justify-center pl-4 pr-8">
 
 <div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.3em; font-weight: 600;">
-Samiksha
+Samiksha · Ohio State
 </div>
 
-<div class="font-black navy mb-8" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
-Followed the framework from rising junior year.
+<div class="font-black navy mb-6" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+The framework built from rising junior year.
 </div>
 
-<div class="space-y-4 text-lg text-slate-700">
+<div class="space-y-3 text-lg text-slate-700">
 
 <v-click>
 
-<div style="line-height: 1.5;">
-· Locked the multi-year roadmap by end of phase one.</div>
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Committed to <strong>Ohio State</strong>. Pre-med track.</span>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div style="line-height: 1.5;">
-· By application season, the Congruent Outlier we engineered her to be.</div>
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Also accepted: Pitt Honors, Michigan State, U Dayton, Bowling Green.</span>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-xl font-bold gold mt-6" style="line-height: 1.4;">
-Significant merit aid attached. The school she actually wanted. Data-backed fit from day one.
+<div class="p-4 rounded-xl mt-4" style="background: rgba(197, 165, 90, 0.15); border-left: 4px solid #C5A55A;">
+  <div class="text-sm uppercase text-slate-600 mb-1" style="letter-spacing: 0.2em; font-weight: 700;">Total scholarships</div>
+  <div class="font-black gold" style="font-size: 3rem; line-height: 1;">$240,000</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-lg italic text-slate-600 mt-2" style="line-height: 1.5;">
+Data-backed fit from day one. The schools paid her to come.
 </div>
 
 </v-click>
@@ -235,48 +248,62 @@ Significant merit aid attached. The school she actually wanted. Data-backed fit 
 </div>
 
 <!--
-HOOK: First testimonial. Visual proof.
-NOTE: [VERIFY] specifics in #student-wins before stage. School + outcome + scholarship.
+HOOK: First testimonial. Visual proof via outcome card image.
+VERIFIED 2026-05-24 by Gemini vision: card shows Samiksha committed to OSU, $240K total scholarships across multiple acceptances, pre-med, AP-loaded profile.
 TIMING: 30 sec
-TRANSITION: Andrew.
+TRANSITION: Drew.
 -->
 
 ---
-layout: default
+layout: image-right
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640734/slidev/supported/_brand/testimonial/photo_outcome_card_1yrjtwar.png'
 ---
 
-<!-- slide:close-testimonial-andrew-129 -->
+<!-- slide:close-testimonial-drew-129 -->
 
-<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+<div class="h-full flex flex-col justify-center pl-4 pr-8">
 
 <div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.3em; font-weight: 600;">
-Andrew · UIUC
+Drew · Santa Clara
 </div>
 
-<div class="font-black navy mb-8" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
-We connected the layers he had been missing.
+<div class="font-black navy mb-6" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+The biggest dollar number in our entire cycle.
 </div>
 
-<div class="space-y-4 text-xl text-slate-700">
+<div class="space-y-3 text-lg text-slate-700">
 
 <v-click>
 
-<div style="line-height: 1.5;">
-We mapped the schools where his profile was the exact profile they were paying merit to attract.</div>
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Committed to <strong>Santa Clara University</strong>. $30,200/yr ($120,800 total).</span>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div style="line-height: 1.5;">
-By March he had letters in hand from every school we targeted.</div>
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span><strong>12+ acceptances</strong>: Northeastern, Cal Poly, Case Western, Colgate, UC Davis, Fordham, USD, USF, Miami Ohio, Indiana.</span>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-2xl font-black gold mt-6" style="line-height: 1.3;">
-The merit aid attached made the school choice a question of fit. Not finance.
+<div class="p-4 rounded-xl mt-4" style="background: rgba(197, 165, 90, 0.15); border-left: 4px solid #C5A55A;">
+  <div class="text-sm uppercase text-slate-600 mb-1" style="letter-spacing: 0.2em; font-weight: 700;">Total across all schools</div>
+  <div class="font-black gold" style="font-size: 3rem; line-height: 1;">$460,000</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-lg italic text-slate-600 mt-2" style="line-height: 1.5;">
+Same framework. Different state. Different family. Same playbook.
 </div>
 
 </v-click>
@@ -286,8 +313,181 @@ The merit aid attached made the school choice a question of fit. Not finance.
 </div>
 
 <!--
-HOOK: Second testimonial. Numbers + outcome.
-NOTE: [VERIFY] pending Andrew family signed release. If unavailable, drop.
+HOOK: Strongest economic proof in the entire deck. $460K is the headline number.
+VERIFIED 2026-05-24 by Gemini vision: Drew committed Santa Clara, $30,200/yr ($120,800 total at SCU), $460,000 across all 12+ schools accepted.
+NOTE: Replaces Andrew/UIUC slide (release pending, swapped to verified Drew card).
+TIMING: 35 sec
+TRANSITION: Ria.
+-->
+
+---
+layout: image-right
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640732/slidev/supported/_brand/testimonial/photo_outcome_card_1vkeuzh8.png'
+---
+
+<!-- slide:close-testimonial-ria-129b -->
+
+<div class="h-full flex flex-col justify-center pl-4 pr-8">
+
+<div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.3em; font-weight: 600;">
+Ria · Drexel
+</div>
+
+<div class="font-black navy mb-6" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+Pre-med track. Locked from rising junior year.
+</div>
+
+<div class="space-y-3 text-lg text-slate-700">
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Committed to <strong>Drexel University</strong>. $30,000+/yr.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Also accepted: Temple ($24K/yr), Penn State ($20K), TCNJ ($18K), Seton Hall ($18K).</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-4 rounded-xl mt-4" style="background: rgba(197, 165, 90, 0.15); border-left: 4px solid #C5A55A;">
+  <div class="text-sm uppercase text-slate-600 mb-1" style="letter-spacing: 0.2em; font-weight: 700;">Total merit aid</div>
+  <div class="font-black gold" style="font-size: 3rem; line-height: 1;">$110,000+</div>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Pre-med diversification from Samiksha. Different school, different state.
+VERIFIED 2026-05-24 by Gemini vision: Ria committed Drexel, $30K+/yr, $110K+ total merit. Pre-med. Temple/Penn State/TCNJ/Seton Hall all offered merit aid.
+TIMING: 30 sec
+TRANSITION: Nishtha.
+-->
+
+---
+layout: image-right
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640733/slidev/supported/_brand/testimonial/photo_outcome_card_17309z-x.png'
+---
+
+<!-- slide:close-testimonial-nishtha-129c -->
+
+<div class="h-full flex flex-col justify-center pl-4 pr-8">
+
+<div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.3em; font-weight: 600;">
+Nishtha · USF Honors
+</div>
+
+<div class="font-black navy mb-6" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+AP-loaded profile. Honors college admission.
+</div>
+
+<div class="space-y-3 text-lg text-slate-700">
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Committed to <strong>University of San Francisco Honors</strong>.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>AP scores: Chem 4, English Lang 4, Spanish 4, Calculus 5.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-4 rounded-xl mt-4" style="background: rgba(197, 165, 90, 0.15); border-left: 4px solid #C5A55A;">
+  <div class="text-sm uppercase text-slate-600 mb-1" style="letter-spacing: 0.2em; font-weight: 700;">Per-year scholarship</div>
+  <div class="font-black gold" style="font-size: 3rem; line-height: 1;">$35,000/yr</div>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: West-coast school, honors college, AP-rich profile. Broadens avatar coverage.
+VERIFIED 2026-05-24 by Gemini vision: Nishtha committed USF Honors, $35K/yr, AP Chem 4 / English Lang 4 / Spanish 4 / Calculus 5.
+TIMING: 30 sec
+TRANSITION: Mila full ride.
+-->
+
+---
+layout: image-right
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640649/slidev/supported/_brand/other/dc0313e7_1e7f_4d31_8694_3cc916fc72d6_720.png'
+---
+
+<!-- slide:close-testimonial-mila-129d -->
+
+<div class="h-full flex flex-col justify-center pl-4 pr-8">
+
+<div class="text-base uppercase text-slate-500 mb-3" style="letter-spacing: 0.3em; font-weight: 600;">
+Mila · University of Illinois
+</div>
+
+<div class="font-black navy mb-6" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+The full-ride outcome we engineered for.
+</div>
+
+<div class="space-y-3 text-lg text-slate-700">
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span class="gold font-black text-2xl">·</span>
+  <span>Committed to <strong>University of Illinois</strong>. Top 5 public university.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-5 rounded-xl mt-4" style="background: linear-gradient(135deg, rgba(197, 165, 90, 0.2), rgba(197, 165, 90, 0.05)); border: 2px solid rgba(197, 165, 90, 0.5);">
+  <div class="text-sm uppercase text-slate-600 mb-2" style="letter-spacing: 0.2em; font-weight: 700;">Scholarship</div>
+  <div class="font-black gold" style="font-size: 3.5rem; line-height: 1;">FULL RIDE</div>
+  <div class="text-base text-slate-700 mt-2">100% tuition covered.</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-lg italic text-slate-600 mt-2" style="line-height: 1.5;">
+The framework worked.
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Strongest single-line proof. Full ride is the dream parents barely dare to name.
+VERIFIED 2026-05-24 by Gemini vision: Mila committed U Illinois, FULL RIDE / 100% tuition covered. Top 5 public.
+NOTE: Image is 480x720 — request higher-res re-export before stage. If unavailable by deck-lock, fallback to image-left at smaller fixed height with bold typography-driven left column.
 TIMING: 30 sec
 TRANSITION: Two paths close.
 -->
