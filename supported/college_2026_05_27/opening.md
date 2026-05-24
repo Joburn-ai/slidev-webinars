@@ -45,7 +45,7 @@ TRANSITION: "Sixteen years inside the American education system."
 
 ---
 layout: image-left
-image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_face/v1779640660/slidev/supported/_brand/other/joe_conf.png'
+image: 'https://res.cloudinary.com/dby8dt6md/image/upload/c_fill,w_960,h_1080,g_face/v1779640664/slidev/supported/_brand/other/dr_joe_2026.jpg'
 ---
 
 <!-- slide:opening-creds-02 -->
@@ -958,4 +958,725 @@ BEATS:
 TIMING: 25 sec
 TRANSITION: Click into Section 2: Pain section.
 -->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-opener-18 -->
+
+<div class="absolute inset-0" style="background: radial-gradient(ellipse at center, #2a3447 0%, #1a2030 60%, #0a0d14 100%);"></div>
+
+<div class="absolute inset-0 flex items-center justify-center px-16">
+
+<div class="text-center max-w-4xl space-y-12">
+
+<v-click>
+
+<div style="color: rgba(197, 165, 90, 0.7); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
+Section 2 · Pop Quiz, Round Two
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 5.5rem; line-height: 1; color: white; letter-spacing: -0.03em;">
+Same expensive mistake.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl" style="color: rgba(255,255,255,0.55); font-style: italic;">
+I'm not going to give you the answer right away. I want you to feel it first.
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: Tone shift. Lower the voice, slow the cadence. Section 2 starts the emotional gravity well.
+BEATS:
+  - Click pause 2 sec before speaking
+  - "I want to ask you a second pop quiz question."
+  - "This one I'm not going to give you the answer to right away. I want you to feel it first."
+  - "Want to know why most qualified students get rejected? Same expensive mistake."
+TIMING: 25 sec
+TRANSITION: "The thing nobody told you about AP being over."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-empathy-opener-19 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.35em; font-weight: 600;">
+Look.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 4rem; line-height: 1.1; letter-spacing: -0.03em;">
+I know why you're here tonight.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Direct address. Lower voice. Slow the cadence further.
+BEATS:
+  - 3 second pause on this slide before speaking
+  - Eye contact direct into camera
+  - "Look. I know why you're here tonight."
+TIMING: 15 sec
+TRANSITION: "The school year is winding down."
+-->
+
+---
+layout: default
+---
+
+<!-- slide:pain-quiet-questions-20 -->
+
+<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+
+<div class="text-base uppercase text-slate-500 mb-6" style="letter-spacing: 0.3em; font-weight: 600;">
+The questions you carry
+</div>
+
+<div class="font-black navy mb-10" style="font-size: 2.75rem; line-height: 1.15; letter-spacing: -0.02em;">
+The school year is winding down. Into the silence rush every question you've been carrying for months.
+</div>
+
+<div class="space-y-3 text-xl text-slate-700">
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span style="color: #C5A55A; font-size: 1.5rem;">·</span>
+  <span>The GPA.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span style="color: #C5A55A; font-size: 1.5rem;">·</span>
+  <span>The activity stack that feels random.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span style="color: #C5A55A; font-size: 1.5rem;">·</span>
+  <span>The school list that's still just a Google doc with twelve names on it.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span style="color: #C5A55A; font-size: 1.5rem;">·</span>
+  <span>The senior parent in your network who texted you in a full-on panic.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="flex items-baseline gap-3">
+  <span style="color: #C5A55A; font-size: 1.5rem;">·</span>
+  <span>The tuition bill you ran the numbers on at midnight.</span>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: List the unspoken anxieties. Validate before reframing.
+BEATS:
+  - Slow delivery, one beat between bullets
+  - "The GPA. The activity stack that feels random. The school list that's still just a Google doc with twelve names on it."
+  - "The senior parent in your network who texted you last weekend in a full-on panic because their kid got rejected from a school they thought was a sure thing."
+  - "The tuition bill you ran the numbers on at midnight some night last week. Eighty, ninety, a hundred thousand dollars a year, four years..."
+TIMING: 60 sec
+TRANSITION: "And under all of that, there's the question you're not even sure how to ask out loud."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-deepest-question-21 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-2xl text-slate-600 italic">
+And under all of that, there's the question you're not sure how to ask out loud.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 4rem; line-height: 1.15; letter-spacing: -0.03em;">
+Are we doing this right?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-bold navy max-w-3xl mx-auto" style="font-size: 3rem; line-height: 1.2; opacity: 0.85;">
+Are we doing enough?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-600 max-w-3xl mx-auto mt-8 italic" style="line-height: 1.4;">
+Am I going to look back from senior year and realize we missed the window?
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: The questions every parent carries but never says aloud.
+BEATS:
+  - Slow, deliberate
+  - "Are we doing this right?"
+  - PAUSE
+  - "Are we doing enough?"
+  - PAUSE longer
+  - "Am I going to look back from senior year and realize we missed the window?"
+  - PAUSE
+TIMING: 30 sec
+TRANSITION: "Here's what I need you to hear first."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-reframe-22 -->
+
+<div class="absolute inset-0" style="background: radial-gradient(ellipse at center, #1f4172 0%, #1B365D 50%, #0f1f3a 100%);"></div>
+
+<div class="absolute inset-0 flex items-center justify-center px-16">
+
+<div class="text-center max-w-4xl space-y-12">
+
+<v-click>
+
+<div style="color: rgba(197, 165, 90, 0.7); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
+The reframe
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 3.5rem; line-height: 1.1; color: rgba(255,255,255,0.75); letter-spacing: -0.02em;">
+AP exams are <span style="color: white;">the solution.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black" style="font-size: 4.5rem; line-height: 1.05; color: #C5A55A; letter-spacing: -0.03em;">
+The PROBLEM is real life.
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: The thesis statement of the entire webinar.
+BEATS:
+  - Hold the slide 2 sec before speaking
+  - "Here's what I need you to hear first."
+  - PAUSE
+  - "AP exams are the solution."
+  - PAUSE
+  - "The PROBLEM is real life."
+  - HOLD on the gold line
+TIMING: 20 sec
+TRANSITION: "For some of you, this is already this year. For others, it's eighteen months out."
+-->
+
+---
+layout: default
+---
+
+<!-- slide:pain-cost-beyond-spreadsheet-23 -->
+
+<div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
+
+<div class="text-base uppercase text-slate-500 mb-6" style="letter-spacing: 0.3em; font-weight: 600;">
+The cost that doesn't show up on the spreadsheet
+</div>
+
+<div class="font-black navy mb-10" style="font-size: 2.5rem; line-height: 1.2; letter-spacing: -0.02em;">
+The school they pictured themselves at. The roommate. The professor. The internship pipeline.
+</div>
+
+<div class="space-y-4 text-xl text-slate-700">
+
+<v-click>
+
+<div style="line-height: 1.5;">
+The school they pictured themselves at. <strong>Gone.</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div style="line-height: 1.5;">
+The roommate they would have met. <strong>Gone.</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div style="line-height: 1.5;">
+The professor whose class would have changed what they majored in. <strong>Gone.</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div style="line-height: 1.5;">
+The internship pipeline that comes with that specific alumni network. <strong>Gone.</strong>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl font-bold navy mt-8" style="line-height: 1.3;">
+The four years that shape who your kid becomes. Now happening somewhere else.
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+<!--
+HOOK: List the opportunity costs. Each "Gone" lands heavier.
+BEATS:
+  - Slow read each line
+  - Heavy emphasis on "Gone" each time
+  - Lower the voice on each repetition
+  - Land the navy line slowly
+TIMING: 60 sec
+TRANSITION: "And the merit aid. Money that goes to another family every year, because the system isn't visible to most parents until it's too late."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-real-cost-24 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-2xl text-slate-600 max-w-3xl mx-auto" style="line-height: 1.5;">
+That's the real cost. Not the tuition you pay.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black gold max-w-3xl mx-auto" style="font-size: 4.5rem; line-height: 1.1; letter-spacing: -0.03em;">
+The future that doesn't happen.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl text-slate-700 max-w-3xl mx-auto mt-8" style="line-height: 1.4;">
+Your kid losing options at <strong>eighteen</strong> that don't come back at <strong>twenty-two</strong>.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Land the gold line slowly. This is the emotional gravity well peak.
+BEATS:
+  - "That's the real cost. Not the tuition you pay."
+  - PAUSE 2 sec
+  - "The future that doesn't happen."
+  - HOLD on the gold line 3 sec
+  - "Your kid losing options at eighteen that don't come back at twenty-two."
+TIMING: 35 sec
+TRANSITION: "That's what we're really talking about tonight. Not test scores. Not a number on a transcript. The trajectory of a human being you've raised."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-trajectory-25 -->
+
+<div class="space-y-10">
+
+<v-click>
+
+<div class="text-2xl text-slate-600 max-w-3xl mx-auto" style="line-height: 1.4;">
+That's what we're really talking about tonight.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl text-slate-500 italic">
+Not test scores. Not a number on a transcript.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 3.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+The trajectory of a human being
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-bold navy max-w-3xl mx-auto" style="font-size: 2.5rem; line-height: 1.3;">
+you've raised for fifteen, sixteen, seventeen years.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Stakes elevation. The webinar is about who the kid becomes.
+BEATS:
+  - "That's what we're really talking about tonight."
+  - "Not test scores. Not a number on a transcript."
+  - PAUSE
+  - "The trajectory of a human being you've raised for fifteen, sixteen, seventeen years."
+TIMING: 25 sec
+TRANSITION: "Let me tell you about two patterns I've watched play out across families."
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<!-- slide:pain-two-families-intro-26 -->
+
+<div class="space-y-12">
+
+<v-click>
+
+<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.35em; font-weight: 600;">
+Two patterns
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black navy max-w-3xl mx-auto" style="font-size: 4rem; line-height: 1.1; letter-spacing: -0.03em;">
+Two families. Same starting line.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black gold max-w-3xl mx-auto" style="font-size: 4rem; line-height: 1.1; letter-spacing: -0.03em;">
+Different ending.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl text-slate-500 italic max-w-3xl mx-auto mt-8">
+Not one specific family. The pattern I've seen repeat itself enough times that I can predict the outcome years before the letter ever lands.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Setup for the two-family dichotomy. The most load-bearing pain example in the deck.
+BEATS:
+  - "Let me tell you about two patterns I've watched play out across families."
+  - "Same suburb. Same school. Kids in the same graduating class."
+  - "Not one specific family. The pattern I've seen repeat itself enough times that I can predict the outcome years before the letter ever lands."
+TIMING: 25 sec
+TRANSITION: "Family one."
+-->
+
+---
+layout: two-cols
+---
+
+<!-- slide:pain-family-1-setup-27 -->
+
+<div class="h-full flex flex-col justify-center px-8">
+
+<div class="text-base uppercase mb-6" style="letter-spacing: 0.35em; font-weight: 600; color: #dc2626;">
+Family One
+</div>
+
+<div class="font-black navy mb-8" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+On paper, the perfect candidate.
+</div>
+
+<div class="space-y-3 text-lg text-slate-700">
+
+<v-click>
+
+<div>· <strong>Perfect GPA</strong></div>
+
+</v-click>
+
+<v-click>
+
+<div>· Every AP his school offered</div>
+
+</v-click>
+
+<v-click>
+
+<div>· SAT in the <strong>95th percentile</strong></div>
+
+</v-click>
+
+<v-click>
+
+<div>· Volunteer hours stacked</div>
+
+</v-click>
+
+<v-click>
+
+<div>· Polished essays</div>
+
+</v-click>
+
+<v-click>
+
+<div>· <strong>13 applications. All top-tier. All reach.</strong></div>
+
+</v-click>
+
+</div>
+
+</div>
+
+::right::
+
+<div class="h-full flex flex-col justify-center px-8" style="background: rgba(220, 38, 38, 0.04);">
+
+<v-click>
+
+<div class="text-base uppercase mb-6" style="letter-spacing: 0.35em; font-weight: 600; color: #dc2626;">
+The outcome
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black mb-6" style="font-size: 5rem; line-height: 1; color: #dc2626; letter-spacing: -0.03em;">
+Rejected 11 of 13.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl text-slate-700" style="line-height: 1.5;">
+The two acceptances came at <strong>full pay</strong>. Sticker price. No merit aid.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl italic text-slate-600 mt-6" style="line-height: 1.5;">
+"We did everything right and the answer is still no."
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Family 1 is the prestige game. Stack the credentials, then land the rejection count.
+BEATS:
+  - Walk the left column slowly, each bullet 1-2 sec
+  - "Their son had a perfect GPA. Took every AP his school offered. SAT in the ninety-fifth percentile."
+  - "Applied to thirteen schools. All of them top-tier. All of them reach."
+  - PAUSE before clicking to right column
+  - "He got rejected from eleven of thirteen."
+  - "And the two acceptances he did get came at full pay. Sticker price. No merit aid."
+  - "The conversation in their kitchen in March was the conversation no parent ever wants to have."
+  - "We did everything right and the answer is still no."
+TIMING: 90 sec
+TRANSITION: "Family two. Same town. Different story."
+-->
+
+---
+layout: two-cols
+---
+
+<!-- slide:pain-family-2-setup-28 -->
+
+<div class="h-full flex flex-col justify-center px-8">
+
+<div class="text-base uppercase mb-6" style="letter-spacing: 0.35em; font-weight: 600; color: #16a34a;">
+Family Two
+</div>
+
+<div class="font-black navy mb-8" style="font-size: 2.5rem; line-height: 1.15; letter-spacing: -0.02em;">
+On paper, less impressive.
+</div>
+
+<div class="space-y-3 text-lg text-slate-700">
+
+<v-click>
+
+<div>· <strong>B-plus average</strong>. Strong, not perfect.</div>
+
+</v-click>
+
+<v-click>
+
+<div>· SAT a few points above the national median</div>
+
+</v-click>
+
+<v-click>
+
+<div>· Started planning <strong>in tenth grade</strong></div>
+
+</v-click>
+
+<v-click>
+
+<div>· Knew which schools rewarded her exact profile</div>
+
+</v-click>
+
+<v-click>
+
+<div>· Applied to <strong>8 schools that fit</strong>. Not 13 reaches.</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+::right::
+
+<div class="h-full flex flex-col justify-center px-8" style="background: rgba(22, 163, 74, 0.05);">
+
+<v-click>
+
+<div class="text-base uppercase mb-6" style="letter-spacing: 0.35em; font-weight: 600; color: #16a34a;">
+The outcome
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="font-black mb-6" style="font-size: 5rem; line-height: 1; color: #16a34a; letter-spacing: -0.03em;">
+Accepted to 7 of 8.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl text-slate-700" style="line-height: 1.5;">
+With <strong>significant merit aid</strong> attached.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl font-bold gold mt-4" style="line-height: 1.4;">
+The schools paid her to come.
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+HOOK: Family 2 is the fit game. The same story tools, completely different result.
+BEATS:
+  - Walk the left column slowly, contrast with Family 1
+  - "Same town. Their daughter had a B-plus average. Strong, not perfect. SAT a few points above the national median."
+  - "But starting in tenth grade, her family had a plan. They knew which schools rewarded her exact profile."
+  - "She got accepted to seven of eight. With significant merit aid attached."
+  - HOLD on the gold line
+  - "The schools paid her to come."
+TIMING: 75 sec
+TRANSITION: "Same school. Same graduating class. Different game."
+-->
+
 
