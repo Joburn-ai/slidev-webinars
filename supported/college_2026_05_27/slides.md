@@ -17,7 +17,6 @@ fonts:
   mono: JetBrains Mono
   weights: '300,400,500,600,700,800,900'
 layout: cover
-background: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640657/slidev/supported/_brand/other/dr_joseph.png'
 ---
 
 <style>
@@ -162,25 +161,37 @@ background: 'https://res.cloudinary.com/dby8dt6md/image/upload/v1779640657/slide
 
 <!-- slide:cover-01 -->
 
-<div class="absolute inset-0 bg-black/50"></div>
+<div class="absolute inset-0" style="background: radial-gradient(ellipse at top, #1f4172 0%, #1B365D 40%, #0f1f3a 100%);"></div>
+
+<div class="absolute" style="top: 6%; left: 50%; transform: translateX(-50%);">
+  <img src="https://res.cloudinary.com/dby8dt6md/image/upload/h_60,c_fit/v1779640663/slidev/supported/_brand/brand/supported_logo_blue.png" style="height: 60px; filter: brightness(0) invert(1); opacity: 0.5;" />
+</div>
 
 <div class="absolute inset-0 flex items-center justify-center px-12">
-  <div class="frosted-dark max-w-3xl text-center">
-    <div class="text-2xl mb-4 opacity-80" style="letter-spacing: 0.15em; text-transform: uppercase;">
+  <div class="text-center max-w-4xl">
+    <div class="text-2xl mb-12" style="color: #C5A55A; letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.85;">
       Parent Masterclass
     </div>
-    <div class="font-black mb-6" style="font-size: 5rem; line-height: 0.95; color: white;">
+    <div class="font-black" style="font-size: 6.5rem; line-height: 0.95; color: white; letter-spacing: -0.04em;">
       AP Is Over.
     </div>
-    <div class="text-5xl gold font-bold">
+    <div class="font-black mt-6" style="font-size: 5rem; line-height: 1; color: #C5A55A; letter-spacing: -0.03em;">
       The Real Game Starts Now.
     </div>
-    <div class="mt-12 text-xl opacity-75">
+    <div class="mt-16 text-xl" style="color: rgba(255,255,255,0.7);">
       With Dr. Joe Sebestyen, Founder of SupportED Tutoring
     </div>
-    <div class="mt-2 text-base opacity-60">
-      Wednesday May 27, 2026  ·  8pm EST  ·  Live on Riverside
+    <div class="mt-3 text-base" style="color: rgba(255,255,255,0.5); letter-spacing: 0.1em;">
+      Wed May 27, 2026  ·  8pm EST  ·  Live on Riverside
     </div>
+  </div>
+</div>
+
+<div class="absolute" style="bottom: 4%; left: 50%; transform: translateX(-50%);">
+  <div class="flex items-center gap-2" style="color: rgba(255,255,255,0.4); font-size: 0.875rem;">
+    <span>Press</span>
+    <kbd style="background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2);">Space</kbd>
+    <span>to begin</span>
   </div>
 </div>
 
