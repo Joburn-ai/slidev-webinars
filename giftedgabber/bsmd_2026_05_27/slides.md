@@ -20,186 +20,13 @@ fonts:
 layout: cover
 ---
 
-<style>
-:root {
-  --brand-primary: #422C76;
-  --brand-primary-dark: #2d1f54;
-  --brand-secondary: #FEBC11;
-  --brand-coral: #EE7962;
-  --brand-mint: #95D1C9;
-  --brand-light: #EFEEED;
-  --brand-dark: #1a0f2e;
-  --brand-cream: #fafaf7;
-}
+<div class="absolute inset-0 gg-gradient-bg flex flex-col justify-center items-center px-12">
 
-.slidev-layout {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #fafaf7;
-  color: #1a0f2e;
-}
-
-.slidev-layout h1 {
-  font-family: 'Crimson Pro', Georgia, serif;
-  font-weight: 800;
-  color: #422C76;
-  letter-spacing: -0.02em;
-  line-height: 1.05;
-}
-
-.slidev-layout h2 {
-  font-family: 'Crimson Pro', Georgia, serif;
-  font-weight: 700;
-  color: #422C76;
-  letter-spacing: -0.01em;
-  line-height: 1.1;
-}
-
-.slidev-layout p, .slidev-layout li {
-  font-size: 1.4rem;
-  line-height: 1.55;
-  color: #1a0f2e;
-}
-
-.slidev-layout strong {
-  color: #422C76;
-  font-weight: 700;
-}
-
-.slidev-vclick-hidden {
-  opacity: 0 !important;
-}
-
-.slidev-vclick-target {
-  transition: opacity 200ms ease;
-}
-
-.gold {
-  color: #FEBC11;
-  font-weight: 800;
-}
-
-.purple {
-  color: #422C76;
-}
-
-.coral {
-  color: #EE7962;
-}
-
-.eyebrow {
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #EE7962;
-  margin-bottom: 1.5rem;
-}
-
-.eyebrow-gold {
-  color: #FEBC11;
-}
-
-.gradient-bg {
-  background: linear-gradient(135deg, #2d1f54 0%, #422C76 55%, #5a3da3 100%);
-  color: white;
-}
-
-.amber-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 6px;
-  background: #FEBC11;
-  z-index: 10;
-}
-
-.card {
-  background: white;
-  border-radius: 16px;
-  padding: 1.75rem 1.5rem;
-  border: 1px solid rgba(66, 44, 118, 0.10);
-  box-shadow: 0 10px 30px -10px rgba(66, 44, 118, 0.18);
-}
-
-.card-hero {
-  background: white;
-  border-radius: 16px;
-  padding: 2rem 1.75rem;
-  border: 2px solid #422C76;
-  box-shadow: 0 20px 50px -10px rgba(66, 44, 118, 0.35);
-}
-
-.tag {
-  display: inline-block;
-  background: #FEBC11;
-  color: #1a0f2e;
-  font-size: 0.7rem;
-  font-weight: 800;
-  padding: 0.3rem 0.7rem;
-  border-radius: 6px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.tag-purple {
-  background: #422C76;
-  color: white;
-}
-
-.tag-coral {
-  background: #EE7962;
-  color: white;
-}
-
-.tag-mint {
-  background: #95D1C9;
-  color: #2d1f54;
-}
-
-.stat-card {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(254, 188, 17, 0.25);
-  border-radius: 14px;
-  padding: 2rem 1.5rem;
-  text-align: center;
-}
-
-.stat-num {
-  font-family: 'Crimson Pro', serif;
-  font-size: 4.5rem;
-  font-weight: 800;
-  color: #FEBC11;
-  line-height: 1;
-}
-
-.stat-label {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  color: rgba(255,255,255,0.85);
-  letter-spacing: 0.02em;
-}
-
-.cta-btn {
-  display: inline-block;
-  background: #FEBC11;
-  color: #1a0f2e;
-  padding: 1.1rem 2.5rem;
-  border-radius: 12px;
-  font-size: 1.25rem;
-  font-weight: 900;
-  letter-spacing: 0.02em;
-  box-shadow: 0 16px 40px -10px rgba(254, 188, 17, 0.55);
-}
-</style>
-
-<div class="absolute inset-0 gradient-bg flex flex-col justify-center items-center px-12">
-
-<div class="amber-bar"></div>
+<div class="gg-amber-bar"></div>
 
 <div class="max-w-5xl text-center">
 
-<div class="eyebrow eyebrow-gold">
+<div class="gg-eyebrow gg-eyebrow-gold">
 Gifted Gabber · BS/MD Parent Masterclass
 </div>
 
@@ -208,7 +35,7 @@ The 2026 BS/MD<br/>Admissions Architecture
 </h1>
 
 <p style="font-size: 1.6rem; color: rgba(255,255,255,0.92); max-width: 56rem; margin: 0 auto; line-height: 1.45;">
-Why <span class="gold">Perfect Grades + 1560 SAT + 500 Hospital Hours</span> Is the #1 Cause of BS/MD Rejection in 2026.
+Why <span class="gg-gold">Perfect Grades + 1560 SAT + 500 Hospital Hours</span> Is the #1 Cause of BS/MD Rejection in 2026.
 </p>
 
 </div>
@@ -233,12 +60,12 @@ layout: cover
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: #fafaf7;">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 Quick gut check · Question 1
 </div>
 
 <h1 style="font-size: 3.4rem; max-width: 56rem; text-align: center;">
-A 1560 SAT is your child's <span class="purple">strongest</span> BS/MD application asset.
+A 1560 SAT is your child's <span class="gg-purple">strongest</span> BS/MD application asset.
 </h1>
 
 <div class="mt-12 flex gap-6">
@@ -263,7 +90,7 @@ FALSE
 
 <p style="font-size: 1.5rem; font-weight: 500; line-height: 1.5;">
 Most NJMS applicants now score above 1500.<br/>
-<span class="gold">The score is the entry fee.</span> Not the asset.
+<span class="gg-gold">The score is the entry fee.</span> Not the asset.
 </p>
 
 </div>
@@ -280,12 +107,12 @@ layout: cover
 
 <div class="text-center mb-10">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 Three recent Gifted Gabber families
 </div>
 
 <h2 style="font-size: 2.6rem;">
-Different students. Different programs.<br/><span class="purple">Same architecture.</span>
+Different students. Different programs.<br/><span class="gg-purple">Same architecture.</span>
 </h2>
 
 </div>
@@ -294,9 +121,9 @@ Different students. Different programs.<br/><span class="purple">Same architectu
 
 <v-click>
 
-<div class="card flex flex-col" style="min-height: 16rem;">
+<div class="gg-card flex flex-col" style="min-height: 16rem;">
 
-<div style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; font-weight: 700; color: #422C76; line-height: 1.15;">
+<div class="gg-card-name">
 Diya Menon
 </div>
 
@@ -305,7 +132,7 @@ Won a <strong>full ride</strong> to <strong>seven</strong> BS/MD colleges.
 </div>
 
 <div class="mt-4">
-<span class="tag">7 admits · full ride</span>
+<span class="gg-tag">7 admits · full ride</span>
 </div>
 
 </div>
@@ -314,9 +141,9 @@ Won a <strong>full ride</strong> to <strong>seven</strong> BS/MD colleges.
 
 <v-click>
 
-<div class="card flex flex-col" style="min-height: 16rem;">
+<div class="gg-card flex flex-col" style="min-height: 16rem;">
 
-<div style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; font-weight: 700; color: #422C76; line-height: 1.15;">
+<div class="gg-card-name">
 Taksh
 </div>
 
@@ -325,7 +152,7 @@ Accepted to <strong>four BS/MD programs</strong> with scholarships. <strong>One 
 </div>
 
 <div class="mt-4">
-<span class="tag tag-coral">4 admits · 1 full ride</span>
+<span class="gg-tag gg-tag-coral">4 admits · 1 full ride</span>
 </div>
 
 </div>
@@ -334,9 +161,9 @@ Accepted to <strong>four BS/MD programs</strong> with scholarships. <strong>One 
 
 <v-click>
 
-<div class="card flex flex-col" style="min-height: 16rem;">
+<div class="gg-card flex flex-col" style="min-height: 16rem;">
 
-<div style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; font-weight: 700; color: #422C76; line-height: 1.15;">
+<div class="gg-card-name">
 Diya Patel
 </div>
 
@@ -345,7 +172,7 @@ Stanford. FAU with scholarships. <strong>Full tuition</strong> to the Davidson S
 </div>
 
 <div class="mt-4">
-<span class="tag tag-mint">Stanford · Davidson</span>
+<span class="gg-tag gg-tag-mint">Stanford · Davidson</span>
 </div>
 
 </div>
@@ -372,41 +199,29 @@ Plus over <strong style="color: #422C76; font-style: normal;">$15M in merit aid<
 layout: cover
 ---
 
-<div class="absolute inset-0 gradient-bg flex flex-col justify-center px-16">
+<div class="absolute inset-0 gg-gradient-bg flex flex-col justify-center px-16">
 
-<div class="amber-bar"></div>
+<div class="gg-amber-bar"></div>
 
 <div class="max-w-5xl mx-auto text-center">
 
-<div class="eyebrow eyebrow-gold">
+<div class="gg-eyebrow gg-eyebrow-gold">
 The 2026 Admissions Shift
 </div>
 
-<h2 style="font-size: 3.6rem; color: white;">
-Ivy-level selectivity.<br/><span class="gold">Without the Ivy name.</span>
+<h2 style="font-size: 3.4rem; color: white;">
+Ivy-level selectivity.<br/><span class="gg-gold">Without the Ivy name.</span>
 </h2>
 
 <div class="grid grid-cols-3 gap-6 mt-14">
 
 <v-click>
 
-<div class="stat-card">
+<div class="gg-stat-card">
 
-<div class="stat-num">~3,000</div>
+<div class="gg-stat-num">~3,000</div>
 
-<div class="stat-label">applications to NJMS</div>
-
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="stat-card">
-
-<div class="stat-num">25</div>
-
-<div class="stat-label">seats available</div>
+<div class="gg-stat-label">applications to NJMS</div>
 
 </div>
 
@@ -414,11 +229,23 @@ Ivy-level selectivity.<br/><span class="gold">Without the Ivy name.</span>
 
 <v-click>
 
-<div class="stat-card">
+<div class="gg-stat-card">
 
-<div class="stat-num">1-2%</div>
+<div class="gg-stat-num">25</div>
 
-<div class="stat-label">effective rate <em>inside qualified pool</em></div>
+<div class="gg-stat-label">seats available</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="gg-stat-card">
+
+<div class="gg-stat-num">1-2%</div>
+
+<div class="gg-stat-label">effective rate <em>inside qualified pool</em></div>
 
 </div>
 
@@ -428,7 +255,7 @@ Ivy-level selectivity.<br/><span class="gold">Without the Ivy name.</span>
 
 <v-click>
 
-<p style="font-size: 1.3rem; margin-top: 3.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin-left: auto; margin-right: auto; line-height: 1.5;">
+<p style="font-size: 1.25rem; margin-top: 3.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin-left: auto; margin-right: auto; line-height: 1.5;">
 Every elite BS/MD program now operates at Ivy-level selectivity. And the qualified pool is full of perfect templates.
 </p>
 
@@ -444,16 +271,16 @@ layout: cover
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: #fafaf7;">
 
-<div class="amber-bar"></div>
+<div class="gg-amber-bar"></div>
 
 <div class="max-w-4xl text-center">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 Here's the part nobody is telling you
 </div>
 
 <h1 style="font-size: 4rem;">
-There is <span class="gold">another path</span>.
+There is <span class="gg-gold">another path</span>.
 </h1>
 
 <v-click>
@@ -496,15 +323,15 @@ layout: cover
 
 <div class="max-w-6xl mx-auto">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 Mechanism 1 · The Medical Spike
 </div>
 
 <h2 style="font-size: 2.8rem; margin-bottom: 1.5rem;">
-A singular, polarizing thesis.<br/>Built in a <span class="gold">90-day window</span>.
+A singular, polarizing thesis.<br/>Built in a <span class="gg-gold">90-day window</span>.
 </h2>
 
-<p style="font-size: 1.25rem; color: #555; max-width: 50rem; margin-bottom: 2.5rem; line-height: 1.5;">
+<p style="font-size: 1.2rem; color: #555; max-width: 50rem; margin-bottom: 2.5rem; line-height: 1.5;">
 Not a generic "medical interest" essay. A specific thesis the student can defend, present, and build proof assets around.
 </p>
 
@@ -580,7 +407,7 @@ layout: cover
 
 <div class="text-center mb-8">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 The demonstration
 </div>
 
@@ -590,9 +417,9 @@ The demonstration
 
 <div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto">
 
-<div class="card" style="opacity: 0.85;">
+<div class="gg-card" style="opacity: 0.85;">
 
-<span class="tag" style="background: #EFEEED; color: #666;">Applicant A · The Polished Pre-Med</span>
+<span class="gg-tag gg-tag-muted">Applicant A · The Polished Pre-Med</span>
 
 <div style="margin-top: 1.1rem; font-size: 1rem; color: #333; line-height: 1.75;">
 
@@ -624,9 +451,9 @@ The demonstration
 
 <v-click>
 
-<div class="card-hero">
+<div class="gg-card-hero">
 
-<span class="tag tag-purple">Applicant B · Maya · Gifted Gabber student</span>
+<span class="gg-tag gg-tag-purple">Applicant B · Maya · Gifted Gabber student</span>
 
 <div style="margin-top: 1.1rem; font-size: 1rem; color: #333; line-height: 1.75;">
 
@@ -663,7 +490,7 @@ The demonstration
 <v-click>
 
 <p style="text-align: center; font-size: 1.4rem; margin-top: 2rem; color: #422C76; font-weight: 700;">
-That is not luck. <span class="gold">That is architecture.</span>
+That is not luck. <span class="gg-gold">That is architecture.</span>
 </p>
 
 </v-click>
@@ -680,11 +507,11 @@ layout: cover
 
 <div class="text-center mb-12">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 Tonight's actual offer
 </div>
 
-<h1 style="font-size: 4.5rem;">$100. <span class="gold">Refundable.</span></h1>
+<h1 style="font-size: 4.5rem;">$100. <span class="gg-gold">Refundable.</span></h1>
 
 <p style="font-size: 1.5rem; margin-top: 0.75rem; color: #1a0f2e;">
 Thirty minutes. With me. One on one.
@@ -696,9 +523,9 @@ Thirty minutes. With me. One on one.
 
 <v-click>
 
-<div class="card">
+<div class="gg-card">
 
-<div style="font-family: 'Crimson Pro', serif; font-size: 3rem; font-weight: 800; color: #FEBC11; line-height: 1; margin-bottom: 0.75rem;">1</div>
+<div class="gg-numeral" style="margin-bottom: 0.75rem;">1</div>
 
 <div style="font-weight: 700; color: #422C76; font-size: 1.15rem; margin-bottom: 0.4rem;">Where your child stands</div>
 
@@ -710,9 +537,9 @@ Thirty minutes. With me. One on one.
 
 <v-click>
 
-<div class="card">
+<div class="gg-card">
 
-<div style="font-family: 'Crimson Pro', serif; font-size: 3rem; font-weight: 800; color: #FEBC11; line-height: 1; margin-bottom: 0.75rem;">2</div>
+<div class="gg-numeral" style="margin-bottom: 0.75rem;">2</div>
 
 <div style="font-weight: 700; color: #422C76; font-size: 1.15rem; margin-bottom: 0.4rem;">The Spike thesis</div>
 
@@ -724,9 +551,9 @@ Thirty minutes. With me. One on one.
 
 <v-click>
 
-<div class="card">
+<div class="gg-card">
 
-<div style="font-family: 'Crimson Pro', serif; font-size: 3rem; font-weight: 800; color: #FEBC11; line-height: 1; margin-bottom: 0.75rem;">3</div>
+<div class="gg-numeral" style="margin-bottom: 0.75rem;">3</div>
 
 <div style="font-weight: 700; color: #422C76; font-size: 1.15rem; margin-bottom: 0.4rem;">Honest fit check</div>
 
@@ -742,7 +569,7 @@ Thirty minutes. With me. One on one.
 
 <div class="mt-12 text-center">
 
-<div class="cta-btn">BOOK YOUR CLARITY CALL  →</div>
+<div class="gg-cta-btn">BOOK YOUR CLARITY CALL  →</div>
 
 <div style="margin-top: 0.85rem; font-size: 0.85rem; color: #777; font-family: 'JetBrains Mono', monospace;">
 calendly.com/gg-counseling/clarity-call-with-head-of-counseling
@@ -764,19 +591,19 @@ layout: cover
 
 <div class="text-center mb-8">
 
-<div class="eyebrow">
+<div class="gg-eyebrow">
 The decision in plain language
 </div>
 
-<h2 style="font-size: 2.7rem;">There are <span class="purple">two types of parents</span> on this call.</h2>
+<h2 style="font-size: 2.7rem;">There are <span class="gg-purple">two types of parents</span> on this call.</h2>
 
 </div>
 
 <div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto mt-8">
 
-<div class="card" style="padding: 2.25rem; opacity: 0.75;">
+<div class="gg-card" style="padding: 2.25rem; opacity: 0.75;">
 
-<span class="tag" style="background: #EFEEED; color: #666;">Type One · The Waiter</span>
+<span class="gg-tag gg-tag-muted">Type One · The Waiter</span>
 
 <p style="margin-top: 1.25rem; font-size: 1.1rem; color: #444; line-height: 1.6; font-weight: 500;">
 Goes back to the 500-hour grind. To the polished essays. To the boutique consultancy. To the hope that one more semester will be enough.
@@ -790,9 +617,9 @@ That parent already knows what their December 15 looks like.
 
 <v-click>
 
-<div class="card-hero" style="padding: 2.25rem;">
+<div class="gg-card-hero" style="padding: 2.25rem;">
 
-<span class="tag tag-purple">Type Two · The Architect</span>
+<span class="gg-tag gg-tag-purple">Type Two · The Architect</span>
 
 <p style="margin-top: 1.25rem; font-size: 1.1rem; color: #1a0f2e; line-height: 1.6; font-weight: 600;">
 Books the thirty minutes. Hears the diagnosis. Runs the build. Positions the asset.
@@ -824,11 +651,11 @@ layout: cover
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: #1a0f2e;">
 
-<div class="amber-bar"></div>
+<div class="gg-amber-bar"></div>
 
 <div class="text-center max-w-4xl">
 
-<div class="eyebrow eyebrow-gold">
+<div class="gg-eyebrow gg-eyebrow-gold">
 Make this decision on identity. Not on price.
 </div>
 
@@ -844,7 +671,7 @@ Or wait for the letter.
 
 <div style="margin-top: 4rem;">
 
-<div class="cta-btn" style="font-size: 1.6rem; padding: 1.25rem 3.5rem;">Your call.</div>
+<div class="gg-cta-btn" style="font-size: 1.6rem; padding: 1.25rem 3.5rem;">Your call.</div>
 
 </div>
 

@@ -1,0 +1,196 @@
+/* Gifted Gabber BS/MD deck — global tokens + components.
+   Slidev auto-loads style.css co-located with slides.md.
+   These rules are NOT scoped per-slide. */
+
+:root {
+  --brand-primary: #422C76;
+  --brand-primary-dark: #2d1f54;
+  --brand-secondary: #FEBC11;
+  --brand-coral: #EE7962;
+  --brand-mint: #95D1C9;
+  --brand-light: #EFEEED;
+  --brand-dark: #1a0f2e;
+  --brand-cream: #fafaf7;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fafaf7;
+  color: #1a0f2e;
+}
+
+.slidev-layout h1 {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-weight: 800;
+  color: #422C76;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.slidev-layout h2 {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-weight: 700;
+  color: #422C76;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.slidev-layout p,
+.slidev-layout li {
+  font-size: 1.4rem;
+  line-height: 1.55;
+  color: #1a0f2e;
+}
+
+.slidev-layout strong {
+  color: #422C76;
+  font-weight: 700;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0 !important;
+}
+
+.slidev-vclick-target {
+  transition: opacity 200ms ease;
+}
+
+.gg-gold {
+  color: #FEBC11;
+  font-weight: 800;
+}
+
+.gg-purple {
+  color: #422C76;
+}
+
+.gg-coral {
+  color: #EE7962;
+}
+
+.gg-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #EE7962;
+  margin-bottom: 1.5rem;
+}
+
+.gg-eyebrow-gold {
+  color: #FEBC11;
+}
+
+.gg-gradient-bg {
+  background: linear-gradient(135deg, #2d1f54 0%, #422C76 55%, #5a3da3 100%);
+  color: white;
+}
+
+.gg-amber-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #FEBC11;
+  z-index: 10;
+}
+
+.gg-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem;
+  border: 1px solid rgba(66, 44, 118, 0.10);
+  box-shadow: 0 10px 30px -10px rgba(66, 44, 118, 0.18);
+}
+
+.gg-card-hero {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  border: 2px solid #422C76;
+  box-shadow: 0 20px 50px -10px rgba(66, 44, 118, 0.35);
+}
+
+.gg-tag {
+  display: inline-block;
+  background: #FEBC11;
+  color: #1a0f2e;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gg-tag-purple {
+  background: #422C76;
+  color: white;
+}
+
+.gg-tag-coral {
+  background: #EE7962;
+  color: white;
+}
+
+.gg-tag-mint {
+  background: #95D1C9;
+  color: #2d1f54;
+}
+
+.gg-tag-muted {
+  background: #EFEEED;
+  color: #666;
+}
+
+.gg-stat-card {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(254, 188, 17, 0.28);
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.gg-stat-num {
+  font-family: 'Crimson Pro', serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #FEBC11;
+  line-height: 1;
+}
+
+.gg-stat-label {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.88);
+  letter-spacing: 0.02em;
+}
+
+.gg-cta-btn {
+  display: inline-block;
+  background: #FEBC11;
+  color: #1a0f2e;
+  padding: 1.1rem 2.5rem;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  box-shadow: 0 16px 40px -10px rgba(254, 188, 17, 0.55);
+}
+
+.gg-numeral {
+  font-family: 'Crimson Pro', serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #FEBC11;
+  line-height: 1;
+}
+
+.gg-card-name {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #422C76;
+  line-height: 1.15;
+}
