@@ -14,7 +14,7 @@ transition: slide-left
 mdc: true
 fonts:
   sans: Inter
-  serif: Inter
+  serif: Crimson Pro
   mono: JetBrains Mono
   weights: '300,400,500,600,700,800,900'
 layout: cover
@@ -23,6 +23,7 @@ layout: cover
 <style>
 :root {
   --brand-primary: #422C76;
+  --brand-primary-dark: #2d1f54;
   --brand-secondary: #FEBC11;
   --brand-coral: #EE7962;
   --brand-mint: #95D1C9;
@@ -38,30 +39,25 @@ layout: cover
 }
 
 .slidev-layout h1 {
-  font-size: 4.5rem;
-  font-weight: 900;
-  color: var(--brand-primary);
-  letter-spacing: -0.03em;
-  line-height: 1.05;
-  margin-bottom: 1.5rem;
-}
-
-.slidev-layout h2 {
-  font-size: 3rem;
+  font-family: 'Crimson Pro', Georgia, serif;
   font-weight: 800;
   color: var(--brand-primary);
   letter-spacing: -0.02em;
-  margin-bottom: 1.25rem;
+  line-height: 1.05;
+}
+
+.slidev-layout h2 {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-weight: 700;
+  color: var(--brand-primary);
+  letter-spacing: -0.01em;
+  line-height: 1.1;
 }
 
 .slidev-layout p, .slidev-layout li {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.55;
   color: var(--brand-dark);
-}
-
-.slidev-layout li {
-  margin-bottom: 0.75rem;
 }
 
 .slidev-layout strong {
@@ -81,521 +77,783 @@ layout: cover
   color: var(--brand-secondary);
   font-weight: 800;
 }
+
 .purple {
   color: var(--brand-primary);
 }
+
 .coral {
   color: var(--brand-coral);
 }
-.mint {
-  color: var(--brand-mint);
-}
-.frosted {
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid rgba(66, 44, 118, 0.12);
-  border-radius: 20px;
-  padding: 3rem 4rem;
-  box-shadow: 0 20px 60px -10px rgba(66, 44, 118, 0.25);
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--brand-coral);
+  margin-bottom: 1.5rem;
 }
 
-.frosted-dark {
-  background: rgba(26, 15, 46, 0.78);
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid rgba(254, 188, 17, 0.22);
-  border-radius: 20px;
-  padding: 3rem 4rem;
+.eyebrow-gold {
+  color: var(--brand-secondary);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--brand-primary-dark) 0%, var(--brand-primary) 55%, #5a3da3 100%);
   color: white;
 }
 
-.section-gradient {
-  background: linear-gradient(135deg, var(--brand-primary) 0%, #5b3da3 50%, #422C76 100%);
-  color: white;
-}
-
-.amber-stripe {
+.amber-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
   background: var(--brand-secondary);
-  height: 8px;
-  width: 100%;
+  z-index: 10;
 }
 
-.outcome-card {
+.card {
   background: white;
   border-radius: 16px;
-  padding: 2rem 1.5rem;
+  padding: 1.75rem 1.5rem;
   border: 1px solid rgba(66, 44, 118, 0.10);
-  box-shadow: 0 8px 24px -8px rgba(66, 44, 118, 0.18);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  box-shadow: 0 10px 30px -10px rgba(66, 44, 118, 0.18);
 }
 
-.outcome-name {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: var(--brand-primary);
-  margin-bottom: 0.5rem;
+.card-hero {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  border: 2px solid var(--brand-primary);
+  box-shadow: 0 20px 50px -10px rgba(66, 44, 118, 0.35);
 }
 
-.outcome-detail {
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.45;
-}
-
-.outcome-tag {
+.tag {
   display: inline-block;
   background: var(--brand-secondary);
   color: var(--brand-dark);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 800;
   padding: 0.3rem 0.7rem;
   border-radius: 6px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-top: 0.75rem;
-  align-self: flex-start;
+}
+
+.tag-purple {
+  background: var(--brand-primary);
+  color: white;
+}
+
+.tag-coral {
+  background: var(--brand-coral);
+  color: white;
+}
+
+.tag-mint {
+  background: var(--brand-mint);
+  color: var(--brand-primary-dark);
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(254, 188, 17, 0.25);
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.stat-num {
+  font-family: 'Crimson Pro', serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: var(--brand-secondary);
+  line-height: 1;
+}
+
+.stat-label {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.02em;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: var(--brand-secondary);
+  color: var(--brand-dark);
+  padding: 1.1rem 2.5rem;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  box-shadow: 0 16px 40px -10px rgba(254, 188, 17, 0.55);
 }
 </style>
 
-<div class="absolute inset-0 section-gradient flex flex-col justify-center items-center px-12 text-white">
-  <div class="absolute top-0 left-0 right-0 amber-stripe"></div>
+<div class="absolute inset-0 gradient-bg flex flex-col justify-center items-center px-12">
 
-  <div class="frosted-dark max-w-5xl">
-    <div class="text-sm uppercase tracking-widest mb-6" style="color: var(--brand-secondary); font-weight: 800; letter-spacing: 0.3em;">
-      Gifted Gabber · BS/MD Parent Masterclass
-    </div>
+<div class="amber-bar"></div>
 
-    <h1 class="text-white" style="font-size: 4rem; line-height: 1.1; color: white;">
-      The 2026 BS/MD <br/>Admissions Architecture
-    </h1>
+<div class="max-w-5xl text-center">
 
-    <p class="text-2xl mt-6 mb-8" style="color: rgba(255,255,255,0.92); font-weight: 400; line-height: 1.4;">
-      Why <strong style="color: var(--brand-secondary);">Perfect Grades + 1560 SAT + 500 Hospital Hours</strong> Is the #1 Cause of BS/MD Rejection in 2026.
-    </p>
+<div class="eyebrow eyebrow-gold">
+Gifted Gabber · BS/MD Parent Masterclass
+</div>
 
-    <div class="text-lg mt-12" style="color: rgba(255,255,255,0.7);">
-      with <strong style="color: white;">Coach Jo</strong> · Wednesday, May 27 · 9:00 PM ET
-    </div>
-  </div>
+<h1 style="font-size: 4.5rem; color: white; margin-bottom: 1.75rem;">
+The 2026 BS/MD<br/>Admissions Architecture
+</h1>
 
-  <div class="absolute bottom-6 left-0 right-0 text-center text-xs" style="color: rgba(255,255,255,0.4); letter-spacing: 0.15em;">
-    LIVE WEBINAR · RECURRING WEEKLY WEDNESDAYS
-  </div>
+<p style="font-size: 1.6rem; color: rgba(255,255,255,0.92); max-width: 56rem; margin: 0 auto; line-height: 1.45;">
+Why <span class="gold">Perfect Grades + 1560 SAT + 500 Hospital Hours</span> Is the #1 Cause of BS/MD Rejection in 2026.
+</p>
+
+</div>
+
+<div class="absolute bottom-12 left-0 right-0 text-center" style="color: rgba(255,255,255,0.78); font-size: 1rem;">
+
+with <strong style="color: white; font-weight: 700;">Coach Jo</strong> &nbsp;·&nbsp; Wednesday, May 27 &nbsp;·&nbsp; 9:00 PM ET
+
+</div>
+
+<div class="absolute bottom-4 left-0 right-0 text-center" style="color: rgba(255,255,255,0.35); font-size: 0.7rem; letter-spacing: 0.2em;">
+
+LIVE WEBINAR · RECURRING WEEKLY WEDNESDAYS
+
+</div>
+
 </div>
 
 ---
 layout: default
 ---
-
-<!-- slide:diagnostic-q1-2 -->
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: var(--brand-cream);">
 
-  <div class="text-sm uppercase mb-8" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-    Quick gut check · Question 1
-  </div>
+<div class="eyebrow">
+Quick gut check · Question 1
+</div>
 
-  <h1 class="text-center" style="font-size: 3.5rem; max-width: 1100px; line-height: 1.15;">
-    A 1560 SAT is your child's <span class="purple">strongest</span> <br/>BS/MD application asset.
-  </h1>
+<h1 style="font-size: 3.4rem; max-width: 56rem; text-align: center;">
+A 1560 SAT is your child's <span class="purple">strongest</span> BS/MD application asset.
+</h1>
 
-  <div class="mt-12 flex gap-6" v-click>
-    <div style="background: white; border: 3px solid var(--brand-primary); padding: 1.5rem 3rem; border-radius: 12px; font-size: 2rem; font-weight: 800; color: var(--brand-primary);">
-      TRUE
-    </div>
-    <div style="background: var(--brand-coral); padding: 1.5rem 3rem; border-radius: 12px; font-size: 2rem; font-weight: 900; color: white; box-shadow: 0 12px 30px -8px rgba(238, 121, 98, 0.5);">
-      FALSE
-    </div>
-  </div>
+<div class="mt-12 flex gap-6">
 
-  <div class="mt-10 max-w-3xl text-center" v-click>
-    <p class="text-2xl" style="color: var(--brand-dark); font-weight: 500;">
-      Most NJMS applicants now score above 1500. <br/>
-      <span class="gold">The score is the entry fee.</span> Not the asset.
-    </p>
-  </div>
+<div style="background: white; border: 3px solid var(--brand-primary); padding: 1.5rem 3rem; border-radius: 12px; font-size: 2rem; font-weight: 800; color: var(--brand-primary);">
+TRUE
+</div>
+
+<v-click>
+
+<div style="background: var(--brand-coral); padding: 1.5rem 3rem; border-radius: 12px; font-size: 2rem; font-weight: 900; color: white; box-shadow: 0 12px 30px -8px rgba(238, 121, 98, 0.5);">
+FALSE
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-12 max-w-3xl text-center">
+
+<p style="font-size: 1.5rem; font-weight: 500; line-height: 1.5;">
+Most NJMS applicants now score above 1500.<br/>
+<span class="gold">The score is the entry fee.</span> Not the asset.
+</p>
+
+</div>
+
+</v-click>
+
 </div>
 
 ---
 layout: default
 ---
-
-<!-- slide:proof-stack-3 -->
-
-<div class="absolute inset-0 px-16 py-12" style="background: var(--brand-cream);">
-
-  <div class="text-center mb-10">
-    <div class="text-sm uppercase mb-4" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-      Three recent Gifted Gabber families
-    </div>
-    <h2 style="font-size: 2.5rem;">
-      Different students. Different programs. <br/>
-      <span class="purple">Same architecture.</span>
-    </h2>
-  </div>
-
-  <div class="grid grid-cols-3 gap-6 max-w-6xl mx-auto mt-10">
-
-    <div class="outcome-card" v-click>
-      <div>
-        <div class="outcome-name">Diya Menon</div>
-        <div class="outcome-detail">
-          Full ride to <strong>seven BS/MD colleges</strong>.
-        </div>
-      </div>
-      <div class="outcome-tag">7 admits · full ride</div>
-    </div>
-
-    <div class="outcome-card" v-click>
-      <div>
-        <div class="outcome-name">Taksh</div>
-        <div class="outcome-detail">
-          Accepted to <strong>four BS/MD programs</strong> with scholarships. <strong>One full ride.</strong>
-        </div>
-      </div>
-      <div class="outcome-tag">4 admits · 1 full ride</div>
-    </div>
-
-    <div class="outcome-card" v-click>
-      <div>
-        <div class="outcome-name">Diya Patel</div>
-        <div class="outcome-detail">
-          Stanford. FAU with scholarships. <strong>Full tuition</strong> to Davidson Scholar Program.
-        </div>
-      </div>
-      <div class="outcome-tag">Stanford · Davidson Scholar</div>
-    </div>
-  </div>
-
-  <div class="mt-12 text-center max-w-4xl mx-auto" v-click>
-    <p class="text-xl" style="color: #555; font-style: italic;">
-      Plus over <strong style="color: var(--brand-primary);">$15M in merit aid</strong> placed across Brown PLME, Stony Brook Scholars for Medicine, NJMS, Drexel, Pitt GAP, and Rice/Baylor.
-    </p>
-  </div>
-</div>
-
----
-layout: default
----
-
-<!-- slide:ivy-selectivity-4 -->
-
-<div class="absolute inset-0 section-gradient flex flex-col justify-center px-16 text-white">
-
-  <div class="max-w-5xl mx-auto text-center">
-
-    <div class="text-sm uppercase mb-6" style="color: var(--brand-secondary); letter-spacing: 0.3em; font-weight: 800;">
-      The 2026 Admissions Shift
-    </div>
-
-    <h2 class="text-white" style="font-size: 3.5rem; color: white;">
-      Ivy-level selectivity. <br/>
-      <span style="color: var(--brand-secondary);">Without the Ivy name.</span>
-    </h2>
-
-    <div class="grid grid-cols-3 gap-8 mt-16">
-      <div v-click style="background: rgba(255,255,255,0.06); border: 1px solid rgba(254, 188, 17, 0.25); border-radius: 12px; padding: 2rem;">
-        <div style="font-size: 4rem; font-weight: 900; color: var(--brand-secondary); line-height: 1;">~3,000</div>
-        <div class="mt-3 text-base" style="color: rgba(255,255,255,0.85);">applications to NJMS</div>
-      </div>
-      <div v-click style="background: rgba(255,255,255,0.06); border: 1px solid rgba(254, 188, 17, 0.25); border-radius: 12px; padding: 2rem;">
-        <div style="font-size: 4rem; font-weight: 900; color: var(--brand-secondary); line-height: 1;">25</div>
-        <div class="mt-3 text-base" style="color: rgba(255,255,255,0.85);">seats available</div>
-      </div>
-      <div v-click style="background: rgba(255,255,255,0.06); border: 1px solid rgba(254, 188, 17, 0.25); border-radius: 12px; padding: 2rem;">
-        <div style="font-size: 4rem; font-weight: 900; color: var(--brand-secondary); line-height: 1;">1-2%</div>
-        <div class="mt-3 text-base" style="color: rgba(255,255,255,0.85);">effective rate <em>inside qualified pool</em></div>
-      </div>
-    </div>
-
-    <p class="text-xl mt-14" style="color: rgba(255,255,255,0.85); font-weight: 400; max-width: 800px; margin-left: auto; margin-right: auto;" v-click>
-      Every elite BS/MD program now operates at Ivy-level selectivity. <br/>
-      And the qualified pool is full of perfect templates.
-    </p>
-  </div>
-</div>
-
----
-layout: default
----
-
-<!-- slide:another-path-5 -->
-
-<div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: var(--brand-cream);">
-
-  <div class="amber-stripe" style="position: absolute; top: 0; left: 0;"></div>
-
-  <div class="max-w-4xl text-center">
-
-    <div class="text-sm uppercase mb-6" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-      Here's the part nobody is telling you
-    </div>
-
-    <h1 style="font-size: 3.8rem; line-height: 1.1;">
-      There is <span class="gold">another path</span>.
-    </h1>
-
-    <p class="text-2xl mt-10 mb-4" style="color: #333; font-weight: 500; line-height: 1.5;" v-click>
-      Diya, Taksh, and Diya Patel didn't run the same path <em>harder</em>.
-    </p>
-
-    <p class="text-2xl mt-4" style="color: var(--brand-primary); font-weight: 700; line-height: 1.4;" v-click>
-      They ran a <strong style="color: var(--brand-coral);">different path entirely</strong>.
-    </p>
-
-    <div class="mt-16 inline-block" style="background: white; border: 2px solid var(--brand-primary); border-radius: 12px; padding: 1.5rem 2.5rem;" v-click>
-      <p class="text-lg" style="color: var(--brand-primary); font-weight: 600; margin: 0;">
-        Built around what BS/MD committees <em>actually need</em>.
-      </p>
-    </div>
-  </div>
-</div>
-
----
-layout: default
----
-
-<!-- slide:mechanism-1-spike-6 -->
 
 <div class="absolute inset-0 px-16 py-14" style="background: var(--brand-cream);">
 
-  <div class="max-w-6xl mx-auto">
+<div class="text-center mb-10">
 
-    <div class="text-sm uppercase mb-3" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-      Mechanism 1 · The Medical Spike
-    </div>
+<div class="eyebrow">
+Three recent Gifted Gabber families
+</div>
 
-    <h2 style="font-size: 2.8rem; margin-bottom: 2rem;">
-      A singular, polarizing thesis. <br/>
-      Built in a <span class="gold">90-day window</span>.
-    </h2>
+<h2 style="font-size: 2.6rem;">
+Different students. Different programs.<br/><span class="purple">Same architecture.</span>
+</h2>
 
-    <p class="text-xl mb-10" style="color: #444; max-width: 900px;">
-      Not a generic "medical interest" essay. <strong>A specific thesis</strong> the student can defend, present, and build proof assets around.
-    </p>
+</div>
 
-    <div class="grid grid-cols-3 gap-5 mt-10">
+<div class="grid grid-cols-3 gap-6 max-w-6xl mx-auto mt-10">
 
-      <div v-click style="background: white; border-left: 5px solid var(--brand-primary); border-radius: 0 12px 12px 0; padding: 1.75rem; box-shadow: 0 4px 16px -4px rgba(66, 44, 118, 0.15);">
-        <div class="text-sm font-bold uppercase mb-2" style="color: var(--brand-primary); letter-spacing: 0.1em;">Diya Menon</div>
-        <div class="text-lg" style="color: var(--brand-dark); font-weight: 600; line-height: 1.3;">Healthcare access in underserved Indian-American communities.</div>
-      </div>
+<v-click>
 
-      <div v-click style="background: white; border-left: 5px solid var(--brand-coral); border-radius: 0 12px 12px 0; padding: 1.75rem; box-shadow: 0 4px 16px -4px rgba(238, 121, 98, 0.15);">
-        <div class="text-sm font-bold uppercase mb-2" style="color: var(--brand-coral); letter-spacing: 0.1em;">Taksh</div>
-        <div class="text-lg" style="color: var(--brand-dark); font-weight: 600; line-height: 1.3;">AI-assisted differential diagnosis.</div>
-      </div>
+<div class="card flex flex-col" style="min-height: 16rem;">
 
-      <div v-click style="background: white; border-left: 5px solid var(--brand-secondary); border-radius: 0 12px 12px 0; padding: 1.75rem; box-shadow: 0 4px 16px -4px rgba(254, 188, 17, 0.18);">
-        <div class="text-sm font-bold uppercase mb-2" style="color: #B8870D; letter-spacing: 0.1em;">Diya Patel</div>
-        <div class="text-lg" style="color: var(--brand-dark); font-weight: 600; line-height: 1.3;">Rural pediatric care infrastructure.</div>
-      </div>
-    </div>
+<div style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; font-weight: 700; color: var(--brand-primary); line-height: 1.15;">
+Diya Menon
+</div>
 
-    <div class="mt-12 text-center" v-click>
-      <p class="text-xl" style="color: var(--brand-primary); font-weight: 700;">
-        Three different theses. Three sets of proof assets. <br/>Three students who stopped being applicants and started being <em>acquired</em>.
-      </p>
-    </div>
-  </div>
+<div style="margin-top: 0.75rem; font-size: 1rem; color: #444; line-height: 1.5; flex-grow: 1;">
+Won a <strong>full ride</strong> to <strong>seven</strong> BS/MD colleges.
+</div>
+
+<div class="mt-4">
+<span class="tag">7 admits · full ride</span>
+</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="card flex flex-col" style="min-height: 16rem;">
+
+<div style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; font-weight: 700; color: var(--brand-primary); line-height: 1.15;">
+Taksh
+</div>
+
+<div style="margin-top: 0.75rem; font-size: 1rem; color: #444; line-height: 1.5; flex-grow: 1;">
+Accepted to <strong>four BS/MD programs</strong> with scholarships. <strong>One full ride.</strong>
+</div>
+
+<div class="mt-4">
+<span class="tag tag-coral">4 admits · 1 full ride</span>
+</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="card flex flex-col" style="min-height: 16rem;">
+
+<div style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; font-weight: 700; color: var(--brand-primary); line-height: 1.15;">
+Diya Patel
+</div>
+
+<div style="margin-top: 0.75rem; font-size: 1rem; color: #444; line-height: 1.5; flex-grow: 1;">
+Stanford. FAU with scholarships. <strong>Full tuition</strong> to the Davidson Scholar Program.
+</div>
+
+<div class="mt-4">
+<span class="tag tag-mint">Stanford · Davidson</span>
+</div>
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-12 text-center max-w-4xl mx-auto">
+
+<p style="font-size: 1.2rem; color: #555; font-style: italic;">
+Plus over <strong style="color: var(--brand-primary); font-style: normal;">$15M in merit aid</strong> placed across Brown PLME, Stony Brook Scholars for Medicine, NJMS, Drexel, Pitt GAP, and Rice/Baylor.
+</p>
+
+</div>
+
+</v-click>
+
 </div>
 
 ---
 layout: default
 ---
 
-<!-- slide:demo-side-by-side-7 -->
+<div class="absolute inset-0 gradient-bg flex flex-col justify-center px-16">
+
+<div class="amber-bar"></div>
+
+<div class="max-w-5xl mx-auto text-center">
+
+<div class="eyebrow eyebrow-gold">
+The 2026 Admissions Shift
+</div>
+
+<h2 style="font-size: 3.6rem; color: white;">
+Ivy-level selectivity.<br/><span class="gold">Without the Ivy name.</span>
+</h2>
+
+<div class="grid grid-cols-3 gap-6 mt-14">
+
+<v-click>
+
+<div class="stat-card">
+
+<div class="stat-num">~3,000</div>
+
+<div class="stat-label">applications to NJMS</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="stat-card">
+
+<div class="stat-num">25</div>
+
+<div class="stat-label">seats available</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="stat-card">
+
+<div class="stat-num">1-2%</div>
+
+<div class="stat-label">effective rate <em>inside qualified pool</em></div>
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<p style="font-size: 1.3rem; margin-top: 3.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin-left: auto; margin-right: auto; line-height: 1.5;">
+Every elite BS/MD program now operates at Ivy-level selectivity. And the qualified pool is full of perfect templates.
+</p>
+
+</v-click>
+
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+<div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: var(--brand-cream);">
+
+<div class="amber-bar"></div>
+
+<div class="max-w-4xl text-center">
+
+<div class="eyebrow">
+Here's the part nobody is telling you
+</div>
+
+<h1 style="font-size: 4rem;">
+There is <span class="gold">another path</span>.
+</h1>
+
+<v-click>
+
+<p style="font-size: 1.6rem; margin-top: 2.5rem; color: #333; font-weight: 500; line-height: 1.5;">
+Diya, Taksh, and Diya Patel didn't run the same path <em>harder</em>.
+</p>
+
+</v-click>
+
+<v-click>
+
+<p style="font-size: 1.7rem; margin-top: 1rem; color: var(--brand-primary); font-weight: 700; line-height: 1.4;">
+They ran a <span style="color: var(--brand-coral);">different path entirely</span>.
+</p>
+
+</v-click>
+
+<v-click>
+
+<div style="margin-top: 3rem; display: inline-block; background: white; border: 2px solid var(--brand-primary); border-radius: 12px; padding: 1.25rem 2.5rem;">
+
+<p style="font-size: 1.15rem; color: var(--brand-primary); font-weight: 600; margin: 0;">
+Built around what BS/MD committees <em>actually need</em>.
+</p>
+
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+<div class="absolute inset-0 px-16 py-14" style="background: var(--brand-cream);">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="eyebrow">
+Mechanism 1 · The Medical Spike
+</div>
+
+<h2 style="font-size: 2.8rem; margin-bottom: 1.5rem;">
+A singular, polarizing thesis.<br/>Built in a <span class="gold">90-day window</span>.
+</h2>
+
+<p style="font-size: 1.25rem; color: #555; max-width: 50rem; margin-bottom: 2.5rem; line-height: 1.5;">
+Not a generic "medical interest" essay. A specific thesis the student can defend, present, and build proof assets around.
+</p>
+
+<div class="grid grid-cols-3 gap-5 mt-8">
+
+<v-click>
+
+<div style="background: white; border-left: 5px solid var(--brand-primary); border-radius: 0 12px 12px 0; padding: 1.5rem; box-shadow: 0 6px 20px -6px rgba(66, 44, 118, 0.18);">
+
+<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: var(--brand-primary); margin-bottom: 0.6rem;">
+Diya Menon
+</div>
+
+<div style="font-size: 1.05rem; font-weight: 600; color: var(--brand-dark); line-height: 1.35;">
+Healthcare access in underserved Indian-American communities.
+</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div style="background: white; border-left: 5px solid var(--brand-coral); border-radius: 0 12px 12px 0; padding: 1.5rem; box-shadow: 0 6px 20px -6px rgba(238, 121, 98, 0.18);">
+
+<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: var(--brand-coral); margin-bottom: 0.6rem;">
+Taksh
+</div>
+
+<div style="font-size: 1.05rem; font-weight: 600; color: var(--brand-dark); line-height: 1.35;">
+AI-assisted differential diagnosis.
+</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div style="background: white; border-left: 5px solid var(--brand-secondary); border-radius: 0 12px 12px 0; padding: 1.5rem; box-shadow: 0 6px 20px -6px rgba(254, 188, 17, 0.22);">
+
+<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #B8870D; margin-bottom: 0.6rem;">
+Diya Patel
+</div>
+
+<div style="font-size: 1.05rem; font-weight: 600; color: var(--brand-dark); line-height: 1.35;">
+Rural pediatric care infrastructure.
+</div>
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<p style="text-align: center; font-size: 1.25rem; margin-top: 3rem; color: var(--brand-primary); font-weight: 700; line-height: 1.45;">
+Three different theses. Three sets of proof assets.<br/>Three students who stopped being applicants and started being <em>acquired</em>.
+</p>
+
+</v-click>
+
+</div>
+
+</div>
+
+---
+layout: default
+---
 
 <div class="absolute inset-0 px-12 py-10" style="background: var(--brand-cream);">
 
-  <div class="text-center mb-8">
-    <div class="text-sm uppercase mb-3" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-      The demonstration
-    </div>
-    <h2 style="font-size: 2.4rem;">Two applicants. Side by side.</h2>
-  </div>
+<div class="text-center mb-8">
 
-  <div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto">
+<div class="eyebrow">
+The demonstration
+</div>
 
-    <div style="background: white; border-radius: 16px; padding: 2rem; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 8px 24px -8px rgba(0,0,0,0.1);">
-      <div style="background: var(--brand-light); padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; font-size: 0.85rem; font-weight: 700; color: #666; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.2rem;">
-        Applicant A · The Polished Pre-Med
-      </div>
-      <ul class="text-base" style="list-style: none; padding: 0; margin: 0; color: #333; line-height: 1.7;">
-        <li>· <strong>GPA</strong> 4.0 unweighted</li>
-        <li>· <strong>SAT</strong> 1560</li>
-        <li>· <strong>APs</strong> All 5s</li>
-        <li>· <strong>Hospital volunteer</strong> 500 hrs</li>
-        <li>· <strong>Research assistant</strong> Local lab</li>
-        <li>· <strong>HOSA</strong> Chapter president</li>
-        <li>· <strong>Conferences</strong> Three medical leadership</li>
-      </ul>
-      <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 2px solid var(--brand-coral);">
-        <div style="font-size: 1.5rem; font-weight: 900; color: var(--brand-coral);">REJECTED</div>
-        <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">from every BS/MD program he applied to</div>
-      </div>
-    </div>
+<h2 style="font-size: 2.4rem;">Two applicants. Side by side.</h2>
 
-    <div style="background: white; border-radius: 16px; padding: 2rem; border: 2px solid var(--brand-primary); box-shadow: 0 16px 40px -8px rgba(66, 44, 118, 0.3);" v-click>
-      <div style="background: var(--brand-primary); padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; font-size: 0.85rem; font-weight: 700; color: white; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.2rem;">
-        Applicant B · Maya · Real Gifted Gabber Student
-      </div>
-      <ul class="text-base" style="list-style: none; padding: 0; margin: 0; color: #333; line-height: 1.7;">
-        <li>· <strong>GPA</strong> 3.85 unweighted</li>
-        <li>· <strong>SAT</strong> 1490 (single sitting)</li>
-        <li>· <strong>APs</strong> 9 total · mix of sciences + humanities</li>
-        <li>· <strong>Clinical exposure</strong> Zero</li>
-        <li>· <strong>One Medical Spike:</strong> Healthcare policy for rural seniors</li>
-        <li>· Built over <strong>12 weeks</strong> the summer before senior year</li>
-        <li>· One policy brief · Two conference talks · One named cohort</li>
-      </ul>
-      <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 2px solid var(--brand-secondary);">
-        <div style="font-size: 1.5rem; font-weight: 900; color: var(--brand-primary);">ACQUIRED</div>
-        <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">top-tier BS/MD admit. Over five 4.0/1560+ students from her own high school.</div>
-      </div>
-    </div>
-  </div>
+</div>
 
-  <p class="text-center mt-8" style="font-size: 1.2rem; color: var(--brand-primary); font-weight: 600;" v-click>
-    That is not luck. <span class="gold">That is architecture.</span>
-  </p>
+<div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto">
+
+<div class="card" style="opacity: 0.85;">
+
+<span class="tag" style="background: var(--brand-light); color: #666;">Applicant A · The Polished Pre-Med</span>
+
+<div style="margin-top: 1.1rem; font-size: 1rem; color: #333; line-height: 1.75;">
+
+<div>· <strong>GPA</strong> 4.0 unweighted</div>
+
+<div>· <strong>SAT</strong> 1560</div>
+
+<div>· <strong>APs</strong> All 5s</div>
+
+<div>· <strong>Hospital volunteer</strong> 500 hrs</div>
+
+<div>· <strong>Research assistant</strong> Local lab</div>
+
+<div>· <strong>HOSA</strong> Chapter president</div>
+
+<div>· <strong>Conferences</strong> Three medical leadership</div>
+
+</div>
+
+<div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 2px solid var(--brand-coral);">
+
+<div style="font-size: 1.4rem; font-weight: 900; color: var(--brand-coral);">REJECTED</div>
+
+<div style="font-size: 0.85rem; color: #666; margin-top: 0.3rem;">from every BS/MD program he applied to</div>
+
+</div>
+
+</div>
+
+<v-click>
+
+<div class="card-hero">
+
+<span class="tag tag-purple">Applicant B · Maya · Gifted Gabber student</span>
+
+<div style="margin-top: 1.1rem; font-size: 1rem; color: #333; line-height: 1.75;">
+
+<div>· <strong>GPA</strong> 3.85 unweighted</div>
+
+<div>· <strong>SAT</strong> 1490 (single sitting)</div>
+
+<div>· <strong>APs</strong> 9 total · sciences + humanities mix</div>
+
+<div>· <strong>Clinical exposure</strong> Zero</div>
+
+<div>· <strong>One Medical Spike:</strong> Healthcare policy for rural seniors</div>
+
+<div>· Built over <strong>12 weeks</strong> the summer before senior year</div>
+
+<div>· One policy brief · Two conference talks · One named cohort</div>
+
+</div>
+
+<div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 2px solid var(--brand-secondary);">
+
+<div style="font-size: 1.4rem; font-weight: 900; color: var(--brand-primary);">ACQUIRED</div>
+
+<div style="font-size: 0.85rem; color: #666; margin-top: 0.3rem;">top-tier BS/MD admit. Over five 4.0/1560+ students from her own high school.</div>
+
+</div>
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<p style="text-align: center; font-size: 1.4rem; margin-top: 2rem; color: var(--brand-primary); font-weight: 700;">
+That is not luck. <span class="gold">That is architecture.</span>
+</p>
+
+</v-click>
+
 </div>
 
 ---
 layout: default
 ---
-
-<!-- slide:offer-clarity-call-8 -->
 
 <div class="absolute inset-0 flex flex-col justify-center px-16" style="background: var(--brand-cream);">
 
-  <div class="max-w-5xl mx-auto">
+<div class="max-w-5xl mx-auto w-full">
 
-    <div class="text-center mb-10">
-      <div class="text-sm uppercase mb-4" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-        Tonight's actual offer
-      </div>
-      <h1 style="font-size: 4rem;">$100. <span class="gold">Refundable.</span></h1>
-      <p class="text-2xl mt-2" style="color: var(--brand-dark);">
-        Thirty minutes. With me. One on one.
-      </p>
-    </div>
+<div class="text-center mb-12">
 
-    <div class="grid grid-cols-3 gap-5 mt-12">
+<div class="eyebrow">
+Tonight's actual offer
+</div>
 
-      <div style="background: white; border-radius: 12px; padding: 1.75rem; border: 1px solid rgba(66, 44, 118, 0.12);" v-click>
-        <div style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">1</div>
-        <div style="font-weight: 700; color: var(--brand-primary); margin-bottom: 0.5rem;">Where your child stands</div>
-        <div class="text-sm" style="color: #555; line-height: 1.4;">Current position in the qualified pool relative to your target programs' institutional needs.</div>
-      </div>
+<h1 style="font-size: 4.5rem;">$100. <span class="gold">Refundable.</span></h1>
 
-      <div style="background: white; border-radius: 12px; padding: 1.75rem; border: 1px solid rgba(66, 44, 118, 0.12);" v-click>
-        <div style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">2</div>
-        <div style="font-weight: 700; color: var(--brand-primary); margin-bottom: 0.5rem;">The Spike thesis</div>
-        <div class="text-sm" style="color: #555; line-height: 1.4;">The Medical Spike we'd build first. With the 90-day calendar.</div>
-      </div>
+<p style="font-size: 1.5rem; margin-top: 0.75rem; color: var(--brand-dark);">
+Thirty minutes. With me. One on one.
+</p>
 
-      <div style="background: white; border-radius: 12px; padding: 1.75rem; border: 1px solid rgba(66, 44, 118, 0.12);" v-click>
-        <div style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">3</div>
-        <div style="font-weight: 700; color: var(--brand-primary); margin-bottom: 0.5rem;">Honest fit check</div>
-        <div class="text-sm" style="color: #555; line-height: 1.4;">Whether Gifted Gabber is the right fit. If not, I tell you that.</div>
-      </div>
-    </div>
+</div>
 
-    <div class="mt-12 text-center" v-click>
-      <div style="display: inline-block; background: var(--brand-secondary); color: var(--brand-dark); padding: 1.25rem 3rem; border-radius: 12px; font-size: 1.4rem; font-weight: 900; box-shadow: 0 12px 30px -8px rgba(254, 188, 17, 0.5);">
-        BOOK YOUR CLARITY CALL →
-      </div>
-      <div class="mt-3 text-sm" style="color: #666; font-family: monospace;">
-        calendly.com/gg-counseling/clarity-call-with-head-of-counseling
-      </div>
-    </div>
-  </div>
+<div class="grid grid-cols-3 gap-5 mt-2">
+
+<v-click>
+
+<div class="card">
+
+<div style="font-family: 'Crimson Pro', serif; font-size: 3rem; font-weight: 800; color: var(--brand-secondary); line-height: 1; margin-bottom: 0.75rem;">1</div>
+
+<div style="font-weight: 700; color: var(--brand-primary); font-size: 1.15rem; margin-bottom: 0.4rem;">Where your child stands</div>
+
+<div style="font-size: 0.95rem; color: #555; line-height: 1.45;">Current position in the qualified pool relative to your target programs' institutional needs.</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="card">
+
+<div style="font-family: 'Crimson Pro', serif; font-size: 3rem; font-weight: 800; color: var(--brand-secondary); line-height: 1; margin-bottom: 0.75rem;">2</div>
+
+<div style="font-weight: 700; color: var(--brand-primary); font-size: 1.15rem; margin-bottom: 0.4rem;">The Spike thesis</div>
+
+<div style="font-size: 0.95rem; color: #555; line-height: 1.45;">The Medical Spike we'd build first. With the 90-day calendar.</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="card">
+
+<div style="font-family: 'Crimson Pro', serif; font-size: 3rem; font-weight: 800; color: var(--brand-secondary); line-height: 1; margin-bottom: 0.75rem;">3</div>
+
+<div style="font-weight: 700; color: var(--brand-primary); font-size: 1.15rem; margin-bottom: 0.4rem;">Honest fit check</div>
+
+<div style="font-size: 0.95rem; color: #555; line-height: 1.45;">Whether Gifted Gabber is the right fit. If not, I tell you that.</div>
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-12 text-center">
+
+<div class="cta-btn">BOOK YOUR CLARITY CALL  →</div>
+
+<div style="margin-top: 0.85rem; font-size: 0.85rem; color: #777; font-family: 'JetBrains Mono', monospace;">
+calendly.com/gg-counseling/clarity-call-with-head-of-counseling
+</div>
+
+</div>
+
+</v-click>
+
+</div>
+
 </div>
 
 ---
 layout: default
 ---
 
-<!-- slide:two-types-parents-9 -->
-
 <div class="absolute inset-0 px-12 py-10" style="background: var(--brand-cream);">
 
-  <div class="text-center mb-8">
-    <div class="text-sm uppercase mb-3" style="color: var(--brand-coral); letter-spacing: 0.3em; font-weight: 800;">
-      The decision in plain language
-    </div>
-    <h2 style="font-size: 2.6rem;">There are <span class="purple">two types of parents</span> on this call.</h2>
-  </div>
+<div class="text-center mb-8">
 
-  <div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
+<div class="eyebrow">
+The decision in plain language
+</div>
 
-    <div style="background: white; border-radius: 16px; padding: 2.5rem; border: 1px solid rgba(0,0,0,0.06); opacity: 0.7;">
-      <div style="background: var(--brand-light); padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; font-size: 0.85rem; font-weight: 700; color: #666; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.5rem;">
-        Type One · The Waiter
-      </div>
-      <p class="text-lg" style="color: #444; line-height: 1.6; font-weight: 500;">
-        Goes back to the 500-hour grind. To the polished essays. To the boutique consultancy. To the hope that one more semester will be enough.
-      </p>
-      <p class="text-lg mt-4" style="color: #444; line-height: 1.6; font-weight: 500;">
-        That parent already knows what their December 15 looks like.
-      </p>
-    </div>
+<h2 style="font-size: 2.7rem;">There are <span class="purple">two types of parents</span> on this call.</h2>
 
-    <div style="background: white; border-radius: 16px; padding: 2.5rem; border: 3px solid var(--brand-primary); box-shadow: 0 16px 40px -8px rgba(66, 44, 118, 0.3);" v-click>
-      <div style="background: var(--brand-primary); padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; font-size: 0.85rem; font-weight: 700; color: white; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.5rem;">
-        Type Two · The Architect
-      </div>
-      <p class="text-lg" style="color: var(--brand-dark); line-height: 1.6; font-weight: 600;">
-        Books the thirty minutes. Hears the diagnosis. Runs the build. Positions the asset.
-      </p>
-      <p class="text-lg mt-4" style="color: var(--brand-dark); line-height: 1.6; font-weight: 600;">
-        Doesn't know if their child gets the seat. <strong>Nobody does.</strong> What they know is that the architecture will be built right.
-      </p>
-    </div>
-  </div>
+</div>
 
-  <p class="text-center mt-10" style="font-size: 1.6rem; color: var(--brand-primary); font-weight: 800;" v-click>
-    Which type are you?
-  </p>
+<div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto mt-8">
+
+<div class="card" style="padding: 2.25rem; opacity: 0.75;">
+
+<span class="tag" style="background: var(--brand-light); color: #666;">Type One · The Waiter</span>
+
+<p style="margin-top: 1.25rem; font-size: 1.1rem; color: #444; line-height: 1.6; font-weight: 500;">
+Goes back to the 500-hour grind. To the polished essays. To the boutique consultancy. To the hope that one more semester will be enough.
+</p>
+
+<p style="margin-top: 1rem; font-size: 1.1rem; color: #444; line-height: 1.6; font-weight: 500;">
+That parent already knows what their December 15 looks like.
+</p>
+
+</div>
+
+<v-click>
+
+<div class="card-hero" style="padding: 2.25rem;">
+
+<span class="tag tag-purple">Type Two · The Architect</span>
+
+<p style="margin-top: 1.25rem; font-size: 1.1rem; color: var(--brand-dark); line-height: 1.6; font-weight: 600;">
+Books the thirty minutes. Hears the diagnosis. Runs the build. Positions the asset.
+</p>
+
+<p style="margin-top: 1rem; font-size: 1.1rem; color: var(--brand-dark); line-height: 1.6; font-weight: 600;">
+Doesn't know if their child gets the seat. <strong>Nobody does.</strong> What they know is the architecture will be built right.
+</p>
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<p style="text-align: center; font-size: 1.7rem; margin-top: 2.5rem; color: var(--brand-primary); font-weight: 800; font-family: 'Crimson Pro', serif;">
+Which type are you?
+</p>
+
+</v-click>
+
 </div>
 
 ---
-layout: end
+layout: default
 ---
-
-<!-- slide:close-identity-10 -->
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: var(--brand-dark);">
 
-  <div class="amber-stripe" style="position: absolute; top: 0; left: 0;"></div>
+<div class="amber-bar"></div>
 
-  <div class="text-center max-w-4xl">
+<div class="text-center max-w-4xl">
 
-    <div class="text-sm uppercase mb-6" style="color: var(--brand-secondary); letter-spacing: 0.3em; font-weight: 800;">
-      Make this decision on identity. Not on price.
-    </div>
+<div class="eyebrow eyebrow-gold">
+Make this decision on identity. Not on price.
+</div>
 
-    <h1 style="font-size: 4rem; color: white; line-height: 1.15;">
-      Architect <br/>the next 90 days.
-    </h1>
+<h1 style="font-size: 4.5rem; color: white;">
+Architect<br/>the next 90 days.
+</h1>
 
-    <p class="text-2xl mt-6" style="color: rgba(255,255,255,0.6); font-weight: 400;">
-      Or wait for the letter.
-    </p>
+<p style="font-size: 1.6rem; margin-top: 1.5rem; color: rgba(255,255,255,0.6); font-weight: 400;">
+Or wait for the letter.
+</p>
 
-    <div class="mt-16" v-click>
-      <div style="display: inline-block; background: var(--brand-secondary); color: var(--brand-dark); padding: 1.25rem 3.5rem; border-radius: 12px; font-size: 1.5rem; font-weight: 900; box-shadow: 0 16px 40px -8px rgba(254, 188, 17, 0.5);">
-        Your call.
-      </div>
-    </div>
-  </div>
+<v-click>
 
-  <div class="absolute bottom-8 left-0 right-0 text-center text-xs" style="color: rgba(255,255,255,0.3); letter-spacing: 0.15em;">
-    GIFTED GABBER · COACH JO · BS/MD ADMISSIONS ARCHITECTURE
-  </div>
+<div style="margin-top: 4rem;">
+
+<div class="cta-btn" style="font-size: 1.6rem; padding: 1.25rem 3.5rem;">Your call.</div>
+
+</div>
+
+</v-click>
+
+</div>
+
+<div class="absolute bottom-6 left-0 right-0 text-center" style="color: rgba(255,255,255,0.3); font-size: 0.7rem; letter-spacing: 0.2em;">
+GIFTED GABBER · COACH JO · BS/MD ADMISSIONS ARCHITECTURE
+</div>
+
 </div>
