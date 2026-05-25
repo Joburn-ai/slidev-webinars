@@ -228,7 +228,7 @@ LIVE WEBINAR · RECURRING WEEKLY WEDNESDAYS
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: #fafaf7;">
@@ -273,7 +273,7 @@ Most NJMS applicants now score above 1500.<br/>
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 px-16 py-14" style="background: #fafaf7;">
@@ -369,7 +369,7 @@ Plus over <strong style="color: #422C76; font-style: normal;">$15M in merit aid<
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 gradient-bg flex flex-col justify-center px-16">
@@ -439,7 +439,7 @@ Every elite BS/MD program now operates at Ivy-level selectivity. And the qualifi
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: #fafaf7;">
@@ -489,7 +489,7 @@ Built around what BS/MD committees <em>actually need</em>.
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 px-16 py-14" style="background: #fafaf7;">
@@ -573,7 +573,7 @@ Three different theses. Three sets of proof assets.<br/>Three students who stopp
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 px-12 py-10" style="background: #fafaf7;">
@@ -671,7 +671,7 @@ That is not luck. <span class="gold">That is architecture.</span>
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 flex flex-col justify-center px-16" style="background: #fafaf7;">
@@ -757,7 +757,7 @@ calendly.com/gg-counseling/clarity-call-with-head-of-counseling
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 px-12 py-10" style="background: #fafaf7;">
@@ -819,7 +819,7 @@ Which type are you?
 </div>
 
 ---
-layout: default
+layout: cover
 ---
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: #1a0f2e;">
