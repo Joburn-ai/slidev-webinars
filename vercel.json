@@ -1,9 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm build:supported-college",
-  "outputDirectory": "supported/college_2026_05_27/dist",
-  "framework": null
+  ]
 }
