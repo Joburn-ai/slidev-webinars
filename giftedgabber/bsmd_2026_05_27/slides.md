@@ -319,33 +319,33 @@ Built around what BS/MD committees <em>actually need</em>.
 layout: cover
 ---
 
-<div class="absolute inset-0 px-16 py-14" style="background: #fafaf7;">
+<div class="absolute inset-0 px-16 py-10" style="background: #fafaf7;">
 
 <div class="max-w-6xl mx-auto">
 
-<div class="gg-eyebrow">
+<div class="gg-eyebrow" style="margin-bottom: 1rem;">
 Mechanism 1 · The Medical Spike
 </div>
 
-<h2 style="font-size: 2.8rem; margin-bottom: 1.5rem;">
-A singular, polarizing thesis.<br/>Built in a <span class="gg-gold">90-day window</span>.
+<h2 style="font-size: 2.4rem; margin-bottom: 0.75rem;">
+A singular, polarizing thesis built in a <span class="gg-gold">90-day window</span>.
 </h2>
 
-<p style="font-size: 1.2rem; color: #555; max-width: 50rem; margin-bottom: 2.5rem; line-height: 1.5;">
+<p style="font-size: 1.1rem; color: #555; max-width: 52rem; margin-bottom: 1.5rem; line-height: 1.45;">
 Not a generic "medical interest" essay. A specific thesis the student can defend, present, and build proof assets around.
 </p>
 
-<div class="grid grid-cols-3 gap-5 mt-8">
+<div class="grid grid-cols-3 gap-5 mt-2">
 
 <v-click>
 
-<div style="background: white; border-left: 5px solid #422C76; border-radius: 0 12px 12px 0; padding: 1.5rem; box-shadow: 0 6px 20px -6px rgba(66, 44, 118, 0.18);">
+<div style="background: white; border-left: 5px solid #422C76; border-radius: 0 12px 12px 0; padding: 1.1rem 1.25rem; box-shadow: 0 6px 20px -6px rgba(66, 44, 118, 0.18);">
 
-<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #422C76; margin-bottom: 0.6rem;">
+<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #422C76; margin-bottom: 0.5rem;">
 Diya Menon
 </div>
 
-<div style="font-size: 1.05rem; font-weight: 600; color: #1a0f2e; line-height: 1.35;">
+<div style="font-size: 1rem; font-weight: 600; color: #1a0f2e; line-height: 1.3;">
 Healthcare access in underserved Indian-American communities.
 </div>
 
@@ -355,13 +355,13 @@ Healthcare access in underserved Indian-American communities.
 
 <v-click>
 
-<div style="background: white; border-left: 5px solid #EE7962; border-radius: 0 12px 12px 0; padding: 1.5rem; box-shadow: 0 6px 20px -6px rgba(238, 121, 98, 0.18);">
+<div style="background: white; border-left: 5px solid #EE7962; border-radius: 0 12px 12px 0; padding: 1.1rem 1.25rem; box-shadow: 0 6px 20px -6px rgba(238, 121, 98, 0.18);">
 
-<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #EE7962; margin-bottom: 0.6rem;">
+<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #EE7962; margin-bottom: 0.5rem;">
 Taksh
 </div>
 
-<div style="font-size: 1.05rem; font-weight: 600; color: #1a0f2e; line-height: 1.35;">
+<div style="font-size: 1rem; font-weight: 600; color: #1a0f2e; line-height: 1.3;">
 AI-assisted differential diagnosis.
 </div>
 
@@ -371,13 +371,13 @@ AI-assisted differential diagnosis.
 
 <v-click>
 
-<div style="background: white; border-left: 5px solid #FEBC11; border-radius: 0 12px 12px 0; padding: 1.5rem; box-shadow: 0 6px 20px -6px rgba(254, 188, 17, 0.22);">
+<div style="background: white; border-left: 5px solid #FEBC11; border-radius: 0 12px 12px 0; padding: 1.1rem 1.25rem; box-shadow: 0 6px 20px -6px rgba(254, 188, 17, 0.22);">
 
-<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #B8870D; margin-bottom: 0.6rem;">
+<div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.15em; color: #B8870D; margin-bottom: 0.5rem;">
 Diya Patel
 </div>
 
-<div style="font-size: 1.05rem; font-weight: 600; color: #1a0f2e; line-height: 1.35;">
+<div style="font-size: 1rem; font-weight: 600; color: #1a0f2e; line-height: 1.3;">
 Rural pediatric care infrastructure.
 </div>
 
@@ -389,8 +389,8 @@ Rural pediatric care infrastructure.
 
 <v-click>
 
-<p style="text-align: center; font-size: 1.25rem; margin-top: 3rem; color: #422C76; font-weight: 700; line-height: 1.45;">
-Three different theses. Three sets of proof assets.<br/>Three students who stopped being applicants and started being <em>acquired</em>.
+<p style="text-align: center; font-size: 1.1rem; margin-top: 1.5rem; color: #422C76; font-weight: 700; line-height: 1.35;">
+Three theses. Three sets of proof assets. Three students <em>acquired</em>.
 </p>
 
 </v-click>
@@ -403,25 +403,25 @@ Three different theses. Three sets of proof assets.<br/>Three students who stopp
 layout: cover
 ---
 
-<div class="absolute inset-0 px-12 py-10" style="background: #fafaf7;">
+<div class="absolute inset-0 px-12 py-6" style="background: #fafaf7;">
 
-<div class="text-center mb-8">
+<div class="text-center mb-4">
 
-<div class="gg-eyebrow">
+<div class="gg-eyebrow" style="margin-bottom: 0.5rem;">
 The demonstration
 </div>
 
-<h2 style="font-size: 2.4rem;">Two applicants. Side by side.</h2>
+<h2 style="font-size: 2rem;">Two applicants. Side by side.</h2>
 
 </div>
 
-<div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto">
+<div class="grid grid-cols-2 gap-5 max-w-6xl mx-auto">
 
-<div class="gg-card" style="opacity: 0.85;">
+<div class="gg-card" style="padding: 1.1rem 1.25rem; opacity: 0.85;">
 
 <span class="gg-tag gg-tag-muted">Applicant A · The Polished Pre-Med</span>
 
-<div style="margin-top: 1.1rem; font-size: 1rem; color: #333; line-height: 1.75;">
+<div style="margin-top: 0.75rem; font-size: 0.92rem; color: #333; line-height: 1.5;">
 
 <div>· <strong>GPA</strong> 4.0 unweighted</div>
 
@@ -439,11 +439,11 @@ The demonstration
 
 </div>
 
-<div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 2px solid #EE7962;">
+<div style="margin-top: 0.85rem; padding-top: 0.6rem; border-top: 2px solid #EE7962;">
 
-<div style="font-size: 1.4rem; font-weight: 900; color: #EE7962;">REJECTED</div>
+<div style="font-size: 1.25rem; font-weight: 900; color: #EE7962;">REJECTED</div>
 
-<div style="font-size: 0.85rem; color: #666; margin-top: 0.3rem;">from every BS/MD program he applied to</div>
+<div style="font-size: 0.8rem; color: #666; margin-top: 0.2rem;">from every BS/MD program he applied to</div>
 
 </div>
 
@@ -451,33 +451,33 @@ The demonstration
 
 <v-click>
 
-<div class="gg-card-hero">
+<div class="gg-card-hero" style="padding: 1.1rem 1.25rem;">
 
 <span class="gg-tag gg-tag-purple">Applicant B · Maya · Gifted Gabber student</span>
 
-<div style="margin-top: 1.1rem; font-size: 1rem; color: #333; line-height: 1.75;">
+<div style="margin-top: 0.75rem; font-size: 0.92rem; color: #333; line-height: 1.5;">
 
 <div>· <strong>GPA</strong> 3.85 unweighted</div>
 
 <div>· <strong>SAT</strong> 1490 (single sitting)</div>
 
-<div>· <strong>APs</strong> 9 total · sciences + humanities mix</div>
+<div>· <strong>APs</strong> 9 total · sciences + humanities</div>
 
 <div>· <strong>Clinical exposure</strong> Zero</div>
 
-<div>· <strong>One Medical Spike:</strong> Healthcare policy for rural seniors</div>
+<div>· <strong>One Medical Spike:</strong> rural senior healthcare policy</div>
 
-<div>· Built over <strong>12 weeks</strong> the summer before senior year</div>
+<div>· Built over <strong>12 weeks</strong> pre-senior summer</div>
 
-<div>· One policy brief · Two conference talks · One named cohort</div>
+<div>· One brief · Two talks · One named cohort</div>
 
 </div>
 
-<div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 2px solid #FEBC11;">
+<div style="margin-top: 0.85rem; padding-top: 0.6rem; border-top: 2px solid #FEBC11;">
 
-<div style="font-size: 1.4rem; font-weight: 900; color: #422C76;">ACQUIRED</div>
+<div style="font-size: 1.25rem; font-weight: 900; color: #422C76;">ACQUIRED</div>
 
-<div style="font-size: 0.85rem; color: #666; margin-top: 0.3rem;">top-tier BS/MD admit. Over five 4.0/1560+ students from her own high school.</div>
+<div style="font-size: 0.8rem; color: #666; margin-top: 0.2rem;">top-tier BS/MD admit. Over five 4.0/1560+ classmates from her school.</div>
 
 </div>
 
@@ -489,7 +489,7 @@ The demonstration
 
 <v-click>
 
-<p style="text-align: center; font-size: 1.4rem; margin-top: 2rem; color: #422C76; font-weight: 700;">
+<p style="text-align: center; font-size: 1.15rem; margin-top: 0.9rem; color: #422C76; font-weight: 700;">
 That is not luck. <span class="gg-gold">That is architecture.</span>
 </p>
 
@@ -505,21 +505,21 @@ layout: cover
 
 <div class="max-w-5xl mx-auto w-full">
 
-<div class="text-center mb-12">
+<div class="text-center mb-8">
 
-<div class="gg-eyebrow">
+<div class="gg-eyebrow" style="margin-bottom: 1rem;">
 Tonight's actual offer
 </div>
 
-<h1 style="font-size: 4.5rem;">$100. <span class="gg-gold">Refundable.</span></h1>
+<h1 style="font-size: 3.6rem;">$100. <span class="gg-gold">Refundable.</span></h1>
 
-<p style="font-size: 1.5rem; margin-top: 0.75rem; color: #1a0f2e;">
+<p style="font-size: 1.3rem; margin-top: 0.5rem; color: #1a0f2e;">
 Thirty minutes. With me. One on one.
 </p>
 
 </div>
 
-<div class="grid grid-cols-3 gap-5 mt-2">
+<div class="grid grid-cols-3 gap-5">
 
 <v-click>
 
@@ -567,11 +567,11 @@ Thirty minutes. With me. One on one.
 
 <v-click>
 
-<div class="mt-12 text-center">
+<div class="mt-8 text-center">
 
 <div class="gg-cta-btn">BOOK YOUR CLARITY CALL  →</div>
 
-<div style="margin-top: 0.85rem; font-size: 0.85rem; color: #777; font-family: 'JetBrains Mono', monospace;">
+<div style="margin-top: 0.65rem; font-size: 0.8rem; color: #777; font-family: 'JetBrains Mono', monospace;">
 calendly.com/gg-counseling/clarity-call-with-head-of-counseling
 </div>
 
@@ -587,29 +587,29 @@ calendly.com/gg-counseling/clarity-call-with-head-of-counseling
 layout: cover
 ---
 
-<div class="absolute inset-0 px-12 py-10" style="background: #fafaf7;">
+<div class="absolute inset-0 px-12 py-8" style="background: #fafaf7;">
 
-<div class="text-center mb-8">
+<div class="text-center mb-6">
 
-<div class="gg-eyebrow">
+<div class="gg-eyebrow" style="margin-bottom: 0.75rem;">
 The decision in plain language
 </div>
 
-<h2 style="font-size: 2.7rem;">There are <span class="gg-purple">two types of parents</span> on this call.</h2>
+<h2 style="font-size: 2.3rem;">There are <span class="gg-purple">two types of parents</span> on this call.</h2>
 
 </div>
 
-<div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto mt-8">
+<div class="grid grid-cols-2 gap-5 max-w-6xl mx-auto mt-4">
 
-<div class="gg-card" style="padding: 2.25rem; opacity: 0.75;">
+<div class="gg-card" style="padding: 1.5rem; opacity: 0.75;">
 
 <span class="gg-tag gg-tag-muted">Type One · The Waiter</span>
 
-<p style="margin-top: 1.25rem; font-size: 1.1rem; color: #444; line-height: 1.6; font-weight: 500;">
+<p style="margin-top: 0.85rem; font-size: 1rem; color: #444; line-height: 1.5; font-weight: 500;">
 Goes back to the 500-hour grind. To the polished essays. To the boutique consultancy. To the hope that one more semester will be enough.
 </p>
 
-<p style="margin-top: 1rem; font-size: 1.1rem; color: #444; line-height: 1.6; font-weight: 500;">
+<p style="margin-top: 0.65rem; font-size: 1rem; color: #444; line-height: 1.5; font-weight: 500;">
 That parent already knows what their December 15 looks like.
 </p>
 
@@ -617,15 +617,15 @@ That parent already knows what their December 15 looks like.
 
 <v-click>
 
-<div class="gg-card-hero" style="padding: 2.25rem;">
+<div class="gg-card-hero" style="padding: 1.5rem;">
 
 <span class="gg-tag gg-tag-purple">Type Two · The Architect</span>
 
-<p style="margin-top: 1.25rem; font-size: 1.1rem; color: #1a0f2e; line-height: 1.6; font-weight: 600;">
+<p style="margin-top: 0.85rem; font-size: 1rem; color: #1a0f2e; line-height: 1.5; font-weight: 600;">
 Books the thirty minutes. Hears the diagnosis. Runs the build. Positions the asset.
 </p>
 
-<p style="margin-top: 1rem; font-size: 1.1rem; color: #1a0f2e; line-height: 1.6; font-weight: 600;">
+<p style="margin-top: 0.65rem; font-size: 1rem; color: #1a0f2e; line-height: 1.5; font-weight: 600;">
 Doesn't know if their child gets the seat. <strong>Nobody does.</strong> What they know is the architecture will be built right.
 </p>
 
@@ -637,7 +637,7 @@ Doesn't know if their child gets the seat. <strong>Nobody does.</strong> What th
 
 <v-click>
 
-<p style="text-align: center; font-size: 1.7rem; margin-top: 2.5rem; color: #422C76; font-weight: 800; font-family: 'Crimson Pro', serif;">
+<p style="text-align: center; font-size: 1.5rem; margin-top: 1.5rem; color: #422C76; font-weight: 800; font-family: 'Crimson Pro', serif;">
 Which type are you?
 </p>
 
