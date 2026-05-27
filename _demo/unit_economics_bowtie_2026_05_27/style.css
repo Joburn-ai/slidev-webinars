@@ -1,0 +1,47 @@
+/* Unit Economics + Bowtie demo deck — Joburn/Funnel Futurist palette.
+   Co-located style.css, auto-loaded UNSCOPED (per skill Rule 7). */
+
+:root {
+  --ff-navy: #0F172A;
+  --ff-navy-2: #1e293b;
+  --ff-cyan: #22D3EE;
+  --ff-green: #34D399;
+  --ff-orange: #FB923C;
+  --ff-cream: #f8fafc;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--ff-cream);
+  color: var(--ff-navy);
+}
+
+.slidev-layout h1 { font-weight: 900; color: var(--ff-navy); letter-spacing: -0.03em; line-height: 1.05; }
+.slidev-layout h2 { font-weight: 800; color: var(--ff-navy); letter-spacing: -0.02em; line-height: 1.1; }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--ff-navy); }
+.slidev-vclick-hidden { opacity: 0 !important; }
+
+.ff-eyebrow { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ff-cyan); margin-bottom: 1.25rem; }
+.ff-cyan { color: var(--ff-cyan); }
+.ff-green { color: var(--ff-green); }
+.ff-orange { color: var(--ff-orange); }
+.ff-navy-bg { background: linear-gradient(135deg, #0b1220 0%, #0F172A 55%, #1e293b 100%); color: white; }
+.ff-bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, var(--ff-cyan), var(--ff-green)); z-index: 10; }
+.ff-card { background: white; border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(15,23,42,0.08); box-shadow: 0 10px 30px -10px rgba(15,23,42,0.18); }
+
+/* Bowtie shapes (pure CSS) */
+.bowtie-half { width: 0; height: 0; }
+.bowtie-left { border-top: 90px solid transparent; border-bottom: 90px solid transparent; border-left: 150px solid var(--ff-cyan); opacity: 0.9; }
+.bowtie-right { border-top: 90px solid transparent; border-bottom: 90px solid transparent; border-right: 150px solid var(--ff-green); opacity: 0.9; }
+.bowtie-pinch { width: 26px; height: 26px; border-radius: 50%; background: var(--ff-orange); box-shadow: 0 0 0 8px rgba(251,146,60,0.25); }
+
+/* Live calculator widget */
+.calc-shell { background: white; border-radius: 20px; padding: 2rem 2.5rem; box-shadow: 0 24px 60px -16px rgba(15,23,42,0.4); border: 1px solid rgba(34,211,238,0.25); }
+.calc-row { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.1rem; }
+.calc-label { width: 8.5rem; font-weight: 700; color: var(--ff-navy); font-size: 1rem; text-align: right; }
+.calc-slider { flex: 1; accent-color: var(--ff-cyan); height: 6px; }
+.calc-val { width: 6rem; font-family: 'JetBrains Mono', monospace; font-weight: 800; color: var(--ff-navy); font-size: 1.15rem; }
+.calc-out { display: flex; gap: 1.5rem; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid rgba(15,23,42,0.08); }
+.calc-metric { flex: 1; text-align: center; }
+.calc-metric-num { font-size: 2.6rem; font-weight: 900; line-height: 1; font-family: 'JetBrains Mono', monospace; }
+.calc-metric-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: #64748b; margin-top: 0.4rem; font-weight: 700; }
