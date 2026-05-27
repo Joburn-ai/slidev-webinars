@@ -295,7 +295,7 @@ Imagine
 <v-click>
 
 <div class="font-black navy max-w-3xl mx-auto" style="font-size: 2.5rem; line-height: 1.2; letter-spacing: -0.02em;">
-Your rising junior heading into next school year with a multi-year roadmap already locked.
+Your student heading into next school year with the roadmap already locked.
 </div>
 
 </v-click>
