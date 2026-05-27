@@ -817,7 +817,7 @@ Diya, Taksh, and Diya Patel didn't run the same path <em>harder</em>.
 <v-click>
 
 <p style="font-size: 1.6rem; margin-top: 1rem; color: #422C76; font-weight: 700; line-height: 1.4;">
-They ran a <span style="color: #EE7962;">different path entirely</span> — built around what BS/MD committees actually need.
+They ran a <span style="color: #EE7962;">different path entirely</span>, built around what BS/MD committees actually need.
 </p>
 
 </v-click>
@@ -1109,7 +1109,7 @@ What I watched happen
 </div>
 
 <h2 style="font-size: 2.3rem; margin-bottom: 1.5rem; line-height: 1.3;">
-Brilliant immigrant kids — 4.0s, 1500+ SATs, APs across the board — <span class="gg-purple">rejected from every BS/MD program</span> they applied to.
+Brilliant immigrant kids with 4.0s, 1500+ SATs, APs across the board. <span class="gg-purple">Rejected from every BS/MD program</span> they applied to.
 </h2>
 
 <v-click>
@@ -1227,7 +1227,7 @@ Maya's outcome
 </div>
 
 <h2 style="font-size: 2.6rem; color: white; line-height: 1.3;">
-A top-tier BS/MD seat — over five 4.0 students with 1560+ SATs from her own high school.
+A top-tier BS/MD seat, chosen over five 4.0 students with 1560+ SATs from her own high school.
 </h2>
 
 <v-click>
@@ -1293,7 +1293,7 @@ What we've learned in 30 minutes
 </v-click>
 
 <v-click>
-<div class="gg-card-hero" style="padding: 0.85rem 1.5rem; display: flex; align-items: center; gap: 1rem;"><span class="gg-numeral" style="font-size: 1.5rem;">5</span><p style="margin: 0; font-size: 1.05rem; color: #1a0f2e; font-weight: 600;">The Medical Spike is the dimension committees need — built in a 90-day Buffer.</p></div>
+<div class="gg-card-hero" style="padding: 0.85rem 1.5rem; display: flex; align-items: center; gap: 1rem;"><span class="gg-numeral" style="font-size: 1.5rem;">5</span><p style="margin: 0; font-size: 1.05rem; color: #1a0f2e; font-weight: 600;">The Medical Spike is the dimension committees need, built in a 90-day Buffer.</p></div>
 </v-click>
 
 </div>
@@ -1532,23 +1532,23 @@ What unlocks at booking
 <div class="grid grid-cols-2 gap-3 max-w-5xl mx-auto">
 
 <v-click>
-<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">Medical Spike Diagnostic</strong> — the framework I use to score Spike candidates.</p></div>
+<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">Medical Spike Diagnostic</strong>: the framework I use to score Spike candidates.</p></div>
 </v-click>
 
 <v-click>
-<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">90-Day Architecture template</strong> — the calendar in weekly milestones.</p></div>
+<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">90-Day Architecture template</strong>: the calendar in weekly milestones.</p></div>
 </v-click>
 
 <v-click>
-<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">BS/MD Institutional Needs Map</strong> — updated annually, 32 programs.</p></div>
+<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">BS/MD Institutional Needs Map</strong>: updated annually, 32 programs.</p></div>
 </v-click>
 
 <v-click>
-<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">Past-Spend Audit</strong> — what you can stop paying for.</p></div>
+<div class="gg-card" style="padding: 0.95rem 1.35rem;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">Past-Spend Audit</strong>: what you can stop paying for.</p></div>
 </v-click>
 
 <v-click>
-<div class="gg-card" style="padding: 0.95rem 1.35rem; grid-column: span 2;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">Webinar replay + transcript</strong> — yours to share with your spouse.</p></div>
+<div class="gg-card" style="padding: 0.95rem 1.35rem; grid-column: span 2;"><p style="margin: 0; font-size: 1rem; color: #333;"><strong class="gg-purple">Webinar replay + transcript</strong>: yours to share with your spouse.</p></div>
 </v-click>
 
 </div>
@@ -1600,7 +1600,7 @@ What I can guarantee. What I cannot.
 <v-click>
 
 <p style="text-align: center; font-size: 1.2rem; margin-top: 2rem; color: #422C76; font-weight: 700;">
-What we control is whether your kid walks in with the best architecture available — <span class="gg-gold">or the same template everyone else submitted.</span>
+What we control is whether your kid walks in with the best architecture available, <span class="gg-gold">or the same template everyone else submitted.</span>
 </p>
 
 </v-click>
@@ -1646,7 +1646,7 @@ What is scarce. And what is not.
 <v-click>
 
 <p style="font-size: 1.25rem; margin-top: 2rem; color: white; font-weight: 600;">
-The webinar runs every Wednesday. <span class="gg-gold">But the math doesn't favor waiting</span> — every week is 7% of the build window gone.
+The webinar runs every Wednesday. <span class="gg-gold">But the math doesn't favor waiting.</span> Every week is 7% of the build window gone.
 </p>
 
 </v-click>
@@ -1805,27 +1805,34 @@ layout: cover
 
 <div class="gg-amber-bar"></div>
 
-<div class="text-center max-w-4xl">
+<div class="text-center max-w-5xl">
 
 <div class="gg-eyebrow gg-eyebrow-gold">
 Make this decision on identity. Not on price.
 </div>
 
-<h1 style="font-size: 4.2rem; color: white;">
-Architect<br/>the next 90 days.
+<h1 style="font-size: 3.2rem; color: white;">
+Architect the next 90 days.
 </h1>
 
-<p style="font-size: 1.5rem; margin-top: 1.25rem; color: rgba(255,255,255,0.6); font-weight: 400;">
+<p style="font-size: 1.3rem; margin-top: 0.75rem; color: rgba(255,255,255,0.6); font-weight: 400;">
 Or wait for the letter.
 </p>
 
 <v-click>
 
-<div style="margin-top: 3rem;">
-<div class="gg-cta-btn" style="font-size: 1.5rem; padding: 1.1rem 3.25rem;">Book your clarity call →</div>
-<div style="margin-top: 0.85rem; font-size: 0.8rem; color: rgba(255,255,255,0.6); font-family: 'JetBrains Mono', monospace;">
-calendly.com/gg-counseling/clarity-call-with-head-of-counseling
+<div class="flex items-center justify-center gap-10 mt-8">
+
+<div style="background: white; border-radius: 20px; padding: 1.1rem; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.45);">
+<img src="https://res.cloudinary.com/dby8dt6md/image/upload/v1779852297/slidev/giftedgabber/_brand/giftedgabber_clarity_qr.png" style="width: 200px; height: 200px; display: block;" />
 </div>
+
+<div class="text-left" style="max-width: 22rem;">
+<div style="color: white; font-size: 1.4rem; font-weight: 800; line-height: 1.3;">Scan to book your<br/>$100 clarity call</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 1rem; margin-top: 0.85rem; line-height: 1.4;">Or tap the link Coach Jo just dropped in the chat.</div>
+<div style="color: var(--gg-gold, #FEBC11); font-size: 0.95rem; font-weight: 700; margin-top: 0.85rem; font-family: 'JetBrains Mono', monospace; word-break: break-all;">calendly.com/gg-counseling/clarity-call-with-head-of-counseling</div>
+</div>
+
 </div>
 
 </v-click>
@@ -1839,7 +1846,7 @@ GIFTED GABBER · COACH JO · BS/MD ADMISSIONS ARCHITECTURE
 </div>
 
 <!--
-BEATS: Final identity command. "The parent who waits, or the parent who architects. That is the actual decision tonight. Make it on identity. Not on $100." Booking link in chat. "I'll see you on the call."
+BEATS: Final identity command. "The parent who waits, or the parent who architects. Make it on identity, not on $100." THEN, presenter action: "Scan the QR on screen, or grab the link I just posted in the chat." Coach Jo / team MUST paste the calendly link in the Zoom chat at this moment (slide buttons are not clickable in a live webinar). "I'll see you on the call."
 TIMING: 60 sec
 TRANSITION: End.
 -->
