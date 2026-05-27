@@ -185,7 +185,7 @@ We meet your family where you are
 <v-click>
 
 <div class="font-black navy max-w-3xl mx-auto" style="font-size: 3rem; line-height: 1.2; letter-spacing: -0.02em;">
-A few configurations. Each matched to where your kid is in the timeline.
+Three tiers. Each matched to how much of the process you want us to own.
 </div>
 
 </v-click>
@@ -201,12 +201,12 @@ My job is to show you the option that makes the most sense. Not the most expensi
 </div>
 
 <!--
-HOOK: Reframe the pitch. Joe is not selling up. He's matching.
+HOOK: Reframe the pitch. Three tiers by ownership level (Foundation → Advantage → Elite), not by grade.
 BEATS:
-  - "AcceptED comes in a few configurations, and each one is matched to where your kid is in the timeline."
+  - "AcceptED comes in three tiers, and each one is matched to how much of the process you want us to own."
   - "Remember the frame from earlier. My job is to show you the option that makes the most sense, not the most expensive one."
 TIMING: 18 sec
-TRANSITION: Tier 1 reveal.
+TRANSITION: Tier 1 reveal — Foundation."
 -->
 
 ---
@@ -225,7 +225,7 @@ class: text-center
 <v-click>
 
 <div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
-Tier 1 · For rising 11 + rising 12
+Tier 1 · We map the path, you execute
 </div>
 
 </v-click>
@@ -241,7 +241,7 @@ AcceptED
 <v-click>
 
 <div class="font-black" style="font-size: 6rem; line-height: 1; color: #C5A55A; letter-spacing: -0.04em;">
-Senior Sprint
+Foundation
 </div>
 
 </v-click>
@@ -257,7 +257,7 @@ Tailored to your student
 <v-click>
 
 <div class="text-xl mt-4" style="color: rgba(255,255,255,0.7); line-height: 1.4;">
-The hero of tonight's webinar. Two-year window. Highest leverage in the entire arc.
+Guided, foundational support. Whether you're starting early or staying focused through senior year.
 </div>
 
 </v-click>
@@ -267,12 +267,12 @@ The hero of tonight's webinar. Two-year window. Highest leverage in the entire a
 </div>
 
 <!--
-HOOK: Lead with the hero tier. Pricing pulled per Joe + Phoenix 2026-05-26. Outcomes-first, exact number on the triage call.
+HOOK: Entry tier. Pricing pulled per Joe + Phoenix 2026-05-26. Outcomes-first, exact number on the triage call.
 BEATS:
-  - "Tier one, the hero. AcceptED Senior Sprint."
-  - "I wish I could give you one flat price. The honest answer is it depends on your student's grade and how much of the process you want us to own. It's fully customized."
+  - "Tier one. AcceptED Foundation. This is where we map the path and you execute."
+  - "I wish I could give you one flat price. The honest answer is it depends on your student and how much of the process you want us to own. It's fully customized, and it's priced per year."
 TIMING: 18 sec
-TRANSITION: "Imagine your rising junior heading into next school year with a multi-year roadmap already locked."
+TRANSITION: "Imagine your student heading into next school year with the roadmap already locked."
 -->
 
 ---
@@ -363,53 +363,53 @@ layout: default
 
 <div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
 
-<div class="text-sm uppercase mb-3" style="letter-spacing: 0.3em; color: #C5A55A; font-weight: 700;">Senior Sprint · What you get</div>
+<div class="text-sm uppercase mb-3" style="letter-spacing: 0.3em; color: #C5A55A; font-weight: 700;">Foundation · What you get</div>
 
 <div class="font-black navy mb-6" style="font-size: 2.25rem; line-height: 1.15; letter-spacing: -0.02em;">
-Two years of dedicated coaching. Eleventh through senior year.
+Guided application support, with you driving.
 </div>
 
 <div class="space-y-3 text-lg text-slate-700">
 
 <v-click>
 
-<div>· Strategy sessions with a senior college coach across the full eleventh + twelfth grade arc.</div>
+<div>· 8 coaching hours a year with a senior college coach.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Profile-building support and foundational academic planning.</div>
+<div>· College list strategy, built on the Common Data Set for your kid's actual schools.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Personalized Common Data Set reports on your kid's actual school list.</div>
+<div>· Common App and supplements: full application guidance, start to submission.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Activity stack design.</div>
+<div>· Interview prep.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Test strategy mapping.</div>
+<div>· Financial aid and scholarship strategy.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Full essay arc preparation through start of senior year.</div>
+<div>· Skool community with 27+ AP courses, weekly live office hours, group coaching.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Straight through application submission.</div>
+<div class="text-base text-slate-500 italic">Profile development and essay coaching live in Advantage and Elite.</div>
 
 </v-click>
 
@@ -417,7 +417,7 @@ Two years of dedicated coaching. Eleventh through senior year.
 
 <div class="p-4 rounded-lg mt-6" style="background: rgba(197, 165, 90, 0.12); border-left: 4px solid #C5A55A;">
   <div class="text-xl font-black navy">Investment tailored to your student's grade + scope</div>
-  <div class="text-base text-slate-600 mt-1">Programs range from $3,800 to $9,997 paid in full. Your exact number on the triage call.</div>
+  <div class="text-base text-slate-600 mt-1">Programs range from $3,800 to $9,997 per year. Your exact number on the triage call.</div>
 </div>
 
 </v-click>
@@ -427,12 +427,12 @@ Two years of dedicated coaching. Eleventh through senior year.
 </div>
 
 <!--
-HOOK: List the deliverables. Frame the investment, not a flat price (pulled per Joe + Phoenix 2026-05-26).
+HOOK: List Foundation deliverables. Per Joe's doc + Phoenix: Foundation = application guidance, NOT essay coaching. Pricing pulled, per year.
 BEATS:
   - Walk each bullet
-  - "Investment is tailored to your student. Across our programs it runs from thirty-eight hundred to just under ten thousand, depending on grade and how much of the process you want us to own. We give you the exact number on the call, once we know your student."
+  - "Foundation is where we map the path and guide the application. Profile development and essay coaching start at Advantage. Investment is tailored, priced per year, runs from thirty-eight hundred to just under ten thousand across the programs. Exact number on the call."
 TIMING: 50 sec
-TRANSITION: Tie-down for Senior Sprint.
+TRANSITION: Tie-down for Foundation.
 -->
 
 ---
@@ -451,7 +451,7 @@ class: text-center
 <v-click>
 
 <div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
-If your kid is rising 11 or rising 12
+If you want us to map the path, and you run it
 </div>
 
 </v-click>
@@ -459,7 +459,7 @@ If your kid is rising 11 or rising 12
 <v-click>
 
 <div class="font-black" style="font-size: 3.5rem; line-height: 1.15; color: white; letter-spacing: -0.03em;">
-This is your tier.
+Foundation is your tier.
 </div>
 
 </v-click>
@@ -468,7 +468,7 @@ This is your tier.
 
 <div class="inline-flex items-center gap-4 mt-6 px-8 py-4 rounded-2xl" style="background: rgba(197, 165, 90, 0.15); border: 2px solid rgba(197, 165, 90, 0.45);">
   <span class="text-xl" style="color: white;">Type</span>
-  <span class="font-black" style="color: #C5A55A; font-size: 1.75rem;">Senior Sprint</span>
+  <span class="font-black" style="color: #C5A55A; font-size: 1.75rem;">Foundation</span>
   <span class="text-xl" style="color: rgba(255,255,255,0.75);">in the chat.</span>
 </div>
 
@@ -479,12 +479,12 @@ This is your tier.
 </div>
 
 <!--
-HOOK: Self-identification tie-down.
+HOOK: Self-identification tie-down (intensity-based, not grade-based).
 BEATS:
-  - "If your kid is currently a sophomore turning into a junior, OR a junior turning into a senior, type Senior Sprint in the chat."
-  - "Can you see how this would change the next twenty-four months?"
+  - "If you want us to map the path and hand you the plan to execute yourself, type Foundation in the chat."
+  - "Can you see how this changes the next twelve months?"
 TIMING: 18 sec
-TRANSITION: Tier 2 reveal.
+TRANSITION: Tier 2 reveal — Advantage."
 -->
 
 ---
@@ -498,8 +498,8 @@ class: text-center
 
 <v-click>
 
-<div class="text-base uppercase text-slate-500" style="letter-spacing: 0.4em; font-weight: 600;">
-Tier 2 · For rising 9 + rising 10
+<div class="text-base uppercase" style="letter-spacing: 0.4em; font-weight: 700; color: #C5A55A;">
+Tier 2 · ⭐ Most Popular · We build it with you
 </div>
 
 </v-click>
@@ -515,7 +515,7 @@ AcceptED
 <v-click>
 
 <div class="font-black gold" style="font-size: 5.5rem; line-height: 1; letter-spacing: -0.04em;">
-College Blueprint
+Advantage
 </div>
 
 </v-click>
@@ -531,7 +531,7 @@ Tailored to your student
 <v-click>
 
 <div class="text-xl text-slate-700 max-w-3xl mx-auto mt-4" style="line-height: 1.45;">
-Three to four years of integrated support. Everything in Senior Sprint, plus the early-stage profile architecture you cannot build in the senior compression window.
+Strategic, year-round guidance through every application milestone. We build the application with you, essays and profile included.
 </div>
 
 </v-click>
@@ -539,12 +539,12 @@ Three to four years of integrated support. Everything in Senior Sprint, plus the
 </div>
 
 <!--
-HOOK: Tier 2 reveal. Frame as the longer runway. Pricing pulled per Joe + Phoenix 2026-05-26.
+HOOK: Tier 2 reveal. Advantage = the Most Popular tier. Pricing pulled per Joe + Phoenix 2026-05-26.
 BEATS:
-  - "Tier two. AcceptED College Blueprint."
-  - "More runway, more ownership on our side. Tailored to your student's grade. The exact number comes on the call."
+  - "Tier two, and the one most families choose. AcceptED Advantage."
+  - "This is where we stop handing you the plan and start building it with you. Strategic guidance year-round, essays and profile included. Tailored, priced per year, exact number on the call."
 TIMING: 22 sec
-TRANSITION: "If your kid is younger than rising eleventh, you have the most powerful window of all."
+TRANSITION: "Here's what most families get for that."
 -->
 
 ---
@@ -559,7 +559,7 @@ class: text-center
 <v-click>
 
 <div class="font-black navy max-w-3xl mx-auto" style="font-size: 3rem; line-height: 1.15; letter-spacing: -0.02em;">
-The most powerful window of all.
+The difference is who holds the pen.
 </div>
 
 </v-click>
@@ -567,7 +567,7 @@ The most powerful window of all.
 <v-click>
 
 <div class="text-2xl text-slate-700 max-w-3xl mx-auto" style="line-height: 1.45;">
-You also have the most to lose if you don't use it well.
+In Foundation, you execute the plan. In Advantage, we build it with you, side by side.
 </div>
 
 </v-click>
@@ -575,7 +575,7 @@ You also have the most to lose if you don't use it well.
 <v-click>
 
 <div class="font-black gold max-w-3xl mx-auto mt-4" style="font-size: 2.5rem; line-height: 1.25; letter-spacing: -0.02em;">
-This is the tier for families who want to engineer a true Congruent Outlier from the ground up.
+This is the tier for families who want to engineer a true Congruent Outlier, with us in the room.
 </div>
 
 </v-click>
@@ -583,10 +583,10 @@ This is the tier for families who want to engineer a true Congruent Outlier from
 </div>
 
 <!--
-HOOK: Stakes-frame the early-start tier.
+HOOK: Frame Advantage by ownership level, not grade.
 BEATS:
-  - "You have the most powerful window of all. You also have the most to lose."
-  - "Engineer a true Congruent Outlier from the ground up rather than reverse-engineer one in senior compression."
+  - "The real difference between the tiers is who holds the pen. Foundation, you execute. Advantage, we build it with you."
+  - "Engineer a true Congruent Outlier with us in the room, not on your own."
 TIMING: 22 sec
 TRANSITION: "Here's what you get."
 -->
@@ -599,23 +599,23 @@ layout: default
 
 <div class="h-full flex flex-col justify-center px-12 max-w-5xl mx-auto">
 
-<div class="text-sm uppercase mb-3" style="letter-spacing: 0.3em; color: #C5A55A; font-weight: 700;">College Blueprint · What you get</div>
+<div class="text-sm uppercase mb-3" style="letter-spacing: 0.3em; color: #C5A55A; font-weight: 700;">Advantage · What you get</div>
 
 <div class="font-black navy mb-6" style="font-size: 2.25rem; line-height: 1.15; letter-spacing: -0.02em;">
-Three to four years of coaching, depending on entry grade.
+Year-round strategy. We build it with you.
 </div>
 
 <div class="space-y-3 text-lg text-slate-700">
 
 <v-click>
 
-<div>· Everything inside Senior Sprint, included.</div>
+<div>· Everything in Foundation, plus 12 coaching hours a year.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Foundational academic planning across the full high school arc.</div>
+<div>· 6 profile development sessions and 6 essay coaching sessions.</div>
 
 </v-click>
 
@@ -627,39 +627,35 @@ Three to four years of coaching, depending on entry grade.
 
 <v-click>
 
-<div>· Internship and research placement support.</div>
+<div>· Internship placement support.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Competition and leadership strategy.</div>
+<div>· Competition, leadership, research, and summer-program strategy.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Summer program navigation.</div>
+<div>· A built-out activity stack with compounding over the engagement.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· A built-out activity stack with 2+ years of compounding.</div>
+<div class="p-3 rounded-lg" style="background: rgba(22,163,74,0.1); border-left: 4px solid #16a34a;">
+  <div class="text-lg font-black" style="color: #15803d;">$25,000 Minimum Merit Scholarship Guarantee</div>
+</div>
 
 </v-click>
 
 <v-click>
 
-<div>· Full essay arc through application submission.</div>
-
-</v-click>
-
-<v-click>
-
-<div class="p-4 rounded-lg mt-6" style="background: rgba(197, 165, 90, 0.12); border-left: 4px solid #C5A55A;">
+<div class="p-4 rounded-lg mt-4" style="background: rgba(197, 165, 90, 0.12); border-left: 4px solid #C5A55A;">
   <div class="text-xl font-black navy">Investment tailored to your student's grade + scope</div>
-  <div class="text-base text-slate-600 mt-1">Your exact number on the triage call.</div>
+  <div class="text-base text-slate-600 mt-1">Priced per year. Your exact number on the triage call.</div>
 </div>
 
 </v-click>
@@ -669,7 +665,7 @@ Three to four years of coaching, depending on entry grade.
 </div>
 
 <!--
-HOOK: Walk the Blueprint deliverables.
+HOOK: Walk the Advantage deliverables. Per Joe's doc: 12 hrs/yr, 6 essay + 6 profile, $25K min merit scholarship guarantee.
 TIMING: 50 sec
 TRANSITION: "Here's the math that surprises a lot of families."
 -->
@@ -730,7 +726,7 @@ HOOK: The patchwork cost reframe.
 BEATS:
   - "Most families clear twenty-five thousand dollars by April of senior year and never feel it as one number."
 TIMING: 35 sec
-TRANSITION: "Senior Sprint and College Blueprint consolidate that."
+TRANSITION: "Foundation and Advantage consolidate that."
 -->
 
 ---
@@ -781,7 +777,7 @@ HOOK: Reframe the price.
 BEATS:
   - "You're not paying more. You're paying less."
 TIMING: 22 sec
-TRANSITION: "Tie-down. If your kid is a sophomore or younger, type College Blueprint."
+TRANSITION: "Tie-down. If you want us building it with you, type Advantage."
 -->
 
 ---
@@ -800,7 +796,7 @@ class: text-center
 <v-click>
 
 <div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
-If your kid is a sophomore or younger
+If you want us building it with you
 </div>
 
 </v-click>
@@ -808,7 +804,7 @@ If your kid is a sophomore or younger
 <v-click>
 
 <div class="font-black" style="font-size: 3.5rem; line-height: 1.15; color: white; letter-spacing: -0.03em;">
-This is your tier.
+Advantage is your tier.
 </div>
 
 </v-click>
@@ -817,7 +813,7 @@ This is your tier.
 
 <div class="inline-flex items-center gap-4 mt-6 px-8 py-4 rounded-2xl" style="background: rgba(197, 165, 90, 0.15); border: 2px solid rgba(197, 165, 90, 0.45);">
   <span class="text-xl" style="color: white;">Type</span>
-  <span class="font-black" style="color: #C5A55A; font-size: 1.75rem;">College Blueprint</span>
+  <span class="font-black" style="color: #C5A55A; font-size: 1.75rem;">Advantage</span>
   <span class="text-xl" style="color: rgba(255,255,255,0.75);">in the chat.</span>
 </div>
 
@@ -828,9 +824,9 @@ This is your tier.
 </div>
 
 <!--
-HOOK: Self-identification tie-down for Tier 2.
+HOOK: Self-identification tie-down for Advantage (intensity-based). Most families land here.
 TIMING: 15 sec
-TRANSITION: Premium tier reveal.
+TRANSITION: Elite tier reveal.
 -->
 
 ---
@@ -845,7 +841,7 @@ class: text-center
 <v-click>
 
 <div class="text-base uppercase text-slate-500" style="letter-spacing: 0.4em; font-weight: 600;">
-Premium tier · For families ready to go all the way
+Tier 3 · We manage the full system
 </div>
 
 </v-click>
@@ -861,7 +857,7 @@ AcceptED
 <v-click>
 
 <div class="font-black gold" style="font-size: 5rem; line-height: 1; letter-spacing: -0.04em;">
-Premium Pathway
+Elite
 </div>
 
 </v-click>
@@ -877,15 +873,15 @@ Tailored to your student
 <v-click>
 
 <div class="text-xl text-slate-700 max-w-3xl mx-auto italic mt-4" style="line-height: 1.45;">
-The multi-year version of College Blueprint with the highest-touch coaching cadence and unlimited essay reviews.
+White-glove. 18 coaching hours a year, unlimited essay and profile work, research and leadership. Built for top-tier, Ivy, and BS/MD pathways.
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-lg text-slate-600 max-w-3xl mx-auto mt-4" style="line-height: 1.5;">
-Built for families who have already decided this is the partnership they want. We discuss them on the strategy call when families ask.
+<div class="inline-block p-3 rounded-lg mt-4" style="background: rgba(22,163,74,0.1); border-left: 4px solid #16a34a;">
+  <div class="text-lg font-black" style="color: #15803d;">$75,000 Minimum Total Merit Scholarship Guarantee</div>
 </div>
 
 </v-click>
@@ -893,10 +889,10 @@ Built for families who have already decided this is the partnership they want. W
 </div>
 
 <!--
-HOOK: Premium tier introduced softly. Not pitched. Available.
+HOOK: Elite = white-glove + outcome accountability. Per Joe's doc: 18 hrs/yr, unlimited, $75K min total merit scholarship guarantee, Ivy/BS-MD.
 BEATS:
-  - "These tiers are not for everyone. They're for families who are clear-eyed that this is the most important investment they're making in this kid's next ten years."
-  - "If that's you, bring it up. If it's not, the answer is one of the first two tiers."
+  - "Tier three. AcceptED Elite. This is where we manage the full system for you."
+  - "White-glove, unlimited essays and profile, research and leadership. It carries the seventy-five-thousand-dollar minimum total merit scholarship guarantee. For families targeting Ivy and BS/MD."
 TIMING: 25 sec
 TRANSITION: Tie-down for whichever tier matches.
 -->
@@ -931,7 +927,7 @@ Type the tier name in the chat. Just so I can see the room.
 <v-click>
 
 <div class="p-5 rounded-xl text-center" style="background: rgba(27, 54, 93, 0.05); border-top: 4px solid #1B365D;">
-  <div class="font-black navy" style="font-size: 1.5rem;">Senior Sprint</div>
+  <div class="font-black navy" style="font-size: 1.5rem;">Foundation</div>
 </div>
 
 </v-click>
@@ -939,7 +935,7 @@ Type the tier name in the chat. Just so I can see the room.
 <v-click>
 
 <div class="p-5 rounded-xl text-center" style="background: rgba(197, 165, 90, 0.12); border-top: 4px solid #C5A55A;">
-  <div class="font-black navy" style="font-size: 1.5rem;">College Blueprint</div>
+  <div class="font-black navy" style="font-size: 1.5rem;">Advantage <span style="font-size: 1rem;">⭐</span></div>
 </div>
 
 </v-click>
@@ -947,7 +943,7 @@ Type the tier name in the chat. Just so I can see the room.
 <v-click>
 
 <div class="p-5 rounded-xl text-center" style="background: rgba(27, 54, 93, 0.05); border-top: 4px solid #1B365D;">
-  <div class="font-black navy" style="font-size: 1.5rem;">Premium Pathway</div>
+  <div class="font-black navy" style="font-size: 1.5rem;">Elite</div>
 </div>
 
 </v-click>
