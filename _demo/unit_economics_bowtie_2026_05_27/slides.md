@@ -12,6 +12,8 @@ drawings:
   persist: true
 transition: slide-left
 mdc: true
+addons:
+  - slidev-addon-excalidraw
 fonts:
   sans: Inter
   mono: JetBrains Mono
@@ -126,6 +128,41 @@ Left side fills the room. Right side is where the money actually compounds. The 
 v-motion DEMO: the two halves slide in from the sides, the pinch scales up in
 the middle on a delay. This is the "pieces fly into the diagram" build that
 holds attention on video.
+-->
+
+---
+layout: cover
+---
+
+<div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: var(--ff-cream, #f8fafc);">
+
+<div class="ff-eyebrow">Same idea · hand-sketched (Excalidraw)</div>
+
+<h2 style="font-size: 2rem; margin-bottom: 1.5rem;">When you want the whiteboard feel.</h2>
+
+<div class="flex flex-col items-center">
+
+<Excalidraw
+  drawFilePath="./bowtie.excalidraw"
+  class="w-[620px]"
+  :darkMode="false"
+  :background="false"
+/>
+
+</div>
+
+<p style="font-size: 1.05rem; margin-top: 1.5rem; max-width: 44rem; text-align:center; color:#64748b;">
+This is a real <span class="ff-cyan" style="font-weight:700;">.excalidraw</span> scene rendered crisp on the slide. Sketch a diagram in Excalidraw, export the file, drop it in. Same workflow for any architecture or funnel sketch.
+</p>
+
+</div>
+
+<!--
+EXCALIDRAW ADDON DEMO. slidev-addon-excalidraw renders public/bowtie.excalidraw
+to crisp SVG (Excalifont hand-drawn font). To make your own: draw in
+excalidraw.com → File → Save to .excalidraw → drop in public/ → <Excalidraw
+drawFilePath="./yourfile.excalidraw" />. For LIVE drawing on camera, embed an
+excalidraw.com iframe instead.
 -->
 
 ---
