@@ -27,7 +27,7 @@ SupportED does not yet have a separate VSL script. The webinar v3 script serves 
 
 ## Offer architecture
 - PRICING PULLED FROM DECK 2026-05-26 (per Joe + Phoenix). Slides now show "tailored to your student" + range ($3,800 to just under $10K) + "exact number on the triage call." No specific tier prices on screen.
-- Tier names (Senior Sprint / College Blueprint / Premium Pathway) still on slides — FLAGGED follow-up: Joe moved to Foundation/Advantage/Elite (grade-specific, Phoenix rebuild not locked). Rename touches interactive tie-downs; defer until Phoenix locks numbers.
+- Tier names (Senior Sprint / College Blueprint / Premium Pathway) still on slides. FLAGGED follow-up: Joe moved to Foundation/Advantage/Elite (grade-specific, Phoenix rebuild not locked). Rename touches interactive tie-downs; defer until Phoenix locks numbers.
 - Stats updated 2026-05-26: "48 students in college program now" + "first class of 13 earned $1.5M+" (replaced "30 families"). Scarcity 42 → 4 spots this cohort. QR code to College Triage Call added on final CTA slide.
 - Old prices (archived): Senior Sprint $6,997 / College Blueprint $9,997 / Premium $18,997
 
