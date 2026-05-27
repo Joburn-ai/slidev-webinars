@@ -267,7 +267,7 @@ The hero of tonight's webinar. Two-year window. Highest leverage in the entire a
 </div>
 
 <!--
-HOOK: Lead with the hero tier. Pricing pulled per Joe + Phoenix 2026-05-26 — outcomes-first, exact number on the triage call.
+HOOK: Lead with the hero tier. Pricing pulled per Joe + Phoenix 2026-05-26. Outcomes-first, exact number on the triage call.
 BEATS:
   - "Tier one, the hero. AcceptED Senior Sprint."
   - "I wish I could give you one flat price. The honest answer is it depends on your student's grade and how much of the process you want us to own. It's fully customized."
@@ -417,7 +417,7 @@ Two years of dedicated coaching. Eleventh through senior year.
 
 <div class="p-4 rounded-lg mt-6" style="background: rgba(197, 165, 90, 0.12); border-left: 4px solid #C5A55A;">
   <div class="text-xl font-black navy">Investment tailored to your student's grade + scope</div>
-  <div class="text-base text-slate-600 mt-1">Programs run from $3,800 to just under $10K. Your exact number on the triage call.</div>
+  <div class="text-base text-slate-600 mt-1">Programs range from $3,800 to $9,997 paid in full. Your exact number on the triage call.</div>
 </div>
 
 </v-click>
