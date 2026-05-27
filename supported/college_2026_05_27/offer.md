@@ -127,12 +127,12 @@ One framework. One team. One accountable owner.
     <div class="text-sm uppercase text-slate-600 mt-2" style="letter-spacing: 0.2em; font-weight: 600;">Years in education</div>
   </div>
   <div class="text-center p-6 rounded-xl" style="background: rgba(197, 165, 90, 0.1);">
-    <div class="font-black gold" style="font-size: 3.5rem; line-height: 1;">30+</div>
-    <div class="text-sm uppercase text-slate-600 mt-2" style="letter-spacing: 0.2em; font-weight: 600;">College families</div>
+    <div class="font-black gold" style="font-size: 3.5rem; line-height: 1;">48</div>
+    <div class="text-sm uppercase text-slate-600 mt-2" style="letter-spacing: 0.2em; font-weight: 600;">In college program now</div>
   </div>
   <div class="text-center p-6 rounded-xl" style="background: rgba(27, 54, 93, 0.05);">
-    <div class="font-black navy" style="font-size: 3.5rem; line-height: 1;">100s</div>
-    <div class="text-sm uppercase text-slate-600 mt-2" style="letter-spacing: 0.2em; font-weight: 600;">AP & tutoring</div>
+    <div class="font-black navy" style="font-size: 3.5rem; line-height: 1;">$1.5M+</div>
+    <div class="text-sm uppercase text-slate-600 mt-2" style="letter-spacing: 0.2em; font-weight: 600;">Won by our first 13</div>
   </div>
 </div>
 
@@ -159,7 +159,7 @@ Now under one roof for the entire admissions arc.
 <!--
 HOOK: Third placement of locked verbatim attribution. Numbers as visual proof.
 BEATS:
-  - "Joe's spent sixteen years inside the American education system. He's worked with over thirty families through college admissions specifically, and hundreds more across our AP and tutoring programs."
+  - "Joe's spent sixteen years inside the American education system. We're currently working with forty-eight students in our college program, and last year our first class of thirteen earned over one and a half million dollars in scholarships."
   - Walk the three numbers
 TIMING: 30 sec
 TRANSITION: "AcceptED comes in a few configurations."
@@ -248,8 +248,8 @@ Senior Sprint
 
 <v-click>
 
-<div class="font-black mt-4" style="font-size: 4rem; line-height: 1; color: white; letter-spacing: -0.03em;">
-$6,997
+<div class="font-black mt-4" style="font-size: 3rem; line-height: 1.1; color: #C5A55A; letter-spacing: -0.02em;">
+Tailored to your student
 </div>
 
 </v-click>
@@ -267,10 +267,10 @@ The hero of tonight's webinar. Two-year window. Highest leverage in the entire a
 </div>
 
 <!--
-HOOK: Lead with the hero tier. Visual scale matches priority.
+HOOK: Lead with the hero tier. Pricing pulled per Joe + Phoenix 2026-05-26 — outcomes-first, exact number on the triage call.
 BEATS:
   - "Tier one, the hero. AcceptED Senior Sprint."
-  - "Six thousand nine hundred ninety-seven dollars, paid in full."
+  - "I wish I could give you one flat price. The honest answer is it depends on your student's grade and how much of the process you want us to own. It's fully customized."
 TIMING: 18 sec
 TRANSITION: "Imagine your rising junior heading into next school year with a multi-year roadmap already locked."
 -->
@@ -416,7 +416,8 @@ Two years of dedicated coaching. Eleventh through senior year.
 <v-click>
 
 <div class="p-4 rounded-lg mt-6" style="background: rgba(197, 165, 90, 0.12); border-left: 4px solid #C5A55A;">
-  <div class="text-xl font-black navy">$6,997 paid in full · 11 months coverage</div>
+  <div class="text-xl font-black navy">Investment tailored to your student's grade + scope</div>
+  <div class="text-base text-slate-600 mt-1">Programs run from $3,800 to just under $10K. Your exact number on the triage call.</div>
 </div>
 
 </v-click>
@@ -426,10 +427,10 @@ Two years of dedicated coaching. Eleventh through senior year.
 </div>
 
 <!--
-HOOK: List the deliverables. Land the price.
+HOOK: List the deliverables. Frame the investment, not a flat price (pulled per Joe + Phoenix 2026-05-26).
 BEATS:
   - Walk each bullet
-  - "Investment: six thousand nine hundred ninety-seven dollars paid in full."
+  - "Investment is tailored to your student. Across our programs it runs from thirty-eight hundred to just under ten thousand, depending on grade and how much of the process you want us to own. We give you the exact number on the call, once we know your student."
 TIMING: 50 sec
 TRANSITION: Tie-down for Senior Sprint.
 -->
@@ -521,8 +522,8 @@ College Blueprint
 
 <v-click>
 
-<div class="font-black navy mt-4" style="font-size: 4rem; line-height: 1; letter-spacing: -0.03em;">
-$9,997
+<div class="font-black navy mt-4" style="font-size: 2.8rem; line-height: 1.1; letter-spacing: -0.02em; color: #C5A55A;">
+Tailored to your student
 </div>
 
 </v-click>
@@ -538,10 +539,10 @@ Three to four years of integrated support. Everything in Senior Sprint, plus the
 </div>
 
 <!--
-HOOK: Tier 2 reveal. Frame as the longer runway, not just bigger price.
+HOOK: Tier 2 reveal. Frame as the longer runway. Pricing pulled per Joe + Phoenix 2026-05-26.
 BEATS:
   - "Tier two. AcceptED College Blueprint."
-  - "Nine thousand nine hundred ninety-seven dollars paid in full."
+  - "More runway, more ownership on our side. Tailored to your student's grade. The exact number comes on the call."
 TIMING: 22 sec
 TRANSITION: "If your kid is younger than rising eleventh, you have the most powerful window of all."
 -->
@@ -657,7 +658,8 @@ Three to four years of coaching, depending on entry grade.
 <v-click>
 
 <div class="p-4 rounded-lg mt-6" style="background: rgba(197, 165, 90, 0.12); border-left: 4px solid #C5A55A;">
-  <div class="text-xl font-black navy">$9,997 paid in full</div>
+  <div class="text-xl font-black navy">Investment tailored to your student's grade + scope</div>
+  <div class="text-base text-slate-600 mt-1">Your exact number on the triage call.</div>
 </div>
 
 </v-click>
@@ -866,8 +868,8 @@ Premium Pathway
 
 <v-click>
 
-<div class="font-black navy mt-4" style="font-size: 3.5rem; line-height: 1; letter-spacing: -0.03em;">
-$18,997
+<div class="font-black navy mt-4" style="font-size: 2.6rem; line-height: 1.1; letter-spacing: -0.02em; color: #C5A55A;">
+Tailored to your student
 </div>
 
 </v-click>

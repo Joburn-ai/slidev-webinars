@@ -1702,13 +1702,13 @@ Sixteen years inside the American education system.
 
 <v-click>
 
-<div>· <strong>Over 30 families</strong> through college admissions specifically.</div>
+<div>· <strong>48 students</strong> in the college program right now.</div>
 
 </v-click>
 
 <v-click>
 
-<div>· <strong>Hundreds of students</strong> across our AP and tutoring programs.</div>
+<div>· Our <strong>first class of 13</strong> earned over <strong>$1.5M</strong> in scholarships.</div>
 
 </v-click>
 
@@ -1725,9 +1725,9 @@ Not theory. Not what works on paper. What we actually run on every paying family
 </div>
 
 <!--
-HOOK: Second placement of verbatim attribution per voice DNA. Locked.
+HOOK: Second placement of verbatim attribution per voice DNA. Locked. Stats updated 2026-05-26 per Joe.
 BEATS:
-  - "Joe's spent sixteen years inside the American education system. He's worked with over thirty families through college admissions specifically, and hundreds more across our AP and tutoring programs."
+  - "Joe's spent sixteen years inside the American education system. We're currently working with forty-eight students in our college program, and last year our first class of thirteen earned over one and a half million dollars in scholarships."
   - "What I'm about to show you is the framework distilled from every one of those engagements."
 TIMING: 25 sec
 TRANSITION: "It's like trying to build a house with no blueprint."

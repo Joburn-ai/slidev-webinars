@@ -63,7 +63,7 @@ Real operational ceiling
 <v-click>
 
 <div class="font-black" style="font-size: 7rem; line-height: 1; color: #C5A55A; letter-spacing: -0.04em;">
-42 spots.
+4 spots.
 </div>
 
 </v-click>
@@ -71,7 +71,7 @@ Real operational ceiling
 <v-click>
 
 <div class="text-2xl mt-4" style="color: white; line-height: 1.4;">
-Before we have to bring on the next senior-coach cohort.
+For this cohort. Before we have to bring on the next senior-coach cohort.
 </div>
 
 </v-click>
@@ -89,13 +89,13 @@ Not a marketing number. A real operational ceiling. Our coaches carry capped cas
 </div>
 
 <!--
-HOOK: Land the operational scarcity. NOT marketing scarcity.
+HOOK: Land the operational scarcity. NOT marketing scarcity. Updated 2026-05-26 per Joe: 42 → 4 spots this cohort.
 BEATS:
-  - "We have forty-two open AcceptED coaching spots before we have to bring on the next senior-coach cohort."
+  - "We have four open AcceptED coaching spots for this cohort, before we have to bring on the next senior-coach cohort."
   - "Not a marketing number. A real operational ceiling."
-  - "A senior college coach managing thirty families simultaneously is not a senior college coach anymore. They're a triage nurse. We refuse to run the model that way."
+  - "A senior college coach managing dozens of families simultaneously is not a senior college coach anymore. They're a triage nurse. We refuse to run the model that way."
 TIMING: 30 sec
-TRANSITION: "Forty-two spots. Spread across all tiers. First come, first served on the strategy call."
+TRANSITION: "Four spots for this cohort. First come, first served on the strategy call."
 -->
 
 ---
@@ -976,11 +976,11 @@ class: text-center
 
 <div class="absolute inset-0 flex items-center justify-center px-16">
 
-<div class="text-center max-w-4xl space-y-10">
+<div class="text-center max-w-5xl">
 
 <v-click>
 
-<div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 1rem; font-weight: 600;">
+<div style="color: rgba(197, 165, 90, 0.85); letter-spacing: 0.4em; text-transform: uppercase; font-size: 0.9rem; font-weight: 600; margin-bottom: 1.25rem;">
 Your next step
 </div>
 
@@ -988,31 +988,34 @@ Your next step
 
 <v-click>
 
-<div class="font-black" style="font-size: 6rem; line-height: 1; color: white; letter-spacing: -0.04em;">
-Book your
+<div class="font-black" style="font-size: 4rem; line-height: 1.05; color: white; letter-spacing: -0.03em;">
+Book your <span style="color: #C5A55A;">strategy call.</span>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="font-black" style="font-size: 6rem; line-height: 1; color: #C5A55A; letter-spacing: -0.04em;">
-strategy call.
+<div class="flex items-center justify-center gap-10 mt-10">
+
+<div style="background: white; border-radius: 20px; padding: 1.25rem; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.4);">
+<img src="https://res.cloudinary.com/dby8dt6md/image/upload/v1779848368/slidev/supported/_brand/supported_triage_qr.png" style="width: 220px; height: 220px; display: block;" />
+</div>
+
+<div class="text-left" style="max-width: 22rem;">
+<div style="color: white; font-size: 1.5rem; font-weight: 800; line-height: 1.3;">Scan to book your<br/>College Triage Call</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 1.05rem; margin-top: 1rem; line-height: 1.4;">Or use the link in the chat.</div>
+<div style="color: #C5A55A; font-size: 1.2rem; font-weight: 800; margin-top: 1.25rem;">4 spots for this cohort.</div>
+<div style="color: rgba(255,255,255,0.6); font-size: 0.95rem; margin-top: 0.25rem;">First come, first served.</div>
+</div>
+
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-2xl mt-8 max-w-3xl mx-auto" style="color: rgba(255,255,255,0.85); line-height: 1.4;">
-Link in the chat. 42 spots. First come, first served.
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-xl mt-6 italic" style="color: rgba(255,255,255,0.6);">
+<div class="text-lg mt-10 italic" style="color: rgba(255,255,255,0.6);">
 Thanks for being here. See you next Thursday.
 </div>
 

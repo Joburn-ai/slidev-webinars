@@ -93,7 +93,7 @@ The Background
 
 <div class="flex items-baseline gap-3">
   <span class="gold font-black text-3xl">·</span>
-  <span><strong>Thirty families</strong> through admissions this last cycle</span>
+  <span><strong>48 students</strong> in the college program right now</span>
 </div>
 
 </v-click>
@@ -107,7 +107,7 @@ HOOK: Establish credibility without bragging. Math, not hype.
 BEATS:
   - Each bullet revealed with 1-sec pause
   - "Hundreds of students" delivered casually
-  - "Thirty families" said matter-of-factly
+  - "48 students in the college program right now" said matter-of-factly
 TIMING: 25 sec
 TRANSITION: "Because we kept seeing the gap in how most college consultants actually support families. We were tired of watching it happen."
 -->
@@ -2349,7 +2349,7 @@ Sixteen years inside the American education system.
 
 <div class="flex items-baseline gap-3">
   <span class="gold font-black text-2xl">·</span>
-  <span><strong>Thirty families</strong> through college admissions specifically.</span>
+  <span><strong>48 students</strong> in the college program right now.</span>
 </div>
 
 </v-click>
@@ -2358,7 +2358,7 @@ Sixteen years inside the American education system.
 
 <div class="flex items-baseline gap-3">
   <span class="gold font-black text-2xl">·</span>
-  <span><strong>Hundreds of students</strong> across AP and tutoring.</span>
+  <span>Our <strong>first class of 13</strong> earned over <strong>$1.5M</strong> in scholarships.</span>
 </div>
 
 </v-click>
@@ -2377,10 +2377,10 @@ Sixteen years inside the American education system.
 </div>
 
 <!--
-HOOK: Verbatim attribution. Per Joe voice DNA (locked 2026-05-14). Required appearance 3x in deck (sections 3, 7, 10).
+HOOK: Verbatim attribution. Per Joe voice DNA (locked 2026-05-14). Required appearance 3x in deck (sections 3, 7, 10). Stats updated 2026-05-26 per Joe.
 BEATS:
   - "Joe's spent sixteen years inside the American education system."
-  - "We've worked with over thirty families through college admissions specifically, and hundreds more across our AP and tutoring programs."
+  - "We're currently working with forty-eight students in our college program. Last year, our first class of thirteen earned over one and a half million dollars in scholarships."
   - "I'm not a brand-new consultant who picked this up last cycle. I'm a doctor of education who's been watching this system from the inside for sixteen years and decided to do something about the gap."
 TIMING: 35 sec
 TRANSITION: "Here's why I'm doing this tonight."
