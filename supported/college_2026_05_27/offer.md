@@ -499,7 +499,7 @@ class: text-center
 <v-click>
 
 <div class="text-base uppercase" style="letter-spacing: 0.4em; font-weight: 700; color: #C5A55A;">
-Tier 2 · ⭐ Most Popular · We build it with you
+Tier 2 · Most Popular · We build it with you
 </div>
 
 </v-click>
@@ -935,7 +935,8 @@ Type the tier name in the chat. Just so I can see the room.
 <v-click>
 
 <div class="p-5 rounded-xl text-center" style="background: rgba(197, 165, 90, 0.12); border-top: 4px solid #C5A55A;">
-  <div class="font-black navy" style="font-size: 1.5rem;">Advantage <span style="font-size: 1rem;">⭐</span></div>
+  <div class="font-black navy" style="font-size: 1.5rem;">Advantage</div>
+  <div style="font-size: 0.65rem; font-weight: 800; letter-spacing: 0.15em; color: #C5A55A; text-transform: uppercase; margin-top: 0.25rem;">Most Popular</div>
 </div>
 
 </v-click>
