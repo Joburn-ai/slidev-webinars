@@ -1,13 +1,17 @@
-/* Portal Onboarding — Module 1 Start Here. Joburn/Funnel Futurist palette.
-   Co-located, auto-loaded UNSCOPED (per skill Rule 7). Shared by all Module 1 decks. */
+/* Portal Onboarding — Module 1 Start Here. JOBURN brand palette.
+   Co-located, auto-loaded UNSCOPED (per skill Rule 7). Shared by all Module 1 decks.
+   ff-* class names retained for backward compatibility; the colors they resolve to
+   are now Joburn (cream / navy / teal / gold / warm). */
 
 :root {
-  --ff-navy: #0F172A;
-  --ff-navy-2: #1e293b;
-  --ff-cyan: #22D3EE;
-  --ff-green: #34D399;
-  --ff-orange: #FB923C;
-  --ff-cream: #f8fafc;
+  --ff-navy: #1E3A5F;        /* Joburn navy */
+  --ff-navy-2: #2A4D75;      /* Joburn navy-soft */
+  --ff-cyan: #2E8B8B;        /* Joburn teal — primary accent (legacy name kept) */
+  --ff-green: #2E8B8B;       /* collapsed to teal — Joburn has no green */
+  --ff-orange: #D4B85A;      /* Joburn gold — highlight/warning (legacy name kept) */
+  --ff-cream: #FAFAF5;       /* Joburn cream */
+  --ff-warm: #F4EEDC;        /* Joburn warm secondary surface */
+  --ff-charcoal: #333333;    /* Joburn body text */
 }
 
 .slidev-layout {
@@ -26,9 +30,9 @@
 .ff-green { color: var(--ff-green); }
 .ff-orange { color: var(--ff-orange); }
 .ff-dim { color: #94a3b8; }
-.ff-navy-bg { background: linear-gradient(135deg, #0b1220 0%, #0F172A 55%, #1e293b 100%); color: white; }
-.ff-bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, var(--ff-cyan), var(--ff-green)); z-index: 10; }
-.ff-card { background: white; border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(15,23,42,0.08); box-shadow: 0 10px 30px -10px rgba(15,23,42,0.18); }
+.ff-navy-bg { background: linear-gradient(135deg, #0F2440 0%, #1E3A5F 55%, #2A4D75 100%); color: white; }
+.ff-bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, var(--ff-cyan), var(--ff-orange)); z-index: 10; }
+.ff-card { background: white; border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(30,58,95,0.08); box-shadow: 0 10px 30px -10px rgba(30,58,95,0.18); }
 
 /* "Scattered effort vs the one lever" diagram tiles */
 .lever-tile {
