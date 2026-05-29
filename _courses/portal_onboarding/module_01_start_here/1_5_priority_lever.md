@@ -54,26 +54,38 @@ layout: cover
 
 <div class="absolute inset-0 flex flex-col justify-center items-center px-16" style="background: var(--ff-cream);">
 
-<div class="ff-eyebrow">Start with the word</div>
+<div class="ff-eyebrow">What&apos;s wrong with this picture?</div>
 
-<h2 style="font-size: 2.6rem; margin-bottom: 2.5rem;">
-<span v-mark.strike-through.red="1">Priorities</span> isn&apos;t a real word.
-</h2>
-
-<h1 v-click="2" style="font-size: 3.2rem;">
-<span v-mark.circle.cyan="3">Priority.</span> Singular.
+<h1 style="font-size: 5rem; margin-bottom: 1rem;">
+<span v-mark.strike-through.red="2">Priorities</span>
 </h1>
 
-<p v-click="4" style="font-size: 1.3rem; margin-top: 2.5rem; max-width: 40rem; text-align:center; font-weight:500;">
-It comes from what comes <strong>prior</strong>, what comes before everything else. The moment you have five priorities, you have none.
+<p v-click="1" style="font-size: 1.2rem; color:#64748b; margin-bottom: 2rem;">
+*staring at the word for a beat*
+</p>
+
+<h1 v-click="3" style="font-size: 4.5rem; margin-top: 1rem;">
+<span v-mark.circle.cyan="4">Priority.</span>
+</h1>
+
+<p v-click="5" style="font-size: 1.3rem; margin-top: 2rem; max-width: 44rem; text-align:center; font-weight:500;">
+From Latin <em>prior</em> &mdash; what comes before. It entered English around 1450 and stayed singular for <strong>five hundred years</strong>. The plural &ldquo;priorities&rdquo; didn&apos;t enter common usage until the mid-twentieth century. Convenient timing.
+</p>
+
+<p v-click="6" style="font-size: 1.5rem; margin-top: 1.5rem; max-width: 40rem; text-align:center; font-weight:700; color:var(--ff-navy);">
+You can&apos;t have <span class="ff-orange">multiple</span> most importants.<br/>You can only have <span class="ff-cyan">one</span>.
 </p>
 
 </div>
 
 <!--
-v-mark DEMO: "Priorities" gets struck through on click 1. "Priority. Singular."
-clicks in on 2, gets circled on 3. The payoff on 4. This is programmatic
-annotation, drawn the same way every recording.
+TONGUE-IN-CHEEK opener.
+Click 1: pause beat ("staring at the word").
+Click 2: v-mark strike-through on "Priorities".
+Click 3: "Priority." (singular) clicks in.
+Click 4: v-mark circle on "Priority".
+Click 5: etymology punchline (1450, 500 years singular, 20th century plural).
+Click 6: the logical kicker — most importants is a contradiction.
 -->
 
 ---
