@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist-*/
+.slidev/
+.vercel/
+
+# Lockfiles (only one allowed; pnpm-lock.yaml is the active one)
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+!.env.example

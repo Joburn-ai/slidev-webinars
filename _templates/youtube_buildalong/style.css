@@ -1,0 +1,140 @@
+/* Joburn YouTube Build-Along · atomic-era retro-futurist aesthetic.
+   Inherits Joburn palette (cream / navy / teal / gold / warm).
+   ff-* class names retained as legacy aliases (per portal_onboarding).
+   Adds YouTube-format-specific classes: section labels, step markers,
+   build-phase code frames, whiteboard scene placeholder. */
+
+:root {
+  --ff-navy: #1E3A5F;
+  --ff-navy-2: #2A4D75;
+  --ff-cyan: #2E8B8B;        /* Joburn teal */
+  --ff-green: #2E8B8B;       /* collapsed to teal */
+  --ff-orange: #D4B85A;      /* Joburn gold */
+  --ff-cream: #FAFAF5;
+  --ff-warm: #F4EEDC;
+  --ff-charcoal: #333333;
+  --ff-rule: rgba(46,139,139,0.35);
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--ff-cream);
+  color: var(--ff-navy);
+}
+
+.slidev-layout h1 { font-weight: 900; color: var(--ff-navy); letter-spacing: -0.03em; line-height: 1.05; }
+.slidev-layout h2 { font-weight: 800; color: var(--ff-navy); letter-spacing: -0.02em; line-height: 1.1; }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--ff-navy); }
+.slidev-vclick-hidden { opacity: 0 !important; }
+
+/* Eyebrow / specimen labels · atomic-era small-caps mono */
+.ff-eyebrow {
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--ff-cyan);
+  margin-bottom: 1.25rem;
+}
+
+.ff-cyan { color: var(--ff-cyan); }
+.ff-green { color: var(--ff-green); }
+.ff-orange { color: var(--ff-orange); }
+.ff-dim { color: #94a3b8; }
+.ff-navy-bg { background: linear-gradient(135deg, #0F2440 0%, #1E3A5F 55%, #2A4D75 100%); color: white; }
+.ff-bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, var(--ff-cyan), var(--ff-orange)); z-index: 10; }
+.ff-card { background: white; border-radius: 4px; padding: 1.5rem; border: 1px solid rgba(30,58,95,0.18); box-shadow: none; }
+
+/* Section labels · "EPISODE 01" / "PHASE 02" / "FIG. 1" · atomic-era */
+.section-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--ff-cyan);
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--ff-cyan);
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.section-tag.gold { color: var(--ff-orange); border-color: var(--ff-orange); }
+.section-tag.navy { color: var(--ff-navy); border-color: var(--ff-navy); }
+
+/* Step counters for build phases */
+.step-counter {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ff-cyan);
+  letter-spacing: 0.1em;
+}
+.step-counter .num { color: var(--ff-navy); font-weight: 800; font-size: 1rem; }
+
+/* Thin technical rule under headers */
+.rule-thin {
+  height: 1px;
+  background: var(--ff-rule);
+  margin: 0.75rem 0 1.5rem;
+}
+
+/* Engineering grid background · 5% opacity */
+.grid-paper {
+  background-color: var(--ff-cream);
+  background-image:
+    linear-gradient(rgba(30,58,95,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30,58,95,0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Build-phase code frame */
+.code-frame {
+  background: #0F2440;
+  border: 1px solid var(--ff-navy-2);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 1px 0 var(--ff-rule);
+}
+.code-frame .frame-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ff-orange);
+  letter-spacing: 0.2em;
+  margin-bottom: 0.75rem;
+}
+
+/* Whiteboard scene placeholder · visible cue for OBS scene switch */
+.whiteboard-scene {
+  background: var(--ff-warm);
+  border: 2px dashed var(--ff-cyan);
+  border-radius: 4px;
+  padding: 3rem;
+  text-align: center;
+  color: var(--ff-cyan);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+/* Fig. caption discipline */
+.fig-caption {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--ff-charcoal);
+  margin-top: 0.5rem;
+  opacity: 0.7;
+}
+
+/* CTA card · recap slide */
+.cta-card {
+  background: white;
+  border: 1px solid var(--ff-navy);
+  border-left: 6px solid var(--ff-orange);
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+}
