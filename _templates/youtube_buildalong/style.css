@@ -43,6 +43,8 @@
 .ff-orange { color: var(--ff-orange); }
 .ff-dim { color: #94a3b8; }
 .ff-navy-bg { background: linear-gradient(135deg, #0F2440 0%, #1E3A5F 55%, #2A4D75 100%); color: white; }
+.ff-navy-bg p, .ff-navy-bg li, .ff-navy-bg ul { color: rgba(255,255,255,0.92); }
+.ff-navy-bg h1, .ff-navy-bg h2, .ff-navy-bg h3 { color: white; }
 .ff-bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, var(--ff-cyan), var(--ff-orange)); z-index: 10; }
 .ff-card { background: white; border-radius: 4px; padding: 1.5rem; border: 1px solid rgba(30,58,95,0.18); box-shadow: none; }
 

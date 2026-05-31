@@ -10,6 +10,7 @@ highlighter: shiki
 lineNumbers: false
 colorSchema: light
 drawings:
+  enabled: true
   persist: true
   syncAll: false
 transition: slide-left
