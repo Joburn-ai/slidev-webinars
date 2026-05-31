@@ -2,7 +2,10 @@
 node_modules/
 
 # Build output
+dist/
+**/dist/
 dist-*/
+**/dist-*/
 .slidev/
 .vercel/
 
@@ -21,3 +24,7 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Cache + logs
+.cache/
+*.log
