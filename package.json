@@ -12,6 +12,8 @@
     "build:demo-feedback": "slidev build _demo/feedback_demo_2026_05_24/slides.md --base / --out dist",
     "build:demo-unit-economics": "slidev build _demo/unit_economics_bowtie_2026_05_27/slides.md --base / --out dist",
     "dev:demo-unit-economics": "slidev _demo/unit_economics_bowtie_2026_05_27/slides.md --open",
+    "build:feature-lab": "slidev build _demo/feature_lab_2026_05_30/slides.md --base / --out dist",
+    "dev:feature-lab": "slidev _demo/feature_lab_2026_05_30/slides.md --open",
     "dev": "slidev --open",
     "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
     "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
@@ -25,6 +27,8 @@
     "@slidev/theme-seriph": "latest",
     "@vueuse/motion": "^3.0.3",
     "slidev-addon-excalidraw": "^1.1.1",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "chart.js": "^4.4.0",
+    "vue-chartjs": "^5.3.0"
   }
 }

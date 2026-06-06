@@ -1,0 +1,41 @@
+/* Slidev Feature Lab — co-located style.css (auto-loaded UNSCOPED). FF palette. */
+
+:root {
+  --ff-navy: #0F172A;
+  --ff-cyan: #22D3EE;
+  --ff-green: #34D399;
+  --ff-orange: #FB923C;
+  --ff-pink: #F472B6;
+  --ff-cream: #f8fafc;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--ff-cream);
+  color: var(--ff-navy);
+}
+.slidev-layout h1 { font-weight: 900; color: var(--ff-navy); letter-spacing: -0.03em; line-height: 1.05; }
+.slidev-layout h2 { font-weight: 800; color: var(--ff-navy); letter-spacing: -0.02em; line-height: 1.1; }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--ff-navy); }
+.slidev-vclick-hidden { opacity: 0 !important; }
+
+.fl-eyebrow { font-size: 0.7rem; font-weight: 800; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ff-cyan); margin-bottom: 1rem; }
+.fl-cyan { color: var(--ff-cyan); }
+.fl-green { color: var(--ff-green); }
+.fl-orange { color: var(--ff-orange); }
+.fl-navy-bg { background: linear-gradient(135deg, #0b1220 0%, #0F172A 55%, #1e293b 100%); color: white; }
+.fl-bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, var(--ff-cyan), var(--ff-green), var(--ff-orange)); z-index: 10; }
+.fl-card { background: white; border-radius: 16px; padding: 1.25rem 1.5rem; border: 1px solid rgba(15,23,42,0.08); box-shadow: 0 10px 30px -10px rgba(15,23,42,0.18); }
+.fl-tag { display:inline-block; background: var(--ff-cyan); color: var(--ff-navy); font-size: 0.65rem; font-weight: 800; padding: 0.25rem 0.6rem; border-radius: 6px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* Quiz */
+.fl-quiz-btn { cursor: pointer; user-select: none; transition: all 0.15s ease; border-radius: 12px; padding: 1rem 2.5rem; font-size: 1.6rem; font-weight: 800; border: 3px solid #cbd5e1; background: white; color: var(--ff-navy); }
+.fl-quiz-btn:hover { border-color: var(--ff-cyan); transform: translateY(-2px); }
+.fl-quiz-correct { background: var(--ff-green) !important; color: white !important; border-color: var(--ff-green) !important; }
+.fl-quiz-wrong { background: #f87171 !important; color: white !important; border-color: #f87171 !important; }
+
+/* Reactions */
+.fl-react-btn { cursor: pointer; font-size: 2.5rem; transition: transform 0.1s; user-select: none; }
+.fl-react-btn:hover { transform: scale(1.25); }
+@keyframes floatUp { 0% { transform: translateY(0) scale(0.6); opacity: 1; } 100% { transform: translateY(-340px) scale(1.4); opacity: 0; } }
+.fl-float { position: absolute; bottom: 120px; animation: floatUp 2.2s ease-out forwards; pointer-events: none; font-size: 3rem; }
