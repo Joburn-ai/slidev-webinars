@@ -1,0 +1,97 @@
+/* SupportED · Webinar Funnel Builder — internal team memo deck
+   Aurora dark. Co-located + auto-loaded UNSCOPED. wfb-* prefix (skill Rule 7). */
+
+:root {
+  --wfb-bg: #0b1220;
+  --wfb-text: #eef3fa;
+  --wfb-mute: rgba(238, 243, 250, 0.66);
+  --wfb-faint: rgba(238, 243, 250, 0.4);
+  --wfb-border: rgba(255, 255, 255, 0.11);
+  --wfb-border-soft: rgba(255, 255, 255, 0.06);
+  --wfb-glass: rgba(255, 255, 255, 0.045);
+  --wfb-glass-2: rgba(255, 255, 255, 0.08);
+  --wfb-gold: #d6a94a;
+  --wfb-teal: #38b6a6;
+  --wfb-blue: #5aa6f0;
+  --wfb-green: #3fcf8e;
+  --wfb-pink: #f07ab0;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0b1220;
+  background-image:
+    radial-gradient(ellipse 1100px 760px at 16% 8%, rgba(58, 130, 240, 0.18), transparent 56%),
+    radial-gradient(ellipse 880px 660px at 84% 18%, rgba(56, 182, 166, 0.16), transparent 60%),
+    radial-gradient(ellipse 980px 760px at 50% 94%, rgba(214, 169, 74, 0.12), transparent 60%);
+  color: #eef3fa;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.slidev-layout h1 { font-weight: 600; color: #fff; letter-spacing: -0.025em; line-height: 1.08; }
+.slidev-layout h2 { font-weight: 600; color: #fff; letter-spacing: -0.02em; line-height: 1.16; }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: #eef3fa; }
+
+/* v-click full-hide before reveal (skill Rule 3) */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 220ms ease, transform 220ms ease; }
+
+.wfb-eyebrow {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: rgba(238, 243, 250, 0.55); margin-bottom: 1.3rem; display: block;
+}
+.wfb-eyebrow.gold { color: var(--wfb-gold); }
+.wfb-eyebrow.teal { color: var(--wfb-teal); }
+
+.wfb-card {
+  background: var(--wfb-glass); border: 1px solid var(--wfb-border);
+  border-radius: 16px; padding: 1.4rem 1.6rem;
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.wfb-card-2 { background: var(--wfb-glass-2); }
+.wfb-card h3 {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; letter-spacing: 0.14em;
+  text-transform: uppercase; margin-bottom: 0.7rem; font-weight: 600; color: var(--wfb-teal);
+}
+.wfb-card.gold h3 { color: var(--wfb-gold); }
+.wfb-card.blue h3 { color: var(--wfb-blue); }
+.wfb-card p, .wfb-card li { font-size: 0.95rem; color: var(--wfb-mute); }
+
+.wfb-gold { color: var(--wfb-gold); }
+.wfb-teal { color: var(--wfb-teal); }
+.wfb-blue { color: var(--wfb-blue); }
+.wfb-green { color: var(--wfb-green); }
+.wfb-mute { color: var(--wfb-mute); }
+.wfb-faint { color: var(--wfb-faint); }
+
+.wfb-grid { display: grid; gap: 1rem; }
+.wfb-g2 { grid-template-columns: 1fr 1fr; }
+.wfb-g3 { grid-template-columns: 1fr 1fr 1fr; }
+
+.wfb-step {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2rem; height: 2rem; border-radius: 9999px; border: 1px solid var(--wfb-border);
+  background: var(--wfb-glass-2); font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem; font-weight: 600; color: var(--wfb-gold); flex-shrink: 0;
+}
+.wfb-pill {
+  display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
+  font-weight: 600; letter-spacing: 0.06em; padding: 0.18rem 0.6rem; border-radius: 6px;
+  background: rgba(56,182,166,0.16); color: var(--wfb-teal); border: 1px solid rgba(56,182,166,0.3);
+}
+.wfb-pill.gold { background: rgba(214,169,74,0.16); color: var(--wfb-gold); border-color: rgba(214,169,74,0.3); }
+.wfb-pill.blue { background: rgba(90,166,240,0.16); color: var(--wfb-blue); border-color: rgba(90,166,240,0.3); }
+.wfb-pill.green { background: rgba(63,207,142,0.16); color: var(--wfb-green); border-color: rgba(63,207,142,0.3); }
+
+.wfb-li { list-style: none; padding-left: 1.3rem; position: relative; margin: 0.5rem 0; }
+.wfb-li:before { content: '▸'; position: absolute; left: 0; color: var(--wfb-teal); }
+
+.wfb-footer {
+  position: absolute; bottom: 1.1rem; left: 0; right: 0; text-align: center;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
+  letter-spacing: 0.1em; color: var(--wfb-faint);
+}
+
+/* Mermaid sizing guard */
+.slidev-layout .mermaid { display: flex; justify-content: center; }

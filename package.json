@@ -9,6 +9,8 @@
     "build:giftedgabber-bsmd": "slidev build giftedgabber/bsmd_2026_05_27/slides.md --base / --out dist",
     "build:cyborgtalent-skill-test-media-buyer": "slidev build cyborgtalent/skill_test_media_buyer_2026_05_30/slides.md --base / --out dist",
     "dev:cyborgtalent-skill-test-media-buyer": "slidev cyborgtalent/skill_test_media_buyer_2026_05_30/slides.md --open",
+    "build:supported-funnel-builder": "slidev build supported/webinar_funnel_builder_2026_06_07/slides.md --base / --out dist",
+    "dev:supported-funnel-builder": "slidev supported/webinar_funnel_builder_2026_06_07/slides.md --open",
     "build:demo-feedback": "slidev build _demo/feedback_demo_2026_05_24/slides.md --base / --out dist",
     "build:demo-unit-economics": "slidev build _demo/unit_economics_bowtie_2026_05_27/slides.md --base / --out dist",
     "dev:demo-unit-economics": "slidev _demo/unit_economics_bowtie_2026_05_27/slides.md --open",
