@@ -1,0 +1,355 @@
+/* Brandon × FF launch path deck — global tokens + components.
+   Co-located style.css per Rule 7 (slidev_presentation SOP).
+   These rules are NOT scoped per-slide. Reused across every slide. */
+
+:root {
+  --bb-bg: #0A0F1C;
+  --bb-bg-elevated: #111827;
+  --bb-bg-card: #0F172A;
+  --bb-navy: #1E293B;
+  --bb-cream: #F5F1E8;
+  --bb-cyan: #22D3EE;
+  --bb-cyan-dim: #0E7490;
+  --bb-cyan-lt: #CFFAFE;
+  --bb-green: #10B981;
+  --bb-green-lt: #D1FAE5;
+  --bb-orange: #F97316;
+  --bb-orange-lt: #FFF7ED;
+  --bb-amber: #FBBF24;
+  --bb-rule: #1F2937;
+  --bb-text: #E2E8F0;
+  --bb-text-mute: #94A3B8;
+  --bb-text-dim: #64748B;
+}
+
+* { box-sizing: border-box; }
+
+/* Per Rule 3: force-hide v-click content before reveal */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 200ms ease; }
+
+/* Force dark base across every slide */
+.slidev-layout {
+  background: #0A0F1C !important;
+  color: #E2E8F0;
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Subtle grid background pattern */
+.bb-grid-bg {
+  background-color: #0A0F1C;
+  background-image:
+    linear-gradient(rgba(34, 211, 238, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Typography — capped per Rule 9 (content-fits-frame) */
+.slidev-layout h1 {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-weight: 700;
+  color: #F5F1E8;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  font-size: 3rem;
+}
+
+.slidev-layout h2 {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-weight: 700;
+  color: #F5F1E8;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  font-size: 2.2rem;
+}
+
+.slidev-layout h3 {
+  color: #F5F1E8;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-size: 1.3rem;
+}
+
+.slidev-layout p,
+.slidev-layout li {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: #E2E8F0;
+}
+
+.slidev-layout strong { color: #F5F1E8; font-weight: 700; }
+
+/* Brand mark — top right corner on every slide */
+.bb-brand-mark {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  z-index: 10;
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #94A3B8;
+  font-weight: 600;
+}
+
+.bb-ff-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 1.5px solid #22D3EE;
+  border-radius: 50%;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 700;
+  font-size: 0.65rem;
+  color: #22D3EE;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.08), rgba(34, 211, 238, 0.02));
+}
+
+.bb-brand-mark .bb-x { color: #64748B; font-weight: 400; }
+.bb-brand-mark .bb-ff { color: #22D3EE; }
+.bb-brand-mark .bb-bw { color: #F5F1E8; }
+
+/* Slide footer + slide number */
+.bb-footer {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.6rem;
+  color: #64748B;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.bb-footer-dot {
+  width: 4px;
+  height: 4px;
+  background: #22D3EE;
+  border-radius: 50%;
+}
+
+.bb-slide-num {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: #64748B;
+  letter-spacing: 0.1em;
+  z-index: 10;
+}
+
+/* Eyebrow tag */
+.bb-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.65rem;
+  color: #22D3EE;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.bb-eyebrow::before {
+  content: '';
+  width: 22px;
+  height: 1px;
+  background: #22D3EE;
+  display: block;
+}
+
+/* Color helpers */
+.bb-cyan { color: #22D3EE; }
+.bb-green { color: #10B981; }
+.bb-orange { color: #F97316; }
+.bb-amber { color: #FBBF24; }
+.bb-cream { color: #F5F1E8; }
+.bb-mute { color: #94A3B8; }
+.bb-dim { color: #64748B; }
+
+/* Cards */
+.bb-card {
+  background: #0F172A;
+  border: 1px solid #1F2937;
+  border-radius: 0.6rem;
+  padding: 1.1rem;
+  position: relative;
+}
+
+.bb-card-cyan { border-left: 3px solid #22D3EE; }
+.bb-card-orange { border-left: 3px solid #F97316; }
+.bb-card-green { border-left: 3px solid #10B981; }
+
+/* Paint-by-numbers funnel stages */
+.bb-funnel-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.bb-stage {
+  background: #0F172A;
+  border: 1px solid #1F2937;
+  border-radius: 0.6rem;
+  padding: 1.1rem 0.95rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 170px;
+}
+
+.bb-stage-num {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 800;
+  font-size: 2.2rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.bb-stage-label {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #F5F1E8;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.bb-stage-meta {
+  font-size: 0.78rem;
+  color: #94A3B8;
+  line-height: 1.4;
+  margin-top: auto;
+}
+
+.bb-stage-status {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.5rem;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Arrow between stages */
+.bb-stage:not(:last-child)::after {
+  content: '→';
+  position: absolute;
+  right: -0.55rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #22D3EE;
+  font-size: 1.1rem;
+  font-weight: 300;
+  z-index: 5;
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.4);
+}
+
+.bb-stage.built { border-left: 3px solid #10B981; }
+.bb-stage.built .bb-stage-num { color: #10B981; }
+.bb-stage.built .bb-stage-status { color: #10B981; }
+.bb-stage.built .bb-stage-status::before { content: '✓ done'; }
+
+.bb-stage.tobuild { border-left: 3px solid #F97316; }
+.bb-stage.tobuild .bb-stage-num { color: #F97316; }
+.bb-stage.tobuild .bb-stage-status { color: #F97316; }
+.bb-stage.tobuild .bb-stage-status::before { content: '○ build'; }
+
+.bb-stage.outcome { border-left: 3px solid #FBBF24; background: linear-gradient(135deg, rgba(251, 191, 36, 0.06) 0%, #0F172A 60%); }
+.bb-stage.outcome .bb-stage-num { color: #FBBF24; }
+.bb-stage.outcome .bb-stage-status { color: #FBBF24; }
+.bb-stage.outcome .bb-stage-status::before { content: '◆ goal'; }
+
+/* DM bubble */
+.bb-dm-bubble {
+  border-radius: 0.85rem;
+  padding: 0.65rem 0.95rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  margin-bottom: 0.5rem;
+  max-width: 88%;
+}
+
+.bb-dm-inbound {
+  background: #1E293B;
+  color: #E2E8F0;
+  margin-right: auto;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.bb-dm-outbound {
+  background: linear-gradient(135deg, #0E7490, #22D3EE);
+  color: #0A0F1C;
+  margin-left: auto;
+  border-bottom-right-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.bb-dm-system {
+  background: linear-gradient(135deg, #047857, #10B981);
+  color: #0A0F1C;
+  margin-left: auto;
+  border-bottom-right-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.bb-dm-label {
+  font-size: 0.6rem;
+  color: #64748B;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+.bb-dm-outbound .bb-dm-label,
+.bb-dm-system .bb-dm-label {
+  color: rgba(10, 15, 28, 0.6);
+}
+
+/* Chip */
+.bb-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #0F172A;
+  border: 1px solid #1F2937;
+  color: #94A3B8;
+}
+
+.bb-chip-dot { width: 6px; height: 6px; border-radius: 50%; }
+
+/* Callout */
+.bb-callout {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.06) 0%, rgba(16, 185, 129, 0.04) 100%);
+  border: 1px solid #1F2937;
+  border-left: 3px solid #22D3EE;
+  border-radius: 0.5rem;
+  padding: 0.95rem 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #E2E8F0;
+}
