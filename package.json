@@ -18,6 +18,8 @@
     "dev:demo-unit-economics": "slidev _demo/unit_economics_bowtie_2026_05_27/slides.md --open",
     "build:feature-lab": "slidev build _demo/feature_lab_2026_05_30/slides.md --base / --out dist",
     "dev:feature-lab": "slidev _demo/feature_lab_2026_05_30/slides.md --open",
+    "build:buildalong-ep02": "slidev build _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --base / --out dist-buildalong-ep02",
+    "dev:buildalong-ep02": "slidev _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --open",
     "dev": "slidev --open",
     "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
     "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
