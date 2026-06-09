@@ -8,9 +8,10 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 colorSchema: dark
+transition: slide-left
+clickAnimation: fade
 drawings:
   persist: false
-transition: fade
 mdc: true
 fonts:
   sans: Inter
@@ -20,7 +21,7 @@ fonts:
 layout: cover
 ---
 
-<div class="absolute inset-0 bb-grid-bg flex flex-col justify-center px-16">
+<div class="absolute inset-0 bb-bg flex items-center px-20">
 
 <div class="bb-brand-mark">
   <span class="bb-ff-mark">FF</span>
@@ -29,39 +30,47 @@ layout: cover
   <span class="bb-ff">Funnel Futurist</span>
 </div>
 
-<div style="max-width: 56rem;">
+<div class="flex items-center gap-12" style="width: 100%;">
+
+<div style="flex-shrink: 0;">
+<div class="bb-hero-num">5</div>
+</div>
+
+<div style="flex: 1; max-width: 36rem;">
 
 <div class="bb-eyebrow">Brandon launch · paint by numbers</div>
 
-<h1 style="font-size: 3.4rem; margin-bottom: 1.25rem; line-height: 1.05;">
-Five steps.
+<h1 style="font-size: 2.6rem; line-height: 1.05; margin-bottom: 1rem;">
+steps. <span style="font-weight: 400; color: var(--bb-text-mute);">That's the whole launch.</span>
 </h1>
 
 <v-click>
 
-<p style="font-size: 1.35rem; color: #F5F1E8; line-height: 1.4; margin-bottom: 1rem;">
+<div style="font-family: 'Crimson Pro', serif; font-size: 1.4rem; color: var(--bb-cream); line-height: 1.4; margin-bottom: 1.1rem; font-weight: 600;">
 Posts <span class="bb-cyan">→</span> DMs <span class="bb-cyan">→</span> Application <span class="bb-cyan">→</span> Calls <span class="bb-cyan">→</span> Clients.
-</p>
-
-</v-click>
-
-<v-click>
-
-<p style="font-size: 1rem; color: #94A3B8; line-height: 1.55; max-width: 38rem;">
-That's the whole launch. 3 things left to build. Cohort 1 is the <span class="bb-cyan">first test</span>, not the finish line.
-</p>
-
-</v-click>
-
-<v-click>
-
-<div style="margin-top: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-<span class="bb-chip"><span class="bb-chip-dot" style="background: #10B981;"></span>most built</span>
-<span class="bb-chip"><span class="bb-chip-dot" style="background: #F97316;"></span>3 left</span>
-<span class="bb-chip"><span class="bb-chip-dot" style="background: #FBBF24;"></span>then ads + back-end</span>
 </div>
 
 </v-click>
+
+<v-click>
+
+<p style="font-size: 0.95rem; color: var(--bb-text-mute); line-height: 1.55;">
+3 things left to build. Cohort 1 is the <span class="bb-cyan">first test</span>, not the finish line.
+</p>
+
+</v-click>
+
+<v-click>
+
+<div style="margin-top: 1.4rem; display: flex; gap: 0.45rem; flex-wrap: wrap;">
+<span class="bb-chip"><span class="bb-chip-dot" style="background: var(--bb-green);"></span>most built</span>
+<span class="bb-chip"><span class="bb-chip-dot" style="background: var(--bb-orange);"></span>3 left</span>
+<span class="bb-chip"><span class="bb-chip-dot" style="background: var(--bb-amber);"></span>then ads + back-end</span>
+</div>
+
+</v-click>
+
+</div>
 
 </div>
 
@@ -71,15 +80,15 @@ That's the whole launch. 3 things left to build. Cohort 1 is the <span class="bb
 <div class="bb-slide-num">01 / 06</div>
 
 <!--
-HOOK: "Five steps." Then reveal the chain. Then the reframe.
-This is paint-by-numbers. Don't optimize. Just ship.
+COVER. Hero "5" left-anchored, headline + chain reveal right.
+Two-column hero rhythm. Big serif numeric.
 -->
 
 ---
-layout: cover
+layout: default
 ---
 
-<div class="absolute inset-0 bb-grid-bg flex flex-col justify-center px-10">
+<div class="absolute inset-0 bb-bg flex flex-col justify-center px-10">
 
 <div class="bb-brand-mark">
   <span class="bb-ff-mark">FF</span>
@@ -88,14 +97,14 @@ layout: cover
   <span class="bb-ff">Funnel Futurist</span>
 </div>
 
-<div class="bb-eyebrow">The funnel · 5 stages with logos</div>
+<div class="bb-eyebrow">The funnel · left to right</div>
 
-<h2 style="font-size: 1.95rem; margin-bottom: 0.3rem;">
-The whole machine, <span class="bb-cyan">left to right</span>.
+<h2 style="font-size: 2rem; margin-bottom: 0.25rem;">
+The <span class="bb-cyan">whole machine</span>, on one screen.
 </h2>
 
-<p style="font-size: 0.95rem; color: #94A3B8; margin-bottom: 0.4rem;">
-Each stage has one job. Each connection is one move.
+<p style="font-size: 0.92rem; color: var(--bb-text-mute); margin-bottom: 0;">
+Each stage has one job. Each arrow is one move.
 </p>
 
 <div class="bb-funnel-grid">
@@ -106,7 +115,7 @@ Each stage has one job. Each connection is one move.
   <div class="bb-stage-logo">
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="ig-g" x1="0" y1="0" x2="24" y2="24">
+        <linearGradient id="ig-g" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
           <stop offset="0%" stop-color="#F09433"/>
           <stop offset="35%" stop-color="#E6683C"/>
           <stop offset="65%" stop-color="#DC2743"/>
@@ -115,12 +124,12 @@ Each stage has one job. Each connection is one move.
       </defs>
       <rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="url(#ig-g)" stroke-width="2"/>
       <circle cx="12" cy="12" r="4.2" stroke="url(#ig-g)" stroke-width="2"/>
-      <circle cx="17.5" cy="6.5" r="1.2" fill="url(#ig-g)"/>
+      <circle cx="17.5" cy="6.5" r="1.4" fill="url(#ig-g)"/>
     </svg>
   </div>
   <span class="bb-stage-num">01</span>
   <span class="bb-stage-label">Posts</span>
-  <span class="bb-stage-meta">Origin Story Sequence on IG Stories. Your voice. Day-X anchor.</span>
+  <span class="bb-stage-meta">Origin Story Sequence on IG. Your voice. Day-X anchor.</span>
 </div>
 </v-click>
 
@@ -151,7 +160,7 @@ Each stage has one job. Each connection is one move.
   </div>
   <span class="bb-stage-num">03</span>
   <span class="bb-stage-label">Application</span>
-  <span class="bb-stage-meta">Deep diagnostic form. = the waitlist. SHIPS FIRST.</span>
+  <span class="bb-stage-meta">Deep diagnostic form. = the waitlist. <strong class="bb-cyan">Ships first.</strong></span>
 </div>
 </v-click>
 
@@ -186,7 +195,7 @@ Each stage has one job. Each connection is one move.
   </div>
   <span class="bb-stage-num">05</span>
   <span class="bb-stage-label">Clients</span>
-  <span class="bb-stage-meta">Cohort 1. 5 founders. 90 days. Test what works.</span>
+  <span class="bb-stage-meta">Cohort 1. 5 founders. 90 days. Stress-test what works.</span>
 </div>
 </v-click>
 
@@ -194,9 +203,12 @@ Each stage has one job. Each connection is one move.
 
 <v-click>
 
-<p style="font-size: 0.82rem; color: #64748B; margin-top: 1rem; line-height: 1.5;">
-<span class="bb-cyan">After cohort 1:</span> ads + DM ads + recurring back-end. That's the real engine. Cohort 1 is just proof it runs.
+<div style="margin-top: 1rem; display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1.1rem; background: linear-gradient(90deg, rgba(34, 211, 238, 0.04) 0%, rgba(251, 191, 36, 0.04) 100%); border-radius: 0.5rem; border: 1px solid var(--bb-rule);">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: var(--bb-cyan); letter-spacing: 0.15em; font-weight: 700;">NEXT</span>
+<p style="font-size: 0.85rem; color: var(--bb-text-mute); margin: 0;">
+After cohort 1 → <strong class="bb-amber">ads + DM ads + recurring back-end</strong>. That's the real engine. Cohort 1 is just proof it runs.
 </p>
+</div>
 
 </v-click>
 
@@ -205,16 +217,11 @@ Each stage has one job. Each connection is one move.
 <div class="bb-footer"><span class="bb-footer-dot"></span>5 stages · 3 builds · then we run</div>
 <div class="bb-slide-num">02 / 06</div>
 
-<!--
-BEAT: reveal each stage one at a time. Lands as a chain that builds.
-After last stage, reveal the "after cohort 1" bridge to slide 5.
--->
-
 ---
-layout: cover
+layout: default
 ---
 
-<div class="absolute inset-0 bb-grid-bg flex flex-col justify-center px-12">
+<div class="absolute inset-0 bb-bg flex flex-col justify-center px-10">
 
 <div class="bb-brand-mark">
   <span class="bb-ff-mark">FF</span>
@@ -225,55 +232,72 @@ layout: cover
 
 <div class="bb-eyebrow">3 things left · in shipping order</div>
 
-<h2 style="font-size: 2rem; margin-bottom: 0.35rem;">
+<h2 style="font-size: 2rem; margin-bottom: 0.2rem;">
 Application <span class="bb-cyan">ships first</span>. Everything else can follow.
 </h2>
 
-<p style="font-size: 0.95rem; color: #94A3B8; margin-bottom: 1.25rem;">
-We don't gate the funnel on the video. Get people on the form, then layer in the rest.
+<p style="font-size: 0.9rem; color: var(--bb-text-mute); margin-bottom: 1rem;">
+Don't gate the funnel on the video. Get people on the form, then layer in the rest.
 </p>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.9rem;">
+<div style="display: grid; grid-template-columns: 1.7fr 1fr; gap: 0.85rem;">
 
 <v-click>
 
-<div class="bb-card" style="border-left: 4px solid #22D3EE; background: linear-gradient(135deg, rgba(34, 211, 238, 0.06) 0%, #0F172A 60%); position: relative;">
-<div style="position: absolute; top: 0.75rem; right: 0.85rem;">
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<div class="bb-card-hero" style="padding: 1.25rem 1.4rem; display: flex; flex-direction: column; gap: 0.65rem;">
+<div style="display: flex; align-items: center; justify-content: space-between;">
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; color: var(--bb-cyan); letter-spacing: 0.2em; font-weight: 700;">SHIP 01 · TODAY / TOMORROW</div>
+<div style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; background: rgba(34,211,238,0.1); border-radius: 6px;">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <rect x="4" y="3" width="16" height="18" rx="2"/>
     <line x1="8" y1="8" x2="16" y2="8"/>
     <line x1="8" y1="12" x2="14" y2="12"/>
     <polyline points="8 17 10 19 14 15"/>
   </svg>
 </div>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; color: #22D3EE; letter-spacing: 0.18em; font-weight: 700;">SHIP 01 · DAY 1-2</div>
-<h3 style="margin: 0.4rem 0 0.5rem; font-size: 1.05rem;">Application Form</h3>
-<p style="font-size: 0.82rem; color: #94A3B8; line-height: 1.5; margin: 0;">
-10-Q deep diagnostic. = the waitlist. Goes live before stories post.
+</div>
+
+<h3 style="font-family: 'Crimson Pro', serif; font-size: 1.7rem; margin: 0; color: var(--bb-cream); font-weight: 700;">Application Form</h3>
+
+<p style="font-size: 0.95rem; color: var(--bb-text); line-height: 1.5; margin: 0;">
+10-Q deep diagnostic. Current situation, blockers, what they've tried, commitment level. <strong class="bb-cyan">= the waitlist.</strong>
 </p>
-<p style="font-size: 0.7rem; color: #22D3EE; margin-top: 0.55rem; padding-top: 0.55rem; border-top: 1px dashed #1F2937; font-weight: 600;">
-THE biggest unlock. Don't wait on anything else.
-</p>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-top: 0.3rem;">
+<div style="padding: 0.55rem 0.75rem; background: rgba(34, 211, 238, 0.06); border-radius: 0.4rem; border: 1px solid rgba(34, 211, 238, 0.15);">
+<div style="font-size: 0.58rem; color: var(--bb-cyan); letter-spacing: 0.15em; font-weight: 700; text-transform: uppercase;">Why first</div>
+<div style="font-size: 0.78rem; color: var(--bb-text); margin-top: 0.15rem; line-height: 1.35;">Single biggest unlock. Everything downstream needs it.</div>
+</div>
+<div style="padding: 0.55rem 0.75rem; background: rgba(34, 211, 238, 0.06); border-radius: 0.4rem; border: 1px solid rgba(34, 211, 238, 0.15);">
+<div style="font-size: 0.58rem; color: var(--bb-cyan); letter-spacing: 0.15em; font-weight: 700; text-transform: uppercase;">Tool</div>
+<div style="font-size: 0.78rem; color: var(--bb-text); margin-top: 0.15rem; line-height: 1.35;">Typeform or GHL form. Whichever ships fastest.</div>
+</div>
+<div style="padding: 0.55rem 0.75rem; background: rgba(34, 211, 238, 0.06); border-radius: 0.4rem; border: 1px solid rgba(34, 211, 238, 0.15);">
+<div style="font-size: 0.58rem; color: var(--bb-cyan); letter-spacing: 0.15em; font-weight: 700; text-transform: uppercase;">Time</div>
+<div style="font-size: 0.78rem; color: var(--bb-text); margin-top: 0.15rem; line-height: 1.35;">~half a day to scaffold. Live in 24h.</div>
+</div>
+</div>
 </div>
 
 </v-click>
 
+<div style="display: flex; flex-direction: column; gap: 0.85rem;">
+
 <v-click>
 
-<div class="bb-card bb-card-orange" style="position: relative;">
-<div style="position: absolute; top: 0.75rem; right: 0.85rem;">
-  <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<div class="bb-card bb-card-orange" style="padding: 0.95rem 1.05rem; position: relative;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; color: var(--bb-orange); letter-spacing: 0.18em; font-weight: 700;">SHIP 02</div>
+<div style="width: 22px; height: 22px;">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <rect x="2.5" y="2.5" width="19" height="19" rx="5" fill="#1A8FE3"/>
     <path d="M7.5 15.5V8.5L12 12.5L16.5 8.5V15.5" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
 </div>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; color: #F97316; letter-spacing: 0.18em; font-weight: 700;">SHIP 02 · DAY 1-2</div>
-<h3 style="margin: 0.4rem 0 0.5rem; font-size: 1.05rem;">ManyChat Bridge</h3>
-<p style="font-size: 0.82rem; color: #94A3B8; line-height: 1.5; margin: 0;">
-Auto-reply to story replies. Plant waitlist invite. Send form link on opt-in.
-</p>
-<p style="font-size: 0.7rem; color: #64748B; margin-top: 0.55rem; padding-top: 0.55rem; border-top: 1px dashed #1F2937;">
-~1 day to wire. Pairs with the form.
+</div>
+<h3 style="font-size: 1.05rem; margin: 0 0 0.35rem;">ManyChat Bridge</h3>
+<p style="font-size: 0.78rem; color: var(--bb-text-mute); line-height: 1.45; margin: 0;">
+Auto-reply to story replies. Plant the waitlist invite. Send the form link on opt-in. Pairs with the form.
 </p>
 </div>
 
@@ -281,20 +305,19 @@ Auto-reply to story replies. Plant waitlist invite. Send form link on opt-in.
 
 <v-click>
 
-<div class="bb-card bb-card-orange" style="position: relative;">
-<div style="position: absolute; top: 0.75rem; right: 0.85rem;">
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<div class="bb-card bb-card-orange" style="padding: 0.95rem 1.05rem; position: relative;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; color: var(--bb-orange); letter-spacing: 0.18em; font-weight: 700;">SHIP 03 · AFTER OFFER DOCS</div>
+<div style="width: 22px; height: 22px;">
+  <svg viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <rect x="2" y="6" width="20" height="14" rx="2"/>
     <polygon points="10 11 15 13 10 15" fill="#F97316"/>
   </svg>
 </div>
-<div style="font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; color: #F97316; letter-spacing: 0.18em; font-weight: 700;">SHIP 03 · DAY 3-4</div>
-<h3 style="margin: 0.4rem 0 0.5rem; font-size: 1.05rem;">Mini VSL + Page</h3>
-<p style="font-size: 0.82rem; color: #94A3B8; line-height: 1.5; margin: 0;">
-3-5 min in Brandon's voice. "When you join, here's what happens." On a simple page after offer docs done.
-</p>
-<p style="font-size: 0.7rem; color: #64748B; margin-top: 0.55rem; padding-top: 0.55rem; border-top: 1px dashed #1F2937;">
-Indoctrination, not pitch. Layered in after form is live.
+</div>
+<h3 style="font-size: 1.05rem; margin: 0 0 0.35rem;">Mini Sage VSL + Page</h3>
+<p style="font-size: 0.78rem; color: var(--bb-text-mute); line-height: 1.45; margin: 0;">
+3-5 min in Brandon's voice. "When you join, here's what happens." Layered in after the form is live.
 </p>
 </div>
 
@@ -302,21 +325,23 @@ Indoctrination, not pitch. Layered in after form is live.
 
 </div>
 
+</div>
+
 <v-click>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 1.1rem;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 1rem;">
 
-<div class="bb-card" style="border-left: 3px solid #F97316; background: linear-gradient(135deg, rgba(249, 115, 22, 0.04) 0%, #0F172A 100%); padding: 0.75rem 0.95rem;">
-<div style="color: #F97316; font-weight: 700; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem;">Brandon · this week</div>
-<p style="font-size: 0.82rem; color: #E2E8F0; line-height: 1.45; margin: 0;">
-Finish offer docs · post Origin sequence · reply warm to inbound (don't pitch).
+<div class="bb-card bb-card-orange" style="padding: 0.7rem 0.95rem;">
+<div style="color: var(--bb-orange); font-weight: 700; font-size: 0.58rem; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.3rem;">Brandon · this week</div>
+<p style="font-size: 0.8rem; color: var(--bb-text); line-height: 1.45; margin: 0;">
+Finish offer docs · post Origin sequence · reply warm (don't pitch).
 </p>
 </div>
 
-<div class="bb-card" style="border-left: 3px solid #22D3EE; background: linear-gradient(135deg, rgba(34, 211, 238, 0.04) 0%, #0F172A 100%); padding: 0.75rem 0.95rem;">
-<div style="color: #22D3EE; font-weight: 700; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem;">FF · this week</div>
-<p style="font-size: 0.82rem; color: #E2E8F0; line-height: 1.45; margin: 0;">
-Application form (today) · ManyChat (tomorrow) · Mini VSL + page (after offer docs).
+<div class="bb-card bb-card-cyan" style="padding: 0.7rem 0.95rem;">
+<div style="color: var(--bb-cyan); font-weight: 700; font-size: 0.58rem; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.3rem;">FF · this week</div>
+<p style="font-size: 0.8rem; color: var(--bb-text); line-height: 1.45; margin: 0;">
+Form (today) · ManyChat (tomorrow) · Mini VSL + page (after offer docs).
 </p>
 </div>
 
@@ -330,10 +355,10 @@ Application form (today) · ManyChat (tomorrow) · Mini VSL + page (after offer 
 <div class="bb-slide-num">03 / 06</div>
 
 ---
-layout: cover
+layout: default
 ---
 
-<div class="absolute inset-0 bb-grid-bg flex flex-col justify-center px-10">
+<div class="absolute inset-0 bb-bg flex flex-col justify-center px-10">
 
 <div class="bb-brand-mark">
   <span class="bb-ff-mark">FF</span>
@@ -342,19 +367,22 @@ layout: cover
   <span class="bb-ff">Funnel Futurist</span>
 </div>
 
-<div class="bb-eyebrow">Stage 02 → 03 · how the soft bridge works</div>
+<div class="bb-eyebrow">Stage 02 → 03 · the soft bridge</div>
 
-<h2 style="font-size: 1.85rem; margin-bottom: 0.25rem;">
-Story reply <span class="bb-cyan">→</span> ManyChat reply <span class="bb-cyan">→</span> waitlist invite.
+<h2 style="font-size: 1.85rem; margin-bottom: 0.2rem;">
+Story reply <span class="bb-cyan">→</span> ManyChat <span class="bb-cyan">→</span> waitlist invite.
 </h2>
 
-<p style="font-size: 0.9rem; color: #94A3B8; margin-bottom: 0.75rem;">
+<p style="font-size: 0.9rem; color: var(--bb-text-mute); margin-bottom: 0.85rem;">
 Same conversation. Just smoother. Brandon stays out of the first response.
 </p>
 
-<div style="display: grid; grid-template-columns: 1.05fr 1fr; gap: 1.4rem;">
+<div style="display: grid; grid-template-columns: 1fr 1.05fr; gap: 1.5rem;">
 
-<div>
+<div class="bb-phone-frame">
+<div class="bb-phone-handle"></div>
+
+<div style="margin-top: 0.4rem;">
 
 <v-click>
 <div class="bb-dm-bubble bb-dm-inbound">
@@ -386,31 +414,33 @@ would you be open to joining a waitlist? i'm building something to help on a dee
 
 </div>
 
-<div>
+</div>
+
+<div style="display: flex; flex-direction: column; justify-content: center; gap: 0.6rem;">
 
 <v-click>
-<div class="bb-callout" style="margin-bottom: 0.7rem;">
+<div class="bb-callout">
 <strong class="bb-cream">Soft bridge, not a pitch.</strong>
-<p style="font-size: 0.82rem; margin-top: 0.35rem; margin-bottom: 0; color: #94A3B8; line-height: 1.45;">
+<p style="font-size: 0.82rem; margin-top: 0.3rem; margin-bottom: 0; color: var(--bb-text-mute); line-height: 1.45;">
 You're saying "I'm overwhelmed, want to go deeper?". A permission ask, not a sales push.
 </p>
 </div>
 </v-click>
 
 <v-click>
-<div class="bb-callout" style="margin-bottom: 0.7rem; border-left-color: #F97316;">
+<div class="bb-callout" style="border-left-color: var(--bb-orange);">
 <strong class="bb-cream">ManyChat saves your sanity.</strong>
-<p style="font-size: 0.82rem; margin-top: 0.35rem; margin-bottom: 0; color: #94A3B8; line-height: 1.45;">
+<p style="font-size: 0.82rem; margin-top: 0.3rem; margin-bottom: 0; color: var(--bb-text-mute); line-height: 1.45;">
 You're overloaded. ManyChat handles first reply + sends form link. You only enter when they re-engage.
 </p>
 </div>
 </v-click>
 
 <v-click>
-<div class="bb-callout" style="border-left-color: #10B981;">
+<div class="bb-callout" style="border-left-color: var(--bb-green);">
 <strong class="bb-cream">Form = sorted waitlist.</strong>
-<p style="font-size: 0.82rem; margin-top: 0.35rem; margin-bottom: 0; color: #94A3B8; line-height: 1.45;">
-Every reply becomes a deep diagnostic. You pick the 5 fit. Everyone else gets the Mini VSL + nurture for cohort 2.
+<p style="font-size: 0.82rem; margin-top: 0.3rem; margin-bottom: 0; color: var(--bb-text-mute); line-height: 1.45;">
+Every reply becomes a diagnostic. Pick the 5 fit. Everyone else gets the Mini VSL + nurture for cohort 2.
 </p>
 </div>
 </v-click>
@@ -421,14 +451,14 @@ Every reply becomes a deep diagnostic. You pick the 5 fit. Everyone else gets th
 
 </div>
 
-<div class="bb-footer"><span class="bb-footer-dot"></span>this is what stage 02→03 looks like in real time</div>
+<div class="bb-footer"><span class="bb-footer-dot"></span>stage 02 → 03 in real time</div>
 <div class="bb-slide-num">04 / 06</div>
 
 ---
-layout: cover
+layout: default
 ---
 
-<div class="absolute inset-0 bb-grid-bg flex flex-col justify-center px-14">
+<div class="absolute inset-0 bb-bg flex flex-col justify-center px-12">
 
 <div class="bb-brand-mark">
   <span class="bb-ff-mark">FF</span>
@@ -437,9 +467,9 @@ layout: cover
   <span class="bb-ff">Funnel Futurist</span>
 </div>
 
-<div class="bb-eyebrow">After cohort 1 · the real engine starts</div>
+<div class="bb-eyebrow">After cohort 1 · the real engine</div>
 
-<h2 style="font-size: 2rem; margin-bottom: 1rem;">
+<h2 style="font-size: 2.1rem; margin-bottom: 1rem;">
 Cohort 1 is the <span class="bb-orange">test</span>. The system <span class="bb-cyan">starts after</span>.
 </h2>
 
@@ -448,41 +478,41 @@ Cohort 1 is the <span class="bb-orange">test</span>. The system <span class="bb-
 <div>
 
 <v-click>
-<div style="display: flex; gap: 0.85rem; margin-bottom: 0.85rem;">
-<div style="font-family: 'JetBrains Mono', monospace; color: #22D3EE; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; padding-top: 0.15rem;">01</div>
-<div>
+<div class="bb-step">
+<div class="bb-step-num early">01</div>
+<div class="bb-step-content">
 <strong class="bb-cream">Launch cohort 1.</strong> Take 5. Stress-test the offer. Find what breaks.
-<span style="display: block; color: #64748B; font-size: 0.78rem; margin-top: 0.15rem;">→ proof, testimonials, offer refinement</span>
+<span class="bb-step-tail">→ proof, testimonials, offer refinement</span>
 </div>
 </div>
 </v-click>
 
 <v-click>
-<div style="display: flex; gap: 0.85rem; margin-bottom: 0.85rem;">
-<div style="font-family: 'JetBrains Mono', monospace; color: #22D3EE; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; padding-top: 0.15rem;">02</div>
-<div>
+<div class="bb-step">
+<div class="bb-step-num early">02</div>
+<div class="bb-step-content">
 <strong class="bb-cream">Cohort 2 fast.</strong> Pace it. Don't over-saturate the warm list.
-<span style="display: block; color: #64748B; font-size: 0.78rem; margin-top: 0.15rem;">→ slightly higher pricing, social proof active</span>
+<span class="bb-step-tail">→ slightly higher pricing, social proof active</span>
 </div>
 </div>
 </v-click>
 
 <v-click>
-<div style="display: flex; gap: 0.85rem; margin-bottom: 0.85rem;">
-<div style="font-family: 'JetBrains Mono', monospace; color: #FBBF24; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; padding-top: 0.15rem;">03</div>
-<div>
-<strong class="bb-amber">Switch on ads + DM ads.</strong> Warm list runs out. Cold + lookalike feeds the funnel.
-<span style="display: block; color: #64748B; font-size: 0.78rem; margin-top: 0.15rem;">→ continuous flow, CPL/CAC tuning, scale</span>
+<div class="bb-step">
+<div class="bb-step-num late">03</div>
+<div class="bb-step-content">
+<strong class="bb-amber">Switch on ads + DM ads.</strong> Warm list thins. Cold + lookalike feeds the funnel.
+<span class="bb-step-tail">→ continuous flow, CPL/CAC tuning, scale</span>
 </div>
 </div>
 </v-click>
 
 <v-click>
-<div style="display: flex; gap: 0.85rem;">
-<div style="font-family: 'JetBrains Mono', monospace; color: #FBBF24; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; padding-top: 0.15rem;">04</div>
-<div>
+<div class="bb-step" style="margin-bottom: 0;">
+<div class="bb-step-num late">04</div>
+<div class="bb-step-content">
 <strong class="bb-cream">Stack the back-end.</strong> Lower-tier for non-buyers. Continuity for grads. Higher-tier for builders.
-<span style="display: block; color: #64748B; font-size: 0.78rem; margin-top: 0.15rem;">→ the recurring revenue that compounds</span>
+<span class="bb-step-tail">→ the recurring revenue that compounds</span>
 </div>
 </div>
 </v-click>
@@ -491,20 +521,20 @@ Cohort 1 is the <span class="bb-orange">test</span>. The system <span class="bb-
 
 <v-click>
 
-<div class="bb-card" style="border-left: 3px solid #FBBF24; background: linear-gradient(135deg, rgba(251, 191, 36, 0.06) 0%, #0F172A 60%); padding: 1rem 1.1rem;">
-<div style="color: #FBBF24; font-weight: 700; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.55rem;">
+<div class="bb-backend-card">
+<div style="color: var(--bb-amber); font-weight: 700; font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.55rem;">
 What we're really building
 </div>
 
-<p style="font-size: 0.92rem; color: #F5F1E8; line-height: 1.4; margin: 0 0 0.7rem;">
+<p style="font-size: 0.92rem; color: var(--bb-cream); line-height: 1.4; margin: 0 0 0.7rem;">
 Not a cohort spreadsheet. A <strong class="bb-cyan">recurring back-end</strong> with a paid-traffic engine bolted on.
 </p>
 
-<div style="background: #0A0F1C; border-radius: 0.4rem; padding: 0.65rem 0.8rem; font-size: 0.74rem; line-height: 1.55;">
-<div style="margin-bottom: 0.15rem;"><span class="bb-cyan">→</span> <strong class="bb-cream">Front-end:</strong> <span class="bb-mute">Execution Install (cohort)</span></div>
-<div style="margin-bottom: 0.15rem;"><span class="bb-cyan">→</span> <strong class="bb-cream">Back-end:</strong> <span class="bb-mute">Continuity + nurture</span></div>
-<div style="margin-bottom: 0.15rem;"><span class="bb-cyan">→</span> <strong class="bb-cream">Traffic:</strong> <span class="bb-mute">Organic + DM ads</span></div>
-<div><span class="bb-cyan">→</span> <strong class="bb-cream">Audience:</strong> <span class="bb-mute">Grows weekly while you focus on coaching</span></div>
+<div style="background: var(--bb-bg); border-radius: 0.4rem; padding: 0.6rem 0.85rem;">
+<div class="bb-backend-row"><span class="bb-cream" style="font-weight: 700;">Front-end</span><span class="bb-mute">Execution Install (cohort)</span></div>
+<div class="bb-backend-row"><span class="bb-cream" style="font-weight: 700;">Back-end</span><span class="bb-mute">Continuity + nurture</span></div>
+<div class="bb-backend-row"><span class="bb-cream" style="font-weight: 700;">Traffic</span><span class="bb-mute">Organic + DM ads</span></div>
+<div class="bb-backend-row"><span class="bb-cream" style="font-weight: 700;">Audience</span><span class="bb-mute">Grows weekly while you coach</span></div>
 </div>
 
 </div>
@@ -520,10 +550,9 @@ Not a cohort spreadsheet. A <strong class="bb-cyan">recurring back-end</strong> 
 
 ---
 layout: cover
-class: text-center
 ---
 
-<div class="absolute inset-0 bb-grid-bg flex flex-col justify-center items-center px-16 text-center">
+<div class="absolute inset-0 bb-bg flex flex-col justify-center items-center px-16 text-center">
 
 <div class="bb-brand-mark">
   <span class="bb-ff-mark">FF</span>
@@ -532,21 +561,21 @@ class: text-center
   <span class="bb-ff">Funnel Futurist</span>
 </div>
 
-<div style="max-width: 44rem;">
+<div style="max-width: 48rem;">
 
-<div class="bb-eyebrow" style="margin: 0 auto 0.85rem; justify-content: center;">One question</div>
+<div class="bb-eyebrow" style="margin: 0 auto 1.25rem;">One question</div>
 
-<h1 style="font-size: 3.4rem; margin: 0 0 1.25rem;">
+<h1 style="font-size: 4.5rem; line-height: 1.0; margin: 0 0 1.5rem;">
 What's <span class="bb-orange">in the way</span><br/>right now?
 </h1>
 
 <v-click>
 
-<p style="font-size: 1.1rem; color: #94A3B8; line-height: 1.5; margin: 0 0 0.65rem;">
+<p style="font-size: 1.15rem; color: var(--bb-text-mute); line-height: 1.5; margin: 0 0 0.5rem;">
 Not the whole launch. Just the <span class="bb-cyan">next thing on your list</span>.
 </p>
 
-<p style="font-size: 0.92rem; color: #94A3B8; line-height: 1.5; margin: 0;">
+<p style="font-size: 0.95rem; color: var(--bb-text-mute); line-height: 1.5; margin: 0;">
 Drop it in your launch Slack channel. We move it within 4 hours.
 </p>
 
@@ -554,11 +583,11 @@ Drop it in your launch Slack channel. We move it within 4 hours.
 
 <v-click>
 
-<div class="bb-callout" style="margin-top: 1.75rem; text-align: left;">
-<p style="font-size: 0.92rem; color: #F5F1E8; line-height: 1.5; margin: 0;">
+<div class="bb-callout" style="margin-top: 2rem; text-align: left;">
+<p style="font-size: 0.95rem; color: var(--bb-cream); line-height: 1.5; margin: 0;">
 <strong class="bb-cyan">Don't optimize. Don't perfect.</strong> Cohort 1 isn't the destination. It's the <strong class="bb-green">first iteration of a system</strong> we'll run for the next 12 months.
 <br/><br/>
-The faster we ship the application form, the faster everything else falls into place.
+The faster the application form ships, the faster everything else falls into place.
 </p>
 </div>
 
