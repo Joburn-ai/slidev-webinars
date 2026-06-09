@@ -86,6 +86,82 @@ PRESENTER NOTES:
 ---
 
 <!-- ============================================================
+     SLOT 1.5 / 6 · WHY THIS MATTERS FOR YOU · identity stake · ~25s · Scene B
+     The Stakes slide. Hero's Journey beat 2 (call → stakes → guide).
+     ============================================================ -->
+layout: default
+class: !p-0
+---
+
+<div class="absolute inset-0 px-16 py-12 flex flex-col justify-center" style="background: var(--ff-warm);">
+
+<div class="ff-bar"></div>
+
+<div class="section-tag gold">FIG. 0 · THE STAKES</div>
+
+<h2 style="font-size: 2.5rem; margin-top: 0.75rem; line-height: 1.1;">this is not a tool drop. <span class="ff-cyan">it is a labor-cost regime change.</span></h2>
+
+<div class="rule-thin"></div>
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+
+<v-click>
+
+<div class="px-5 py-4" style="background: white; border-left: 4px solid var(--ff-cyan); border-radius: 2px;">
+<div class="ff-eyebrow" style="margin-bottom: 0.5rem; font-size: 0.65rem; color: var(--ff-cyan);">IF YOU INTERNALIZE THIS</div>
+<p style="margin: 0; font-size: 1rem; color: var(--ff-navy); line-height: 1.45;">you operate from a labor curve 60x cheaper than your competitors. you ship 12 compounding assets in 12 weeks while they think it takes quarters. <strong class="ff-cyan">your moat compounds while theirs erodes.</strong></p>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="px-5 py-4" style="background: white; border-left: 4px solid #94463b; border-radius: 2px;">
+<div class="ff-eyebrow" style="margin-bottom: 0.5rem; font-size: 0.65rem; color: #94463b;">IF YOU DON'T</div>
+<p style="margin: 0; font-size: 1rem; color: var(--ff-navy); line-height: 1.45;">someone else eats your category. you keep selling hours nobody buys. your shelf graveyard grows. and <strong style="color: #94463b;">the gap between operators-with-systems and operators-still-figuring-it-out doubles every quarter.</strong></p>
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-7 px-6 py-4" style="background: var(--ff-navy); color: white; border-radius: 2px;">
+<p style="margin: 0; font-size: 1.2rem; line-height: 1.4;">this isn't about whether you use the model. it's about <span class="ff-orange">whether the version of you with this in your stack</span> beats the version of you without it. it does. by a lot. and you decide which version ships next monday.</p>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+SLOT 1.5 VERBATIM (Scene B · large cam · slow · ~25s):
+
+before i show you anything else, listen to this part carefully. because this is the part that decides whether this video matters in your life or not.
+
+this is not a tool drop. this is a labor-cost regime change.
+
+[CLICK 1 · "if you internalize"]
+if you internalize what just happened, you start operating from a labor curve sixty x cheaper than your competitors. while they're still benchmarking models, you're shipping twelve compounding assets in twelve weeks. your moat compounds. theirs erodes.
+
+[CLICK 2 · "if you don't"]
+if you don't, someone else eats your category. you keep selling hours nobody buys. your shelf graveyard grows. and the gap between operators with systems and operators still figuring it out doubles every quarter.
+
+[CLICK 3 · navy callout]
+this isn't about whether you USE the model. it's about whether the version of YOU with this thing in your stack beats the version of you without it. it does. by a lot. and you decide which version ships next monday.
+
+PRESENTER NOTES:
+- Scene B (large cam · intimate, not directorial)
+- this is the IDENTITY-LEVEL beat at the open. hero's journey beat 2 (stakes).
+- "this isn't about whether you USE the model" is the hinge.
+- slow pace. lower voice slightly.
+- ~25s
+-->
+
+---
+
+<!-- ============================================================
      SLOT 2 / 6 · TOPIC CARD · 20-30s · Scene B (large cam)
      ============================================================ -->
 

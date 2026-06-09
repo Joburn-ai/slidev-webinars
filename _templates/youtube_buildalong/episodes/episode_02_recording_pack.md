@@ -195,12 +195,40 @@ the operators who win the next twelve months aren't the ones with the best promp
 - [ ] Zero em-dashes in any visible text (deck, overlays, captions, descriptions, thumbnail)
 - [ ] Stripe number phrased as "roughly fifty to sixty x," never "literally"
 - [ ] At least one real agency-os shelved project named on the whiteboard
+- [ ] **Stakes slide (1.5) delivered SLOW with intimate Scene B framing** (this is the identity-level opener; the deck dies without it)
 - [ ] Identity beat present between slot 5 four-moves and slot 6 recap
 - [ ] Anthropic name-drops ≤ 2 across the full video
 - [ ] "pick well" delivered before the cut to recap
 - [ ] "stop trading hours. you don't have to anymore." holds 2 full seconds before stopping
 - [ ] IG winner runs 40-45s. IG runner-up runs 80-90s.
 - [ ] Both IG clips end on payoff line static on black
+
+## 9 · Hero's Journey arc check (per upgraded slidev_presentation skill v3)
+
+| Beat | Slide | What it does |
+|---|---|---|
+| Call to adventure | Slot 1 Hook | The news + curiosity gap |
+| **Why this matters for you** | **Slot 1.5 Stakes (NEW)** | **Identity-level "if you internalize / if you don't" framing** |
+| The guide reveals the truth | Slot 2 Topic | The contract |
+| The mentor walks them through | Slots 3a-d (4 sub-slides) | Receipts: hero, capability chart, cost-curve chart, failure modes |
+| The map | Slot 4 Whiteboard | drauu live, your shelf is the roadmap |
+| The plan | Slot 5a | Four moves (v-clicks reveal one per card) |
+| The transformation / identity beat | Slot 5b | "the shelf is the work you actually wanted to do" + "you still pick" |
+| The return / CTA | Slot 6 Recap | 3 takeaway v-clicks + next episode tease |
+
+## 10 · Now 10 slides (was 9). Pacing notes
+
+Slot 1.5 adds ~25s. Total runtime estimate: 16-23 min (was 14-22). Still inside the YouTube build-along sweet spot.
+
+**Tempo map** (cinema pacing model from skill v3):
+- Slot 1: FRAME
+- Slot 1.5: FRAME (deepens identity)
+- Slot 2: FRAME → MOVE FAST transition
+- Slot 3a-d: MOVE FAST + ZOOM (charts unpacked with v-click annotations)
+- Slot 4: STOP (whiteboard reset)
+- Slot 5a: MOVE FAST (four moves)
+- Slot 5b: LAND (identity beat, slow)
+- Slot 6: LAND (recap close)
 
 ---
 
