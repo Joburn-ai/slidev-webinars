@@ -1,11 +1,11 @@
 ---
 theme: default
-title: Episode 02 · months became days. and your shelf became the strategy.
+title: Episode 02 · i spent 2 hours testing claude mythos so you don't have to.
 info: |
   Joburn Build-Along · Episode 02 · 2026-06-09
-  Hot take on the Anthropic Fable 5 / Mythos 5 launch.
-  Frame: months-to-days unit economics. The reframe: your shelf is the asset, not the model.
-  Format: 6-slot workshop (Hook · Topic · Build 1 · Whiteboard · Build 2 · Recap).
+  Personal-test workshop on Anthropic's Fable 5 / Mythos 5 drop.
+  Frame: 5 real operator tasks · head-to-head Mythos vs Opus 4.8 · 3-bucket recommendation.
+  Format: 12-slot YouTube build-along, atomic-era retro-futurist.
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -16,20 +16,19 @@ drawings:
   syncAll: false
 transition: slide-left
 mdc: true
+clickAnimation: fade
 fonts:
   sans: Inter
+  serif: 'Crimson Pro'
   mono: JetBrains Mono
   weights: '300,400,500,600,700,800,900'
 layout: cover
 css: unocss
 ---
 
-<style>
-@import '../style.css';
-</style>
 
 <!-- ============================================================
-     SLOT 1 / 6 · COLD-OPEN HOOK · 5-10s · Scene A
+     SLIDE 01 / 12 · COVER · 8-12s · Scene A
      ============================================================ -->
 
 <div class="absolute inset-0 ff-navy-bg flex flex-col justify-center items-center px-12">
@@ -38,87 +37,79 @@ css: unocss
 
 <div class="max-w-5xl text-center">
 
-<div class="ff-eyebrow">Joburn · Build-Along · EP 02 · 2026-06-09</div>
+<div class="ff-eyebrow" style="color: var(--ff-orange);">Joburn · Build-Along · EP 02 · 2026-06-09</div>
 
-<h1 style="font-size: 4.8rem; color: white; line-height: 1;">
-months became days.<br/>
-<span class="ff-orange">and your shelf became the strategy.</span>
+<h1 style="font-size: 4.4rem; color: white; line-height: 1.04; margin-bottom: 1.5rem;">
+i spent 2 hours testing<br/>
+<span class="ff-orange">claude mythos.</span>
 </h1>
 
 <v-click>
 
-<p style="font-size: 1.35rem; color: rgba(255,255,255,0.85); margin-top: 1.75rem; max-width: 52rem; margin-left:auto; margin-right:auto;">
-anthropic shipped fable 5 today. stripe just compressed two months of engineering into one day. the headline isn't the model. the headline is your shelf.
+<p style="font-size: 1.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin: 0 auto; line-height: 1.4;">
+so you don't have to. five real tasks. head-to-head against opus 4.8. here's what i found.
 </p>
 
 </v-click>
 
 </div>
 
-<div class="absolute bottom-8 left-0 right-0 text-center" style="color: rgba(255,255,255,0.4); font-size: 0.7rem; letter-spacing: 0.25em; font-family: 'JetBrains Mono', monospace;">
-JOBURN · JOHN COBURN
+<div class="absolute bottom-8 left-0 right-0 text-center" style="color: rgba(255,255,255,0.45); font-size: 0.72rem; letter-spacing: 0.25em; font-family: 'JetBrains Mono', monospace;">
+JOHN COBURN · JOBURN.COM
 </div>
 
 </div>
 
 <!--
-HOOK VERBATIM (Scene A · 5-10s):
+COVER VERBATIM (Scene A · 8-12s):
 
-stripe just compressed two months of engineering into one day. fifty million lines of ruby. one model. one day.
+i spent two hours testing claude mythos. so you don't have to.
 
 [CLICK · reveal sub]
 
-if that doesn't change how you plan next quarter, you're not paying attention.
-
-because the headline isn't the model. the headline is the shelf.
-
-every project you killed in the last two years because the math didn't work just got re-priced. and that list, the one in your notes app, the one in the dead column of your notion. that's your roadmap now.
-
-let me show you what i mean.
+five real tasks. head-to-head against opus four point eight. here's what i found.
 
 PRESENTER NOTES:
-- cold open hard. no logo, no intro music
-- "stripe compressed two months of engineering into one day" is the first thing the viewer hears
-- one full beat after "one day."
-- pivot line "the headline is the shelf" is the hinge. say it slower.
+- cold open. no logo bumper, no "what's up." straight in.
+- "mythos" gets emphasis. that's the name nobody else will know yet.
+- hold final beat 1 second before clicking forward.
 -->
 
 ---
-
-<!-- ============================================================
-     SLOT 1.5 / 6 · WHY THIS MATTERS FOR YOU · identity stake · ~25s · Scene B
-     The Stakes slide. Hero's Journey beat 2 (call → stakes → guide).
-     ============================================================ -->
 layout: default
 class: !p-0
 ---
 
-<div class="absolute inset-0 px-16 py-12 flex flex-col justify-center" style="background: var(--ff-warm);">
+<!-- SLIDE 02 / 12 · STAKES · ~25s · Scene B (large cam) -->
+
+<div class="absolute inset-0 px-14 py-10 flex flex-col justify-center" style="background: var(--ff-warm);">
 
 <div class="ff-bar"></div>
 
-<div class="section-tag gold">FIG. 0 · THE STAKES</div>
+<div class="ff-eyebrow">before i show you anything</div>
 
-<h2 style="font-size: 2.5rem; margin-top: 0.75rem; line-height: 1.1;">this is not a tool drop. <span class="ff-cyan">it is a labor-cost regime change.</span></h2>
+<h2 style="font-size: 2.5rem; line-height: 1.15; max-width: 50rem;">
+this is not a model review video. it's a <span class="ff-cyan">labor-cost reality check.</span>
+</h2>
 
 <div class="rule-thin"></div>
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="comparison-pair mt-5">
 
 <v-click>
 
-<div class="px-5 py-4" style="background: white; border-left: 4px solid var(--ff-cyan); border-radius: 2px;">
-<div class="ff-eyebrow" style="margin-bottom: 0.5rem; font-size: 0.65rem; color: var(--ff-cyan);">IF YOU INTERNALIZE THIS</div>
-<p style="margin: 0; font-size: 1rem; color: var(--ff-navy); line-height: 1.45;">you operate from a labor curve 60x cheaper than your competitors. you ship 12 compounding assets in 12 weeks while they think it takes quarters. <strong class="ff-cyan">your moat compounds while theirs erodes.</strong></p>
+<div class="ff-card" style="border-left: 4px solid var(--ff-cyan); padding: 1.1rem 1.25rem;">
+<div class="ff-eyebrow" style="margin-bottom: 0.45rem; font-size: 0.65rem; color: var(--ff-cyan);">if you test it</div>
+<p style="margin: 0; font-size: 0.98rem; line-height: 1.45;">you know which model to default to per bucket. you stop paying opus dollars for tasks fable handles cheaper. <strong class="ff-cyan">your cost per outcome drops.</strong></p>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="px-5 py-4" style="background: white; border-left: 4px solid #94463b; border-radius: 2px;">
-<div class="ff-eyebrow" style="margin-bottom: 0.5rem; font-size: 0.65rem; color: #94463b;">IF YOU DON'T</div>
-<p style="margin: 0; font-size: 1rem; color: var(--ff-navy); line-height: 1.45;">someone else eats your category. you keep selling hours nobody buys. your shelf graveyard grows. and <strong style="color: #94463b;">the gap between operators-with-systems and operators-still-figuring-it-out doubles every quarter.</strong></p>
+<div class="ff-card" style="border-left: 4px solid #94463b; padding: 1.1rem 1.25rem;">
+<div class="ff-eyebrow" style="margin-bottom: 0.45rem; font-size: 0.65rem; color: #94463b;">if you don't</div>
+<p style="margin: 0; font-size: 0.98rem; line-height: 1.45;">you let your defaults drift. and competitors with sharper defaults <strong style="color: #94463b;">out-leverage you on cost per outcome.</strong> quietly. for months.</p>
 </div>
 
 </v-click>
@@ -127,8 +118,8 @@ class: !p-0
 
 <v-click>
 
-<div class="mt-7 px-6 py-4" style="background: var(--ff-navy); color: white; border-radius: 2px;">
-<p style="margin: 0; font-size: 1.2rem; line-height: 1.4;">this isn't about whether you use the model. it's about <span class="ff-orange">whether the version of you with this in your stack</span> beats the version of you without it. it does. by a lot. and you decide which version ships next monday.</p>
+<div class="mt-6 px-5 py-3.5" style="background: var(--ff-navy); color: white; border-radius: 10px;">
+<p style="margin: 0; font-size: 1.05rem; line-height: 1.4;">the version of you who knows which model fits where <span class="ff-orange">beats the version that defaults to the latest.</span> by a lot. by next monday.</p>
 </div>
 
 </v-click>
@@ -136,220 +127,220 @@ class: !p-0
 </div>
 
 <!--
-SLOT 1.5 VERBATIM (Scene B · large cam · slow · ~25s):
+STAKES VERBATIM (Scene B · slow · ~25s):
 
-before i show you anything else, listen to this part carefully. because this is the part that decides whether this video matters in your life or not.
+before i show you anything else. one frame.
 
-this is not a tool drop. this is a labor-cost regime change.
+this is not a model review video. it's a labor-cost reality check.
 
-[CLICK 1 · "if you internalize"]
-if you internalize what just happened, you start operating from a labor curve sixty x cheaper than your competitors. while they're still benchmarking models, you're shipping twelve compounding assets in twelve weeks. your moat compounds. theirs erodes.
+[CLICK 1 · "if you test it"]
+if you test this thing for two hours, you walk away knowing which model to default to per bucket. you stop paying opus dollars on tasks fable handles cheaper. your cost per outcome drops.
 
 [CLICK 2 · "if you don't"]
-if you don't, someone else eats your category. you keep selling hours nobody buys. your shelf graveyard grows. and the gap between operators with systems and operators still figuring it out doubles every quarter.
+if you don't. your defaults drift. and competitors with sharper defaults out-leverage you on cost per outcome. quietly. for months.
 
 [CLICK 3 · navy callout]
-this isn't about whether you USE the model. it's about whether the version of YOU with this thing in your stack beats the version of you without it. it does. by a lot. and you decide which version ships next monday.
+the version of you who knows which model fits where beats the version that defaults to the latest. by a lot. by next monday.
 
 PRESENTER NOTES:
-- Scene B (large cam · intimate, not directorial)
-- this is the IDENTITY-LEVEL beat at the open. hero's journey beat 2 (stakes).
-- "this isn't about whether you USE the model" is the hinge.
-- slow pace. lower voice slightly.
-- ~25s
+- Scene B (large cam, intimate)
+- "by next monday" is the punch. let it sit.
 -->
 
 ---
-
-<!-- ============================================================
-     SLOT 2 / 6 · TOPIC CARD · 20-30s · Scene B (large cam)
-     ============================================================ -->
-
-<div class="grid-paper absolute inset-0 px-16 py-12">
-
-<div class="ff-bar"></div>
-
-<div class="section-tag">EPISODE 02 · FABLE 5 DROP · 2026-06-09</div>
-
-<h1 style="font-size: 3.4rem; margin-top: 1rem;">the shelf is the strategy <span class="ff-cyan">now.</span></h1>
-
-<div class="rule-thin"></div>
-
-<div class="grid grid-cols-2 gap-8 mt-6">
-
-<div>
-<div class="section-tag navy">WHAT YOU'LL WALK AWAY WITH</div>
-
-<v-clicks>
-
-<ul style="margin-top: 1rem; font-size: 1.08rem; list-style: none; padding: 0;">
-<li style="margin-bottom: 0.6rem;"><span class="ff-cyan" style="font-family: monospace; font-weight: 700;">01 ·</span> the math behind two months becoming one day. and what it does to every project you killed.</li>
-<li style="margin-bottom: 0.6rem;"><span class="ff-cyan" style="font-family: monospace; font-weight: 700;">02 ·</span> the three failure modes operators are about to hit this quarter.</li>
-<li style="margin-bottom: 0.6rem;"><span class="ff-cyan" style="font-family: monospace; font-weight: 700;">03 ·</span> a four-move playbook. audit, re-price, rank, ship one per week for twelve weeks.</li>
-<li><span class="ff-cyan" style="font-family: monospace; font-weight: 700;">04 ·</span> the identity question that decides whether your shelf is a roadmap or a graveyard.</li>
-</ul>
-
-</v-clicks>
-</div>
-
-<div>
-<div class="section-tag gold">THE FACTS ON THE TABLE</div>
-
-<v-clicks>
-
-<ul style="margin-top: 1rem; font-size: 1.08rem; list-style: none; padding: 0;">
-<li style="margin-bottom: 0.55rem;"><strong>2 models. 1 day.</strong> anthropic.</li>
-<li style="margin-bottom: 0.55rem;"><strong>$10 in / $50 out</strong> per million tokens.</li>
-<li style="margin-bottom: 0.55rem;"><strong>50M lines of ruby.</strong> stripe. one day.</li>
-<li><strong>~60x compression</strong> of senior labor.</li>
-</ul>
-
-</v-clicks>
-</div>
-
-</div>
-
-<div class="absolute bottom-8 left-16 fig-caption">FIG. 1 · WHAT JUST SHIPPED</div>
-
-</div>
-
-<!--
-TOPIC VERBATIM (Scene B · 20-30s):
-
-today we're talking about the one number from the fable 5 launch that actually matters. not the benchmarks. not the price. not the pokemon demo. one line buried in the announcement.
-
-months of work. done in days.
-
-that's not a coding story. that's a unit economics story.
-
-because when the cost of a unit of work drops by sixty x in twelve months, every project you ever shelved with the words "too expensive" or "not worth it right now" has to be re-priced.
-
-that list of yeses you couldn't afford is now the most valuable asset you own. more valuable than your offer. more valuable than your audience. more valuable than your team.
-
-[CLICK each takeaway as you describe it · 4 clicks left col, 4 right col]
-
-and most operators are gonna miss it. they're gonna spend the week asking what the model can do, instead of asking what they already decided was worth doing if it was free.
-
-PRESENTER NOTES:
-- this slot is the contract. tell viewer angle is NOT "fable 5 is cool"
-- but "your shelf is the asset"
-- controlled, not hype
-- 20-30s
--->
-
----
-
-<!-- ============================================================
-     SLOT 3a / 6 · BUILD 1 · the drop · Scene A
-     ============================================================ -->
-layout: default
-class: !p-0 !overflow-hidden
----
-
-<div class="absolute inset-0 ff-navy-bg flex">
-
-<div class="ff-bar"></div>
-
-<div class="w-1/2 flex items-center justify-center p-12">
-
-<img src="../assets/ep02/hero_butterfly5.png" alt="Claude Fable 5 and Mythos 5 hero" style="max-width: 100%; max-height: 70vh; object-fit: contain; filter: drop-shadow(0 12px 40px rgba(0,0,0,0.4));" />
-
-</div>
-
-<div class="w-1/2 flex flex-col justify-center p-12">
-
-<div class="ff-eyebrow" style="color: var(--ff-orange);">PHASE 01 · STEP 01 · the drop</div>
-
-<h2 style="font-size: 2.6rem; color: white; line-height: 1.05; margin-top: 1rem;">two models. <span class="ff-orange">one day.</span></h2>
-
-<div style="height: 1px; background: rgba(255,255,255,0.2); margin: 1.25rem 0 1.5rem; width: 80px;"></div>
-
-<v-clicks>
-
-<p style="color: rgba(255,255,255,0.92); font-size: 1.1rem; margin-bottom: 0.85rem;"><strong style="color: var(--ff-cyan);">Fable 5</strong> · public release. state of the art across the board.</p>
-
-<p style="color: rgba(255,255,255,0.92); font-size: 1.1rem; margin-bottom: 0.85rem;"><strong style="color: var(--ff-orange);">Mythos 5</strong> · same model. safeguards lifted on cyber. locked behind Project Glasswing.</p>
-
-<p style="color: rgba(255,255,255,0.92); font-size: 1.1rem; margin-bottom: 0.85rem;"><strong>$10 / $50</strong> per million tokens. <span class="ff-cyan">less than half</span> the price of Mythos Preview.</p>
-
-<p style="color: rgba(255,255,255,0.65); font-size: 0.92rem; font-style: italic; margin-top: 1rem;">free on Pro/Max/Team through June 22. credits start June 23.</p>
-
-</v-clicks>
-
-</div>
-
-</div>
-
-<!--
-SLOT 3a VERBATIM (Scene A · ~60s):
-
-[CLICK 1 · fable explainer reveals]
-so here's what shipped today. two models. one underlying system.
-
-fable 5 ships to everyone. claude api, pro plans, max, team, enterprise. state of the art on basically every benchmark anthropic put in the announcement.
-
-[CLICK 2 · mythos]
-mythos 5 is the SAME MODEL. safeguards lifted in cybersecurity. but it's locked behind something called project glasswing. us government cyberdefenders only. you and i don't get it.
-
-[CLICK 3 · pricing]
-and the price went down. ten bucks per million input tokens, fifty per million output. less than half what mythos preview cost a few weeks ago.
-
-[CLICK 4 · timing]
-on pro and max, it's free for thirteen days. after june twenty-two you start burning credits.
-
-PRESENTER NOTES:
-- Scene A
-- this is setup. don't linger
-- ~60s
--->
-
----
-
-<!-- ============================================================
-     SLOT 3b / 6 · BUILD 1 · the capability story · Scene A
-     ============================================================ -->
 layout: default
 class: !p-0
 ---
+
+<!-- SLIDE 03 / 12 · WHO I AM · ~30s · Scene B -->
+
+<div class="absolute inset-0 px-14 py-10 flex flex-col justify-center" style="background: var(--ff-cream);">
+
+<div class="ff-bar"></div>
+
+<div class="ff-eyebrow">who's testing</div>
+
+<h2 style="font-size: 2.3rem; line-height: 1.15; max-width: 48rem;">
+i'm john coburn. i build operator-OS <span class="ff-cyan">for founders.</span>
+</h2>
+
+<div class="rule-thin"></div>
+
+<div class="grid grid-cols-3 gap-4 mt-5 max-w-4xl">
+
+<div class="not-tag">not an anthropic employee</div>
+<div class="not-tag">not a benchmark site</div>
+<div class="not-tag">not a hype creator</div>
+
+</div>
+
+<v-click>
+
+<div class="ff-card-hero mt-6" style="max-width: 50rem;">
+<p style="font-size: 1.1rem; line-height: 1.5; margin: 0; color: var(--ff-navy);">
+i build with claude every day across three buckets. <strong class="ff-cyan">acquisition. customer success. operations.</strong> so this test isn't "does it win swe-bench." it's <strong>"does it actually replace work i'm already paying opus to do."</strong>
+</p>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+WHO I AM VERBATIM (Scene B · ~30s):
+
+quick. who's testing.
+
+i'm john coburn. i build operator-OS for founders. hyper-leverage agency. claude in my stack every day.
+
+not an anthropic employee. not a benchmark site. not a hype creator.
+
+[CLICK · hero card]
+i build with claude every day across three buckets. acquisition. customer success. operations. so this test isn't "does it win swe-bench." it's "does it actually replace work i'm already paying opus to do."
+
+PRESENTER NOTES:
+- still Scene B
+- 3 not-cards lower defenses (per BSMD pattern)
+- hero card lands the operator frame
+-->
+
+---
+layout: default
+class: !p-0
+---
+
+<!-- SLIDE 04 / 12 · THE FRAME · ~45s · Scene A -->
 
 <div class="grid-paper absolute inset-0 px-12 py-8">
 
 <div class="ff-bar"></div>
 
-<div class="flex items-center gap-4 mb-2">
-<div class="section-tag">PHASE 01</div>
-<span class="step-counter"><span class="num">STEP 02</span> · the capability story</span>
-</div>
+<div class="ff-eyebrow">the frame</div>
 
-<h2 style="font-size: 2rem; margin-top: 0.25rem;">claude is now <span class="ff-cyan">2x GPT-5.5</span> on agentic coding.</h2>
+<h2 style="font-size: 2.2rem; margin-top: 0.25rem;">three buckets. <span class="ff-cyan">every operator task lives in one.</span></h2>
 
 <div class="rule-thin"></div>
 
-<div class="grid grid-cols-12 gap-6 mt-4">
+<div class="grid grid-cols-3 gap-5 mt-5">
 
-<div class="col-span-8">
-<img src="../assets/ep02/knowledge_work_graph.png" alt="Agentic coding benchmark" style="width: 100%; border: 1px solid var(--ff-rule); border-radius: 4px; background: white;" />
-<div class="fig-caption mt-2">FIG. 2 · SWE-BENCH PRO + FRONTIERCODE · CLAUDE FABLE VS OPUS 4.8 VS GPT-5.5</div>
+<v-click>
+
+<div class="bucket-card acq">
+<div class="ff-numeral" style="color: #94463b;">01</div>
+<div class="bucket-name">acquisition</div>
+<div class="bucket-headline">getting attention</div>
+<div class="bucket-examples">ads · hooks · funnels · landing pages · copy · creative</div>
 </div>
 
-<div class="col-span-4">
+</v-click>
+
+<v-click>
+
+<div class="bucket-card cs">
+<div class="ff-numeral" style="color: var(--ff-cyan);">02</div>
+<div class="bucket-name">customer success</div>
+<div class="bucket-headline">keeping it working</div>
+<div class="bucket-examples">reports · audits · strategy calls · retention · weekly cadence</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="bucket-card ops">
+<div class="ff-numeral" style="color: var(--ff-orange);">03</div>
+<div class="bucket-name">operations</div>
+<div class="bucket-headline">making it scale</div>
+<div class="bucket-examples">skills · SOPs · refactors · data pipes · internals</div>
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-6 px-5 py-3" style="background: var(--ff-warm); border-left: 4px solid var(--ff-orange); border-radius: 6px;">
+<p style="margin: 0; font-size: 1.05rem; color: var(--ff-navy);"><strong>just because you can</strong> use mythos on every task <strong class="ff-cyan">doesn't mean you should.</strong> pick the bucket that compounds.</p>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+FRAME VERBATIM (Scene A · ~45s):
+
+quick map. then we test.
+
+three buckets. every operator task lives in one of them.
+
+[CLICK 1 · acquisition]
+one. acquisition. getting attention. ads, hooks, funnels, landing pages, copy.
+
+[CLICK 2 · CS]
+two. customer success. keeping it working. reports, audits, strategy calls, retention.
+
+[CLICK 3 · ops]
+three. operations. making it scale. skills, SOPs, refactors, internals.
+
+[CLICK 4 · callout]
+just because you can use mythos on every task doesn't mean you should. pick the bucket that compounds. that's the whole philosophy.
+
+PRESENTER NOTES:
+- Scene A. could also live-draw this on drauu if you want STOP tempo here
+- "just because you can" line is the philosophy. don't rush it.
+-->
+
+---
+layout: default
+class: !p-0
+---
+
+<!-- SLIDE 05 / 12 · THE 5 TESTS · ~40s · Scene A -->
+
+<div class="grid-paper absolute inset-0 px-12 py-7">
+
+<div class="ff-bar"></div>
+
+<div class="ff-eyebrow">the test plan</div>
+
+<h2 style="font-size: 2.1rem; margin-top: 0.25rem;">five tasks. real client data. <span class="ff-cyan">side-by-side.</span></h2>
+
+<div class="rule-thin"></div>
+
+<div class="space-y-2 mt-4" style="display: flex; flex-direction: column; gap: 0.65rem;">
 
 <v-clicks>
 
-<div class="ff-card" style="padding: 1rem;">
-<div class="section-tag navy">SWE-Bench Pro</div>
-<p style="margin-top: 0.4rem; font-size: 0.95rem;"><strong style="font-size: 1.4rem; color: var(--ff-cyan);">80.3%</strong> vs Opus 69.2 / GPT 58.6</p>
-<p style="margin-top: 0.4rem; font-size: 0.88rem; color: var(--ff-charcoal);">11 points clear of Anthropic's own previous best.</p>
+<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
+<span class="ff-numeral" style="color: #94463b; font-size: 1.3rem;">01</span>
+<span class="bucket-name" style="color: #94463b; font-size: 0.7rem; min-width: 8rem;">ACQUISITION</span>
+<span style="font-size: 1rem; flex: 1;">5-hook ad pack for a real client via <code style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--ff-cyan);">copy_brain_retrieve</code></span>
 </div>
 
-<div class="ff-card mt-3" style="padding: 1rem;">
-<div class="section-tag gold">FrontierCode</div>
-<p style="margin-top: 0.4rem; font-size: 0.95rem;"><strong style="font-size: 1.4rem; color: var(--ff-orange);">29.3%</strong> vs Opus 13.4 / GPT 5.7</p>
-<p style="margin-top: 0.4rem; font-size: 0.88rem; color: var(--ff-charcoal);"><strong class="ff-cyan">2.2x Opus.</strong> <strong class="ff-cyan">5x GPT-5.5.</strong></p>
+<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
+<span class="ff-numeral" style="color: var(--ff-cyan); font-size: 1.3rem;">02</span>
+<span class="bucket-name" style="color: var(--ff-cyan); font-size: 0.7rem; min-width: 8rem;">CUSTOMER SUCCESS</span>
+<span style="font-size: 1rem; flex: 1;">complete weekly growth report from a real client CSV</span>
 </div>
 
-<div class="mt-3 px-3 py-2" style="background: var(--ff-warm); border-left: 3px solid var(--ff-orange); font-size: 0.9rem; color: var(--ff-navy);">
-<strong>the moat:</strong> on the hardest agentic work, the gap doesn't just close. it widens.
+<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
+<span class="ff-numeral" style="color: var(--ff-orange); font-size: 1.3rem;">03</span>
+<span class="bucket-name" style="color: var(--ff-orange); font-size: 0.7rem; min-width: 8rem;">OPERATIONS</span>
+<span style="font-size: 1rem; flex: 1;">refactor an existing skill incorporating a new memory lesson</span>
+</div>
+
+<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem; background: var(--ff-warm);">
+<span class="ff-numeral" style="font-size: 1.3rem;">04</span>
+<span class="bucket-name" style="font-size: 0.7rem; min-width: 8rem;">META · RECURSIVE</span>
+<span style="font-size: 1rem; flex: 1;"><strong>use mythos to design this very deck.</strong> compare to opus version.</span>
+</div>
+
+<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
+<span class="ff-numeral" style="font-size: 1.3rem;">05</span>
+<span class="bucket-name" style="font-size: 0.7rem; min-width: 8rem;">IDENTITY</span>
+<span style="font-size: 1rem; flex: 1;">which bucket benefits MOST from mythos specifically. ask both. compare judgment.</span>
 </div>
 
 </v-clicks>
@@ -358,171 +349,391 @@ class: !p-0
 
 </div>
 
-</div>
-
 <!--
-SLOT 3b VERBATIM (Scene A · ~75s):
+TEST PLAN VERBATIM (Scene A · ~40s · click each row as you read):
 
-okay. now look at the numbers. and i want you to look at them with one question in mind. not "is this model smart?" but "what does this MEAN for the work i'm not doing yet?"
+five tests. each one runs on both models. clean prompt. zero retries. winner takes the bucket.
 
-[CLICK 1 · SWE-Bench card]
-SWE-Bench Pro. real software engineering tasks. fable hits 80.3 percent. opus 4.8 was 69. GPT-5.5 was 58. that's not a small jump. that's eleven points clear of anthropic's own previous best, in one quarter.
+[CLICK 01]
+one. acquisition. five-hook ad pack for a real client. grounded in copy_brain_retrieve.
 
-[CLICK 2 · FrontierCode card]
-FrontierCode. harder benchmark. fable 29.3 percent. opus 13.4. GPT-5.5 five point seven. on the HARDEST agentic coding work, fable is more than 2x opus 4.8 and 5x GPT-5.5.
+[CLICK 02]
+two. customer success. full weekly growth report from a real client CSV.
 
-[CLICK 3 · the moat]
-that's the moat. and the gap doesn't close at the top end. it widens. which means as the work gets harder, the leverage you get from this model gets bigger. opposite of what you'd expect.
+[CLICK 03]
+three. operations. refactor a skill incorporating a memory lesson. long-horizon agentic work.
+
+[CLICK 04]
+four. meta. recursive. use mythos to design this very deck. then compare to what opus gave me. you're literally watching the result right now.
+
+[CLICK 05]
+five. identity. ask both models which bucket benefits most from mythos specifically. compare the judgment, not just the output.
 
 PRESENTER NOTES:
-- pace this. one stat per breath.
-- read "29.3" out loud, then say "twenty-nine point three percent. on the hardest tasks."
-- ~75s
+- click each row AS you say the number
+- "you're literally watching the result right now" lands the recursive test
 -->
 
 ---
-
-<!-- ============================================================
-     SLOT 3c / 6 · BUILD 1 · the cost curve broke · Scene A
-     ============================================================ -->
 layout: default
 class: !p-0
 ---
+
+<!-- SLIDE 06 / 12 · TEST 01 · Acquisition · ~2 min · Scene A -->
 
 <div class="grid-paper absolute inset-0 px-12 py-7">
 
 <div class="ff-bar"></div>
 
-<div class="flex items-center gap-4 mb-2">
-<div class="section-tag">PHASE 01</div>
-<span class="step-counter"><span class="num">STEP 03</span> · the cost curve broke</span>
+<div class="flex items-center gap-3 mb-2">
+<span class="ff-numeral" style="color: #94463b; font-size: 1.6rem;">01</span>
+<span class="section-tag" style="color: #94463b; border-color: #94463b;">TEST · ACQUISITION</span>
 </div>
 
-<h2 style="font-size: 1.9rem; margin-top: 0.25rem;">more compute, <span class="ff-cyan">wider gap.</span> the leverage is buyable.</h2>
+<h2 style="font-size: 2rem; margin-top: 0.4rem;">a 5-hook ad pack <span class="ff-cyan">grounded in client canon.</span></h2>
+
+<p style="font-size: 0.92rem; color: var(--ff-charcoal); margin-top: 0.4rem; margin-bottom: 0.5rem; font-style: italic;">prompt: pull F6 + voice DNA via <code>copy_brain_retrieve</code>. write 5 ad hooks for [client]. apply our taxonomy. zero retries.</p>
+
+<div class="comparison-pair mt-3">
+
+<v-click>
+
+<div class="model-card mythos">
+<div class="model-name">Mythos 5 · output</div>
+<div class="placeholder-block">
+[JOHN FILLS · paste verbatim Mythos hook output here. ~5 lines max so it fits the card.]
+</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="model-card opus">
+<div class="model-name">Opus 4.8 · output</div>
+<div class="placeholder-block">
+[JOHN FILLS · paste verbatim Opus hook output here. ~5 lines max.]
+</div>
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="verdict-strip mt-4">
+<span class="winner-tag">winner: [TBD]</span>
+<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · 1-line verdict. what made the difference. which one is your default for acquisition copy going forward.]</p>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+TEST 01 VERBATIM (Scene A · ~2 min):
+
+test one. acquisition. five hooks for a real client. grounded in F6 plus voice DNA via copy_brain_retrieve. same prompt to both models. zero retries.
+
+[CLICK 1 · Mythos card]
+here's what mythos gave me. [READ MYTHOS OUTPUT verbatim or paraphrase the strongest line]
+
+[CLICK 2 · Opus card]
+here's what opus gave me. [READ OPUS OUTPUT verbatim]
+
+[CLICK 3 · verdict strip]
+the winner. [READ VERDICT]. and that's because [one specific reason · voice fit, brand fit, sultanic pattern adherence, etc].
+
+PRESENTER NOTES:
+- prep: copy actual model outputs to the placeholders BEFORE recording
+- read verdict slow. that's the moment.
+-->
+
+---
+layout: default
+class: !p-0
+---
+
+<!-- SLIDE 07 / 12 · TEST 02 · CS · ~2 min · Scene A -->
+
+<div class="grid-paper absolute inset-0 px-12 py-7">
+
+<div class="ff-bar"></div>
+
+<div class="flex items-center gap-3 mb-2">
+<span class="ff-numeral" style="color: var(--ff-cyan); font-size: 1.6rem;">02</span>
+<span class="section-tag">TEST · CUSTOMER SUCCESS</span>
+</div>
+
+<h2 style="font-size: 2rem; margin-top: 0.4rem;">weekly growth report from <span class="ff-cyan">real CSV ad data.</span></h2>
+
+<p style="font-size: 0.92rem; color: var(--ff-charcoal); margin-top: 0.4rem; margin-bottom: 0.5rem; font-style: italic;">prompt: this client spent $X. got Y leads. produce a complete weekly growth report. dollar-anchor every recommendation.</p>
+
+<div class="comparison-pair mt-3">
+
+<v-click>
+
+<div class="model-card mythos">
+<div class="model-name">Mythos 5 · output</div>
+<div class="placeholder-block">
+[JOHN FILLS · top 2-3 lines of Mythos's report. surface its strongest insight or its tightest dollar-anchor.]
+</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="model-card opus">
+<div class="model-name">Opus 4.8 · output</div>
+<div class="placeholder-block">
+[JOHN FILLS · top 2-3 lines of Opus's report. same selection rule.]
+</div>
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="verdict-strip mt-4">
+<span class="winner-tag">winner: [TBD]</span>
+<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · 1-line verdict. did one model catch a leak the other missed? what changes your CS default.]</p>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+TEST 02 VERBATIM (Scene A · ~2 min):
+
+test two. customer success. real client CSV. spend, leads, conversions. produce a full weekly growth report. dollar-anchor every rec.
+
+[CLICK 1 · Mythos]
+mythos read the data and gave me this. [READ TOP INSIGHT]
+
+[CLICK 2 · Opus]
+opus gave me this. [READ TOP INSIGHT]
+
+[CLICK 3 · verdict]
+the winner. [READ VERDICT]. [ONE CONCRETE DIFFERENCE]. and if you're running weekly reports for clients, this is the model you actually want under the hood. or not.
+
+PRESENTER NOTES:
+- weekly reports are recurring spend. this is the highest-cost-of-being-wrong bucket
+- use the verb "under the hood" (voice DNA)
+-->
+
+---
+layout: default
+class: !p-0
+---
+
+<!-- SLIDE 08 / 12 · TEST 03 · Ops · ~2 min · Scene A -->
+
+<div class="grid-paper absolute inset-0 px-12 py-7">
+
+<div class="ff-bar"></div>
+
+<div class="flex items-center gap-3 mb-2">
+<span class="ff-numeral" style="color: var(--ff-orange); font-size: 1.6rem;">03</span>
+<span class="section-tag gold">TEST · OPERATIONS</span>
+</div>
+
+<h2 style="font-size: 2rem; margin-top: 0.4rem;">refactor a skill <span class="ff-cyan">with a new memory lesson woven in.</span></h2>
+
+<p style="font-size: 0.92rem; color: var(--ff-charcoal); margin-top: 0.4rem; margin-bottom: 0.5rem; font-style: italic;">prompt: read skill X + memory file Y. refactor X to include Y's lesson. preserve existing tests. ship a diff.</p>
+
+<div class="comparison-pair mt-3">
+
+<v-click>
+
+<div class="model-card mythos">
+<div class="model-name">Mythos 5 · output</div>
+<div class="placeholder-block">
+[JOHN FILLS · summary of Mythos's diff. did it preserve tests? did it weave the memory cleanly? how many turns?]
+</div>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="model-card opus">
+<div class="model-name">Opus 4.8 · output</div>
+<div class="placeholder-block">
+[JOHN FILLS · Opus's diff summary. same questions.]
+</div>
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="verdict-strip mt-4">
+<span class="winner-tag">winner: [TBD]</span>
+<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · which one ran longer-horizon without breaking? which one preserved the existing test suite? winner takes ops.]</p>
+</div>
+
+</v-click>
+
+</div>
+
+<!--
+TEST 03 VERBATIM (Scene A · ~2 min):
+
+test three. operations. refactor an existing skill. weave in a new memory lesson. preserve tests. ship a diff.
+
+this is where mythos's swe-bench-pro number gets pressure-tested. eighty point three percent vs opus's sixty-nine. on paper. but does that translate to my actual skills folder?
+
+[CLICK 1 · Mythos] [READ]
+[CLICK 2 · Opus] [READ]
+[CLICK 3 · verdict] [READ]
+
+PRESENTER NOTES:
+- operations is the bucket where token efficiency compounds most (cron jobs, scheduled runs)
+- if mythos is materially better here, weekly burn drops
+-->
+
+---
+layout: default
+class: !p-0
+---
+
+<!-- SLIDE 09 / 12 · TEST 04 · META RECURSIVE · ~90s · Scene B -->
+
+<div class="absolute inset-0 px-14 py-9 flex flex-col justify-center" style="background: var(--ff-warm);">
+
+<div class="ff-bar"></div>
+
+<div class="flex items-center gap-3 mb-2">
+<span class="ff-numeral" style="font-size: 1.6rem;">04</span>
+<span class="section-tag gold">TEST · META · RECURSIVE</span>
+</div>
+
+<h2 style="font-size: 2.2rem; margin-top: 0.4rem; line-height: 1.1;">i asked both models to design <span class="ff-cyan">this very deck.</span></h2>
+
+<p style="font-size: 1.05rem; color: var(--ff-navy); margin-top: 0.65rem;">same prompt. same brand kit. same target runtime. zero retries. you're watching one of them right now.</p>
 
 <div class="rule-thin"></div>
 
-<div class="grid grid-cols-12 gap-5 mt-3">
+<div class="comparison-pair mt-3">
 
-<div class="col-span-7">
-<img src="../assets/ep02/frontiercode_graph.png" alt="FrontierCode accuracy vs cost" style="width: 100%; border: 1px solid var(--ff-rule); border-radius: 4px; background: white;" />
-<div class="fig-caption mt-2">FIG. 3 · FRONTIERCODE ACCURACY VS COST · LOG SCALE</div>
+<v-click>
+
+<div class="model-card mythos" style="min-height: 11rem;">
+<div class="model-name">Mythos 5 · deck</div>
+<div class="placeholder-block">
+[JOHN FILLS · 2-3 lines on what Mythos's deck looked like. tone, structure, what it nailed, what it missed.]
+</div>
 </div>
 
-<div class="col-span-5">
+</v-click>
 
-<v-clicks>
+<v-click>
 
-<div class="px-3 py-2.5" style="background: var(--ff-cream); border: 1px solid var(--ff-rule); border-radius: 4px;">
-<p style="font-size: 0.95rem; color: var(--ff-navy);"><strong class="ff-cyan">orange line:</strong> Fable 5 scales 12% → 30% as you spend $5 → $20 per task.</p>
+<div class="model-card opus" style="min-height: 11rem;">
+<div class="model-name">Opus 4.8 · deck</div>
+<div class="placeholder-block">
+[JOHN FILLS · same 2-3 lines for Opus's deck. (this one. the one you're watching.) honest read.]
+</div>
 </div>
 
-<div class="px-3 py-2.5 mt-2" style="background: var(--ff-cream); border: 1px solid var(--ff-rule); border-radius: 4px;">
-<p style="font-size: 0.95rem; color: var(--ff-navy);"><strong style="color: #2E8B8B;">green line:</strong> Opus 4.8 PLATEAUS at 12-14%. spend more, get nothing.</p>
-</div>
-
-<div class="px-3 py-2.5 mt-2" style="background: var(--ff-cream); border: 1px solid var(--ff-rule); border-radius: 4px;">
-<p style="font-size: 0.95rem; color: var(--ff-navy);"><strong>GPT-5.5:</strong> flat at 5-6%. doesn't even play.</p>
-</div>
-
-<div class="mt-3 px-3 py-2" style="background: var(--ff-navy); color: white; border-radius: 4px;">
-<p style="font-size: 1rem;"><strong>translation:</strong> the harder your work, the more Fable 5 leaves the field behind. that's not a benchmark. that's an operating advantage you can rent for $20.</p>
-</div>
-
-</v-clicks>
+</v-click>
 
 </div>
 
+<v-click>
+
+<div class="verdict-strip mt-4">
+<span class="winner-tag">winner: [TBD]</span>
+<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · which deck you would have actually recorded with. and one specific reason.]</p>
 </div>
 
-<div class="mt-4 px-5 py-3 flex items-center gap-4" style="background: var(--ff-warm); border-left: 5px solid var(--ff-orange); border-radius: 2px;">
-
-<div class="ff-eyebrow" style="margin-bottom: 0; color: var(--ff-navy); font-size: 0.65rem;">STRIPE</div>
-
-<p style="margin: 0; font-size: 1.05rem; color: var(--ff-navy);"><strong>50 million lines of ruby. codebase-wide migration. one day. would have taken their team over two months.</strong> <span class="ff-cyan">that's roughly 60x compression of senior labor.</span></p>
-
-</div>
+</v-click>
 
 </div>
 
 <!--
-SLOT 3c VERBATIM (Scene A · ~75s):
+TEST 04 VERBATIM (Scene B · the killer demo · ~90s):
 
-now here's the part that fucked me up the most when i read the announcement. and you can't read it from the benchmark table. you have to look at this graph.
+test four. meta test. recursive. i asked both models to design this exact deck. same prompt. same brand kit. same target runtime. zero retries.
 
-[CLICK 1 · orange line]
-orange line is fable 5. as you let it spend more, $5 per task, $10 per task, $20 per task, the score keeps climbing. 12 percent at low effort, all the way up to 30 at max.
+and you're watching one of them right now.
 
-[CLICK 2 · green line]
-green line is opus 4.8. plateaus at around 13. spend twice as much. get nothing extra. you hit a ceiling.
+[CLICK 1 · Mythos]
+here's the deck mythos gave me. [DESCRIBE]
 
-[CLICK 3 · GPT-5.5]
-GPT-5.5 doesn't even leave the floor. flat line.
+[CLICK 2 · Opus]
+here's what opus gave me. [DESCRIBE]
 
-[CLICK 4 · translation]
-which means the harder your problem, the bigger fable's lead gets. that's not a benchmark. that's an operating advantage you can rent for the price of a dinner.
-
-[gesture to Stripe callout · already on screen]
-and that's why the stripe number matters. fifty million lines of ruby. one day. would have taken a team two months. that's roughly sixty x compression of senior labor. and stripe is one of the most disciplined engineering orgs on earth. they're not the exception. they're the floor.
+[CLICK 3 · verdict]
+the one i actually recorded with is [WINNER]. and the reason is [ONE SPECIFIC REASON].
 
 PRESENTER NOTES:
-- the cost-curve story is the technical case for everything that follows
-- stripe callout already on screen during the click sequence
-- ~75s
+- Scene B for emphasis (this is the killer-demo moment)
+- the line "you're watching one of them right now" is the hook of the entire video
 -->
 
 ---
-
-<!-- ============================================================
-     SLOT 3d / 6 · BUILD 1 · the three failure modes · Scene A
-     ============================================================ -->
 layout: default
 class: !p-0
 ---
+
+<!-- SLIDE 10 / 12 · VERDICT BY BUCKET · ~60s · Scene A -->
 
 <div class="grid-paper absolute inset-0 px-12 py-7">
 
 <div class="ff-bar"></div>
 
-<div class="flex items-center gap-4 mb-2">
-<div class="section-tag">PHASE 01</div>
-<span class="step-counter"><span class="num">STEP 04</span> · three failures most operators are about to make</span>
-</div>
+<div class="ff-eyebrow">the verdict</div>
 
-<h2 style="font-size: 1.95rem; margin-top: 0.25rem;">the constraint moved. <span class="ff-cyan">three things follow.</span></h2>
+<h2 style="font-size: 2.1rem; margin-top: 0.25rem;">by bucket. <span class="ff-cyan">which model goes default.</span></h2>
 
 <div class="rule-thin"></div>
 
 <div class="grid grid-cols-3 gap-5 mt-4">
 
-<v-clicks>
+<v-click>
 
-<div class="ff-card">
-<div class="section-tag navy">FAILURE 01</div>
-<h3 style="font-size: 1.15rem; margin-top: 0.5rem; color: var(--ff-navy);">pricing yesterday's labor</h3>
-<p style="margin-top: 0.5rem; font-size: 0.95rem;">you cannot sell hours in a market where hours don't exist. you can sell judgment. you can sell taste. you can sell the system that decides. <strong class="ff-cyan">you cannot sell forty hours of doing.</strong></p>
+<div class="bucket-card acq">
+<div class="bucket-name">acquisition</div>
+<div class="bucket-headline" style="margin-top: 0.4rem;">[winner TBD]</div>
+<div class="bucket-examples">[JOHN FILLS · 1-line reason]</div>
 </div>
 
-<div class="ff-card">
-<div class="section-tag gold">FAILURE 02</div>
-<h3 style="font-size: 1.15rem; margin-top: 0.5rem; color: var(--ff-navy);">chasing shiny new ideas</h3>
-<p style="margin-top: 0.5rem; font-size: 0.95rem;">the shelf is sitting right there. you already validated those projects. you already scoped them. they just cost too much. <strong class="ff-cyan">the new yes is the old yes the math finally allows.</strong></p>
+</v-click>
+
+<v-click>
+
+<div class="bucket-card cs">
+<div class="bucket-name">customer success</div>
+<div class="bucket-headline" style="margin-top: 0.4rem;">[winner TBD]</div>
+<div class="bucket-examples">[JOHN FILLS · 1-line reason]</div>
 </div>
 
-<div class="ff-card">
-<div class="section-tag navy">FAILURE 03</div>
-<h3 style="font-size: 1.15rem; margin-top: 0.5rem; color: var(--ff-navy);">confusing cheaper with easier</h3>
-<p style="margin-top: 0.5rem; font-size: 0.95rem;">the work still needs taste. the model does not know which migration is worth running. it does not know which client deserves the rebuild. <strong class="ff-cyan">you do.</strong></p>
+</v-click>
+
+<v-click>
+
+<div class="bucket-card ops">
+<div class="bucket-name">operations</div>
+<div class="bucket-headline" style="margin-top: 0.4rem;">[winner TBD]</div>
+<div class="bucket-examples">[JOHN FILLS · 1-line reason]</div>
 </div>
 
-</v-clicks>
+</v-click>
 
 </div>
 
 <v-click>
 
-<div class="mt-6 px-5 py-3.5" style="background: var(--ff-navy); color: white; border-radius: 2px;">
-<p style="margin: 0; font-size: 1.15rem; line-height: 1.4;">the constraint used to be capital, then hours. <span class="ff-orange">now it's discernment.</span> the question stopped being "can we afford this?" it's now <strong>"should we even do this?"</strong> and that's a way harder question.</p>
+<div class="mt-6 px-5 py-3.5" style="background: var(--ff-navy); color: white; border-radius: 10px;">
+<p style="margin: 0; font-size: 1.05rem;"><strong>the rule i'm using going forward:</strong> [JOHN FILLS · the routing rule. one sentence.] right?</p>
 </div>
 
 </v-click>
@@ -530,232 +741,58 @@ class: !p-0
 </div>
 
 <!--
-SLOT 3d VERBATIM (Scene A · ~90s):
+VERDICT VERBATIM (Scene A · ~60s):
 
-so the cost curve broke. that's the whole story. and when the cost curve breaks, three things happen.
+so what's the call. by bucket.
 
-[CLICK 1 · failure 01]
-one. operators pricing yesterday's labor lose. you cannot sell hours in a market where hours don't exist anymore. you can sell judgment. you can sell taste. you can sell the system that decides. you cannot sell forty hours of doing.
+[CLICK 1 · acquisition]
+acquisition. winner is [X]. because [REASON].
 
-[CLICK 2 · failure 02]
-two. operators chasing shiny new ideas miss the easy win. the shelf is sitting right there. you already validated those projects. you already scoped them. you already wanted them. they just cost too much. the new yes is the old yes that the math finally allows.
+[CLICK 2 · CS]
+customer success. winner is [X]. because [REASON].
 
-[CLICK 3 · failure 03]
-three. operators who confuse cheaper with easier lose the whole thing. the work still needs taste. the model doesn't know which migration is worth running. it doesn't know which client deserves the rebuild. you do.
+[CLICK 3 · ops]
+operations. winner is [X]. because [REASON].
 
-[CLICK 4 · the constraint moved]
-the constraint moved. it used to be capital. it used to be hours. now it's discernment. the question stopped being can we afford this. the question is now should we even do this. and that's a way harder question.
+[CLICK 4 · navy callout]
+the rule i'm using going forward. [READ ROUTING RULE]. right?
 
 PRESENTER NOTES:
-- pace yourself. one per breath. number on fingers.
-- "you cannot sell forty hours of doing" is the section's punch line. let it sit.
-- ~90s
+- "right?" is the John signature tag at the end. don't drop it.
+- if same model wins all three, say so explicitly and explain why
 -->
 
 ---
-
-<!-- ============================================================
-     SLOT 4 / 6 · WHITEBOARD · 2-4min · drauu in place · Scene A
-     ============================================================ -->
 layout: default
 class: !p-0
 ---
 
-<div class="absolute inset-0 px-16 py-12" style="background: var(--ff-warm);">
+<!-- SLIDE 11 / 12 · IDENTITY BEAT · ~75s · Scene A · SLOW -->
+
+<div class="absolute inset-0 flex flex-col justify-center px-14 py-10" style="background: var(--ff-warm);">
 
 <div class="ff-bar"></div>
 
-<div class="section-tag gold">FIG. 4 · YOUR SHELF IS THE ROADMAP</div>
-
-<h2 style="font-size: 2.6rem; margin-top: 1rem;">draw the curve. <span class="ff-cyan">fill the shelf.</span></h2>
-
-<div class="rule-thin"></div>
-
-<div class="whiteboard-scene mt-6" style="min-height: 380px;">
-[ PRESS PEN ICON · DRAW LIVE ·<br/><br/>
-TWO COLUMNS: "SHELVED 2024" (RED) | "VIABLE TODAY" (GREEN) ·<br/>
-COST CURVE ACROSS THE TOP: MONTHS → DAYS ·<br/>
-SIX REAL SHELVED PROJECTS WITH DOLLAR ANCHORS ·<br/>
-ARROWS SWEEPING ACROSS THE CURVE ·<br/>
-CIRCLE THE GREEN COLUMN ·<br/>
-HAND-PRINT: "you don't need new ideas. you need the old yeses you couldn't afford." ]
-</div>
-
-<div class="fig-caption mt-4">PRESS PEN ICON · NARRATE WHILE DRAWING · HOLD 2 SECONDS ON FINAL LINE</div>
-
-</div>
-
-<!--
-WHITEBOARD VERBATIM (Scene A · drauu pen on this slide · 2-4 min):
-
-alright. whiteboard. let me draw this out.
-
-two columns. left side i'm writing "shelved 2024." red marker. right side i'm writing "viable today." green marker.
-
-and across the top, i'm drawing the cost curve. starts way up here, crashes down to almost nothing. label at the top of the curve. months. label at the bottom. days. that's the whole macro picture.
-
-now watch what happens in the columns.
-
-left side. real things i killed. full codebase rewrite, eighty grand. internal tooling, forty grand. knowledge base audit, twenty five. per-client funnels, hundred and twenty. compliance review, sixty. back catalog re-edit, thirty five.
-
-those are not hypothetical. those are projects i had on a list that i walked away from because the math didn't work.
-
-now watch the arrows. each one sweeps across the curve. and the new number on the right is roughly one percent of the old number. eight hundred bucks. four hundred. three hundred. twelve hundred. six hundred. four hundred.
-
-that's your column. that's your green column. that's your roadmap.
-
-and i'm gonna circle it. and underneath the circle i'm writing the line that decides whether this video changes anything for you.
-
-you don't need new ideas. you need the old yeses you couldn't afford.
-
-that's it. that's the whole frame. read it again. the new ideas are not the play. the play is the shelf. the play is what you already decided was worth doing back when worth doing meant "i can justify the cost."
-
-the justification just changed.
-
-DIAGRAM STEPS (in order):
-1. HEADERS: top of board, write "SHELVED 2024" left in red, "VIABLE TODAY" right in green. big.
-2. COST CURVE: draw a downward sloping curve from high-left to low-right across the top third. label top "MONTHS" and bottom "DAYS."
-3. LEFT COLUMN: six lines in red top-to-bottom. say each out loud. "codebase rewrite $80k", "internal tooling $40k", "kb audit $25k", "per-client funnels $120k", "compliance review $60k", "back-catalog re-edit $35k".
-4. ARROWS: sweep an arrow from each left entry across the curve. "each one crosses the curve."
-5. RIGHT COLUMN: in green, write across from each. "~$800", "~$400", "~$300", "~$1.2k", "~$600", "~$400".
-6. CIRCLE the right column hard in green. say "that's your column. that's your roadmap."
-7. FINAL LINE under the circled right column: "you don't need new ideas. you need the old yeses you couldn't afford." hold camera 2 seconds.
-
-PRESENTER NOTES:
-- drawing IS the pacing. don't speed-run.
-- read each dollar value out loud.
-- name one REAL agency-os shelved project from your own work (audit_scaffolder/deep_audit, per-client funnel rebuild, etc).
-- closing line IS the title of the episode.
--->
-
----
-
-<!-- ============================================================
-     SLOT 5a / 6 · BUILD 2 · the four moves · Scene A
-     ============================================================ -->
-layout: default
-class: !p-0
----
-
-<div class="grid-paper absolute inset-0 px-12 py-7">
-
-<div class="ff-bar"></div>
-
-<div class="flex items-center gap-4 mb-2">
-<div class="section-tag">PHASE 02</div>
-<span class="step-counter"><span class="num">STEP 05</span> · the playbook</span>
-</div>
-
-<h2 style="font-size: 2rem; margin-top: 0.25rem;">four moves. <span class="ff-cyan">one per week. twelve weeks.</span></h2>
-
-<div class="rule-thin"></div>
-
-<div class="grid grid-cols-4 gap-4 mt-5">
+<div class="ff-eyebrow" style="color: var(--ff-orange);">the part nobody's saying out loud</div>
 
 <v-clicks>
 
-<div class="ff-card">
-<div class="section-tag navy">01</div>
-<h3 style="font-size: 1.08rem; margin-top: 0.5rem; color: var(--ff-navy);">audit the shelf</h3>
-<p style="margin-top: 0.5rem; font-size: 0.88rem;">one focused afternoon. list every project, migration, audit, or build you killed for being too expensive. don't filter. 30 to 50 items.</p>
-<div class="fig-caption" style="margin-top: 0.75rem;">~1 AFTERNOON</div>
-</div>
-
-<div class="ff-card">
-<div class="section-tag gold">02</div>
-<h3 style="font-size: 1.08rem; margin-top: 0.5rem; color: var(--ff-navy);">re-price each one</h3>
-<p style="margin-top: 0.5rem; font-size: 0.88rem;">team of 3 for 2 months becomes one operator with a project folder for 3 days. ten grand becomes a hundred. kill nothing that survives.</p>
-<div class="fig-caption" style="margin-top: 0.75rem;">~1 HOUR EACH</div>
-</div>
-
-<div class="ff-card">
-<div class="section-tag navy">03</div>
-<h3 style="font-size: 1.08rem; margin-top: 0.5rem; color: var(--ff-navy);">rank by compounding</h3>
-<p style="margin-top: 0.5rem; font-size: 0.88rem;">not exciting-ness. the boring migration that unlocks 10x throughput beats the sexy new product every time. <strong class="ff-cyan">compounding beats clever.</strong></p>
-<div class="fig-caption" style="margin-top: 0.75rem;">~1 MORNING</div>
-</div>
-
-<div class="ff-card">
-<div class="section-tag gold">04</div>
-<h3 style="font-size: 1.08rem; margin-top: 0.5rem; color: var(--ff-navy);">ship one per week</h3>
-<p style="margin-top: 0.5rem; font-size: 0.88rem;">one. per. week. for. twelve. weeks. no off-site. no roadmap doc. just monday after monday after monday.</p>
-<div class="fig-caption" style="margin-top: 0.75rem;">~12 WEEKS</div>
-</div>
-
-</v-clicks>
-
-</div>
-
-<v-click>
-
-<div class="mt-6 px-5 py-3.5" style="background: var(--ff-navy); color: white; border-radius: 2px;">
-<p style="margin: 0; font-size: 1.1rem;">twelve weeks. twelve compounding assets your competitors don't have. <span class="ff-orange">and they will not catch up.</span> because they're still asking what the model can do.</p>
-</div>
-
-</v-click>
-
-</div>
-
-<!--
-SLOT 5a VERBATIM (Scene A · ~4 min):
-
-four moves. and then one question that decides whether any of this matters for you.
-
-[CLICK 1 · move 01 card]
-move one. audit the shelf. one afternoon. open a doc. write down every project, every migration, every audit, every build you killed in the last two years because the math didn't work. don't filter. just list. thirty to fifty items. if you have fewer than ten you didn't go back far enough.
-
-[CLICK 2 · move 02 card]
-move two. re-price each one. write the new cost next to the old. team of three for two months becomes one operator with a project folder for three days. ten grand becomes a hundred. forty grand becomes four hundred. kill nothing that survives the re-price.
-
-[CLICK 3 · move 03 card]
-move three. rank by compounding asset value. not by exciting-ness. this is where most operators screw up. the boring migration that unlocks ten x throughput beats the sexy new product every single time. compounding beats clever.
-
-[CLICK 4 · move 04 card]
-move four. ship one per week. twelve weeks. one. per. week. for. twelve. weeks. that's the entire strategy. no off-site. no roadmap doc. no sprint planning ritual. you ship one shelf item every monday for twelve mondays in a row.
-
-[CLICK 5 · navy callout]
-in twelve weeks you have twelve compounding assets your competitors don't have. and they will not catch up. because they're still asking what the model can do.
-
-PRESENTER NOTES:
-- operator tempo. controlled. dollar-anchored.
-- click each card AS you read it
-- "one. per. week. for. twelve. weeks." with full beat between each word
-- ~4 min
--->
-
----
-
-<!-- ============================================================
-     SLOT 5b / 6 · BUILD 2 · the identity beat · Scene A
-     ============================================================ -->
-layout: default
-class: !p-0
----
-
-<div class="absolute inset-0 flex flex-col justify-center px-16 py-12" style="background: var(--ff-warm);">
-
-<div class="ff-bar"></div>
-
-<div class="section-tag gold mb-4">FIG. 5 · THE PART NOBODY'S SAYING OUT LOUD</div>
-
-<v-clicks>
-
-<h2 style="font-size: 2.7rem; line-height: 1.15; color: var(--ff-navy); margin-bottom: 1.5rem;">
-the shelf is not just a list of <span style="text-decoration: line-through; color: rgba(30,58,95,0.45); font-weight: 500;">cheap projects.</span>
+<h2 style="font-size: 2.5rem; line-height: 1.15; color: var(--ff-navy);">
+this is not a question of <span style="text-decoration: line-through; color: rgba(30,58,95,0.45);">which model to use.</span>
 </h2>
 
-<h2 style="font-size: 2.7rem; line-height: 1.15; color: var(--ff-navy);">
-the shelf is a list of <span class="ff-cyan">the work you actually wanted to do.</span>
+<h2 style="font-size: 2.5rem; line-height: 1.15; color: var(--ff-navy); margin-top: 0.5rem;">
+it's a question of <span class="ff-cyan">which bucket compounds.</span>
 </h2>
 
-<div style="height: 1px; background: var(--ff-rule); margin: 2rem 0;"></div>
+<div class="rule-thin"></div>
 
-<p style="font-size: 1.25rem; color: var(--ff-navy); line-height: 1.5;">the rebuild of the offer you knew was wrong. the audit you knew the business needed. the system you knew would set you free. you didn't kill them because they were bad. <strong>you killed them because the cost curve told you no.</strong></p>
+<p style="font-size: 1.15rem; color: var(--ff-navy); line-height: 1.5;">
+just because you can use the most expensive model on every task doesn't mean you should. just because you can build the shiny new thing doesn't mean you should. the model lowers the cost. <strong>the bucket you pick decides whether you compound or you burn.</strong>
+</p>
 
-<p style="font-size: 1.4rem; color: var(--ff-navy); font-weight: 700; margin-top: 1.25rem;">the curve is not telling you no anymore.</p>
-
-<div class="mt-6 px-5 py-4" style="background: var(--ff-navy); color: white; border-radius: 2px; text-align: center;">
-<p style="margin: 0; font-size: 1.5rem; font-weight: 700;">the model lowers the cost. <span class="ff-orange">you still pick.</span></p>
+<div class="px-5 py-4 text-center" style="background: var(--ff-navy); color: white; border-radius: 10px;">
+<p style="margin: 0; font-size: 1.45rem; font-weight: 700;">the model lowers the cost. <span class="ff-orange">you still pick.</span></p>
 </div>
 
 </v-clicks>
@@ -763,67 +800,68 @@ the shelf is a list of <span class="ff-cyan">the work you actually wanted to do.
 </div>
 
 <!--
-SLOT 5b VERBATIM (Scene A · slow down · ~2 min):
+IDENTITY BEAT VERBATIM (Scene A · slow · intimate · ~75s):
 
-[FULL BEAT · 1 full second of silence before clicking]
+[FULL BEAT · one second of silence]
 
-but here's the part nobody's saying out loud.
+now the part nobody's saying out loud.
 
-[CLICK 1 · strike-through]
-the shelf is not just a list of cheap projects.
+[CLICK 1 · h2 with strike-through]
+this is not a question of which model to use.
 
-[CLICK 2 · second h2 reveals]
-the shelf is a list of the work you actually wanted to do.
+[CLICK 2 · second h2]
+it's a question of which bucket compounds.
 
-[CLICK 3 · expansion paragraph]
-the rebuild of the offer you knew was wrong. the audit you knew the business needed. the system you knew would set you free. you didn't kill those projects because they were bad. you killed them because the cost curve told you no.
+[CLICK 3 · expansion]
+just because you can use the most expensive model on every task doesn't mean you should. just because you can build the shiny new thing doesn't mean you should. the model lowers the cost. the bucket you pick decides whether you compound or you burn.
 
-[CLICK 4 · curve line]
-the curve is not telling you no anymore.
-
-so the real question is not whether you can afford the shelf. it's whether you trust yourself to pick from it. because if you don't trust the version of you that put those projects on the shelf in the first place, no amount of cheap intelligence is gonna save you.
-
-[CLICK 5 · navy callout]
+[CLICK 4 · navy callout]
 the model lowers the cost. you still pick.
 
 pick well.
 
 PRESENTER NOTES:
-- DROP TEMPO. controlled, intimate, not directorial.
-- sit forward. lower voice. kill teaching energy.
-- "the model lowers the cost. you still pick." is the 2nd-most-important line in the episode.
-- "pick well." is the two-word close. let it sit.
-- ~2 min
+- DROP TEMPO. sit forward. lower voice. kill teaching energy.
+- "pick well" is the 2-word close. let it sit.
+- this beat is the spine of the whole channel philosophy
 -->
 
 ---
 
 <!-- ============================================================
-     SLOT 6 / 6 · RECAP + CTA · 30-45s · Scene D (cam only)
+     SLIDE 12 / 12 · RECAP + CTA · ~35s · Scene D (cam only)
      ============================================================ -->
 
-<div class="absolute inset-0 ff-navy-bg flex flex-col justify-center px-16 py-12">
+<div class="absolute inset-0 ff-navy-bg flex flex-col justify-center px-14 py-10">
 
 <div class="ff-bar"></div>
 
 <div class="ff-eyebrow" style="color: rgba(255,255,255,0.65);">RECAP · EPISODE 02</div>
 
-<h1 style="font-size: 3.4rem; color: white;">the shelf <span class="ff-orange">is the strategy.</span></h1>
+<h1 style="font-size: 3rem; color: white; line-height: 1.1;">three things <span class="ff-orange">to remember.</span></h1>
 
 <div style="height: 1px; background: rgba(255,255,255,0.2); margin: 1.25rem 0 1.5rem;"></div>
 
 <div class="grid grid-cols-2 gap-10">
 
 <div>
-<div class="section-tag gold" style="background: rgba(212,184,90,0.1);">WHAT TO REMEMBER</div>
 
 <v-clicks>
 
-<ul style="margin-top: 0.85rem; color: rgba(255,255,255,0.92); font-size: 1rem; list-style: none; padding: 0;">
-<li style="margin-bottom: 0.7rem;"><span class="ff-orange" style="font-family: monospace; font-weight: 700;">01 ·</span> months became days. ~60x compression of senior labor. your pricing, your team, your calendar were built for a curve that no longer exists.</li>
-<li style="margin-bottom: 0.7rem;"><span class="ff-orange" style="font-family: monospace; font-weight: 700;">02 ·</span> every project you killed for being too expensive just got re-priced. that list of yeses you couldn't afford is your roadmap now.</li>
-<li><span class="ff-orange" style="font-family: monospace; font-weight: 700;">03 ·</span> four moves. audit. re-price. rank by compounding. ship one per week for twelve weeks. <strong class="ff-cyan">the model lowers the cost. you still pick.</strong></li>
-</ul>
+<div style="margin-bottom: 0.9rem;">
+<span class="ff-orange" style="font-family: monospace; font-weight: 700; font-size: 0.92rem;">01 ·</span>
+<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> two hours of testing beats two weeks of opinions. [JOHN FILLS · one specific insight from your test.]</span>
+</div>
+
+<div style="margin-bottom: 0.9rem;">
+<span class="ff-orange" style="font-family: monospace; font-weight: 700; font-size: 0.92rem;">02 ·</span>
+<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> the routing rule by bucket: [JOHN FILLS · 1-line rule].</span>
+</div>
+
+<div>
+<span class="ff-orange" style="font-family: monospace; font-weight: 700; font-size: 0.92rem;">03 ·</span>
+<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> just because you can doesn't mean you should. <strong style="color: white;">the model lowers the cost. you still pick.</strong></span>
+</div>
 
 </v-clicks>
 
@@ -835,9 +873,8 @@ PRESENTER NOTES:
 
 <div class="cta-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.3); color: white;">
 <div class="section-tag gold" style="margin-bottom: 0.75rem;">NEXT EPISODE</div>
-<p style="font-size: 1.15rem; color: white; margin: 0; line-height: 1.4;">i walk through my actual shelf. the projects i killed in the last two years that just got cheap. the order i'm shipping them in. and the one i'm starting this monday.</p>
-<p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-top: 0.85rem;">bring a notebook. you're gonna want to mirror the move.</p>
-<p style="font-size: 0.88rem; color: rgba(255,255,255,0.5); margin-top: 0.5rem; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.1em;">subscribe so you don't miss it.</p>
+<p style="font-size: 1.1rem; color: white; margin: 0; line-height: 1.4;">i'm building the operator-OS routing layer live. one prompt to claude. it picks the bucket. it picks the model. it ships the output.</p>
+<p style="font-size: 0.88rem; color: rgba(255,255,255,0.55); margin-top: 0.7rem; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.1em;">subscribe so you don't miss it.</p>
 </div>
 
 </v-click>
@@ -846,8 +883,8 @@ PRESENTER NOTES:
 
 </div>
 
-<div class="absolute bottom-8 left-0 right-0 text-center" style="color: rgba(255,255,255,0.4); font-size: 0.7rem; letter-spacing: 0.25em; font-family: 'JetBrains Mono', monospace;">
-JOBURN.COM · BUILD-ALONG EP 02 · 2026-06-09
+<div class="absolute bottom-7 left-0 right-0 text-center" style="color: rgba(255,255,255,0.4); font-size: 0.7rem; letter-spacing: 0.25em; font-family: 'JetBrains Mono', monospace;">
+YOUTUBE · @JOHNCOBURN · 2026-06-09
 </div>
 
 </div>
@@ -855,27 +892,22 @@ JOBURN.COM · BUILD-ALONG EP 02 · 2026-06-09
 <!--
 RECAP VERBATIM (Scene D · cam only · 30-45s):
 
-three takeaways.
+three things to remember.
 
 [CLICK 1 · takeaway 01]
-one. months became days. the cost of a unit of work just dropped roughly sixty x. your pricing, your team structure, your weekly calendar were all built for a labor curve that no longer exists. fix that this month or someone else eats your category.
+one. two hours of testing beats two weeks of opinions. [INSIGHT FROM YOUR TEST]
 
 [CLICK 2 · takeaway 02]
-two. every project you killed for being too expensive just got re-priced. that list of yeses you couldn't afford is your roadmap now. you don't need new ideas. you need the old yeses.
+two. the routing rule by bucket. [READ ROUTING RULE]
 
 [CLICK 3 · takeaway 03]
-three. four moves. audit the shelf. re-price. rank by compounding asset value. ship one a week for twelve weeks. that's the strategy. the model lowers the cost. you still pick.
+three. just because you can doesn't mean you should. the model lowers the cost. you still pick.
 
-[CLICK 4 · tease]
-next video i'm walking through my actual shelf. the projects i killed in the last two years that just got cheap. the order i'm shipping them in. and the one i'm starting this monday. bring a notebook. you're gonna want to mirror the move.
-
-subscribe so you don't miss it.
-
-and stop trading hours. you don't have to anymore.
+[CLICK 4 · CTA card]
+next episode i'm building the operator-OS routing layer live. one prompt to claude. it picks the bucket. it picks the model. it ships the output. subscribe so you don't miss it.
 
 PRESENTER NOTES:
 - Scene D · cam only · eye contact
-- final line "stop trading hours, you don't have to anymore" is the mic drop. let it sit.
-- hold 2 full seconds before stopping recording.
-- 30-45s.
+- "you still pick" lands the philosophy one more time
+- hold 2 full seconds before stopping recording
 -->
