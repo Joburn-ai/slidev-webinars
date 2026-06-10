@@ -827,10 +827,11 @@ PRESENTER NOTES:
 -->
 
 ---
+layout: default
+class: !p-0
+---
 
-<!-- ============================================================
-     SLIDE 12 / 12 · RECAP + CTA · ~35s · Scene D (cam only)
-     ============================================================ -->
+<!-- SLIDE 12 / 12 · RECAP + CTA · ~35s · Scene D (cam only) -->
 
 <div class="absolute inset-0 ff-navy-bg flex flex-col justify-center px-14 py-10">
 

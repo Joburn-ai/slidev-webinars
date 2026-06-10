@@ -148,6 +148,15 @@
    classes for Mythos vs Opus blocks.
    ============================================================ */
 
+/* Force white text inside navy callout boxes (fixes specificity vs global .slidev-layout p).
+   Any element with inline navy background gets white text. */
+[style*="background: var(--ff-navy)"] p,
+[style*="background: var(--ff-navy)"] li,
+[style*="background: var(--ff-navy)"] strong,
+[style*="background: var(--ff-navy)"] span:not([class*="ff-"]) {
+  color: white !important;
+}
+
 .ff-card {
   background: white;
   border-radius: 12px;
@@ -250,6 +259,14 @@
   border-radius: 4px;
   font-weight: 800;
   flex-shrink: 0;
+}
+
+/* Force white text inside .verdict-strip — fixes specificity vs global .slidev-layout p */
+.verdict-strip p,
+.verdict-strip li,
+.verdict-strip strong,
+.verdict-strip span:not(.winner-tag) {
+  color: white !important;
 }
 
 /* Bucket card · acquisition / customer success / operations */
