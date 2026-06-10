@@ -1,67 +1,86 @@
-# Episode 02 · Recording Pack
+# Episode 02 · Recording Pack · v3 (FABLE v2 deck)
 
-**Date locked:** 2026-06-09
-**Episode:** months became days. and your shelf became the strategy.
-**Companion deck:** [episode_02_fable5_mythos5_drop.md](episode_02_fable5_mythos5_drop.md)
+**Date locked:** 2026-06-10
+**Episode:** i spent 2 hours testing fable 5. (the deck fable built.)
+**Deck (16 slides):** [episode_02_fable5_mythos5_drop.md](episode_02_fable5_mythos5_drop.md)
 
-> **Why this pack:** John records the workshop deck once (14-22 min YouTube). Then he records 2 vertical IG/TikTok green-screen hot takes off the same news drop. Same recording session. Different formats. The IG clips are the demand-generation surface that points back to the YouTube workshop.
-
----
-
-## 1 · Pre-record checklist (do these 5 before pressing record)
-
-1. **Fact-check the Stripe number out loud once before camera roll.** Phrase: *"50 million lines of Ruby, one day, would have taken a team over two months."* Lock the compression as *"roughly sixty x"* on camera. If unsure, soften to *"roughly fifty to sixty x."* **Never say "literally."**
-
-2. **Whiteboard dry run.** Walk the two-column board once before recording.
-   - RED marker left: `SHELVED 2024`
-   - GREEN marker right: `VIABLE TODAY`
-   - Downward cost curve across the top labeled `MONTHS → DAYS`
-   - Six real shelved-project archetypes with dollar anchors
-   - GREEN circle around the right column
-   - Lowercase closing line: *"you don't need new ideas. you need the old yeses you couldn't afford."*
-   - Confirm markers haven't dried out.
-
-3. **Name 3 REAL shelved projects from your own work** (sticky note off-camera). Editor verdict: without lived examples the angle reads vendor-promoted. Candidates from agency-os:
-   - `deep_audit` getting superseded by `audit_scaffolder`
-   - A per-client funnel rebuild you walked away from
-   - A 1000-page knowledge-base audit you scoped and killed
-   - Any internal tooling build that died in 2024
-   - The Brain Hub Linktree alternative that became Metricool
-
-4. **Identity beat rehearsal.** Practice the transition between the four moves and the identity payoff:
-   - *"the shelf is not just a list of cheap projects. the shelf is a list of the work you actually wanted to do."*
-   - Sit forward. Lower voice. Kill directorial energy.
-   - 2-word close: **"pick well."**
-
-5. **Banned-word sweep.**
-   - Zero em-dashes in any overlay, lower-third, caption, or thumbnail
-   - Banned phrases: *"in today's world,"* *"let me explain,"* *"let's dive in,"* leverage-as-overused-noun
-   - Cap Anthropic name-drops at twice across the full video
-   - Inside narration use *"one model"* not *"Claude Fable 5"* where possible
-   - Lowercase comfortable throughout overlays and tease card
-
----
-
-## 2 · Key data points to memorize (5 facts John must nail on camera)
-
-| Fact | Phrase |
+| URL | What |
 |---|---|
-| **Stripe** | 50,000,000 lines of Ruby. Codebase-wide migration. Took one model one day. Would have taken their team over two months. *Roughly* sixty x compression. |
-| **Pricing** | $10 per million input tokens. $50 per million output. Less than half the previous frontier tier (Mythos Preview was over 2x). Free on Pro/Max/Team plans through **June 22, 2026**. Credits start June 23. |
-| **Memory multiplier** | Fable 5 with persistent file-based memory got a **3x larger** improvement than Opus 4.8 did from the same memory setup (Slay the Spire benchmark). Our existing CLAUDE.md / MEMORY.md / skills architecture compounds 3x harder on Fable 5. |
-| **Safety fallback** | ~5% of sessions silently fall back to Opus 4.8 on cyber/bio/chem/distillation topics. Users get informed when it fires. Log when it happens. |
-| **Two-tier access** | Fable 5 ships everywhere (API + Pro/Max/Team/Enterprise). Mythos 5 is the same model with cyber safeguards lifted, restricted to Project Glasswing. Capability is no longer the moat. Access tiers are. 30-day mandatory data retention on Mythos-class. |
+| https://joburn-buildalong-ep02.vercel.app | Main · currently Fable v2 · record off this |
+| https://joburn-buildalong-ep02-fable-v2.vercel.app | Permanent Fable v2 snapshot |
+| https://joburn-buildalong-ep02-opus-v1.vercel.app | Permanent Opus v1 snapshot · the A/B artifact |
+
+> **The play:** one recording session produces the YouTube workshop (16-22 min) + 2 vertical green-screen hot takes + 3 clipped shorts from the long-form. The deck's test 04 shows BOTH deck versions on camera. Put both URLs in the video description.
 
 ---
 
-## 3 · IG / TikTok hot take · WINNER (~42 seconds · reframe)
+## 1 · BEFORE recording: run the 5 tests (this is the 2 hours)
 
-**Format:** Reframe-45s. State the obvious narrative, flip it, land the operator implication.
+The deck has `[JOHN FILLS]` placeholder blocks on slides 9, 10, 11, 12, 14, 16. Run each test on BOTH models first, paste the outputs in, rebuild, redeploy. Test prompts:
 
-### Hook (first 3 seconds, must stop the scroll)
-> stripe just shipped two months of engineering work in one day with fable 5. fifty million lines of ruby. one model. one day.
+| # | Bucket | Exact play |
+|---|---|---|
+| 01 | Acquisition | Same prompt to both models: "pull F6 + voice DNA for [Enable or SupportED] from copy brain. write 5 ad hooks. apply our taxonomy." Zero retries. Paste each model's strongest hook. |
+| 02 | Customer success | Hand both a real client CSV (spend / clicks / conversions). "Produce the full weekly growth report. dollar-anchor every recommendation." Paste each model's sharpest insight. |
+| 03 | Operations | "Read skill X + memory lesson Y. refactor X to include Y. preserve existing behavior. ship a diff." Compare turns + whether behavior survived. |
+| 04 | Meta · the deck | DONE. Opus built v1, Fable built v2. Both live at the URLs above. Add your honest read to the Fable card on slide 12. |
+| 05 | Judgment | Ask both: "which of the three buckets benefits most from fable 5 specifically, and why?" Compare the REASONING. Feeds the verdict + recap. |
 
-### Full script
+**Fact locks while talking:**
+- You tested **Fable 5**, not Mythos. Mythos 5 is the same model with cyber safeguards lifted, locked to Project Glasswing. The deck teaches this distinction on slide 5. Don't undo it on camera.
+- Stripe: 50 million lines of Ruby, codebase-wide migration, one day, team had it scoped at two-plus months. Say "roughly" on any compression multiple. Never "literally."
+- Pricing: $10 in / $50 out per million tokens. Less than half of Mythos Preview. Free on Pro/Max through June 22, credits start June 23.
+- Benchmarks: SWE-Bench Pro 80.3 vs 69.2 (Opus) vs 58.6 (GPT-5.5). FrontierCode 29.3 vs 13.4 vs 5.7.
+- Safety fallback: roughly 5% of sessions route to Opus 4.8 on cyber/bio/chem topics. Users are told when it happens.
+
+---
+
+## 2 · The 16-slide map (scene + tempo + time)
+
+| # | Slide | Scene | Tempo | Time |
+|---|---|---|---|---|
+| 1 | Cover · "i spent 2 hours testing fable 5" | A | FRAME | 8-12s |
+| 2 | The twist · "the model under review built this deck" | B | FRAME | ~20s |
+| 3 | Stakes · "labor-cost reality check" | B | FRAME | ~25s |
+| 4 | Who's testing · 3 not-tags + hero card | B | FRAME | ~30s |
+| 5 | What dropped · butterfly hero + 4 facts | A | MOVE FAST | ~60s |
+| 6 | Receipts · agentic-coding chart + annotations | A | ZOOM | ~75s |
+| 7 | The frame · 3 buckets | A | MOVE FAST | ~45s |
+| 8 | Test plan · 5 rows | A | MOVE FAST | ~40s |
+| 9 | Test 01 · acquisition | A | MOVE FAST | ~2min |
+| 10 | Test 02 · customer success | A | MOVE FAST | ~2min |
+| 11 | Test 03 · operations | A | MOVE FAST | ~2min |
+| 12 | Test 04 · the deck test (closes slide-2 loop) | B | MOVE FAST | ~2min |
+| 13 | Whiteboard · draw the routing layer (drauu) | A | STOP | 2-3min |
+| 14 | Verdict by bucket | A | LAND | ~60s |
+| 15 | Identity beat · "you still pick" | A | LAND · SLOW | ~75s |
+| 16 | Recap + CTA | D | LAND | ~35s |
+
+**Estimated runtime: 16-21 min.** Hero's Journey: call (1) → stakes (2-3) → guide (4) → truth (5-8) → trials (9-12) → map (13) → verdict (14) → transformation (15) → return (16).
+
+**The slide-2 / slide-12 loop:** slide 2 opens the "both decks" loop, slide 12 closes it. Don't reveal the verdict early. If you slip, cut it in the edit.
+
+---
+
+## 3 · OBS scenes (same 4-scene rig + vertical)
+
+| Scene | Hotkey | Use on |
+|---|---|---|
+| A · Slides + cam corner | Cmd+1 | 1, 5-11, 13-15 |
+| B · Slides + large cam | Cmd+2 | 2, 3, 4, 12 |
+| D · Cam only | Cmd+4 | 16 |
+| E · Vertical green-screen | Cmd+5 | IG clips after the main recording |
+
+Whiteboard (slide 13) stays in Scene A: drauu pen on the slide itself. Drawings persist between rehearsals (`drawings.persist: true`).
+
+---
+
+## 4 · IG / TikTok hot takes (record in same session, Scene E)
+
+### Winner · reframe (~42s)
+
+Hook: *"stripe just shipped two months of engineering work in one day with fable 5. fifty million lines of ruby. one model. one day."*
+
 ```
 stripe just shipped two months of engineering work in one day with fable 5. fifty million lines of ruby. one model. one day.
 
@@ -78,165 +97,50 @@ the gap is not ai vs human. the gap is operator vs employee. one group is watchi
 pick a side. the model doesn't care. the market doesn't care. only you care, and only for about another quarter.
 ```
 
-### Payoff line (closing zinger)
-> cheap intelligence punishes rented time and pays compounded ownership. that's the whole game now.
+Payoff card (static on black): *"cheap intelligence punishes rented time and pays compounded ownership. that's the whole game now."*
 
-### On-screen text overlays (timed to beats)
-1. `STRIPE: 2 MONTHS → 1 DAY` (on hook)
-2. `$10 / $50 per million tokens` (when pricing hits)
-3. `this is not a tool drop. it's a repricing of labor.` (after employee beat)
-4. `operator vs employee` (the gap line)
-5. `the model doesn't care. the market doesn't care.` (penultimate)
-6. `pick a side` (closing)
+Overlays: `STRIPE: 2 MONTHS → 1 DAY` · `$10 / $50 per million tokens` · `this is not a tool drop. it's a repricing of labor.` · `operator vs employee` · `pick a side`
 
-### Green-screen visuals (behind John)
-- Anthropic Fable 5 announcement page hero (butterfly 5 image) zoomed on the headline
-- Stripe quote section highlighted: *"months of engineering into days"* with the 50M-line Ruby migration line circled in red
-- Pricing block highlighted: $10 input / $50 output per million tokens, with *"less than half the price"* underlined
-- Fable 5 benchmark table screenshot (focus on long-horizon agent + software engineering rows)
-- Split text card: LEFT `EMPLOYEE: output benchmarked vs $10/M tokens` / RIGHT `OPERATOR: 2 months becomes 1 day`
-- Closing black card with payoff line in lowercase serif: *"cheap intelligence punishes rented time and pays compounded ownership."*
+### Runner-up · rant (~85s)
+
+Hook: *"anthropic just dropped a model that compressed two months of stripe engineering into one day. and the average operator is gonna spend today arguing in a slack thread about whether to try it."*
+
+Full script in git history (commit ab7d547 recording pack). Payoff: *"the model got cheaper. your excuses got more expensive."*
+
+### Bonus vertical · the deck test (~30s, new)
+
+Green-screen both deck URLs side by side. Script beat: *"i asked the old model and the new model to build the same youtube deck. same brand kit. same script. one of them shipped three visual bugs and got the model's name wrong. the other one caught it. links in bio. judge the machines yourself."* This clip IS the trailer for the long-form.
 
 ---
 
-## 4 · IG / TikTok hot take · RUNNER-UP (~85 seconds · rant)
+## 5 · Clip plan from the long-form (no extra recording)
 
-**Format:** Direct rant-to-camera. 3-beat: bold claim, expansion with example, punchy close.
-
-### Hook
-> anthropic just dropped a model that compressed two months of stripe engineering into one day. and the average operator is gonna spend today arguing in a slack thread about whether to try it.
-
-### Full script
-```
-anthropic just dropped a model that compressed two months of stripe engineering into one day. and the average operator is gonna spend today arguing in a slack thread about whether to try it.
-
-read that again. fifty million lines of ruby. codebase-wide migration. a whole team. two months. one day. and the price went down. ten bucks in, fifty bucks out, less than half what mythos preview cost a few weeks ago.
-
-so the headline is fable 5. the real headline is the gap. because every quarter the delta between someone running these tools as a system and someone "still figuring out ai" gets bigger. it doesn't add up. it compounds.
-
-and i keep watching agency owners and solo founders treat this like a software update. it's not. it's a re-pricing of effort. the thing you bill twenty grand for is now a tuesday afternoon for the person who built the rails to run it. that's not a threat. that's the assignment.
-
-stripe didn't get the two months back because they had a smarter model. they had a codebase the model could move through. clean structure. clear intent. a team that knew what to point it at. the model is the cheap part. the system around it is the moat.
-
-so here's the play. stop benchmarking models. start benchmarking yourself against the version of you that has fable 5 wired into every repetitive decision in your business. ads. ops. copy. code. client reporting. all of it. if you can't hand it to the model tomorrow, you didn't have a process. you had a habit.
-
-the operators who win the next twelve months aren't the ones with the best prompts. they're the ones with the cleanest systems for the model to live inside.
-```
-
-### Payoff line
-> the model got cheaper. your excuses got more expensive.
-
-### Overlays
-1. `2 months → 1 day`
-2. `50M lines of ruby. one model. one day.`
-3. `$10 in / $50 out`
-4. `the model is the cheap part`
-5. `the system is the moat`
-6. `stop benchmarking models. benchmark yourself.`
-7. `the model got cheaper. your excuses got more expensive.`
-
-### Green-screen visuals
-- Anthropic Fable 5 / Mythos 5 announcement header with butterfly 5 image
-- Stripe quote pull-up: *"compressed months of engineering into days"* with 50M Ruby lines highlighted
-- Pricing comparison card: Fable 5 $10/$50 vs Mythos Preview (more than 2x) with strikethrough
-- Benchmark table screenshot from announcement
-- Split-screen meme: *"operator with system"* vs *"operator still in slack debating"*
-- Closing card: black background, white text payoff line, no logo
-
----
-
-## 5 · OBS scene plan (one recording session, both formats)
-
-| Block | Format | OBS Scene | Notes |
-|---|---|---|---|
-| **Workshop deck record** | 16:9 YouTube | A → B → A → A → A → D (per template) | Slidev fullscreen, drauu pen for slot 4. ~14-22 min. |
-| **IG winner (reframe)** | 9:16 vertical | E · GREEN SCREEN VERTICAL | Crop to portrait, key in announcement screenshots behind John. ~42s. |
-| **IG runner-up (rant)** | 9:16 vertical | E · GREEN SCREEN VERTICAL | Same scene, different script. ~85s. |
-
-**Scene E setup (new vertical green-screen scene):**
-- Capture: webcam center, vertical 1080×1920 framing, chest-up
-- Background: green screen keyed out
-- Layer 1: announcement screenshots and split-screen text cards (cycle per overlay beat)
-- Layer 2: bottom-third caption overlay area (where on-screen text pops appear)
-- Hotkey: `Cmd+5`
-
----
-
-## 6 · Edit pass (Descript)
-
-**For YouTube deck recording:**
-- Pop SFX on screenshot reveals (per locked aesthetic memory)
-- Magic-spell shimmer on drauu pen first stroke
-- Zero V-roll full-screen overlays. Small + brief pop-ups only.
-- 3 SFX moments per minute MAX.
-- Atomic-era thumbnail: cream bg, navy headline ("months became days."), gold accent
-
-**For IG clips:**
-- Burn-in captions on key beats (no full karaoke wall)
-- Hard cut between hook → expansion → payoff
-- Final 2 seconds: payoff line static on black, no animation
-- Aspect: 9:16 vertical, 1080×1920
-
----
-
-## 7 · Posting plan
-
-| Platform | Asset | Caption strategy | CTA |
-|---|---|---|---|
-| **YouTube** | Full 14-22 min workshop | First sentence of description = hook headline verbatim. Title: "Episode 02 · months became days. and your shelf became the strategy. (Joburn Build-Along)" | Subscribe + next ep tease |
-| **IG Reels** | 42s reframe winner | Caption mirrors payoff line. 3 hashtags max: #operator #ai #leverage | Comments: *"what's on your shelf?"* |
-| **TikTok** | 42s reframe + 85s rant (2 separate posts, 2 days apart) | Same caption strategy. No hashtags. | Reply hooks to drive comment thread |
-| **X/Twitter** | 60s clip from middle of YouTube + identity beat verbatim as standalone tweet | Tweet thread: 1) the data point. 2) the reframe. 3) the playbook. 4) the line. 5) link to YouTube. | Reply to anyone in the operator-adjacent niche posting their own take |
-
----
-
-## 8 · Verification checklist (before publishing)
-
-- [ ] Zero em-dashes in any visible text (deck, overlays, captions, descriptions, thumbnail)
-- [ ] Stripe number phrased as "roughly fifty to sixty x," never "literally"
-- [ ] At least one real agency-os shelved project named on the whiteboard
-- [ ] **Stakes slide (1.5) delivered SLOW with intimate Scene B framing** (this is the identity-level opener; the deck dies without it)
-- [ ] Identity beat present between slot 5 four-moves and slot 6 recap
-- [ ] Anthropic name-drops ≤ 2 across the full video
-- [ ] "pick well" delivered before the cut to recap
-- [ ] "stop trading hours. you don't have to anymore." holds 2 full seconds before stopping
-- [ ] IG winner runs 40-45s. IG runner-up runs 80-90s.
-- [ ] Both IG clips end on payoff line static on black
-
-## 9 · Hero's Journey arc check (per upgraded slidev_presentation skill v3)
-
-| Beat | Slide | What it does |
+| Clip | Source | Runtime |
 |---|---|---|
-| Call to adventure | Slot 1 Hook | The news + curiosity gap |
-| **Why this matters for you** | **Slot 1.5 Stakes (NEW)** | **Identity-level "if you internalize / if you don't" framing** |
-| The guide reveals the truth | Slot 2 Topic | The contract |
-| The mentor walks them through | Slots 3a-d (4 sub-slides) | Receipts: hero, capability chart, cost-curve chart, failure modes |
-| The map | Slot 4 Whiteboard | drauu live, your shelf is the roadmap |
-| The plan | Slot 5a | Four moves (v-clicks reveal one per card) |
-| The transformation / identity beat | Slot 5b | "the shelf is the work you actually wanted to do" + "you still pick" |
-| The return / CTA | Slot 6 Recap | 3 takeaway v-clicks + next episode tease |
-
-## 10 · Now 10 slides (was 9). Pacing notes
-
-Slot 1.5 adds ~25s. Total runtime estimate: 16-23 min (was 14-22). Still inside the YouTube build-along sweet spot.
-
-**Tempo map** (cinema pacing model from skill v3):
-- Slot 1: FRAME
-- Slot 1.5: FRAME (deepens identity)
-- Slot 2: FRAME → MOVE FAST transition
-- Slot 3a-d: MOVE FAST + ZOOM (charts unpacked with v-click annotations)
-- Slot 4: STOP (whiteboard reset)
-- Slot 5a: MOVE FAST (four moves)
-- Slot 5b: LAND (identity beat, slow)
-- Slot 6: LAND (recap close)
+| Hook + twist | Slides 1-2 | ~35s vertical |
+| The receipts read | Slide 6 | ~60s vertical |
+| Identity beat | Slide 15 | ~60s vertical |
+| Mic drop | Slide 16 close | ~20s vertical |
 
 ---
 
-## Workflow telemetry (for future episode QC)
+## 6 · Verification checklist (before publishing)
 
-- 15 agents across Diverge → Verify → Synthesize phases
-- 747K subagent tokens
-- 9.6 min wall-clock
-- Top angle by weighted total: **months-to-days (8.05)** vs hyper-leverage (7.45) / mythos-locked (7.75) / autonomy-shift (7.35) / science-replicator (7.25)
-- Winning angle scored: brand_fit 9 / freshness 6.5 / operator_usefulness 8.8 / recording_viability 8.2
-- Backup angle (if news-cycle saturation kills months-to-days): **mythos-locked** (freshness 8.5 but recording_viability 7 and fact-fragile, so use as backup not lead)
+- [ ] All `[JOHN FILLS]` placeholders replaced with real test outputs (slides 9-12, 14, 16)
+- [ ] Zero em-dashes anywhere visible (deck verified at build; check overlays + captions + description)
+- [ ] "fable 5" naming used throughout. Mythos referenced only as the locked variant.
+- [ ] Stripe number phrased "roughly," never "literally"
+- [ ] Slide-2 loop closed at slide 12, not before
+- [ ] Whiteboard drawn live, final line hand-printed: "route by bucket. not by hype."
+- [ ] "pick well" delivered on slide 15 before cutting
+- [ ] Both deck URLs in the video description: opus-v1 + fable-v2
+- [ ] Final line: "go judge the machines yourself."
+- [ ] Hold 2 full seconds before stopping recording
+
+---
+
+## 7 · Why v3 of this pack exists (changelog)
+
+- v1 (ab7d547): "months became days / shelf is the strategy" angle. Killed by John 2026-06-09: jargon hook, design quality below bar.
+- v2 (db6e8a9): Stakes slide added. Same angle. Superseded.
+- v3 (this): personal-test angle, 16-slide Fable v2 deck, mythos→fable factual fix, restored whiteboard + receipts, real A/B meta-test with both decks deployed. Built BY Fable 5 as part of the test.

@@ -209,6 +209,7 @@
 }
 
 .model-card.mythos { border-top-color: var(--ff-orange); }
+.model-card.fable { border-top-color: var(--ff-orange); }
 .model-card.opus { border-top-color: var(--ff-cyan); }
 
 .model-card .model-name {
@@ -221,6 +222,7 @@
 }
 
 .model-card.mythos .model-name { color: var(--ff-orange); }
+.model-card.fable .model-name { color: var(--ff-orange); }
 .model-card.opus .model-name { color: var(--ff-cyan); }
 
 .placeholder-block {
