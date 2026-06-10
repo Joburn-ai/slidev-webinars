@@ -1,10 +1,10 @@
 ---
 theme: default
-title: Episode 02 · i spent 2 hours testing fable 5. (the deck fable built.)
+title: Episode 02 · i spent 4 hours testing fable 5. (the deck fable built.)
 info: |
   Joburn Build-Along · Episode 02 · 2026-06-10 · FABLE v2
   Personal-test workshop on Anthropic's Fable 5 / Mythos 5 drop.
-  Frame: 5 real operator tasks · head-to-head Fable 5 vs Opus 4.8 · 3-bucket routing verdict.
+  Frame: 2 real experiments run · head-to-head Fable 5 vs Opus 4.8 · 3-bucket routing verdict.
   Recursive meta-test: Opus 4.8 built deck v1 (preserved at joburn-buildalong-ep02-opus-v1.vercel.app).
   Fable 5 built this v2. Both shown side by side on camera in test 04.
   Format: 16-slide YouTube build-along, atomic-era retro-futurist.
@@ -39,14 +39,14 @@ css: unocss
 <div class="ff-eyebrow" style="color: var(--ff-orange);">Joburn · Build-Along · EP 02 · 2026-06-10</div>
 
 <h1 style="font-size: 4.4rem; color: white; line-height: 1.04; margin-bottom: 1.5rem;">
-i spent 2 hours testing<br/>
+i spent 4 hours testing<br/>
 <span class="ff-orange">fable 5.</span>
 </h1>
 
 <v-click>
 
 <p style="font-size: 1.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin: 0 auto; line-height: 1.4;">
-the first mythos-class model you can actually touch. five real tasks. head-to-head against opus 4.8.
+the first mythos-class model you can actually touch. two real experiments. head-to-head against opus 4.8.
 </p>
 
 </v-click>
@@ -62,11 +62,11 @@ JOHN COBURN · JOBURN.COM
 <!--
 COVER VERBATIM (Scene A · 8-12s):
 
-i spent two hours testing fable 5.
+i spent four hours testing fable 5.
 
 [CLICK · reveal sub]
 
-the first mythos-class model you can actually touch. five real tasks. head-to-head against opus four point eight. here's what i found.
+the first mythos-class model you can actually touch. two real experiments. head-to-head against opus four point eight. here's what i found.
 
 PRESENTER NOTES:
 - cold open. no logo bumper, no "what's up." straight in.
@@ -201,7 +201,7 @@ one frame before we start.
 this is not a model review. it's a labor-cost reality check.
 
 [CLICK 1 · "if you test it"]
-if you test this thing for two hours, you walk away knowing which model to default to per bucket. you stop paying opus dollars on tasks fable handles cheaper. your cost per outcome drops.
+if you test this thing for a few hours, you walk away knowing which model to default to per bucket. you stop paying opus dollars on tasks fable handles cheaper. your cost per outcome drops.
 
 [CLICK 2 · "if you don't"]
 if you don't. your defaults drift. and competitors with sharper defaults out-position you on cost per outcome. quietly. for months.
@@ -497,82 +497,66 @@ layout: default
 class: !p-0
 ---
 
-<!-- SLIDE 08 / 16 · THE TEST PLAN · ~40s · Scene A · MOVE FAST -->
+<!-- SLIDE 08 · WHAT I ACTUALLY RAN · ~40s · Scene A · MOVE FAST -->
 
-<div class="grid-paper absolute inset-0 px-12 py-7">
+<div class="grid-paper absolute inset-0 px-12 py-8">
 
 <div class="ff-bar"></div>
 
-<div class="ff-eyebrow">the test plan</div>
+<div class="ff-eyebrow">the experiments</div>
 
-<h2 style="font-size: 2.1rem; margin-top: 0.25rem;">five tasks. real client work. <span class="ff-cyan">zero retries.</span></h2>
+<h2 style="font-size: 2.1rem; margin-top: 0.25rem;">two head-to-heads. <span class="ff-cyan">same prompt. same context. zero retries.</span></h2>
 
 <div class="rule-thin"></div>
 
-<div class="mt-4" style="display: flex; flex-direction: column; gap: 0.65rem;">
+<div class="mt-5" style="display: flex; flex-direction: column; gap: 0.8rem;">
 
 <v-clicks>
 
-<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
-<span class="ff-numeral" style="color: #94463b; font-size: 1.3rem;">01</span>
-<span class="bucket-name" style="color: #94463b; font-size: 0.7rem; min-width: 8.5rem;">ACQUISITION</span>
-<span style="font-size: 1rem; flex: 1;">5-hook ad pack for a real client, grounded in our copy canon</span>
+<div class="ff-card" style="padding: 1rem 1.2rem; display: flex; align-items: center; gap: 1rem;">
+<span class="ff-numeral" style="color: var(--ff-cyan); font-size: 1.4rem;">01</span>
+<span class="bucket-name" style="color: var(--ff-cyan); font-size: 0.7rem; min-width: 9rem;">THE REPORT TEST</span>
+<span style="font-size: 1.02rem; flex: 1;">a full end-of-week client report from the live database. identical prompt, pasted into both models at the same moment.</span>
 </div>
 
-<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
-<span class="ff-numeral" style="color: var(--ff-cyan); font-size: 1.3rem;">02</span>
-<span class="bucket-name" style="color: var(--ff-cyan); font-size: 0.7rem; min-width: 8.5rem;">CUSTOMER SUCCESS</span>
-<span style="font-size: 1rem; flex: 1;">complete weekly growth report from a real client CSV</span>
-</div>
-
-<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
-<span class="ff-numeral" style="color: var(--ff-orange); font-size: 1.3rem;">03</span>
-<span class="bucket-name" style="color: var(--ff-orange); font-size: 0.7rem; min-width: 8.5rem;">OPERATIONS</span>
-<span style="font-size: 1rem; flex: 1;">refactor a live skill, weave in a new lesson, preserve the tests</span>
-</div>
-
-<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem; background: var(--ff-warm);">
-<span class="ff-numeral" style="font-size: 1.3rem;">04</span>
-<span class="bucket-name" style="font-size: 0.7rem; min-width: 8.5rem;">META · THE DECK</span>
-<span style="font-size: 1rem; flex: 1;"><strong>opus built deck v1. fable built v2.</strong> you're watching v2 right now.</span>
-</div>
-
-<div class="ff-card" style="padding: 0.85rem 1.1rem; display: flex; align-items: center; gap: 1rem;">
-<span class="ff-numeral" style="font-size: 1.3rem;">05</span>
-<span class="bucket-name" style="font-size: 0.7rem; min-width: 8.5rem;">JUDGMENT</span>
-<span style="font-size: 1rem; flex: 1;">ask both: which bucket benefits most from fable. compare the reasoning.</span>
+<div class="ff-card" style="padding: 1rem 1.2rem; display: flex; align-items: center; gap: 1rem; background: var(--ff-warm);">
+<span class="ff-numeral" style="font-size: 1.4rem;">02</span>
+<span class="bucket-name" style="font-size: 0.7rem; min-width: 9rem;">THE DECK TEST</span>
+<span style="font-size: 1.02rem; flex: 1;"><strong>both models build this youtube deck.</strong> same brand kit. same script. you're watching the result.</span>
 </div>
 
 </v-clicks>
 
 </div>
 
+<v-click>
+
+<div class="mt-6 px-5 py-3" style="background: var(--ff-navy); border-radius: 10px;">
+<p style="margin: 0; font-size: 1.02rem;">settings: both on edit-automatically. fable at ultra-high effort plus workflows. opus at default. i tallied <strong class="ff-orange">time, permission asks, and quality.</strong></p>
+</div>
+
+</v-click>
+
 </div>
 
 <!--
-TEST PLAN VERBATIM (Scene A · ~40s · click each row as you say its number):
+WHAT I RAN VERBATIM (Scene A · ~40s):
 
-five tests. every one runs on both models. clean prompt. zero retries. winner takes the bucket.
+so here's what i actually ran. two head-to-head experiments. same prompt. same context. pasted into both models at the same moment. zero retries.
 
 [CLICK 01]
-one. acquisition. five-hook ad pack for a real client. grounded in our copy canon, not generic prompting.
+one. the report test. a full end-of-week client report from our live database. real client data. real numbers. the exact work my agency ships every week.
 
 [CLICK 02]
-two. customer success. full weekly growth report from a real client CSV. dollar-anchored recommendations.
+two. the deck test. both models build this youtube deck. same brand kit. same script. you are literally watching the result right now.
 
-[CLICK 03]
-three. operations. refactor a live skill in my stack. weave in a new lesson. don't break the tests.
-
-[CLICK 04]
-four. the meta test. opus built version one of this deck. fable built version two. you're watching version two right now.
-
-[CLICK 05]
-five. judgment. i asked both models which bucket benefits most from fable specifically. and compared the reasoning, not just the answer.
+[CLICK 3 · settings callout]
+settings. both on edit-automatically. fable at ultra-high effort plus workflows. opus at default. and i tallied three things. time. how many times each one asked me for permission. and the quality of the final thing.
 
 PRESENTER NOTES:
-- "winner takes the bucket" is the rule of the game. say it once, clearly.
+- "you are literally watching the result" re-opens the slide-2 loop.
 TIMING: ~40s
-TRANSITION: "test one. acquisition."
+TRANSITION: "experiment one. the report."
 -->
 
 ---
@@ -580,30 +564,26 @@ layout: default
 class: !p-0
 ---
 
-<!-- SLIDE 09 / 16 · TEST 01 · ACQUISITION · ~2min · Scene A -->
+<!-- SLIDE 09 · EXPERIMENT 01 RESULTS · THE REPORT TEST · ~2min · Scene A -->
 
 <div class="grid-paper absolute inset-0 px-12 py-7">
 
 <div class="ff-bar"></div>
 
 <div class="flex items-center gap-3 mb-2">
-<span class="ff-numeral" style="color: #94463b; font-size: 1.6rem;">01</span>
-<span class="section-tag" style="color: #94463b; border-color: #94463b;">TEST · ACQUISITION</span>
+<span class="ff-numeral" style="color: var(--ff-cyan); font-size: 1.6rem;">01</span>
+<span class="section-tag">EXPERIMENT · THE REPORT TEST</span>
 </div>
 
-<h2 style="font-size: 2rem; margin-top: 0.4rem;">a 5-hook ad pack <span class="ff-cyan">grounded in client canon.</span></h2>
+<h2 style="font-size: 2rem; margin-top: 0.4rem;">what actually happened.</h2>
 
-<p style="font-size: 0.92rem; color: var(--ff-charcoal); margin-top: 0.4rem; margin-bottom: 0.5rem; font-style: italic;">prompt: pull F6 + voice DNA from the copy brain. write 5 ad hooks for [client]. apply our taxonomy. zero retries.</p>
-
-<div class="comparison-pair mt-3">
+<div class="comparison-pair mt-4">
 
 <v-click>
 
 <div class="model-card fable">
-<div class="model-name">Fable 5 · output</div>
-<div class="placeholder-block">
-[JOHN FILLS · paste the strongest Fable hook verbatim + 1 line on the rest of the pack. ~4 lines max.]
-</div>
+<div class="model-name">Fable 5</div>
+<p style="margin: 0.4rem 0 0; font-size: 0.95rem; line-height: 1.55;"><strong>50 minutes.</strong> asked me for something every two minutes. pulled organic, crm, even news. spun up subagents and side quests. turned over stones i had forgotten about. <strong>7 pages. accurate.</strong></p>
 </div>
 
 </v-click>
@@ -611,10 +591,8 @@ class: !p-0
 <v-click>
 
 <div class="model-card opus">
-<div class="model-name">Opus 4.8 · output</div>
-<div class="placeholder-block">
-[JOHN FILLS · paste the strongest Opus hook verbatim + 1 line. ~4 lines max.]
-</div>
+<div class="model-name">Opus 4.8</div>
+<p style="margin: 0.4rem 0 0; font-size: 0.95rem; line-height: 1.55;"><strong>30 minutes.</strong> way fewer questions. leaner path to the same destination. <strong>7 pages. accurate.</strong> finished while fable was still researching.</p>
 </div>
 
 </v-click>
@@ -623,9 +601,9 @@ class: !p-0
 
 <v-click>
 
-<div class="verdict-strip mt-4">
-<span class="winner-tag">winner: [TBD]</span>
-<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · 1-line verdict. voice fit, brand fit, pattern adherence. which one is your acquisition default now.]</p>
+<div class="verdict-strip mt-5">
+<span class="winner-tag">winner: opus 4.8</span>
+<p style="margin: 0; font-size: 0.95rem;">fable's extra 25 minutes bought context nobody reads. for spec'd, repeatable work, the cheaper executor wins. a blind ai judge agreed.</p>
 </div>
 
 </v-click>
@@ -633,172 +611,24 @@ class: !p-0
 </div>
 
 <!--
-TEST 01 VERBATIM (Scene A · ~2 min):
+EXPERIMENT 01 VERBATIM (Scene A · ~2 min):
 
-test one. acquisition. five hooks for a real client. grounded in the client's foundations and voice DNA. same prompt to both models. zero retries.
+experiment one. the report test.
 
 [CLICK 1 · fable card]
-here's fable's strongest hook. [READ IT]
+fable took fifty minutes. it asked me for something every two minutes. it pulled organic data, crm data, it even went and researched news. it spun up subagents. it turned over stones i had forgotten about. seven pages. accurate.
 
 [CLICK 2 · opus card]
-here's opus's. [READ IT]
+opus took thirty minutes. way fewer questions. leaner path to the same destination. seven pages. accurate. it finished while fable was still researching.
 
-[CLICK 3 · verdict strip]
-winner: [SAY IT]. because [ONE SPECIFIC REASON]. and that's now my default for acquisition copy.
-
-PRESENTER NOTES:
-- prep: run both models BEFORE recording, paste outputs into the placeholders.
-- read the verdict slow. that's the moment.
-TIMING: ~2 min
-TRANSITION: "test two. customer success."
--->
-
----
-layout: default
-class: !p-0
----
-
-<!-- SLIDE 10 / 16 · TEST 02 · CUSTOMER SUCCESS · ~2min · Scene A -->
-
-<div class="grid-paper absolute inset-0 px-12 py-7">
-
-<div class="ff-bar"></div>
-
-<div class="flex items-center gap-3 mb-2">
-<span class="ff-numeral" style="color: var(--ff-cyan); font-size: 1.6rem;">02</span>
-<span class="section-tag">TEST · CUSTOMER SUCCESS</span>
-</div>
-
-<h2 style="font-size: 2rem; margin-top: 0.4rem;">weekly growth report from <span class="ff-cyan">real CSV ad data.</span></h2>
-
-<p style="font-size: 0.92rem; color: var(--ff-charcoal); margin-top: 0.4rem; margin-bottom: 0.5rem; font-style: italic;">prompt: here's spend, clicks, conversions. produce the full weekly report. dollar-anchor every recommendation.</p>
-
-<div class="comparison-pair mt-3">
-
-<v-click>
-
-<div class="model-card fable">
-<div class="model-name">Fable 5 · output</div>
-<div class="placeholder-block">
-[JOHN FILLS · Fable's sharpest insight or tightest dollar-anchor. 2-3 lines.]
-</div>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="model-card opus">
-<div class="model-name">Opus 4.8 · output</div>
-<div class="placeholder-block">
-[JOHN FILLS · Opus's sharpest insight. same selection rule. 2-3 lines.]
-</div>
-</div>
-
-</v-click>
-
-</div>
-
-<v-click>
-
-<div class="verdict-strip mt-4">
-<span class="winner-tag">winner: [TBD]</span>
-<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · did one catch a leak the other missed? what changes your CS default.]</p>
-</div>
-
-</v-click>
-
-</div>
-
-<!--
-TEST 02 VERBATIM (Scene A · ~2 min):
-
-test two. customer success. real client CSV. spend, clicks, conversions. produce the full weekly report. dollar-anchor every recommendation.
-
-this is the bucket where being wrong costs the most. these reports go to clients every week.
-
-[CLICK 1 · fable] fable read the data and gave me this. [READ TOP INSIGHT]
-[CLICK 2 · opus] opus gave me this. [READ TOP INSIGHT]
-[CLICK 3 · verdict] winner: [SAY IT]. [ONE CONCRETE DIFFERENCE]. that's the model i now want under the hood on weekly reports.
+[CLICK 3 · verdict]
+winner: opus four point eight. and here's the lesson. fable's extra twenty-five minutes bought context that nobody reads. for spec'd, repeatable work, the cheaper executor wins. i even ran both reports through a blind ai judge. it agreed.
 
 PRESENTER NOTES:
-- "under the hood" = voice DNA. keep it.
+- "context nobody reads" is the quotable line. let it sit.
+- honest beat: the newest model LOSING is the most credible moment in this video.
 TIMING: ~2 min
-TRANSITION: "test three. operations."
--->
-
----
-layout: default
-class: !p-0
----
-
-<!-- SLIDE 11 / 16 · TEST 03 · OPERATIONS · ~2min · Scene A -->
-
-<div class="grid-paper absolute inset-0 px-12 py-7">
-
-<div class="ff-bar"></div>
-
-<div class="flex items-center gap-3 mb-2">
-<span class="ff-numeral" style="color: var(--ff-orange); font-size: 1.6rem;">03</span>
-<span class="section-tag gold">TEST · OPERATIONS</span>
-</div>
-
-<h2 style="font-size: 2rem; margin-top: 0.4rem;">refactor a live skill <span class="ff-cyan">without breaking it.</span></h2>
-
-<p style="font-size: 0.92rem; color: var(--ff-charcoal); margin-top: 0.4rem; margin-bottom: 0.5rem; font-style: italic;">prompt: read skill X + lesson Y. refactor X to include Y. preserve existing behavior. ship a diff.</p>
-
-<div class="comparison-pair mt-3">
-
-<v-click>
-
-<div class="model-card fable">
-<div class="model-name">Fable 5 · output</div>
-<div class="placeholder-block">
-[JOHN FILLS · Fable's diff summary. did it preserve behavior? how many turns? 2-3 lines.]
-</div>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="model-card opus">
-<div class="model-name">Opus 4.8 · output</div>
-<div class="placeholder-block">
-[JOHN FILLS · Opus's diff summary. same questions. 2-3 lines.]
-</div>
-</div>
-
-</v-click>
-
-</div>
-
-<v-click>
-
-<div class="verdict-strip mt-4">
-<span class="winner-tag">winner: [TBD]</span>
-<p style="margin: 0; font-size: 0.95rem;">[JOHN FILLS · which ran longer-horizon without supervision? winner takes ops.]</p>
-</div>
-
-</v-click>
-
-</div>
-
-<!--
-TEST 03 VERBATIM (Scene A · ~2 min):
-
-test three. operations. refactor a live skill in my stack. weave in a new lesson. don't break what works. ship a diff.
-
-this is where that frontiercode number gets pressure-tested. twenty-nine percent versus thirteen. on paper. does it hold in my actual repo?
-
-[CLICK 1 · fable] [READ]
-[CLICK 2 · opus] [READ]
-[CLICK 3 · verdict] [READ]
-
-PRESENTER NOTES:
-- ops is where token efficiency compounds. cron jobs and scheduled runs hit this model every night.
-TIMING: ~2 min
-TRANSITION: "test four. the one i promised you at the start."
+TRANSITION: "experiment two. the one i promised you at the start."
 -->
 
 ---
@@ -813,8 +643,8 @@ class: !p-0
 <div class="ff-bar"></div>
 
 <div class="flex items-center gap-3 mb-2">
-<span class="ff-numeral" style="font-size: 1.6rem;">04</span>
-<span class="section-tag gold">TEST · META · THE DECK</span>
+<span class="ff-numeral" style="font-size: 1.6rem;">02</span>
+<span class="section-tag gold">EXPERIMENT · THE DECK TEST</span>
 </div>
 
 <h2 style="font-size: 2.2rem; margin-top: 0.4rem; line-height: 1.1;">same job. same brand kit. <span class="ff-cyan">two decks.</span></h2>
@@ -836,7 +666,7 @@ class: !p-0
 
 <div class="model-card fable" style="min-height: 12rem;">
 <div class="model-name">Fable 5 · deck v2 · this one</div>
-<p style="margin: 0.4rem 0 0; font-size: 0.92rem; line-height: 1.5;">caught the naming error and fixed the claim. restored the whiteboard and the benchmark receipts. <strong style="color: var(--ff-orange);">and filled in this exact slide you're reading.</strong> [JOHN ADDS · your honest read after comparing both live.]</p>
+<p style="margin: 0.4rem 0 0; font-size: 0.92rem; line-height: 1.5;">caught the naming error and fixed the claim. restored the whiteboard and the benchmark receipts. <strong style="color: var(--ff-orange);">and filled in this exact slide you're reading.</strong> my honest read: more context, real fact-checks, added the chart. better. but not night-and-day better.</p>
 </div>
 
 </v-click>
@@ -847,7 +677,7 @@ class: !p-0
 
 <div class="verdict-strip mt-4">
 <span class="winner-tag">john judges</span>
-<p style="margin: 0; font-size: 0.95rem;">both decks are live. opus v1 + fable v2 linked below the video. [JOHN FILLS · which one you'd actually record with, and the one reason.]</p>
+<p style="margin: 0; font-size: 0.95rem;">both decks are live, linked below the video. i recorded with fable's. it caught a factual error opus shipped. that one catch is the difference.</p>
 </div>
 
 </v-click>
@@ -857,7 +687,7 @@ class: !p-0
 <!--
 TEST 04 VERBATIM (Scene B · the loop-closer · ~2 min):
 
-test four. the one i promised you at the start.
+experiment two. the one i promised you at the start.
 
 same job. same brand kit. same script. two decks.
 
@@ -874,6 +704,72 @@ PRESENTER NOTES:
 - this closes the loop opened on slide 2. biggest payoff moment in the video.
 - be honest if you find flaws in v2. honesty IS the persuasion.
 TIMING: ~2 min
+TRANSITION: "okay. whiteboard. let's route this."
+-->
+
+---
+layout: default
+class: !p-0
+---
+
+<!-- SLIDE · THE SETTINGS THAT MATTER · ~60s · Scene A -->
+
+<div class="grid-paper absolute inset-0 px-12 py-8">
+
+<div class="ff-bar"></div>
+
+<div class="ff-eyebrow">so you don't have to</div>
+
+<h2 style="font-size: 2.1rem; margin-top: 0.25rem;">the settings that matter. <span class="ff-cyan">learned the long way.</span></h2>
+
+<div class="rule-thin"></div>
+
+<div class="grid grid-cols-2 gap-5 mt-5">
+
+<v-clicks>
+
+<div class="ff-card" style="padding: 1.1rem 1.25rem;">
+<div class="bucket-name" style="color: var(--ff-cyan); font-size: 0.68rem;">EDIT AUTOMATICALLY</div>
+<p style="margin: 0.45rem 0 0; font-size: 0.95rem; line-height: 1.5;">it still asks before running commands. that's a feature, not friction. <strong>you see every move it wants to make.</strong></p>
+</div>
+
+<div class="ff-card" style="padding: 1.1rem 1.25rem;">
+<div class="bucket-name" style="color: var(--ff-orange); font-size: 0.68rem;">EFFORT LEVELS</div>
+<p style="margin: 0.45rem 0 0; font-size: 0.95rem; line-height: 1.5;">ultra-high plus workflows = thorough but slow. <strong>use it to plan.</strong> drop the effort, or switch models, to execute.</p>
+</div>
+
+<div class="ff-card" style="padding: 1.1rem 1.25rem;">
+<div class="bucket-name" style="color: var(--ff-cyan); font-size: 0.68rem;">THE FALLBACK</div>
+<p style="margin: 0.45rem 0 0; font-size: 0.95rem; line-height: 1.5;">roughly 5% of sessions quietly route to opus 4.8 on sensitive topics. <strong>you get told when it happens.</strong> log it.</p>
+</div>
+
+<div class="ff-card" style="padding: 1.1rem 1.25rem; background: var(--ff-warm);">
+<div class="bucket-name" style="color: var(--ff-orange); font-size: 0.68rem;">THE WINDOW</div>
+<p style="margin: 0.45rem 0 0; font-size: 0.95rem; line-height: 1.5;"><strong>free on pro and max until june 22.</strong> credits after. run your own tests this week, not next month.</p>
+</div>
+
+</v-clicks>
+
+</div>
+
+</div>
+
+<!--
+SETTINGS VERBATIM (Scene A · ~60s):
+
+quick. the settings that matter. learned the long way so you don't have to.
+
+[CLICK 1] edit automatically. it still asks before running commands. that's a feature, not friction. you see every move it wants to make before it makes it.
+
+[CLICK 2] effort levels. ultra-high plus workflows is thorough but slow. that's the fifty-minute report. use max effort to plan. drop the effort, or switch models, to execute.
+
+[CLICK 3] the fallback. roughly five percent of sessions quietly route to opus on sensitive topics. you get told when it happens. log it, or you'll blame your own prompting.
+
+[CLICK 4] and the window. it's free on pro and max plans until june twenty-two. credits after that. so run your own tests this week. not next month.
+
+PRESENTER NOTES:
+- this is the "what settings to use" payoff from the hook.
+TIMING: ~60s
 TRANSITION: "okay. whiteboard. let's route this."
 -->
 
@@ -962,20 +858,20 @@ class: !p-0
 
 <div class="bucket-card acq">
 <div class="bucket-name">acquisition</div>
-<div class="bucket-headline" style="margin-top: 0.4rem;">[winner TBD]</div>
-<div class="bucket-examples">[JOHN FILLS · 1-line reason]</div>
+<div class="bucket-headline" style="margin-top: 0.4rem;">opus, for now</div>
+<div class="bucket-examples">untested head-to-head. cheaper default until fable earns it.</div>
 </div>
 
 <div class="bucket-card cs">
 <div class="bucket-name">customer success</div>
-<div class="bucket-headline" style="margin-top: 0.4rem;">[winner TBD]</div>
-<div class="bucket-examples">[JOHN FILLS · 1-line reason]</div>
+<div class="bucket-headline" style="margin-top: 0.4rem;">opus 4.8</div>
+<div class="bucket-examples">tested. 30 vs 50 min, equal accuracy, fewer decisions.</div>
 </div>
 
 <div class="bucket-card ops">
 <div class="bucket-name">operations</div>
-<div class="bucket-headline" style="margin-top: 0.4rem;">[winner TBD]</div>
-<div class="bucket-examples">[JOHN FILLS · 1-line reason]</div>
+<div class="bucket-headline" style="margin-top: 0.4rem;">split the layer</div>
+<div class="bucket-examples">fable plans + architects. opus executes the spec.</div>
 </div>
 
 </v-clicks>
@@ -985,7 +881,7 @@ class: !p-0
 <v-click>
 
 <div class="mt-6 px-5 py-3.5" style="background: var(--ff-navy); border-radius: 10px;">
-<p style="margin: 0; font-size: 1.05rem;"><strong>the rule going forward:</strong> [JOHN FILLS · the routing rule in one sentence.] right?</p>
+<p style="margin: 0; font-size: 1.05rem;"><strong>the rule going forward:</strong> fable architects. opus executes. route by bucket, not by hype. right?</p>
 </div>
 
 </v-click>
@@ -1102,12 +998,12 @@ class: !p-0
 
 <div style="margin-bottom: 0.9rem;">
 <span class="ff-orange" style="font-family: monospace; font-weight: 700; font-size: 0.92rem;">01 ·</span>
-<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> two hours of testing beats two weeks of opinions. and the window is free until june 22. [JOHN FILLS · one insight from your test.]</span>
+<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> four hours of testing beats two weeks of opinions. and the window is free until june 22. opus won the report. fable won the deck.</span>
 </div>
 
 <div style="margin-bottom: 0.9rem;">
 <span class="ff-orange" style="font-family: monospace; font-weight: 700; font-size: 0.92rem;">02 ·</span>
-<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> route by bucket. not by hype. [JOHN FILLS · the 1-line routing rule.]</span>
+<span style="color: rgba(255,255,255,0.92); font-size: 1.02rem; line-height: 1.4;"> route by bucket. not by hype. fable architects. opus executes.</span>
 </div>
 
 <div>
@@ -1146,7 +1042,7 @@ RECAP VERBATIM (Scene D · cam only · eye contact · ~35s):
 
 three things to remember.
 
-[CLICK 1] one. two hours of testing beats two weeks of opinions. and the window is free until june twenty-two. [YOUR INSIGHT]
+[CLICK 1] one. four hours of testing beats two weeks of opinions. and the window is free until june twenty-two. [YOUR INSIGHT]
 
 [CLICK 2] two. route by bucket. not by hype. [YOUR ROUTING RULE]
 
