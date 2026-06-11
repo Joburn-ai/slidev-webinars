@@ -46,7 +46,15 @@ i spent 4 hours testing<br/>
 <v-click>
 
 <p style="font-size: 1.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin: 0 auto; line-height: 1.4;">
-the new best model in the world. two head-to-head experiments against opus 4.8. <strong style="color: var(--ff-orange);">it lost one of them.</strong>
+the new best model in the world. two head-to-head experiments against opus 4.8.
+</p>
+
+</v-click>
+
+<v-click>
+
+<p style="font-size: 1.7rem; color: rgba(255,255,255,0.95); max-width: 50rem; margin: 0.9rem auto 0; line-height: 1.3;">
+<strong style="color: var(--ff-orange);">it lost one of them.</strong>
 </p>
 
 </v-click>
@@ -698,7 +706,7 @@ opus built version one. structurally solid. it locked the angle and the identity
 fable built version two. the one you're watching. it caught the naming error. it restored the whiteboard and the benchmark receipts. and it wrote this exact slide. the one you're reading right now. [ADD YOUR HONEST READ]
 
 [CLICK 3 · verdict]
-both decks are live. links below the video. you judge. my call: [SAY IT. ONE REASON.]
+both decks are live. links below the video. you judge. my call: i recorded with fable's, because it caught a factual error opus shipped. that one catch is the difference.
 
 PRESENTER NOTES:
 - this closes the loop opened on slide 2. biggest payoff moment in the video.
@@ -887,9 +895,9 @@ VERDICT VERBATIM (Scene A · ~60s):
 
 so. the verdict. by bucket.
 
-[CLICK 1] acquisition. [WINNER]. because [REASON].
-[CLICK 2] customer success. [WINNER]. because [REASON].
-[CLICK 3] operations. [WINNER]. because [REASON].
+[CLICK 1] acquisition. opus, for now. i have not run that head-to-head yet, so the cheaper model stays the default until fable earns it.
+[CLICK 2] customer success. opus four eight. that one i did test. thirty minutes versus fifty, same accuracy, fewer decisions. opus wins it.
+[CLICK 3] operations. split the layer. fable plans and architects, opus executes the spec.
 
 [CLICK 4 · navy callout]
 and the rule going forward: [READ THE ROUTING RULE]. right?
