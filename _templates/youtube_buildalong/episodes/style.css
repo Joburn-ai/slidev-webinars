@@ -25,7 +25,12 @@
 .slidev-layout h1 { font-weight: 900; color: var(--ff-navy); letter-spacing: -0.03em; line-height: 1.05; }
 .slidev-layout h2 { font-weight: 800; color: var(--ff-navy); letter-spacing: -0.02em; line-height: 1.1; }
 .slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--ff-navy); }
-.slidev-vclick-hidden { opacity: 0 !important; }
+/* Reveal POP: hidden elements sit lower + slightly smaller, then rise and settle
+   with a touch of overshoot when revealed. Turns the flat opacity-fade into a
+   real entrance. Transform is compositor-only (no layout reflow). */
+.slidev-vclick-hidden { opacity: 0 !important; transform: translateY(16px) scale(0.97); }
+.slidev-vclick-target { transition: opacity 0.34s ease, transform 0.42s cubic-bezier(0.22, 1.15, 0.36, 1); will-change: opacity, transform; }
+.slidev-vclick-current { transform: translateY(0) scale(1); }
 
 /* Eyebrow / specimen labels · atomic-era small-caps mono */
 .ff-eyebrow {
