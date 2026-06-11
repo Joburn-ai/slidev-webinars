@@ -790,15 +790,9 @@ class: !p-0
 
 <div class="rule-thin"></div>
 
-<div class="whiteboard-scene mt-5" style="min-height: 340px;">
-[ PRESS PEN ICON · DRAW LIVE ·<br/><br/>
-THREE BOXES: ACQUISITION | CUSTOMER SUCCESS | OPERATIONS ·<br/>
-UNDER EACH: THE WINNING MODEL FROM YOUR TESTS ·<br/>
-ARROWS: TASK → BUCKET → MODEL ·<br/>
-HAND-PRINT THE RULE: "route by bucket. not by hype." ]
+<div class="whiteboard-scene mt-5" style="min-height: 380px; border-style: solid; border-color: rgba(46,139,139,0.18); background: var(--ff-cream);">
+<span style="opacity: 0.25; font-size: 0.7rem;">FIG. 2</span>
 </div>
-
-<div class="fig-caption mt-3">PRESS PEN ICON · NARRATE WHILE DRAWING · HOLD 2 SECONDS ON THE FINAL LINE</div>
 
 </div>
 
