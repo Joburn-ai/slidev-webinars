@@ -144,3 +144,20 @@ Green-screen both deck URLs side by side. Script beat: *"i asked the old model a
 - v1 (ab7d547): "months became days / shelf is the strategy" angle. Killed by John 2026-06-09: jargon hook, design quality below bar.
 - v2 (db6e8a9): Stakes slide added. Same angle. Superseded.
 - v3 (this): personal-test angle, 16-slide Fable v2 deck, mythos→fable factual fix, restored whiteboard + receipts, real A/B meta-test with both decks deployed. Built BY Fable 5 as part of the test.
+
+## 8 · Packaging (added 2026-06-11 · hook review)
+
+First principle (copy-brain HOOK ANATOMY): the hook's one job is to CONFIRM THE CLICK and open a curiosity loop. Title + thumbnail do the attracting. The cold open confirms.
+
+**Title (pick one):**
+1. I Tested Anthropic's New AI. It Lost. (recommended: contrarian vs the "WILD!"/"Full Breakdown" hype wave, outcome-first)
+2. Claude's New AI Just Lost To The Old One (I Tested Both)
+3. The New Best AI In The World Has A Problem
+
+**Thumbnail:** FABLE vs OPUS as two cards/fighters, red X or "LOST?" sticker over the NEW one. 3D style per profile-photo direction. Max 4 words on image.
+
+**Cold open (locked in deck slide 1 verbatim):** "anthropic shipped the best model in the world on monday. i spent four hours testing it against the old one. and the new one lost. sort of. let me show you." The "sort of" is load-bearing: it is honest (fable won the deck test) AND it keeps the loop open.
+
+**Retention spikes:** second hook at ~30s = the recursive twist (slide 2). Third at ~8min = the verdict strip. Description links: both deck URLs.
+
+**Competitive gap (verified 6/11):** launch-wave titles are hype formats. Nobody has head-to-head data, nobody has new-model-loses, nobody can claim "this video was built by the model it reviews."

@@ -46,7 +46,7 @@ i spent 4 hours testing<br/>
 <v-click>
 
 <p style="font-size: 1.5rem; color: rgba(255,255,255,0.88); max-width: 50rem; margin: 0 auto; line-height: 1.4;">
-the first mythos-class model you can actually touch. two real experiments. head-to-head against opus 4.8.
+the new best model in the world. two head-to-head experiments against opus 4.8. <strong style="color: var(--ff-orange);">it lost one of them.</strong>
 </p>
 
 </v-click>
@@ -62,11 +62,11 @@ JOHN COBURN · JOBURN.COM
 <!--
 COVER VERBATIM (Scene A · 8-12s):
 
-i spent four hours testing fable 5.
+anthropic shipped the best model in the world on monday. i spent four hours testing it against the old one.
 
 [CLICK · reveal sub]
 
-the first mythos-class model you can actually touch. two real experiments. head-to-head against opus four point eight. here's what i found.
+and the new one lost. sort of. let me show you.
 
 PRESENTER NOTES:
 - cold open. no logo bumper, no "what's up." straight in.
