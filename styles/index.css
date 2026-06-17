@@ -1,0 +1,41 @@
+/* ─────────────────────────────────────────────────────────────
+   Joburn global deck styles. Auto-loaded by Slidev for every deck
+   run from this project root.
+   ───────────────────────────────────────────────────────────── */
+
+/* Force the bottom-left nav controls ALWAYS visible + high-contrast.
+   Default Slidev shows them faint + hover-only — which reads as invisible.
+   We target the known control selectors across Slidev v52. */
+.slidev-controls,
+.slidev-nav-controls,
+#slide-controls,
+.slidev-controls-fixed {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* The individual icon buttons: make them legible on light decks. */
+.slidev-controls .slidev-icon-btn,
+.slidev-nav-controls .slidev-icon-btn,
+button.slidev-icon-btn {
+  opacity: 1 !important;
+  color: #16263b !important;                 /* navy ink — visible on cream/light */
+  background: rgba(255, 255, 255, 0.82) !important;
+  border: 1px solid rgba(22, 38, 59, 0.18) !important;
+  border-radius: 7px !important;
+  margin: 0 1px;
+}
+.slidev-controls .slidev-icon-btn:hover,
+button.slidev-icon-btn:hover {
+  background: #f5d36c !important;             /* gold on hover */
+  color: #16263b !important;
+}
+
+/* Dark slides: flip the controls to light so they stay visible. */
+.slidev-page-dark .slidev-icon-btn,
+.dark .slidev-icon-btn {
+  color: #faf7ef !important;
+  background: rgba(14, 28, 43, 0.7) !important;
+  border-color: rgba(245, 211, 108, 0.4) !important;
+}
