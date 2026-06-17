@@ -189,3 +189,18 @@
 .al-step.gold { background: var(--al-gold); color: var(--al-navy); }
 .al-step.ghost { background: #fff; color: var(--al-navy); border: 1px dashed var(--al-teal); }
 .al-arrowr { width: 0; height: 0; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 12px solid var(--al-teal); flex: none; }
+
+/* Named skill-path cards + trajectory */
+.al-card.hot { border-left: 6px solid var(--al-gold); }
+.al-pathname { font-weight: 800; color: var(--al-navy); font-size: 1.12rem; }
+.al-pathname .plus { color: var(--al-gold); font-weight: 800; }
+.al-pathsub { color: var(--al-ink-mute); font-size: 0.9rem; margin-top: 0.15rem; }
+.al-rise { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--al-gold); }
+.al-stepwrap { display: flex; align-items: stretch; justify-content: center; gap: 0.6rem; flex-wrap: wrap; }
+.al-tstep { background: #fff; border: 1px solid rgba(30,58,95,0.12); border-bottom: 5px solid var(--al-teal); border-radius: 12px; padding: 0.9rem 1rem; min-width: 12rem; box-shadow: 0 10px 26px -14px rgba(30,58,95,0.25); }
+.al-tstep.s2 { border-bottom-color: var(--al-gold); }
+.al-tstep.s3 { border-bottom-color: #b88f2e; }
+.al-tstep.s4 { border-bottom-color: var(--al-rust); }
+.al-tstep .lab { font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--al-teal); }
+.al-tstep .big { font-weight: 900; color: var(--al-navy); font-size: 1.15rem; letter-spacing: -0.01em; margin-top: 0.2rem; }
+.al-tstep .sm { color: var(--al-ink-mute); font-size: 0.85rem; margin-top: 0.25rem; }
