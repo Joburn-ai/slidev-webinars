@@ -1,0 +1,175 @@
+/* cyborgtalent · Media Buyer Skill Test Walkthrough
+   Aurora dark aesthetic. Matches the candidate-facing /c/{token}/skill-test/* page.
+   Per skill Rule 7: co-located + auto-loaded UNSCOPED + ct-* prefix to avoid collision. */
+
+:root {
+  --ct-bg: #0c0e1a;
+  --ct-text: #f1f5f9;
+  --ct-text-mute: rgba(241, 245, 249, 0.65);
+  --ct-text-faint: rgba(241, 245, 249, 0.4);
+  --ct-border: rgba(255, 255, 255, 0.1);
+  --ct-border-soft: rgba(255, 255, 255, 0.06);
+  --ct-glass: rgba(255, 255, 255, 0.04);
+  --ct-glass-2: rgba(255, 255, 255, 0.07);
+  --ct-purple: #c084fc;
+  --ct-blue: #60a5fa;
+  --ct-green: #34d399;
+  --ct-amber: #fbbf24;
+  --ct-pink: #f472b6;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0c0e1a;
+  background-image:
+    radial-gradient(ellipse 1100px 750px at 18% 8%, rgba(168, 85, 247, 0.20), transparent 55%),
+    radial-gradient(ellipse 850px 650px at 82% 22%, rgba(59, 130, 246, 0.18), transparent 60%),
+    radial-gradient(ellipse 950px 750px at 50% 92%, rgba(236, 72, 153, 0.12), transparent 60%),
+    radial-gradient(ellipse 700px 600px at 92% 92%, rgba(34, 197, 94, 0.10), transparent 60%);
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.slidev-layout h1 {
+  font-weight: 600;
+  color: #f1f5f9;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+.slidev-layout h2 {
+  font-weight: 600;
+  color: #f1f5f9;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+.slidev-layout p, .slidev-layout li {
+  line-height: 1.55;
+  color: #f1f5f9;
+}
+
+/* Force v-click fully hidden before reveal (per skill Rule 3) */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 220ms ease, transform 220ms ease; }
+
+/* Eyebrow tag */
+.ct-eyebrow {
+  font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(241, 245, 249, 0.55);
+  margin-bottom: 1.5rem;
+  display: block;
+}
+.ct-eyebrow.accent { color: var(--ct-purple); }
+
+/* Glass card */
+.ct-card {
+  background: var(--ct-glass);
+  border: 1px solid var(--ct-border);
+  border-radius: 18px;
+  padding: 1.75rem 2rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.ct-card-2 { background: var(--ct-glass-2); }
+
+/* Accent text */
+.ct-purple { color: var(--ct-purple); }
+.ct-blue { color: var(--ct-blue); }
+.ct-green { color: var(--ct-green); }
+.ct-amber { color: var(--ct-amber); }
+.ct-mute { color: var(--ct-text-mute); }
+.ct-faint { color: var(--ct-text-faint); }
+
+/* Numbered step pill */
+.ct-step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid var(--ct-border);
+  background: var(--ct-glass-2);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ct-purple);
+  flex-shrink: 0;
+}
+
+/* Two-column lands / doesnt-land */
+.ct-col {
+  background: var(--ct-glass);
+  border: 1px solid var(--ct-border);
+  border-radius: 16px;
+  padding: 1.5rem 1.75rem;
+  min-height: 100%;
+}
+.ct-col.lands { border-left: 3px solid var(--ct-green); }
+.ct-col.flat { border-left: 3px solid rgba(244, 114, 182, 0.6); }
+.ct-col h3 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.ct-col.lands h3 { color: var(--ct-green); }
+.ct-col.flat h3 { color: var(--ct-pink); }
+.ct-col ul { list-style: none; padding: 0; margin: 0; }
+.ct-col li {
+  padding: 0.45rem 0;
+  font-size: 1rem;
+  color: var(--ct-text-mute);
+  border-bottom: 1px solid var(--ct-border-soft);
+}
+.ct-col li:last-child { border-bottom: none; }
+
+/* Footer ribbon */
+.ct-footer {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  color: var(--ct-text-faint);
+  text-transform: uppercase;
+}
+
+/* Kicker line · italic, large, mute */
+.ct-kicker {
+  font-style: italic;
+  color: var(--ct-text-mute);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Recording disclosure pill */
+.ct-rec {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 9999px;
+  background: rgba(248, 113, 113, 0.08);
+  border: 1px solid rgba(248, 113, 113, 0.25);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #fda4af;
+}
+.ct-rec-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: #f87171;
+  box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.2);
+}

@@ -1,17 +1,45 @@
 {
   "packageManager": "pnpm@10.9.0",
-  "name": "slidev-new",
+  "name": "slidev-webinars",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:supported-college": "slidev build supported/college_2026_05_27/slides.md --base / --out dist",
+    "build:giftedgabber-bsmd": "slidev build giftedgabber/bsmd_2026_05_27/slides.md --base / --out dist",
+    "build:cyborgtalent-skill-test-media-buyer": "slidev build cyborgtalent/skill_test_media_buyer_2026_05_30/slides.md --base / --out dist",
+    "dev:cyborgtalent-skill-test-media-buyer": "slidev cyborgtalent/skill_test_media_buyer_2026_05_30/slides.md --open",
+    "build:supported-funnel-builder": "slidev build supported/webinar_funnel_builder_2026_06_07/slides.md --base / --out dist",
+    "dev:supported-funnel-builder": "slidev supported/webinar_funnel_builder_2026_06_07/slides.md --open",
+    "build:brandon-launch-path": "slidev build brandon/launch_path_2026_05_30/slides.md --base / --out dist",
+    "dev:brandon-launch-path": "slidev brandon/launch_path_2026_05_30/slides.md --open",
+    "build:demo-feedback": "slidev build _demo/feedback_demo_2026_05_24/slides.md --base / --out dist",
+    "build:demo-unit-economics": "slidev build _demo/unit_economics_bowtie_2026_05_27/slides.md --base / --out dist",
+    "dev:demo-unit-economics": "slidev _demo/unit_economics_bowtie_2026_05_27/slides.md --open",
+    "build:feature-lab": "slidev build _demo/feature_lab_2026_05_30/slides.md --base / --out dist",
+    "dev:feature-lab": "slidev _demo/feature_lab_2026_05_30/slides.md --open",
+    "build:buildalong-ep02": "slidev build _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --base / --out dist-buildalong-ep02",
+    "dev:buildalong-ep02": "slidev _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --open",
+    "build:internal-aios-ladder": "slidev build internal/aios_operator_ladder_2026_06_16/slides.md --base / --out dist",
+    "dev:internal-aios-ladder": "slidev internal/aios_operator_ladder_2026_06_16/slides.md --open",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
+    "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
+    "dev:demo-feedback": "slidev _demo/feedback_demo_2026_05_24/slides.md --open",
+    "export": "slidev export",
+    "export:supported-college": "slidev export supported/college_2026_05_27/slides.md --without-notes"
   },
   "dependencies": {
-    "@slidev/cli": "^51.6.0",
+    "@slidev/cli": "^52.15.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.13"
+    "@vueuse/motion": "^3.0.3",
+    "chart.js": "^4.4.0",
+    "slidev-addon-excalidraw": "^1.1.1",
+    "vue": "^3.5.13",
+    "vue-chartjs": "^5.3.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.60.0"
   }
 }
