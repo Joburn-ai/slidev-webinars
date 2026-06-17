@@ -1,0 +1,191 @@
+/* AIOS Operator Ladder · internal team-alignment deck.
+   Atomic-era retro-futurist Joburn palette (cream field / navy ink / gold positive /
+   rust alarm / teal hairline). Co-located + auto-loaded UNSCOPED per slidev skill Rule 7.
+   Prefix .al-* to avoid collision with other decks in the repo. */
+
+:root {
+  --al-navy: #0F2440;
+  --al-navy-2: #1E3A5F;
+  --al-navy-3: #2A4D75;
+  --al-cream: #FAFAF5;
+  --al-warm: #F4EEDC;
+  --al-gold: #D4B85A;
+  --al-rust: #94463B;
+  --al-teal: #2E8B8B;
+  --al-ink-mute: #51688a;
+  --al-rule: rgba(46,139,139,0.32);
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--al-cream);
+  background-image:
+    linear-gradient(rgba(30,58,95,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30,58,95,0.035) 1px, transparent 1px);
+  background-size: 34px 34px;
+  color: var(--al-navy);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Force full-hide before click + kill click transition flash (slidev skill Rule 3). */
+.slidev-vclick-hidden { opacity: 0 !important; pointer-events: none; }
+.slidev-vclick-target { transition: opacity 220ms ease; }
+
+.slidev-layout h1 { font-weight: 900; color: var(--al-navy); letter-spacing: -0.03em; line-height: 1.04; }
+.slidev-layout h2 { font-weight: 800; color: var(--al-navy); letter-spacing: -0.02em; line-height: 1.1; }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--al-navy); }
+
+/* Dark cover/section layer (the loud verdict frames).
+   z-index 0 so it paints OVER the cream .slidev-layout background; content
+   wrapper lifts to z-index 1 so it sits on top of the dark layer. */
+.al-dark {
+  position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(135deg, #0B1B30 0%, #0F2440 52%, #1E3A5F 100%);
+}
+.al-dark-wrap { position: relative; z-index: 1; }
+.al-dark-wrap, .al-dark-wrap h1, .al-dark-wrap h2 { color: #fff; }
+.al-dark-wrap p, .al-dark-wrap li { color: rgba(255,255,255,0.90); }
+
+/* Eyebrow · atomic-era small-caps mono kicker */
+.al-eyebrow {
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.32em;
+  text-transform: uppercase; color: var(--al-teal); margin-bottom: 1rem;
+}
+.al-eyebrow.gold { color: var(--al-gold); }
+.al-eyebrow.ondark { color: var(--al-gold); }
+
+.al-h1 { font-size: 3.3rem; font-weight: 900; line-height: 1.04; color: var(--al-navy); }
+.al-h1.ondark { color: #fff; }
+.al-h2 { font-size: 2.15rem; font-weight: 800; color: var(--al-navy); line-height: 1.12; }
+.al-h2.ondark { color: #fff; }
+.al-lead { font-size: 1.2rem; color: var(--al-ink-mute); line-height: 1.5; }
+.al-lead.ondark { color: rgba(255,255,255,0.82); }
+.al-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: var(--al-ink-mute); letter-spacing: 0.05em; }
+.al-meta.ondark { color: rgba(255,255,255,0.6); }
+
+.al-gold-t { color: var(--al-gold); }
+.al-rust-t { color: var(--al-rust); }
+.al-teal-t { color: var(--al-teal); }
+
+/* Footer slug */
+.al-footer {
+  position: absolute; bottom: 1.1rem; left: 5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--al-ink-mute); opacity: 0.8;
+}
+.al-footer.ondark { color: rgba(255,255,255,0.55); }
+
+/* Cards */
+.al-card {
+  background: #fff; border-radius: 12px; padding: 1.25rem 1.4rem;
+  border: 1px solid rgba(30,58,95,0.10); box-shadow: 0 8px 24px -12px rgba(30,58,95,0.22);
+}
+.al-card .n { font-family: 'JetBrains Mono', monospace; color: var(--al-gold); font-weight: 800; font-size: 1rem; }
+.al-card .t { font-weight: 800; color: var(--al-navy); font-size: 1.18rem; }
+.al-card .d { color: var(--al-ink-mute); font-size: 0.98rem; line-height: 1.42; }
+.al-card.ondark { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.14); }
+.al-card.ondark .t { color: #fff; }
+.al-card.ondark .d { color: rgba(255,255,255,0.78); }
+
+/* "Not this" muted tag */
+.al-not { background: #fff; border-radius: 10px; padding: 0.8rem 1rem; border: 1px solid rgba(30,58,95,0.10); color: #8a97a8; font-weight: 500; }
+.al-not s { color: var(--al-rust); opacity: 0.7; }
+
+/* The 3-layer ladder */
+.al-rung {
+  background: #fff; border-radius: 12px; border: 1px solid rgba(30,58,95,0.12);
+  border-left: 7px solid var(--al-teal); padding: 0.7rem 1.4rem;
+  box-shadow: 0 8px 22px -14px rgba(30,58,95,0.25);
+}
+.al-rung.l1 { border-left-color: var(--al-gold); }
+.al-rung.l2 { border-left-color: var(--al-rust); }
+.al-rung .lvl { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--al-teal); font-weight: 700; }
+.al-rung.l1 .lvl { color: var(--al-gold); }
+.al-rung.l2 .lvl { color: var(--al-rust); }
+.al-rung .name { font-size: 1.3rem; font-weight: 900; color: var(--al-navy); letter-spacing: -0.01em; }
+.al-rung .sub { color: var(--al-ink-mute); font-size: 0.95rem; }
+.al-arrow { text-align: center; color: var(--al-teal); font-size: 1.4rem; line-height: 1; margin: 0.2rem 0; }
+
+/* Level pills (L1/L2/L3) */
+.al-pill { display: inline-block; border-radius: 999px; padding: 4px 14px; font-size: 0.85rem; font-weight: 800; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.04em; }
+.al-pill.l1 { background: rgba(46,139,139,0.14); border: 1px solid var(--al-teal); color: #1f6b6b; }
+.al-pill.l2 { background: rgba(212,184,90,0.18); border: 1px solid var(--al-gold); color: #8a701f; }
+.al-pill.l3 { background: rgba(148,70,59,0.14); border: 1px solid var(--al-rust); color: var(--al-rust); }
+
+/* ============ SKILL TREE (org-chart style, CSS connectors) ============ */
+.al-tree { display: flex; flex-direction: column; align-items: center; width: 100%; }
+.al-tree-root {
+  background: linear-gradient(135deg, #1E3A5F, #2A4D75);
+  color: #fff; border: 2px solid var(--al-gold);
+  border-radius: 14px; padding: 0.85rem 2rem; text-align: center;
+  box-shadow: 0 0 0 6px rgba(212,184,90,0.12), 0 14px 30px -12px rgba(15,36,64,0.5);
+}
+.al-tree-root .rt { font-size: 1.5rem; font-weight: 900; letter-spacing: -0.01em; }
+.al-tree-root .rs { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--al-gold); }
+.al-tree-stem { width: 2px; height: 26px; background: var(--al-gold); }
+.al-tree-bus { width: 82%; height: 2px; background: var(--al-rule); position: relative; }
+.al-tree-cols { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; width: 100%; margin-top: 0; }
+.al-fam { display: flex; flex-direction: column; align-items: center; position: relative; padding-top: 22px; }
+.al-fam::before { content: ""; position: absolute; top: 0; left: 50%; width: 2px; height: 22px; background: var(--al-rule); }
+.al-fam-node {
+  background: var(--al-navy); color: #fff; border-radius: 10px; padding: 0.5rem 0.9rem;
+  font-weight: 800; font-size: 0.92rem; text-align: center; width: 100%;
+  box-shadow: 0 8px 18px -12px rgba(15,36,64,0.5);
+}
+.al-leaf {
+  background: #fff; border: 1px solid rgba(30,58,95,0.14); border-radius: 8px;
+  padding: 0.34rem 0.5rem; font-size: 0.8rem; color: var(--al-navy); font-weight: 600;
+  margin-top: 0.5rem; width: 100%; text-align: center;
+}
+.al-leaf.hot { border-color: var(--al-gold); border-left: 4px solid var(--al-gold); }
+
+/* C0-C9 competency grid */
+.al-cgrid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.6rem; }
+.al-comp { background: #fff; border: 1px solid rgba(30,58,95,0.12); border-top: 4px solid var(--al-teal); border-radius: 9px; padding: 0.6rem 0.7rem; }
+.al-comp.heavy { border-top-color: var(--al-gold); }
+.al-comp .c { font-family: 'JetBrains Mono', monospace; font-weight: 800; color: var(--al-navy); font-size: 0.95rem; }
+.al-comp .w { font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; color: var(--al-teal); float: right; }
+.al-comp.heavy .w { color: #8a701f; }
+.al-comp .x { color: var(--al-ink-mute); font-size: 0.76rem; line-height: 1.3; display: block; margin-top: 0.2rem; }
+
+/* Badge mock */
+.al-badge {
+  width: 190px; height: 190px; border-radius: 50%;
+  background: radial-gradient(circle at 50% 38%, #1E3A5F, #0F2440);
+  border: 5px solid var(--al-gold); display: flex; flex-direction: column;
+  align-items: center; justify-content: center; color: #fff; text-align: center;
+  box-shadow: 0 0 0 7px rgba(212,184,90,0.14), 0 18px 40px -14px rgba(15,36,64,0.6);
+}
+.al-badge .star { color: var(--al-gold); font-size: 1.6rem; line-height: 1; }
+.al-badge .bt { font-weight: 900; font-size: 1.18rem; letter-spacing: -0.01em; margin-top: 0.2rem; }
+.al-badge .bs { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--al-gold); margin-top: 0.25rem; }
+
+/* Roster table */
+.al-table { width: 100%; border-collapse: collapse; }
+.al-table th { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--al-teal); text-align: left; padding: 0.5rem 0.7rem; border-bottom: 2px solid var(--al-rule); }
+.al-table td { padding: 0.5rem 0.7rem; border-bottom: 1px solid rgba(30,58,95,0.10); font-size: 0.96rem; }
+.al-table td:first-child { font-weight: 800; color: var(--al-navy); }
+.al-table .dir { color: var(--al-rust); font-weight: 700; }
+.al-table .prop { color: var(--al-ink-mute); font-style: italic; }
+
+/* Whiteboard cue */
+.al-board { border: 2px dashed var(--al-teal); border-radius: 12px; background: var(--al-warm); }
+.al-board .cue { font-family: 'JetBrains Mono', monospace; letter-spacing: 0.2em; text-transform: uppercase; color: var(--al-teal); font-size: 0.8rem; }
+
+/* CTA card */
+.al-cta { background: #fff; border: 1px solid var(--al-navy); border-left: 7px solid var(--al-gold); border-radius: 10px; padding: 1.1rem 1.5rem; }
+.al-mono { font-family: 'JetBrains Mono', monospace; }
+
+/* Font-independent motifs (no emoji / no icon-font dependency, slidev skill Rule 13) */
+.al-chev { width: 0; height: 0; margin: 0.35rem auto; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 11px solid var(--al-teal); }
+.al-chev.gold { border-top-color: var(--al-gold); }
+.al-diamond { width: 16px; height: 16px; background: var(--al-gold); transform: rotate(45deg); border-radius: 3px; box-shadow: 0 0 14px rgba(212,184,90,0.6); }
+.al-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--al-gold); display: inline-block; margin-right: 0.5rem; vertical-align: middle; }
+
+/* Horizontal step path (replaces a too-wide mermaid LR flow) */
+.al-step { background: var(--al-navy); color: #fff; border-radius: 10px; padding: 0.75rem 0.85rem; font-weight: 800; font-size: 0.98rem; text-align: center; line-height: 1.22; box-shadow: 0 8px 18px -12px rgba(15,36,64,0.5); min-width: 7.6rem; }
+.al-step.gold { background: var(--al-gold); color: var(--al-navy); }
+.al-step.ghost { background: #fff; color: var(--al-navy); border: 1px dashed var(--al-teal); }
+.al-arrowr { width: 0; height: 0; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 12px solid var(--al-teal); flex: none; }

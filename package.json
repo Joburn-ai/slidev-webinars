@@ -20,6 +20,8 @@
     "dev:feature-lab": "slidev _demo/feature_lab_2026_05_30/slides.md --open",
     "build:buildalong-ep02": "slidev build _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --base / --out dist-buildalong-ep02",
     "dev:buildalong-ep02": "slidev _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --open",
+    "build:internal-aios-ladder": "slidev build internal/aios_operator_ladder_2026_06_16/slides.md --base / --out dist",
+    "dev:internal-aios-ladder": "slidev internal/aios_operator_ladder_2026_06_16/slides.md --open",
     "dev": "slidev --open",
     "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
     "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
@@ -32,9 +34,12 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "@vueuse/motion": "^3.0.3",
+    "chart.js": "^4.4.0",
     "slidev-addon-excalidraw": "^1.1.1",
     "vue": "^3.5.13",
-    "chart.js": "^4.4.0",
     "vue-chartjs": "^5.3.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.60.0"
   }
 }

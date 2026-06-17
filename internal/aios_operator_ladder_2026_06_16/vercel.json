@@ -1,0 +1,9 @@
+{
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm build:internal-aios-ladder",
+  "outputDirectory": "internal/aios_operator_ladder_2026_06_16/dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
