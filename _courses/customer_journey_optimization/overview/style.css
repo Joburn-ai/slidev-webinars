@@ -1,0 +1,284 @@
+/* Customer Journey Optimization, Overview deck. Internal training format.
+   Joburn brand palette hardcoded per slidev skill Rule 7 (no scoped :root,
+   no inline <style> blocks for cross-slide classes). All component classes
+   prefixed cjo-* to avoid collision with other decks in the repo.
+   Force-hide CSS per Rule 3. */
+
+:root {
+  --joburn-navy: #1E3A5F;
+  --joburn-navy-2: #2A4D75;
+  --joburn-navy-deep: #0F2440;
+  --joburn-teal: #2E8B8B;
+  --joburn-gold: #D4B85A;
+  --joburn-cream: #FAFAF5;
+  --joburn-warm: #F4EEDC;
+  --joburn-charcoal: #333333;
+  --joburn-ink-mute: #51688a;
+  --joburn-rule: rgba(46,139,139,0.32);
+  --joburn-rust: #94463B;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--joburn-cream);
+  color: var(--joburn-navy);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Force full-hide before click per Rule 3. */
+.slidev-vclick-hidden { opacity: 0 !important; pointer-events: none; }
+.slidev-vclick-target { transition: opacity 220ms ease; }
+
+.slidev-layout h1 { font-weight: 900; color: var(--joburn-navy); letter-spacing: -0.03em; line-height: 1.05; }
+.slidev-layout h2 { font-weight: 800; color: var(--joburn-navy); letter-spacing: -0.02em; line-height: 1.1; }
+.slidev-layout h3 { font-weight: 700; color: var(--joburn-navy); }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--joburn-navy); }
+
+/* Dark cover/section layer. z-index ordering so cream background is overwritten
+   and wrapper content sits on top. */
+.cjo-dark {
+  position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(135deg, #0B1B30 0%, #0F2440 52%, #1E3A5F 100%);
+}
+.cjo-dark-wrap { position: relative; z-index: 1; height: 100%; }
+.cjo-dark-wrap, .cjo-dark-wrap h1, .cjo-dark-wrap h2, .cjo-dark-wrap h3 { color: #fff; }
+.cjo-dark-wrap p, .cjo-dark-wrap li { color: rgba(255,255,255,0.90); }
+
+/* Eyebrow, mono small-caps */
+.cjo-eyebrow {
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.32em;
+  text-transform: uppercase; color: var(--joburn-teal); margin-bottom: 1rem;
+}
+.cjo-eyebrow.gold { color: var(--joburn-gold); }
+.cjo-eyebrow.ondark { color: var(--joburn-gold); }
+
+/* Header bar accent at the top of cover slides */
+.cjo-bar {
+  position: absolute; top: 0; left: 0; right: 0; height: 6px;
+  background: linear-gradient(90deg, var(--joburn-teal), var(--joburn-gold));
+  z-index: 10;
+}
+
+/* Typography helpers */
+.cjo-h1 { font-size: 3.3rem; font-weight: 900; line-height: 1.04; color: var(--joburn-navy); }
+.cjo-h1.ondark { color: #fff; }
+.cjo-h2 { font-size: 2.15rem; font-weight: 800; color: var(--joburn-navy); line-height: 1.12; }
+.cjo-h2.ondark { color: #fff; }
+.cjo-lead { font-size: 1.2rem; color: var(--joburn-ink-mute); line-height: 1.5; }
+.cjo-lead.ondark { color: rgba(255,255,255,0.82); }
+.cjo-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--joburn-ink-mute); letter-spacing: 0.06em; }
+.cjo-meta.ondark { color: rgba(255,255,255,0.6); }
+
+.cjo-teal { color: var(--joburn-teal); }
+.cjo-gold { color: var(--joburn-gold); }
+.cjo-rust { color: var(--joburn-rust); }
+.cjo-mute { color: var(--joburn-ink-mute); }
+
+/* Footer slug */
+.cjo-footer {
+  position: absolute; bottom: 1.1rem; left: 3rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--joburn-ink-mute); opacity: 0.8;
+}
+.cjo-footer.ondark { color: rgba(255,255,255,0.55); }
+
+/* Cards */
+.cjo-card {
+  background: #fff; border-radius: 12px; padding: 1rem 1.2rem;
+  border: 1px solid rgba(30,58,95,0.10); box-shadow: 0 8px 24px -12px rgba(30,58,95,0.22);
+}
+.cjo-card .n { font-family: 'JetBrains Mono', monospace; color: var(--joburn-gold); font-weight: 800; font-size: 0.9rem; letter-spacing: 0.06em; }
+.cjo-card .t { font-weight: 800; color: var(--joburn-navy); font-size: 1.1rem; margin-top: 0.2rem; }
+.cjo-card .d { color: var(--joburn-ink-mute); font-size: 0.92rem; line-height: 1.42; margin-top: 0.35rem; }
+.cjo-card.ondark { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.14); }
+.cjo-card.ondark .t { color: #fff; }
+.cjo-card.ondark .d { color: rgba(255,255,255,0.78); }
+.cjo-card.accent { border-left: 5px solid var(--joburn-gold); }
+
+/* 4-Pillar block */
+.cjo-pillar {
+  background: #fff; border-radius: 12px; padding: 1rem 1.1rem;
+  border: 1px solid rgba(30,58,95,0.12); border-top: 5px solid var(--joburn-teal);
+  box-shadow: 0 6px 18px -10px rgba(30,58,95,0.22);
+}
+.cjo-pillar .lab { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--joburn-teal); font-weight: 700; }
+.cjo-pillar .ttl { font-size: 1.15rem; font-weight: 800; color: var(--joburn-navy); margin-top: 0.2rem; }
+.cjo-pillar .desc { color: var(--joburn-ink-mute); font-size: 0.88rem; line-height: 1.4; margin-top: 0.4rem; }
+.cjo-pillar.p1 { border-top-color: var(--joburn-gold); }
+.cjo-pillar.p2 { border-top-color: var(--joburn-teal); }
+.cjo-pillar.p3 { border-top-color: var(--joburn-navy-2); }
+.cjo-pillar.p4 { border-top-color: var(--joburn-rust); }
+
+/* 5-Stage swimlane chip */
+.cjo-stage {
+  background: var(--joburn-navy); color: #fff; border-radius: 10px;
+  padding: 0.55rem 0.7rem; font-weight: 800; font-size: 0.84rem;
+  text-align: center; line-height: 1.2;
+  box-shadow: 0 6px 16px -10px rgba(15,36,64,0.5);
+}
+.cjo-stage.gold { background: var(--joburn-gold); color: var(--joburn-navy); }
+.cjo-stage.book { background: var(--joburn-rust); color: #fff; }
+.cjo-stage .num { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; opacity: 0.7; display: block; letter-spacing: 0.18em; }
+
+/* Motion-type tiles */
+.cjo-motion {
+  background: #fff; border-radius: 12px; padding: 1rem 1.1rem;
+  border: 1px solid rgba(30,58,95,0.12); border-top: 6px solid var(--joburn-teal);
+  box-shadow: 0 8px 20px -12px rgba(30,58,95,0.25);
+}
+.cjo-motion .mt { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--joburn-teal); font-weight: 700; }
+.cjo-motion .mt.gold { color: var(--joburn-gold); }
+.cjo-motion .mt.rust { color: var(--joburn-rust); }
+.cjo-motion .ttl { font-weight: 900; font-size: 1.25rem; color: var(--joburn-navy); margin-top: 0.25rem; }
+.cjo-motion .desc { color: var(--joburn-ink-mute); font-size: 0.92rem; line-height: 1.42; margin-top: 0.45rem; }
+.cjo-motion.led-p { border-top-color: var(--joburn-teal); }
+.cjo-motion.led-s { border-top-color: var(--joburn-gold); }
+.cjo-motion.led-m { border-top-color: var(--joburn-rust); }
+
+/* Table */
+.cjo-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.cjo-table th { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--joburn-teal); text-align: left; padding: 0.45rem 0.6rem; border-bottom: 2px solid var(--joburn-rule); background: var(--joburn-warm); }
+.cjo-table td { padding: 0.45rem 0.6rem; border-bottom: 1px solid rgba(30,58,95,0.10); font-size: 0.85rem; vertical-align: top; }
+.cjo-table td:first-child { font-weight: 800; color: var(--joburn-navy); }
+.cjo-table tr:last-child td { border-bottom: none; }
+.cjo-table .num { font-family: 'JetBrains Mono', monospace; color: var(--joburn-gold); font-weight: 800; }
+
+/* Failure-mode tile (the leaks) */
+.cjo-leak {
+  background: #fff; border-radius: 10px; padding: 0.85rem 1rem;
+  border: 1px solid rgba(148,70,59,0.20); border-left: 6px solid var(--joburn-rust);
+}
+.cjo-leak .ttl { font-weight: 800; color: var(--joburn-navy); font-size: 1rem; }
+.cjo-leak .desc { color: var(--joburn-ink-mute); font-size: 0.85rem; line-height: 1.4; margin-top: 0.2rem; }
+
+/* Anti-pattern row */
+.cjo-anti {
+  background: #fff; border-radius: 8px; padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(30,58,95,0.10); border-left: 4px solid var(--joburn-rust);
+  font-size: 0.84rem; color: var(--joburn-navy);
+}
+.cjo-anti .x { color: var(--joburn-rust); font-weight: 800; margin-right: 0.4rem; }
+
+/* Dopamine curve dot legend */
+.cjo-dopa {
+  display: inline-block; padding: 0.18rem 0.55rem; border-radius: 999px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.cjo-dopa.peak { background: rgba(212,184,90,0.20); color: #8a701f; border: 1px solid var(--joburn-gold); }
+.cjo-dopa.collapse { background: rgba(148,70,59,0.14); color: var(--joburn-rust); border: 1px solid var(--joburn-rust); }
+.cjo-dopa.neutral { background: rgba(81,104,138,0.12); color: var(--joburn-ink-mute); border: 1px solid rgba(81,104,138,0.4); }
+.cjo-dopa.high { background: rgba(46,139,139,0.14); color: #1f6b6b; border: 1px solid var(--joburn-teal); }
+
+/* Mermaid wrappers, size-cap so the hero chart doesn't blow the 16:9 frame */
+.cjo-mermaid-wrap { max-height: 27rem; overflow: hidden; display: flex; justify-content: center; }
+.cjo-mermaid-wrap svg { max-height: 27rem !important; height: auto !important; max-width: 100%; }
+
+/* Code block helper for YAML manifest snippet */
+.cjo-code {
+  background: var(--joburn-navy-deep); color: #d6dde8; border-radius: 10px;
+  padding: 0.8rem 1rem; font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem; line-height: 1.45; overflow: hidden;
+  border: 1px solid rgba(212,184,90,0.30);
+}
+.cjo-code .k { color: var(--joburn-gold); }
+.cjo-code .s { color: #b9e0c4; }
+.cjo-code .c { color: rgba(255,255,255,0.4); }
+
+/* Callout (notice / lesson) */
+.cjo-callout {
+  background: var(--joburn-warm); border-radius: 10px; padding: 0.9rem 1.2rem;
+  border-left: 5px solid var(--joburn-gold); color: var(--joburn-navy);
+  font-size: 1rem; line-height: 1.5;
+}
+.cjo-callout .lab { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--joburn-gold); font-weight: 700; display: block; margin-bottom: 0.35rem; }
+
+/* Diagram chips for the 4-pillar alignment slide */
+.cjo-mchip {
+  background: #fff; border: 1px solid rgba(30,58,95,0.14); border-radius: 10px;
+  padding: 0.65rem 0.85rem; font-size: 0.86rem; box-shadow: 0 6px 18px -12px rgba(30,58,95,0.22);
+}
+.cjo-mchip .lab { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--joburn-teal); font-weight: 700; }
+.cjo-mchip .v { font-weight: 700; color: var(--joburn-navy); font-size: 0.94rem; margin-top: 0.15rem; }
+
+/* Industry matrix cell */
+.cjo-ind {
+  background: #fff; border-radius: 10px; padding: 0.6rem 0.75rem;
+  border: 1px solid rgba(30,58,95,0.10); border-top: 4px solid var(--joburn-teal);
+}
+.cjo-ind .nm { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--joburn-teal); font-weight: 700; }
+.cjo-ind .ttl { font-weight: 800; color: var(--joburn-navy); font-size: 0.96rem; margin-top: 0.15rem; }
+.cjo-ind .d { color: var(--joburn-ink-mute); font-size: 0.78rem; line-height: 1.35; margin-top: 0.25rem; }
+.cjo-ind.coach { border-top-color: var(--joburn-gold); }
+.cjo-ind.real { border-top-color: var(--joburn-teal); }
+.cjo-ind.trade { border-top-color: var(--joburn-rust); }
+.cjo-ind.ent { border-top-color: var(--joburn-navy-2); }
+.cjo-ind.saas { border-top-color: var(--joburn-navy); }
+
+/* Bookends label */
+.cjo-bookend {
+  background: var(--joburn-warm); border-radius: 12px; padding: 0.85rem 1rem;
+  border: 1px solid rgba(148,70,59,0.30); border-left: 6px solid var(--joburn-rust);
+}
+.cjo-bookend .lab { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--joburn-rust); font-weight: 700; }
+.cjo-bookend .ttl { font-weight: 800; color: var(--joburn-navy); font-size: 1.1rem; margin-top: 0.2rem; }
+.cjo-bookend .d { color: var(--joburn-ink-mute); font-size: 0.92rem; line-height: 1.42; margin-top: 0.35rem; }
+
+/* Litmus question card (closing slide) */
+.cjo-litmus {
+  background: #fff; border-radius: 14px; padding: 1.4rem 1.6rem;
+  border: 2px solid var(--joburn-gold);
+  box-shadow: 0 0 0 6px rgba(212,184,90,0.12), 0 14px 30px -12px rgba(15,36,64,0.35);
+}
+.cjo-litmus .q { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--joburn-gold); font-weight: 700; }
+.cjo-litmus .a { font-weight: 900; color: var(--joburn-navy); font-size: 1.55rem; line-height: 1.2; margin-top: 0.4rem; letter-spacing: -0.01em; }
+
+/* Section divider */
+.cjo-divider {
+  height: 1px; background: var(--joburn-rule); margin: 1rem 0;
+}
+
+/* Workshop block tag */
+.cjo-block {
+  background: var(--joburn-navy); color: #fff; border-radius: 10px;
+  padding: 0.6rem 0.85rem; font-size: 0.86rem; line-height: 1.3;
+  box-shadow: 0 6px 16px -10px rgba(15,36,64,0.5);
+}
+.cjo-block .num { font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; opacity: 0.7; letter-spacing: 0.2em; display: block; }
+.cjo-block .ttl { font-weight: 800; font-size: 0.96rem; }
+.cjo-block .tm { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--joburn-gold); margin-top: 0.15rem; }
+
+/* Attribution box on the frameworks-layered slide */
+.cjo-attrib {
+  background: #fff; border-radius: 10px; padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(30,58,95,0.12); border-bottom: 4px solid var(--joburn-teal);
+}
+.cjo-attrib .who { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--joburn-teal); font-weight: 700; }
+.cjo-attrib .what { font-weight: 800; color: var(--joburn-navy); font-size: 1rem; margin-top: 0.2rem; }
+.cjo-attrib .ours { color: var(--joburn-gold); font-weight: 700; font-size: 0.82rem; margin-top: 0.3rem; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.04em; }
+.cjo-attrib .desc { color: var(--joburn-ink-mute); font-size: 0.82rem; line-height: 1.4; margin-top: 0.35rem; }
+
+/* Tier badge */
+.cjo-tier {
+  background: #fff; border-radius: 10px; padding: 0.8rem 1rem;
+  border: 1px solid rgba(30,58,95,0.12);
+}
+.cjo-tier .tl { font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 700; }
+.cjo-tier .nm { font-weight: 800; color: var(--joburn-navy); font-size: 1.05rem; margin-top: 0.2rem; }
+.cjo-tier .pr { font-family: 'JetBrains Mono', monospace; font-size: 0.74rem; color: var(--joburn-gold); margin-top: 0.25rem; letter-spacing: 0.04em; }
+.cjo-tier .desc { color: var(--joburn-ink-mute); font-size: 0.84rem; line-height: 1.4; margin-top: 0.4rem; }
+.cjo-tier.t1 { border-top: 4px solid var(--joburn-teal); }
+.cjo-tier.t2 { border-top: 4px solid var(--joburn-gold); }
+.cjo-tier.t3 { border-top: 4px solid var(--joburn-rust); }
+.cjo-tier.t1 .tl { color: var(--joburn-teal); }
+.cjo-tier.t2 .tl { color: var(--joburn-gold); }
+.cjo-tier.t3 .tl { color: var(--joburn-rust); }
+
+/* Thought experiment chip */
+.cjo-te {
+  background: var(--joburn-warm); border-radius: 8px; padding: 0.4rem 0.7rem;
+  font-size: 0.82rem; color: var(--joburn-navy); border: 1px solid rgba(212,184,90,0.4);
+}
+.cjo-te .n { font-family: 'JetBrains Mono', monospace; color: var(--joburn-gold); font-weight: 800; margin-right: 0.4rem; }

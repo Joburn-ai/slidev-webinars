@@ -22,6 +22,8 @@
     "dev:buildalong-ep02": "slidev _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --open",
     "build:internal-aios-ladder": "slidev build internal/aios_operator_ladder_2026_06_16/slides.md --base / --out dist",
     "dev:internal-aios-ladder": "slidev internal/aios_operator_ladder_2026_06_16/slides.md --open",
+    "build:cjo-overview": "slidev build _courses/customer_journey_optimization/overview/slides.md --base / --out dist",
+    "dev:cjo-overview": "slidev _courses/customer_journey_optimization/overview/slides.md --open",
     "dev": "slidev --open",
     "dev:supported-college": "slidev supported/college_2026_05_27/slides.md --open",
     "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
