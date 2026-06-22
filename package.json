@@ -22,6 +22,8 @@
     "dev:buildalong-ep02": "slidev _templates/youtube_buildalong/episodes/episode_02_fable5_mythos5_drop.md --open",
     "build:internal-aios-ladder": "slidev build internal/aios_operator_ladder_2026_06_16/slides.md --base / --out dist",
     "dev:internal-aios-ladder": "slidev internal/aios_operator_ladder_2026_06_16/slides.md --open",
+    "build:internal-heist-brief": "slidev build internal/heist_daily_brief/slides.md --base / --out dist",
+    "dev:internal-heist-brief": "slidev internal/heist_daily_brief/slides.md --open",
     "build:cjo-overview": "slidev build _courses/customer_journey_optimization/overview/slides.md --base / --out dist",
     "dev:cjo-overview": "slidev _courses/customer_journey_optimization/overview/slides.md --open",
     "dev": "slidev --open",
@@ -29,7 +31,9 @@
     "dev:giftedgabber-bsmd": "slidev giftedgabber/bsmd_2026_05_27/slides.md --open",
     "dev:demo-feedback": "slidev _demo/feedback_demo_2026_05_24/slides.md --open",
     "export": "slidev export",
-    "export:supported-college": "slidev export supported/college_2026_05_27/slides.md --without-notes"
+    "export:supported-college": "slidev export supported/college_2026_05_27/slides.md --without-notes",
+    "build:internal-heist-plan": "slidev build internal/heist_plan_2026_06_20/slides.md --base / --out dist",
+    "dev:internal-heist-plan": "slidev internal/heist_plan_2026_06_20/slides.md --open"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",
