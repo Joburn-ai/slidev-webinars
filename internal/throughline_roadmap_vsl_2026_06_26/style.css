@@ -1,0 +1,229 @@
+/* =====================================================================
+   Throughline Roadmap Mini-VSL, "Dossier" dark theme (UNSCOPED)
+   Slidev auto-loads any style.css co-located with slides.md.
+   All component classes are prefixed .rm- so they never collide with
+   other decks in this repo. Hex is hardcoded (no :root reliance) per
+   slidev_presentation Rule 7.
+   Palette: bg #0a0a0b · ink #ece9e2 · muted #8a877f · gold #c9a86a
+            cyan #3db4e6 · red #e8402f · green #3fae6b · line #26262c
+   ===================================================================== */
+
+/* ---- force-hide before click (slidev_presentation Rule 3, REQUIRED) ---- */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 200ms ease; }
+
+/* ---- canvas + base type ---- */
+.slidev-layout {
+  background: #0a0a0b;
+  color: #ece9e2;
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  color: #ece9e2;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  line-height: 1.05;
+}
+.slidev-layout h1 { font-size: 3rem; }
+.slidev-layout h2 { font-size: 2.4rem; }
+.slidev-layout p { line-height: 1.5; }
+.slidev-layout strong { color: #ece9e2; font-weight: 700; }
+.slidev-layout a { color: #3db4e6; }
+
+/* ---- color helpers ---- */
+.rm-gold  { color: #c9a86a; }
+.rm-cyan  { color: #3db4e6; }
+.rm-red   { color: #e8402f; }
+.rm-green { color: #3fae6b; }
+.rm-ink   { color: #ece9e2; }
+.rm-muted { color: #8a877f; }
+
+/* ---- kicker / eyebrow label (mono) ---- */
+.rm-kick {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #8a877f;
+  margin-bottom: 1.1rem;
+}
+.rm-kick.rm-gold  { color: #c9a86a; }
+.rm-kick.rm-cyan  { color: #3db4e6; }
+.rm-kick.rm-red   { color: #e8402f; }
+.rm-kick.rm-green { color: #3fae6b; }
+
+/* ---- mono utility ---- */
+.rm-mono {
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.02em;
+}
+
+/* ---- big number / statement type ---- */
+.rm-big {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 4.4rem;
+  font-weight: 900;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+}
+.rm-mid {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+/* ---- strike (for disqualified / crossed-out options) ---- */
+.rm-strike { text-decoration: line-through; opacity: 0.42; }
+
+/* ---- cards ---- */
+.rm-card {
+  border: 1px solid #26262c;
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  background: #111114;
+}
+.rm-card p { margin: 0; }
+.rm-lft-r    { border-left: 3px solid #e8402f; }
+.rm-lft-c    { border-left: 3px solid #3db4e6; }
+.rm-lft-g    { border-left: 3px solid #3fae6b; }
+.rm-lft-gold { border-left: 3px solid #c9a86a; }
+
+/* ---- thin rule / divider ---- */
+.rm-rule {
+  height: 1px;
+  background: #26262c;
+  border: 0;
+  margin: 1.2rem 0;
+}
+
+/* ---- proof tile row ---- */
+.rm-proof {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  border: 1px solid #26262c;
+  border-radius: 999px;
+  padding: 0.4rem 0.95rem;
+  background: #111114;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.82rem;
+  color: #ece9e2;
+}
+.rm-proof .rm-tag {
+  color: #8a877f;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ---- image slot placeholder (no real images this pass) ---- */
+.rm-imgslot {
+  border: 1px dashed #3a3a42;
+  border-radius: 12px;
+  background:
+    repeating-linear-gradient(45deg, #0e0e10 0 12px, #111114 12px 24px);
+  color: #8a877f;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  min-height: 180px;
+}
+.rm-imgslot .rm-src {
+  color: #c9a86a;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+/* ---- ICEBERG whiteboard scaffold ---- */
+.rm-berg { position: relative; width: 540px; margin: 0.5rem auto 0; }
+.rm-water {
+  border-top: 2px dashed #3db4e6;
+  position: relative;
+  margin: 0.5rem 0;
+}
+.rm-water::after {
+  content: 'WATERLINE';
+  position: absolute;
+  right: 0;
+  top: -1.35rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  color: #3db4e6;
+  letter-spacing: 0.22em;
+}
+.rm-lyr {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.88rem;
+  padding: 0.4rem 0;
+  color: #ece9e2;
+}
+.rm-lyr.rm-muted { color: #8a877f; }
+
+/* ---- Iron Triangle ---- */
+.rm-tri {
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 185px solid rgba(201, 168, 106, 0.14);
+  margin: 0 auto;
+  position: relative;
+}
+
+/* ---- goal -> constraint -> path scaffold ---- */
+.rm-flow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.9rem;
+  font-family: 'Space Mono', monospace;
+}
+.rm-flow .rm-step { font-size: 1rem; font-weight: 700; }
+.rm-flow .rm-sub  { color: #8a877f; font-size: 0.78rem; margin-top: 0.3rem; }
+
+/* ---- bracket / progress dots in footer (optional cue) ---- */
+.rm-foot {
+  position: absolute;
+  bottom: 1.1rem;
+  left: 2.2rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  color: #3a3a42;
+  text-transform: uppercase;
+}
+
+/* ---- whiteboard drawing-surface hint banner ---- */
+.rm-wb-banner {
+  display: inline-block;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #0a0a0b;
+  background: #c9a86a;
+  border-radius: 4px;
+  padding: 0.25rem 0.7rem;
+  margin-bottom: 0.8rem;
+}
+.rm-wb-banner.rm-green-bg { background: #3fae6b; }
+
+/* ---- subtle vignette on cover slides ---- */
+.rm-cover-veil {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 90% at 50% 30%, rgba(201,168,106,0.05), transparent 60%),
+    #0a0a0b;
+}
