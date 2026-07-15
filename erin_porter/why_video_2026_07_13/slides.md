@@ -206,31 +206,46 @@ SAY: That one thing underneath all of it has a name. Self-regulation. It's the a
 
 <!-- slide:pyramid-10 -->
 
-<div class="h-full flex items-center gap-10">
-  <div class="flex-1">
+<div class="h-full flex items-center gap-8">
+  <div style="width:39%">
     <div class="ep-eyebrow">Why your child is stuck</div>
-    <h2 class="text-4xl mb-5">Think of a pyramid.</h2>
-    <p class="ep-lead">Children grow from the bottom up. The foundation is the everyday survival skills.</p>
-    <p class="ep-quiet mt-4" v-click>A child with autism often gets stuck at the bottom, <strong>no matter their age</strong>, until they build the one thing that lets them climb.</p>
-    <p class="mt-4" v-click><span class="ep-chip">Self-regulation is the key</span></p>
+    <h2 class="text-4xl mb-5">It's Maslow's hierarchy.</h2>
+    <p class="ep-lead">Children grow from the bottom up. The base is where the everyday survival skills live.</p>
+    <p class="ep-quiet mt-4" v-click>A child with autism often gets stuck at the base, <strong>no matter their age</strong>, until they build the one thing that lets them climb.</p>
+    <div class="mt-5" v-click>
+      <span class="ep-chip" style="font-size:1rem;line-height:1.3">
+        <svg class="ep-arrow" width="20" height="20" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#2F5D5A"><path d="M11 19 V4"/><path d="M4 11 L11 3 L18 11"/></svg>
+        Self-regulation is the key that unlocks the climb
+      </span>
+    </div>
   </div>
-  <div class="flex-none">
-    <svg viewBox="0 0 480 340" width="430" class="ep-pyr">
-      <polygon points="240,18 302,120 178,120" fill="#E39A4E"/>
-      <text x="240" y="98" text-anchor="middle" class="t-tier">Thriving</text>
-      <polygon points="178,124 302,124 344,224 136,224" fill="#7FA891"/>
-      <text x="240" y="170" text-anchor="middle" class="t-tier">Social · Learning</text>
-      <text x="240" y="190" text-anchor="middle" class="t-sub">confidence, connection</text>
-      <polygon points="136,228 344,228 392,332 88,332" fill="#2F5D5A" class="ep-pulse"/>
-      <text x="240" y="266" text-anchor="middle" class="t-tier">Survival skills</text>
-      <text x="240" y="288" text-anchor="middle" class="t-sub">sleep · eat · play · self-care · toileting</text>
-      <text x="240" y="312" text-anchor="middle" class="t-sub">your child is here</text>
+  <div class="flex-1 flex flex-col items-center justify-center">
+    <svg viewBox="0 0 640 452" width="470" class="ep-pyr">
+      <polygon points="310,24 358,104 262,104" fill="#E39A4E"/>
+      <polygon points="262,104 358,104 406,184 214,184" fill="#D6A15E"/>
+      <polygon points="214,184 406,184 454,264 166,264" fill="#7FA891"/>
+      <polygon points="166,264 454,264 502,344 118,344" fill="#2F5D5A"/>
+      <polygon points="118,344 502,344 550,424 70,424" fill="#1F433F"/>
+      <line x1="336" y1="64" x2="470" y2="64" stroke="#C9BCA6" stroke-width="1.5"/>
+      <circle cx="336" cy="64" r="2.5" fill="#C9BCA6"/>
+      <text x="478" y="60" class="t-side">Self-actualization</text>
+      <text x="478" y="77" class="t-side-sub">reaching potential</text>
+      <text x="310" y="149" text-anchor="middle" class="t-tier" style="font-size:13px">Esteem</text>
+      <text x="310" y="165" text-anchor="middle" class="t-sub">confidence</text>
+      <text x="310" y="219" text-anchor="middle" class="t-tier">Love &amp; Belonging</text>
+      <text x="310" y="236" text-anchor="middle" class="t-sub">connection, friendship</text>
+      <text x="310" y="299" text-anchor="middle" class="t-tier">Safety</text>
+      <text x="310" y="316" text-anchor="middle" class="t-sub">feeling calm + regulated</text>
+      <text x="310" y="378" text-anchor="middle" class="t-tier">Physiological</text>
+      <text x="310" y="395" text-anchor="middle" class="t-sub">sleep · eat · play · self-care · toileting</text>
+      <text x="310" y="412" text-anchor="middle" class="t-here">your child is here</text>
     </svg>
+    <div class="ep-quiet mt-1" style="font-size:0.8rem;letter-spacing:0.05em;text-transform:uppercase">Maslow's Hierarchy of Needs</div>
   </div>
 </div>
 
 <!--
-SAY: Picture a pyramid, like Maslow's hierarchy. Children grow from the bottom up. The very bottom is the everyday survival skills: sleeping, eating, playing, taking care of themselves, using the bathroom. A child has to master that layer before they climb to the next one, where they become social, start learning, build confidence. A child with autism often gets stuck at the bottom, no matter their age. Two, eight, twelve, it doesn't matter. They stay there until they build the one thing that lets them climb: self-regulation. That's why a twelve-year-old can still wrestle with what a toddler wrestles with. It was never about age or ability. The foundation just hadn't been built yet.
+SAY: This is Maslow's hierarchy of needs. Children grow from the bottom up. The very base, the physiological level, is the everyday survival skills: sleeping, eating, playing, taking care of themselves, using the bathroom. Right above it is safety, feeling calm and regulated. Only once those are steady can a child climb into belonging, esteem, and really thriving. Here's the thing about our kids. A child with autism often gets stuck at the base, no matter their age. Two, eight, twelve, it doesn't matter. They stay at the bottom until they build the one thing that lets them climb, and that's self-regulation. That's why a twelve-year-old can still wrestle with what a toddler wrestles with. It was never about age or ability. The foundation just hadn't been built yet.
 -->
 
 ---
