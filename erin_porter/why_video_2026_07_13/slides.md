@@ -123,18 +123,18 @@ SAY: If you're like most parents who find me, you've done a lot. Speech therapy.
     <p class="ep-quiet mt-6" v-click><strong>Nothing changes as long as things stay the same.</strong></p>
   </div>
   <div class="flex-none">
-    <svg viewBox="0 0 240 240" width="300" class="ep-diag">
+    <svg viewBox="-80 -6 400 252" width="340" class="ep-diag">
       <g class="ep-loop">
-        <circle cx="120" cy="120" r="92" fill="none" stroke="#E4D9C7" stroke-width="2" stroke-dasharray="6 8"/>
-        <circle cx="120" cy="28" r="9" fill="#D98B7A"/>
-        <circle cx="212" cy="120" r="9" fill="#E39A4E"/>
-        <circle cx="120" cy="212" r="9" fill="#7FA891"/>
-        <circle cx="28" cy="120" r="9" fill="#2F5D5A"/>
+        <circle cx="120" cy="120" r="92" fill="none" stroke="#E4D9C7" stroke-width="2.5" stroke-dasharray="6 10"/>
       </g>
-      <text x="120" y="20" text-anchor="middle" class="d-small">meltdown</text>
-      <text x="232" y="124" text-anchor="middle" class="d-small">new strategy</text>
-      <text x="120" y="232" text-anchor="middle" class="d-small">brief relief</text>
-      <text x="8" y="124" text-anchor="middle" class="d-small">back again</text>
+      <circle cx="120" cy="28" r="9" fill="#D98B7A"/>
+      <circle cx="212" cy="120" r="9" fill="#E39A4E"/>
+      <circle cx="120" cy="212" r="9" fill="#7FA891"/>
+      <circle cx="28" cy="120" r="9" fill="#2F5D5A"/>
+      <text x="120" y="11" text-anchor="middle" class="d-small">meltdown</text>
+      <text x="228" y="124" text-anchor="start" class="d-small">new strategy</text>
+      <text x="120" y="239" text-anchor="middle" class="d-small">brief relief</text>
+      <text x="12" y="124" text-anchor="end" class="d-small">back again</text>
     </svg>
   </div>
 </div>
@@ -343,10 +343,7 @@ SAY: Let me be fair about your options, because each has something going for it.
 
 <div class="h-full flex items-center gap-10">
   <div class="flex-none">
-    <div class="ep-card flex flex-col items-center justify-center" style="width:280px;height:280px;background:#F4ECDE">
-      <div class="ep-dot" style="background:#2F5D5A"></div>
-      <div class="ep-quiet text-sm mt-3">[ photo of Erin ]</div>
-    </div>
+    <img src="/images/erin.png" alt="Erin Porter" style="width:300px;height:auto;border-radius:18px;box-shadow:0 14px 38px rgba(31,67,63,0.16)" />
   </div>
   <div class="flex-1">
     <div class="ep-eyebrow">A little about me</div>
