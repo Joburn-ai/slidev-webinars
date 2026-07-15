@@ -33,7 +33,9 @@
     "export": "slidev export",
     "export:supported-college": "slidev export supported/college_2026_05_27/slides.md --without-notes",
     "build:internal-heist-plan": "slidev build internal/heist_plan_2026_06_20/slides.md --base / --out dist",
-    "dev:internal-heist-plan": "slidev internal/heist_plan_2026_06_20/slides.md --open"
+    "dev:internal-heist-plan": "slidev internal/heist_plan_2026_06_20/slides.md --open",
+    "build:erin-why": "slidev build erin_porter/why_video_2026_07_13/slides.md --base / --out dist",
+    "dev:erin-why": "slidev erin_porter/why_video_2026_07_13/slides.md --open"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",
@@ -46,6 +48,7 @@
     "vue-chartjs": "^5.3.0"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3",
     "playwright-chromium": "^1.60.0"
   }
 }
