@@ -54,9 +54,9 @@
 
 .ep-num { width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--ep-teal); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; flex: none; }
 
-/* the loop (cost-of-staying) */
-.ep-loop { animation: ep-spin 26s linear infinite; transform-origin: 50% 50%; }
-@keyframes ep-spin { to { transform: rotate(360deg); } }
+/* the loop (cost-of-staying): flow the dashes around the ring (no rotation = no drift) */
+.ep-loop circle { animation: ep-flow 2s linear infinite; }
+@keyframes ep-flow { to { stroke-dashoffset: -16; } }
 .ep-pulse { animation: ep-pulse 2.6s ease-in-out infinite; }
 @keyframes ep-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
 
