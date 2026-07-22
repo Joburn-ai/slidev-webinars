@@ -28,3 +28,7 @@ Thumbs.db
 # Cache + logs
 .cache/
 *.log
+.vercel
+
+# raw PDF image extractions (working set, re-derivable; final assets go to Cloudinary)
+**/assets/source_images/

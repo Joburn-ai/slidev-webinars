@@ -1,0 +1,76 @@
+/* ============================================================================
+   Bradley Pounds / HomeBuyerSchool.com -- EVERGREEN "60+ Programs" shorty webinar.
+   Global tokens + component classes. Slidev auto-loads a co-located style.css UNSCOPED (Rule 7),
+   so cross-slide classes belong HERE, never in a per-slide <style> block (which is scoped and
+   silently breaks on slides 2+).
+   Class prefix: .hbs-*  (HomeBuyerSchool) -- so multiple clients' decks in this repo never collide.
+   Light base (Rule 12 colorSchema pinned light in slides.md frontmatter).
+   ----------------------------------------------------------------------------
+   BRAND TOKENS BELOW ARE HARDCODED HEX PLACEHOLDERS.
+   TODO(bless): replace every value in :root with the real kit from ./_ASSET_REFERENCE_SHEET.md
+   (HomeBuyerSchool.com brand kit: primary, accent, ink, fonts, logo). Values here are a neutral
+   trustworthy Texas-real-estate placeholder palette so the skeleton renders, NOT the final brand.
+   ============================================================================ */
+
+:root {
+  /* placeholder palette -- replace with _ASSET_REFERENCE_SHEET.md brand kit */
+  --hbs-cream: #FAF7F1;        /* page base (light)         -- REPLACE */
+  --hbs-cream-2: #F1EADD;      /* card / panel tint         -- REPLACE */
+  --hbs-ink: #1E2A32;          /* body text                 -- REPLACE */
+  --hbs-ink-soft: #4C5A63;     /* muted text                -- REPLACE */
+  --hbs-navy: #14324A;         /* primary / headings        -- REPLACE */
+  --hbs-navy-deep: #0C2032;    /* peak / cover gradient end -- REPLACE */
+  --hbs-gold: #C79A3B;         /* accent / eyebrow / bar    -- REPLACE */
+  --hbs-green: #2F7D53;        /* positive / "WON" / yes    -- REPLACE */
+  --hbs-clay: #B45D45;         /* caution / agitation       -- REPLACE */
+  --hbs-card: #FFFFFF;         /* card surface              -- REPLACE (usually stays white) */
+  --hbs-line: #E1D7C4;         /* hairline borders          -- REPLACE */
+}
+
+/* ---------- base ---------- */
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--hbs-cream);
+  color: var(--hbs-ink);
+  padding: 2.2rem 3rem;
+}
+.slidev-layout h1 { font-family: 'Crimson Pro', Georgia, serif; font-weight: 800; color: var(--hbs-navy-deep); letter-spacing: -0.02em; line-height: 1.06; }
+.slidev-layout h2 { font-family: 'Crimson Pro', Georgia, serif; font-weight: 700; color: var(--hbs-navy); letter-spacing: -0.01em; line-height: 1.12; }
+.slidev-layout p, .slidev-layout li { color: var(--hbs-ink); }
+
+/* Rule 3: force full-hide before click (also duplicated in slides.md scoped block). */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 240ms ease, transform 240ms ease; }
+
+/* ---------- structural surfaces ---------- */
+/* cover / peak emotional slides = navy gradient with white type */
+.hbs-cover { background: radial-gradient(1200px 620px at 30% 20%, #1B4361 0%, var(--hbs-navy) 46%, var(--hbs-navy-deep) 100%); color: #fff; }
+.hbs-cover h1 { color: #fff; }
+.hbs-peak { background: linear-gradient(160deg, var(--hbs-navy) 0%, var(--hbs-navy-deep) 100%); color: #fff; }
+.hbs-peak h1, .hbs-peak h2 { color: #fff; }
+
+/* ---------- components ---------- */
+.hbs-eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--hbs-gold); margin-bottom: 0.9rem; }
+.hbs-bar { width: 68px; height: 5px; border-radius: 3px; background: var(--hbs-gold); margin: 0 auto 1.4rem; }
+.hbs-bar-l { margin: 0 0 1.2rem; }
+
+.hbs-card { background: var(--hbs-card); border: 1px solid var(--hbs-line); border-radius: 16px; padding: 1.1rem 1.35rem; box-shadow: 0 10px 30px rgba(12,32,50,0.06); }
+.hbs-card-title { font-weight: 800; color: var(--hbs-navy-deep); font-size: 1.15rem; margin-bottom: 0.35rem; }
+
+.hbs-chip { display:inline-flex; align-items:center; gap:0.45rem; background: var(--hbs-cream-2); border:1px solid var(--hbs-line); border-radius: 999px; padding: 0.4rem 0.9rem; font-weight:600; color: var(--hbs-navy-deep); }
+.hbs-num { width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--hbs-navy); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; flex: none; }
+
+.hbs-lead { font-size: 1.5rem; line-height: 1.4; color: var(--hbs-ink); }
+.hbs-quiet { color: var(--hbs-ink-soft); }
+.hbs-big { font-family:'Crimson Pro',serif; font-weight:800; color: var(--hbs-navy-deep); line-height:1.05; }
+
+.hbs-good { color: var(--hbs-green); font-weight: 600; }   /* "WON" / yes-momentum / relief */
+.hbs-warn { color: var(--hbs-clay); font-weight: 600; }    /* caution programs / agitation */
+.hbs-strike { text-decoration: line-through; text-decoration-color: var(--hbs-clay); text-decoration-thickness: 2px; color: var(--hbs-ink-soft); }
+
+/* standing replay-rate / compliance footnote (T16 + close.md C2) */
+.hbs-fineprint { font-size: 0.9rem; line-height: 1.35; color: var(--hbs-ink-soft); }
+
+/* QR / CTA card (close.md) -- white bg required so the QR scans (Rule 11) */
+.hbs-qr-card { background: #FFFFFF; border: 1px solid var(--hbs-line); border-radius: 18px; padding: 1.1rem; display: inline-flex; }
+.hbs-url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--hbs-navy-deep); font-weight: 700; }
