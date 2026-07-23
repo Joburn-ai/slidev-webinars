@@ -20,9 +20,9 @@ drawings:
 transition: slide-left
 mdc: true
 fonts:
-  # TODO: confirm against ./_ASSET_REFERENCE_SHEET.md brand kit before build.
-  sans: Inter
-  serif: Crimson Pro
+  # Body = Poppins (all weights). Display = Anton/Oswald, loaded via @import in style.css.
+  sans: Poppins
+  provider: google
   weights: '400,500,600,700,800,900'
 layout: cover
 ---
@@ -40,20 +40,31 @@ layout: cover
 .slidev-vclick-target { transition: opacity 240ms ease, transform 240ms ease; }
 </style>
 
-<!-- slide:cover-01 -->
+<!-- slide:op-01-cover -->
 
-<div class="absolute inset-0 hbs-cover flex flex-col justify-center items-center px-16">
-  <!-- TODO(bless): cover copy from _EVERGREEN_STRUCTURE.md O1. <=7 visible words; notes carry script. -->
-  <!-- Placeholder only -- do not treat as final copy. -->
-  <div class="hbs-eyebrow">Evergreen on-demand replay</div>
-  <h1 class="text-5xl max-w-4xl">[COVER HEADLINE -- fill from O1 after bless]</h1>
-  <p class="text-lg mt-10 hbs-quiet">with Bradley Pounds &middot; HomeBuyerSchool.com</p>
+<div class="absolute inset-0">
+  <img src="/images/concept/c01_horizon_home.png" class="hbs-bleed" />
+  <div class="hbs-scrim"></div>
 </div>
 
+<img src="/images/brad/img-021_t.png" class="hbs-logo" style="left:2.2rem; right:auto;" />
+
+<div class="absolute right-8 bottom-0 h-[90%] w-[33%] z-20" v-motion :initial="{ opacity: 0, x: 40 }" :enter="{ opacity: 1, x: 0, transition: { delay: 320 } }">
+  <img src="/images/brad/img-019.png" class="h-full w-full object-cover object-top rounded-t-3xl" style="box-shadow: 0 16px 48px rgba(1,25,55,0.5); border-bottom: 7px solid #FF7300;" />
+</div>
+
+<div class="absolute left-0 top-0 h-full w-[60%] flex flex-col justify-center pl-16 pr-6 z-10">
+  <div class="hbs-eyebrow hbs-eyebrow-light" v-motion :initial="{ opacity: 0, y: 20 }" :enter="{ opacity: 1, y: 0, transition: { delay: 100 } }">Unlock your first home</div>
+  <h1 class="text-white" style="font-size: 3.7rem;" v-motion :initial="{ opacity: 0, y: 28 }" :enter="{ opacity: 1, y: 0, transition: { delay: 220 } }">Programs for high-earning first-time buyers</h1>
+  <p class="hbs-lead-light mt-6" style="text-shadow: 0 2px 12px rgba(1,25,55,0.9); font-weight:600;" v-motion :initial="{ opacity: 0 }" :enter="{ opacity: 1, transition: { delay: 520 } }">Bradley Pounds &middot; HomeBuyerSchool.com</p>
+</div>
+
+<div class="hbs-foot hbs-fineprint hbs-fineprint-light z-30">Educational purposes only, not a commitment to lend. Equal Housing Opportunity.</div>
+
 <!--
-TODO(Rule 14): SAY-script for the cover is written AFTER the shorty script is blessed
-(script = compressed cut of the big-webinar transcript per ./_EVERGREEN_STRUCTURE.md).
-This deck is SKELETON only until then.
+O1 COVER / FRAME (~40s). TEMPO: FRAME, let it breathe.
+SAY: Appreciate you being here. My name's Bradley Pounds, and over the next twenty minutes or so I'm going to share everything I know about helping higher earners take advantage of programs you've probably never even heard of. Programs built to help you buy your first home, or your first home in a long time. Now if you've been telling yourself a story that this kind of help is only for really low-income folks, that there's nothing out there for somebody like you who works hard and makes good money, I am really, really excited to prove you wrong. You'll never be so happy to be wrong as you're about to be. So grab a pen, because you're going to want to take some notes.
+COMPLIANCE: educational promise only; "Unlock" appears only as on-slide eyebrow, never spoken.
 -->
 
 ---
@@ -62,6 +73,10 @@ src: ./opening.md
 
 ---
 src: ./teaching.md
+---
+
+---
+src: ./teaching_tour.md
 ---
 
 ---

@@ -35,7 +35,9 @@
     "build:internal-heist-plan": "slidev build internal/heist_plan_2026_06_20/slides.md --base / --out dist",
     "dev:internal-heist-plan": "slidev internal/heist_plan_2026_06_20/slides.md --open",
     "build:erin-why": "slidev build erin_porter/why_video_2026_07_13/slides.md --base / --out dist",
-    "dev:erin-why": "slidev erin_porter/why_video_2026_07_13/slides.md --open"
+    "dev:erin-why": "slidev erin_porter/why_video_2026_07_13/slides.md --open",
+    "build:bradley-evergreen": "slidev build bradley_pounds/evergreen_60programs_2026_07/slides.md --base / --out dist",
+    "dev:bradley-evergreen": "slidev bradley_pounds/evergreen_60programs_2026_07/slides.md --open"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",

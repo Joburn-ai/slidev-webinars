@@ -1,76 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 /* ============================================================================
    Bradley Pounds / HomeBuyerSchool.com -- EVERGREEN "60+ Programs" shorty webinar.
    Global tokens + component classes. Slidev auto-loads a co-located style.css UNSCOPED (Rule 7),
-   so cross-slide classes belong HERE, never in a per-slide <style> block (which is scoped and
-   silently breaks on slides 2+).
-   Class prefix: .hbs-*  (HomeBuyerSchool) -- so multiple clients' decks in this repo never collide.
-   Light base (Rule 12 colorSchema pinned light in slides.md frontmatter).
-   ----------------------------------------------------------------------------
-   BRAND TOKENS BELOW ARE HARDCODED HEX PLACEHOLDERS.
-   TODO(bless): replace every value in :root with the real kit from ./_ASSET_REFERENCE_SHEET.md
-   (HomeBuyerSchool.com brand kit: primary, accent, ink, fonts, logo). Values here are a neutral
-   trustworthy Texas-real-estate placeholder palette so the skeleton renders, NOT the final brand.
+   so cross-slide classes belong HERE, never in a per-slide <style> block.
+   Class prefix: .hbs-*  (HomeBuyerSchool).  Light base (Rule 12 colorSchema pinned light).
+   Brand kit source: ./_BRAND_KIT.md (eyedropped from Brad's live deck).
+   Display = Anton (tall condensed caps, the brand "shout"). Body = Poppins.
    ============================================================================ */
 
 :root {
-  /* placeholder palette -- replace with _ASSET_REFERENCE_SHEET.md brand kit */
-  --hbs-cream: #FAF7F1;        /* page base (light)         -- REPLACE */
-  --hbs-cream-2: #F1EADD;      /* card / panel tint         -- REPLACE */
-  --hbs-ink: #1E2A32;          /* body text                 -- REPLACE */
-  --hbs-ink-soft: #4C5A63;     /* muted text                -- REPLACE */
-  --hbs-navy: #14324A;         /* primary / headings        -- REPLACE */
-  --hbs-navy-deep: #0C2032;    /* peak / cover gradient end -- REPLACE */
-  --hbs-gold: #C79A3B;         /* accent / eyebrow / bar    -- REPLACE */
-  --hbs-green: #2F7D53;        /* positive / "WON" / yes    -- REPLACE */
-  --hbs-clay: #B45D45;         /* caution / agitation       -- REPLACE */
-  --hbs-card: #FFFFFF;         /* card surface              -- REPLACE (usually stays white) */
-  --hbs-line: #E1D7C4;         /* hairline borders          -- REPLACE */
+  /* ---- Brand palette (LOCKED, from _BRAND_KIT.md) ---- */
+  --hbs-orange: #FF7300;        /* PRIMARY signature. full-bleed fields, accent words, energy */
+  --hbs-orange-deep: #E85D00;   /* pressed / shadow orange */
+  --hbs-navy: #0A3466;          /* brand navy, accent text on orange, headings */
+  --hbs-navy-deep: #011937;     /* deep near-black navy, dark title cards / peak */
+  --hbs-cream: #FBF6EF;         /* warm light page base */
+  --hbs-cream-2: #F3EADF;       /* card / panel tint */
+  --hbs-ink: #14202E;           /* body text (charcoal) */
+  --hbs-ink-soft: #5A6B7B;      /* muted text */
+  --hbs-white: #FFFFFF;
+  --hbs-card: #FFFFFF;
+  --hbs-line: #E4D8C7;          /* hairline on cream */
+  --hbs-line-navy: rgba(255,255,255,0.16);
+  --hbs-good: #2FA36B;          /* "WON" / relief / yes */
+  --hbs-warn: #E8892B;          /* caution programs */
+  --hbs-red: #EE1C1C;           /* logo red ONLY */
 }
 
 /* ---------- base ---------- */
 .slidev-layout {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--hbs-cream);
   color: var(--hbs-ink);
   padding: 2.2rem 3rem;
 }
-.slidev-layout h1 { font-family: 'Crimson Pro', Georgia, serif; font-weight: 800; color: var(--hbs-navy-deep); letter-spacing: -0.02em; line-height: 1.06; }
-.slidev-layout h2 { font-family: 'Crimson Pro', Georgia, serif; font-weight: 700; color: var(--hbs-navy); letter-spacing: -0.01em; line-height: 1.12; }
-.slidev-layout p, .slidev-layout li { color: var(--hbs-ink); }
+.slidev-layout h1, .slidev-layout h2, .hbs-display {
+  font-family: 'Anton', 'Oswald', Impact, sans-serif;
+  font-weight: 400; letter-spacing: 0.005em; line-height: 0.98;
+  text-transform: uppercase; color: var(--hbs-navy-deep);
+}
+.slidev-layout h1 { font-size: 3.4rem; }
+.slidev-layout h2 { font-size: 2.4rem; color: var(--hbs-navy); }
+.slidev-layout p, .slidev-layout li { color: var(--hbs-ink); font-weight: 400; }
+.slidev-layout strong { color: var(--hbs-orange); font-weight: 700; }
 
-/* Rule 3: force full-hide before click (also duplicated in slides.md scoped block). */
+/* SPECIFICITY FIX: the base ".slidev-layout h1" color rule (element+class) outranks a bare
+   ".text-white" utility, so white hero headlines silently rendered navy. Force the utilities to win. */
+.slidev-layout .text-white, .slidev-layout h1.text-white, .slidev-layout h2.text-white,
+.hbs-cover h1, .hbs-cover h2, .hbs-navy h1, .hbs-navy h2, .hbs-orange h1, .hbs-orange h2,
+.hbs-divider h1, .hbs-divider h2, .hbs-frost h1, .hbs-frost h2 { color: #fff !important; }
+.slidev-layout .text-white p, .slidev-layout .text-white li { color: #fff !important; }
+
+/* body copy on DARK surfaces must be light (was defaulting to dark ink = invisible). */
+.hbs-navy p, .hbs-navy li, .hbs-navy .hbs-lead, .hbs-navy .hbs-card-title,
+.hbs-cover p, .hbs-cover li, .hbs-cover .hbs-lead,
+.hbs-divider p, .hbs-divider li, .hbs-divider .hbs-lead { color: rgba(255,255,255,0.92) !important; }
+.hbs-navy .hbs-quiet, .hbs-cover .hbs-quiet, .hbs-divider .hbs-quiet { color: rgba(255,255,255,0.6) !important; }
+
+/* Rule 3: force full-hide before click. */
 .slidev-vclick-hidden { opacity: 0 !important; }
 .slidev-vclick-target { transition: opacity 240ms ease, transform 240ms ease; }
 
-/* ---------- structural surfaces ---------- */
-/* cover / peak emotional slides = navy gradient with white type */
-.hbs-cover { background: radial-gradient(1200px 620px at 30% 20%, #1B4361 0%, var(--hbs-navy) 46%, var(--hbs-navy-deep) 100%); color: #fff; }
-.hbs-cover h1 { color: #fff; }
-.hbs-peak { background: linear-gradient(160deg, var(--hbs-navy) 0%, var(--hbs-navy-deep) 100%); color: #fff; }
-.hbs-peak h1, .hbs-peak h2 { color: #fff; }
+/* ---------- structural surfaces (treatments from _VISUAL_MAP.md) ---------- */
+
+/* ORANGE-STATEMENT: the brand's default "shout" -- full orange field, white/navy caps */
+.hbs-orange { background: var(--hbs-orange); color: var(--hbs-white); }
+.hbs-orange h1, .hbs-orange h2 { color: var(--hbs-white); }
+.hbs-orange .hbs-accent { color: var(--hbs-navy-deep); }
+
+/* NAVY-CARD: deep-navy title cards + ALL yes-momentum (zero images) */
+.hbs-navy { background: var(--hbs-navy-deep); color: var(--hbs-white); }
+.hbs-navy h1, .hbs-navy h2 { color: var(--hbs-white); }
+.hbs-navy .hbs-accent { color: var(--hbs-orange); }
+
+/* cover / peak radial */
+.hbs-cover { background: radial-gradient(1300px 700px at 32% 24%, #123C6E 0%, var(--hbs-navy) 44%, var(--hbs-navy-deep) 100%); color: var(--hbs-white); }
+.hbs-cover h1 { color: var(--hbs-white); }
+
+/* DIVIDER: navy->deep-navy gradient section break */
+.hbs-divider { background: linear-gradient(150deg, var(--hbs-navy) 0%, var(--hbs-navy-deep) 100%); color: var(--hbs-white); }
+.hbs-divider h1 { color: var(--hbs-white); }
+
+/* HERO-BLEED full-bleed image helper */
+.hbs-bleed { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hbs-scrim { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(1,25,55,0.82) 0%, rgba(1,25,55,0.45) 46%, rgba(1,25,55,0.08) 100%); }
+.hbs-scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(1,25,55,0.85) 0%, rgba(1,25,55,0.25) 55%, rgba(1,25,55,0) 100%); }
+.hbs-frost { background: rgba(1,25,55,0.55); backdrop-filter: blur(6px); border: 1px solid var(--hbs-line-navy); border-radius: 18px; padding: 1.4rem 1.8rem; color: var(--hbs-white); }
+.hbs-frost h1, .hbs-frost h2 { color: var(--hbs-white); }
 
 /* ---------- components ---------- */
-.hbs-eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--hbs-gold); margin-bottom: 0.9rem; }
-.hbs-bar { width: 68px; height: 5px; border-radius: 3px; background: var(--hbs-gold); margin: 0 auto 1.4rem; }
-.hbs-bar-l { margin: 0 0 1.2rem; }
+.hbs-eyebrow { font-family:'Poppins'; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--hbs-orange); margin-bottom: 0.85rem; }
+.hbs-eyebrow-light { color: rgba(255,255,255,0.72); }
+.hbs-bar { width: 72px; height: 6px; border-radius: 3px; background: var(--hbs-orange); margin: 0 0 1.3rem; }
 
-.hbs-card { background: var(--hbs-card); border: 1px solid var(--hbs-line); border-radius: 16px; padding: 1.1rem 1.35rem; box-shadow: 0 10px 30px rgba(12,32,50,0.06); }
-.hbs-card-title { font-weight: 800; color: var(--hbs-navy-deep); font-size: 1.15rem; margin-bottom: 0.35rem; }
+.hbs-card { background: var(--hbs-card); border: 1px solid var(--hbs-line); border-radius: 16px; padding: 1.15rem 1.4rem; box-shadow: 0 12px 34px rgba(1,25,55,0.08); }
+.hbs-card-dark { background: rgba(255,255,255,0.06); border: 1px solid var(--hbs-line-navy); border-radius: 16px; padding: 1.15rem 1.4rem; color: var(--hbs-white); }
+.hbs-card-title { font-family:'Poppins'; font-weight: 700; color: var(--hbs-navy-deep); font-size: 1.12rem; margin-bottom: 0.3rem; }
+.hbs-card-dark .hbs-card-title { color: var(--hbs-white); }
 
-.hbs-chip { display:inline-flex; align-items:center; gap:0.45rem; background: var(--hbs-cream-2); border:1px solid var(--hbs-line); border-radius: 999px; padding: 0.4rem 0.9rem; font-weight:600; color: var(--hbs-navy-deep); }
-.hbs-num { width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--hbs-navy); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; flex: none; }
+.hbs-chip { display:inline-flex; align-items:center; gap:0.45rem; background: var(--hbs-white); border:2px solid var(--hbs-navy); border-radius: 999px; padding: 0.45rem 1.05rem; font-weight:600; color: var(--hbs-navy-deep); font-size: 1.05rem; }
+.hbs-chip-orange { background: var(--hbs-orange); border-color: var(--hbs-orange); color: var(--hbs-white); }
+.hbs-num { width: 2.4rem; height: 2.4rem; border-radius: 50%; background: var(--hbs-orange); color:var(--hbs-white); display:flex; align-items:center; justify-content:center; font-weight:700; font-family:'Poppins'; flex: none; }
+.hbs-icon { font-size: 2.6rem; color: var(--hbs-orange); }
+.hbs-icon-navy { font-size: 2.6rem; color: var(--hbs-navy); }
 
-.hbs-lead { font-size: 1.5rem; line-height: 1.4; color: var(--hbs-ink); }
+/* STAT-HERO: giant number/word */
+.hbs-stat { font-family:'Anton','Oswald',sans-serif; font-weight:400; color: var(--hbs-orange); line-height:0.9; font-size: 11rem; letter-spacing: 0.01em; }
+.hbs-stat-navy { color: var(--hbs-navy-deep); }
+.hbs-stat-white { color: var(--hbs-white); }
+
+.hbs-lead { font-family:'Poppins'; font-size: 1.5rem; line-height: 1.4; font-weight: 400; color: var(--hbs-ink); }
+.hbs-lead-light { color: rgba(255,255,255,0.9); }
 .hbs-quiet { color: var(--hbs-ink-soft); }
-.hbs-big { font-family:'Crimson Pro',serif; font-weight:800; color: var(--hbs-navy-deep); line-height:1.05; }
 
-.hbs-good { color: var(--hbs-green); font-weight: 600; }   /* "WON" / yes-momentum / relief */
-.hbs-warn { color: var(--hbs-clay); font-weight: 600; }    /* caution programs / agitation */
-.hbs-strike { text-decoration: line-through; text-decoration-color: var(--hbs-clay); text-decoration-thickness: 2px; color: var(--hbs-ink-soft); }
+.hbs-good { color: var(--hbs-good); font-weight: 700; }
+.hbs-warn { color: var(--hbs-warn); font-weight: 700; }
+.hbs-strike { text-decoration: line-through; text-decoration-color: var(--hbs-warn); text-decoration-thickness: 3px; color: var(--hbs-ink-soft); }
 
-/* standing replay-rate / compliance footnote (T16 + close.md C2) */
-.hbs-fineprint { font-size: 0.9rem; line-height: 1.35; color: var(--hbs-ink-soft); }
+/* WON / CLOSED badge (replaces emoji on testimonial cards, Rule 13) */
+.hbs-badge { display:inline-block; background: var(--hbs-good); color:#fff; font-family:'Poppins'; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; font-size:0.8rem; padding:0.28rem 0.8rem; border-radius:6px; }
+
+/* mock lead-magnet artifacts (book / list) built in HTML, NOT generated (reliable text) */
+.hbs-book { width: 210px; height: 290px; border-radius: 6px 12px 12px 6px; background: linear-gradient(135deg, var(--hbs-navy) 0%, var(--hbs-navy-deep) 100%); border-left: 12px solid var(--hbs-orange); box-shadow: 0 18px 40px rgba(1,25,55,0.28); display:flex; flex-direction:column; justify-content:space-between; padding: 1.2rem 1rem; color:#fff; }
+.hbs-book .t { font-family:'Anton',sans-serif; text-transform:uppercase; line-height:1.02; font-size:1.35rem; }
+.hbs-book .b { font-family:'Poppins'; font-size:0.78rem; color: var(--hbs-orange); font-weight:600; }
+.hbs-doc { width: 210px; height: 270px; border-radius: 10px; background:#fff; border:1px solid var(--hbs-line); box-shadow: 0 18px 40px rgba(1,25,55,0.18); padding:1rem; }
+.hbs-doc .h { font-family:'Anton',sans-serif; color:var(--hbs-orange); font-size:1.5rem; text-transform:uppercase; line-height:1; }
+.hbs-doc .rows { margin-top:0.7rem; }
+.hbs-doc .rows i { display:block; height:7px; border-radius:4px; background: var(--hbs-cream-2); margin:0.4rem 0; }
+.hbs-doc .rows i:nth-child(odd){ width: 92%; } .hbs-doc .rows i:nth-child(even){ width: 74%; }
+
+/* ladder / rule-of-thumb stat card */
+.hbs-rule { display:flex; align-items:center; gap:1rem; }
+.hbs-rule .step { background:var(--hbs-white); border:2px solid var(--hbs-orange); border-radius:14px; padding:0.7rem 1.3rem; font-family:'Anton',sans-serif; font-size:2.4rem; color:var(--hbs-navy-deep); }
+
+/* standing replay-rate / compliance footnote */
+.hbs-fineprint { font-family:'Poppins'; font-size: 0.72rem; line-height: 1.3; color: var(--hbs-ink-soft); }
+.hbs-fineprint-light { color: rgba(255,255,255,0.55); }
+.hbs-foot { position:absolute; left:3rem; right:3rem; bottom:0.9rem; }
 
 /* QR / CTA card (close.md) -- white bg required so the QR scans (Rule 11) */
-.hbs-qr-card { background: #FFFFFF; border: 1px solid var(--hbs-line); border-radius: 18px; padding: 1.1rem; display: inline-flex; }
-.hbs-url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--hbs-navy-deep); font-weight: 700; }
+.hbs-qr-card { background: var(--hbs-white); border: 1px solid var(--hbs-line); border-radius: 18px; padding: 1.1rem; display: inline-flex; box-shadow: 0 16px 40px rgba(1,25,55,0.16); }
+.hbs-url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--hbs-navy-deep); font-weight: 700; font-size: 1.15rem; }
+
+/* logo lockup helper (white+red mark, place on color/dark only, never white) */
+.hbs-logo { position:absolute; top:1.6rem; right:2.2rem; width: 128px; opacity:0.96; }
