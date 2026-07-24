@@ -32,3 +32,8 @@ Thumbs.db
 
 # raw PDF image extractions (working set, re-derivable; final assets go to Cloudinary)
 **/assets/source_images/
+
+# Bradley evergreen QC export artifacts (regenerable)
+bradley_pounds/evergreen_60programs_2026_07/qc/
+bradley_pounds/evergreen_60programs_2026_07/qc_all/
+bradley_pounds/evergreen_60programs_2026_07/_GEMINI_QC_REPORT.txt
