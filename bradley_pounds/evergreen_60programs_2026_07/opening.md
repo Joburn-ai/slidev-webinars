@@ -376,8 +376,8 @@ layout: default
     <h2>Not lawyers or magicians. Just experts.</h2>
     <p class="hbs-lead mt-4">No law degree. No magic wand. Just one field, done right.</p>
   </div>
-  <div class="flex justify-center items-center h-full">
-    <img src="/images/brad/img-019.png" class="h-[82%] w-auto rounded-2xl" style="box-shadow: 0 14px 40px rgba(1,25,55,0.3); border-bottom: 6px solid #FF7300;" />
+  <div class="flex justify-center items-end h-full">
+    <img src="/images/brad/img-019_cut.png" class="h-[90%] w-auto object-contain" style="filter: drop-shadow(0 12px 32px rgba(1,25,55,0.28));" />
   </div>
 </div>
 
@@ -397,7 +397,7 @@ layout: default
 
 <div class="grid grid-cols-2 gap-10 h-full items-center">
   <div class="flex justify-center items-end h-full gap-3 min-w-0 overflow-hidden">
-    <img src="/images/brad/img-019.png" class="max-h-[72%] max-w-[56%] w-auto rounded-2xl object-cover" style="box-shadow: 0 12px 34px rgba(1,25,55,0.28); border-bottom: 5px solid #FF7300;" />
+    <img src="/images/brad/img-019_cut.png" class="max-h-[82%] max-w-[52%] w-auto object-contain" style="filter: drop-shadow(0 12px 30px rgba(1,25,55,0.28));" />
     <img src="/images/brad/img-034.png" class="max-h-[50%] max-w-[40%] w-auto rounded-2xl object-cover" style="box-shadow: 0 12px 34px rgba(1,25,55,0.28);" />
   </div>
   <div>

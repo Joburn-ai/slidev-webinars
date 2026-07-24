@@ -50,7 +50,7 @@ layout: cover
 <img src="/images/brad/img-021_t.png" class="hbs-logo" style="left:2.2rem; right:auto;" />
 
 <div class="absolute right-8 bottom-0 h-[90%] w-[33%] z-20" v-motion :initial="{ opacity: 0, x: 40 }" :enter="{ opacity: 1, x: 0, transition: { delay: 320 } }">
-  <img src="/images/brad/img-019.png" class="h-full w-full object-cover object-top rounded-t-3xl" style="box-shadow: 0 16px 48px rgba(1,25,55,0.5); border-bottom: 7px solid #FF7300;" />
+  <img src="/images/brad/img-019_cut.png" class="h-full w-full object-contain object-bottom" style="filter: drop-shadow(0 12px 34px rgba(1,25,55,0.5));" />
 </div>
 
 <div class="absolute left-0 top-0 h-full w-[60%] flex flex-col justify-center pl-16 pr-6 z-10">
