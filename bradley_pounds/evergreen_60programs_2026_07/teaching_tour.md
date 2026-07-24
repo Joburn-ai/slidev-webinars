@@ -582,8 +582,8 @@ class: bp-slide
 <!-- slide:te-61 -->
 
 <div class="absolute inset-0">
-  <img src="/images/brad/img-090.png" class="hbs-bleed" />
-  <div class="hbs-scrim-b"></div>
+  <img src="/images/concept/c47_more_doors.png" class="hbs-bleed" />
+  <div class="hbs-scrim"></div>
 </div>
 <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-16 z-10" v-motion :initial="{ opacity: 0, y: 20 }" :enter="{ opacity: 1, y: 0 }">
   <h1 class="text-white max-w-4xl">We can't cover all 60+ here</h1>

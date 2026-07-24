@@ -554,8 +554,8 @@ class: bp-slide hbs-navy
 <!-- slide:te-26 -->
 
 <div class="absolute inset-0">
-  <img src="/images/brad/img-056.png" class="hbs-bleed" />
-  <div class="hbs-scrim-b"></div>
+  <img src="/images/concept/c29_boogeyman.png" class="hbs-bleed" />
+  <div class="hbs-scrim"></div>
 </div>
 <div class="absolute inset-0 flex flex-col justify-center px-20 z-10">
   <div class="hbs-eyebrow hbs-eyebrow-light">Ingredient 3 of 3</div>

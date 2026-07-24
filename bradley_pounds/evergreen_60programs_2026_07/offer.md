@@ -151,7 +151,7 @@ layout: default
   </div>
   <div class="flex justify-center">
     <div class="hbs-card" style="padding:3rem;">
-      <div class="i-mdi-calendar-check hbs-icon" style="font-size:7rem;"></div>
+      <svg viewBox="0 0 24 24" style="width:7rem;height:7rem;" fill="none" stroke="#FF7300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><path d="M8.8 14.6l2 2 4.2-4.2"/></svg>
     </div>
   </div>
 </div>
@@ -208,7 +208,7 @@ layout: default
 <div class="grid grid-cols-2 gap-10 h-full items-center">
   <div class="flex justify-center">
     <div class="hbs-card" style="padding:2.6rem;">
-      <div class="i-mdi-clipboard-text hbs-icon" style="font-size:6rem;"></div>
+      <svg viewBox="0 0 24 24" style="width:6.5rem;height:6.5rem;" fill="none" stroke="#FF7300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3.5" width="14" height="17.5" rx="2"/><path d="M9 3.8V3a1.6 1.6 0 011.6-1.5h2.8A1.6 1.6 0 0115 3v.8z"/><path d="M8.5 10.5h7M8.5 14h7M8.5 17.5h4"/></svg>
     </div>
   </div>
   <div>
@@ -271,8 +271,9 @@ layout: default
     </div>
   </div>
   <div class="flex justify-center">
-    <div class="hbs-card" style="padding:2.6rem;">
-      <div class="i-mdi-credit-card-check hbs-icon" style="font-size:6rem;"></div>
+    <div class="hbs-card flex flex-col items-center gap-3" style="padding:2.4rem 2.8rem;">
+      <div class="i-mdi-credit-card-check-outline" style="font-size:5.5rem;color:var(--hbs-orange);"></div>
+      <div class="hbs-card-title">Soft pull only</div>
     </div>
   </div>
 </div>

@@ -226,9 +226,9 @@ class: hbs-orange
 
 <!-- slide:op-13 -->
 
-<div class="flex flex-col items-center text-center px-16">
-  <h1 class="text-white" style="font-size:3.2rem;">Congratulations. You're a <span v-mark="{ at: 1, color: '#011937', type: 'underline' }">first-time buyer</span></h1>
-  <img src="/images/concept/c10_you_belong.png" class="rounded-2xl mt-8 max-h-[40vh]" />
+<div class="flex flex-col items-center justify-center text-center px-16 h-full">
+  <h1 class="text-white" style="font-size:2.5rem;">Congratulations. You're a <span v-mark="{ at: 1, color: '#011937', type: 'underline' }">first-time buyer</span></h1>
+  <img src="/images/concept/c10_you_belong.png" class="rounded-2xl mt-5 max-h-[30vh]" />
 </div>
 
 <!--

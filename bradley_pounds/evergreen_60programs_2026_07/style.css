@@ -52,6 +52,13 @@
 .hbs-divider h1, .hbs-divider h2, .hbs-frost h1, .hbs-frost h2 { color: #fff !important; }
 .slidev-layout .text-white p, .slidev-layout .text-white li { color: #fff !important; }
 
+/* white headlines sit over concept images that have LIGHT CREAM areas -> add a dark halo
+   so white text stays legible over both light and dark parts of any image. */
+.slidev-layout h1.text-white, .slidev-layout h2.text-white,
+.slidev-layout .text-white .hbs-eyebrow-light, .hbs-eyebrow-light {
+  text-shadow: 0 1px 2px rgba(1,25,55,0.65), 0 3px 22px rgba(1,25,55,0.92), 0 0 6px rgba(1,25,55,0.6);
+}
+
 /* body copy on DARK surfaces must be light (was defaulting to dark ink = invisible). */
 .hbs-navy p, .hbs-navy li, .hbs-navy .hbs-lead, .hbs-navy .hbs-card-title,
 .hbs-cover p, .hbs-cover li, .hbs-cover .hbs-lead,
@@ -84,8 +91,8 @@
 
 /* HERO-BLEED full-bleed image helper */
 .hbs-bleed { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.hbs-scrim { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(1,25,55,0.82) 0%, rgba(1,25,55,0.45) 46%, rgba(1,25,55,0.08) 100%); }
-.hbs-scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(1,25,55,0.85) 0%, rgba(1,25,55,0.25) 55%, rgba(1,25,55,0) 100%); }
+.hbs-scrim { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(1,25,55,0.92) 0%, rgba(1,25,55,0.72) 42%, rgba(1,25,55,0.4) 68%, rgba(1,25,55,0.12) 100%); }
+.hbs-scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(1,25,55,0.9) 0%, rgba(1,25,55,0.5) 42%, rgba(1,25,55,0.22) 70%, rgba(1,25,55,0.05) 100%); }
 .hbs-frost { background: rgba(1,25,55,0.55); backdrop-filter: blur(6px); border: 1px solid var(--hbs-line-navy); border-radius: 18px; padding: 1.4rem 1.8rem; color: var(--hbs-white); }
 .hbs-frost h1, .hbs-frost h2 { color: var(--hbs-white); }
 
@@ -137,7 +144,13 @@
 
 /* standing replay-rate / compliance footnote */
 .hbs-fineprint { font-family:'Poppins'; font-size: 0.72rem; line-height: 1.3; color: var(--hbs-ink-soft); }
-.hbs-fineprint-light { color: rgba(255,255,255,0.55); }
+.hbs-fineprint-light { color: rgba(255,255,255,0.8) !important; text-shadow: 0 1px 5px rgba(1,25,55,0.85); }
+/* footers on dark surfaces must be light; over images give a dark halo so fine print stays legible */
+.hbs-navy .hbs-fineprint, .hbs-divider .hbs-fineprint, .hbs-cover .hbs-fineprint { color: rgba(255,255,255,0.8) !important; }
+.hbs-foot .hbs-fineprint, .hbs-foot.hbs-fineprint { text-shadow: 0 1px 5px rgba(1,25,55,0.55); }
+/* eyebrow labels: navy on orange fields (orange-on-orange was unreadable), light-white on orange too */
+.hbs-orange .hbs-eyebrow { color: var(--hbs-navy-deep) !important; }
+.hbs-orange .hbs-eyebrow-light { color: rgba(255,255,255,0.9) !important; }
 .hbs-foot { position:absolute; left:3rem; right:3rem; bottom:0.9rem; }
 
 /* QR / CTA card (close.md) -- white bg required so the QR scans (Rule 11) */
