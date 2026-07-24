@@ -1,6 +1,8 @@
 ---
 theme: default
-title: 60+ Programs for High-Earning First-Time Buyers (Evergreen)
+title: 60+ Programs for High-Earning First-Time Buyers
+titleTemplate: '%s'
+favicon: /favicon.png
 info: |
   Bradley Pounds / HomeBuyerSchool.com -- EVERGREEN "shorty" webinar (on-demand replay cut).
   Self-running / narrated. ~22 min target (band 20-25) vs the 60-90 min live.
