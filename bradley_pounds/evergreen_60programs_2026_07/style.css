@@ -118,7 +118,10 @@
 .hbs-stat-white { color: var(--hbs-white); }
 
 .hbs-lead { font-family:'Poppins'; font-size: 1.5rem; line-height: 1.4; font-weight: 400; color: var(--hbs-ink); }
-.hbs-lead-light { color: rgba(255,255,255,0.9); }
+/* subtitles on dark slides were rendering as muted slate = low contrast. force bright near-white. */
+.hbs-lead-light, .hbs-navy .hbs-lead-light, .hbs-cover .hbs-lead-light, .hbs-divider .hbs-lead-light,
+.hbs-navy .hbs-lead, .hbs-navy p, .hbs-navy li, .hbs-divider .hbs-lead { color: #FFFFFF !important; opacity: 1 !important; }
+.hbs-eyebrow-light, .hbs-navy .hbs-eyebrow, .hbs-navy .hbs-eyebrow-light { color: rgba(255,255,255,0.85) !important; opacity: 1 !important; }
 .hbs-quiet { color: var(--hbs-ink-soft); }
 
 .hbs-good { color: var(--hbs-good); font-weight: 700; }
