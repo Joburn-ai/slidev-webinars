@@ -39,7 +39,9 @@
     "build:bradley-evergreen": "slidev build bradley_pounds/evergreen_60programs_2026_07/slides.md --base / --out dist",
     "dev:bradley-evergreen": "slidev bradley_pounds/evergreen_60programs_2026_07/slides.md --open",
     "build:ff-townhall": "slidev build ff_internal/town_hall_template/slides.md --base / --out dist",
-    "dev:ff-townhall": "slidev ff_internal/town_hall_template/slides.md --open"
+    "dev:ff-townhall": "slidev ff_internal/town_hall_template/slides.md --open",
+    "build:gg-team-early-read": "slidev build giftedgabber/team_reonboarding_early_read/slides.md --base / --out dist",
+    "dev:gg-team-early-read": "slidev giftedgabber/team_reonboarding_early_read/slides.md --open"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",

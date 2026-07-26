@@ -1,0 +1,76 @@
+/* GG Team Re-Onboarding — Early Read. Global (Rule 7): never slide-scoped. */
+:root{
+  --gtr-ink:#0C2226;
+  --gtr-deep:#123C42;
+  --gtr-teal:#2E8B95;
+  --gtr-teal-lt:#7FC6CD;
+  --gtr-paper:#F1F4F3;
+  --gtr-mute:#6E838A;
+  --gtr-amber:#C08A2E;
+  --gtr-clay:#B04A32;
+}
+.slidev-layout{
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  background:#F1F4F3; color:#0C2226;
+  padding:1.9rem 3rem;
+}
+.slidev-layout h1,.slidev-layout h2{
+  font-family:'Inter',system-ui,sans-serif; font-weight:800; letter-spacing:-.025em; line-height:1.04;
+  color:#0C2226; text-wrap:balance;
+}
+.slidev-layout h1{font-size:2.9rem;margin:0 0 .8rem;}
+.slidev-layout h2{font-size:2rem;margin:0 0 .6rem;}
+.slidev-layout p,.slidev-layout li{font-size:1.18rem;line-height:1.45;}
+
+/* force-hide before click (Rule 3) */
+.slidev-vclick-hidden{opacity:0 !important;}
+.slidev-vclick-target{transition:opacity 200ms ease;}
+
+/* dark surfaces */
+.gtr-dark{background:#0C2226 !important;}
+.gtr-deep{background:#123C42 !important;}
+/* ONE authoritative dark-surface text rule (lesson 27) */
+.gtr-dark h1,.gtr-dark h2,.gtr-dark h3,.gtr-dark p,.gtr-dark li,.gtr-dark .gtr-lead,
+.gtr-deep h1,.gtr-deep h2,.gtr-deep h3,.gtr-deep p,.gtr-deep li,.gtr-deep .gtr-lead{
+  color:#FFFFFF !important; opacity:1 !important;
+}
+.gtr-dark .gtr-eyebrow,.gtr-deep .gtr-eyebrow{color:#7FC6CD !important;opacity:1 !important;}
+.gtr-dark .gtr-mute,.gtr-deep .gtr-mute{color:#A8C2C7 !important;opacity:1 !important;}
+
+.gtr-eyebrow{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:#6E838A;
+  margin:0 0 .7rem;font-weight:600;
+}
+.gtr-lead{font-size:1.38rem;line-height:1.4;color:#123C42;max-width:46ch;}
+.gtr-mute{color:#6E838A;}
+.gtr-teal{color:#2E8B95;}
+.gtr-rule{height:3px;width:56px;background:#2E8B95;margin:.15rem 0 1rem;}
+
+/* stat tiles */
+.gtr-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:#D5DEDC;border:1px solid #D5DEDC;}
+.gtr-stat{background:#F1F4F3;padding:1.1rem .9rem;}
+.gtr-stat .n{display:block;font-size:2.2rem;font-weight:800;letter-spacing:-.03em;line-height:1;
+  font-variant-numeric:tabular-nums;color:#0C2226;}
+.gtr-stat .l{display:block;font-family:ui-monospace,Menlo,monospace;font-size:.68rem;letter-spacing:.12em;
+  text-transform:uppercase;color:#6E838A;margin-top:.5rem;}
+
+/* says / shows */
+.gtr-pair{display:grid;grid-template-columns:1fr 1fr;gap:2.2rem;margin-top:.6rem;}
+.gtr-side .tag{display:block;font-family:ui-monospace,Menlo,monospace;font-size:.72rem;
+  letter-spacing:.14em;text-transform:uppercase;margin-bottom:.6rem;font-weight:700;}
+.gtr-says .tag{color:#6E838A;}
+.gtr-shows .tag{color:#2E8B95;}
+.gtr-says .q{color:#6E838A;font-style:italic;font-size:1.18rem;line-height:1.4;}
+.gtr-shows .t{color:#0C2226;font-size:1.18rem;line-height:1.4;font-weight:500;}
+
+/* cards */
+.gtr-card{background:#fff;border:1px solid #D5DEDC;padding:.85rem 1.1rem;}
+.gtr-card.amber{border-left:4px solid #C08A2E;}
+.gtr-card.clay{border-left:4px solid #B04A32;}
+.gtr-card.teal{border-left:4px solid #2E8B95;}
+.gtr-card h3{font-size:1.12rem;font-weight:750;margin:0 0 .25rem;letter-spacing:-.01em;}
+.gtr-card p{font-size:1.02rem;margin:0;color:#3B5257;line-height:1.4;}
+.gtr-num{font-family:ui-monospace,Menlo,monospace;font-size:.8rem;color:#2E8B95;font-weight:700;}
+.gtr-big{font-size:5.4rem;font-weight:800;letter-spacing:-.04em;line-height:1;color:#2E8B95;
+  font-variant-numeric:tabular-nums;}
