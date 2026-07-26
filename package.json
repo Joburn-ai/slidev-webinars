@@ -37,7 +37,9 @@
     "build:erin-why": "slidev build erin_porter/why_video_2026_07_13/slides.md --base / --out dist",
     "dev:erin-why": "slidev erin_porter/why_video_2026_07_13/slides.md --open",
     "build:bradley-evergreen": "slidev build bradley_pounds/evergreen_60programs_2026_07/slides.md --base / --out dist",
-    "dev:bradley-evergreen": "slidev bradley_pounds/evergreen_60programs_2026_07/slides.md --open"
+    "dev:bradley-evergreen": "slidev bradley_pounds/evergreen_60programs_2026_07/slides.md --open",
+    "build:ff-townhall": "slidev build ff_internal/town_hall_template/slides.md --base / --out dist",
+    "dev:ff-townhall": "slidev ff_internal/town_hall_template/slides.md --open"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",

@@ -54,3 +54,9 @@ Last updated: 2026-05-24
 ## Legacy
 
 Pre-restructure content (March 2026 era) lives at repo root: `slides.md`, `components/Counter.vue`, `pages/`, `snippets/`, `SupportED/`. These were the original starter scaffolding. New decks ignore them and use the per-client folder structure below.
+
+## Internal decks
+
+| Deck | Status | URL | Notes |
+|---|---|---|---|
+| ff_internal/town_hall_template | LIVE (template preview) | https://ff-townhall-template.vercel.app | Monthly town-hall TEMPLATE (21 slides, {{TOKEN}} placeholders). Copy folder per month, fill, redeploy. Added 2026-07-25. |
