@@ -490,3 +490,26 @@ are already scrolling, not a new destination they have to decide to visit.
 VIDEO VERSION: cut this slide entirely. The video is the diagnosis; the call is the sale, and
 pitching on a teaching asset costs more than it makes.
 -->
+
+---
+hide: true
+class: icon-safelist
+---
+
+<!--
+TOOLBAR ICON SAFELIST -- hidden slide. Never rendered. Do not delete.
+
+WHY IT EXISTS. Slidev's toolbar components live inside node_modules/@slidev/client
+and reference icons as class="i-carbon:pen". UnoCSS only generates icon CSS for
+classes it finds while scanning SOURCE, and node_modules is not scanned, so on
+every deck in this repo the buttons rendered with no glyph. The masks in style.css
+are the actual fix; this div keeps the class strings present in scanned source so
+nothing regresses if the masks are ever replaced by a proper Uno config.
+
+`hide: true` means the audience never sees this. Presenter mode skips it too.
+
+Note the COLON: i-carbon:pen, not i-carbon-pen. The hyphen form generates nothing,
+silently.
+-->
+
+<div hidden aria-hidden="true" class="i-carbon:pen i-carbon:erase i-carbon:undo i-carbon:redo i-carbon:trash-can i-carbon:arrow-up-right i-carbon:radio-button i-carbon:checkbox i-carbon:pin i-carbon:pin-filled i-carbon:close-outline i-carbon:error i-carbon:arrow-left i-carbon:arrow-right i-carbon:apps i-carbon:moon i-carbon:sun i-carbon:maximize i-carbon:camera i-carbon:information"></div>
