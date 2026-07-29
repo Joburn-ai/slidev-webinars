@@ -1,6 +1,6 @@
 ---
 theme: default
-title: "The Roadmap -- {{Prospect_Name}}"
+title: "The Roadmap -- @@Prospect_Name@@"
 colorSchema: dark
 transition: fade
 mdc: true
@@ -18,7 +18,9 @@ css: unocss
 ROADMAP TEMPLATE v1 -- 2026-07-28
 ONE DECK, THREE JOBS: the personalised roadmap · a content source · a training-first video.
 
-VARIABLES: {{Double_Brace}} = per-prospect (Bucket B, 26 vars). {{CLIENT_Brace}} = per-client static (Bucket A).
+VARIABLES: at-at-NAME-at-at tokens. Bare NAME = per-prospect (Bucket B). CLIENT_NAME = per-client static (Bucket A).
+Filled by fill.mjs, which REFUSES to write if any token is unset. Never use double-brace --
+Vue compiles it as an interpolation and renders an empty string silently.
 GATES: three prospect gates at 14 / 28 / 50. Five producer quality gates marked QG-n -- each is a
 REWRITE condition, not a checkbox. Airlock: say "roadmap locked" before a human sees it.
 ENERGY PIVOT at slide 28: Doctor energy (1-27) -> General energy (28-54). Real visual break.
@@ -28,9 +30,9 @@ CONTENT: every section carries a CONTENT CUT marker. See content_map.md.
 CLEAN CLAIMS: verified numbers only. No ROI multiples. No AI-led mechanism framing. No em-dashes.
 -->
 
-# {{Prospect_Name}}
+# @@Prospect_Name@@
 
-<div class="eyebrow">Prepared {{Date}} · {{CLIENT_Name}}</div>
+<div class="eyebrow">Prepared @@Date@@ · @@CLIENT_Name@@</div>
 
 <div v-click class="mt-12 text-2xl opacity-80">
 A map needs two points.
@@ -76,7 +78,7 @@ A pitch. There's an offer at the end. You'll see it coming.
 
 **Three checkpoints are built into this.** Thirty seconds each.
 
-Complete all three within **72 hours** and you unlock {{Catalyst_Asset_Name}} -- normally {{Catalyst_Asset_Value}}.
+Complete all three within **72 hours** and you unlock @@Catalyst_Asset_Name@@ -- normally @@Catalyst_Asset_Value@@.
 
 <span class="opacity-70">The checkpoints light up as you go.</span>
 
@@ -96,20 +98,20 @@ anything if they know the rules. They resent almost anything if they find them o
 
 <div v-click class="constraint">
 <div class="label">TIME</div>
-<div class="value">{{Constraint_Time}}</div>
-<div v-motion :initial="{ width: 0 }" :enter="{ width: '{{Constraint_Time_Pct}}%' }" class="bar"></div>
+<div class="value">@@Constraint_Time@@</div>
+<div v-motion :initial="{ width: 0 }" :enter="{ width: 'var(--ct-time, 0%)' }" class="bar"></div>
 </div>
 
 <div v-click class="constraint">
 <div class="label">ENERGY</div>
-<div class="value">{{Constraint_Energy}}</div>
-<div v-motion :initial="{ width: 0 }" :enter="{ width: '{{Constraint_Energy_Pct}}%' }" class="bar"></div>
+<div class="value">@@Constraint_Energy@@</div>
+<div v-motion :initial="{ width: 0 }" :enter="{ width: 'var(--ct-energy, 0%)' }" class="bar"></div>
 </div>
 
 <div v-click class="constraint">
 <div class="label">ATTENTION</div>
-<div class="value">{{Constraint_Attention}}</div>
-<div v-motion :initial="{ width: 0 }" :enter="{ width: '{{Constraint_Attention_Pct}}%' }" class="bar"></div>
+<div class="value">@@Constraint_Attention@@</div>
+<div v-motion :initial="{ width: 0 }" :enter="{ width: 'var(--ct-attention, 0%)' }" class="bar"></div>
 </div>
 
 </div>
@@ -137,16 +139,16 @@ CONTENT CUT: "The question nobody asks before giving you a plan." 45 sec.
 
 <div class="snapshot mt-6">
 
-<div v-click>"{{Snapshot_Quote_1}}"</div>
-<div v-click>"{{Snapshot_Quote_2}}"</div>
-<div v-click>"{{Snapshot_Quote_3}}"</div>
+<div v-click>"@@Snapshot_Quote_1@@"</div>
+<div v-click>"@@Snapshot_Quote_2@@"</div>
+<div v-click>"@@Snapshot_Quote_3@@"</div>
 
 </div>
 
 <div v-click class="mt-10 status-row">
-<span class="pill red">{{Status_1}}</span>
-<span class="pill yellow">{{Status_2}}</span>
-<span class="pill green">{{Status_3}}</span>
+<span class="pill red">@@Status_1@@</span>
+<span class="pill yellow">@@Status_2@@</span>
+<span class="pill green">@@Status_3@@</span>
 </div>
 
 <!--
@@ -162,9 +164,9 @@ after it is believed. If they read a paraphrase, everything after it is discount
 # What staying here costs
 
 <div class="cost-stack mt-8">
-<div v-click><span class="num">{{Cost_Monthly}}</span> a month, on your own numbers</div>
-<div v-click><span class="num">{{Cost_Annual}}</span> over a year</div>
-<div v-click class="opacity-70">And {{Cost_Non_Financial}}</div>
+<div v-click><span class="num">@@Cost_Monthly@@</span> a month, on your own numbers</div>
+<div v-click><span class="num">@@Cost_Annual@@</span> over a year</div>
+<div v-click class="opacity-70">And @@Cost_Non_Financial@@</div>
 </div>
 
 <!--
@@ -182,9 +184,9 @@ is vague the close is vague.
 layout: center
 ---
 
-<div class="text-5xl">Most people at your stage think the problem is <span class="strike">{{Common_Belief}}</span></div>
+<div class="text-5xl">Most people at your stage think the problem is <span class="strike">@@Common_Belief@@</span></div>
 
-<div v-click class="mt-10 text-5xl accent">It's {{The_Actual_Problem}}</div>
+<div v-click class="mt-10 text-5xl accent">It's @@The_Actual_Problem@@</div>
 
 <!--
 CONTENT CUT: this slide alone is a reel. "Most people think X. It's actually Y." 30 sec, no context needed.
@@ -196,20 +198,20 @@ CONTENT CUT: this slide alone is a reel. "Most people think X. It's actually Y."
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <div v-click class="pain">
-<div class="quote">"{{Pain_Quote_1}}"</div>
-<div class="because">{{Door_Explanation_1}}</div>
+<div class="quote">"@@Pain_Quote_1@@"</div>
+<div class="because">@@Door_Explanation_1@@</div>
 </div>
 <div v-click class="pain">
-<div class="quote">"{{Pain_Quote_2}}"</div>
-<div class="because">{{Door_Explanation_2}}</div>
+<div class="quote">"@@Pain_Quote_2@@"</div>
+<div class="because">@@Door_Explanation_2@@</div>
 </div>
 <div v-click class="pain">
-<div class="quote">"{{Pain_Quote_3}}"</div>
-<div class="because">{{Door_Explanation_3}}</div>
+<div class="quote">"@@Pain_Quote_3@@"</div>
+<div class="because">@@Door_Explanation_3@@</div>
 </div>
 </div>
 
-<div v-click class="mt-10 text-center text-3xl accent">{{Invisible_Door_Name}}</div>
+<div v-click class="mt-10 text-center text-3xl accent">@@Invisible_Door_Name@@</div>
 
 <!--
 QG-2 GATE. All three pains must be DIRECT QUOTES. All three explanations must be DISTINCT and
@@ -220,7 +222,7 @@ each must name the Invisible Door differently. If two explanations say the same 
 
 # The damaging admission
 
-<div v-click class="text-3xl mt-8">{{Damaging_Admission}}</div>
+<div v-click class="text-3xl mt-8">@@Damaging_Admission@@</div>
 
 <div v-click class="mt-8 text-xl opacity-80">
 We're telling you because you'll find out anyway, and we'd rather you heard it from us.
@@ -265,10 +267,10 @@ This gate's job is a micro-yes plus segmentation. There is no right answer, so i
 # Four ways to fix this
 
 <div class="options mt-6">
-<div v-click class="opt"><h3>Do it yourself</h3><div class="good">Good for: {{DIY_Good}}</div><div class="flaw">Fatal flaw: {{DIY_Flaw}}</div></div>
-<div v-click class="opt"><h3>The cheap fix</h3><div class="good">Good for: {{Cheap_Good}}</div><div class="flaw">Fatal flaw: {{Cheap_Flaw}}</div></div>
-<div v-click class="opt"><h3>The expensive fix</h3><div class="good">Good for: {{Expensive_Good}}</div><div class="flaw">Fatal flaw: {{Expensive_Flaw}}</div></div>
-<div v-click class="opt us"><h3>{{CLIENT_Mechanism_Name}}</h3><div class="good">Good for: {{Us_Good}}</div><div class="flaw">Not ideal if: {{Us_Not_Ideal}}</div></div>
+<div v-click class="opt"><h3>Do it yourself</h3><div class="good">Good for: @@DIY_Good@@</div><div class="flaw">Fatal flaw: @@DIY_Flaw@@</div></div>
+<div v-click class="opt"><h3>The cheap fix</h3><div class="good">Good for: @@Cheap_Good@@</div><div class="flaw">Fatal flaw: @@Cheap_Flaw@@</div></div>
+<div v-click class="opt"><h3>The expensive fix</h3><div class="good">Good for: @@Expensive_Good@@</div><div class="flaw">Fatal flaw: @@Expensive_Flaw@@</div></div>
+<div v-click class="opt us"><h3>@@CLIENT_Mechanism_Name@@</h3><div class="good">Good for: @@Us_Good@@</div><div class="flaw">Not ideal if: @@Us_Not_Ideal@@</div></div>
 </div>
 
 <!--
@@ -281,7 +283,7 @@ CONTENT CUT: "Four ways to fix this and the fatal flaw in each." Carousel or 60-
 layout: center
 ---
 
-# {{Micro_Agreement_Question}}
+# @@Micro_Agreement_Question@@
 
 <div v-click class="mt-8 text-xl opacity-80">
 If that's not right, that's useful too. Tell us at the next checkpoint.
@@ -322,13 +324,13 @@ CONTENT CUT: screen-record just this. "The whole mechanism in 90 seconds."
 # Your timeline
 
 <div class="timeline mt-8">
-<div v-click>Phase 1 · {{Phase_1_Name}} <span class="dur">{{Phase_1_Duration}}</span></div>
-<div v-click>Phase 2 · {{Phase_2_Name}} <span class="dur">{{Phase_2_Duration}}</span></div>
-<div v-click>Phase 3 · {{Phase_3_Name}} <span class="dur">{{Phase_3_Duration}}</span></div>
+<div v-click>Phase 1 · @@Phase_1_Name@@ <span class="dur">@@Phase_1_Duration@@</span></div>
+<div v-click>Phase 2 · @@Phase_2_Name@@ <span class="dur">@@Phase_2_Duration@@</span></div>
+<div v-click>Phase 3 · @@Phase_3_Name@@ <span class="dur">@@Phase_3_Duration@@</span></div>
 </div>
 
 <div v-click class="mt-10 opacity-80">
-These durations are built from the {{Constraint_Time}} you told us. Not a standard timeline.
+These durations are built from the @@Constraint_Time@@ you told us. Not a standard timeline.
 </div>
 
 <!--
@@ -391,9 +393,9 @@ the first thing you draw is the fastest visible win, not the highest-leverage ta
 # What it costs
 
 <div class="invest mt-8">
-<div v-click class="line">Staying where you are <span class="num red">{{Cost_Annual}}</span></div>
-<div v-click class="line">The expensive fix <span class="num">{{Expensive_Cost}}</span></div>
-<div v-click class="line us">This <span class="num accent">{{Investment}}</span></div>
+<div v-click class="line">Staying where you are <span class="num red">@@Cost_Annual@@</span></div>
+<div v-click class="line">The expensive fix <span class="num">@@Expensive_Cost@@</span></div>
+<div v-click class="line us">This <span class="num accent">@@Investment@@</span></div>
 </div>
 
 <!--
@@ -410,14 +412,14 @@ layout: center
 
 <div class="crossroads mt-8" v-click>
 <div class="path">
-<h3>{{Path_A_Name}}</h3>
-<div>{{Path_A_Outcome}}</div>
-<div class="num">{{Path_A_Number}}</div>
+<h3>@@Path_A_Name@@</h3>
+<div>@@Path_A_Outcome@@</div>
+<div class="num">@@Path_A_Number@@</div>
 </div>
 <div class="path">
-<h3>{{Path_B_Name}}</h3>
-<div>{{Path_B_Outcome}}</div>
-<div class="num">{{Path_B_Number}}</div>
+<h3>@@Path_B_Name@@</h3>
+<div>@@Path_B_Outcome@@</div>
+<div class="num">@@Path_B_Number@@</div>
 </div>
 </div>
 
@@ -434,9 +436,9 @@ CONTENT CUT: "Two ways this goes." The most re-postable slide in the deck.
 # Who this isn't for
 
 <div class="anti mt-8">
-<div v-click>{{Anti_Avatar_1}}</div>
-<div v-click>{{Anti_Avatar_2}}</div>
-<div v-click>{{Anti_Avatar_3}}</div>
+<div v-click>@@Anti_Avatar_1@@</div>
+<div v-click>@@Anti_Avatar_2@@</div>
+<div v-click>@@Anti_Avatar_3@@</div>
 </div>
 
 <div v-click class="mt-10 opacity-80">If that's you, genuinely, don't. We'd rather say it now.</div>
@@ -456,7 +458,7 @@ class: gate-slide final
 <div>What's the number one question we didn't answer? <span class="field">text</span></div>
 </div>
 
-<div v-click class="mt-8 unlock">Submit and {{Catalyst_Asset_Name}} unlocks.</div>
+<div v-click class="mt-8 unlock">Submit and @@Catalyst_Asset_Name@@ unlocks.</div>
 
 <!--
 GATE 3 -- slide 50. Fields: fc3_testimonial_text, fc3_star_rating, fc3_objection_text.
@@ -474,10 +476,10 @@ something worked has made an argument to themselves, and self-generated argument
 layout: center
 ---
 
-# {{CTA_Line}}
+# @@CTA_Line@@
 
 <div v-click class="mt-8">
-<div class="calendar-embed">{{Calendar_Embed}}</div>
+<div class="calendar-embed">@@Calendar_Embed@@</div>
 </div>
 
 <div v-click class="mt-6 opacity-70 text-sm">
