@@ -513,3 +513,35 @@ silently.
 -->
 
 <div hidden aria-hidden="true" class="i-carbon:pen i-carbon:erase i-carbon:undo i-carbon:redo i-carbon:trash-can i-carbon:arrow-up-right i-carbon:radio-button i-carbon:checkbox i-carbon:pin i-carbon:pin-filled i-carbon:close-outline i-carbon:error i-carbon:arrow-left i-carbon:arrow-right i-carbon:apps i-carbon:moon i-carbon:sun i-carbon:maximize i-carbon:camera i-carbon:information"></div>
+
+---
+layout: center
+class: miro-slide
+---
+
+# How it all connects
+
+<div class="miro-frame">
+<iframe
+  src="https://miro.com/app/live-embed/uXjVLcJeJiM=/?focusWidget=3458764600705984458&embedMode=view_only_without_ui&embedId=498631205240"
+  frameborder="0" scrolling="no"
+  allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen>
+</iframe>
+</div>
+
+<!--
+MIRO EMBED TEST -- 2026-07-28.
+Works: Slidev renders raw iframes, so a live Miro board embeds directly. embedMode=
+view_only_without_ui strips Miro's chrome so it reads as a diagram rather than a
+tool someone else is using.
+
+WHY THIS MATTERS BEYOND THIS SLIDE. If a Miro board embeds cleanly, then the
+mechanism diagram in a client's roadmap can be a LIVE board rather than a
+screenshot. Generate the board via the Miro REST API from their config, drop the
+embed id into their deck, and their flowchart is theirs, zoomable, and updatable
+without re-exporting a single image. That is the automation John is pointing at.
+
+CAVEAT -- it needs a network connection at present time. An offline present or a
+PDF export shows an empty frame. So: live board for screen-share and web, static
+image fallback for the PDF cut. Both from the same board.
+-->
