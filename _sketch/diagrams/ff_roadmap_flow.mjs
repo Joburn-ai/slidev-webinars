@@ -15,7 +15,7 @@ const FOCI = ["all", "restart", "order", "gates"];
 
 function band(id, focus, body) {
   const on = focus === "all" || focus === id;
-  return `<g id="${id}" opacity="${on ? 1 : 0.13}">${body}</g>`;
+  return `<g id="${id}" opacity="${on ? 1 : 0.3}">${body}</g>`;
 }
 
 export const name = "ff_roadmap_flow";

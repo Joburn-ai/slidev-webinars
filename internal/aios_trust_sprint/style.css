@@ -1,0 +1,49 @@
+/* AIOS Trust Sprint , internal sprint deck. Unscoped, auto-loaded by Slidev. Prefix .ts- */
+:root { --ts-ink:#eef3ff; --ts-mut:#9db6e0; }
+
+.slidev-layout { color: #eef3ff; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+/* hide unclicked fully + kill ALL click transitions (the transition caused the appear-then-vanish flash). Instant reveals = snappy + flash-proof. */
+.slidev-vclick-hidden { opacity: 0 !important; pointer-events: none; }
+.slidev-vclick-target { transition: none !important; }
+
+/* team roster chips */
+.ts-chip { background: rgba(18,30,55,.7); border:1px solid #2a3a5e; border-radius:12px; padding:14px 16px; color:#fff; font-weight:700; font-size:1.15rem; display:flex; flex-direction:column; gap:4px; }
+.ts-chip .role { color:#9db6e0; font-weight:600; font-size:.82rem; }
+.ts-chip.constraint { border-color:#e08fc8aa; background:rgba(224,143,200,.12); }
+.ts-chip.constraint .role { color:#f3cfe7; }
+.ts-chip.cs { border-color:#5fd6b0aa; background:rgba(95,214,176,.10); }
+.ts-chip.cs .role { color:#bff0df; }
+
+.ts-bg {
+  position: absolute; inset: 0; z-index: -1;   /* behind content: positioned bg was painting OVER static content wrappers */
+  background: radial-gradient(ellipse at 42% 44%, #18273f 0%, #0b1326 44%, #05070f 84%);
+}
+.ts-eyebrow { color:#ffd76b; font-size:.95rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
+.ts-h1 { font-size:3.2rem; font-weight:900; line-height:1.04; color:#fff; letter-spacing:.3px; }
+.ts-h2 { font-size:2.1rem; font-weight:800; color:#fff; line-height:1.1; }
+.ts-sub { color:#9db6e0; font-size:1.15rem; line-height:1.45; }
+.ts-meta { color:#6f86ab; font-size:.95rem; letter-spacing:.04em; }
+
+.ts-card {
+  background: rgba(18,30,55,.62); border:1px solid #2a3a5e; border-radius:14px;
+  padding:16px 20px; color:#dce8ff;
+}
+.ts-card .n { color:#ffd76b; font-weight:900; font-size:1.05rem; }
+.ts-card .t { font-weight:700; color:#fff; font-size:1.15rem; }
+.ts-card .d { color:#9db6e0; font-size:1rem; line-height:1.4; }
+
+.ts-q { font-size:1.7rem; font-weight:800; color:#fff; }
+.ts-q .num { color:#5fd6b0; font-weight:900; margin-right:.4em; }
+.ts-pill { display:inline-block; background:rgba(255,215,107,.14); border:1px solid #ffd76b66; color:#ffe9b0; border-radius:999px; padding:4px 14px; font-size:.9rem; font-weight:700; }
+.ts-pill.teal { background:rgba(95,214,176,.14); border-color:#5fd6b066; color:#bff0df; }
+.ts-pill.rose { background:rgba(224,143,200,.14); border-color:#e08fc866; color:#f3cfe7; }
+
+.ts-wb { color:#6f86ab; font-style:italic; font-size:1rem; }
+.ts-board {
+  border:2px dashed #2a3a5e; border-radius:14px; background:rgba(8,14,28,.4);
+}
+.ts-th { color:#ffd76b; font-weight:800; font-size:1rem; letter-spacing:.03em; }
+.ts-row td { border-top:1px solid #21304f; padding:10px 12px; color:#cfe0ff; }
+.ts-row td:first-child { color:#fff; font-weight:700; }
+.ts-foot { color:#6f86ab; font-size:.82rem; }

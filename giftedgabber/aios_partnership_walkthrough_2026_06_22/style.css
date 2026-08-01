@@ -1,0 +1,233 @@
+/* GG x FF 90-Day AIOS Partnership Walkthrough · Sunday 2026-06-22 6:30PM ET.
+   Atomic-era Joburn palette, slightly warmer than the internal ladder deck.
+   Prefix .gg- to avoid collision. Co-located + auto-loaded UNSCOPED. */
+
+:root {
+  --gg-navy: #0F2440;
+  --gg-navy-2: #1E3A5F;
+  --gg-cream: #FAFAF5;
+  --gg-warm: #F4EEDC;
+  --gg-gold: #D4B85A;
+  --gg-rust: #94463B;
+  --gg-teal: #2E8B8B;
+  --gg-ink-mute: #51688a;
+  --gg-rule: rgba(46,139,139,0.32);
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--gg-cream);
+  background-image:
+    linear-gradient(rgba(30,58,95,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30,58,95,0.035) 1px, transparent 1px);
+  background-size: 34px 34px;
+  color: var(--gg-navy);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.slidev-vclick-hidden { opacity: 0 !important; pointer-events: none; }
+.slidev-vclick-target { transition: opacity 220ms ease; }
+
+.slidev-layout h1 { font-weight: 900; color: var(--gg-navy); letter-spacing: -0.03em; line-height: 1.04; }
+.slidev-layout h2 { font-weight: 800; color: var(--gg-navy); letter-spacing: -0.02em; line-height: 1.1; }
+.slidev-layout p, .slidev-layout li { line-height: 1.5; color: var(--gg-navy); }
+
+/* Dark sections */
+.gg-dark {
+  position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(135deg, #0B1B30 0%, #0F2440 52%, #1E3A5F 100%);
+}
+.gg-dark-wrap { position: relative; z-index: 1; }
+.gg-dark-wrap, .gg-dark-wrap h1, .gg-dark-wrap h2 { color: #fff; }
+.gg-dark-wrap p, .gg-dark-wrap li { color: rgba(255,255,255,0.90); }
+
+.gg-eyebrow {
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.32em;
+  text-transform: uppercase; color: var(--gg-teal); margin-bottom: 1rem;
+}
+.gg-eyebrow.gold { color: var(--gg-gold); }
+.gg-eyebrow.ondark { color: var(--gg-gold); }
+.gg-eyebrow.rust { color: var(--gg-rust); }
+
+.gg-h1 { font-size: 3.4rem; font-weight: 900; line-height: 1.04; color: var(--gg-navy); }
+.gg-h1.ondark { color: #fff; }
+.gg-h2 { font-size: 2.2rem; font-weight: 800; color: var(--gg-navy); line-height: 1.12; }
+.gg-h2.ondark { color: #fff; }
+.gg-h3 { font-size: 1.5rem; font-weight: 700; color: var(--gg-navy); line-height: 1.2; }
+.gg-h3.ondark { color: #fff; }
+.gg-lead { font-size: 1.18rem; color: var(--gg-ink-mute); line-height: 1.5; }
+.gg-lead.ondark { color: rgba(255,255,255,0.84); }
+.gg-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: var(--gg-ink-mute); letter-spacing: 0.05em; }
+.gg-meta.ondark { color: rgba(255,255,255,0.6); }
+
+.gg-gold-t { color: var(--gg-gold); }
+.gg-rust-t { color: var(--gg-rust); }
+.gg-teal-t { color: var(--gg-teal); }
+.gg-navy-t { color: var(--gg-navy); }
+
+.gg-footer {
+  position: absolute; bottom: 1.1rem; left: 5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--gg-ink-mute); opacity: 0.8;
+}
+.gg-footer.ondark { color: rgba(255,255,255,0.55); }
+
+.gg-page {
+  position: absolute; bottom: 1.1rem; right: 5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem;
+  letter-spacing: 0.18em; color: var(--gg-ink-mute); opacity: 0.6;
+}
+.gg-page.ondark { color: rgba(255,255,255,0.45); }
+
+/* The 3-layer spine - the recurring visual element */
+.gg-spine {
+  display: flex; gap: 0.75rem;
+  margin: 0; padding: 0;
+}
+.gg-spine .layer {
+  flex: 1;
+  padding: 1.1rem 1.3rem;
+  background: white;
+  border: 1px solid var(--gg-rule);
+  border-top: 3px solid var(--gg-teal);
+  border-radius: 4px;
+  text-align: left;
+}
+.gg-spine .layer.gold { border-top-color: var(--gg-gold); }
+.gg-spine .layer.rust { border-top-color: var(--gg-rust); }
+.gg-spine .layer .num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.66rem; color: var(--gg-ink-mute);
+  letter-spacing: 0.18em; text-transform: uppercase;
+}
+.gg-spine .layer .name {
+  font-weight: 800; font-size: 1.1rem;
+  color: var(--gg-navy); margin-top: 0.25rem;
+}
+.gg-spine .layer .desc {
+  font-size: 0.86rem; color: var(--gg-ink-mute);
+  margin-top: 0.45rem; line-height: 1.4;
+}
+
+/* Cards for "what we found" */
+.gg-card {
+  background: white;
+  border: 1px solid var(--gg-rule);
+  border-radius: 4px;
+  padding: 1.1rem 1.3rem;
+}
+.gg-card.alert {
+  border-left: 4px solid var(--gg-rust);
+}
+.gg-card .kicker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.66rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gg-rust); font-weight: 700;
+}
+.gg-card .stat {
+  font-size: 1.55rem; font-weight: 800; color: var(--gg-navy);
+  margin-top: 0.35rem; letter-spacing: -0.01em;
+}
+.gg-card .stat .num { color: var(--gg-rust); }
+.gg-card .what {
+  font-size: 0.92rem; color: var(--gg-ink-mute);
+  margin-top: 0.45rem; line-height: 1.45;
+}
+
+/* Big stat callout */
+.gg-stat-block {
+  background: var(--gg-warm);
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  border-left: 6px solid var(--gg-rust);
+  margin: 1.5rem 0;
+}
+.gg-stat-block .huge {
+  font-size: 4.2rem; font-weight: 900;
+  color: var(--gg-rust); letter-spacing: -0.04em;
+  line-height: 1;
+}
+.gg-stat-block .label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gg-ink-mute); margin-top: 0.4rem;
+}
+
+/* Phase pills for the roadmap */
+.gg-phases { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+.gg-phase {
+  background: white;
+  border: 1px solid var(--gg-rule);
+  border-top: 3px solid var(--gg-teal);
+  padding: 0.9rem 1.1rem;
+  border-radius: 4px;
+}
+.gg-phase.p2 { border-top-color: var(--gg-gold); }
+.gg-phase.p3 { border-top-color: var(--gg-rust); }
+.gg-phase .days {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gg-ink-mute);
+}
+.gg-phase .title { font-weight: 800; font-size: 0.95rem; color: var(--gg-navy); margin: 0.25rem 0 0.4rem; }
+.gg-phase ul { font-size: 0.72rem; color: var(--gg-navy); line-height: 1.4; padding-left: 0.8rem; }
+.gg-phase ul li { margin-bottom: 0.15rem; }
+
+/* Investment box */
+.gg-invest {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.gg-invest .opt {
+  background: white;
+  border: 1px solid var(--gg-rule);
+  padding: 1.6rem 1.8rem;
+  border-radius: 6px;
+  border-top: 4px solid var(--gg-teal);
+}
+.gg-invest .opt.b { border-top-color: var(--gg-gold); background: var(--gg-warm); }
+.gg-invest .opt .lbl {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gg-ink-mute);
+}
+.gg-invest .opt .price {
+  font-size: 2.5rem; font-weight: 900; color: var(--gg-navy);
+  margin: 0.3rem 0 0.2rem; letter-spacing: -0.02em;
+}
+.gg-invest .opt .sub {
+  font-size: 0.9rem; color: var(--gg-ink-mute); margin-bottom: 0.7rem;
+}
+.gg-invest .opt .desc {
+  font-size: 0.92rem; line-height: 1.5; color: var(--gg-navy);
+}
+
+.gg-anchor-strip {
+  display: inline-block;
+  background: var(--gg-navy);
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Commitment columns */
+.gg-commit { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.gg-commit .col {
+  background: white;
+  border: 1px solid var(--gg-rule);
+  padding: 1.2rem 1.4rem;
+  border-radius: 4px;
+}
+.gg-commit .col h3 {
+  font-size: 0.9rem; font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gg-teal); font-weight: 700; margin: 0 0 0.6rem;
+}
+.gg-commit .col ul { padding-left: 1rem; font-size: 0.92rem; line-height: 1.55; }
+.gg-commit .col ul li { margin-bottom: 0.3rem; }

@@ -1,0 +1,9 @@
+{
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm slidev build giftedgabber/aios_partnership_walkthrough_2026_06_22/slides.md --base / --out giftedgabber/aios_partnership_walkthrough_2026_06_22/dist",
+  "outputDirectory": "giftedgabber/aios_partnership_walkthrough_2026_06_22/dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
