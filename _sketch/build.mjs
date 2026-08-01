@@ -15,9 +15,11 @@ const built = [];
 for (const f of files) {
   const mod = await import(join(here, "diagrams", f));
   // a file exports either one diagram (name + render) or several named ones
-  const diagrams = mod.name && mod.render
-    ? [mod]
-    : Object.values(mod).filter((d) => d && d.name && d.render);
+  // a file may export a primary diagram AND extra named variants; take both
+  const diagrams = [
+    ...(mod.name && mod.render ? [{ name: mod.name, render: mod.render }] : []),
+    ...Object.values(mod).filter((d) => d && typeof d === "object" && d.name && d.render),
+  ];
   for (const d of diagrams) {
     const svg = d.render();
     const p = join(outDir, `${d.name}.svg`);

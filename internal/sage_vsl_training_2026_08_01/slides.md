@@ -49,13 +49,20 @@ Funnel Futurist &middot; recorded <span v-mark.underline.orange>once</span>, cut
 </div>
 
 <!--
-B0 -- OPENER. Film this one first. Runs about 50 seconds as written.
+B0 -- OPENER. Film this one first.
 
-🔴 On the roadmap page this opener survives, because they requested the thing and
-arrived warm. On YouTube it is fatal: there is no fifty-second grace period on a
-cold feed. The YouTube cut needs the 12-second pre-opener on the front of this,
-and it does not exist yet. That is the single thing blocking the YouTube
-placement.
+⚠️ THE FRAME CHANGED 2026-08-01 AND THIS IS AN INTEGRITY FIX, NOT A STYLE EDIT.
+
+The old opener implied the hours went into THEIR asset. They did not. The hours
+went into building the system that produces their asset. Claiming otherwise is a
+lie a smart prospect will catch, and it undercuts everything after it.
+
+The new frame is stronger AND true: we spent the years and the money blazing the
+trail, and what they get is the shortcut. That earns the authority without
+overclaiming a single thing about their specific document.
+
+RUNTIME: 10:30 is the FLOOR, not the target. John ruled 2026-08-01. Longer is
+fine; shorter is not.
 
 SAY:
 No one ever gave you a roadmap.
@@ -63,10 +70,24 @@ No one ever gave you a roadmap.
 You have been handed tactics, courses, a dashboard, somebody's playbook. Nobody
 ever sat down and told you what order to do them in.
 
-So here is what this is. I am going to show you why good leads show up, have a
-good call, and then nothing happens. It is not your close rate and it is not
-your traffic. And by the end you will know which of the four systems in your
-business is holding the other three back.
+So let me tell you what this actually is, and where it came from.
+
+Hundreds of hours from me personally. Hundreds more from my team. Tens of
+thousands of dollars, spent finding out what works by getting it wrong first.
+
+We went down the roads that dead-end. We found the gaps. We found the pitfalls,
+mostly by falling in them. And we did that so you do not have to, because the
+expensive part of this was never the work. It was the wrong order.
+
+So this is not a document I wrote for you last night. It is the trail, mapped,
+after we walked it. And what you get is the fastest line to the thing you are
+actually after.
+
+By the end you will know which of the four systems in your business is holding
+the other three back.
+
+DO NOT SAY: that we spent hundreds of hours on their roadmap. We did not. Say we
+spent them on the system. The distinction is the whole point of the reframe.
 -->
 
 ---
@@ -396,6 +417,124 @@ produces per the SOP rule. They are a proposal and they appear here and at B12
 and in the roadmap. Override them.
 
 Loop 3 opens: "what to fix first" gets answered next.
+-->
+
+---
+layout: image
+image: /ff_roadmap_flow.svg
+backgroundSize: contain
+---
+
+<!--
+B11a-1 -- THE WHOLE PICTURE. Show it all, say almost nothing.
+
+SAY: this is the entire thing on one screen. Every roadmap we deliver opens with
+this exact chart. Let me walk you through it.
+
+Then move. Do not explain from here. The next three slides are the same chart
+with one band lit at a time, so the explanation happens ON the artifact.
+-->
+
+---
+layout: image
+image: /ff_flow_restart.svg
+backgroundSize: contain
+---
+
+<!--
+B11a-2 -- WHERE THEY ARE STUCK. Same chart, only the loop lit.
+
+This is the beat that does the work. Do not rush it.
+
+SAY: start here, because this is where almost everyone is. Three things going
+wrong at once. No order, so every push starts from zero. Dashboards that
+disagree, so a good month cannot be read. Nothing after the sale, so next month
+restarts at zero again.
+
+And they all feed the same thing. Every asset restarts the argument.
+
+Most founders stay in this loop for years. Not because they are lazy. Because
+nothing in the loop tells you it is a loop.
+
+DRAW: trace the return arrow with drauu while you say "for years". One stroke.
+-->
+
+---
+layout: image
+image: /ff_flow_order.svg
+backgroundSize: contain
+---
+
+<!--
+B11a-3 -- THE WAY OUT. Same chart, only the order lit.
+
+SAY: here is the other side. Same business, different sequence.
+
+Launch is one offer, one channel, one number you trust. Validate is the same
+result twice, on purpose, with capacity installed and not just assets. Scale is
+multiplying something that already runs without you.
+
+And the three locks between them never move. Everything else is a range your
+market gets a vote on.
+
+The reason this is not just a list: each phase produces the thing the next phase
+needs. Skip one and you are not behind, you are back in the loop.
+
+DRAW: tap each airlock as you name it.
+-->
+
+---
+layout: image
+image: /ff_flow_gates.svg
+backgroundSize: contain
+---
+
+<!--
+B11a-4 -- WHAT IT COSTS THEM. Same chart, only the gates lit.
+
+SAY: and this is the whole ask. Three checkpoints, thirty seconds each.
+
+The first tells you which of your four systems is weakest. The second puts your
+position on the map you have been looking at. The third writes your ad.
+
+Ninety seconds of work, total. That is the entire price of the thing.
+
+THEN the pivot into the two exits at the bottom, which is where B12 picks up.
+-->
+
+<!--
+B11a -- THE WHOLE MAP, ON ONE SLIDE. New 2026-08-01.
+
+This is the same flowchart that sits at the top of every roadmap we deliver, which
+is the point: they are looking at the actual asset, not a diagram about the asset.
+
+Talk over it in this order, and DRAW as you go. drauu, live, one stroke each:
+  1. circle the three problem boxes on the left
+  2. circle the loop node, and say the years line
+  3. THEN cross the divider and walk Launch, Validate, Scale
+  4. tap each airlock as you name it
+
+The move that lands: do not explain the right side until you have made them feel
+the left side. The loop is the whole reason the order matters.
+-->
+
+---
+layout: iframe
+url: https://process.funnelfuturist.com
+---
+
+<!--
+B11b -- THE LIVE PROCESS PAGE. New 2026-08-01.
+
+Embedded live rather than screenshotted, and that is deliberate: a screenshot is a
+claim, a live page is evidence. It is also the strongest behind-the-scenes moment
+in the deck, because they are looking at the real internal artifact.
+
+SAY: this is not a slide. This is the page we run off. Every gate you just saw has
+a definition, a range, and a fail route, and it is all in here.
+
+⚠️ If the embed is blocked by frame headers on the day, fall back to a full-bleed
+screenshot and SAY it is a screenshot. Never imply live when it is not.
 -->
 
 ---
