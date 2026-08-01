@@ -220,6 +220,7 @@ repeatable revenue. We would rather you did not need us in a year.
 layout: image
 image: /sage_shift.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--
@@ -252,6 +253,7 @@ Your playbook was not wrong. It expired. And nobody sent you the new one.
 layout: image
 image: /sage_restart.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--
@@ -423,6 +425,7 @@ Loop 3 opens: "what to fix first" gets answered next.
 layout: image
 image: /ff_roadmap_flow.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--
@@ -439,6 +442,7 @@ with one band lit at a time, so the explanation happens ON the artifact.
 layout: image
 image: /ff_flow_restart.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--
@@ -463,6 +467,7 @@ DRAW: trace the return arrow with drauu while you say "for years". One stroke.
 layout: image
 image: /ff_flow_order.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--
@@ -487,6 +492,7 @@ DRAW: tap each airlock as you name it.
 layout: image
 image: /ff_flow_gates.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--
@@ -636,6 +642,7 @@ offering a done-for-you asset makes.
 layout: image
 image: /sage_crossroads.svg
 backgroundSize: contain
+class: bg-white
 ---
 
 <!--

@@ -1,0 +1,9 @@
+@import '../../styles/carbon-toolbar-icons.css';
+
+/* The flowchart SVGs are ~1.29:1 on a 16:9 slide, so `contain` letterboxes them.
+   The charts have a white canvas, so the slide ground is white on those slides
+   and the padding becomes invisible rather than a pair of black bars. */
+.slidev-page.bg-white,
+.slidev-layout.bg-white {
+  background-color: #ffffff !important;
+}

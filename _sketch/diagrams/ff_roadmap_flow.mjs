@@ -131,5 +131,5 @@ function build(focus) {
   s += text(620, 936, "Same destination. The only difference is who holds the gates.",
             { size: 19, weight: 900 });
 
-  return svg(1240, 960, s);
+  return svg(1707, 960, `<g transform="translate(233,0)">${s}</g>`);
 }
