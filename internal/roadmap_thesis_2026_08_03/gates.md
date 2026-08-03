@@ -98,12 +98,7 @@ TRANSITION: and when the answer is no, watch what a founder actually does.
 <div class="rt-h2">A no here means a rewrite.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   G1{"Right message?"}:::gate
   P1["Build the argument"]:::proc
@@ -246,12 +241,7 @@ TRANSITION: and when the model answer comes back no, the response is bigger and 
 <div class="rt-h2">A no here means a new channel.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   G1{"Right message?"}:::gate
   P1["Build the argument"]:::proc
@@ -336,12 +326,7 @@ TRANSITION: and here is what a no at gate three makes people do.
 <div class="rt-h2">A no here means a patch.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   G1{"Right message?"}:::gate
   P1["Build the argument"]:::proc
@@ -402,12 +387,7 @@ class: flex flex-col justify-center
 <div class="rt-h2">Every no goes to the same place.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   G1{"Right message?"}:::gate
   P1["Build the argument"]:::proc
@@ -557,12 +537,7 @@ DRAW: draw a single continuous line under all six cards while you say "one conti
 <div class="rt-h2">Every handoff asks them to reorient.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   A["Ad"]:::proc
   D1{"Door"}:::gate
@@ -718,12 +693,7 @@ class: flex flex-col justify-center
 <div class="rt-h2">So the loop becomes this.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   B1["Build something"]:::proc
   B2["Run it briefly"]:::proc

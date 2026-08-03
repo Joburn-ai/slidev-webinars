@@ -306,12 +306,7 @@ TRANSITION: and one asset runs the whole length of that picture.
 <div class="rt-h2">The same map carries through the sale.</div>
 
 ```mermaid {scale: 0.85}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   RM["THE ROADMAP"]:::hub
   M["Attention to Decision"]:::proc
@@ -526,12 +521,7 @@ TRANSITION: draw that as a loop and it is the mirror image of the picture we sta
 <div class="rt-h2">Same shape as The Restart. Opposite direction.</div>
 
 ```mermaid {scale: 0.78}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   RD["THE ROADMAP"]:::hub
   P["Data from every pass"]:::proc

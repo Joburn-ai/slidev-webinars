@@ -5,7 +5,7 @@ info: |
   How to build an assembly line for producing high-quality clients.
   Canonical public training, YouTube-native. Funnel Futurist, John Coburn.
   Source script: _SCRIPT.md · style contract: _BUILD_SPEC.md · craft notes: _REFERENCE_NOTES.md
-class: text-center
+class: peak text-center
 highlighter: shiki
 lineNumbers: false
 colorSchema: light

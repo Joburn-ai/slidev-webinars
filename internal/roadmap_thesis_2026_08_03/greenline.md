@@ -29,12 +29,7 @@ DRAW: trace along the teal line, left to right, once, as you say the sentence.
 <div class="rt-h2">One line through all three.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   G1{"Right message?"}:::gate
   G2{"Right model?"}:::gate
@@ -297,12 +292,7 @@ PACE: rhythm beat. Same cadence every time, no variation. The repetition is the 
 <div class="rt-h2">Even a booked call goes back through it.</div>
 
 ```mermaid {scale: 0.8}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   P["Paid traffic"]:::proc
   O["Organic, DMs, story"]:::proc
@@ -621,12 +611,7 @@ TRANSITION: here is what that looks like drawn out.
 <div class="rt-h2">It meets people where they are.</div>
 
 ```mermaid
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   U["Unaware"]:::proc
   P["Problem aware"]:::proc

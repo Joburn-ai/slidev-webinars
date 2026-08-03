@@ -219,12 +219,7 @@ layout: default
 <div class="rt-h2 mb-8">A high-converting book-a-call ad.</div>
 
 ```mermaid {scale: 0.85}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   A["We write the structure"]:::proc
   B["You record it"]:::proc
@@ -655,12 +650,7 @@ layout: default
 <div class="rt-h2 mb-8">The call still comes first. It just starts further along.</div>
 
 ```mermaid {scale: 0.85}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   A["Ad or outreach"]:::proc
   B["Book the call"]:::proc
@@ -718,12 +708,7 @@ layout: default
 <div class="rt-h2 mb-8">The Roadmap comes first.</div>
 
 ```mermaid {scale: 0.75}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   A["Content or ad"]:::proc
   R["THE ROADMAP"]:::hub
@@ -797,12 +782,7 @@ layout: default
 <div class="rt-h2 mb-8">Where implementation actually happens.</div>
 
 ```mermaid {scale: 0.75}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   A["Ad or content"]:::proc
   B["Low-ticket purchase"]:::proc
@@ -840,12 +820,7 @@ layout: default
 <div class="rt-h2 mb-8">A webinar becomes a Roadmap Workshop.</div>
 
 ```mermaid {scale: 0.85}
----
-config:
-  theme: base
-  themeVariables: {background: "#ffffff", edgeLabelBackground: "#ffffff", fontSize: "15px", lineColor: "#5C7078"}
-  flowchart: {curve: linear, nodeSpacing: 40, rankSpacing: 55}
----
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":40,"rankSpacing":55}} }%%
 flowchart LR
   A["Registration"]:::proc
   R["Roadmap section first"]:::hub
