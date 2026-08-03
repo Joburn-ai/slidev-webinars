@@ -510,8 +510,8 @@ BEATS:
   - We call the hidden gap between those assets The Invisible Door.
   - It is the point where the prospect leaves one touchpoint and enters the next.
 TIMING: 25 sec
-PACE: let the name land on its own frame. Click for the definition only after you have said the name and paused.
 TRANSITION: and the reason it stays hidden is how we are all taught to build.
+PACE: let the name land on its own frame. Click for the definition only after you have said the name and paused.
 -->
 
 ---

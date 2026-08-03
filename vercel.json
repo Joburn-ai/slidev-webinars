@@ -1,9 +1,5 @@
 {
-  "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm build:roadmap-thesis",
-  "outputDirectory": "internal/roadmap_thesis_2026_08_03/dist",
-  "framework": null,
   "rewrites": [
-    { "source": "/((?!assets/|fonts/|images/|roadmap/).*)", "destination": "/index.html" }
+    { "source": "/((?!assets/|fonts/|.*\\.).*)", "destination": "/index.html" }
   ]
 }
