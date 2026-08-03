@@ -1,0 +1,63 @@
+/* 🔴 MANDATORY FIRST LINE. Without it the entire Slidev toolbar renders blank. */
+@import '../../styles/carbon-toolbar-icons.css';
+
+/* ─── FF palette, from ff-site globals.css ──────────────────────────── */
+:root {
+  --void:   #0A2230;
+  --space:  #103040;
+  --teal:   #209080;
+  --tealb:  #2BB3A0;
+  --parch:  #F0E4BC;
+  --star:   #FAF6EA;
+  --ember:  #C4552F;
+  --gold:   #D9B96A;
+  --fog:    #7A9199;
+  --fogd:   #5C7078;
+  --paper:  #FFFFFF;
+  --ink:    #0A2230;
+}
+
+/* Rule 3: force full hide before a v-click. Slidev's default is a faint grey,
+   which lets the viewer read ahead of the speaker. */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 200ms ease; }
+
+/* ─── LIGHT is the base. John 2026-08-03: "I would just use white." ──── */
+.slidev-layout {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Rule 17 pattern: the dark "peak" ground is a per-slide class, never a theme
+   flip, so it cannot leak and cannot follow the OS. */
+.slidev-layout.peak { background: var(--void); color: var(--star); }
+.slidev-layout.peak .rt-kicker { color: var(--tealb); }
+.slidev-layout.peak .rt-sub    { color: var(--parch); }
+
+.rt-kicker {
+  font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 0.6rem;
+}
+.rt-h1 { font-size: 3.1rem; line-height: 1.03; font-weight: 900; letter-spacing: -0.03em; text-wrap: balance; }
+.rt-h2 { font-size: 2.3rem; line-height: 1.08; font-weight: 850; letter-spacing: -0.025em; text-wrap: balance; }
+.rt-sub { font-size: 1.35rem; line-height: 1.45; color: var(--fogd); max-width: 46ch; }
+
+.rt-card {
+  background: #F4F6F6; border: 1px solid var(--fog); border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+}
+.rt-card.good  { background: #DFF1ED; border-color: var(--teal); border-width: 2px; }
+.rt-card.bad   { background: #FBE3D9; border-color: var(--ember); border-width: 2px; }
+.rt-card.gate  { background: #FBF0D6; border-color: #B98F2E; border-width: 2px; }
+.rt-card-t     { font-size: 1.2rem; font-weight: 800; letter-spacing: -0.01em; }
+.rt-card-s     { font-size: 1rem; color: var(--fogd); line-height: 1.4; }
+
+/* A figure that must not be letterboxed by a dark ground. */
+.rt-figure { background: #fff; border: 1px solid var(--fog); border-radius: 10px; padding: 0.4rem; }
+
+.rt-stat  { font-size: 4.2rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; color: var(--teal); font-variant-numeric: tabular-nums; }
+.rt-statl { font-size: 1rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--fogd); }
+
+/* Rule 9: body text never below text-2xl equivalent. */
+.slidev-layout :where(p, li) { font-size: 1.25rem; }
