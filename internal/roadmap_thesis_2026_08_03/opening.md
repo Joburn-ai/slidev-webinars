@@ -13,6 +13,7 @@ class: peak text-center
 HOOK: the title, said once, calm. No energy spike here. The whole cold open is quiet on purpose.
 BEATS:
   - Most business owners are trying to solve the same three problems at the same time.
+REHOOK: 1 of 3 inside the first minute. Device: curiosity gap. John's line, not written yet. See _REFERENCE_NOTES 2 for the device catalogue and 9.1 for why three to four are required here.
 TIMING: 15 sec
 TRANSITION: name the three problems while the whole system sits behind them, dimmed and unreadable.
 -->
@@ -36,6 +37,7 @@ BEATS:
   - Do you have the right message?
   - Do you have the right model?
   - And once somebody enters, do you have the right journey to move them all the way from attention to transformation?
+REHOOK: 2 of 3 inside the first minute. Device: cost of inaction. John's line, not written yet.
 TIMING: 25 sec
 TRANSITION: nothing on screen changes except that it comes into focus. Then say what actually happens.
 -->
@@ -58,6 +60,7 @@ HOOK: the same picture, lit. Every no path in it goes to one node.
 BEATS:
   - The problem is that most people fix one of those, another one breaks, and they end up back here.
 DRAW: circle the red Restart node. drauu, live, one stroke, while you say "back here". Do not pre-draw it.
+REHOOK: 3 of 3 inside the first minute. Device: proof pledge. John's line, not written yet.
 TIMING: 20 sec
 TRANSITION: name what "starting again" actually costs them, in their own vocabulary.
 -->
@@ -150,7 +153,7 @@ HOOK: the whole asset is a product demonstration, and this is where they find ou
 BEATS:
   - Because the Roadmap you are moving through right now is the same mechanism we are about to unpack.
 TIMING: 15 sec
-TRANSITION: drop the pace and speed up the delivery. The next section is a fast mirror of what they are being told every day.
+TRANSITION: lift the pace hard. The next section is a fast mirror of what they are being told every day.
 -->
 
 ---

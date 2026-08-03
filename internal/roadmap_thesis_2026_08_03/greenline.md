@@ -7,7 +7,7 @@ class: peak text-center
 
 <div class="rt-kicker">SECTION 4 &middot; DRAW THE LINE OUT</div>
 
-<svg viewBox="0 0 340 10" class="w-96 mx-auto my-10" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="5" x2="335" y2="5" stroke="#2BB3A0" stroke-width="8" stroke-linecap="round" /></svg>
+<svg viewBox="0 0 340 10" class="w-96 mx-auto my-10" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="5" x2="335" y2="5" style="stroke: var(--tealb)" stroke-width="8" stroke-linecap="round" /></svg>
 
 <div class="rt-h1" v-click>This green line is the SAGE Roadmap System.</div>
 
@@ -218,15 +218,17 @@ SOURCE: this is the script's on-screen line at SLIDE 21, promoted to its own fra
 -->
 
 ---
-layout: center
-class: text-center
----
 
 <!-- slide:s4-demo-03 -->
 
+<div class="rt-kicker">TELL US IF IT DOES NOT WORK</div>
 <div class="rt-h2">If it does not feel useful, tell us.</div>
-<div class="rt-h2 mt-6" v-click>That feedback is part of the system.</div>
-<div class="rt-h1 mt-8" v-click>It is supposed to improve every time somebody moves through it.</div>
+
+<div class="rt-card good mt-10 max-w-4xl" v-click>
+<div class="rt-card-t">That feedback is part of the system.</div>
+</div>
+
+<div class="rt-h1 mt-10" v-click>It is supposed to improve every time somebody moves through it.</div>
 
 <!--
 HOOK: invite the criticism on camera. A system that gets better from every pass has to be able to hear that it did not work.
@@ -389,9 +391,9 @@ TRANSITION: and the way you distribute it depends on exactly one thing about you
 <div class="rt-kicker">TIME OR MONEY</div>
 <div class="rt-h2">The same system, two ways in.</div>
 
-<div class="grid grid-cols-2 gap-6 mt-6">
+<div class="grid grid-cols-2 gap-10 mt-8">
 
-<div class="rt-card">
+<div>
 <div class="rt-card-t">More time than money</div>
 <v-clicks>
 
@@ -404,7 +406,7 @@ TRANSITION: and the way you distribute it depends on exactly one thing about you
 </v-clicks>
 </div>
 
-<div class="rt-card">
+<div>
 <div class="rt-card-t">More money than time</div>
 <v-clicks>
 
@@ -501,8 +503,8 @@ TRANSITION: so let me show you the three states people arrive in.
 
 <div class="flex gap-10 mt-20 items-baseline">
 <div class="rt-kicker">UNAWARE</div>
-<div class="rt-statl">PROBLEM AWARE</div>
-<div class="rt-statl">SOLUTION AWARE</div>
+<div class="rt-kicker opacity-40">PROBLEM AWARE</div>
+<div class="rt-kicker opacity-40">SOLUTION AWARE</div>
 </div>
 
 <!--
@@ -525,9 +527,9 @@ TRANSITION: the second group is one step further in.
 </div>
 
 <div class="flex gap-10 mt-20 items-baseline">
-<div class="rt-statl">UNAWARE</div>
+<div class="rt-kicker opacity-40">UNAWARE</div>
 <div class="rt-kicker">PROBLEM AWARE</div>
-<div class="rt-statl">SOLUTION AWARE</div>
+<div class="rt-kicker opacity-40">SOLUTION AWARE</div>
 </div>
 
 <!--
@@ -561,8 +563,8 @@ TRANSITION: and then there is the group that thinks it already has the answer.
 </div>
 
 <div class="flex gap-10 mt-12 items-baseline">
-<div class="rt-statl">UNAWARE</div>
-<div class="rt-statl">PROBLEM AWARE</div>
+<div class="rt-kicker opacity-40">UNAWARE</div>
+<div class="rt-kicker opacity-40">PROBLEM AWARE</div>
 <div class="rt-kicker">SOLUTION AWARE</div>
 </div>
 

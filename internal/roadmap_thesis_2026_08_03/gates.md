@@ -17,6 +17,9 @@ TRANSITION: here they are, and you have already met all three.
 -->
 
 ---
+layout: default
+class: flex flex-col justify-center
+---
 
 <!-- slide:s2-gates-02 -->
 
@@ -52,16 +55,23 @@ BEATS:
   - The symptoms change as the company grows. The loop does not.
 TIMING: 25 sec
 TRANSITION: start with the first one, because everything downstream inherits it.
+PACE: read each gate name aloud as its card lands, then hold before the closing line. The three names are the only words this slide needs, so do not add commentary over the clicks.
 -->
 
+---
+layout: two-cols
+class: flex flex-col justify-center
 ---
 
 <!-- slide:s2-gate1-01 -->
 
 <div class="rt-kicker">GATE ONE</div>
 <div class="rt-h2">Right message?</div>
+<div class="rt-sub mt-5">Recognition, not clever copy.</div>
 
-<div class="mt-8">
+::right::
+
+<div class="ml-10">
 <v-clicks>
 
 - Does the market recognize itself in what you are saying?
@@ -87,7 +97,7 @@ TRANSITION: and when the answer is no, watch what a founder actually does.
 <div class="rt-kicker">GATE ONE &middot; THE NO PATH</div>
 <div class="rt-h2">A no here means a rewrite.</div>
 
-```mermaid {scale: 1.5}
+```mermaid
 ---
 config:
   theme: base
@@ -129,6 +139,9 @@ TRANSITION: gate two, and this is the one people fight religious wars over.
 DRAW: trace the red NO edge with drauu as you say "then they start again". One stroke.
 -->
 
+---
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:s2-gate2-01 -->
@@ -194,13 +207,18 @@ TRANSITION: so what actually decides which one is right for you.
 -->
 
 ---
+layout: two-cols
+class: flex flex-col justify-center
+---
 
 <!-- slide:s2-gate2-03 -->
 
 <div class="rt-kicker">GATE TWO &middot; WHAT DECIDES IT</div>
 <div class="rt-h2">The right model depends on five things.</div>
 
-<div class="mt-8">
+::right::
+
+<div class="ml-10">
 <v-clicks>
 
 - The market
@@ -275,13 +293,16 @@ DRAW: trace the second red NO edge. Same stroke, same place, so it reads as a pa
 -->
 
 ---
+layout: default
+class: flex flex-col justify-center
+---
 
 <!-- slide:s2-gate3-01 -->
 
 <div class="rt-kicker">GATE THREE</div>
 <div class="rt-h2">Right journey?</div>
 
-<div class="rt-sub mt-3">Once somebody enters, does the whole journey hold their attention and move them toward the transformation?</div>
+<div class="rt-sub mt-3">Does the complete journey hold them, all the way to the transformation?</div>
 
 <div class="mt-6">
 <v-clicks>
@@ -370,6 +391,9 @@ TRANSITION: now put all three no paths on the same screen.
 DRAW: trace the third red NO edge, then hold. The pattern should be obvious before you say it.
 -->
 
+---
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:s2-loop-01 -->
@@ -478,16 +502,21 @@ class: text-center
 
 <div class="rt-kicker">SECTION 3 &middot; THE ROOT CAUSE</div>
 <div class="rt-h1">The Invisible Door</div>
-<div class="rt-sub mt-6 mx-auto">The point where the prospect leaves one touchpoint and enters the next.</div>
+<div v-click class="rt-sub mt-6 mx-auto">The point where the prospect leaves one touchpoint and enters the next.</div>
 
 <!--
 HOOK: name the gap and it stops being invisible. That is the entire job of this beat.
 BEATS:
-  - We call the hidden gap between those assets The Invisible Door. It is the point where the prospect leaves one touchpoint and enters the next.
+  - We call the hidden gap between those assets The Invisible Door.
+  - It is the point where the prospect leaves one touchpoint and enters the next.
 TIMING: 25 sec
+PACE: let the name land on its own frame. Click for the definition only after you have said the name and paused.
 TRANSITION: and the reason it stays hidden is how we are all taught to build.
 -->
 
+---
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:s3-door-02 -->
@@ -550,8 +579,7 @@ flowchart LR
   D3 --> E
   classDef gate fill:#FBF0D6,stroke:#B98F2E,stroke-width:2px,color:#0A2230
   classDef proc fill:#F4F6F6,stroke:#7A9199,stroke-width:1px,color:#0A2230
-  linkStyle 0,2,4 stroke:#209080,stroke-width:2.5px
-  linkStyle 1,3,5 stroke:#C4552F,stroke-width:2.5px,stroke-dasharray:6 5
+  linkStyle 0,1,2,3,4,5 stroke:#209080,stroke-width:2.5px
 ```
 
 <div class="grid grid-cols-5 gap-2 mt-5">
@@ -594,6 +622,9 @@ TRANSITION: here is exactly what it does to you.
 PACE: full stop after the line. Let the dark frame sit for two beats before you move.
 -->
 
+---
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:s3-restart-02 -->
@@ -676,6 +707,9 @@ TIMING: 18 sec
 TRANSITION: and once you are the connective tissue, the loop has a fixed shape.
 -->
 
+---
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:s3-cycle-01 -->
