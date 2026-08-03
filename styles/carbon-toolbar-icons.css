@@ -18,6 +18,38 @@
  * which means it survives static export and offline presenting.
  */
 
+/* ─────────────────────────────────────────────────────────────────────────────
+ * THE BOX MODEL AND THE PAINT SOURCE. Added 2026-08-03. Without this block every
+ * rule below is a perfect mask painted onto nothing.
+ *
+ * A mask icon works by masking the element's BACKGROUND. This file previously set
+ * only `mask-image`, so every icon computed to width:0, height:0 and
+ * background-color: transparent -- a flawless mask over zero pixels of nothing.
+ * The toolbar looked exactly as blank as it did before the file existed.
+ *
+ * That is the fourth time the toolbar has shipped blank, and it survived three
+ * fixes because THE DOCUMENTED VERIFICATION WAS WRONG: it asserted
+ * `maskImage !== 'none'`, which was the one property that was always fine. A
+ * check that only tests what you already believed is not a check.
+ *
+ * Verify visibility instead: width > 0 AND height > 0 AND a non-transparent
+ * background-color. See the skill's updated snippet.
+ * ──────────────────────────────────────────────────────────────────────────── */
+[class*="i-carbon"] {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: currentColor;   /* the pixels the mask reveals */
+  vertical-align: middle;
+  flex-shrink: 0;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
 /* FULL carbon set for Slidev internals -- 2026-07-28 (was 20, now all present) */
 .i-carbon\:account{-webkit-mask-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='currentColor' d='M8 14h11v2H8Zm0 5h13v2H8Z'/%3E%3Cpath fill='currentColor' d='M28 4H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 2v2H4V6ZM4 26V10h24v16Z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='currentColor' d='M8 14h11v2H8Zm0 5h13v2H8Z'/%3E%3Cpath fill='currentColor' d='M28 4H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 2v2H4V6ZM4 26V10h24v16Z'/%3E%3C/svg%3E");}
 .i-carbon\:align-box-bottom-right{-webkit-mask-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='currentColor' d='M26 30H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v24a2 2 0 0 1-2 2M6 4v24h20V4Z'/%3E%3Cpath fill='currentColor' d='M23 20H12v-2h11zm0 5h-7v-2h7z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='currentColor' d='M26 30H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v24a2 2 0 0 1-2 2M6 4v24h20V4Z'/%3E%3Cpath fill='currentColor' d='M23 20H12v-2h11zm0 5h-7v-2h7z'/%3E%3C/svg%3E");}
