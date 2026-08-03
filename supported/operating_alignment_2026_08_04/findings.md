@@ -44,7 +44,7 @@ layout: default
 
 <div class="oa-eyebrow rust">The audit <span class="dim">· four findings, in order of cost</span></div>
 
-<h2 class="oa-h2 mt-2">Four things are broken. <span class="oa-rust-t">All four are fixable.</span></h2>
+<h2 class="oa-h2 mt-2">Four things are broken. <span class="oa-teal-t">All four are fixable.</span></h2>
 
 <div class="mt-6 flex flex-col gap-2" style="max-width: 54rem;">
 <v-clicks>
@@ -281,7 +281,7 @@ class: text-center
 
 <div class="oa-eyebrow gold">Blocker 03 <span class="dim">· the real audience</span></div>
 
-<h2 class="oa-h2 mt-3">Deduped, it is exactly half.</h2>
+<h2 class="oa-h2 mt-3">Deduped, it is half the file.</h2>
 
 <div class="mt-6 grid grid-cols-2 gap-4">
 <v-clicks>
@@ -308,8 +308,8 @@ HOOK: STOP here. One number, and the whole month gets planned against it.
 BEATS:
   - "Contacts sit in more than one of those buckets, so dedupe it."
   - (click) "7,344 suppressed, once the overlap is stripped out."
-  - (click) "Exactly fifty percent of the file."
-  - (click) "Which leaves 7,293 addresses we can legally and safely mail. That is the ceiling. Not the target. The ceiling."
+  - (click) "Fifty percent of the file."
+  - (click) "Which puts the mailable ceiling at 7,293 addresses we can legally and safely mail. That is the ceiling. Not the target. The ceiling."
   - (click) "So every August target gets built on that number. Forecast off 14,639 and we are forecasting off an audience that does not exist."
 TIMING: 30 sec. Let 7,293 sit on screen before you click on.
 TRANSITION: "And it gets thinner than that."
@@ -330,7 +330,7 @@ layout: default
 <div class="mt-6 flex flex-col gap-2" style="max-width: 54rem;">
 <v-clicks>
 
-<div class="oa-row blocker"><span class="tag">Thin</span><span>Of the 7,293 mailable, only 671 carry any engager tag at all. That is 4.6%.</span></div>
+<div class="oa-row blocker"><span class="tag">Thin</span><span>Only 671 contacts carry any engager tag at all. That is 4.6% of the 14,639, and every one of them sits inside the 7,293.</span></div>
 
 <div class="oa-row blocker"><span class="tag">Odd</span><span>The 7 day, 30 day, 60 day and 90 day engaged tags all sit at exactly 1,687.</span></div>
 
@@ -350,7 +350,7 @@ layout: default
 <!--
 HOOK: The arithmetic does the arguing. State it flat and let it land.
 BEATS:
-  - (click) "Of those 7,293, only 671 carry any engager tag at all. Four point six percent."
+  - (click) "Only 671 contacts in the whole file carry any engager tag at all. Four point six percent of 14,639, and every one of them sits inside the 7,293 we can actually mail."
   - (click) "And here is the part that gave it away. Seven day engaged, thirty day, sixty day, ninety day. All four sit at exactly 1,687."
   - (click) "Four different windows cannot return one identical number. And the newest email tag anywhere in that system is dated May 22. So that is a one time bulk stamp somebody ran once, not a rolling calculation."
   - (click) "Which means the genuinely engaged core is unknown tonight. I do not have it and I am not going to invent a number for it. The August 6 send is how we find out."
@@ -425,7 +425,7 @@ layout: default
 </v-clicks>
 </div>
 
-<div v-click class="oa-meta mt-4">not the automation, and not the team. the field is doing exactly what it was built to do.</div>
+<div v-click class="oa-meta mt-4">not the automation. not the team. the field did what it was built to do.</div>
 
 </div>
 

@@ -262,11 +262,11 @@ layout: default
 </v-clicks>
 </div>
 
-<div v-click class="oa-lead mt-6" style="max-width: 52rem;">Ten links. The value is not made inside any one of them, it is made in the handoffs between them.</div>
+<div v-click class="oa-lead mt-6" style="max-width: 52rem;">Four links. The value is not made inside any one of them, it is made in the handoffs between them.</div>
 
 </div>
 
-<div class="oa-footer">the system · ten links, one chain</div>
+<div class="oa-footer">the system · four links, one chain</div>
 
 <!--
 HOOK: this is the machine Joe has to run, so show the whole chain before any week or any date.
@@ -275,7 +275,7 @@ BEATS:
   - (click) Activate. Clean onboarding, and a family that actually participates.
   - (click) Sustain. Measurable progress, and intervention before a family goes quiet on us.
   - (click) Compound. Renewal and ascension, referral, higher lifetime value.
-  - (click) Ten links. The value is not made inside any one of them. It is made in the handoffs between them, and in July nothing owned the handoffs.
+  - (click) Four links. The value is not made inside any one of them. It is made in the handoffs between them, and in July nothing owned the handoffs.
 TIMING: 40 sec
 TRANSITION: "Which is exactly what August locks."
 -->
@@ -288,7 +288,7 @@ layout: default
 
 <div class="px-16 pt-9">
 
-<div class="oa-eyebrow gold">What august locks <span class="dim">· and holds through december</span></div>
+<div class="oa-eyebrow gold">What august locks <span class="dim">· one answer per question</span></div>
 
 <h2 class="oa-h2 mt-2">Seven things stop being opinions.</h2>
 

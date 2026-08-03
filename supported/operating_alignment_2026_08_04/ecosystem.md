@@ -29,16 +29,16 @@ layout: default
 
 <!-- slide:eco-map-02 -->
 
-<div class="px-14 pt-7">
+<div class="px-14 pt-14">
 
 <div class="oa-eyebrow">02 · One ecosystem <span class="dim">· the whole system, one screen</span></div>
 
 <h2 class="oa-h2 mt-2">Every road ends in <span class="oa-gold-t">the same place.</span></h2>
 
-<div v-click class="mt-5 flex justify-center">
+<div v-click class="mt-9 flex justify-center">
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter','primaryColor':'#F7F5EE','primaryTextColor':'#0A2038','primaryBorderColor':'#8CA2C2','lineColor':'#CBD8EA'},'flowchart':{'nodeSpacing':20,'rankSpacing':32,'padding':6}}}%%
+```mermaid {scale: 0.75}
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter','fontSize':'16px','primaryColor':'#F7F5EE','primaryTextColor':'#0A2038','primaryBorderColor':'#8CA2C2','lineColor':'#CBD8EA'},'flowchart':{'nodeSpacing':20,'rankSpacing':32,'padding':6}}}%%
 flowchart LR
   A["HIGH INTENT<br/>list · SMS<br/>webinar"] --> C["DIRECT<br/>BOOKED CALL"]
   B["EARLIER INTENT<br/>cold · partner"] --> D["AP DIAGNOSTIC<br/>$47"]
@@ -64,14 +64,14 @@ flowchart LR
 
 </div>
 
-<div v-click class="oa-meta mt-4">two entry roads · one intake · one call that matters · one data spine that feeds three exits</div>
+<div v-click class="oa-meta mt-10 text-center">two roads in · one intake · one call that matters · one data spine, three exits</div>
 
 </div>
 
 <div class="oa-footer">one ecosystem · the map</div>
 
 <!--
-HOOK: This is the whole thing. Nothing we do between now and December sits outside this diagram.
+HOOK: This is the whole thing. Nothing we do between tonight and the hard close sits outside this diagram.
 BEATS:
   - (click) "Left side, two roads in. High intent is our own list, our SMS and the webinar audience. Earlier intent is cold traffic and partners."
   - "High intent goes straight to a booked call. They already know you. Selling them something small on the way in is a downgrade."
@@ -284,7 +284,7 @@ layout: default
 <div class="oa-footer">one ecosystem · six outputs</div>
 
 <!--
-HOOK: Six outputs. All six and the channel is real. Four of six and it was a promotion.
+HOOK: Six outputs. All six and the channel is real. Five of six and it was a promotion.
 BEATS:
   - (click) "Buyers. Someone who paid us money is a different human being from someone who downloaded something."
   - (click) "Diagnostic data. We learn what the student actually needs before anyone gets on a call."
@@ -445,7 +445,7 @@ layout: default
 
 <!-- slide:eco-surfaces-10 -->
 
-<div class="px-14 pt-8">
+<div class="px-14 pt-12">
 
 <div class="oa-eyebrow">02 · One ecosystem <span class="dim">· the estate as it exists tonight</span></div>
 
