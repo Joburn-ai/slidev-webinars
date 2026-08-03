@@ -1,0 +1,236 @@
+/* 🔴 MANDATORY FIRST LINE. Without it the entire Slidev toolbar renders blank. */
+@import '../../styles/carbon-toolbar-icons.css';
+
+/* SUPPORTED × FUNNEL FUTURIST · OPERATING ALIGNMENT (internal working deck, Aug 2026).
+   Dark navy field / cream ink / gold = the decision or the goal / rust = the blocker /
+   teal = the mechanism. SupportED brand navy #093992 warmed into a presentable dark field.
+   Co-located next to slides.md so Slidev auto-loads it UNSCOPED (skill Rule 7).
+   All classes prefixed .oa- so decks in this repo never collide. */
+
+:root {
+  --oa-bg:    #071A33;
+  --oa-bg-2:  #0B2A52;
+  --oa-bg-3:  #093992;
+  --oa-ink:   #F7F5EE;
+  --oa-soft:  #CBD8EA;
+  --oa-mute:  #8CA2C2;
+  --oa-gold:  #E4A92A;
+  --oa-teal:  #4FBDBD;
+  --oa-rust:  #E0755C;
+  --oa-line:  rgba(140, 162, 194, 0.20);
+  --oa-panel: rgba(255, 255, 255, 0.045);
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-image:
+    linear-gradient(rgba(247, 245, 238, 0.026) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(247, 245, 238, 0.026) 1px, transparent 1px),
+    linear-gradient(148deg, #071A33 0%, #0B2A52 60%, #0E3A6E 100%);
+  background-size: 40px 40px, 40px 40px, 100% 100%;
+  color: var(--oa-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Force full-hide before click + smooth reveal (skill Rule 3). */
+.slidev-vclick-hidden { opacity: 0 !important; pointer-events: none; }
+.slidev-vclick-target { transition: opacity 220ms ease; }
+
+/* ONE authoritative dark-surface text rule: cream ink, full opacity. */
+.slidev-layout h1, .slidev-layout h2, .slidev-layout h3,
+.slidev-layout p, .slidev-layout li, .slidev-layout td, .slidev-layout th {
+  color: var(--oa-ink);
+  opacity: 1;
+}
+.slidev-layout h1 { font-weight: 900; letter-spacing: -0.03em; line-height: 1.05; }
+.slidev-layout h2 { font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+
+/* ---------- type system: three levels only ---------- */
+.oa-eyebrow {
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.28em;
+  text-transform: uppercase; color: var(--oa-teal);
+}
+.oa-eyebrow.gold { color: var(--oa-gold); }
+.oa-eyebrow.rust { color: var(--oa-rust); }
+.oa-eyebrow .dim { color: var(--oa-mute); letter-spacing: 0.16em; }
+
+.oa-h1 { font-size: 3.4rem; font-weight: 900; letter-spacing: -0.03em; line-height: 1.06; color: var(--oa-ink); }
+.oa-h1.xl { font-size: 4rem; line-height: 1.04; }
+.oa-h2 { font-size: 2.15rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; color: var(--oa-ink); }
+.oa-h3 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.2; color: var(--oa-ink); }
+.oa-lead { font-size: 1.24rem; line-height: 1.5; color: var(--oa-soft); }
+.oa-body { font-size: 1.04rem; line-height: 1.45; color: var(--oa-soft); }
+.oa-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; letter-spacing: 0.08em; color: var(--oa-mute); }
+
+.oa-gold-t { color: var(--oa-gold); }
+.oa-teal-t { color: var(--oa-teal); }
+.oa-rust-t { color: var(--oa-rust); }
+.oa-mute-t { color: var(--oa-mute); }
+
+.oa-cover-sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem; font-weight: 800; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--oa-gold);
+}
+
+.oa-footer {
+  position: absolute; bottom: 1rem; left: 3.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--oa-mute); opacity: 0.72;
+}
+
+/* Giant ghost numeral on section dividers. */
+.oa-ghostnum {
+  position: absolute; right: 2.4rem; bottom: -2.8rem; z-index: 0;
+  font-size: 16rem; font-weight: 900; line-height: 1; letter-spacing: -0.05em;
+  color: rgba(247, 245, 238, 0.05); pointer-events: none;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ---------- panels + cards ---------- */
+.oa-card {
+  background: var(--oa-panel); border: 1px solid var(--oa-line);
+  border-radius: 14px; padding: 1.05rem 1.4rem;
+}
+.oa-card .k {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; font-weight: 700;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--oa-teal);
+}
+.oa-card .k.gold { color: var(--oa-gold); }
+.oa-card .k.rust { color: var(--oa-rust); }
+.oa-card .v { font-size: 1.4rem; font-weight: 800; color: var(--oa-ink); line-height: 1.26; margin-top: 0.3rem; }
+.oa-card .s { font-size: 0.95rem; color: var(--oa-mute); margin-top: 0.38rem; line-height: 1.4; }
+
+/* Left-accented rows: the blocker / the ruling / the fix. */
+.oa-row {
+  display: flex; align-items: flex-start; gap: 1rem;
+  background: var(--oa-panel); border: 1px solid var(--oa-line);
+  border-left: 6px solid var(--oa-mute); border-radius: 10px; padding: 0.62rem 1.1rem;
+}
+.oa-row .tag {
+  flex: none; width: 4.4rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; padding-top: 0.18rem;
+}
+.oa-row span:last-child { font-size: 1.02rem; font-weight: 600; color: var(--oa-ink); line-height: 1.34; }
+.oa-row.blocker { border-left-color: var(--oa-rust); }
+.oa-row.blocker .tag { color: var(--oa-rust); }
+.oa-row.fix { border-left-color: var(--oa-teal); }
+.oa-row.fix .tag { color: var(--oa-teal); }
+.oa-row.ruling { border-left-color: var(--oa-gold); }
+.oa-row.ruling .tag { color: var(--oa-gold); }
+
+/* The number tile. Unrounded figures are the proof, so give them room. */
+.oa-stat {
+  background: var(--oa-panel); border: 1px solid var(--oa-line);
+  border-radius: 12px; padding: 0.8rem 1rem; text-align: center;
+}
+.oa-stat .lbl {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; font-weight: 700;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--oa-mute); line-height: 1.3;
+}
+.oa-stat .val {
+  font-family: 'JetBrains Mono', monospace; font-size: 1.9rem; font-weight: 800;
+  letter-spacing: -0.02em; color: var(--oa-ink); margin-top: 0.22rem; line-height: 1.14;
+  overflow-wrap: anywhere;
+}
+.oa-stat .val.rust { color: var(--oa-rust); }
+.oa-stat .val.gold { color: var(--oa-gold); }
+.oa-stat .val.teal { color: var(--oa-teal); }
+.oa-stat.hero { border-color: var(--oa-gold); box-shadow: 0 0 0 5px rgba(228, 169, 42, 0.08); }
+
+/* Week column for the August spine. */
+.oa-week {
+  background: var(--oa-panel); border: 1px solid var(--oa-line);
+  border-top: 4px solid var(--oa-teal); border-radius: 12px; padding: 0.9rem 1.05rem;
+}
+.oa-week .wk {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; font-weight: 800;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--oa-teal);
+}
+.oa-week .nm { font-size: 1.08rem; font-weight: 900; color: var(--oa-ink); margin-top: 0.28rem; line-height: 1.2; }
+.oa-week .bd { font-size: 0.9rem; color: var(--oa-soft); margin-top: 0.4rem; line-height: 1.38; }
+.oa-week.peakwk { border-top-color: var(--oa-gold); box-shadow: 0 0 0 5px rgba(228, 169, 42, 0.07); }
+.oa-week.peakwk .wk { color: var(--oa-gold); }
+.oa-week.closewk { border-top-color: var(--oa-rust); }
+.oa-week.closewk .wk { color: var(--oa-rust); }
+
+/* Table (source-of-truth, decisions, send grid). */
+.oa-table { width: 100%; border-collapse: collapse; }
+.oa-table th {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--oa-teal);
+  text-align: left; padding: 0.5rem 0.85rem; border-bottom: 2px solid var(--oa-line);
+}
+.oa-table td {
+  padding: 0.52rem 0.85rem; border-bottom: 1px solid var(--oa-line);
+  font-size: 0.98rem; color: var(--oa-ink);
+}
+.oa-table td:first-child { font-weight: 800; }
+.oa-table.mono td:not(:first-child) { font-family: 'JetBrains Mono', monospace; font-size: 0.92rem; }
+
+/* Hero card for a single ruling the eye must land on. */
+.oa-heroCard {
+  background: var(--oa-panel); border: 1px solid var(--oa-gold);
+  border-radius: 16px; padding: 1.4rem 2rem;
+  box-shadow: 0 0 0 6px rgba(228, 169, 42, 0.07);
+}
+.oa-heroCard .k {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 700;
+  letter-spacing: 0.24em; text-transform: uppercase; color: var(--oa-gold);
+}
+.oa-heroCard .v { font-size: 1.6rem; font-weight: 900; color: var(--oa-ink); line-height: 1.25; margin-top: 0.45rem; }
+.oa-heroCard.rustline { border-color: var(--oa-rust); box-shadow: 0 0 0 6px rgba(224, 117, 92, 0.07); }
+.oa-heroCard.rustline .k { color: var(--oa-rust); }
+
+/* Callout band for a single doctrine line. */
+.oa-callout {
+  display: inline-block; border: 1px solid var(--oa-line); border-left: 6px solid var(--oa-gold);
+  background: var(--oa-panel); border-radius: 10px; padding: 0.75rem 1.4rem;
+  font-size: 1.2rem; font-weight: 700; color: var(--oa-ink); line-height: 1.4;
+}
+.oa-callout b { color: var(--oa-gold); font-weight: 900; }
+.oa-callout.rustline { border-left-color: var(--oa-rust); }
+.oa-callout.rustline b { color: var(--oa-rust); }
+
+/* Screenshot frame: the live surfaces. Evidence, so give it a real border. */
+.oa-shot {
+  border: 1px solid var(--oa-line); border-radius: 10px; overflow: hidden;
+  background: #0A2038; box-shadow: 0 8px 26px rgba(0, 0, 0, 0.32);
+}
+.oa-shot img { display: block; width: 100%; height: auto; }
+.oa-shotcap {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.1em;
+  color: var(--oa-mute); margin-top: 0.42rem; line-height: 1.35;
+}
+.oa-shotcap.rust { color: var(--oa-rust); }
+
+/* Chips for CTA / lane legends. */
+.oa-chip {
+  display: inline-block; border: 1px solid var(--oa-teal); border-radius: 999px;
+  padding: 0.4rem 1rem; font-family: 'JetBrains Mono', monospace;
+  font-size: 0.76rem; font-weight: 700; letter-spacing: 0.05em; color: var(--oa-teal);
+  background: rgba(79, 189, 189, 0.08);
+}
+.oa-chip.gold { border-color: var(--oa-gold); color: var(--oa-gold); background: rgba(228, 169, 42, 0.08); }
+.oa-chip.rust { border-color: var(--oa-rust); color: var(--oa-rust); background: rgba(224, 117, 92, 0.08); }
+
+/* Gold diamond motif (no emoji, no icon-font dependency, skill Rule 13). */
+.oa-diamond {
+  width: 12px; height: 12px; background: var(--oa-gold); transform: rotate(45deg);
+  border-radius: 2.5px; display: inline-block; box-shadow: 0 0 12px rgba(228, 169, 42, 0.5);
+}
+.oa-diamond.rust { background: var(--oa-rust); box-shadow: 0 0 12px rgba(224, 117, 92, 0.5); }
+.oa-diamond.teal { background: var(--oa-teal); box-shadow: 0 0 12px rgba(79, 189, 189, 0.5); }
+
+/* Mermaid on a dark field: Slidev renders it as SVG, so force legible strokes/fills. */
+.slidev-layout .mermaid { --oa-mm: var(--oa-ink); }
+.slidev-layout .mermaid svg { max-width: 100%; height: auto; }
+.slidev-layout .mermaid .nodeLabel,
+.slidev-layout .mermaid .edgeLabel,
+.slidev-layout .mermaid .label { fill: #0A2038 !important; color: #0A2038 !important; font-family: 'Inter', sans-serif !important; }
+.slidev-layout .mermaid .edgeLabel rect { fill: #F7F5EE !important; opacity: 1 !important; }
+.slidev-layout .mermaid .flowchart-link { stroke: var(--oa-soft) !important; stroke-width: 2px !important; }
+.slidev-layout .mermaid marker path { fill: var(--oa-soft) !important; stroke: var(--oa-soft) !important; }

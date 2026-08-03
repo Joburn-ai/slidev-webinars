@@ -42,7 +42,10 @@
     "dev:ff-townhall": "slidev ff_internal/town_hall_template/slides.md --open",
     "build:gg-team-early-read": "slidev build giftedgabber/team_reonboarding_early_read/slides.md --base / --out dist",
     "dev:gg-team-early-read": "slidev giftedgabber/team_reonboarding_early_read/slides.md --open",
-    "build:roadmap-thesis": "slidev build internal/roadmap_thesis_2026_08_03/slides.md --base / --out dist"
+    "build:roadmap-thesis": "slidev build internal/roadmap_thesis_2026_08_03/slides.md --base / --out dist",
+    "dev:supported-alignment": "slidev supported/operating_alignment_2026_08_04/slides.md --open",
+    "build:supported-alignment": "slidev build supported/operating_alignment_2026_08_04/slides.md --base / --out dist",
+    "export:supported-alignment": "slidev export supported/operating_alignment_2026_08_04/slides.md --without-notes"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",
