@@ -696,24 +696,84 @@ layout: default
 
 <div class="rt-kicker">AND WHEN THE ORDER IS RIGHT, THIS IS WHAT IT LOOKS LIKE</div>
 
-<div class="grid grid-cols-3 gap-4 mt-8">
+<div class="grid grid-cols-3 gap-4 mt-8 items-start">
 <v-clicks>
 
-<div class="rt-figure"><img src="/wins/win_04.png" alt="Four calls booked in ten minutes after the deliverability fix" class="w-full" /></div>
+<div class="rt-figure"><img src="/wins/four-calls-ten-minutes-2026-06.jpg" alt="Four calls booked in ten minutes after the deliverability fix" class="w-full" /></div>
 
-<div class="rt-figure"><img src="/wins/win_05.png" alt="Nine email inquiries in a single day" class="w-full" /></div>
+<div class="rt-figure"><img src="/wins/erin-nine-inquiries-2026-06.png" alt="Nine email inquiries in a single day, more than double the day before" class="w-full" /></div>
 
-<div class="rt-figure"><img src="/wins/win_06.png" alt="Record day: three strategy sessions set and eight triage calls" class="w-full" /></div>
+<div class="rt-figure"><img src="/wins/record-day-strategy-sessions-2026-05.png" alt="Record day: three strategy sessions set and eight triage calls" class="w-full" /></div>
 
 </v-clicks>
 </div>
 
 <!--
-NEW 08-05, John: "we need more visuals and more examples".
-These are three real, dated wins cropped from our own proof wall. They are examples of ORDER
-  producing a result, which is the one claim in this asset that had no proof attached.
-CLAIM LOCK: the cards speak for themselves. Do not read a figure aloud and do not summarise
-  them into a bigger claim. Attach to the work, never to the Roadmap System.
+VERBATIM SPOKEN: "And when the order is right, this is what it starts to look like."
+NEW 08-05. Originals from ff-site/public/proof/wins, not crops. Dated 2026-05 and 2026-06.
+CLAIM LOCK: let the cards speak. Do not read a figure aloud and never roll them into a bigger
+  claim. Figures attach to the work, never to the Roadmap System.
+-->
+
+---
+layout: default
+---
+
+<!-- slide:rv-37b -->
+
+<div class="rt-kicker">AND IT KEEPS LOOKING LIKE THAT</div>
+
+<div class="grid grid-cols-3 gap-4 mt-8 items-start">
+<v-clicks>
+
+<div class="rt-figure"><img src="/wins/coach-jo-cpl-drop-2026-07.png" alt="Lower cost per lead after the funnel rework" class="w-full" /></div>
+
+<div class="rt-figure"><img src="/wins/appointment-surge.png" alt="Appointment surge" class="w-full" /></div>
+
+<div class="rt-figure"><img src="/wins/promo-launch-success.png" alt="Promo launch beat its target" class="w-full" /></div>
+
+</v-clicks>
+</div>
+
+<!--
+VERBATIM SPOKEN: "Different businesses, different channels, same sequence."
+NEW 08-05, John: "stack better social proof, we have a ton of pictures kicking around."
+NOTE: this beat's job is BREADTH -- three different clients and channels, so it reads as a
+  system rather than one lucky account. rv-37 is depth, this is spread.
+-->
+
+---
+layout: default
+---
+
+<!-- slide:rv-37c -->
+
+<div class="rt-kicker">AND THIS IS WHAT THEY SAY ABOUT IT</div>
+
+<div class="grid grid-cols-3 gap-4 mt-8 items-start">
+<v-clicks>
+
+<div class="rt-figure"><img src="/wins/inside-our-heads-2025-01.jpg" alt="A client asking for the pitch to expand into more services" class="w-full" /></div>
+
+<div class="rt-figure"><img src="/wins/vsl-husband-cry-2025-08.png" alt="The VSL made her husband cry" class="w-full" /></div>
+
+<div class="rt-figure"><img src="/wins/white-label-request-2025-01.jpg" alt="A client asked to white-label the work" class="w-full" /></div>
+
+</v-clicks>
+</div>
+
+<!--
+VERBATIM SPOKEN: "And this is what it feels like from the inside."
+NEW 08-05. A DIFFERENT KIND OF PROOF and that is the point: rv-37 and rv-37b prove it works,
+  this proves what it is like to be on the other end of it. Numbers earn belief; these earn trust.
+NOTE: the white-label card is the strongest of the three and it is the least obvious -- somebody
+  asking to put their own name on our work is a harder thing to fake than a number.
+🔴 NAMED CLIENTS ON SCREEN: Samantha Belle, Bradley Pounds, Cassie Lincoln. All three are ALREADY
+  published on funnelfuturist.com/proof, so this is not new exposure -- but this asset goes to cold
+  traffic, so John should confirm he is happy with named current clients appearing there.
+🔴 FILENAME vs CONTENT: the proof page's own asset "inside-our-heads-2025-01.jpg" does NOT show
+  "it's like you're inside our heads" -- it shows Samantha Belle asking for the pitch. The filenames
+  in ff-site/public/proof/wins are not reliable descriptions. Look at the image, not the name.
 -->
 
 ---
