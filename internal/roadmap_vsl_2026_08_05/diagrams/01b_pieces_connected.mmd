@@ -1,0 +1,13 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","fontSize":"16px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":45,"rankSpacing":50}} }%%
+flowchart LR
+  HERE["WHERE YOU ARE"]:::here
+  A["A course"]:::piece
+  B["A tool"]:::piece
+  C["An agency"]:::piece
+  D["A hire"]:::piece
+  THERE["WHERE YOU<br/>WANT TO GO"]:::there
+  HERE --> A --> B --> C --> D --> THERE
+  classDef here  fill:#FBE3D9,stroke:#C4552F,stroke-width:2px,color:#0A2230
+  classDef piece fill:#F4F6F6,stroke:#7A9199,stroke-width:1px,color:#0A2230
+  classDef there fill:#DFF1ED,stroke:#209080,stroke-width:2px,color:#0A2230
+  linkStyle 0,1,2,3,4 stroke:#209080,stroke-width:2.5px

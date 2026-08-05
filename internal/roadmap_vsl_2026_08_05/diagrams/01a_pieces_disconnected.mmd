@@ -1,0 +1,10 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","fontSize":"16px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":55,"rankSpacing":70}} }%%
+flowchart LR
+  A["A course"]:::piece
+  B["A tool"]:::piece
+  C["An agency"]:::piece
+  D["A hire"]:::piece
+  A ~~~ B
+  B ~~~ C
+  C ~~~ D
+  classDef piece fill:#F4F6F6,stroke:#7A9199,stroke-width:1px,color:#0A2230
