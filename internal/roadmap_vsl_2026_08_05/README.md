@@ -39,3 +39,32 @@ was intended, and that is exactly the defect the first render had.
 
 **Aspect: 9.78:1 and 11.50:1.** Both are full-bleed horizontal bands by design, with the headline
 above. **We own the viewBox now, so the ratio is ours to change if a band is wrong.**
+
+---
+
+## 🔴 DEPLOY TRAP: `slidev build` deletes `dist/.vercel`
+
+`slidev build --out dist` **recreates the directory**, which wipes the Vercel project link inside
+it. Deploying after a rebuild therefore creates a **brand new project named after the folder** --
+this happened once and produced a stray `dist-*.vercel.app` project.
+
+**The fix, every time after a build:**
+
+```bash
+cd dist
+npx vercel link --yes --project roadmap-vsl --token "$VERCEL_TOKEN"
+npx vercel deploy --prod --yes --token "$VERCEL_TOKEN"
+```
+
+A copy of the link lives at `../.vercel-link` for reference.
+
+**Live: https://roadmap-vsl.vercel.app**
+
+## Verified on the live deploy, not asserted
+
+- **30 slides**, all render
+- **all 30 checked for frame overflow: zero.** Slide 2 failed this first time round (the proof
+  band pushed the closing line past the bottom edge) and the band was re-cropped 2.6:1 -> 4.0:1
+- **all 3 images confirmed painted** (`complete && naturalWidth > 0`), not merely present in the DOM
+- **42 wins is VERIFIED**: the wall container on `funnelfuturist.com/proof` has exactly 42 children
+  and the page prints "42 -- WINS ON THE WALL BELOW"
