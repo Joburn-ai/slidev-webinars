@@ -1,0 +1,15 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"17px","lineColor":"#5C7078"},"flowchart":{"curve":"basis","nodeSpacing":26,"rankSpacing":70}} }%%
+flowchart LR
+  E1["An audit we sent you"]:::entry
+  E2["A page or a video"]:::entry
+  E3["Someone referred you"]:::entry
+  F["THE FORM<br/><small>step one of the roadmap</small>"]:::proc
+  P["WE BUILD IT<br/><small>from your answers</small>"]:::proc
+  D["YOUR ROADMAP<br/><small>yours to keep either way</small>"]:::win
+  E1 --> F
+  E2 --> F
+  E3 --> F
+  F -- "a few minutes" --> P -- "24 to 48 hrs" --> D
+  classDef entry fill:#F4F6F6,stroke:#7A9199,stroke-width:1px,color:#0A2230
+  classDef proc  fill:#F4F6F6,stroke:#5C7078,stroke-width:2px,color:#0A2230
+  classDef win   fill:#DFF1ED,stroke:#209080,stroke-width:2.5px,color:#0A2230

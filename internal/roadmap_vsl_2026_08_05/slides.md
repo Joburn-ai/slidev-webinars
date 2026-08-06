@@ -830,6 +830,52 @@ VERBATIM. The most common objection, handled in one beat rather than a separate 
 -->
 
 ---
+layout: default
+---
+
+<!-- slide:rv-39b -->
+
+<div class="rt-kicker">SO HERE IS THE WHOLE THING, START TO FINISH</div>
+<div class="rt-h2">However you got here, it is the same three steps.</div>
+
+<div class="rt-figure mt-10">
+  <img src="/flows/02a_funnel_get_the_roadmap.svg" alt="Entry paths converging on the form, then the build, then your roadmap" class="w-full" />
+</div>
+
+<!--
+VERBATIM SPOKEN: "However you got here, it's the same three steps. You fill in the form, we build
+  it from your answers, and the roadmap is yours inside forty-eight hours."
+NEW 08-06, John: "a mermaid + UI mockup flow of the roadmap funnel and how it works."
+NOTE: this beat exists because rv-38 DESCRIBES the process in three cards and never shows it. The
+  flow is the proof the process exists. Three entry paths converge deliberately -- audit, page,
+  referral -- because the acquisition ruling says the audit is step one of the roadmap, not a
+  separate funnel.
+DIAGRAM: rendered SVG via the mermaid CLI. 5.34:1, full-bleed band. Screenshot-verified.
+-->
+
+---
+layout: default
+---
+
+<!-- slide:rv-39c -->
+
+<div class="rt-kicker">AND THEN WHAT HAPPENS AFTER</div>
+<div class="rt-h2">One call, and three ways it can go. All of them fine.</div>
+
+<div class="rt-figure mt-10">
+  <img src="/flows/02b_funnel_the_call.svg" alt="Roadmap to discovery call to a 30/60/90 plan, then three doors" class="w-full" />
+</div>
+
+<!--
+VERBATIM SPOKEN: "Then one call on your biggest constraint, you walk away with a thirty, sixty,
+  ninety day plan, and there are three ways it can go from there. All three are fine."
+NOTE: the three doors are all TEAL on purpose -- "you run the plan yourself" is drawn as a WIN, not
+  as the losing branch. That is the whole risk-reversal argument made visually, and it is why this
+  diagram sits before the close rather than after it.
+DIAGRAM: rendered SVG, 4.46:1. Screenshot-verified.
+-->
+
+---
 layout: center
 class: text-center
 ---

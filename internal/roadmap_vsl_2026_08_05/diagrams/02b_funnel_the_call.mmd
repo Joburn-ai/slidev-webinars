@@ -1,0 +1,14 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","edgeLabelBackground":"#ffffff","fontSize":"17px","lineColor":"#5C7078"},"flowchart":{"curve":"basis","nodeSpacing":26,"rankSpacing":70}} }%%
+flowchart LR
+  D["YOUR ROADMAP"]:::win
+  C["THE DISCOVERY CALL<br/><small>your biggest constraint</small>"]:::proc
+  W["A 30/60/90 DAY PLAN<br/><small>yours whatever you decide</small>"]:::win
+  T1["We install the Roadmap Funnel"]:::win
+  T2["Something else that helps"]:::win
+  T3["You run the plan yourself"]:::win
+  D --> C --> W
+  W --> T1
+  W --> T2
+  W --> T3
+  classDef proc fill:#F4F6F6,stroke:#5C7078,stroke-width:2px,color:#0A2230
+  classDef win  fill:#DFF1ED,stroke:#209080,stroke-width:2.5px,color:#0A2230

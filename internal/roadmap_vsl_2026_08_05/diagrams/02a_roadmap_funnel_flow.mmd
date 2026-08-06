@@ -1,0 +1,41 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","fontSize":"15px","lineColor":"#5C7078"},"flowchart":{"curve":"linear","nodeSpacing":38,"rankSpacing":52}} }%%
+flowchart LR
+  subgraph ENTRY["HOW THEY ARRIVE"]
+    direction TB
+    E1["Throughline audit"]:::entry
+    E2["Landing page"]:::entry
+    E3["YouTube / content"]:::entry
+    E4["DM or referral"]:::entry
+  end
+  F["THE ROADMAP FORM<br/><small>step one of the roadmap</small>"]:::proc
+  G1{"Completed?"}:::gate
+  P["We build their<br/>personalised Roadmap"]:::proc
+  D["Roadmap delivered<br/>+ access code"]:::proc
+  G2{"Booked?"}:::gate
+  C["ROADMAP DISCOVERY CALL<br/><small>their biggest constraint</small>"]:::proc
+  W["30 / 60 / 90 day plan<br/><small>theirs either way</small>"]:::win
+  subgraph DOORS["IF IT MAKES SENSE, ONE OF THREE"]
+    direction TB
+    T1["Install the Roadmap Funnel"]:::win
+    T2["Something else that helps"]:::win
+    T3["They execute it themselves"]:::win
+  end
+  R{{"THE RESTART"}}:::stop
+  E1 --> F
+  E2 --> F
+  E3 --> F
+  E4 --> F
+  F --> G1
+  G1 -- YES --> P
+  G1 -- NO --> R
+  P --> D --> G2
+  G2 -- YES --> C
+  G2 -- NO --> R
+  C --> W --> DOORS
+  classDef entry fill:#F4F6F6,stroke:#7A9199,stroke-width:1px,color:#0A2230
+  classDef proc  fill:#F4F6F6,stroke:#5C7078,stroke-width:2px,color:#0A2230
+  classDef gate  fill:#FBF0D6,stroke:#B98F2E,stroke-width:2px,color:#0A2230
+  classDef win   fill:#DFF1ED,stroke:#209080,stroke-width:2px,color:#0A2230
+  classDef stop  fill:#FBE3D9,stroke:#C4552F,stroke-width:2px,color:#0A2230
+  style ENTRY fill:#FFFFFF,stroke:#7A9199,stroke-dasharray:4 4,color:#5C7078
+  style DOORS fill:#FFFFFF,stroke:#209080,stroke-dasharray:4 4,color:#209080
