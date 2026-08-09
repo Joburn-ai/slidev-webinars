@@ -39,9 +39,72 @@
   font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em;
   text-transform: uppercase; color: var(--teal); margin-bottom: 0.6rem;
 }
-.rt-h1 { font-size: 3.1rem; line-height: 1.03; font-weight: 900; letter-spacing: -0.03em; text-wrap: balance; }
-.rt-h2 { font-size: 2.3rem; line-height: 1.08; font-weight: 850; letter-spacing: -0.025em; text-wrap: balance; }
+/* 🔴 max-width is LOAD-BEARING, not cosmetic. John caught slide 4's headline
+   running off the right edge on 2026-08-09. Cause: .rt-h1/.rt-h2 had no
+   max-width while .rt-sub did, so a long headline ran the full bleed with no
+   right padding. `text-wrap: balance` only balances lines WITHIN the available
+   width -- it never creates a limit.
+   The automated sweep missed it because Slidev's slide container is
+   `overflow: hidden`: the text is CLIPPED, not scrolled, so scrollWidth never
+   exceeds clientWidth. Never delete these two max-widths. */
+.rt-h1 { font-size: 3.1rem; line-height: 1.03; font-weight: 900; letter-spacing: -0.03em; text-wrap: balance; max-width: 20ch; }
+.rt-h2 { font-size: 2.3rem; line-height: 1.08; font-weight: 850; letter-spacing: -0.025em; text-wrap: balance; max-width: 26ch; }
 .rt-sub { font-size: 1.35rem; line-height: 1.45; color: var(--fogd); max-width: 46ch; }
+.text-center .rt-h1, .text-center .rt-h2, .text-center .rt-sub { margin-left: auto; margin-right: auto; }
+
+/* ─── VISUAL SYSTEM v6 ────────────────────────────────────────────────
+   The image-density law (ref_visual_style_guide §1.5): every slide carries a
+   visual, 2-4 elements per slide. These are the composition primitives. */
+
+/* Split: copy on the left, visual filling the right. The default v6 slide. */
+.rt-split { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 3rem; align-items: center; height: 100%; }
+.rt-split.flip { grid-template-columns: 0.95fr 1.05fr; }
+.rt-split > .rt-visual { display: flex; align-items: center; justify-content: center; height: 100%; }
+.rt-split img, .rt-visual img { max-width: 100%; max-height: 74vh; object-fit: contain; }
+
+/* The recurring character. Drops onto any ground, never boxed. */
+.rt-char { max-height: 62vh; filter: drop-shadow(0 18px 34px rgba(10,34,48,0.22)); }
+.rt-char.sm { max-height: 34vh; }
+.rt-char.corner { position: absolute; right: 2.5rem; bottom: 0; max-height: 52vh; }
+
+/* Proof: a real screenshot, cropped, on a raised card. Never full-bleed --
+   a screenshot that bleeds reads as decoration, framed reads as evidence. */
+.rt-shot { border-radius: 10px; border: 1px solid var(--fog); box-shadow: 0 10px 30px rgba(10,34,48,0.16); overflow: hidden; background: #fff; }
+.rt-shot.tight { max-height: 30vh; object-fit: cover; object-position: top; }
+.rt-grid { display: grid; gap: 0.9rem; }
+.rt-grid.c2 { grid-template-columns: repeat(2, 1fr); }
+.rt-grid.c3 { grid-template-columns: repeat(3, 1fr); }
+.rt-grid.c4 { grid-template-columns: repeat(4, 1fr); }
+
+/* A verbatim client quote. The line under it is the attribution, never a claim. */
+.rt-quote { font-size: 1.5rem; line-height: 1.32; font-weight: 700; color: var(--ink); text-wrap: balance; }
+.peak .rt-quote { color: var(--star); }
+.rt-attrib { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; color: var(--teal); margin-top: 0.7rem; }
+.rt-proofcard { background: #F7F9F9; border: 1px solid var(--fog); border-left: 4px solid var(--teal); border-radius: 8px; padding: 1.1rem 1.25rem; }
+.peak .rt-proofcard { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.16); border-left-color: var(--tealb); }
+
+/* A number as the hero. Type IS a visual when it is set at this size. */
+.rt-num { font-size: 5.6rem; font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; color: var(--teal); font-variant-numeric: tabular-nums; }
+.peak .rt-num { color: var(--gold); }
+.rt-num.bad { color: var(--ember); }
+.rt-numlabel { font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fogd); }
+
+/* Old way / new way. The contrast IS the argument, so it is a colour system. */
+.rt-old { border: 2px solid var(--ember); background: #FBE9E1; border-radius: 10px; padding: 1.1rem 1.3rem; }
+.rt-new { border: 2px solid var(--teal); background: #DFF1ED; border-radius: 10px; padding: 1.1rem 1.3rem; }
+.peak .rt-old { background: rgba(196,85,47,0.16); }
+.peak .rt-new { background: rgba(32,144,128,0.18); }
+.rt-waylabel { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.5rem; }
+.rt-old .rt-waylabel { color: var(--ember); }
+.rt-new .rt-waylabel { color: var(--teal); }
+
+/* Sticky note -- the behind-the-scenes register, lifted from the Miro boards. */
+.rt-sticky { background: #FDF3B8; color: #2A2410; padding: 0.85rem 1rem; border-radius: 3px; font-weight: 600;
+  box-shadow: 0 6px 16px rgba(10,34,48,0.18); transform: rotate(-1.4deg); font-size: 1.05rem; line-height: 1.3; }
+.rt-sticky.r { transform: rotate(1.6deg); }
+
+/* Blur gate: client-sensitive material is blurred BEFORE it renders. */
+.rt-blur { filter: blur(7px); }
 
 .rt-card {
   background: #F4F6F6; border: 1px solid var(--fog); border-radius: 10px;
@@ -61,3 +124,7 @@
 
 /* Rule 9: body text never below text-2xl equivalent. */
 .slidev-layout :where(p, li) { font-size: 1.25rem; }
+
+/* Corner characters are position:absolute -- they need a positioned parent or they
+   escape to the viewport. Slidev's own layouts do not guarantee one. */
+.slidev-layout { position: relative; }

@@ -1,0 +1,92 @@
+{
+  "model": "gemini-3-pro-image-preview",
+  "palette": {
+    "void": "#0A2230 (deep navy, near-black ground)",
+    "space": "#103040 (raised navy)",
+    "teal": "#209080 (primary brand teal)",
+    "teal-bright": "#2BB3A0 (accent teal)",
+    "parchment": "#F0E4BC (warm parchment)",
+    "star": "#FAF6EA (near-white)",
+    "ember": "#C4552F (burnt orange, friction and blockers)",
+    "gold": "#D9B96A (muted gold, value and payoff)",
+    "fog": "#7A9199 (desaturated blue-grey, secondary)"
+  },
+  "character_sheet": "MARCUS: a business owner in his late 30s. Short dark beard, neat. Charcoal suit jacket worn over an open-collar shirt, no tie. Athletic build, mid-height. Rendered as a clean semi-realistic 3D-lit figure with slightly exaggerated proportions for comic readability. He is EVERY image's same person: identical face, beard, jacket and rendering. He is an everyman business owner, never a celebrity, never a real identifiable individual.",
+  "images": [
+    {
+      "slug": "char-01-stuck",
+      "style": "character",
+      "concept": "Standing, both hands gripping the sides of his head, elbows flared out, face screwed up in overwhelmed frustration. Mouth open in a groan. Shoulders hunched up toward his ears."
+    },
+    {
+      "slug": "char-02-lost",
+      "style": "character",
+      "concept": "Turning in place looking around, one hand shading his eyes like a lookout, the other holding a crumpled useless map at his side. Expression: completely lost but still searching."
+    },
+    {
+      "slug": "char-03-wall",
+      "style": "character",
+      "concept": "Leaning forward with both palms pressed flat against an invisible vertical wall, straining hard, feet braced behind him. Face tight with effort. The wall itself is not drawn."
+    },
+    {
+      "slug": "char-04-realising",
+      "style": "character",
+      "concept": "Standing upright, head tilted slightly back, eyebrows raised high, one index finger lifted in the air. The exact half-second of realisation. Mouth slightly open."
+    },
+    {
+      "slug": "char-05-deciding",
+      "style": "character",
+      "concept": "Standing with arms folded, weight on one leg, chin lifted, looking directly forward with calm resolve. Settled and decided, not aggressive."
+    },
+    {
+      "slug": "char-06-winning",
+      "style": "character",
+      "concept": "Both fists raised and clenched at shoulder height, head thrown back, mouth wide open in a triumphant shout. Full-body celebration."
+    },
+    {
+      "slug": "concept-01-sequence-trap",
+      "style": "sketch",
+      "concept": "A flowchart of boxes connected by arrows where the flow breaks: several boxes float disconnected off to the sides with arrows that loop back on themselves in a dead circle, while one clean straight path runs through the middle unused. The loop is drawn in burnt orange, the unused straight path in teal."
+    },
+    {
+      "slug": "concept-02-jungle",
+      "style": "editorial",
+      "concept": "An overhead view of dense jungle canopy with a single tiny clearing. No visible path. One small figure-sized dot in the middle of the canopy with no route drawn to or from it. Vast, disorienting, no orientation cues."
+    },
+    {
+      "slug": "concept-03-critical-path",
+      "style": "sketch",
+      "concept": "The same scattered boxes now organised into one clean left-to-right sequence with numbered steps and single arrows between them. Two side branches are crossed out with a marker X. A thick teal line traces the one path that runs all the way through."
+    },
+    {
+      "slug": "concept-04-fit-model-to-business",
+      "style": "editorial",
+      "concept": "Split composition. Left: a rigid rectangular template being forced down over an irregular organic shape, edges crushed and overhanging, drawn in burnt orange. Right: a flexible outline traced precisely around that same irregular shape, fitting exactly, drawn in teal."
+    },
+    {
+      "slug": "concept-05-blame-cascade",
+      "style": "sketch",
+      "concept": "Four labelled boxes in a descending diagonal chain, each with an arrow pointing back up to the one above it, so responsibility passes upward in a chain that never terminates. The final arrow at the top curves off the edge of the frame pointing at nothing."
+    },
+    {
+      "slug": "concept-06-information-abundance",
+      "style": "editorial",
+      "concept": "Split composition. Left: a narrow funnel with a single tiny opening, everything else walled off, drawn in burnt orange. Right: a wide open fan of many clearly-lit parallel routes spreading outward, all visible at once, drawn in teal and gold."
+    },
+    {
+      "slug": "concept-07-trust-recession",
+      "style": "editorial",
+      "concept": "A line graph descending steeply from upper left to lower right, drawn as a cracking fault line rather than a smooth curve, with the ground beneath it fracturing into pieces. Restrained, editorial, no figures."
+    },
+    {
+      "slug": "concept-08-two-roads",
+      "style": "editorial",
+      "concept": "A single vantage point where two paths diverge. One is a faint worn loop that curves back to where it started. The other is a straight lit road running to a clear horizon. Seen from behind and above, no figure."
+    },
+    {
+      "slug": "concept-09-audit-magnifier",
+      "style": "schematic",
+      "concept": "A technical blueprint of a multi-stage funnel drawn as connected chambers, with one single chamber circled and called out with a leader line and a small label box. Every other chamber is drawn in thin neutral line; only the circled one is emphasised."
+    }
+  ]
+}
