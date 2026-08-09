@@ -107,17 +107,19 @@ PACE: land hard on "looked".
 
 ---
 layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:rv-07 -->
 
 <div class="rt-kicker">MEANWHILE</div>
-<div class="rt-h2">Ad costs keep climbing.</div>
 
-<div class="grid gap-4 mt-10 max-w-4xl">
+<div class="grid gap-4 mt-8 max-w-4xl">
 <v-clicks>
 
-<div class="rt-card bad"><div class="rt-card-t">Every competitor can now produce as much content as you can</div></div>
+<div class="rt-card bad"><div class="rt-card-t">Ad costs keep climbing</div></div>
+
+<div class="rt-card bad"><div class="rt-card-t">Every competitor can now produce as much content as you can, competing for the same bids</div></div>
 
 <div class="rt-card bad"><div class="rt-card-t">And the window to be early on a channel has gone from years to months</div></div>
 
@@ -125,7 +127,12 @@ layout: default
 </div>
 
 <!--
-VERBATIM. Three pressures, none of which they caused.
+VERBATIM. Three pressures, none of which they caused. One reveal each.
+🔴 REBUILT 08-07 from John's Loom: "the formatting on slide seven is weird because it has one
+  symptom as a headline and then it's changing." Pressure one WAS an rt-h2 headline while two and
+  three were cards, so the first pressure read as the TOPIC and the other two as its sub-points.
+  They are three PEERS. Same card, same weight, same click cadence -- the rv-16 pattern.
+NOTE: the kicker carries "Meanwhile," so the read is unbroken: MEANWHILE / ad costs keep climbing.
 -->
 
 ---
@@ -385,10 +392,20 @@ class: text-center
 
 <!-- slide:rv-21 -->
 
-<div class="rt-h1">That might not <span v-mark="{ at: 1, color: '#C4552F', type: 'underline' }">actually</span> make any sense for your business at all.</div>
+<div class="rt-h2">Which might not <span v-mark="{ at: 1, color: '#C4552F', type: 'underline' }">actually</span> make sense</div>
+<div class="rt-h1 mt-8" v-click="2">for your specific business at all.</div>
 
 <!--
-VERBATIM. The payoff of the two named lists above.
+VERBATIM per the v4 script line [21]. The payoff of the two named lists above.
+🔴 REBUILT 08-07. John: "the red line on slide 21 is cutting out kind of weirdly and overlapping."
+  ROOT CAUSE, measured not guessed: .rt-h1 sets line-height 1.03 (51.1px advance) while the ink box
+  of the same 49.6px font is 75.7px tall, so wrapped lines carry ~-24px of leading and there is NO
+  whitespace between them. rough-notation draws an underline at rect.bottom + 5px padding, which put
+  the ember stroke 15.7px INSIDE the next line's glyphs -- it painted through "sense for".
+  THE INVARIANT: a v-mark underline must sit on the LAST line of its block; a v-mark circle needs a
+  SINGLE-line block. "Which might not actually make sense" is one line at rt-h2, so the stroke now
+  lands in the mt-8 gutter. Screenshot-verified 08-07.
+PACE: click 1 strokes "actually" as you say it, click 2 lands the payoff.
 -->
 
 ---
@@ -657,20 +674,40 @@ class: flex flex-col justify-center
 
 <div class="rt-kicker">WHICH IS</div>
 
-<div class="grid grid-cols-3 gap-4 mt-12">
+<div class="rt-figure mt-4">
+  <img src="/flows/01b_pieces_connected.svg" alt="Where you are, the pieces in order, where you want to go" class="w-full" />
+</div>
+
+<div class="grid grid-cols-3 gap-4 mt-8 items-start">
 <v-clicks>
 
-<div class="rt-card good"><div class="rt-card-t">Where you are now</div></div>
+<div class="rt-card bad"><div class="rt-card-t">Where you are now</div></div>
 
 <div class="rt-card good"><div class="rt-card-t">Where you're going</div></div>
 
-<div class="rt-card good"><div class="rt-card-t">And the steps between the two, in the right order</div></div>
+<div class="rt-card gate">
+<div class="rt-card-t">And the steps between the two,</div>
+<div class="rt-card-t"><span v-mark="{ at: 4, color: '#D9B96A', type: 'underline' }">in the right order</span></div>
+</div>
 
 </v-clicks>
 </div>
 
 <!--
-VERBATIM.
+VERBATIM SPOKEN: "Which is: where you are now. Where you're going. And the steps between the two,
+  in the right order."
+🔴 REBUILT 08-07 from John's Loom: "we should show the visual and ideally show each step appearing
+  at the same time as we show them", and "I want to emphasize IN THE RIGHT ORDER."
+DIAGRAM: the connected-path band is up at click 0, so the picture is on screen for the whole beat.
+  Each card then lands on its own click, in the order the sentence says them.
+COLOUR GRAMMAR, and it is load-bearing here: the cards MIRROR the diagram beneath them. Card 1 is
+  ember because WHERE YOU ARE is the ember node. Card 2 is teal because WHERE YOU WANT TO GO is the
+  teal node. Card 3 is GOLD because gold is the re-order, and the re-order is the whole claim.
+🔴 THE ONE v-mark THE v2 TEMPLATE ALLOWS IN THE ASSET, and this is it. Click 4, a beat AFTER the
+  card lands, so the stress is its own moment rather than arriving with the text.
+🔴 "in the right order" sits in its OWN block so its last line is its only line. Per the rv-21
+  finding, a v-mark underline inside a wrapping block paints into the following line's glyphs.
+  Screenshot-verified 08-07.
 -->
 
 ---

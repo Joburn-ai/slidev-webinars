@@ -1,0 +1,71 @@
+<svg id="bowtie-overlay" class="bt bt-s1 bt-static" xmlns="http://www.w3.org/2000/svg" width="2400" height="500" viewBox="0 0 2400 500" role="img" aria-label="An open bowtie with a thick middle. Acquisition on the left, customer success on the right, COMMIT labelled in the notch under the wide middle. Four customer-success functions move left across the commit label into the acquisition funnel, where each one is named as a piece of the roadmap funnel."><style>#bowtie-overlay{display:block;font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;}
+#bowtie-overlay text{fill:#5C7078;text-anchor:middle;}
+#bowtie-overlay .bt-t-side{font-size:26px;font-weight:800;letter-spacing:3px;}
+#bowtie-overlay .bt-t-spine{font-size:24px;font-weight:800;letter-spacing:1.4px;}
+#bowtie-overlay .bt-t-commit{font-size:30px;font-weight:900;letter-spacing:5px;}
+#bowtie-overlay .bt-t-note{font-size:20px;font-weight:600;letter-spacing:0px;}
+#bowtie-overlay .bt-t-cs{font-size:26px;font-weight:800;letter-spacing:1.2px;}
+#bowtie-overlay .bt-t-rm{font-size:19px;font-weight:700;letter-spacing:0px;}
+#bowtie-overlay .bt-t-label{font-size:26px;font-weight:900;letter-spacing:3px;}
+#bowtie-overlay .bt-anim{transition:opacity 340ms ease, fill 340ms ease, stroke 340ms ease;}
+#bowtie-overlay #bt-transformation{transition:transform 900ms cubic-bezier(.4,0,.2,1), opacity 340ms ease;}
+#bowtie-overlay.bt-static *{transition:none !important;}
+
+/* the silhouette */
+#bowtie-overlay #bt-outline-base{fill:#FAFBFB;stroke:#7A9199;stroke-width:3.6;}
+#bowtie-overlay #bt-outline-lit{fill:none;stroke:#209080;stroke-width:4.4;opacity:0;}
+#bowtie-overlay #bt-wash-right{fill:url(#bt-grad-right);stroke:none;opacity:0;}
+#bowtie-overlay #bt-wash-left{fill:url(#bt-grad-left);stroke:none;opacity:0;}
+
+/* labels */
+#bowtie-overlay #bt-label-acq,#bowtie-overlay #bt-label-cs{opacity:.55;}
+#bowtie-overlay #bt-acq-spine{opacity:.55;}
+#bowtie-overlay #bt-acq-spine .bt-chev{fill:none;stroke:#7A9199;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;}
+#bowtie-overlay #bt-commit-word{fill:#5C7078;}
+#bowtie-overlay #bt-commit-note{fill:#7A9199;}
+
+/* the four functions, and the slots they leave behind */
+#bowtie-overlay .bt-chip rect{fill:#F4F6F6;stroke:#7A9199;stroke-width:2.2;}
+#bowtie-overlay .bt-chip .bt-cs{fill:#5C7078;transform:translateY(14px);transition:transform 340ms ease, fill 340ms ease;}
+#bowtie-overlay .bt-chip .bt-rm{fill:#8A6A18;opacity:0;}
+#bowtie-overlay #bt-ghosts{opacity:0;}
+#bowtie-overlay #bt-ghosts rect{fill:none;stroke:#7A9199;stroke-width:2.2;stroke-dasharray:8 8;}
+#bowtie-overlay #bt-move{opacity:0;}
+#bowtie-overlay #bt-move path{fill:none;stroke:#D9B96A;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+#bowtie-overlay #bt-transformation{opacity:.55;}
+#bowtie-overlay #bt-transformation-label{fill:#5C7078;}
+
+/* ── state 0. nothing painted ─────────────────────────────────────────── */
+#bowtie-overlay.bt-s0{opacity:0;}
+
+/* ── state 1. the bowtie alone, dimmed, COMMIT marked ─────────────────── */
+#bowtie-overlay.bt-s1 #bt-outline-base{opacity:.55;}
+
+/* ── state 2. the right side lights. ember = the arrangement argued against */
+#bowtie-overlay.bt-s2 #bt-outline-base{opacity:.6;}
+#bowtie-overlay.bt-s2 #bt-wash-right{opacity:1;}
+#bowtie-overlay.bt-s2 #bt-label-cs{opacity:1;}
+#bowtie-overlay.bt-s2 #bt-label-cs text{fill:#C4552F;}
+#bowtie-overlay.bt-s2 #bt-transformation{opacity:1;}
+#bowtie-overlay.bt-s2 #bt-transformation-label{fill:#C4552F;}
+#bowtie-overlay.bt-s2 .bt-chip rect{fill:#FBE3D9;stroke:#C4552F;stroke-width:2.6;}
+#bowtie-overlay.bt-s2 .bt-chip .bt-cs{fill:#8C3419;}
+
+/* ── state 3. THE MOVEMENT. gold = the re-order, teal = the path that works */
+#bowtie-overlay.bt-s3 #bt-outline-base{opacity:.35;}
+#bowtie-overlay.bt-s3 #bt-outline-lit{opacity:1;}
+#bowtie-overlay.bt-s3 #bt-wash-right{opacity:.18;}
+#bowtie-overlay.bt-s3 #bt-wash-left{opacity:1;}
+#bowtie-overlay.bt-s3 #bt-label-cs{opacity:.4;}
+#bowtie-overlay.bt-s3 #bt-label-acq{opacity:1;}
+#bowtie-overlay.bt-s3 #bt-label-acq text{fill:#209080;}
+#bowtie-overlay.bt-s3 #bt-acq-spine{opacity:1;}
+#bowtie-overlay.bt-s3 #bt-acq-spine text{fill:#209080;}
+#bowtie-overlay.bt-s3 #bt-acq-spine .bt-chev{stroke:#2BB3A0;}
+#bowtie-overlay.bt-s3 #bt-ghosts{opacity:.5;}
+#bowtie-overlay.bt-s3 #bt-move{opacity:1;}
+#bowtie-overlay.bt-s3 #bt-transformation{opacity:1;transform:translateX(-1108px);}
+#bowtie-overlay.bt-s3 #bt-transformation-label{fill:#8A6A18;}
+#bowtie-overlay.bt-s3 .bt-chip rect{fill:#FBF0D6;stroke:#D9B96A;stroke-width:2.8;}
+#bowtie-overlay.bt-s3 .bt-chip .bt-cs{fill:#8A6A18;transform:none;}
+#bowtie-overlay.bt-s3 .bt-chip .bt-rm{opacity:1;}</style><defs><linearGradient id="bt-grad-right" gradientUnits="userSpaceOnUse" x1="840" y1="0" x2="1860" y2="0"><stop offset="0" stop-color="#C4552F" stop-opacity="0"/><stop offset="1" stop-color="#C4552F" stop-opacity="0.16"/></linearGradient><linearGradient id="bt-grad-left" gradientUnits="userSpaceOnUse" x1="1560" y1="0" x2="540" y2="0"><stop offset="0" stop-color="#209080" stop-opacity="0"/><stop offset="1" stop-color="#209080" stop-opacity="0.14"/></linearGradient></defs><path id="bt-outline-base" class="bt-anim" d="M 76 86 L 1021 170 Q 1065 174 1109 174 L 1291 174 Q 1335 174 1379 170 L 2324 86 L 2324 486 L 1379 402 Q 1335 398 1291 398 L 1109 398 Q 1065 398 1021 402 L 76 486 Z" /><g id="bt-washes"><path id="bt-wash-right" class="bt-anim" d="M 76 86 L 1021 170 Q 1065 174 1109 174 L 1291 174 Q 1335 174 1379 170 L 2324 86 L 2324 486 L 1379 402 Q 1335 398 1291 398 L 1109 398 Q 1065 398 1021 402 L 76 486 Z" /><path id="bt-wash-left" class="bt-anim" d="M 76 86 L 1021 170 Q 1065 174 1109 174 L 1291 174 Q 1335 174 1379 170 L 2324 86 L 2324 486 L 1379 402 Q 1335 398 1291 398 L 1109 398 Q 1065 398 1021 402 L 76 486 Z" /></g><path id="bt-outline-lit" class="bt-anim" d="M 76 86 L 1021 170 Q 1065 174 1109 174 L 1291 174 Q 1335 174 1379 170 L 2324 86 L 2324 486 L 1379 402 Q 1335 398 1291 398 L 1109 398 Q 1065 398 1021 402 L 76 486 Z" /><g id="bt-label-acq" class="bt-anim"><text class="bt-t-side" x="570" y="44">ACQUISITION</text></g><g id="bt-label-cs" class="bt-anim"><text class="bt-t-side" x="1780" y="44">CUSTOMER SUCCESS</text></g><g id="bt-acq-spine" class="bt-anim"><text id="bt-spine-1" class="bt-t-spine" x="210" y="226">ATTENTION</text><text id="bt-spine-2" class="bt-t-spine" x="445" y="226">INTEREST</text><text id="bt-spine-3" class="bt-t-spine" x="790" y="226">A SALES CONVERSATION</text><path class="bt-chev" d="M 330 213 L 342 220 L 330 227" /><path class="bt-chev" d="M 555 213 L 567 220 L 555 227" /></g><g id="bt-commit"><text id="bt-commit-word" class="bt-t-commit" x="1200" y="444">COMMIT</text><text id="bt-commit-note" class="bt-t-note" x="1200" y="470">just the next step</text></g><g id="bt-ghosts" class="bt-anim"><rect x="1250" y="256" width="240" height="94" rx="14" /><rect x="1506" y="256" width="240" height="94" rx="14" /><rect x="1762" y="256" width="240" height="94" rx="14" /><rect x="2018" y="256" width="240" height="94" rx="14" /></g><g id="bt-move" class="bt-anim"><path d="M 2180 303 L 1172 303" /><path d="M 1196 289.56 L 1172 303 L 1196 316.44" /></g><g id="bt-transformation"><g id="bt-fn-onboarding" class="bt-chip"><rect x="1250" y="256" width="240" height="94" rx="14" /><text id="bt-cs-onboarding" class="bt-t-cs bt-cs" x="1370" y="294">ONBOARDING</text><text id="bt-rm-onboarding" class="bt-t-rm bt-rm" x="1370" y="328">your intake form</text></g><g id="bt-fn-deliverable" class="bt-chip"><rect x="1506" y="256" width="240" height="94" rx="14" /><text id="bt-cs-deliverable" class="bt-t-cs bt-cs" x="1626" y="294">DELIVERABLE</text><text id="bt-rm-deliverable" class="bt-t-rm bt-rm" x="1626" y="328">your roadmap</text></g><g id="bt-fn-orientation" class="bt-chip"><rect x="1762" y="256" width="240" height="94" rx="14" /><text id="bt-cs-orientation" class="bt-t-cs bt-cs" x="1882" y="294">ORIENTATION</text><text id="bt-rm-orientation" class="bt-t-rm bt-rm" x="1882" y="328">the roadmap call</text></g><g id="bt-fn-activation" class="bt-chip"><rect x="2018" y="256" width="240" height="94" rx="14" /><text id="bt-cs-activation" class="bt-t-cs bt-cs" x="2138" y="294">ACTIVATION</text><text id="bt-rm-activation" class="bt-t-rm bt-rm" x="2138" y="328">your 30/60/90 plan</text></g><text id="bt-transformation-label" class="bt-t-label" x="1754" y="386">THE TRANSFORMATION</text></g></svg>
