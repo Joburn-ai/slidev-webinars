@@ -235,6 +235,9 @@ class: flex flex-col justify-center
 </v-clicks>
 </div>
 
+
+<img src="/gen/char-01-stuck.png" alt="" class="rt-char corner" v-click />
+
 <!--
 NEW 08-09, John: "while people are shouting from the mountaintops, it's like go high ticket, go
   low ticket, go webinar, go whatever. You need this person, you need to hire a setter, you need
@@ -249,6 +252,9 @@ class: flex flex-col justify-center
 
 <!-- slide:v5-10 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-kicker">AND WHILE THEY'RE SHOUTING</div>
 
 <div class="grid gap-4 mt-8 max-w-4xl">
@@ -261,6 +267,12 @@ class: flex flex-col justify-center
 <div class="rt-card bad"><div class="rt-card-t">Everyone's competing for the same bids</div></div>
 
 </v-clicks>
+</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-07-trust-recession.png" alt="Costs climbing while the ground fractures" class="w-full" />
+</div>
 </div>
 
 <!--
@@ -292,14 +304,23 @@ He asked for this to be MORE VISCERAL than the line it replaces. It is a descrip
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:v5-12 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-h2">And the economics underneath all of it are starting to break.</div>
 <div class="rt-h1 mt-10" v-click>Things that worked for you once might be breaking right now.</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-07-trust-recession.png" alt="The economics underneath starting to break" class="w-full" />
+</div>
+</div>
 
 <!--
 NEW 08-09, John: "the economic models of these channels and funnels are starting to break...
@@ -441,6 +462,9 @@ class: flex flex-col justify-center
 <div class="rt-h2 mt-4">Every year it gets more complicated, more competitive, more confusing and more costly.</div>
 </div>
 
+
+<img src="/gen/char-02-lost.png" alt="" class="rt-char corner" v-click />
+
 <!--
 🔴 A FOURTH C, new 08-09: "more complicated, more competitive, more confusing AND MORE COSTLY."
   Costly is the one that connects the shift to their P&L.
@@ -490,6 +514,9 @@ class: text-center
 <!-- slide:v5-19 -->
 
 <div class="rt-h2">Most business owners still find they didn't get everything they needed.</div>
+
+
+<img src="/gen/char-03-wall.png" alt="" class="rt-char corner" v-click />
 
 <!-- VERBATIM. -->
 
@@ -585,6 +612,9 @@ layout: default
 </v-clicks>
 </div>
 
+
+<img src="/gen/char-01-stuck.png" alt="" class="rt-char corner" v-click />
+
 <!--
 VERBATIM. "High-ticket book-a-call model" per John, twice. Not "closer model".
 -->
@@ -649,6 +679,9 @@ class: text-center
 
 <div class="rt-h2">Was any of that model built around your situation?</div>
 <div class="rt-h2 mt-10" v-click>Or were you just financially qualified?</div>
+
+
+<img src="/gen/char-02-lost.png" alt="" class="rt-char corner" v-click />
 
 <!--
 VERBATIM, and "financially qualified" is John's own phrase from 08-09. Sharper than "able to
@@ -715,13 +748,22 @@ layout: default
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:v5-31 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-h1">The question is which one you fix <span v-mark="{ at: 1, color: '#D9B96A', type: 'underline' }">first</span>.</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-09-audit-magnifier.png" alt="A funnel schematic with one stage circled" class="w-full" />
+</div>
+</div>
 
 <!--
 🔴 THE FIX for v4's worst beat. John on the old version: "I don't understand the change between
@@ -758,14 +800,23 @@ Highest-recall moment in the video. Say it, then stop talking.
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:v5-33 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-h2">Everybody gave you a process. It sounded good.</div>
 <div class="rt-h1 mt-10" v-click>But it wasn't <span v-mark="{ at: 2, color: '#C4552F', type: 'underline' }">your</span> process. It was theirs.</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-03-critical-path.png" alt="Scattered boxes reorganised into one clean numbered sequence" class="w-full" />
+</div>
+</div>
 
 <!-- VERBATIM. "It sounded good" added 08-09 -- it concedes before it corrects. -->
 
@@ -852,14 +903,34 @@ class: flex flex-col justify-center
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:v5-37 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-h2">So we changed one thing. The first call became a phone call.</div>
-<div class="rt-h1 mt-10" v-click>Same funnel. It just wasn't built for them.</div>
+<div class="rt-h1 mt-8" v-click>Same funnel. It just wasn't built for them.</div>
+
+<!-- 🔴 THE RECOVERY ARC. John 08-09, correcting my record: "the deal fell through, but
+     then she got it back. So it actually ended up closing, because the one that fell
+     through was from a phone call and then she got them back basically."
+     This is STRONGER than a clean first-time close: it shows the step doing work under
+     stress. The phone call didn't just book the meeting -- it built enough relationship
+     to survive a fall-through. -->
+<div class="rt-proofcard mt-8" v-click>
+  <div class="rt-quote">"The one that I just signed up started with a phone call."</div>
+  <div class="rt-attrib">Erin &middot; it fell through first, then she won it back</div>
+</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/char-06-winning.png" alt="" class="rt-char" v-click />
+</div>
+</div>
 
 <!--
 VERIFIED. On the record, 2026-08-06: John "we have proof of concept on the phone booking approach
@@ -1011,6 +1082,9 @@ layout: default
 
 <!-- slide:v5-44 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-kicker">SO WHAT YOU NEED ISN'T</div>
 
 <div class="grid grid-cols-3 gap-4 mt-12">
@@ -1022,6 +1096,12 @@ layout: default
 
 </v-clicks>
 </div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-06-information-abundance.png" alt="A narrow walled funnel beside a wide fan of lit routes" class="w-full" />
+</div>
+</div>
 
 <!-- VERBATIM. -->
 
@@ -1031,11 +1111,20 @@ layout: default
 
 <!-- slide:v5-45 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-kicker">WHAT YOU NEED IS</div>
 <div class="rt-h1">A roadmap built from where <span v-mark="{ at: 1, color: '#209080', type: 'circle' }">you</span> actually are, to where you want to go.</div>
 
 <div class="rt-figure mt-8">
   <img src="/flows/01b_pieces_connected.svg" alt="Where you are, the steps in order, where you want to go" class="w-full" />
+</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-03-critical-path.png" alt="The one path that runs all the way through" class="w-full" />
+</div>
 </div>
 
 <!--
@@ -1141,17 +1230,19 @@ layout: default
 <div class="rt-kicker">BUT WHEN THE ORDER IS RIGHT</div>
 <div class="rt-h2">This is what it starts to look like.</div>
 
-<!-- 🔴 THE PROOF WALL. Every quote below is VERBATIM from a Fireflies transcript and
-     survived an adversarial verification pass (2026-08-09). One client per card.
+<!-- 🔴 THE PROOF WALL. Every quote is VERBATIM from a Fireflies transcript and survived
+     an adversarial verification pass (2026-08-09). One client per card.
      John's format: "just like this person, just like this person."
-     🔴 GATED ON JOHN: naming these three on cold traffic. Swapping to unnamed
-     descriptors ("a real-estate coaching client") is a 30-second change. -->
+     ✅ NAMING CLEARED, John 08-09: "they can be named on cold traffic... everybody is,
+     until they say hey take my name down. And I doubt anyone would."
+     🔴 STILL BANNED regardless of who said it: income claims, and anything the
+     verification pass marked sensitive. -->
 <div class="grid grid-cols-3 gap-5 mt-8 items-stretch">
 <v-clicks>
 
 <div class="rt-proofcard">
   <div class="rt-quote">"Last week we were paying <span class="text-[#C4552F]">$33 a lead</span>... we're down to $21... like, <span class="text-[#209080]">$11 a lead</span>."</div>
-  <div class="rt-attrib">Bradley &middot; same week, message work only</div>
+  <div class="rt-attrib">Bradley &middot; inside one week, message work only</div>
 </div>
 
 <div class="rt-proofcard">
@@ -1180,14 +1271,23 @@ CLAIM LOCK: the cards prove SEQUENCE, not that these people bought the roadmap.
 -->
 
 ---
-layout: center
-class: text-center
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:v5-49 -->
 
+<div class="rt-split">
+<div>
+
 <div class="rt-h2">Different businesses. Different channels.</div>
 <div class="rt-h1 mt-10" v-click>Same sequence.</div>
+</div>
+
+<div class="rt-visual">
+<img src="/gen/concept-08-two-roads.png" alt="A worn loop returning to its start beside a straight lit road" class="w-full" />
+</div>
+</div>
 
 <!-- VERBATIM. This is the line that turns a row of screenshots into a system claim. -->
 
@@ -1288,6 +1388,9 @@ layout: default
   <img src="/flows/02a_funnel_get_the_roadmap.svg" alt="Entry paths converging on the form, then the build, then your roadmap" class="w-full" />
 </div>
 
+
+<img src="/gen/char-05-deciding.png" alt="" class="rt-char corner" v-click />
+
 <!-- VERBATIM 08-09. "The form is step one of the roadmap." -->
 
 ---
@@ -1343,6 +1446,9 @@ class: flex flex-col justify-center
 <div class="rt-card good mt-10 max-w-4xl" v-click>
 <div class="rt-card-t">If you needed a prescription, would you rather fill in a form and hope, or have someone who's done this before walk you through it?</div>
 </div>
+
+
+<img src="/gen/char-04-realising.png" alt="" class="rt-char corner" v-click />
 
 <!--
 🔴 THE ANALOGY IS JOHN'S, 08-09, and it does more work than the old explanation: "if you were
