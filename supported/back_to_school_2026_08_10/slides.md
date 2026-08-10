@@ -1,5 +1,6 @@
 ---
 theme: default
+colorSchema: light
 title: "SupportED Tutoring | The Back-to-School Game Plan"
 class: text-center
 transition: slide-left
@@ -8,37 +9,6 @@ drawings:
   persist: false
 ---
 
-<style>
-:root {
-  --slidev-theme-primary: #1B365D;
-  --slidev-theme-secondary: #C5A55A;
-  --slidev-theme-accent: #E8E0D0;
-}
-h1 { color: var(--slidev-theme-primary); }
-h2 { color: var(--slidev-theme-primary); }
-strong { color: var(--slidev-theme-primary); }
-
-.gold { color: #C5A55A; }
-.navy { color: #1B365D; }
-.red { color: #C0392B; }
-.green { color: #27AE60; }
-.big-number { font-size: 5rem; font-weight: 900; color: #C5A55A; }
-.strike { text-decoration: line-through; opacity: 0.5; }
-.highlight { background: #C5A55A22; padding: 0.5rem 1rem; border-radius: 0.5rem; border-left: 4px solid #C5A55A; }
-
-.slidev-layout::after {
-  content: '';
-  position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
-  width: 120px;
-  height: 40px;
-  background: url('/images/supported-logo.png') no-repeat;
-  background-size: contain;
-  z-index: 100;
-  opacity: 0.6;
-}
-</style>
 
 <!--
 ==========================================================
@@ -829,7 +799,7 @@ layout: default
 
 - A 2 or 3 this spring means they might not get into **their dream school.**
 
-- It means **$95,000 to $125,000** in scholarship money — gone.
+- It means the credit, and the doors it opens, quietly close.
 
 - It means you could pay **$200,000** in college tuition when the right AP scores could have **cut that in half.**
 
@@ -998,11 +968,11 @@ layout: default
 
 - **600+** students coached.
 
-- **95%** earn college credit.
+- **89%** of our students score **4s or 5s**.
 
-- **150+** perfect 5s.
+- Against about **22%** nationally.
 
-- **$2.8 million** saved in tuition.
+- <span class="text-2xl opacity-70">Results vary by student.</span>
 
 </v-clicks>
 
@@ -1114,7 +1084,7 @@ layout: center
 
 <div class="text-3xl">
 
-Working with 600+ students, I've found **three breakthroughs.**
+Across the students we coach, I've found **three breakthroughs.**
 
 </div>
 
@@ -2775,7 +2745,7 @@ layout: default
 
 - You **FELT** the shock. Your teen's A doesn't mean they're ready.
 
-- You **SAW** it. $95,000 to $125,000 in scholarships. Sitting on the table.
+- You **SAW** it. The gap between the grade and the score. Sitting there all year.
 
 - You **EXPERIENCED** the moment the AP format changes hit.
 
@@ -3026,10 +2996,10 @@ layout: center
 
 ---
 layout: center
-background: '#C5A55A'
+background: '#1B365D'
 ---
 
-# <span class="gold">Book Your Free AP Game Plan Call</span>
+# <span class="text-white">Book Your Free AP Game Plan Call</span>
 
 <div class="text-2xl mt-8 opacity-70">[ QR CODE ]</div>
 
