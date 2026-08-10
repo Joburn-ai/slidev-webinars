@@ -364,7 +364,7 @@ layout: default
 
 - Classroom grades and exam scores are **two different scorecards.**
 
-<img src="/images/concept/c02_two_scorecards.png" alt="Two clipboards side by side measuring different things" class="absolute inset-0 w-full h-full object-cover opacity-30" />
+<img src="/images/learning-pit.svg" alt="The learning pit: the dip between starting and mastering" class="absolute inset-0 w-full h-full object-cover opacity-30" />
 
 - A skill barely taught in school in the first place is the **first to go.**
 
@@ -958,7 +958,10 @@ layout: center
 
 # I'm Dr. Joe Sebestyen.
 
-<img src="/images/dr-joe.jpg" alt="Dr Joe Sebestyen" class="w-64 rounded-2xl mx-auto mt-6 shadow-2xl" />
+<div class="flex gap-6 justify-center mt-6">
+<img src="/images/dr-joe.jpg" alt="Dr Joe Sebestyen" class="w-56 rounded-2xl shadow-2xl" />
+<img src="/images/joe-conf.png" alt="Dr Joe speaking at a conference" class="w-56 rounded-2xl shadow-2xl object-cover" />
+</div>
 
 <v-click>
 
@@ -2990,6 +2993,96 @@ So for everyone here tonight who wants it, it's free.
 
 ---
 layout: center
+---
+layout: center
+background: '#1B365D'
+---
+
+# <span class="gold">The Back-to-School Game Plan</span>
+
+<div class="text-3xl mt-6 text-white">Here is what we build with you.</div>
+
+<img src="/images/proof/wall_of_love.png" alt="456 reviews from SupportED families" class="w-[42%] rounded-xl mt-6 mx-auto shadow-2xl" />
+
+<img src="/images/concept/c10_climbing_steps.png" alt="Ascending steps rising from navy into gold" class="absolute inset-0 w-full h-full object-cover opacity-25" />
+
+<!--
+This is the REVEAL, not the close. They see the whole stack so the call has
+something concrete to walk through. We do not price it here. [click]
+-->
+
+---
+layout: two-cols
+---
+
+# What is inside
+
+<v-clicks>
+
+- **The AP Diagnostic.** Where your teen actually stands against College Board rubrics, not classroom grades
+
+- **A personalised AP roadmap.** Targeted at the high-impact gaps only
+
+- **1:1 skill coaching** with certified AP teachers
+
+</v-clicks>
+
+::right::
+
+<img src="/images/concept/c07_locked_rubric.png" alt="A key beside a closed folder" class="w-full rounded-2xl mt-12" />
+
+---
+layout: two-cols
+---
+
+# And around it
+
+<v-clicks>
+
+- **Live group classes and office hours** through the term
+
+- **Structured practice** with expert feedback
+
+- **A family communication channel**, so you are never guessing how it is going
+
+- **Exam readiness mode** as May approaches. Timed papers, full mocks, dress rehearsals
+
+</v-clicks>
+
+::right::
+
+<img src="/images/uni/university_courses_grid_01.png" alt="The SupportED University course library" class="w-full rounded-2xl mt-12 shadow-xl" />
+
+---
+layout: center
+background: '#111'
+---
+
+# <span class="gold">There is a back-to-school bonus on it this month.</span>
+
+<div class="text-3xl mt-8 text-white">
+
+I am not going to pitch it at you here.
+
+</div>
+
+<v-click>
+
+<div class="text-4xl mt-8 text-white font-bold">
+
+We walk through it on the call, and only if it fits.
+
+</div>
+
+</v-click>
+
+<!--
+[click] The bonus is deliberately unnamed on the webinar. It is the reason to book
+NOW and the reason the call is worth 15 minutes. Naming a price here turns a
+booking asset into a pitch, which is the thing we ruled against.
+-->
+
+---
 ---
 
 # Your free **AP Game Plan Call.**
