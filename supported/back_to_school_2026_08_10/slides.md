@@ -124,7 +124,9 @@ POP QUIZ
 layout: center
 ---
 
-# Before anything else — a pop quiz.
+# Before anything else, a pop quiz.
+
+<img src="/images/concept/c07_locked_rubric.png" alt="A key beside a closed folder" class="w-72 mx-auto mt-4 rounded-xl opacity-90" />
 
 <v-click>
 
@@ -167,6 +169,8 @@ background: '#1B365D'
 
 The first report card of the year tells you whether your teen is on track for a 4 or a 5.
 
+<img src="/images/concept/c01_report_card_looks_fine.png" alt="A report card that looks reassuring, with one shadow across it" class="absolute inset-0 w-full h-full object-cover opacity-30" />
+
 </div>
 
 <div class="text-2xl text-white mt-8 opacity-60">Type T or F</div>
@@ -205,9 +209,13 @@ layout: default
 
 - Your teen walks into the fall **reactive** and behind on day one, spending the year catching up.
 
+<img src="/images/concept/c06_two_doors.png" alt="Two doors, one open and lit, one closed" class="absolute inset-0 w-full h-full object-cover opacity-30" />
+
 - Reactive students tend to **stay reactive.**
 
 - The first six weeks are the one window to flip from **reactive to ahead.**
+
+<img src="/images/concept/c05_calendar_six_weeks.png" alt="A term calendar with the first six weeks marked in gold" class="absolute inset-0 w-full h-full object-cover opacity-30" />
 
 </v-clicks>
 
@@ -355,6 +363,8 @@ layout: default
 <v-clicks>
 
 - Classroom grades and exam scores are **two different scorecards.**
+
+<img src="/images/concept/c02_two_scorecards.png" alt="Two clipboards side by side measuring different things" class="absolute inset-0 w-full h-full object-cover opacity-30" />
 
 - A skill barely taught in school in the first place is the **first to go.**
 
@@ -556,6 +566,8 @@ layout: center
 ---
 
 # The system shifted.
+
+<img src="/images/concept/c03_iceberg_grade.png" alt="An iceberg, small tip above water and vast mass below" class="w-80 mx-auto mt-4 rounded-xl" />
 
 <v-click>
 
@@ -945,6 +957,8 @@ layout: center
 ---
 
 # I'm Dr. Joe Sebestyen.
+
+<img src="/images/dr-joe.jpg" alt="Dr Joe Sebestyen" class="w-64 rounded-2xl mx-auto mt-6 shadow-2xl" />
 
 <v-click>
 

@@ -1,0 +1,46 @@
+{
+ "doc_title": "SupportED back-to-school webinar, concept image library, locked navy/gold system",
+ "model": "gemini-3-pro-image-preview",
+ "images": [
+  {
+   "slug": "c01_report_card_looks_fine",
+   "concept": "A single school report card lying on a kitchen table at morning light, all top grades visible as abstract marks, one small shadow falling across its lower edge. Emotion: false reassurance, something unseen."
+  },
+  {
+   "slug": "c02_two_scorecards",
+   "concept": "Two identical clipboards side by side on a clean ground, one glowing warm gold, one cool navy, subtly different in the shape of their marks. Emotion: these measure different things."
+  },
+  {
+   "slug": "c03_iceberg_grade",
+   "concept": "An iceberg seen in cross-section, the small bright tip above the waterline and the vast mass below in navy. Emotion: what the grade shows versus what the exam tests."
+  },
+  {
+   "slug": "c04_parent_at_kitchen_table",
+   "concept": "Back-view silhouette of a parent seated alone at a kitchen table at night, a single warm lamp, papers spread out. Emotion: quiet worry, carrying it alone."
+  },
+  {
+   "slug": "c05_calendar_six_weeks",
+   "concept": "A wall calendar with the first six weeks of a term marked by a warm gold band, the remaining months fading to navy. Emotion: the window is now and it is narrow."
+  },
+  {
+   "slug": "c06_two_doors",
+   "concept": "Two doors in a plain wall, one open with warm light spilling out, one closed and cool. Emotion: the fork, ahead or reactive."
+  },
+  {
+   "slug": "c07_locked_rubric",
+   "concept": "An ornate key resting beside a closed folder, warm gold light catching the key. Emotion: the scoring rules exist and nobody showed you them."
+  },
+  {
+   "slug": "c08_fog_dissolving",
+   "concept": "Morning fog lifting off a still landscape to reveal a clear path, gold light breaking through navy haze. Emotion: the anxiety disappears because the mystery disappears."
+  },
+  {
+   "slug": "c09_student_desk_timed",
+   "concept": "A single desk in an empty exam hall, clock on the far wall, one shaft of light. Emotion: the timed free response, the moment it gets real."
+  },
+  {
+   "slug": "c10_climbing_steps",
+   "concept": "Abstract ascending steps rendered as clean flat blocks rising from navy into gold. Emotion: steady built progress, not a panic sprint."
+  }
+ ]
+}
