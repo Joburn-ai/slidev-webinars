@@ -1,0 +1,320 @@
+/* 🔴 MANDATORY FIRST LINE. Without it the entire Slidev toolbar renders blank.
+   Path is relative to THIS file: internal/<deck>/style.css -> ../../styles/ */
+@import '../../styles/carbon-toolbar-icons.css';
+
+/* =============================================================================
+   ROADMAP VSL -- v7 STYLE SYSTEM
+   Lifted, not invented. Provenance of every block is marked.
+
+   [THESIS]  roadmap_thesis_2026_08_03/style.css        (the 145-slide live deck)
+   [BRAD]    bradley_pounds/evergreen_60programs_2026_07/style.css  (.hbs-* renamed .rt-*)
+   [AUDIT]   audit-hub/public/audits/rockstar-organizers/index.html (markup-the-proof layer)
+   [SAGE]    sage_vsl_training_2026_08_01/style.css     (white ground under contained figures)
+
+   COLLISION NOTE: everything here is prefixed .rt-*. Brad's .hbs-* names were renamed
+   on the way in (.hbs-bleed -> .rt-bleed, .hbs-scrim -> .rt-scrim, .hbs-frost -> .rt-frost,
+   .hbs-foot -> .rt-foot, .hbs-fineprint -> .rt-fine). The audit layer's generic names were
+   renamed too (.img-wrap -> .rt-imgwrap, .callout-marker -> .rt-mark, .callout-num ->
+   .rt-marknum, .callout-key -> .rt-markkey). Nothing here can collide with a Slidev
+   internal or a UnoCSS utility.
+   ========================================================================== */
+
+/* ─── FF palette [THESIS] ──────────────────────────────────────────────── */
+:root {
+  --void:   #0A2230;
+  --space:  #103040;
+  --teal:   #209080;
+  --tealb:  #2BB3A0;
+  --parch:  #F0E4BC;
+  --star:   #FAF6EA;
+  --ember:  #C4552F;
+  --gold:   #D9B96A;
+  --fog:    #7A9199;
+  --fogd:   #5C7078;
+  --paper:  #FFFFFF;
+  --ink:    #0A2230;
+}
+
+/* Rule 3: force full hide before a v-click. Slidev's default is a faint grey,
+   which lets the viewer read ahead of the speaker. [THESIS] */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 200ms ease; }
+
+/* ─── LIGHT is the base. John 2026-08-03: "I would just use white." [THESIS] ──
+   🔴 THE PADDING IS NEW AND IT IS THE FIX FOR "the deck is getting cut off".
+   Slidev's default layouts pad inconsistently (center pads, default barely does),
+   so a headline block written for `center` bled off the edge on `default`.
+   One explicit gutter on the layout means every archetype is safe on every layout. */
+.slidev-layout {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  padding: 2.4rem 3.2rem;
+  position: relative;          /* absolute children must not escape to the viewport */
+  overflow: hidden;
+}
+/* Full-bleed archetypes opt OUT of the gutter. */
+.slidev-layout.bleed { padding: 0; }
+
+/* Contained SVG/PNG figures need a white canvas or they letterbox on black. [SAGE] */
+.slidev-page.bg-white, .slidev-layout.bg-white { background-color: #ffffff !important; }
+
+/* The dark "peak" ground is a per-slide class, never a theme flip, so it cannot
+   leak and cannot follow the OS. BUDGET: at most 6 peak slides in the deck. [THESIS] */
+.slidev-layout.peak { background: var(--void); color: var(--star); }
+.slidev-layout.peak .rt-kicker { color: var(--tealb); }
+.slidev-layout.peak .rt-sub    { color: var(--parch); }
+
+/* ─── TYPE SCALE ───────────────────────────────────────────────────────────
+   Four tiers only. Pick by LENGTH, never by importance.
+     rt-h1   <= 8 words     the line they will quote back at you
+     rt-h2   <= 14 words    the working headline
+     rt-say  a full spoken sentence, verbatim, that must be readable on screen
+     rt-sub  the qualifier under either of the above
+
+   🔴 max-width is LOAD-BEARING, not cosmetic. John caught slide 4's headline
+   running off the right edge on 2026-08-09. `text-wrap: balance` only balances
+   lines WITHIN the available width -- it never creates a limit. The automated
+   sweep missed it because Slidev's slide container is `overflow: hidden`: the
+   text is CLIPPED, not scrolled, so scrollWidth never exceeds clientWidth.
+   NEVER delete a max-width in this block. [THESIS] */
+.rt-kicker {
+  font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 0.6rem;
+}
+.rt-h1  { font-size: 3.1rem;  line-height: 1.03; font-weight: 900; letter-spacing: -0.030em; text-wrap: balance; max-width: 20ch; }
+.rt-h2  { font-size: 2.3rem;  line-height: 1.08; font-weight: 850; letter-spacing: -0.025em; text-wrap: balance; max-width: 26ch; }
+.rt-say { font-size: 1.95rem; line-height: 1.22; font-weight: 700; letter-spacing: -0.015em; text-wrap: pretty;  max-width: 34ch; }
+.rt-sub { font-size: 1.35rem; line-height: 1.45; color: var(--fogd); max-width: 46ch; }
+.peak .rt-say { color: var(--star); }
+
+/* Inside a split column the text has less room, so the caps tighten with it.
+   Without this a 14-word rt-h2 written for a full-width slide overflows the
+   moment it is dropped into a 50% column -- exactly the v6 failure. */
+.rt-split .rt-h1  { font-size: 2.5rem; max-width: 15ch; }
+.rt-split .rt-h2  { font-size: 1.95rem; max-width: 19ch; }
+.rt-split .rt-say { font-size: 1.6rem;  max-width: 24ch; }
+.rt-split .rt-sub { font-size: 1.15rem; max-width: 30ch; }
+
+.text-center .rt-h1, .text-center .rt-h2,
+.text-center .rt-say, .text-center .rt-sub { margin-left: auto; margin-right: auto; }
+
+/* Rule 9: body text never below text-2xl equivalent. [THESIS] */
+.slidev-layout :where(p, li) { font-size: 1.25rem; }
+
+/* ─── COMPOSITION PRIMITIVES ───────────────────────────────────────────── */
+
+/* Split: copy on the left, visual filling the right. [THESIS/v6] */
+.rt-split { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 3rem; align-items: center; height: 100%; }
+.rt-split.flip { grid-template-columns: 0.95fr 1.05fr; }
+/* 🔴 `.auto` IS REQUIRED WHENEVER A SPLIT SITS UNDER A HEADLINE. `height: 100%` means 100%
+   of the layout's content box, so a split with a kicker + h2 above it computes to
+   (headline height + full height) and runs off the bottom edge. Caught by the bounding-box
+   sweep on slide 55, 2026-08-09, at 141px past the frame. It is invisible in the markup and
+   invisible to scrollWidth, because Slidev clips instead of scrolling. */
+.rt-split.auto { height: auto; align-items: start; }
+.rt-split.auto .rt-visual { height: auto; }
+.rt-split > .rt-visual { display: flex; align-items: center; justify-content: center; height: 100%; min-width: 0; }
+.rt-split img, .rt-visual img { max-width: 100%; max-height: 72vh; object-fit: contain; }
+
+.rt-split > * { min-width: 0; }
+
+.rt-grid { display: grid; gap: 0.9rem; }
+.rt-grid.c2 { grid-template-columns: repeat(2, 1fr); }
+.rt-grid.c3 { grid-template-columns: repeat(3, 1fr); }
+.rt-grid.c4 { grid-template-columns: repeat(4, 1fr); }
+/* c5 exists because John widened the constraint list to five on 2026-08-09:
+   "an attention problem, a lead problem, a capture problem, a conversion problem, traffic."
+   Five cards at 1.05rem body still clear the 1.25rem floor via .rt-card-t. */
+.rt-grid.c5 { grid-template-columns: repeat(5, 1fr); }
+.rt-grid.c5 .rt-card { padding: 0.85rem 0.9rem; }
+.rt-grid.c5 .rt-card-t { font-size: 1.02rem; line-height: 1.2; }
+
+/* ─── IMAGE FRAMING ────────────────────────────────────────────────────────
+   Four frames, and every image on the deck uses exactly one of them.
+   An image with NO frame is what "inserted in a strange way" looks like. */
+
+/* 1. FIGURE -- a diagram/flow on its own white card. [THESIS] */
+.rt-figure { background: #fff; border: 1px solid var(--fog); border-radius: 10px; padding: 0.4rem; }
+.rt-figure img { display: block; width: 100%; height: auto; }
+
+/* 2. SHOT -- a real screenshot, cropped, raised. Never full-bleed: a screenshot
+   that bleeds reads as decoration, framed reads as evidence. [THESIS/v6] */
+.rt-shot { border-radius: 10px; border: 1px solid var(--fog); box-shadow: 0 10px 30px rgba(10,34,48,0.16); overflow: hidden; background: #fff; display: block; }
+.rt-shot.tight { max-height: 30vh; object-fit: cover; object-position: top; }
+/* A wall tile. Fixed 16:9 so a 4-up grid reads as ONE object rather than four
+   ragged rectangles. Without this the wall is what "inserted in a strange way" means. */
+.rt-shot.wall { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: center; }
+
+/* 2b. BAND -- a screenshot cropped to its TOP STRIP, by aspect ratio.
+   🔴 THIS EXISTS FOR A COMPLIANCE REASON, NOT A DESIGN ONE. Verified 2026-08-09:
+   ff-home--hero, ff-proof-index--hero, ff-case-file-001--hero and ff-case-file-002--hero
+   ALL render revenue figures ($648,022 / $1.81M / "Over $1.2M tracked") large and legible.
+   The Roadmap VSL carries ZERO income claims, so those pages can only appear cropped
+   above the figures. Band crops the top ~32% of a 1.6-aspect capture; .deep crops ~50%
+   and must be re-verified on the render before it is used on any page with numbers. */
+.rt-band {
+  position: relative; width: 100%; aspect-ratio: 5 / 1; overflow: hidden;
+  border-radius: 10px; border: 1px solid var(--fog); background: #fff;
+  box-shadow: 0 10px 30px rgba(10,34,48,0.16);
+}
+.rt-band.deep { aspect-ratio: 16 / 5; }
+/* .crest cuts at ~26% of a 1.6-aspect capture: nav, kicker and headline, and it stops
+   BEFORE the first line of body copy so the crop never bisects a sentence. This is the
+   only variant cleared for ff-proof-index--hero, whose figures begin at 40%. */
+.rt-band.crest { aspect-ratio: 6 / 1; }
+.rt-band img { position: absolute; top: 0; left: 0; width: 100%; height: auto; display: block; }
+
+/* 3. BLEED -- a photograph filling the frame, with a scrim so type stays legible.
+   THIS is the archetype v6 was missing for the John/Phoenix photos. [BRAD] */
+.rt-bleed   { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.rt-scrim   { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,34,48,0.94) 0%, rgba(10,34,48,0.78) 40%, rgba(10,34,48,0.42) 66%, rgba(10,34,48,0.10) 100%); }
+.rt-scrim-r { position: absolute; inset: 0; background: linear-gradient(270deg, rgba(10,34,48,0.94) 0%, rgba(10,34,48,0.78) 40%, rgba(10,34,48,0.42) 66%, rgba(10,34,48,0.10) 100%); }
+.rt-scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10,34,48,0.92) 0%, rgba(10,34,48,0.55) 44%, rgba(10,34,48,0.22) 72%, rgba(10,34,48,0.05) 100%); }
+.rt-frost   { background: rgba(10,34,48,0.55); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.16); border-radius: 16px; padding: 1.3rem 1.7rem; color: var(--star); }
+.rt-onimg   { color: #fff; text-shadow: 0 1px 2px rgba(10,34,48,0.65), 0 3px 22px rgba(10,34,48,0.92); }
+
+/* 4. PORTRAIT -- a person, framed as a person. Replaces the v6 `.rt-char corner`
+   floating cutout, which is BANNED until a real alpha cut exists.
+   🔴 public/gen/char-0*.png are PIL mode=RGB: the model painted a checkerboard
+   as pixels. They have no alpha and must not be used with any cutout class. */
+.rt-portrait {
+  border-radius: 14px; overflow: hidden; background: #fff;
+  border: 1px solid var(--fog); box-shadow: 0 14px 38px rgba(10,34,48,0.20);
+  display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 22%;
+}
+.peak .rt-portrait { border-color: rgba(255,255,255,0.18); }
+.rt-portrait.round { border-radius: 50%; aspect-ratio: 1 / 1; }
+.rt-name  { font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; margin-top: 0.75rem; }
+.rt-role  { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; color: var(--teal); margin-top: 0.2rem; }
+.peak .rt-role { color: var(--tealb); }
+/* The two-up opener. John: "I'm John left side, Phoenix is on the right side." */
+.rt-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 2.6rem; max-width: 30rem; }
+
+/* True-alpha cutout. ONLY legal on a file verified RGBA with real transparency. */
+.rt-cut { max-height: 62vh; filter: drop-shadow(0 18px 34px rgba(10,34,48,0.22)); }
+.rt-cut.sm { max-height: 34vh; }
+
+/* ─── MARK THE PROOF UP [AUDIT] ────────────────────────────────────────────
+   John: "look at how our audits are where we do screenshots, proof, we mark the
+   proof up." A numbered ring on the screenshot + a numbered key beneath it.
+   Circle-only, no bounding box: when an inline width/height miscomputes, an empty
+   box reads as a broken render, whereas a ring degrades to a legible dot. */
+.rt-imgwrap { position: relative; display: block; line-height: 0; }
+.rt-imgwrap img { width: 100%; height: auto; display: block; }
+.rt-mark {
+  position: absolute; pointer-events: none; box-sizing: border-box;
+  border: 3px solid var(--ember); border-radius: 999px;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.9), 0 6px 18px rgba(10,34,48,0.28);
+}
+.rt-mark.box { border-radius: 8px; }
+.rt-mark.good { border-color: var(--teal); }
+.rt-marknum {
+  position: absolute; top: -15px; left: -15px;
+  background: var(--ember); color: #fff;
+  width: 30px; height: 30px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 0.9rem; line-height: 1;
+  box-shadow: 0 2px 6px rgba(10,34,48,0.3), 0 0 0 2px #fff;
+}
+.rt-mark.good .rt-marknum { background: var(--teal); }
+.rt-markkey { margin-top: 0.9rem; }
+.rt-markkey li { font-size: 1.05rem; line-height: 1.35; margin-bottom: 0.4rem; list-style: none; }
+.rt-keynum {
+  display: inline-block; background: var(--ember); color: #fff; font-weight: 800;
+  padding: 1px 9px; border-radius: 4px; margin-right: 0.5rem; font-size: 0.85rem;
+  min-width: 22px; text-align: center;
+}
+.rt-keynum.good { background: var(--teal); }
+
+/* ─── REDACTION ────────────────────────────────────────────────────────────
+   🔴 `.rt-blur` IS DELETED. John 2026-08-09: "Everything's blurred out. What is
+   happening?" A blurred whole image proves nothing and reads as a broken asset.
+   Redact a REGION with an opaque bar, or drop the image. There is no third option. */
+.rt-redact {
+  position: absolute; background: var(--fogd); border-radius: 3px;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.35);
+}
+.rt-redact.label::after {
+  content: 'REDACTED'; position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.62rem; font-weight: 800; letter-spacing: 0.14em; color: rgba(255,255,255,0.85);
+}
+
+/* ─── CARDS, STATS, CONTRAST [THESIS] ──────────────────────────────────────
+   Colour grammar, enforced deck-wide: teal = the path that works.
+   ember = the restart/failure. gold = a gate. Break it and the deck stops reading. */
+.rt-card { background: #F4F6F6; border: 1px solid var(--fog); border-radius: 10px; padding: 1.1rem 1.25rem; }
+.rt-card.good { background: #DFF1ED; border-color: var(--teal);  border-width: 2px; }
+.rt-card.bad  { background: #FBE3D9; border-color: var(--ember); border-width: 2px; }
+.rt-card.gate { background: #FBF0D6; border-color: #B98F2E;      border-width: 2px; }
+.peak .rt-card      { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.16); color: var(--star); }
+.peak .rt-card.good { background: rgba(32,144,128,0.20);  border-color: var(--teal); }
+.peak .rt-card.bad  { background: rgba(196,85,47,0.18);   border-color: var(--ember); }
+.rt-card-t { font-size: 1.2rem; font-weight: 800; letter-spacing: -0.01em; }
+.rt-card-s { font-size: 1rem; color: var(--fogd); line-height: 1.4; }
+.peak .rt-card-s { color: var(--parch); }
+
+.rt-stat  { font-size: 4.2rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; color: var(--teal); font-variant-numeric: tabular-nums; }
+.rt-statl { font-size: 1rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--fogd); }
+.rt-num   { font-size: 5.6rem; font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; color: var(--teal); font-variant-numeric: tabular-nums; }
+.peak .rt-num { color: var(--gold); }
+.rt-num.bad { color: var(--ember); }
+.rt-numlabel { font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fogd); }
+.peak .rt-statl, .peak .rt-numlabel { color: var(--parch); }
+
+/* Old way / new way. The contrast IS the argument, so it is a colour system. */
+.rt-old { border: 2px solid var(--ember); background: #FBE9E1; border-radius: 10px; padding: 1.1rem 1.3rem; }
+.rt-new { border: 2px solid var(--teal);  background: #DFF1ED; border-radius: 10px; padding: 1.1rem 1.3rem; }
+.peak .rt-old { background: rgba(196,85,47,0.16); }
+.peak .rt-new { background: rgba(32,144,128,0.18); }
+.rt-waylabel { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.5rem; }
+.rt-old .rt-waylabel { color: var(--ember); }
+.rt-new .rt-waylabel { color: var(--teal); }
+
+/* Verbatim client quote. The line under it is attribution, never a claim. */
+.rt-quote  { font-size: 1.5rem; line-height: 1.32; font-weight: 700; color: var(--ink); text-wrap: balance; }
+.peak .rt-quote { color: var(--star); }
+.rt-attrib { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; color: var(--teal); margin-top: 0.7rem; }
+.rt-proofcard { background: #F7F9F9; border: 1px solid var(--fog); border-left: 4px solid var(--teal); border-radius: 8px; padding: 1.1rem 1.25rem; }
+.peak .rt-proofcard { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.16); border-left-color: var(--tealb); }
+
+/* Sticky note -- the behind-the-scenes register, lifted from the Miro boards. */
+.rt-sticky { background: #FDF3B8; color: #2A2410; padding: 0.85rem 1rem; border-radius: 3px; font-weight: 600;
+  box-shadow: 0 6px 16px rgba(10,34,48,0.18); transform: rotate(-1.4deg); font-size: 1.05rem; line-height: 1.3; }
+.rt-sticky.r { transform: rotate(1.6deg); }
+
+/* Rule 11: no clickable-looking button. A URL in mono, and nothing else. [BRAD] */
+.rt-url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; font-size: 1.9rem; letter-spacing: -0.01em; color: var(--ink); }
+.peak .rt-url { color: var(--star); }
+
+/* Standing footer, for a disclosure or a source line. [BRAD] */
+.rt-foot { position: absolute; left: 3.2rem; right: 3.2rem; bottom: 1rem; }
+.rt-fine { font-size: 0.72rem; line-height: 1.3; color: var(--fogd); }
+.peak .rt-fine { color: rgba(250,246,234,0.7); }
+
+/* Section-break rule, the teal "green line". [THESIS] */
+.rt-rule { height: 8px; border-radius: 4px; background: var(--tealb); }
+
+/* ─── THE CLOSE POINTER ────────────────────────────────────────────────────
+   Rule 6: no clickable-looking button, because nobody can click a video.
+   What IS legal is a pointer at the real form sitting under the player.
+   TEAL, never ember: this is the path that works, and ember means failure. */
+.rt-point {
+  width: 0; height: 0; margin: 0 auto;
+  border-left: 22px solid transparent; border-right: 22px solid transparent;
+  border-top: 26px solid var(--tealb);
+  filter: drop-shadow(0 6px 14px rgba(43,179,160,0.35));
+  animation: rt-nudge 1.6s ease-in-out infinite;
+}
+@keyframes rt-nudge { 0%,100% { transform: translateY(0); } 50% { transform: translateY(9px); } }
+@media (prefers-reduced-motion: reduce) { .rt-point { animation: none; } }
+
+/* ─── OVERFLOW SAFETY NET ──────────────────────────────────────────────────
+   🔴 The v6 rejection was "the deck is getting cut off, it's not even showing up
+   properly." Three causes are closed above (layout gutter, type max-widths, split
+   re-scale). This block closes the fourth: an image or grid that computes wider
+   than its column. Nothing on a slide may exceed its own container. */
+.slidev-layout img { max-width: 100%; }
+.rt-grid > * { min-width: 0; }
+.rt-card, .rt-proofcard, .rt-old, .rt-new, .rt-sticky { overflow-wrap: anywhere; }
