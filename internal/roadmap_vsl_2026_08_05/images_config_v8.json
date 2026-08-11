@@ -1,0 +1,102 @@
+{
+  "model": "gemini-3-pro-image-preview",
+  "format": "landscape",
+  "palette": {
+    "void": "#0A2230 (deep navy, near-black ground -- default background for every editorial and schematic frame)",
+    "space": "#103040 (raised navy, secondary planes)",
+    "teal": "#209080 (primary brand teal)",
+    "teal-bright": "#2BB3A0 (accent teal, the working/lit path)",
+    "parchment": "#F0E4BC (warm parchment)",
+    "star": "#FAF6EA (near-white, highlights and type)",
+    "ember": "#C4552F (burnt orange -- friction, blockers, breakpoints ONLY)",
+    "gold": "#D9B96A (muted gold -- value and payoff ONLY)",
+    "fog": "#7A9199 (desaturated blue-grey, secondary and inert elements)"
+  },
+  "images": [
+    {
+      "slug": "n01_buried_in_advice",
+      "style": "editorial",
+      "concept": "A single small figure seen at desk height, dwarfed by a tall leaning stack of rectangular advice cards above and around the desk. Every card carries a bold arrow pointing a different direction -- up, left, down, diagonally -- and none of the cards carry a number or an order. The figure is a simple flat silhouette, competent posture, not comic. Deep navy void ground, cards in fog and parchment, the conflicting arrows in ember, one lone teal arrow lost in the pile. Wide landscape composition with breathing room at the top for a headline. NO TEXT ANYWHERE IN THE IMAGE -- arrows only, no words, no letters, no numbers on the cards. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n02_rising_cost_curve",
+      "style": "schematic",
+      "concept": "A blueprint chart on deep navy ground containing EXACTLY TWO graphical elements and nothing else. ELEMENT ONE, upper two thirds: a single cost-per-result curve climbing steadily and ACCELERATING upward from lower left to upper right, drawn as one thin precise ember line, against a faint thin grid with two bare axis lines. ELEMENT TWO, lower third: one horizontal attention bar running the full width, thick and solid teal at the left edge and tapering steadily to a thin sliver at the right edge. CRITICAL EXCLUSIONS -- there must be NO callout boxes, NO empty label rectangles, NO leader lines, NO circular annotation markers, NO second curve, NO additional data series, NO legend. Empty white boxes would look like a rendering error and must not appear. STRICTLY NO TEXT, NO NUMBERS, NO AXIS LABELS anywhere. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n03_conventional_advice_wall",
+      "style": "sketch",
+      "concept": "A photographed whiteboard covered in marker handwriting. Four phrases written in scattered positions at different angles across the board, each one circled in teal marker: 'POST MORE', 'RUN MORE ADS', 'HIRE A CLOSER', 'BOOK MORE CALLS'. Render those four phrases in EXACTLY that spelling, in clean legible block capitals, large enough to read from across a room. There is deliberately NO numbering, NO ordering, and NO arrow between any of them -- they float unconnected. Faint eraser smudges and a faint grid. Do not add any other words to the board."
+    },
+    {
+      "slug": "n04_machine_more_parts",
+      "style": "schematic",
+      "concept": "One wide blueprint frame split into two states by a thin vertical divider. LEFT STATE: three large clean rectangular machine parts connected in a row by two solid teal linkages -- simple, whole, obviously working. RIGHT STATE: eleven small machine parts of varying sizes crowded together and connected by a tangle of linkages, with a small ember X-shaped break marker drawn at EVERY joint between parts. Thin precise orthographic line work on deep navy ground. NO TEXT, NO LABELS, NO NUMBERS ANYWHERE -- the difference reads purely from part count and the ember break markers. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n05_stack_of_attempts",
+      "style": "editorial",
+      "concept": "A precarious leaning tower of five distinct objects stacked on top of each other on a deep navy ground: at the base a stack of books, above it a rectangular video player frame with a play triangle, above that a closed course box, above that a sheet of paper with an invoice ruled-line pattern, and balanced on top a rounded chat speech bubble. The tower leans noticeably. Critically, NOTHING connects any object to any other -- no arrows, no lines, no linkages, visible gaps between each item. Objects in fog, parchment and gold; the lean and the gaps emphasised with ember shadow lines. NO TEXT, NO WORDS, NO LETTERS ANYWHERE -- the invoice shows ruled lines not readable text. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n06_report_framework_deck",
+      "style": "editorial",
+      "concept": "One wide frame on deep navy ground. Three disembodied flat-vector arms reach in from the left, the bottom and the right, each offering a different object toward the centre: a thick bound report with a spine, a rigid one-size-fits-all rectangular template outline, and a fanned stack of presentation slides. The three objects do NOT touch and do NOT connect. The exact centre of the frame, where a map would be, is conspicuously EMPTY -- open negative space in flat void navy. Objects rendered in fog and parchment, the empty centre ringed faintly in ember. NO TEXT, NO WORDS, NO LETTERS ANYWHERE. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n07_ai_cant_see_you",
+      "style": "schematic",
+      "concept": "Blueprint composition on deep navy, split left to right. LEFT: a chat window outline emitting a crisp, perfectly regular 90-day plan rendered as a neat grid of identical small blocks in bright teal -- clean, generic, evenly spaced, obviously templated. RIGHT: the actual business it is describing, drawn as an irregular organic cluster of interconnected nodes, sitting BEHIND a frosted translucent glass panel so it is blurred, unlit and unreadable, rendered in dim fog with no teal at all. The frosted panel edge is a clear vertical line between the two. NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS ANYWHERE. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n08_one_constraint_gate",
+      "style": "editorial",
+      "concept": "A wide flowing river of bright teal enters from the left edge at full frame height, then is forced through a single narrow gap in a solid ember barrier that spans the full height of the frame. Downstream of the gap, on the right, the flow continues at that same narrow width all the way to the right edge -- never widening, never recovering -- and it is rendered dark and unlit, in dim space navy rather than teal. The contrast between the wide bright upstream and the narrow dark downstream is the entire point. Flat vector shapes on deep navy ground. NO TEXT, NO WORDS, NO LETTERS ANYWHERE. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n09_label_inside_the_jar",
+      "style": "editorial",
+      "concept": "A large glass jar seen from the side, standing on a deep navy ground. Inside the jar, a single flat-silhouette figure stands and reaches one arm up and outward toward a rectangular label. The label is fixed to the OUTSIDE surface of the glass, facing away from the figure, so the figure sees only its blank reverse side. The glass is a pale translucent teal outline, the figure in parchment, the label a solid gold rectangle whose face is turned away. The reaching arm stops short at the glass wall. NO TEXT, NO WORDS, NO LETTERS ANYWHERE -- the label is blank on both visible sides. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n10_blind_spot",
+      "style": "sketch",
+      "concept": "A photographed DARK NAVY chalkboard-style working board -- deep navy surface, NOT a white whiteboard -- with marker work in teal, ember and parchment. Drawn large in the centre: the outline of a car side-mirror as seen from the driver's seat, a rounded rectangle with a curved bracket arm on its left. One wedge-shaped section at the outer edge of the mirror is scribbled out heavily and messily in ember marker so nothing inside that wedge is visible. Beneath the mirror, one handwritten line in clean legible marker capitals reading EXACTLY: YOU FIND IT BY HITTING IT. THAT SENTENCE IS THE ONLY TEXT IN THE ENTIRE IMAGE. Absolutely no other words, no sticky notes bearing words, no side annotations, no labels, no boxes containing writing, no dollar signs, no currency symbols. Any sticky notes present must be blank. Faint eraser smudges and a faint grid, real working-notes feel."
+    },
+    {
+      "slug": "n11_erin_call_length",
+      "style": "schematic",
+      "concept": "Blueprint composition on deep navy, split into two states by a thin vertical divider. LEFT STATE: one tall calendar time-block drawn as a dashed empty unfilled outline in dim grey fog, occupying most of the column height, with small figure silhouettes walking PAST it without stopping -- nobody enters it. Centred inside that empty block, one label reading EXACTLY: 45 MIN. RIGHT STATE: one SHORT calendar block, roughly one third the height of the left one, solid and completely filled in bright teal with figure silhouettes entering it, labelled inside EXACTLY: 15 MIN. A bold teal arrow runs from the bottom of that short block down into a second block beneath it, drawn clearly TALLER than the 15 MIN block and filled solid gold, labelled inside EXACTLY: CLOSING CALL. THOSE THREE LABELS -- 45 MIN, 15 MIN, CLOSING CALL -- ARE THE ONLY TEXT IN THE ENTIRE IMAGE. Render them in clean legible sans-serif capitals, correctly spelled, large enough to read at a glance. NO state headers, NO leader-line callouts, NO annotations describing the drawing or its colours, no other words or numbers anywhere. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n12_two_tracks",
+      "style": "schematic",
+      "concept": "Blueprint composition on deep navy. A single thick teal roadmap line runs in from the left edge, reaches a junction point at roughly one third across, and splits into two clean parallel lanes that run side by side to the right. Both lanes converge and terminate at ONE single marker on the right edge -- a solid gold diamond -- so both arrive at the same destination. The upper lane is a thin outlined track; the lower lane is a thicker solid track. Label the upper lane with a small callout box reading EXACTLY 'YOU RUN IT' and the lower lane with a small callout box reading EXACTLY 'WE RUN IT WITH YOU'. Those are the ONLY two pieces of text in the image -- render them in clean legible sans-serif capitals, correctly spelled, nothing else written anywhere. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n13_show_up_gift",
+      "style": "editorial",
+      "concept": "A solid wall spanning the frame on a deep navy ground, with a single missing section -- an irregular jigsaw-like gap punched clean through it. An object cut to that EXACT irregular shape, wrapped in parchment paper with a single thin gold ribbon band, slides in along a motion path toward the gap, already partially seated in it. The match between object silhouette and gap silhouette is precise and obvious. Explicitly NOT a generic square gift box and NOT a bow -- the wrapping follows the irregular contour. Wall in space navy and fog, the gap edge lit in teal. NO TEXT, NO WORDS, NO LETTERS ANYWHERE. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n14_built_by_hand",
+      "style": "editorial",
+      "concept": "One wide frame split into two states by a thin vertical divider. LEFT STATE, close crop: EXACTLY ONE simply-rendered flat-vector hand -- one hand only, never two, with four clearly separated fingers and one thumb, correct simple anatomy, no overlapping or merged or fused fingers -- gripping EXACTLY ONE pen, never two pens, mid-stroke, its tip touching a single large parchment map sheet and drawing a teal route line that is clearly only partly finished. Keep the hand small in frame and geometrically simple. RIGHT STATE, wide view: a mostly empty desk surface with a great deal of bare space, and at one edge a SHORT neat queue of only three closed folders stacked flat. The emptiness of the desk is the point -- deliberate, calm, low volume. Flat vector on deep navy ground, map and folders in parchment and fog, the drawn route in teal. NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS ANYWHERE. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n15_market_moving_past",
+      "style": "editorial",
+      "concept": "A single road running from lower left to upper right across a deep navy ground. Spaced along the roadside are distance markers drawn as SLIM FLAT RECTANGULAR SIGNPOSTS raised on thin vertical stems, like slim highway distance signs. CRITICAL: these markers must NOT be rounded-top slabs, must NOT be arched, must NOT resemble headstones, tombstones or gravestones in any way -- they are square-cornered flat sign plates on thin poles, and nothing in the image may read as a graveyard. Near the bottom of the road, one flat-silhouette figure stands completely stopped, surrounded by several large open unfolded maps spread on the ground around their feet, head down, studying them. Further up the road, well past the next signpost, a second figure walks away with a clear confident forward stride, back turned, not looking back. The distance between the two figures is exaggerated and obvious. Stopped figure and maps rendered in ember and fog; the road ahead and the moving figure in teal and gold. NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS ANYWHERE -- the sign plates are blank. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n16_month_you_dont_get_back",
+      "style": "editorial",
+      "concept": "A thick stack of calendar pages resting at the lower left on a deep navy ground. Several individual pages have torn loose from the stack and drift up and away toward the upper right, each one rotated at a different angle, each one already faded to a washed-out parchment tone and getting fainter the further it travels, the furthest almost dissolved into the background. Torn edges are ragged. No hand reaches for them; nothing catches them. Each page shows a bare grid of empty date squares with NO NUMBERS and NO MONTH NAME. NO TEXT, NO WORDS, NO LETTERS, NO DIGITS ANYWHERE. Opaque background filling the entire frame, no transparency."
+    },
+    {
+      "slug": "n17_working_hard_right_things",
+      "style": "photographic",
+      "concept": "FULL-BLEED ENVIRONMENTAL PHOTOGRAPH filling the entire frame with an opaque background -- this is a complete scene, NOT a cut-out subject, and there must be no transparency and no isolated edges. A founder in their late thirties sits at a desk working late in the evening, three-quarter view from the side, leaning slightly in, sleeves pushed up, pen in hand over papers. The read is focused and competent -- absolutely NOT defeated, NOT head-in-hands, NOT slumped. Dark room, deep navy shadows, a cool teal rim light along the shoulder and jawline, one warm parchment-toned practical lamp out of focus behind. Shallow depth of field, cinematic grade, naturalistic and unstaged. Any screen in the shot is turned away or dark -- NO readable screens, NO charts, NO numbers, NO text of any kind visible in the frame."
+    }
+  ]
+}
