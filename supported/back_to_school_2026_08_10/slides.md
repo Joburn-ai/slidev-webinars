@@ -2,25 +2,16 @@
 theme: default
 colorSchema: light
 title: "SupportED Tutoring | The Back-to-School Game Plan"
-class: text-center
 transition: slide-left
 mdc: true
 drawings:
   persist: false
----
-
-
-<!--
-==========================================================
-PRE-WEBINAR — 5 min before
-==========================================================
--->
-
----
 layout: cover
 class: text-center
 background: '#1B365D'
 ---
+
+<!-- PRE-WEBINAR, 5 min before -->
 
 # <span class="gold">The Back-to-School Game Plan</span>
 
