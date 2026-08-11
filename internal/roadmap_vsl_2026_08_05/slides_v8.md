@@ -1112,6 +1112,127 @@ stage is lit, because it is underneath all nine of them.
 
 ---
 layout: default
+class: bg-white
+---
+
+<!-- slide:45a -- IT MOVES, capture -->
+
+<div class="rt-cropbox"><img src="/flows/move_1_capture.svg" alt="The same journey with the capture stage choked" /></div>
+
+<!--
+SPOKEN: "And it moves."
+🆕 ADDED 2026-08-11. John: "I do want to show more of how the constraint moves up and down the
+  business." Four slides, same diagram, the pinch travelling. THE MOVEMENT IS THE MESSAGE --
+  no single position matters, which is exactly why you cannot assume you know yours.
+  Run these fast, no clicks. They are one gesture, not four points.
+-->
+
+---
+layout: default
+class: bg-white
+---
+
+<!-- slide:45b -- IT MOVES, payment -->
+
+<div class="rt-cropbox"><img src="/flows/move_2_payment.svg" alt="The same journey with the payment stage choked" /></div>
+
+<!-- SPOKEN: "It can sit at the checkout, after they have already decided yes." -->
+
+---
+layout: default
+class: bg-white
+---
+
+<!-- slide:45c -- IT MOVES, activation -->
+
+<div class="rt-cropbox"><img src="/flows/move_3_activation.svg" alt="The same journey with the activation stage choked" /></div>
+
+<!-- SPOKEN: "It can sit after the money, where they paid and never started." -->
+
+---
+layout: default
+class: bg-white
+---
+
+<!-- slide:45d -- IT MOVES, retention -->
+
+<div class="rt-cropbox"><img src="/flows/move_4_retention.svg" alt="The same journey with the retention stage choked" /></div>
+
+<!--
+SPOKEN: "Or right at the end, where you win them and lose them anyway."
+Then the turn into the invisible beat. Land on this one before moving.
+-->
+
+---
+layout: center
+class: peak text-center
+---
+
+<!-- slide:45e -- THE TURN: some are invisible -->
+
+<div class="rt-h1">And some of them are invisible.</div>
+<div class="rt-sub mt-8" v-click>Not because they are hidden. Because you are looking at the mechanics.</div>
+
+<!--
+🆕 ADDED 2026-08-11, John's own framing: "sometimes the constraint is sort of like invisible,
+  and it's like a foundational thing that you're not even aware of, because you're looking at
+  the mechanics of it, but you're not looking at the deeper underlying root cause."
+🔴 THIS IS THE HINGE OF THE WHOLE ARGUMENT. Constraint Blindness says you cannot see it.
+  This says WHY: you are staring at the right stage and the wrong layer.
+peak ground, because it is a turn and not a teaching slide.
+-->
+
+---
+layout: default
+class: bg-white
+---
+
+<!-- slide:45f -- MECHANICS: what you can see -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="The conversion stage choked, labelled as what is visible from inside the business" /></div>
+
+<!--
+SPOKEN: "From inside the business it looks like this. Our show rate is bad. So you fix the
+mechanics. More reminders. Better copy. Sharper hook. Better ads."
+-->
+
+---
+layout: default
+class: bg-white
+---
+
+<!-- slide:45g -- ROOT CAUSE: the beam -->
+
+<div class="rt-cropbox"><img src="/flows/root_2_beam.svg" alt="The same choked stage, with an external cause projected onto it from outside the frame" /></div>
+
+<!--
+SPOKEN: "But this is what was actually causing it. Her market had no time to give her. The
+funnel was fine. A forty five minute call was never something that market could give."
+🆕 John's visual, his words: "projecting something like it's an external source that's causing
+  the constraint, almost like a laser beam would be kind of a cool visual."
+🔴 THE BEAM ORIGINATES OFF-CANVAS ON PURPOSE. The pinch is the mechanics -- visible from
+  inside. The beam is the root cause -- only visible from outside. That is the entire reason
+  a scan from the outside is worth anything, and it is why the source must never be drawn
+  inside the frame.
+-->
+
+---
+layout: default
+class: bg-white
+---
+
+<!-- slide:45h -- IT GENERALISES -->
+
+<div class="rt-cropbox"><img src="/flows/root_3_beam_activation.svg" alt="The same external-cause pattern striking the activation stage instead" /></div>
+
+<!--
+SPOKEN: "It works the same anywhere. Same shape, different stage. The cause is always outside
+the thing you are staring at."
+Then straight into "Fixing the wrong thing feels like progress."
+-->
+
+---
+layout: default
 ---
 
 <!-- slide:46 -- IMG-L. v-mark 3 of 5, the only ember mark in the deck. -->

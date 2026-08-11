@@ -32,6 +32,13 @@ EMBER, GOLD = "#C4552F", "#D9B96A"
 FOG, FOGD = "#7A9199", "#5C7078"
 
 W, H = 1600, 860
+# 🔴 DO NOT CHANGE H. It is a CALIBRATED CONSTANT, not a canvas preference.
+# style.css .rt-cropbox crops the top 80px of these SVGs (to hide "THE BOWTIE SCAN" on the
+# slides that run BEFORE the name is revealed) and encodes that as `aspect-ratio: 1600/780`
+# plus `top: -10.3%`, where 10.3% = 80/780. On 2026-08-11 I raised H to 940 to make room for
+# the beam labels and it silently broke the crop for EVERY bowtie slide, not just the new
+# ones -- the label came off the top and nothing errored. If a label needs room, put it in
+# the safe band (y 92..200: below the crop line, above the band), not by resizing the canvas.
 MID = 430                      # vertical centre of the band
 LEFT, RIGHT = 120, 1500
 
@@ -108,7 +115,19 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def build(choke_idx, title, consequence, team_choked=False, out_name="bowtie.svg"):
+def build(choke_idx, title, consequence, team_choked=False, out_name="bowtie.svg",
+          beam=None, beam_label=None, show_ghost=True, seen_label=None):
+    """beam: index of the stage an EXTERNAL cause is striking.
+
+    John, 2026-08-11: "sometimes the constraint is sort of invisible... a foundational thing
+    you're not even aware of, because you're looking at the mechanics of it but you're not
+    looking at the deeper underlying root cause. Projecting something like it's an external
+    source that's causing the constraint, almost like a laser beam."
+
+    So the beam is drawn from OUTSIDE the frame onto one stage. The pinch is the MECHANICS --
+    what you can see from inside. The beam is the ROOT CAUSE -- only visible from outside.
+    That distinction is the whole point, so the beam always originates off-canvas.
+    """
     X = xs()
     T_base = throughputs(None)
     T = throughputs(choke_idx if not team_choked else None)
@@ -123,7 +142,8 @@ def build(choke_idx, title, consequence, team_choked=False, out_name="bowtie.svg
     a(f'<rect width="{W}" height="{H}" fill="{STAR}"/>')
 
     # Ghost of the healthy bowtie, so the loss is visible as an absence.
-    a(f'<path d="{band_path(X, T_base)}" fill="{FOG}" opacity="0.16"/>')
+    if show_ghost:
+        a(f'<path d="{band_path(X, T_base)}" fill="{FOG}" opacity="0.16"/>')
 
     # The live band.
     a('<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">'
@@ -173,6 +193,44 @@ def build(choke_idx, title, consequence, team_choked=False, out_name="bowtie.svg
       f'fill="{EMBER if team_choked else FOGD}" text-anchor="middle" letter-spacing="2.2">'
       f'TEAM &amp; DAY-TO-DAY OPERATIONS{" &#8212; THE CONSTRAINT" if team_choked else ""}</text>')
 
+    # ── THE BEAM: an external cause, drawn from off-canvas onto one stage ──────
+    if beam is not None:
+        bx = X[beam]
+        by = MID - half(T[beam]) - 30
+        a('<defs>'
+          f'<linearGradient id="bm" x1="0" y1="0" x2="0" y2="1">'
+          f'<stop offset="0%" stop-color="{EMBER}" stop-opacity="0.10"/>'
+          f'<stop offset="70%" stop-color="{EMBER}" stop-opacity="0.55"/>'
+          f'<stop offset="100%" stop-color="{EMBER}" stop-opacity="0.95"/>'
+          '</linearGradient></defs>')
+        a(f'<path d="M {bx-64:.1f} -40 L {bx+64:.1f} -40 L {bx+15:.1f} {by:.1f} L {bx-15:.1f} {by:.1f} Z" '
+          f'fill="url(#bm)"/>')
+        a(f'<circle cx="{bx:.1f}" cy="{by+6:.1f}" r="9" fill="{EMBER}"/>')
+        if beam_label:
+            # 🔴 GEOMETRY, LEARNED THE HARD WAY 2026-08-11. Three separate defects in the first
+            # version, all of which rendered and none of which any assertion would have caught:
+            #   1. the box was sized at 11px/char and the label CLIPPED ("...GIVE YO")
+            #   2. the box was centred over the beam, which sits directly on top of the title
+            #   3. the subtitle landed on the band's top edge
+            # So: measure generously, pin the box TOP-RIGHT away from the left-aligned title,
+            # and draw a leader to the beam instead of sitting on it.
+            fs = 16
+            lw = int(len(beam_label) * (fs * 0.70)) + 52     # 0.70em/char for bold caps + padding
+            lx = W - lw - 44
+            ly = 92          # 🔴 below the 80px crop line, or the label is cropped away
+            a(f'<rect x="{lx}" y="{ly}" width="{lw}" height="44" rx="8" fill="{VOID}"/>')
+            a(f'<text x="{lx + lw/2:.1f}" y="{ly+28}" font-size="{fs}" font-weight="800" fill="{STAR}" '
+              f'text-anchor="middle" letter-spacing="0.4">{esc(beam_label)}</text>')
+            a(f'<text x="{lx + lw/2:.1f}" y="{ly+64}" font-size="12" font-weight="800" fill="{EMBER}" '
+              f'text-anchor="middle" letter-spacing="2.2">THE ROOT CAUSE &#183; OUTSIDE THE BUSINESS</text>')
+            # leader from the label down-left to the beam cone
+            a(f'<path d="M {lx:.1f} {ly+22} L {bx+90:.1f} {ly+22} L {bx+16:.1f} {max(by-60, ly+70):.1f}" '
+              f'fill="none" stroke="{EMBER}" stroke-width="2" stroke-dasharray="5 4" opacity="0.75"/>')
+
+    # `seen_label` is intentionally NOT drawn. The 860 canvas has no free band below the team
+    # bar, and it is commentary rather than diagram -- so it lives in slide copy, where it can
+    # also be revealed on a click. Kept in the signature so the STATES table stays readable.
+
     # The consequence line, in John's own words from the script.
     a(f'<text x="{LEFT}" y="{H-40}" font-size="21" font-weight="700" fill="{VOID}">'
       f'{esc(consequence)}</text>')
@@ -198,7 +256,43 @@ STATES = [
          out_name="bowtie_00_full.svg"),
 ]
 
+# ── THE CONSTRAINT MOVES. John 2026-08-11: "I want to show more of how the constraint
+#    moves up and down the business." Same diagram, the pinch travelling stage by stage, so
+#    the movement is the message rather than any single position.
+MOVES = [
+    dict(choke_idx=1, title="It can sit at CAPTURE",
+         consequence="Traffic arrives and nothing is held. Everything downstream is starved of people.",
+         out_name="move_1_capture.svg"),
+    dict(choke_idx=3, title="It can sit at PAYMENT",
+         consequence="They decided yes and the checkout lost them. The hardest work is already done.",
+         out_name="move_2_payment.svg"),
+    dict(choke_idx=5, title="It can sit at ACTIVATION",
+         consequence="They paid and never started. Nothing after this can happen.",
+         out_name="move_3_activation.svg"),
+    dict(choke_idx=7, title="It can sit at RETENTION",
+         consequence="You win them and lose them. You are refilling a bucket with a hole in it.",
+         out_name="move_4_retention.svg"),
+]
+
+# ── THE INVISIBLE CONSTRAINT: mechanics vs root cause, the Erin case.
+ROOT = [
+    dict(choke_idx=2, title="What you can see", show_ghost=True,
+         seen_label="FROM INSIDE THE BUSINESS: \u201cour show rate is bad\u201d",
+         consequence="So you fix the mechanics. More reminders. Better copy. Sharper hook. Better ads.",
+         out_name="root_1_mechanics.svg"),
+    dict(choke_idx=2, title="What is actually causing it", show_ghost=True, beam=2,
+         beam_label="YOUR MARKET HAS NO TIME TO GIVE YOU",
+         seen_label="THE MECHANICS WERE NEVER THE PROBLEM",
+         consequence="The funnel was fine. A 45 minute call was never something that market could give.",
+         out_name="root_2_beam.svg"),
+    dict(choke_idx=5, title="It works the same anywhere", show_ghost=True, beam=5,
+         beam_label="NOBODY OWNS THE FIRST WEEK",
+         seen_label="FROM INSIDE: \u201cpeople just are not engaging\u201d",
+         consequence="Same shape, different stage. The cause is always outside the thing you are staring at.",
+         out_name="root_3_beam_activation.svg"),
+]
+
 if __name__ == "__main__":
-    for s in STATES:
+    for s in STATES + MOVES + ROOT:
         p = build(**s)
         print(f"wrote {p.name} ({p.stat().st_size} bytes)")
