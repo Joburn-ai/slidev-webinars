@@ -52,6 +52,17 @@
   padding: 2.4rem 3.2rem;
   position: relative;          /* absolute children must not escape to the viewport */
   overflow: hidden;
+  /* 🔴 VERTICAL CENTRING IS THE FIX FOR DEAD SPACE, AND min-height WAS THE WRONG TOOL.
+     Measured 2026-08-11: `align-items: start` on .rt-split.auto left the bottom 38% of
+     every split slide empty. Giving the split a `min-height: 78vh` satisfied the geometry
+     assertion and simply MOVED the gap to the top -- the check went green while the picture
+     stayed wrong. Centring the layout's own children fixes both ends at once and needs no
+     per-slide decision. `justify-content` on the column axis is what Slidev's `center`
+     layout does; doing it here makes `default` behave consistently too, which is the same
+     root cause as the original "deck is getting cut off" padding bug. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /* Full-bleed archetypes opt OUT of the gutter. */
 .slidev-layout.bleed { padding: 0; }
@@ -112,7 +123,22 @@
    (headline height + full height) and runs off the bottom edge. Caught by the bounding-box
    sweep on slide 55, 2026-08-09, at 141px past the frame. It is invisible in the markup and
    invisible to scrollWidth, because Slidev clips instead of scrolling. */
-.rt-split.auto { height: auto; align-items: start; }
+/* 🔴 `.auto` ORIGINALLY SET `align-items: start`, WHICH OVER-CORRECTED.
+   It was added to stop a split that sits UNDER a headline computing to
+   (headline height + 100%) and running off the bottom. It did fix that -- but on the
+   26 split slides in v8, NONE of which carry a headline above the split, it left the
+   bottom 38% of every frame dead. Measured 2026-08-11: slides 14, 22 and 30 all had an
+   identical 348px gap of 900, which is the tell that it is one CSS rule and not authoring.
+   `min-height` + centring fills the frame AND still grows instead of clipping if a
+   headline is ever placed above it. Do not go back to `align-items: start`. */
+.rt-split.auto { height: auto; align-items: center; }
+/* 🔴 THE min-height ONLY APPLIES WHEN THE SPLIT IS THE WHOLE SLIDE.
+   Applying it unconditionally fixed the dead space on slides 14/22/30 and immediately broke
+   slide 86, which DOES carry a kicker + h2 above its split -- (headline + 78vh) overflows,
+   which is the original bug back again. `:first-child` is the structural test that separates
+   the two cases: split-only slides fill and centre; split-under-headline stays auto-height
+   and simply centres what space it has. Both behaviours, no authoring decision required. */
+/* min-height approach removed -- superseded by layout-level centring above. */
 .rt-split.auto .rt-visual { height: auto; }
 .rt-split > .rt-visual { display: flex; align-items: center; justify-content: center; height: 100%; min-width: 0; }
 .rt-split img, .rt-visual img { max-width: 100%; max-height: 72vh; object-fit: contain; }
