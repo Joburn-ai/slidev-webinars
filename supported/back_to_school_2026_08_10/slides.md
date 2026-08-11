@@ -361,6 +361,8 @@ layout: default
 
 - Classroom grades and exam scores are **two different scorecards.**
 
+<img src="/images/vsl/slide_10_grade_vs_score.png" alt="Grade versus score, side by side" class="w-[62%] mx-auto rounded-2xl mt-6 shadow-2xl" />
+
 <img src="/images/learning-pit.svg" alt="The learning pit: the dip between starting and mastering" class="absolute inset-0 w-full h-full object-cover opacity-30" />
 
 - A skill barely taught in school in the first place is the **first to go.**
@@ -563,6 +565,8 @@ layout: center
 ---
 
 # The system shifted.
+
+<img src="/images/vsl/slide_11_not_same.png" alt="An A in the class and a 5 on the exam are not the same thing" class="w-[62%] mx-auto rounded-2xl mt-6 shadow-2xl" />
 
 <img src="/images/concept/c03_iceberg_grade.png" alt="An iceberg, small tip above water and vast mass below" class="w-80 mx-auto mt-4 rounded-xl" />
 
@@ -2998,6 +3002,12 @@ background: '#1B365D'
 # <span class="gold">The Back-to-School Game Plan</span>
 
 <div class="text-3xl mt-6 text-white">Here is what we build with you.</div>
+
+<div class="flex gap-4 justify-center mt-8">
+<img src="/images/students/Avery.jpg" alt="Avery" class="w-40 rounded-xl shadow-xl" />
+<img src="/images/students/Nabila.jpg" alt="Nabila" class="w-40 rounded-xl shadow-xl" />
+<img src="/images/students/Laura.jpg" alt="Laura" class="w-40 rounded-xl shadow-xl" />
+</div>
 
 <img src="/images/proof/wall_of_love.png" alt="456 reviews from SupportED families" class="w-[42%] rounded-xl mt-6 mx-auto shadow-2xl" />
 
