@@ -4,9 +4,27 @@
   --slidev-theme-secondary: #C5A55A;
   --slidev-theme-accent: #E8E0D0;
 }
-h1 { color: var(--slidev-theme-primary); }
-h2 { color: var(--slidev-theme-primary); }
+h1 { color: var(--slidev-theme-primary); font-weight: 900; }
+h2 { color: var(--slidev-theme-primary); font-weight: 700; }
 strong { color: var(--slidev-theme-primary); }
+
+/* READABILITY LAW: on a dark ground, text is WHITE. Navy h1 on a navy slide is
+   invisible, and it was silently killing headings on 36 slides. */
+.slidev-layout[style*="1B365D"] h1,
+.slidev-layout[style*="1B365D"] h2,
+.slidev-layout[style*="1B365D"] p,
+.slidev-layout[style*="1B365D"] li,
+.slidev-layout[style*="111"] h1,
+.slidev-layout[style*="111"] h2,
+.slidev-layout[style*="111"] p,
+.slidev-layout[style*="111"] li { color: #FFFFFF; }
+.slidev-layout[style*="1B365D"] .gold,
+.slidev-layout[style*="111"] .gold { color: #C5A55A; }
+.slidev-layout[style*="1B365D"] strong,
+.slidev-layout[style*="111"] strong { color: #C5A55A; }
+
+/* Hero headlines never overflow the frame. */
+.slidev-layout h1 { line-height: 1.05; }
 
 .gold { color: #C5A55A; }
 .navy { color: #1B365D; }
@@ -15,6 +33,12 @@ strong { color: var(--slidev-theme-primary); }
 .big-number { font-size: 5rem; font-weight: 900; color: #C5A55A; }
 .strike { text-decoration: line-through; opacity: 0.5; }
 .highlight { background: #C5A55A22; padding: 0.5rem 1rem; border-radius: 0.5rem; border-left: 4px solid #C5A55A; }
+
+/* Corner watermark. Hidden on the cover (the cover carries its own logo) and
+   knocked to white on dark grounds, where the navy asset is invisible. */
+.slidev-layout--cover::after { display: none !important; }
+.slidev-layout[style*="1B365D"]::after,
+.slidev-layout[style*="111"]::after { filter: brightness(0) invert(1); opacity: 0.55; }
 
 .slidev-layout::after {
   content: '';
@@ -27,4 +51,12 @@ strong { color: var(--slidev-theme-primary); }
   background-size: contain;
   z-index: 100;
   opacity: 0.6;
+}
+
+/* The logo ships navy-on-transparent, so on a navy ground it vanishes.
+   Knock it to white on dark slides. */
+.slidev-layout[style*="1B365D"] img[src*="supported-logo"],
+.slidev-layout[style*="111"] img[src*="supported-logo"] {
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
 }

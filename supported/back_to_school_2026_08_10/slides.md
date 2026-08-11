@@ -13,11 +13,17 @@ background: '#1B365D'
 
 <!-- PRE-WEBINAR, 5 min before -->
 
-# <span class="gold">The Back-to-School Game Plan</span>
+<div class="flex flex-col items-center justify-center h-full">
 
-## That Turns a 3 Into a 5
+<img src="/images/supported-logo.png" alt="SupportED Tutoring" class="w-56 mb-10 opacity-90" />
 
-<div class="text-2xl mt-8 opacity-70">Starting in 2 minutes...</div>
+<div class="text-6xl font-black leading-tight" style="color:#C5A55A">The Back-to-School<br/>Game Plan</div>
+
+<div class="text-4xl font-bold mt-6 text-white">That Turns a 3 Into a 5</div>
+
+<div class="text-2xl mt-12 text-white opacity-60">Starting in 2 minutes...</div>
+
+</div>
 
 <!--
 Speaker: Energy music playing. Countdown timer visible.
