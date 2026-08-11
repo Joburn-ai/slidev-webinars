@@ -260,15 +260,23 @@ layout: default
 <div class="rt-kicker">WHAT WE HAVE ACTUALLY BUILT</div>
 <div class="rt-h2">Countless funnels. Really, everything.</div>
 
-<div class="rt-chips mt-8">
-  <div class="rt-chip on">Webinar funnels</div>
-  <div v-click class="rt-chip on">Low ticket funnels</div>
-  <div v-click class="rt-chip on">Book-a-call funnels</div>
-  <div v-click class="rt-chip on">Lead magnet funnels</div>
-</div>
-
-<div class="rt-figure mt-8" style="max-width: 44rem;">
-  <img src="/flows/01b_pieces_connected.svg" alt="The same pieces, joined into one connected line" />
+<div class="rt-grid c4 mt-8">
+  <div>
+    <div class="rt-shot"><img src="/funnels/funnel-lowticket-gameplan.png" alt="A live low-ticket funnel landing page" /></div>
+    <div class="rt-numlabel mt-2 text-center">LOW TICKET</div>
+  </div>
+  <div v-click>
+    <div class="rt-shot"><img src="/funnels/funnel-booking-page.png" alt="A live book-a-call page" /></div>
+    <div class="rt-numlabel mt-2 text-center">BOOK-A-CALL</div>
+  </div>
+  <div v-click>
+    <div class="rt-shot"><img src="/funnels/funnel-leadmagnet-tool.png" alt="A live lead-magnet tool" /></div>
+    <div class="rt-numlabel mt-2 text-center">LEAD MAGNET</div>
+  </div>
+  <div v-click>
+    <div class="rt-shot"><img src="/funnels/funnel-lowticket-checkout.png" alt="A live checkout page" /></div>
+    <div class="rt-numlabel mt-2 text-center">CHECKOUT</div>
+  </div>
 </div>
 
 <!--
@@ -277,6 +285,18 @@ funnels, lead magnet funnels. Really, everything."
 
 🔴 John, 2026-08-11, verbatim. NAME THE TYPES, NEVER A NUMBER. We have never counted the
 builds, so there is no honest number to say here.
+
+🆕 CHIPS REPLACED WITH REAL PAGES, 2026-08-11. John: "let's use images for everything too,
+  because there's visual representations or screenshots we could take of webinar funnels, low
+  ticket funnels -- because we can actually SHOW them."
+  All four are LIVE captures taken through an assertion gate (real user-agent, then verify the
+  page contains expected text and refuse to save on a bot challenge). That gate exists because
+  the SupportED deck was shipping a Vercel "failed to verify your browser" error page as a
+  client's $47 funnel.
+🔴 WEBINAR IS SAID BUT NOT SHOWN. We hold no verified webinar-registration capture -- the one
+  in the SupportED deck labelled 04_webinar_reg.png is actually that client's homepage. The
+  voice still names webinar funnels, which is true; the grid shows the four we can prove.
+  Capture a real webinar reg page and it becomes a five-up.
 -->
 
 ---
