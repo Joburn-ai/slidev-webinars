@@ -720,3 +720,19 @@
    slide. Moving the watermark's top edge down is cheaper and cleaner than
    cropping the asset a second time. */
 .rt-dimwrap.light.low { top: 24%; }
+
+/* ─── CAPTION ABOVE A CROPPED DIAGRAM ───────────────────────────────────────
+   🔴 PLACED ABOVE, NOT BELOW, AND THAT IS THE POINT. The spoken line used to be
+   BAKED INTO the bowtie SVGs, which made the image run ahead of the script -- the
+   slide before a sentence was spoken already displayed it, killing three deliberate
+   reveals (caught by the 2026-08-11 visual review). Moving the line into slide copy
+   fixed the timing, but putting it BELOW the diagram put it straight through the
+   .rt-rail row and under the .rt-inset. There is no free space below a cropbox on
+   these slides: cropbox + rail already fill the frame. Above it there is. */
+.rt-cap { font-size: 1.5rem; max-width: 52ch; }
+.slidev-layout .rt-cropbox + .rt-inset { z-index: 6; }
+/* A caption above a cropbox costs vertical space, so the diagram gives some back.
+   Without this the caption pushes cropbox + rail past the bottom edge -- verified on
+   slide 42, which overflowed the moment the caption moved above it. 54rem vs the
+   default 64rem is ~16% less height, which is exactly the caption's block. */
+.rt-cap + .rt-cropbox { max-width: 54rem; }

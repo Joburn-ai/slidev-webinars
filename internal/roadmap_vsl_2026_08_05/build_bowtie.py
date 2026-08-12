@@ -115,7 +115,7 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def build(choke_idx, title, consequence, team_choked=False, out_name="bowtie.svg",
+def build(choke_idx, title, consequence=None, team_choked=False, out_name="bowtie.svg",
           beam=None, beam_label=None, show_ghost=True, seen_label=None):
     """beam: index of the stage an EXTERNAL cause is striking.
 
@@ -231,9 +231,17 @@ def build(choke_idx, title, consequence, team_choked=False, out_name="bowtie.svg
     # bar, and it is commentary rather than diagram -- so it lives in slide copy, where it can
     # also be revealed on a click. Kept in the signature so the STATES table stays readable.
 
-    # The consequence line, in John's own words from the script.
-    a(f'<text x="{LEFT}" y="{H-40}" font-size="21" font-weight="700" fill="{VOID}">'
-      f'{esc(consequence)}</text>')
+    # 🔴 THE CONSEQUENCE LINE IS NO LONGER DRAWN, and this is a correctness fix not a
+    # style one. Baking the spoken sentence into the SVG meant the IMAGE ran AHEAD OF THE
+    # SCRIPT: bowtie_01 printed "More traffic makes it worse..." so the slide BEFORE that
+    # line is spoken already displayed it, and bowtie_02 printed the activation sentence
+    # that the notes explicitly say must hang and complete on the next slide. Three
+    # deliberate reveals were dead on arrival. Caught by the 2026-08-11 visual review.
+    #
+    # The diagram shows STATE. The script says the SENTENCE. Whoever controls the reveal
+    # must control the timing, and that is the deck, not the asset. `consequence` is kept
+    # in the signature so the STATES tables stay self-documenting -- it is the caption to
+    # put in slide copy, not something to render here.
 
     a('</svg>')
     out = pathlib.Path(__file__).parent / "public" / "flows" / out_name

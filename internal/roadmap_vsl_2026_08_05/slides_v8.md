@@ -974,6 +974,8 @@ transition: fade
 
 <!-- slide:41 -- DIAGRAM-ANNOTATE + inset -->
 
+<div class="rt-say rt-cap mb-4 mx-auto text-center" v-click>More traffic makes it worse. You just pay more money to lose more people.</div>
+
 <div class="rt-cropbox">
   <img src="/flows/bowtie_01_conversion.svg" alt="The conversion stage marked as the constraint" />
 </div>
@@ -1040,9 +1042,10 @@ transition: fade
 
 <!-- slide:43 -- DIAGRAM-ANNOTATE -->
 
+<div class="rt-say rt-cap mb-4 mx-auto text-center" v-click>They paid. And then nothing after this can happen.</div>
+
 <div class="rt-cropbox">
-  <img src="/flows/bowtie_02_activation.svg" alt="The activation stage marked, with everything downstream of it dark" />
-</div>
+  <img src="/flows/bowtie_02_activation.svg" alt="The activation stage marked, with everything downstream of it dark" />.</div>
 
 <div class="rt-rail">
   <div class="rt-cell">Attention</div>
