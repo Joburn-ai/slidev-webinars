@@ -239,9 +239,6 @@ class: text-center
   <span class="rt-big teal">3</span><span class="rt-unit">years</span>
 </div>
 
-<div class="rt-band crest mx-auto mt-10" style="max-width: 52rem;">
-  <img src="/stage/cc_live_600s.jpg" alt="John on stage walking an audience through a customer journey diagram" />
-</div>
 <div class="rt-cap mx-auto">Same material, said out loud, for the last three years.</div>
 
 <!--
@@ -249,6 +246,26 @@ SPOKEN: "Over the last three years we've built funnels, ads, VSLs and sales syst
 
 🔴 "three years" is John's own word. There is NO build count in this line and there must not
 be -- nobody has counted them. The number slide is the years, not the builds.
+
+🔴 THE STAGE PHOTO WAS REMOVED 08-13, AND NOT REPLACED. Do not put any file from
+`public/stage/` back on this slide. All SEVEN of them were opened and looked at; every one
+fails, and the filenames actively mislead:
+
+| file | why it cannot ship |
+|---|---|
+| cc_live_240s / 600s / 1080s .jpg | Clients & Community stills. Their yellow logo ends up the brightest thing on OUR credibility slide |
+| 12-customer-journey-key-moments-john-coburn-10.jpg | a CLIENTS & COMMUNITY LIVE branding wall fills the frame, their logo is watermarked top-right, and **the person on stage is not John** |
+| day-2-email-marketing-john-coburn.jpg | same CC LIVE wall, and again **not John**, despite the filename |
+| john-coburn-our-system-for-writing-daily-high-.jpg | it IS John, but the slide behind him reads **"$120-180k/m w/ email... about $2.39M in the last ~12 months"** -- an explicit income claim, in large type, on screen |
+| 09-21-john-coburn-morning.jpg | CC-branded room, and 640x360 -- too low-res for a full-width band |
+
+**So "pick one of the seven" was never an available option.** The slide is honest as a readout
+plus its caption; a photo here is an upgrade, not a repair.
+
+🔴 JOHN, THE ASK IS NARROWER THAN A DECISION: send ONE photo of you presenting, at any event
+that is not Clients & Community, with no revenue figure visible on the screen behind you. If no
+such photo exists, the standing alternative is a capture of the @joburnai channel -- our own
+published volume, which is the same claim ("said out loud for three years") with an asset we own.
 -->
 
 ---
@@ -2326,11 +2343,11 @@ layout: default
 <div class="rt-grid c2 mt-8">
   <div class="rt-imgwrap">
     <span class="rt-tag">OUR SITE</span>
-    <div class="rt-band crest"><img src="/site/ff-proof-index--hero.png" alt="Our proof index" /></div>
+    <img class="rt-shot" src="/site/ff-proof-index--crest.png" alt="Our proof index" />
   </div>
   <div class="rt-imgwrap">
     <span class="rt-tag">OUR SITE</span>
-    <div class="rt-band crest"><img src="/site/ff-case-file-001-supported-tutoring--hero.png" alt="A published case file" /></div>
+    <img class="rt-shot" src="/site/ff-home--crest.png" alt="Our home page" />
   </div>
 </div>
 
@@ -2339,9 +2356,30 @@ SPOKEN: "Could be one of our trainings. Could be a template. Could be something 
 builds for you from scratch."
 
 2 clicks.
-🔴 BOTH SITE CAPTURES ARE .rt-band.crest, which shows the top 26.7% only. Verified 08-09:
-ff-proof-index--hero and ff-case-file-001--hero both render revenue figures legibly further
-down the page. Crest stops above them. Never use these two at full height.
+
+🔴 THESE TWO CAPTURES ARE PRE-CROPPED FILES, NOT CSS CROPS. Fixed 08-13. Do not "restore"
+`.rt-band.crest` here, and do not swap in the `--hero` originals.
+
+WHY. `.rt-band.crest` is a 6/1 window on a 1.6 capture, so it shows the top 26.7% and the cut
+lands wherever the page happens to put it. On the proof index it clipped the headline's
+descenders; on the case file it sliced clean through the middle of the letterforms of "How a
+Full-Time Vice Principal Added". A capture that looks broken costs more than the capture is
+worth.
+
+THE FIX. The cut row is now MEASURED, not inherited from an aspect ratio: scan each capture for
+rows with zero ink, then cut inside the gap. Proof index cuts at y=795 (full headline + subhead,
+stops before the card tops at ~800). Home page cuts at y=850 (full two-line headline, stops
+before the body copy at ~870). Both verified by eye, not only by assertion.
+
+🔴 THE CASE FILE IS DELIBERATELY GONE FROM THIS SLIDE. Its headline IS the income figure --
+"How a Full-Time Vice Principal Added $648,022 to His Side Hustle" -- so the only honest crop
+that excludes the number also excludes the headline, and a headline-less strip carries nothing.
+Swapped for the home page, which has no figure in its hero at all. If John wants a case file on
+screen, that is his call on the income-claim line, not a crop problem.
+
+⚠️ ALSO NOTED, NOT FIXED: the three cards above are about the Catalyst asset (a training, a
+template, a built-from-scratch thing) and neither capture illustrates any of the three. The
+captures carry "this is a real company with a real site" and nothing more. Left for John.
 -->
 
 ---
