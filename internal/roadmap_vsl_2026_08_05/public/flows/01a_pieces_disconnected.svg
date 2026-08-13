@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 460" width="1600" height="460" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
-<rect width="1600" height="460" fill="#FAF6EA"/>
-<g transform="rotate(-4.5 265 176)"><rect x="140" y="110" width="250" height="132" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
-<g transform="rotate(3.5 625 268)"><rect x="500" y="202" width="250" height="132" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
-<g transform="rotate(-2.5 985 200)"><rect x="860" y="134" width="250" height="132" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
-<g transform="rotate(4.0 1345 288)"><rect x="1220" y="222" width="250" height="132" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
-<line x1="399" y1="176" x2="425" y2="176" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-<line x1="465" y1="268" x2="491" y2="268" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-<line x1="759" y1="268" x2="785" y2="268" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-<line x1="825" y1="200" x2="851" y2="200" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-<line x1="1119" y1="200" x2="1145" y2="200" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-<line x1="1185" y1="288" x2="1211" y2="288" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" width="1600" height="560" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+<rect width="1600" height="560" fill="#FAF6EA"/>
+<g transform="rotate(-5.5 233 218)"><rect x="128" y="164" width="210" height="108" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
+<g transform="rotate(4.0 595 324)"><rect x="452" y="246" width="286" height="156" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
+<g transform="rotate(-3.0 940 246)"><rect x="856" y="200" width="168" height="92" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
+<g transform="rotate(5.0 1257 346)"><rect x="1132" y="281" width="250" height="130" rx="12" fill="#FFFFFF" stroke="#7A9199" stroke-width="2"/></g>
+<line x1="349" y1="218" x2="375" y2="218" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+<line x1="415" y1="324" x2="441" y2="324" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+<line x1="751" y1="324" x2="777" y2="324" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+<line x1="817" y1="246" x2="843" y2="246" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+<line x1="1032" y1="246" x2="1058" y2="246" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+<line x1="1098" y1="346" x2="1124" y2="346" stroke="#C4552F" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
 </svg>

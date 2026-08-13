@@ -1045,7 +1045,7 @@ transition: fade
 <div class="rt-say rt-cap mb-4 mx-auto text-center" v-click>They paid. And then nothing after this can happen.</div>
 
 <div class="rt-cropbox">
-  <img src="/flows/bowtie_02_activation.svg" alt="The activation stage marked, with everything downstream of it dark" />.</div>
+  <img src="/flows/bowtie_02_activation.svg" alt="The activation stage marked, with everything downstream of it dark" /></div>
 
 <div class="rt-rail">
   <div class="rt-cell">Attention</div>
@@ -1135,7 +1135,7 @@ stage is lit, because it is underneath all nine of them.
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45a -- IT MOVES, capture -->
@@ -1152,7 +1152,7 @@ SPOKEN: "And it moves."
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45b -- IT MOVES, payment -->
@@ -1163,7 +1163,7 @@ class: bg-white
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45c -- IT MOVES, activation -->
@@ -1174,7 +1174,7 @@ class: bg-white
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45d -- IT MOVES, retention -->
@@ -1207,7 +1207,7 @@ peak ground, because it is a turn and not a teaching slide.
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45f -- MECHANICS: what you can see -->
@@ -1221,7 +1221,7 @@ mechanics. More reminders. Better copy. Sharper hook. Better ads."
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45g -- ROOT CAUSE: the beam -->
@@ -1241,7 +1241,7 @@ funnel was fine. A forty five minute call was never something that market could 
 
 ---
 layout: default
-class: bg-white
+class: plate
 ---
 
 <!-- slide:45h -- IT GENERALISES -->

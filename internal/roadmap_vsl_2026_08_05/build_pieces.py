@@ -30,7 +30,7 @@ import pathlib
 VOID, TEAL, TEALB = "#0A2230", "#209080", "#2BB3A0"
 STAR, EMBER, FOG = "#FAF6EA", "#C4552F", "#7A9199"
 
-W, H = 1600, 460
+W, H = 1600, 560
 CY = H / 2
 
 
@@ -46,22 +46,36 @@ def build(connected: bool, out_name: str):
       f'font-family="Inter, ui-sans-serif, system-ui, sans-serif">')
     a(f'<rect width="{W}" height="{H}" fill="{STAR}"/>')
 
-    bw, bh = 250, 132
-    xs = [140, 500, 860, 1220]
-    # Disconnected blocks sit at different heights and angles; connected ones align.
-    dy = [-54, 38, -30, 58] if not connected else [0, 0, 0, 0]
-    rot = [-4.5, 3.5, -2.5, 4.0] if not connected else [0, 0, 0, 0]
+    # 🔴 THE BLOCKS ARE DELIBERATELY MISMATCHED IN THE DISCONNECTED STATE, and that is a
+    # correction to my own first pass. I stripped the mermaid version's labels (right: they
+    # contradicted the slide copy) but left four IDENTICAL EMPTY BOXES -- which say nothing at
+    # all, on five slides where they are the only visual carrying "you got a piece, not a plan".
+    # The review called them blank white rectangles and it was correct.
+    # Fix: make the SHAPES carry the meaning. Different widths, heights, angles and heights off
+    # the baseline read as "assorted things that do not fit together" WITHOUT any text to
+    # contradict the slide. Connected state: uniform, aligned, one line through them.
+    if connected:
+        sizes = [(250, 132)] * 4
+        xs    = [140, 500, 860, 1220]
+        dy    = [0, 0, 0, 0]
+        rot   = [0, 0, 0, 0]
+    else:
+        sizes = [(210, 108), (286, 156), (168, 92), (250, 130)]
+        xs    = [128, 452, 856, 1132]
+        dy    = [-62, 44, -34, 66]
+        rot   = [-5.5, 4.0, -3.0, 5.0]
 
     if connected:
         # One continuous line THROUGH the blocks, drawn first so the blocks sit on it.
-        a(f'<line x1="{xs[0]+bw/2:.0f}" y1="{CY:.0f}" x2="{xs[-1]+bw/2:.0f}" y2="{CY:.0f}" '
+        a(f'<line x1="{xs[0]+sizes[0][0]/2:.0f}" y1="{CY:.0f}" x2="{xs[-1]+sizes[-1][0]/2:.0f}" y2="{CY:.0f}" '
           f'stroke="{TEAL}" stroke-width="10" stroke-linecap="round"/>')
         for i in range(len(xs) - 1):
-            mx = (xs[i] + bw + xs[i + 1]) / 2
+            mx = (xs[i] + sizes[i][0] + xs[i + 1]) / 2
             a(f'<path d="M {mx-16:.0f} {CY-13:.0f} L {mx+12:.0f} {CY:.0f} L {mx-16:.0f} {CY+13:.0f}" '
               f'fill="none" stroke="{TEAL}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>')
 
     for i, x in enumerate(xs):
+        bw, bh = sizes[i]
         y = CY - bh / 2 + dy[i]
         fill = "#DFF1ED" if connected else "#FFFFFF"
         stroke = TEAL if connected else FOG
@@ -73,7 +87,7 @@ def build(connected: bool, out_name: str):
     if not connected:
         # The absence IS the message: severed stubs where the joins should be.
         for i in range(len(xs) - 1):
-            mx = (xs[i] + bw + xs[i + 1]) / 2
+            mx = (xs[i] + sizes[i][0] + xs[i + 1]) / 2
             ya = CY + dy[i]
             yb = CY + dy[i + 1]
             a(f'<line x1="{mx-46:.0f}" y1="{ya:.0f}" x2="{mx-20:.0f}" y2="{ya:.0f}" '

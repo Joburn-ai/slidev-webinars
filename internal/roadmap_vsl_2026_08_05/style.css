@@ -673,6 +673,18 @@
    Used twice: the traffic-cost inset on the conversion slide, and Erin's Slack
    message over the call-length diagram. It is a captured thing, so it keeps the
    10px radius and the shadow. `.night` for a dark-grounded inset. */
+/* 🔴 SPACE IS RESERVED FOR THE INSET, NOT GUESSED AT.
+   Anchored bottom-right it covered the payoff half of the two proof slides -- on p78 the
+   AFTER card, which is the half that carries the win. An overlay that hides the thing the
+   slide exists to show is worse than no overlay. Caught by the 2026-08-11 visual review;
+   the geometry sweep passed it, because nothing overflowed -- it was INSIDE the frame,
+   on top of the content.
+   My first fix moved it top-right and simply RELOCATED the collision -- it then hit the
+   caption on p42 and the headlines on p78/p84. Placement cannot be guessed per slide.
+   So the LAYOUT RESERVES the column instead: any slide containing an inset gets right
+   padding wider than the inset, so content cannot run underneath it by construction.
+   Caught by the 2026-08-11 visual review. */
+.slidev-layout:has(.rt-inset) { padding-right: 24rem; }
 .rt-inset {
   position: absolute; right: 2.6rem; bottom: 3.6rem; width: 19rem; z-index: 5;
   border-radius: 10px; overflow: hidden; border: 1px solid var(--fog);
