@@ -601,20 +601,24 @@ everything right" run, and it only works if the room goes quiet first.
 -->
 
 ---
-layout: default
-class: bleed
+layout: center
+class: peak text-center
 ---
 
-<!-- slide:25 -- HERO-BLEED -->
+<!-- slide:25 -- STATEMENT (was HERO-BLEED) -->
 
-<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="Effort spent in every direction, each attempt handing off to the next" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center" style="padding: 0 3.2rem;">
-  <div class="rt-h1 rt-onimg">Even if you do everything right.</div>
-</div>
+<div class="rt-h1">Even if you do everything right.</div>
 
 <!--
 SPOKEN: "Even if you try your best."
+
+🔴 IMAGE REMOVED 2026-08-11, NOT REPLACED. It was a full-bleed generated whiteboard whose
+  LARGEST WORDS were text we never authored, most of it placeholder: "BOX 4 (TOP)", "BOX 3",
+  "ULTIMATE ACCOUNTABILITY? / TO THE VOID?", "NEED COFFEE BREAK - 3PM". The subject was wrong
+  too -- a corporate escalation chart on a beat about ONE owner's own effort.
+  Nothing on disk fits this beat honestly, and a bare strong line beats a picture that argues
+  something else. Per the visual law the rule is FRAME not IMAGE, and rt-h1 on the void ground
+  IS a frame. Do NOT "fix" this by finding any image.
 -->
 
 ---

@@ -154,7 +154,18 @@ def build(choke_idx, title, consequence=None, team_choked=False, out_name="bowti
     # Title
     a(f'<text x="{LEFT}" y="72" font-size="17" font-weight="800" letter-spacing="3.4" '
       f'fill="{TEAL}">THE BOWTIE SCAN</text>')
-    a(f'<text x="{LEFT}" y="124" font-size="40" font-weight="900" fill="{VOID}" '
+    # 🔴 ON BEAM STATES THE TITLE MOVES OUT FROM UNDER THE CONE.
+    # The cone descends from off-canvas straight down onto its stage, and on root_2 that
+    # column is x~463 -- directly through the left-aligned title, so the translucent beam and
+    # its dotted leader crossed the words "What is actually causing it". Caught by the
+    # 2026-08-11 review. Nudging the title clear is correct rather than moving the beam,
+    # because WHERE the beam lands is the information.
+    tx = LEFT
+    if beam is not None:
+        bx = X[beam]
+        if bx < W * 0.55:                  # cone on the left -> push the title right of it
+            tx = min(bx + 120, W - 700)
+    a(f'<text x="{tx}" y="124" font-size="40" font-weight="900" fill="{VOID}" '
       f'letter-spacing="-1">{esc(title)}</text>')
 
     # Stage ticks + labels
