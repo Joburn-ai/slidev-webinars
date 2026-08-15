@@ -322,6 +322,23 @@ The free-throw analogy from the script lands well here if you have the room:
 -->
 
 ---
+layout: cover
+class: bleed
+---
+
+<!-- slide:018b — SCENE FRAME, lifted from the VSL render (scene 15_why_1). -->
+
+<img class="sp-bleed" src="/images/scene/15_why_1.png" alt="Studying harder just means reading more. Reading is passive, the exam is active." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "And that's why studying harder on its own doesn't move it. Studying harder usually just means reading more, and reading is passive. The exam is active."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (15_why_1) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
+-->
+
+---
 layout: center
 class: nomark night
 ---
@@ -386,9 +403,9 @@ layout: two-cols
 
 - A skill barely taught in school is the <strong>first one to go.</strong>
 
-- Three months off, and they open the fall textbook <strong>cold.</strong>
+- Six weeks from now the gap is set, and it is <strong>still invisible in the grade.</strong>
 
-- The primed student keeps the reps and walks in <strong>sharp.</strong>
+- The teen who starts now walks into May doing <strong>review, not repair.</strong>
 
 </v-clicks>
 </div>
@@ -396,17 +413,39 @@ layout: two-cols
 ::right::
 
 <div class="sp-figure">
-<img src="/images/learning-pit.svg" alt="The learning pit: the dip between starting and mastering" />
+<img src="/images/learning-pit.svg" alt="August, the first six weeks, and the fork between reactive and ahead" />
 </div>
 
 <!--
 SPOKEN: "Hard work with the wrong method just builds the wrong habit. And a skill that's
-barely taught in school in the first place is the first one to go. Three months off, and
-they open the fall textbook cold. The primed student kept the reps and walks in sharp."
-[click x4]
+barely taught in school in the first place is the first one to go. Six weeks from now that
+gap is set, and it's still invisible in the grade. The teen who starts now walks into May
+doing review, not repair." [click x4]
+
+🔴 THE DIAGRAM WAS RESEASONED 2026-08-15 AND THE COPY FOLLOWS IT. Both used to argue "the
+summer gap: three months off and the skills drain away". That is the AP SUMMER deck's case,
+and on 26 August it argues backwards because summer is already over. Both now argue the
+first six weeks of term, which is this webinar's actual deadline.
 
 ⚠️ NEVER say or imply "your teen is lazy" or "your teen is not working hard enough".
 The whole point of this beat is the opposite: they ARE working hard, at the wrong target.
+-->
+
+---
+layout: cover
+class: bleed
+---
+
+<!-- slide:021b — SCENE FRAME, lifted from the VSL render (scene 16_why_2). -->
+
+<img class="sp-bleed" src="/images/scene/16_why_2.png" alt="More content stacks on top of the gap. It never touches it." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "More content just stacks on top of the gap. It never actually touches it."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (16_why_2) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
 -->
 
 ---

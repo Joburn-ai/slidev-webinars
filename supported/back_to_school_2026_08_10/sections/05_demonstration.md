@@ -73,6 +73,23 @@ and being wrong. A guess they commit to is what makes the reveal land.
 -->
 
 ---
+layout: cover
+class: bleed
+---
+
+<!-- slide:087b — SCENE FRAME, lifted from the VSL render (scene 07_a_vs_3). -->
+
+<img class="sp-bleed" src="/images/scene/07_a_vs_3.png" alt="The difference between an A in the class and a 3 on the exam." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "This is the difference between an A in the class and a 3 on the exam, and you're about to watch it happen line by line."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (07_a_vs_3) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
+-->
+
+---
 layout: center
 class: nomark ink
 ---
@@ -776,6 +793,23 @@ SPOKEN: "That is the invisible scoring gap."
 
 🔴 NAMING IT IS WHAT MAKES IT OWNABLE. They came in without a word for this problem. They
 now have one, and it is yours. Say it slowly and do not add anything after it.
+-->
+
+---
+layout: cover
+class: bleed
+---
+
+<!-- slide:116b — SCENE FRAME, lifted from the VSL render (scene 14_villain_name). -->
+
+<img class="sp-bleed" src="/images/scene/14_villain_name.png" alt="A skills gap you were never given a way to see." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "That's what it is. A skills gap you were never given a way to see."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (14_villain_name) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
 -->
 
 ---

@@ -28,6 +28,23 @@ Tell them to write these down. You asked them to get a pen for exactly this mome
 -->
 
 ---
+layout: cover
+class: bleed
+---
+
+<!-- slide:053b — SCENE FRAME, lifted from the VSL render (scene 08_three_fixes). -->
+
+<img class="sp-bleed" src="/images/scene/08_three_fixes.png" alt="The same three fixes." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "And across all of them it came back to the same three fixes."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (08_three_fixes) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
+-->
+
+---
 layout: center
 class: nomark night
 ---
@@ -180,6 +197,23 @@ almost never does that. It prescribes on day one."
 🔴 THIS ANALOGY IS THE STRONGEST ONE IN THE DECK and it does the heaviest lifting in the
 whole section. It reframes every generic tutor as someone prescribing without a diagnosis.
 Slow down. Let the room arrive at the conclusion before you say it.
+-->
+
+---
+layout: cover
+class: bleed
+---
+
+<!-- slide:059b — SCENE FRAME, lifted from the VSL render (scene 25_mrb). -->
+
+<img class="sp-bleed" src="/images/scene/25_mrb.png" alt="Measure. Read. Build. In that order." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "Measure. Read. Build. In that order. That order is the whole thing."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (25_mrb) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
 -->
 
 ---

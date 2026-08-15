@@ -1,40 +1,39 @@
-"""QC screenshots. Derives each slide's real click count so the shot shows the
-FINAL state of the slide, not the opening state.
+"""QC screenshots of the built deck.
 
-    python3 scripts/shoot.py 1,17,26,40
+    python3 scripts/shoot.py 24,38,67
+
+🔴 SHOOTS THE OPENING STATE OF EACH SLIDE, WHICH IS DELIBERATE.
+
+Slidev's `/<slide>/<clicks>` route is NOT reliable here: `/24/4` does not resolve to
+slide 24 at click 4, it lands elsewhere entirely (verified 2026-08-15 — `.slidev-page-24`
+is absent from the DOM at that URL). An earlier version of this script used it, silently
+fell through, and produced screenshots that looked like slides with missing content.
+
+The opening state is the honest thing to QC anyway: v-click content is present in the DOM
+with `opacity: 0`, so it already RESERVES its layout space. If a slide is well composed at
+click 0 it is well composed at full reveal. To check a reveal, drive it by hand.
 """
-import asyncio, re, sys, os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from deck_gate import read_deck
+import asyncio, sys
 from playwright.async_api import async_playwright
 
-slides = read_deck()
-# clicks = number of reveal steps. <v-click> counts 1; <v-clicks> counts its list items.
-def clicks_for(body):
-    n = len(re.findall(r'<v-click(?![s])', body))
-    for blk in re.findall(r'<v-clicks>(.*?)</v-clicks>', body, re.S):
-        n += len(re.findall(r'(?m)^\s*[-*]\s+\S', blk)) or len(re.findall(r'<div', blk))
-    return n
-
+CHROME = ('/root/.cache/ms-playwright/chromium_headless_shell-1228/'
+          'chrome-headless-shell-linux64/chrome-headless-shell')
+PORT = 8904
 WANT = [int(x) for x in sys.argv[1].split(',')]
 
 async def main():
     async with async_playwright() as p:
-        b = await p.chromium.launch(
-            executable_path='/root/.cache/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell',
-            args=['--no-sandbox'])
+        b = await p.chromium.launch(executable_path=CHROME, args=['--no-sandbox'])
         pg = await b.new_page(viewport={'width': 1280, 'height': 720}, device_scale_factor=1)
         for n in WANT:
-            c = clicks_for(slides[n - 1][2]) if n - 1 < len(slides) else 0
-            url = f'http://localhost:8901/{n}/{c}' if c else f'http://localhost:8901/{n}'
-            await pg.goto(url, wait_until='networkidle')
-            await pg.wait_for_timeout(1000)
-            body = await pg.inner_text('body')
-            if '404' in body[:60]:
-                await pg.goto(f'http://localhost:8901/{n}', wait_until='networkidle')
-                await pg.wait_for_timeout(800)
+            await pg.goto(f'http://localhost:{PORT}/{n}', wait_until='networkidle')
+            await pg.wait_for_timeout(900)
+            # fail loudly rather than screenshotting a 404 that looks like a blank slide
+            ok = await pg.evaluate(f"() => !!document.querySelector('.slidev-page-{n}')")
+            if not ok:
+                print(f'  !! slide {n}: .slidev-page-{n} not in DOM — NOT a valid route')
             await pg.screenshot(path=f'qc/s{n:03d}.png')
-            print(f'shot {n} (clicks={c})')
+            print(f'shot {n}' + ('' if ok else '  (SUSPECT)'))
         await b.close()
 
 asyncio.run(main())

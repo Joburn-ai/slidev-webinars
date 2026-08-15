@@ -148,6 +148,23 @@ stage while the emails say 22, the proof stack contradicts itself in front of th
 -->
 
 ---
+layout: cover
+class: bleed
+---
+
+<!-- slide:050b — SCENE FRAME, lifted from the VSL render (scene 06_no_sense). -->
+
+<img class="sp-bleed" src="/images/scene/06_no_sense.png" alt="For years I watched something that made no sense." style="object-fit: contain; background:#1B365D;" />
+
+<!--
+SPOKEN: "For years I watched something that made no sense to me."
+
+🔴 FULL-BLEED, NO OVERLAY. Frame pulled from the rendered VSL scene library (06_no_sense) and
+cropped to remove the burned-in caption band. It carries its own typography, so do not put
+a headline on top of it. Talk over it.
+-->
+
+---
 layout: center
 ---
 

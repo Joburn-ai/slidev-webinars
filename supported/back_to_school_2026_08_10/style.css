@@ -66,6 +66,22 @@
 }
 .slidev-layout.bleed { padding: 0; }
 
+/* 🔴 TWO-COLS IS A GRID, AND THE FLEX RULE ABOVE CENTRES THE WRONG AXIS ON IT.
+   Slidev renders `layout: two-cols` as `.slidev-layout.two-columns ... grid grid-cols-2`.
+   The `display:flex; justify-content:center` above is correct for the single-column
+   layouts, but on a grid `justify-content` centres the INLINE axis, so every two-col
+   slide sat hard against the top of the frame with the bottom ~40% dead.
+   Measured on the Q4 learning-pit slide, 2026-08-15. Restore the grid explicitly and
+   centre the BLOCK axis with align-content. */
+.slidev-layout.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.6rem;
+  align-content: center;
+  align-items: center;
+}
+.slidev-layout.two-columns > * { min-width: 0; }
+
 /* ─── GROUNDS ──────────────────────────────────────────────────────────────
    🔴🔴 THIS IS A CORRECTNESS FIX, NOT A STYLE CHOICE. READ BEFORE EDITING.
 

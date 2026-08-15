@@ -1,37 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="470" viewBox="0 0 680 470" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="The summer gap and the learning pit">
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="470" viewBox="0 0 680 470" font-family="Inter, Arial, Helvetica, sans-serif" role="img" aria-label="The first six weeks: the fork between reactive and ahead">
+  <!--
+    RESEASONED 2026-08-15 FOR THE BACK-TO-SCHOOL DECK.
+
+    The previous version argued "the summer gap": May -> skills sharp -> summer ->
+    skills drain away -> the learning pit. That is the AP SUMMER deck's case, and on a
+    webinar running 26 AUGUST it argues backwards, because summer is already over.
+
+    This version argues the deck's actual urgency frame: school has started, nothing has
+    gone wrong yet, and the first six weeks are the one window to flip from reactive to
+    ahead. Same visual grammar (ledge, drop, pit, ladder) so it still reads instantly.
+
+    Also moved onto the SupportED palette. The original used Google-ish greys, greens and
+    oranges that appear nowhere else in the deck.
+      navy #1B365D  gold #C5A55A  cream #E8E0D0  red #C0392B  green #27AE60  fog #B9C2CE
+  -->
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
   <style>
-    .th{font-size:15px;font-weight:700}
-    .ts{font-size:12px;font-weight:400}
+    .th{font-size:15px;font-weight:800}
+    .ts{font-size:12px;font-weight:500}
+    .tk{font-size:10px;font-weight:800;letter-spacing:1.4px}
   </style>
 
-  <!-- LEFT LEDGE: May, skills sharp -->
-  <rect x="40" y="175" width="150" height="250" rx="8" fill="#E8EAED" stroke="#C4C8CE"/>
-  <text class="th" x="115" y="201" text-anchor="middle" fill="#3C4043">May</text>
-  <text class="ts" x="115" y="221" text-anchor="middle" fill="#5F6368">skills sharp</text>
-  <circle cx="115" cy="160" r="9" fill="#1D9E75"/>
+  <!-- LEFT LEDGE: today. The syllabus has landed and nothing has gone wrong yet. -->
+  <rect x="34" y="175" width="158" height="250" rx="8" fill="#EEF1F5" stroke="#B9C2CE"/>
+  <text class="tk" x="113" y="197" text-anchor="middle" fill="#5F6E80">RIGHT NOW</text>
+  <text class="th" x="113" y="219" text-anchor="middle" fill="#1B365D">August</text>
+  <text class="ts" x="113" y="238" text-anchor="middle" fill="#5F6E80">the syllabus has landed</text>
+  <text class="ts" x="113" y="255" text-anchor="middle" fill="#5F6E80">nothing has gone wrong yet</text>
+  <circle cx="113" cy="160" r="9" fill="#27AE60"/>
 
-  <!-- SUMMER GAP: the drop -->
-  <line x1="218" y1="205" x2="218" y2="342" stroke="#D85A30" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
-  <text class="th" x="232" y="253" fill="#B23D14">the summer gap</text>
-  <text class="ts" x="232" y="272" fill="#B23D14">skills drain away</text>
+  <!-- THE FORK: the first six weeks decide which way this goes. -->
+  <text class="tk" x="222" y="196" fill="#A8873C">THE FIRST SIX WEEKS</text>
+  <line x1="218" y1="208" x2="218" y2="342" stroke="#C0392B" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <text class="th" x="232" y="258" fill="#C0392B">the gap opens</text>
+  <text class="ts" x="232" y="277" fill="#C0392B">quietly, while grades still look fine</text>
 
-  <!-- PIT FLOOR -->
-  <rect x="200" y="352" width="255" height="46" rx="8" fill="#FBE0D5" stroke="#F0B79E"/>
-  <text class="th" x="327" y="371" text-anchor="middle" fill="#B23D14">the learning pit</text>
-  <text class="ts" x="327" y="388" text-anchor="middle" fill="#B23D14">behind, playing catch-up</text>
-  <circle cx="240" cy="340" r="8" fill="#D85A30"/>
+  <!-- PIT FLOOR: reactive. -->
+  <rect x="200" y="352" width="255" height="46" rx="8" fill="#FBE6E3" stroke="#E3A9A1"/>
+  <text class="th" x="327" y="371" text-anchor="middle" fill="#C0392B">reactive</text>
+  <text class="ts" x="327" y="388" text-anchor="middle" fill="#C0392B">catching up for the rest of the year</text>
+  <circle cx="240" cy="340" r="8" fill="#C0392B"/>
 
-  <!-- RIGHT TOWER -->
-  <rect x="465" y="120" width="175" height="278" rx="8" fill="#E8EAED" stroke="#C4C8CE"/>
-  <text class="ts" x="552" y="380" text-anchor="middle" fill="#5F6368">next year, ahead</text>
+  <!-- RIGHT TOWER: next May. -->
+  <rect x="465" y="120" width="175" height="278" rx="8" fill="#EEF1F5" stroke="#B9C2CE"/>
+  <text class="ts" x="552" y="374" text-anchor="middle" fill="#5F6E80">next May,</text>
+  <text class="ts" x="552" y="390" text-anchor="middle" fill="#5F6E80">it feels like review</text>
 
-  <!-- LADDER (the skills) -->
-  <g stroke="#1D9E75" stroke-width="2">
+  <!-- LADDER: the AP skills. -->
+  <g stroke="#27AE60" stroke-width="2">
     <line x1="476" y1="152" x2="476" y2="360"/>
     <line x1="498" y1="152" x2="498" y2="360"/>
     <line x1="476" y1="180" x2="498" y2="180"/>
@@ -43,23 +63,23 @@
   </g>
 
   <!-- SKILLS label + leader -->
-  <line x1="452" y1="218" x2="474" y2="225" stroke="#9AA0A6" stroke-width="1" stroke-dasharray="3 3"/>
-  <text class="th" x="360" y="213" fill="#0F6B4F">the AP skills</text>
-  <text class="ts" x="360" y="231" fill="#0F6B4F">your ladder out</text>
+  <line x1="452" y1="218" x2="474" y2="225" stroke="#B9C2CE" stroke-width="1" stroke-dasharray="3 3"/>
+  <text class="th" x="352" y="213" fill="#1E8A4C">the AP skills</text>
+  <text class="ts" x="352" y="231" fill="#1E8A4C">your ladder out</text>
 
   <!-- STUCK AT A 3 -->
-  <line x1="455" y1="300" x2="474" y2="300" stroke="#D85A30" stroke-width="2" stroke-dasharray="5 4"/>
-  <text class="th" x="360" y="301" fill="#B23D14">stuck at a 3</text>
-  <text class="ts" x="360" y="319" fill="#B23D14">without the skills</text>
+  <line x1="455" y1="300" x2="474" y2="300" stroke="#C0392B" stroke-width="2" stroke-dasharray="5 4"/>
+  <text class="th" x="352" y="301" fill="#C0392B">stuck at a 3</text>
+  <text class="ts" x="352" y="319" fill="#C0392B">without the skills</text>
 
   <!-- CLIMB to a 5 -->
-  <line x1="487" y1="150" x2="533" y2="120" stroke="#1D9E75" stroke-width="2" marker-end="url(#arrow)"/>
-  <rect x="505" y="80" width="70" height="34" rx="8" fill="#1D9E75"/>
+  <line x1="487" y1="150" x2="533" y2="120" stroke="#27AE60" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="505" y="80" width="70" height="34" rx="8" fill="#C5A55A"/>
   <text class="th" x="540" y="102" text-anchor="middle" fill="#FFFFFF">a 5</text>
 
   <!-- LEGEND -->
-  <rect x="175" y="432" width="14" height="14" rx="3" fill="#FBE0D5" stroke="#F0B79E"/>
-  <text class="ts" x="196" y="443" fill="#5F6368">the problem</text>
-  <rect x="320" y="432" width="14" height="14" rx="3" fill="#D4F0E6" stroke="#9ADBC3"/>
-  <text class="ts" x="341" y="443" fill="#5F6368">the way out</text>
+  <rect x="175" y="432" width="14" height="14" rx="3" fill="#FBE6E3" stroke="#E3A9A1"/>
+  <text class="ts" x="196" y="443" fill="#5F6E80">the problem</text>
+  <rect x="320" y="432" width="14" height="14" rx="3" fill="#E4F4EA" stroke="#9ADBC3"/>
+  <text class="ts" x="341" y="443" fill="#5F6E80">the way out</text>
 </svg>
