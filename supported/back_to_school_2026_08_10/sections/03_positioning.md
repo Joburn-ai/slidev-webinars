@@ -75,14 +75,11 @@ layout: default
 </div>
 
 <div class="sp-visual">
-  <div class="sp-grid c2" style="gap:1rem;">
-    <div>
-      <img class="sp-portrait" src="/images/dr-joe.jpg" alt="Dr Joe Sebestyen" />
-    </div>
-    <div>
-      <img class="sp-portrait" src="/images/joe-conf.png" alt="Dr Joe Sebestyen speaking at a conference" />
-    </div>
-  </div>
+  <figure style="margin:0; max-width: 22rem;">
+    <img class="sp-portrait" src="/images/dr-joe.jpg" alt="Dr Joe Sebestyen" />
+    <figcaption class="sp-name">Dr. Joe Sebestyen</figcaption>
+    <div class="sp-role">Doctorate in Educational Leadership</div>
+  </figure>
 </div>
 </div>
 
@@ -94,6 +91,15 @@ this happen from the inside." [click] [click]
 🔴 CLAIM RULE, NON-NEGOTIABLE: say "certified AP teacher" when describing the coaching team.
 NEVER say "College Board certified". The January script says "College Board Certified in AP
 instruction" and that phrasing is NOT cleared and must not be spoken.
+
+🔴🔴 A SECOND PHOTO WAS REMOVED FROM THIS SLIDE ON 2026-08-15 AND MUST NOT COME BACK.
+`joe-conf.png` showed Joe speaking at a "GLOBAL INNOVATION SUMMIT". It is AI-GENERATED:
+its XMP carries DigitalSourceType=trainedAlgorithmicMedia and Credit=Google AI, and the
+Google Gemini four-point sparkle watermark is visible in the bottom-right corner.
+
+It was a fabricated image of a real, named person at a named event, sitting on the one
+slide whose whole job is credibility. It is now in public/_quarantine/ with the evidence.
+If a stage shot is wanted here, get a REAL photograph from Joe.
 -->
 
 ---

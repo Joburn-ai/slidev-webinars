@@ -204,6 +204,42 @@ def main():
     if missing:
         fails.append(f'G5 missing assets: {sorted(missing)}')
 
+    # ── G5b AI-GENERATED IMAGERY ──────────────────────────────────────────
+    # 🔴 HARD FAIL. On 2026-08-15 an AI-generated photo of Dr Joe (Gemini sparkle
+    # watermark visible, XMP Credit="Google AI",
+    # DigitalSourceType=".../trainedAlgorithmicMedia") was live on the AUTHORITY slide,
+    # showing a real named person at a named event that we cannot evidence.
+    # A fabricated photo of a real person is never acceptable in a client deck.
+    AI_MARKERS = ('trainedAlgorithmicMedia', 'compositeWithTrainedAlgorithmicMedia',
+                  'Google AI', 'Firefly', 'Midjourney', 'DALL-E', 'stable-diffusion')
+    ai_hits = []
+    try:
+        from PIL import Image
+        import glob as _glob
+        for ip in _glob.glob(os.path.join(DECK, 'public/**/*.*'), recursive=True):
+            if not ip.lower().endswith(('.png', '.jpg', '.jpeg', '.webp')):
+                continue
+            try:
+                im = Image.open(ip)
+            except Exception:
+                continue
+            blob = ''
+            for _k, _v in im.info.items():
+                blob += _v.decode('utf-8', 'ignore') if isinstance(_v, bytes) else str(_v)
+            found = [m for m in AI_MARKERS if m.lower() in blob.lower()]
+            if found:
+                rel = os.path.relpath(ip, DECK)
+                if any(rel.replace('public', '') in b for _, _, b in slides):
+                    ai_hits.append(f'  {rel} PLACED IN DECK — {found}')
+                else:
+                    ai_hits.append(f'  {rel} on disk only — {found}')
+    except ImportError:
+        warns.append('G5b skipped: PIL not available')
+    if any('PLACED IN DECK' in h for h in ai_hits):
+        fails.append('G5b AI-generated imagery placed in the deck:\n' + '\n'.join(ai_hits))
+    elif ai_hits:
+        warns.append('G5b AI-generated imagery present on disk (not placed):\n' + '\n'.join(ai_hits))
+
     # ── G6 claim scrub ────────────────────────────────────────────────────
     hits = []
     for i, (f, _, b) in enumerate(slides, 1):
