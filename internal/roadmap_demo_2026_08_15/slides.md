@@ -8,7 +8,7 @@ info: |
   Goodie mockups are REAL (from the bonus PDF).
 class: peak
 colorSchema: light
-transition: none
+transition: fade
 mdc: true
 fonts:
   provider: none

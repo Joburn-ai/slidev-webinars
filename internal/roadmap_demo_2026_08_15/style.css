@@ -32,3 +32,25 @@ svg.fork .dlabel.deep { fill:var(--teal); }
 .mock img { display:block; width:100%; height:auto; }
 .mock.l { transform: perspective(1600px) rotateY(14deg); }
 .mock.r { transform: perspective(1600px) rotateY(-14deg); }
+
+/* ── simple, export-safe on-enter animations (base state = visible) ── */
+@keyframes ffDraw   { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+@keyframes ffRise   { from { opacity: 0; transform: translateY(14px); } }
+@keyframes ffPop    { from { opacity: 0; transform: scale(0.7); } }
+@keyframes ffPulse  { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+/* fork diagram draws itself in; nodes/labels rise after */
+svg.fork path { stroke-dasharray: 1000; stroke-dashoffset: 0; animation: ffDraw 1.3s ease-out; }
+svg.fork circle { animation: ffPop 0.5s ease-out; }
+svg.fork text { animation: ffRise 0.6s ease-out; }
+
+/* big numbers rise in on slide enter */
+.rt-num, .rt-stat { animation: ffRise 0.55s cubic-bezier(.2,.7,.2,1); }
+
+/* the live timer badge gently pulses, so it reads as "running" */
+.rt-tag.live { animation: ffPulse 2.2s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  svg.fork path, svg.fork circle, svg.fork text,
+  .rt-num, .rt-stat, .rt-tag.live { animation: none; stroke-dashoffset: 0; }
+}
