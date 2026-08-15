@@ -1,0 +1,1 @@
+{ "rewrites": [{ "source": "/((?!assets/|gen/|stage/|proof/|proof2/|wins/|flows/|.*\\.[a-z0-9]+$).*)", "destination": "/index.html" }] }
