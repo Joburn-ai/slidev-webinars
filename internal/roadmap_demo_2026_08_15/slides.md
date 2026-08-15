@@ -17,7 +17,7 @@ layout: center
 
 <!-- slide:demo-01 -->
 
-<div class="rt-tag live">LIVE · 72:00:00</div>
+<div class="rt-tag live">LIVE · <Countdown /></div>
 <div class="rt-h1 mt-8">That countdown is real.<br>You just started it.</div>
 
 <!-- SPOKEN: That countdown at the top of the page is real. And you just started it. -->
@@ -29,7 +29,7 @@ class: peak
 
 <!-- slide:demo-02 -->
 
-<div class="rt-num">72:00:00</div>
+<div class="rt-num"><Countdown /></div>
 <div class="rt-numlabel mt-4">your window · running now</div>
 <div class="rt-say mt-10 mx-auto">The second you typed your password, the clock began.</div>
 
@@ -66,6 +66,7 @@ layout: center
 
 <div class="rt-kicker">First, a choice</div>
 <div class="rt-h1 mt-6">Two ways through this.</div>
+<div class="rt-sub mt-6 mx-auto">Pick the one that fits your time, energy, and attention right now.</div>
 
 <!-- SPOKEN: First, a choice. There are two ways through this. -->
 
@@ -164,7 +165,7 @@ class: flex flex-col justify-center
     <div class="rt-sub mt-5">Your constraint, named. The real one, not the symptom.</div>
   </div>
   <div class="rt-visual">
-    <div class="shot-ph"><div><div class="lab">Roadmap screenshot</div><div class="cap">The constraint page. Drop the real capture here.</div></div></div>
+    <div class="shot-frame"><img src="/img/gate-1.png" alt="Gate one, your constraint, named"></div>
   </div>
 </div>
 
@@ -184,7 +185,7 @@ class: flex flex-col justify-center
     <div class="rt-sub mt-5">The moves that fix it, in the order they actually work.</div>
   </div>
   <div class="rt-visual">
-    <div class="shot-ph"><div><div class="lab">Roadmap screenshot</div><div class="cap">The plan / the moves. Drop the real capture here.</div></div></div>
+    <div class="shot-frame"><img src="/img/gate-2.png" alt="Gate two, your next three moves"></div>
   </div>
 </div>
 
@@ -204,7 +205,7 @@ class: flex flex-col justify-center
     <div class="rt-sub mt-5">Your next steps, your real options, and the honest alternatives.</div>
   </div>
   <div class="rt-visual">
-    <div class="shot-ph"><div><div class="lab">Roadmap screenshot</div><div class="cap">The pathways / next steps. Drop the real capture here.</div></div></div>
+    <div class="shot-frame"><img src="/img/gate-3.png" alt="Gate three, your path forward"></div>
   </div>
 </div>
 
@@ -246,9 +247,9 @@ class: peak
 <!-- slide:demo-16 -->
 
 <div class="rt-kicker" style="color: var(--gold);">What you get</div>
-<div class="rt-h1 mt-6">Your reward.</div>
+<div class="rt-h1 mt-6">Your reward scales<br>with how deep you go.</div>
 
-<!-- SPOKEN: And here is what you get for finishing. -->
+<!-- SPOKEN: And here is what you get. Your reward scales with the path you take. -->
 
 ---
 layout: default
@@ -257,9 +258,31 @@ class: flex flex-col justify-center
 
 <!-- slide:demo-17 -->
 
+<div class="rt-grid c2 mt-4">
+  <div class="rt-card">
+    <span class="path-tag deep">The quick way</span>
+    <div class="rt-card-t" style="margin-top:0.9rem;">The core fix.</div>
+    <div class="rt-card-s mt-2">The fastest route to your outcome, and your goodies to keep.</div>
+  </div>
+  <div class="rt-card good">
+    <span class="path-tag rec">The deep way</span>
+    <div class="rt-card-t" style="margin-top:0.9rem;">All that, plus the ad.</div>
+    <div class="rt-card-s mt-2">Go all the way, and we build you a done-for-you ad on top.</div>
+  </div>
+</div>
+
+<!-- SPOKEN: Quick way, the core fix and your goodies. Go deep, and we build you a done-for-you ad on top. The more you put in, the more you get. -->
+
+---
+layout: default
+class: flex flex-col justify-center
+---
+
+<!-- slide:demo-18 -->
+
 <div class="rt-split auto">
   <div>
-    <div class="rt-kicker">The reward</div>
+    <div class="rt-kicker" style="color: var(--gold);">The deep-way prize</div>
     <div class="rt-h2 mt-4">A done-for-you ad.</div>
     <div class="rt-sub mt-5">Written for your funnel. You do nothing but finish.</div>
   </div>
@@ -268,14 +291,14 @@ class: flex flex-col justify-center
   </div>
 </div>
 
-<!-- SPOKEN: A done-for-you ad, written for your funnel. -->
+<!-- SPOKEN: The deep-way prize is a done-for-you ad, written for your funnel. -->
 
 ---
 layout: center
 class: peak
 ---
 
-<!-- slide:demo-18 -->
+<!-- slide:demo-19 -->
 
 <div class="rt-num">$500K-$1M</div>
 <div class="rt-numlabel mt-4">driven by this exact messaging</div>
@@ -287,7 +310,7 @@ layout: center
 class: peak
 ---
 
-<!-- slide:demo-19 -->
+<!-- slide:demo-20 -->
 
 <div class="rt-h1 mx-auto">In <span class="rt-strike">pipeline</span>?</div>
 <div v-click class="rt-say mt-8" style="color: var(--teal);">Closed. Money in the door.</div>
@@ -299,15 +322,16 @@ layout: default
 class: flex flex-col justify-center
 ---
 
-<!-- slide:demo-20 -->
+<!-- slide:demo-20b -->
 
-<div class="rt-kicker">We build it for you, on two conditions</div>
-<div class="rt-grid c2 mt-8">
-  <div class="rt-card"><div class="rt-card-t">You finish.</div><div class="rt-card-s mt-2">Either path counts.</div></div>
-  <div class="rt-card"><div class="rt-card-t">Inside 72 hours.</div><div class="rt-card-s mt-2">The window you just started.</div></div>
+<div class="rt-kicker">The one rule</div>
+<div class="rt-h2 mt-3">Finish inside your 72 hours.</div>
+<div class="rt-grid c2 mt-6">
+  <div class="rt-card"><div class="rt-card-t">Either path earns the goodies.</div></div>
+  <div class="rt-card good"><div class="rt-card-t">The deep path earns the ad.</div></div>
 </div>
 
-<!-- SPOKEN: We build it for you, on two conditions. You finish, either path, inside your window. -->
+<!-- SPOKEN: One rule. Finish inside your seventy-two hours. Either path earns the goodies, the deep path earns the ad. -->
 
 ---
 layout: default
@@ -358,7 +382,7 @@ class: peak
 
 <!-- slide:demo-24 -->
 
-<div class="rt-tag live">72:00:00 · running</div>
+<div class="rt-tag live"><Countdown /> · running</div>
 <div class="rt-h1 mt-8 mx-auto">Let's go.</div>
 
 <!-- SPOKEN: Let's go. TEMPO: LAND, hold two seconds, cut. -->
