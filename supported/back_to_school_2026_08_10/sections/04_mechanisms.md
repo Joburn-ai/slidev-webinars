@@ -741,11 +741,6 @@ Projected score, gaps named, and the drills to close them." [click x4]
 -->
 
 ---
-layout: default
-class: text-center
----
-
----
 layout: center
 ---
 

@@ -27,3 +27,16 @@ headshot and carries no AI provenance markers. If a stage/teaching shot is wante
 real one from Joe.
 
 `scripts/deck_gate.py` now fails the build on any image carrying AI-provenance metadata.
+
+---
+
+## 🔴 Why this folder is NOT under public/
+
+It was, briefly. Slidev copies everything in `public/` into `dist/`, so the quarantined
+AI-generated photo was being published to the deployed site — reachable by URL, on the
+public web, still carrying its Gemini watermark and its `trainedAlgorithmicMedia` XMP.
+
+Caught 2026-08-15 by listing `dist/` before the first Vercel deploy.
+
+**Quarantine means removed from the build, not renamed inside it.** Anything in here stays
+outside `public/`.

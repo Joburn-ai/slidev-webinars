@@ -190,6 +190,15 @@ def main():
     if nonote:
         fails.append(f'G4 slides with no speaker note: {nonote}')
 
+    # ── G4b EMPTY SLIDES ──────────────────────────────────────────────────
+    # 🔴 A frontmatter block with no body renders as a BLANK SLIDE the audience sits
+    # through. One shipped on 2026-08-15 from an edit that removed a slide's content but
+    # left its frontmatter; it was only noticed because the notes gate flagged it.
+    empty = [i for i, (_, _, b) in enumerate(slides, 1)
+             if not re.sub(r'<!--.*?-->', '', b, flags=re.S).strip()]
+    if empty:
+        fails.append(f'G4b blank slides (frontmatter with no body): {empty}')
+
     # ── G5 assets exist ───────────────────────────────────────────────────
     missing = set()
     for _, _, b in slides:
@@ -216,7 +225,7 @@ def main():
     try:
         from PIL import Image
         import glob as _glob
-        for ip in _glob.glob(os.path.join(DECK, 'public/**/*.*'), recursive=True):
+        for ip in _glob.glob(os.path.join(DECK, '**/*.*'), recursive=True):
             if not ip.lower().endswith(('.png', '.jpg', '.jpeg', '.webp')):
                 continue
             try:
