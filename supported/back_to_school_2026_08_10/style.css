@@ -1,62 +1,301 @@
-/* SupportED back-to-school. UNSCOPED, co-located. Inline <style> is slide-scoped and :root vars die there. */
+/* 🔴 MANDATORY FIRST LINE. Without it the entire Slidev toolbar renders blank.
+   Path is relative to THIS file: supported/<deck>/style.css -> ../../styles/
+   (This deck was missing it until 2026-08-15.) */
+@import '../../styles/carbon-toolbar-icons.css';
+
+/* =============================================================================
+   SUPPORTED — BACK-TO-SCHOOL WEBINAR · STYLE SYSTEM v2
+   LIFTED, NOT INVENTED. Provenance of every block is marked.
+
+   [RTV8]  internal/roadmap_vsl_2026_08_05/style.css   — the golden. .rt-* renamed .sp-*
+   [SUPP]  this deck's own v1 style.css                — palette kept
+
+   WHY THE RENAME: .rt-* is the Roadmap VSL's namespace on the FF palette (teal/ember).
+   SupportED is navy/gold/cream. Same architecture, different skin, separate prefix so
+   the two can never collide if a slide is ever lifted between decks.
+
+   COLOUR GRAMMAR, enforced deck-wide. Break it and the deck stops reading:
+     gold  = the path that works, the payoff, the gate worth walking through
+     red   = the trap, the loss, the wrong scorecard, FALSE
+     green = correct, TRUE, the win
+     navy  = ground and authority
+   ========================================================================== */
+
 :root {
+  --navy:   #1B365D;
+  --navy2:  #24466F;
+  --gold:   #C5A55A;
+  --goldd:  #A8873C;
+  --cream:  #E8E0D0;
+  --paper:  #FFFFFF;
+  --ink:    #111111;
+  --red:    #C0392B;
+  --green:  #27AE60;
+  --fog:    #B9C2CE;
+  --fogd:   #5F6E80;
+
   --slidev-theme-primary: #1B365D;
   --slidev-theme-secondary: #C5A55A;
   --slidev-theme-accent: #E8E0D0;
 }
-h1 { color: var(--slidev-theme-primary); font-weight: 900; }
-h2 { color: var(--slidev-theme-primary); font-weight: 700; }
-strong { color: var(--slidev-theme-primary); }
 
-/* READABILITY LAW: on a dark ground, text is WHITE. Navy h1 on a navy slide is
-   invisible, and it was silently killing headings on 36 slides. */
-.slidev-layout[style*="1B365D"] h1,
-.slidev-layout[style*="1B365D"] h2,
-.slidev-layout[style*="1B365D"] p,
-.slidev-layout[style*="1B365D"] li,
-.slidev-layout[style*="111"] h1,
-.slidev-layout[style*="111"] h2,
-.slidev-layout[style*="111"] p,
-.slidev-layout[style*="111"] li { color: #FFFFFF; }
-.slidev-layout[style*="1B365D"] .gold,
-.slidev-layout[style*="111"] .gold { color: #C5A55A; }
-.slidev-layout[style*="1B365D"] strong,
-.slidev-layout[style*="111"] strong { color: #C5A55A; }
+/* Force full hide before a v-click. Slidev's default is a faint grey, which lets
+   the audience read ahead of the speaker and kills every reveal. [RTV8] */
+.slidev-vclick-hidden { opacity: 0 !important; }
+.slidev-vclick-target { transition: opacity 200ms ease; }
 
-/* Hero headlines never overflow the frame. */
-.slidev-layout h1 { line-height: 1.05; }
+/* ─── THE LAYOUT GUTTER ────────────────────────────────────────────────────
+   🔴 THE PADDING IS THE FIX FOR "the deck is getting cut off". Slidev's default
+   layouts pad inconsistently (center pads, default barely does), so a headline
+   block written for `center` bleeds off the edge the moment it lands on `default`.
 
-.gold { color: #C5A55A; }
-.navy { color: #1B365D; }
-.red { color: #C0392B; }
-.green { color: #27AE60; }
-.big-number { font-size: 5rem; font-weight: 900; color: #C5A55A; }
-.strike { text-decoration: line-through; opacity: 0.5; }
-.highlight { background: #C5A55A22; padding: 0.5rem 1rem; border-radius: 0.5rem; border-left: 4px solid #C5A55A; }
+   🔴 VERTICAL CENTRING IS THE FIX FOR DEAD SPACE, and min-height was the wrong
+   tool (measured on the golden 2026-08-11: it satisfied the geometry assertion and
+   simply MOVED the gap to the top, so the check went green while the picture
+   stayed wrong). Centring the layout's own children fixes both ends at once. */
+.slidev-layout {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  padding: 2.4rem 3.2rem;
+  position: relative;          /* absolute children must not escape to the viewport */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slidev-layout.bleed { padding: 0; }
 
-/* Corner watermark. Hidden on the cover (the cover carries its own logo) and
-   knocked to white on dark grounds, where the navy asset is invisible. */
-.slidev-layout--cover::after { display: none !important; }
-.slidev-layout[style*="1B365D"]::after,
-.slidev-layout[style*="111"]::after { filter: brightness(0) invert(1); opacity: 0.55; }
+/* ─── GROUNDS ──────────────────────────────────────────────────────────────
+   🔴🔴 THIS IS A CORRECTNESS FIX, NOT A STYLE CHOICE. READ BEFORE EDITING.
 
+   v1 of this deck set dark grounds with `background: '#1B365D'` in slide
+   frontmatter, and styled them with an attribute selector on the inline style.
+
+   MEASURED IN SLIDEV 52.15.2 ON 2026-08-15: THAT SELECTOR CAN NEVER MATCH.
+   Slidev does not put the frontmatter background inline on `.slidev-layout` —
+   the element carries NO style attribute at all. Verified against the live DOM:
+     .slidev-layout center h-full ...   style=""   backgroundColor rgb(255,255,255)
+
+   CONSEQUENCE, AND IT WAS SHIPPING: every slide that declared a dark ground
+   rendered WHITE while its copy was explicitly set to white via `text-white`.
+   White text on a white ground. On the v1 deck that was ~36 slides of invisible
+   copy, including every pop-quiz question. The v1 comment claimed this had been
+   fixed. It had not, because the selector could never fire.
+
+   THE FIX: grounds are CLASSES on `.slidev-layout`, so they cannot silently stop
+   matching. Never go back to keying off an inline-style attribute.
+     class: night   navy   #1B365D
+     class: ink     black  #111111
+     class: sun     gold   #C5A55A
+   ========================================================================== */
+.slidev-layout.night { background: var(--navy); }
+.slidev-layout.ink   { background: var(--ink); }
+.slidev-layout.sun   { background: var(--gold); }
+.slidev-layout.night, .slidev-layout.ink, .slidev-layout.sun { color: #FFFFFF; }
+
+:is(.night, .ink, .sun) :is(h1, h2, h3, p, li, .sp-h1, .sp-h2, .sp-say) { color: #FFFFFF; }
+:is(.night, .ink, .sun) .sp-sub { color: var(--cream); }
+:is(.night, .ink, .sun) .sp-cap { color: var(--cream); }
+:is(.night, .ink) .sp-kicker    { color: var(--gold); }
+:is(.night, .ink) strong        { color: var(--gold); }
+:is(.night, .ink) .gold         { color: var(--gold); }
+
+/* Gold ground carries WHITE type. Gold-on-gold is invisible. */
+.sun .sp-kicker, .sun strong, .sun .gold { color: #FFFFFF; }
+.sun .sp-sub { color: rgba(255, 255, 255, 0.88); }
+
+h1 { color: var(--navy); font-weight: 900; line-height: 1.05; }
+h2 { color: var(--navy); font-weight: 700; }
+strong { color: var(--navy); }
+
+/* ─── TYPE SCALE ───────────────────────────────────────────────────────────
+   Four tiers only. PICK BY LENGTH, NEVER BY IMPORTANCE.
+     sp-h1   <= 8 words     the line they will quote back at you
+     sp-h2   <= 14 words    the working headline
+     sp-say  a full spoken sentence that must be readable on screen
+     sp-sub  the qualifier under either of the above
+
+   🔴 max-width is LOAD-BEARING, not cosmetic. `text-wrap: balance` only balances
+   lines WITHIN the available width, it never creates a limit. An automated sweep
+   will MISS an overflow here because Slidev's slide container is `overflow: hidden`:
+   the text is CLIPPED, not scrolled, so scrollWidth never exceeds clientWidth.
+   NEVER delete a max-width in this block. [RTV8] */
+.sp-kicker {
+  font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--goldd); margin-bottom: 0.6rem;
+}
+.sp-h1  { font-size: 3.1rem;  line-height: 1.03; font-weight: 900; letter-spacing: -0.030em; text-wrap: balance; max-width: 20ch; color: var(--navy); }
+.sp-h2  { font-size: 2.3rem;  line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance; max-width: 26ch; color: var(--navy); }
+.sp-say { font-size: 1.95rem; line-height: 1.22; font-weight: 700; letter-spacing: -0.015em; text-wrap: pretty;  max-width: 34ch; }
+.sp-sub { font-size: 1.35rem; line-height: 1.45; color: var(--fogd); max-width: 46ch; }
+.sp-cap { font-size: 1rem; color: var(--fogd); line-height: 1.4; margin-top: 0.6rem; }
+
+/* Inside a split the text has less room, so the caps tighten with it. Without this
+   a 14-word sp-h2 written full-width overflows the moment it lands in a 50% column. */
+.sp-split .sp-h1  { font-size: 2.5rem;  max-width: 15ch; }
+.sp-split .sp-h2  { font-size: 1.95rem; max-width: 19ch; }
+.sp-split .sp-say { font-size: 1.6rem;  max-width: 24ch; }
+.sp-split .sp-sub { font-size: 1.15rem; max-width: 30ch; }
+
+.text-center .sp-h1, .text-center .sp-h2,
+.text-center .sp-say, .text-center .sp-sub { margin-left: auto; margin-right: auto; }
+
+/* Body text never below the text-2xl equivalent. Split the slide, never shrink. */
+.slidev-layout :where(p, li) { font-size: 1.25rem; }
+
+/* ─── COMPOSITION PRIMITIVES ───────────────────────────────────────────── */
+.sp-split { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 3rem; align-items: center; height: 100%; }
+.sp-split.flip { grid-template-columns: 0.95fr 1.05fr; }
+/* 🔴 `.auto` IS REQUIRED WHENEVER A SPLIT SITS UNDER A HEADLINE. `height: 100%` is
+   100% of the layout's content box, so a split with a kicker + h2 above it computes
+   to (headline height + full height) and runs off the bottom edge — invisible in the
+   markup and invisible to scrollWidth, because Slidev clips instead of scrolling. */
+.sp-split.auto { height: auto; align-items: center; }
+.sp-split.auto .sp-visual { height: auto; }
+.sp-split > .sp-visual { display: flex; align-items: center; justify-content: center; height: 100%; min-width: 0; }
+.sp-split img, .sp-visual img { max-width: 100%; max-height: 72vh; object-fit: contain; }
+.sp-split > * { min-width: 0; }
+
+.sp-grid { display: grid; gap: 0.9rem; }
+.sp-grid.c2 { grid-template-columns: repeat(2, 1fr); }
+.sp-grid.c3 { grid-template-columns: repeat(3, 1fr); }
+.sp-grid.c4 { grid-template-columns: repeat(4, 1fr); }
+.sp-grid.c5 { grid-template-columns: repeat(5, 1fr); }
+
+/* ─── IMAGE FRAMING ────────────────────────────────────────────────────────
+   Four frames, and every image in this deck uses exactly one of them.
+   🔴 An image with NO frame is precisely what "images inserted in a strange way"
+   looks like. That was the v1 defect: raw <img> dropped mid-list. [RTV8] */
+
+/* 1. FIGURE — a diagram or concept plate on its own card. */
+.sp-figure { background: #fff; border: 1px solid var(--fog); border-radius: 10px; padding: 0.4rem; }
+.sp-figure img { display: block; width: 100%; height: auto; border-radius: 7px; }
+
+/* 2. SHOT — a real screenshot, cropped, raised. Never full-bleed: a screenshot that
+   bleeds reads as decoration, framed reads as evidence. */
+.sp-shot { border-radius: 10px; border: 1px solid var(--fog); box-shadow: 0 10px 30px rgba(27, 54, 93, 0.18); overflow: hidden; background: #fff; display: block; width: 100%; }
+.sp-shot.wall { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: center; }
+
+/* 3. BLEED — an image filling the frame, with a scrim so type stays legible.
+   Replaces v1's `absolute inset-0 opacity-30` pattern, which washed the image out
+   to a grey smear AND was being nested inside <v-clicks>. */
+.sp-bleed   { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.sp-scrim   { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(27, 54, 93, 0.95) 0%, rgba(27, 54, 93, 0.80) 40%, rgba(27, 54, 93, 0.45) 66%, rgba(27, 54, 93, 0.12) 100%); }
+.sp-scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(27, 54, 93, 0.93) 0%, rgba(27, 54, 93, 0.58) 44%, rgba(27, 54, 93, 0.24) 72%, rgba(27, 54, 93, 0.06) 100%); }
+.sp-scrim-c { position: absolute; inset: 0; background: rgba(27, 54, 93, 0.78); }
+.sp-onimg   { color: #FFFFFF !important; text-shadow: 0 1px 2px rgba(27, 54, 93, 0.7), 0 3px 22px rgba(27, 54, 93, 0.94); }
+.sp-onimg strong { color: var(--gold) !important; }
+
+/* 4. PORTRAIT — a person, framed as a person. */
+.sp-portrait {
+  border-radius: 14px; overflow: hidden; background: #fff;
+  border: 1px solid var(--fog); box-shadow: 0 14px 38px rgba(27, 54, 93, 0.22);
+  display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 18%;
+}
+.sp-name  { font-size: 1.15rem; font-weight: 800; letter-spacing: -0.01em; margin-top: 0.6rem; }
+.sp-role  { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; color: var(--goldd); margin-top: 0.2rem; }
+:is(.night, .ink, .sun) .sp-role { color: var(--gold); }
+
+/* ─── CARDS, STATS, CONTRAST ───────────────────────────────────────────── */
+.sp-card { background: #F5F6F8; border: 1px solid var(--fog); border-radius: 10px; padding: 1.1rem 1.25rem; }
+.sp-card.good { background: #E4F4EA; border-color: var(--green); border-width: 2px; }
+.sp-card.bad  { background: #FBE6E3; border-color: var(--red);   border-width: 2px; }
+.sp-card.gate { background: #FAF2DF; border-color: var(--goldd); border-width: 2px; }
+.sp-card-t { font-size: 1.2rem; font-weight: 800; letter-spacing: -0.01em; }
+.sp-card-s { font-size: 1rem; color: var(--fogd); line-height: 1.4; }
+
+:is(.night, .ink, .sun) .sp-card { background: rgba(255, 255, 255, 0.07); border-color: rgba(255, 255, 255, 0.18); color: #FFFFFF; }
+:is(.night, .ink, .sun) .sp-card.good { background: rgba(39, 174, 96, 0.22); border-color: var(--green); }
+:is(.night, .ink, .sun) .sp-card.bad  { background: rgba(192, 57, 43, 0.22); border-color: var(--red); }
+:is(.night, .ink, .sun) .sp-card.gate { background: rgba(197, 165, 90, 0.22); border-color: var(--gold); }
+:is(.night, .ink, .sun) .sp-card-s { color: var(--cream); }
+
+.sp-stat  { font-size: 4.2rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; color: var(--navy); font-variant-numeric: tabular-nums; }
+.sp-statl { font-size: 1rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--fogd); }
+.sp-num   { font-size: 5.6rem; font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; color: var(--gold); font-variant-numeric: tabular-nums; }
+.sp-num.bad  { color: var(--red); }
+.sp-num.good { color: var(--green); }
+.sp-numlabel { font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fogd); }
+:is(.night, .ink, .sun) .sp-stat { color: var(--gold); }
+:is(.night, .ink, .sun) .sp-statl, :is(.night, .ink, .sun) .sp-numlabel { color: var(--cream); }
+
+/* ─── THE TWO-SCORECARD DEVICE ─────────────────────────────────────────────
+   This deck's single most important comparison: classroom grade vs exam score.
+   It recurs at least six times, so it is a component, not a one-off. */
+.sp-vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.4rem; align-items: stretch; }
+.sp-vs-mid { display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.1rem; letter-spacing: 0.12em; color: var(--fogd); }
+:is(.night, .ink, .sun) .sp-vs-mid { color: #FFFFFF; }
+.sp-old, .sp-new { border-radius: 12px; padding: 1.2rem 1.4rem; border-width: 2px; border-style: solid; }
+.sp-old { background: #FBE6E3; border-color: var(--red); }
+.sp-new { background: #E4F4EA; border-color: var(--green); }
+:is(.night, .ink, .sun) .sp-old { background: rgba(192, 57, 43, 0.22); border-color: var(--red); color: #FFFFFF; }
+:is(.night, .ink, .sun) .sp-new { background: rgba(39, 174, 96, 0.22); border-color: var(--green); color: #FFFFFF; }
+.sp-waylabel { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.75; margin-bottom: 0.45rem; }
+
+/* ─── THE T/F QUIZ CARD ────────────────────────────────────────────────────
+   Five pop-quiz questions share one frame, so the audience learns the shape once
+   and then only has to read the new sentence. */
+.sp-quiz { border: 2px solid var(--gold); border-radius: 16px; padding: 1.8rem 2.2rem; background: rgba(197, 165, 90, 0.12); }
+.sp-quiz-n { font-size: 0.85rem; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.9rem; }
+.sp-quiz-q { font-size: 2rem; line-height: 1.2; font-weight: 700; max-width: 32ch; }
+.sp-verdict { font-size: 6rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; }
+.sp-verdict.f { color: var(--red); }
+.sp-verdict.t { color: var(--green); }
+
+/* ─── THE RUBRIC GRID ──────────────────────────────────────────────────────
+   The demonstration scores Essay A against Essay B on five criteria. It is
+   text-bearing, so it is HTML. Never a generated image: models cannot spell. */
+.sp-rubric { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 0.5rem; align-items: stretch; }
+.sp-rubric > div { padding: 0.75rem 0.95rem; border-radius: 8px; font-size: 1.05rem; }
+.sp-rubric .h { font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.78rem; color: var(--fogd); }
+.sp-rubric .crit { background: #F5F6F8; font-weight: 700; border: 1px solid var(--fog); }
+.sp-rubric .a { background: #FBE6E3; border: 1px solid var(--red); text-align: center; font-weight: 800; }
+.sp-rubric .b { background: #E4F4EA; border: 1px solid var(--green); text-align: center; font-weight: 800; }
+
+/* ─── MISC ─────────────────────────────────────────────────────────────── */
+.sp-chip { display: inline-block; background: rgba(197, 165, 90, 0.18); border: 1px solid var(--gold); color: var(--goldd); border-radius: 999px; padding: 0.28rem 0.85rem; font-size: 0.95rem; font-weight: 700; margin: 0.2rem 0.25rem; }
+:is(.night, .ink, .sun) .sp-chip { color: var(--gold); }
+.sp-rule { height: 3px; width: 68px; background: var(--gold); border-radius: 2px; margin: 1rem 0; }
+.text-center .sp-rule { margin-left: auto; margin-right: auto; }
+.sp-fine { font-size: 0.82rem; color: var(--fogd); line-height: 1.35; }
+:is(.night, .ink, .sun) .sp-fine { color: var(--cream); opacity: 0.85; }
+
+/* v1 utility classes — KEPT. The deck body still references them. */
+.gold { color: var(--gold); }
+.navy { color: var(--navy); }
+.red { color: var(--red); }
+.green { color: var(--green); }
+.big-number { font-size: 5rem; font-weight: 900; color: var(--gold); }
+.highlight { background: rgba(197, 165, 90, 0.13); padding: 0.5rem 1rem; border-radius: 0.5rem; border-left: 4px solid var(--gold); }
+
+/* ─── THE CORNER WATERMARK ─────────────────────────────────────────────────
+   Hidden on cover/end (they carry their own logo) and on any full-bleed slide,
+   where a floating logo lands on top of the photograph. Knocked to white on dark
+   grounds, where the navy asset is invisible. */
 .slidev-layout::after {
   content: '';
-  position: fixed;
+  position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 120px;
-  height: 40px;
+  width: 108px;
+  height: 36px;
   background: url('/images/supported-logo.png') no-repeat;
   background-size: contain;
   z-index: 100;
-  opacity: 0.6;
+  opacity: 0.55;
+  pointer-events: none;
 }
+.slidev-layout--cover::after,
+.slidev-layout--end::after,
+.slidev-layout.bleed::after,
+.slidev-layout.nomark::after { display: none !important; }
 
-/* The logo ships navy-on-transparent, so on a navy ground it vanishes.
-   Knock it to white on dark slides. */
-.slidev-layout[style*="1B365D"] img[src*="supported-logo"],
-.slidev-layout[style*="111"] img[src*="supported-logo"] {
-  filter: brightness(0) invert(1);
-  opacity: 0.95;
-}
+.slidev-layout.night::after,
+.slidev-layout.ink::after,
+.slidev-layout.sun::after { filter: brightness(0) invert(1); opacity: 0.6; }
+
+/* The logo ships navy-on-transparent, so on any dark or gold ground it vanishes.
+   This also covers the cover slide, which is a bleed image rather than a class. */
+:is(.night, .ink, .sun) img[src*="supported-logo"],
+.bleed img[src*="supported-logo"] { filter: brightness(0) invert(1); opacity: 0.95; }
