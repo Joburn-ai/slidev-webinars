@@ -27,7 +27,7 @@ layout: two-cols
 
 <div class="sp-kicker">First, what I am not</div>
 
-<div class="text-2xl mt-6">
+<div class="mt-6">
 <v-clicks>
 
 - I am not a marketing guru.
@@ -160,7 +160,7 @@ class: bleed
 
 <!-- slide:050b — SCENE FRAME, lifted from the VSL render (scene 06_no_sense). -->
 
-<img class="sp-bleed" src="/images/scene/06_no_sense.png" alt="For years I watched something that made no sense." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/06_no_sense.png" alt="For years I watched something that made no sense." />
 
 <!--
 SPOKEN: "For years I watched something that made no sense to me."

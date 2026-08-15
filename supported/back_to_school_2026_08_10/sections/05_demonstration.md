@@ -55,9 +55,9 @@ layout: default
 </div>
 
 <div class="sp-vs mt-12 mx-auto" style="max-width: 50rem;">
-  <div class="sp-card"><div class="sp-waylabel">Response A</div><div class="sp-card-t mt-2">Scored a 3</div></div>
-  <div class="sp-vs-mid">&nbsp;</div>
-  <div class="sp-card"><div class="sp-waylabel">Response B</div><div class="sp-card-t mt-2">Scored a 5</div></div>
+  <div class="sp-card"><div class="sp-waylabel">Response A</div><div class="sp-card-t mt-2">Scored a 3 <span class="sp-cap">or</span> a 5</div></div>
+  <div class="sp-vs-mid">?</div>
+  <div class="sp-card"><div class="sp-waylabel">Response B</div><div class="sp-card-t mt-2">Scored a 3 <span class="sp-cap">or</span> a 5</div></div>
 </div>
 
 <v-click>
@@ -68,8 +68,14 @@ layout: default
 SPOKEN: "I've got two essay responses. Same prompt, same AP exam. One scored a 3, one
 scored a 5. Your job is to work out which is which. And more importantly, why." [click]
 
-🔴 DO NOT REVEAL WHICH IS WHICH YET. The whole mechanism depends on them guessing first
-and being wrong. A guess they commit to is what makes the reveal land.
+🔴🔴 THE SCORES ARE DELIBERATELY UNBOUND ON THIS SLIDE AND MUST STAY THAT WAY.
+An earlier version of this slide printed "Response A: Scored a 3" and "Response B: Scored
+a 5" in the cards, and then slide 094 asked the room to type A or B for which scored a 5.
+The slide answered its own question seven slides before it was asked.
+
+That single binding disables the entire demonstration, which is the proof engine of the
+whole webinar. The mechanism only works if they COMMIT to a guess and can be wrong.
+Never put a score next to a letter before slide 113.
 -->
 
 ---
@@ -79,7 +85,7 @@ class: bleed
 
 <!-- slide:087b — SCENE FRAME, lifted from the VSL render (scene 07_a_vs_3). -->
 
-<img class="sp-bleed" src="/images/scene/07_a_vs_3.png" alt="The difference between an A in the class and a 3 on the exam." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/07_a_vs_3.png" alt="The difference between an A in the class and a 3 on the exam." />
 
 <!--
 SPOKEN: "This is the difference between an A in the class and a 3 on the exam, and you're about to watch it happen line by line."
@@ -97,7 +103,7 @@ class: nomark ink
 <!-- slide:088 — S5. The prompt. Give them real reading time. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">The prompt</div>
+<div class="sp-kicker">The prompt</div>
 
 <div class="sp-say sp-onimg mt-6 mx-auto" style="max-width:44ch;">"Evaluate the extent to which the American Revolution changed the relationship between Britain and the colonies."</div>
 
@@ -121,7 +127,7 @@ layout: default
 
 <div class="sp-kicker">Response A</div>
 
-<div class="sp-card mt-4" style="font-size:1.32rem; line-height:1.5;">
+<div class="sp-card mt-4" style="line-height:1.5;">
 <em>"The American Revolution was a major turning point between Great Britain and the American colonies. Before the Revolution, the colonies were under British control and had to follow British laws. The colonists were angry about taxation without representation. Important events like the Boston Tea Party and the Stamp Act made things worse. After the Revolution, America became independent and was no longer controlled by Britain. This was a huge change in their relationship."</em>
 </div>
 
@@ -186,7 +192,7 @@ layout: default
 
 <div class="sp-kicker">Response B</div>
 
-<div class="sp-card mt-4" style="font-size:1.32rem; line-height:1.5;">
+<div class="sp-card mt-4" style="line-height:1.5;">
 <em>"Throughout the mid-18th century, Britain's mercantilist policies positioned the American colonies as economic subordinates within a tightly controlled imperial system. The American Revolution fundamentally transformed this relationship from colonial dependence to sovereign independence, though the extent varied across economic, political, and social dimensions. While political sovereignty marked an absolute break with British authority, economic and cultural ties demonstrated significant continuity after 1783."</em>
 </div>
 
@@ -321,7 +327,7 @@ layout: two-cols
 
 <div class="sp-kicker">Response A says</div>
 
-<div class="sp-card bad mt-4" style="font-size:1.2rem;">
+<div class="sp-card bad mt-4">
 <em>"The American Revolution was a major turning point... the colonies were under British control."</em>
 </div>
 
@@ -329,7 +335,7 @@ layout: two-cols
 
 <div class="mt-12">
 <v-click>
-<div class="sp-say" style="font-size:1.5rem;">Does A describe the broader context?</div>
+<div class="sp-say">Does A describe the broader context?</div>
 </v-click>
 
 <v-click>
@@ -356,7 +362,7 @@ class: text-center
 
 <!-- slide:099 — S5 · C1. A scores zero. -->
 
-<div class="sp-verdict f" style="font-size:4.5rem;">NO.</div>
+<div class="sp-verdict f">NO.</div>
 
 <v-click>
 <div class="sp-say mt-8 mx-auto">Zero points. It jumps straight into "the Revolution happened."</div>
@@ -374,7 +380,7 @@ layout: two-cols
 
 <div class="sp-kicker">Response B says</div>
 
-<div class="sp-card good mt-4" style="font-size:1.2rem;">
+<div class="sp-card good mt-4">
 <em>"Throughout the mid-18th century, Britain's mercantilist policies positioned the colonies as economic subordinates within a tightly controlled imperial system."</em>
 </div>
 
@@ -382,7 +388,7 @@ layout: two-cols
 
 <div class="mt-12">
 <v-click>
-<div class="sp-say" style="font-size:1.5rem;">Does B describe the broader context?</div>
+<div class="sp-say">Does B describe the broader context?</div>
 </v-click>
 
 <v-click>
@@ -403,7 +409,7 @@ class: text-center
 
 <!-- slide:101 — S5 · C1. B scores one. -->
 
-<div class="sp-verdict t" style="font-size:4.5rem;">YES.</div>
+<div class="sp-verdict t">YES.</div>
 
 <v-click>
 <div class="sp-say mt-8 mx-auto">One point. The grader immediately sees a student who understands the bigger picture.</div>
@@ -422,7 +428,7 @@ class: nomark ink
 <!-- slide:102 — S5. RUNNING SCOREBOARD 1. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Running score</div>
+<div class="sp-kicker">Running score</div>
 </div>
 
 <div class="sp-vs mt-8 mx-auto" style="max-width: 44rem;">
@@ -493,7 +499,7 @@ layout: two-cols
 
 <div class="sp-kicker">Response A thesis</div>
 
-<div class="sp-card bad mt-4" style="font-size:1.25rem;">
+<div class="sp-card bad mt-4">
 <em>"The American Revolution was a major turning point."</em>
 </div>
 
@@ -501,7 +507,7 @@ layout: two-cols
 
 <div class="mt-12">
 <v-click>
-<div class="sp-say" style="font-size:1.5rem;">Does that address "extent"?</div>
+<div class="sp-say">Does that address "extent"?</div>
 </v-click>
 
 <v-click>
@@ -521,7 +527,7 @@ class: text-center
 
 <!-- slide:106 — S5 · C2. A scores zero again. -->
 
-<div class="sp-verdict f" style="font-size:4.5rem;">NO.</div>
+<div class="sp-verdict f">NO.</div>
 
 <v-click>
 <div class="sp-say mt-8 mx-auto">Zero. It is generic. "Major turning point" says nothing about extent.</div>
@@ -539,7 +545,7 @@ layout: two-cols
 
 <div class="sp-kicker">Response B thesis</div>
 
-<div class="sp-card good mt-4" style="font-size:1.15rem;">
+<div class="sp-card good mt-4">
 <em>"...fundamentally transformed this relationship... though the extent varied across economic, political, and social dimensions. While political sovereignty marked an absolute break... economic and cultural ties showed continuity."</em>
 </div>
 
@@ -547,7 +553,7 @@ layout: two-cols
 
 <div class="mt-10">
 <v-click>
-<div class="sp-say" style="font-size:1.5rem;">Does this address extent? Does it show complexity?</div>
+<div class="sp-say">Does this address extent? Does it show complexity?</div>
 </v-click>
 
 <v-click>
@@ -569,7 +575,7 @@ class: text-center
 
 <!-- slide:108 — S5 · C2. B scores again, and here is why. -->
 
-<div class="sp-verdict t" style="font-size:4.5rem;">YES.</div>
+<div class="sp-verdict t">YES.</div>
 
 <v-click>
 <div class="sp-say mt-8 mx-auto">It names <strong>three dimensions.</strong> It shows change <strong>and</strong> continuity.</div>
@@ -592,7 +598,7 @@ class: nomark ink
 <!-- slide:109 — S5. RUNNING SCOREBOARD 2. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Running score</div>
+<div class="sp-kicker">Running score</div>
 </div>
 
 <div class="sp-vs mt-8 mx-auto" style="max-width: 44rem;">
@@ -691,7 +697,7 @@ class: nomark ink
 <!-- slide:113 — S5. FINAL SCORE. The payoff of the whole exercise. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Final score</div>
+<div class="sp-kicker">Final score</div>
 </div>
 
 <div class="sp-vs mt-8 mx-auto" style="max-width: 46rem;">
@@ -719,13 +725,13 @@ layout: default
 <div class="sp-vs mt-10 mx-auto" style="max-width: 54rem;">
   <div class="sp-old">
     <div class="sp-waylabel">Response A &middot; 2 of 7</div>
-    <div class="sp-card-t mt-3" style="font-size:1.5rem;">Likely a 2 or a 3</div>
+    <div class="sp-card-t mt-3">Likely a 2 or a 3</div>
     <div class="sp-card-s mt-4">Below the threshold most colleges use for credit.</div>
   </div>
   <div class="sp-vs-mid">|</div>
   <div class="sp-new">
     <div class="sp-waylabel">Response B &middot; 7 of 7</div>
-    <div class="sp-card-t mt-3" style="font-size:1.5rem;">Likely a 5</div>
+    <div class="sp-card-t mt-3">Likely a 5</div>
     <div class="sp-card-s mt-4">In credit range at many institutions.</div>
   </div>
 </div>
@@ -785,7 +791,7 @@ class: bleed text-center
 <div class="sp-scrim-c"></div>
 
 <div class="relative h-full flex flex-col items-center justify-center">
-<div class="sp-h1 sp-onimg mx-auto" style="font-size:4rem;">That is the invisible scoring gap.</div>
+<div class="sp-h1 sp-onimg mx-auto">That is the invisible scoring gap.</div>
 </div>
 
 <!--
@@ -802,7 +808,7 @@ class: bleed
 
 <!-- slide:116b — SCENE FRAME, lifted from the VSL render (scene 14_villain_name). -->
 
-<img class="sp-bleed" src="/images/scene/14_villain_name.png" alt="A skills gap you were never given a way to see." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/14_villain_name.png" alt="A skills gap you were never given a way to see." />
 
 <!--
 SPOKEN: "That's what it is. A skills gap you were never given a way to see."

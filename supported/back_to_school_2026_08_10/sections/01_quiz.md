@@ -118,7 +118,7 @@ layout: two-cols
 
 <div class="sp-kicker">Why that is false</div>
 
-<div class="text-2xl">
+<div>
 <v-clicks>
 
 - Early grades matter. But they measure the work your teen is <strong>already good at.</strong>
@@ -139,7 +139,7 @@ layout: two-cols
 </div>
 
 <v-click>
-<div class="sp-say mt-6" style="font-size:1.5rem;">The first six weeks are the one window to flip from reactive to <strong>ahead.</strong></div>
+<div class="sp-say mt-6">The first six weeks are the one window to flip from reactive to <strong>ahead.</strong></div>
 </v-click>
 
 <!--
@@ -198,7 +198,7 @@ class: bleed
 
 <!-- slide:014 — S1 · Q2. THE TWO SCORECARDS. The deck's single most important image. -->
 
-<img class="sp-bleed" src="/images/vsl/slide_10_grade_vs_score.png" alt="The grade measures did the homework and showed up. The score measures whether they can perform the skill under the timer on a problem they have never seen." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/vsl/slide_10_grade_vs_score.png" alt="The grade measures did the homework and showed up. The score measures whether they can perform the skill under the timer on a problem they have never seen." />
 
 <!--
 SPOKEN: "Here's the difference. The grade answers one question: did they do the homework
@@ -221,7 +221,7 @@ layout: two-cols
 
 <div class="sp-kicker">Same student, different test</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - Your teen's classroom grade measures <strong>content.</strong>
@@ -234,7 +234,7 @@ layout: two-cols
 </div>
 
 <v-click>
-<div class="sp-say mt-8" style="font-size:1.55rem;">We see it every year. <strong>Straight-A students scoring 2s and 3s.</strong></div>
+<div class="sp-say mt-8">We see it every year. <strong>Straight-A students scoring 2s and 3s.</strong></div>
 </v-click>
 
 ::right::
@@ -291,7 +291,7 @@ layout: two-cols
 
 <div class="sp-kicker">It is a skill, not a fact</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - It is <strong>reasoning and writing skill,</strong> not recall.
@@ -328,7 +328,7 @@ class: bleed
 
 <!-- slide:018b — SCENE FRAME, lifted from the VSL render (scene 15_why_1). -->
 
-<img class="sp-bleed" src="/images/scene/15_why_1.png" alt="Studying harder just means reading more. Reading is passive, the exam is active." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/15_why_1.png" alt="Studying harder just means reading more. Reading is passive, the exam is active." />
 
 <!--
 SPOKEN: "And that's why studying harder on its own doesn't move it. Studying harder usually just means reading more, and reading is passive. The exam is active."
@@ -396,7 +396,7 @@ layout: two-cols
 
 <div class="sp-kicker">Effort is necessary. It is not sufficient.</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - Hard work with the wrong method builds the <strong>wrong habit.</strong>
@@ -438,7 +438,7 @@ class: bleed
 
 <!-- slide:021b — SCENE FRAME, lifted from the VSL render (scene 16_why_2). -->
 
-<img class="sp-bleed" src="/images/scene/16_why_2.png" alt="More content stacks on top of the gap. It never touches it." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/16_why_2.png" alt="More content stacks on top of the gap. It never touches it." />
 
 <!--
 SPOKEN: "More content just stacks on top of the gap. It never actually touches it."
@@ -491,7 +491,7 @@ layout: two-cols
 
 <div class="sp-kicker">Why that one is true</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - A 4 or a 5 <strong>can</strong> convert to college credit at many schools.

@@ -31,7 +31,7 @@ layout: default
 <div class="sp-kicker">In the last forty minutes</div>
 </div>
 
-<div class="text-2xl mt-8 mx-auto" style="max-width: 52rem;">
+<div class="mt-8 mx-auto" style="max-width: 52rem;">
 <v-clicks>
 
 - You <strong>felt</strong> the shock that an A does not mean ready.

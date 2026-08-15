@@ -36,7 +36,7 @@ class: bleed text-center
 <div class="sp-scrim-c"></div>
 
 <div class="relative h-full flex flex-col items-center justify-center">
-<div class="sp-h1 sp-onimg mx-auto" style="font-size:4.2rem; max-width:16ch;">This is not your fault.</div>
+<div class="sp-h1 sp-onimg mx-auto" style="max-width:16ch;">This is not your fault.</div>
 </div>
 
 <!--
@@ -57,7 +57,7 @@ layout: two-cols
 
 <div class="sp-kicker">What actually happened</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - College Board <strong>changed the rules.</strong>
@@ -90,7 +90,7 @@ class: bleed
 
 <!-- slide:030 — S2. THE SHIFT, full frame from the VSL render. -->
 
-<img class="sp-bleed" src="/images/vsl/slide_11_not_same.png" alt="An A in the class and a 5 on the exam are not the same thing" style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/vsl/slide_11_not_same.png" alt="An A in the class and a 5 on the exam are not the same thing" />
 
 <!--
 SPOKEN: "The system shifted. An A in the class and a 5 on the exam are not the same thing,
@@ -166,7 +166,7 @@ class: bleed
 
 <!-- slide:032b — SCENE FRAME, lifted from the VSL render (scene 12_the_gap). -->
 
-<img class="sp-bleed" src="/images/scene/12_the_gap.png" alt="There is a gap between the grade and the exam, and you cannot see it." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/12_the_gap.png" alt="There is a gap between the grade and the exam, and you cannot see it." />
 
 <!--
 SPOKEN: "There's a gap between the grade and the exam. And the whole problem is that you can't see it."
@@ -202,7 +202,7 @@ layout: two-cols
 
 <div class="sp-kicker">You have watched your teen</div>
 
-<div class="text-2xl mt-6">
+<div class="mt-6">
 <v-clicks>
 
 - Come home stressed.
@@ -343,7 +343,7 @@ layout: two-cols
 
 <div class="sp-kicker">What a 2 or a 3 actually costs</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - It can put <strong>their dream school</strong> further out of reach.
@@ -390,16 +390,16 @@ layout: default
 
 <div class="sp-grid c2 mt-8">
 <v-click>
-  <div class="sp-card"><div class="sp-card-t" style="font-weight:600; font-style:italic; font-size:1.15rem;">"Even with the effort he's bringing, it's not really changing."</div><div class="sp-card-s mt-3">Parent, last month</div></div>
+  <div class="sp-card"><div class="sp-card-t" style="font-weight:600; font-style:italic;">"Even with the effort he's bringing, it's not really changing."</div><div class="sp-card-s mt-3">Parent, last month</div></div>
 </v-click>
 <v-click>
-  <div class="sp-card"><div class="sp-card-t" style="font-weight:600; font-style:italic; font-size:1.15rem;">"I had a conference with his teacher. I don't think he's helping."</div><div class="sp-card-s mt-3">Parent</div></div>
+  <div class="sp-card"><div class="sp-card-t" style="font-weight:600; font-style:italic;">"I had a conference with his teacher. I don't think he's helping."</div><div class="sp-card-s mt-3">Parent</div></div>
 </v-click>
 <v-click>
-  <div class="sp-card"><div class="sp-card-t" style="font-weight:600; font-style:italic; font-size:1.15rem;">"I don't understand what AP exams test anymore. They changed everything."</div><div class="sp-card-s mt-3">Parent</div></div>
+  <div class="sp-card"><div class="sp-card-t" style="font-weight:600; font-style:italic;">"I don't understand what AP exams test anymore. They changed everything."</div><div class="sp-card-s mt-3">Parent</div></div>
 </v-click>
 <v-click>
-  <div class="sp-card bad"><div class="sp-card-t" style="font-weight:600; font-style:italic; font-size:1.15rem;">"We've already spent thousands. Nothing worked."</div><div class="sp-card-s mt-3">Parent</div></div>
+  <div class="sp-card bad"><div class="sp-card-t" style="font-weight:600; font-style:italic;">"We've already spent thousands. Nothing worked."</div><div class="sp-card-s mt-3">Parent</div></div>
 </v-click>
 </div>
 
@@ -451,7 +451,7 @@ layout: center
 <div class="sp-say mx-auto">None of it gave you the one thing you actually need.</div>
 
 <v-click>
-<div class="sp-h1 mt-10 mx-auto gold" style="font-size:5rem;">Certainty.</div>
+<div class="sp-h1 mt-10 mx-auto gold">Certainty.</div>
 </v-click>
 </div>
 
@@ -471,7 +471,7 @@ class: nomark night
 <!-- slide:046 — S2 close. -->
 
 <div class="text-center">
-<div class="sp-h1 sp-onimg mx-auto" style="font-size:4.4rem;">That ends tonight.</div>
+<div class="sp-h1 sp-onimg mx-auto">That ends tonight.</div>
 </div>
 
 <!--

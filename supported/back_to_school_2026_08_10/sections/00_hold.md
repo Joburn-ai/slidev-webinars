@@ -127,13 +127,12 @@ class: nomark sun
 <div class="sp-h1 sp-onimg mx-auto">Got your pen?</div>
 
 <v-click>
-<div class="sp-say sp-onimg mt-8 mx-auto" style="font-size:2.6rem;">Good. Let's go.</div>
+<div class="sp-say sp-onimg mt-8 mx-auto">Good. Let's go.</div>
 </v-click>
 </div>
 
 <!--
 SPOKEN: "Got your pen? Good. Let's go." [click]
 
-Gold ground. This is 1 of only 3 gold slides in the deck, so it lands as a genuine
-gear change. Pause on the click. Then straight into the quiz divider.
+Gold ground. The gold field is reserved for gear-changes, so it lands as one. Pause on the click. Then straight into the quiz divider.
 -->

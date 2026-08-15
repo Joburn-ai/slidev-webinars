@@ -4,91 +4,91 @@
 @import '../../styles/carbon-toolbar-icons.css';
 
 /* ─── TYPEFACES ────────────────────────────────────────────────────────────
-   🔴 SELF-HOSTED ON PURPOSE. This is a LIVE webinar deck. A Google Fonts @import
-   is one network hiccup away from the whole deck falling back to system-ui mid-
-   presentation, and nobody would notice until it was on screen. These are served
-   from public/fonts/, so the deck renders identically with the wifi unplugged.
+   SELF-HOSTED, SUBSET, EXACTLY SIX FACES. This is a LIVE webinar deck; nothing it
+   renders may cross the network. A Google Fonts @import is one hiccup away from the
+   whole deck dropping to system-ui mid-presentation, unnoticed until it is on screen.
 
-   🔴 THE PAIRING IS NOT A PREFERENCE, IT IS A MATCH. The VSL scene frames placed
-   full-bleed through this deck were rendered with Merriweather (display serif) and
-   Manrope (body sans) — the TTFs are in the VSL render's assets/fonts/. Using any
-   other pairing would make every full-bleed scene slide visibly clash with the
-   slide before it. Source of truth:
-     06_Clients/supported/05_assets_and_deliverables/vsl_v3_render/assets/fonts/
+   🔴 SIX @font-face RULES = SIX font-weight VALUES ALLOWED IN THIS FILE. Nothing else.
+   MEASURED 2026-08-15: the previous cut shipped 5 faces while the CSS asked for 8 weights.
+   Per CSS Fonts L4 §5.2 a request above 500 searches UPWARD first, so Merriweather
+   400/500/600/700 all landed on the 700 face and Manrope 700/800/900 all landed on 800.
+   `.sp-h2 {font-weight:800}` rendered BYTE-IDENTICAL to `.sp-h1 {font-weight:900}` — the
+   headline ladder was carried by size alone. The failure always resolves HEAVIER, which is
+   why the symptom reads as "loud and undesigned" rather than as a bug.
 
-   Both shipped as static instances cut from the variable originals (Merriweather
-   pinned wdth=100 opsz=32; weights we actually use only). 814KB total.
+   🔴 SED Display = Merriweather instanced at opsz=96, a real DISPLAY cut. Never set below
+   2.80rem. The previous build shipped the opsz=32 TEXT cut, set it at 96px, then fought the
+   jammed sidebearings with -0.03em tracking.
+   🔴 SED Sans = Manrope. Its wght axis MAXES AT 800. font-weight:900 on a sans element is
+   unbuildable and is banned here.
 
-   BEFORE THIS BLOCK EXISTED the deck declared `font-family: Inter` and never loaded
-   Inter, so every slide silently rendered in system-ui. That is what "the fonts look
-   generic" was. */
-@font-face {
-  font-family: 'Merriweather'; font-style: normal; font-weight: 700; font-display: block;
-  src: url('/fonts/Merriweather-700.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Merriweather'; font-style: normal; font-weight: 900; font-display: block;
-  src: url('/fonts/Merriweather-900.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Manrope'; font-style: normal; font-weight: 400; font-display: block;
-  src: url('/fonts/Manrope-400.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Manrope'; font-style: normal; font-weight: 600; font-display: block;
-  src: url('/fonts/Manrope-600.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Manrope'; font-style: normal; font-weight: 800; font-display: block;
-  src: url('/fonts/Manrope-800.woff2') format('woff2');
-}
+   THE PAIRING IS A MATCH, NOT A PREFERENCE: the VSL scene frames placed full-bleed through
+   this deck were rendered in Merriweather + Manrope. Source of truth:
+   06_Clients/supported/05_assets_and_deliverables/vsl_v3_render/assets/fonts/
+   73KB total, was 813KB. */
+@font-face { font-family:'SED Display'; font-style:normal; font-weight:700; font-display:block;
+  src:url('/fonts/SEDDisplay-700.woff2') format('woff2'); }
+@font-face { font-family:'SED Display'; font-style:normal; font-weight:900; font-display:block;
+  src:url('/fonts/SEDDisplay-900.woff2') format('woff2'); }
+@font-face { font-family:'SED Sans'; font-style:normal; font-weight:400; font-display:block;
+  src:url('/fonts/SEDSans-400.woff2') format('woff2'); }
+@font-face { font-family:'SED Sans'; font-style:normal; font-weight:500; font-display:block;
+  src:url('/fonts/SEDSans-500.woff2') format('woff2'); }
+@font-face { font-family:'SED Sans'; font-style:normal; font-weight:700; font-display:block;
+  src:url('/fonts/SEDSans-700.woff2') format('woff2'); }
+@font-face { font-family:'SED Sans'; font-style:normal; font-weight:800; font-display:block;
+  src:url('/fonts/SEDSans-800.woff2') format('woff2'); }
 
 :root {
-  --display: 'Merriweather', Georgia, 'Times New Roman', serif;
-  --body: 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif;
-}
+  --display: 'SED Display', Georgia, 'Times New Roman', serif;
+  --body:    'SED Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
 
-
-/* =============================================================================
-   SUPPORTED — BACK-TO-SCHOOL WEBINAR · STYLE SYSTEM v2
-   LIFTED, NOT INVENTED. Provenance of every block is marked.
-
-   [RTV8]  internal/roadmap_vsl_2026_08_05/style.css   — the golden. .rt-* renamed .sp-*
-   [SUPP]  this deck's own v1 style.css                — palette kept
-
-   WHY THE RENAME: .rt-* is the Roadmap VSL's namespace on the FF palette (teal/ember).
-   SupportED is navy/gold/cream. Same architecture, different skin, separate prefix so
-   the two can never collide if a slide is ever lifted between decks.
-
-   COLOUR GRAMMAR, enforced deck-wide. Break it and the deck stops reading:
-     gold  = the path that works, the payoff, the gate worth walking through
-     red   = the trap, the loss, the wrong scorecard, FALSE
-     green = correct, TRUE, the win
-     navy  = ground and authority
-   ========================================================================== */
-
-:root {
-  --navy:   #1B365D;
+  --navy:   #1B365D;   /* the shout field. white on it = 12.12:1 */
   --navy2:  #24466F;
-  --gold:   #C5A55A;
-  --goldd:  #A8873C;
-  --cream:  #E8E0D0;
-  --paper:  #FFFFFF;
   --ink:    #111111;
-  --red:    #C0392B;
-  --green:  #27AE60;
-  --fog:    #B9C2CE;
-  --fogd:   #5F6E80;
+  --paper:  #FFFFFF;
+  --cream:  #E8E0D0;
+  --wash:   #F5F6F8;
 
-  --slidev-theme-primary: #1B365D;
+  /* ── GOLD: THREE TOKENS, BECAUSE ONE GOLD CANNOT SERVE THREE GROUNDS ──────
+     VERIFIED BY CALCULATION 2026-08-15: #C5A55A on white = 2.36:1 AND white on
+     #C5A55A = 2.36:1. Fails WCAG AA in BOTH directions. Brand gold is a FILL.
+     Gold TYPE takes a darker token on light grounds, a lighter one on dark. */
+  --gold:   #C5A55A;   /* FILL ONLY: rules, borders, the .sun ground, chip stroke */
+  --goldi:  #8A6D2B;   /* gold TYPE on white/cream  4.88:1 on white */
+  --goldl:  #D8BC77;   /* gold TYPE on navy/photo   6.57:1 on navy  */
+
+  /* ── SEMANTIC: a FILL token and a TYPE token per hue ────────────────────── */
+  --red:     #C0392B;  --redd:   #A32B20;  --redbg:   #FBE6E3;  /* type 6.00:1 on bg */
+  --green:   #1E8449;  --greend: #14663A;  --greenbg: #E4F4EA;  /* type 6.16:1 on bg */
+
+  /* ── NEUTRALS, redefined IN PLACE so every existing rule is fixed by two lines.
+     WAS --fog #B9C2CE = 1.80:1 on white: invisible at 1px, gone on a projector. */
+  --fog:    #8494A6;   /* 1px borders. 3.10:1 on white, clears WCAG 1.4.11 */
+  --fogd:   #4A5765;   /* secondary TYPE. 7.39:1 on white */
+  --line2:  #5F6E80;
+  --onnavy:  rgba(255,255,255,0.92);
+  --onnavy2: rgba(255,255,255,0.62);
+
+  /* ── TYPE SCALE. ONE RATIO (1.25). TEN STEPS. NOTHING ELSE.
+     Replaces the 28 distinct sizes the deck was actually rendering. */
+  --t-micro: 0.90rem;
+  --t-label: 1.15rem;
+  --t-body:  1.45rem;
+  --t-lead:  1.80rem;
+  --t-say:   2.25rem;
+  --t-h2:    2.80rem;
+  --t-h1s:   3.50rem;
+  --t-h1:    4.40rem;
+  --t-stat:  5.50rem;
+  --t-hero:  6.90rem;
+
+  --slidev-theme-primary:   #1B365D;
   --slidev-theme-secondary: #C5A55A;
-  --slidev-theme-accent: #E8E0D0;
+  --slidev-theme-accent:    #E8E0D0;
 }
 
-/* Force full hide before a v-click. Slidev's default is a faint grey, which lets
-   the audience read ahead of the speaker and kills every reveal. [RTV8] */
-.slidev-vclick-hidden { opacity: 0 !important; }
-.slidev-vclick-target { transition: opacity 200ms ease; }
+.slidev-page { --slidev-transition-duration: 0.35s; }
 
 /* ─── THE LAYOUT GUTTER ────────────────────────────────────────────────────
    🔴 THE PADDING IS THE FIX FOR "the deck is getting cut off". Slidev's default
@@ -159,16 +159,31 @@
 :is(.night, .ink, .sun) :is(h1, h2, h3, p, li, .sp-h1, .sp-h2, .sp-say) { color: #FFFFFF; }
 :is(.night, .ink, .sun) .sp-sub { color: var(--cream); }
 :is(.night, .ink, .sun) .sp-cap { color: var(--cream); }
-:is(.night, .ink) .sp-kicker    { color: var(--gold); }
-:is(.night, .ink) strong        { color: var(--gold); }
-:is(.night, .ink) .gold         { color: var(--gold); }
+:is(.night, .ink) .sp-kicker    { color: var(--goldl); }
+:is(.night, .ink) strong        { color: var(--goldl); }
+:is(.night, .ink) .gold         { color: var(--goldl); }
 
-/* Gold ground carries WHITE type. Gold-on-gold is invisible. */
-.sun .sp-kicker, .sun strong, .sun .gold { color: #FFFFFF; }
-.sun .sp-sub { color: rgba(255, 255, 255, 0.88); }
+/* 🔴 THE GOLD GROUND CARRIES DARK TYPE, NOT WHITE.
+   VERIFIED BY CALCULATION: white on #C5A55A = 2.36:1, which fails WCAG AA badly and is
+   WORSE than the gold-on-gold problem the previous rule was written to fix.
+   ink on gold = 8.01:1. navy on gold = 5.14:1. Affects 9 slides including two section
+   dividers and the Section 5 opener. */
+.slidev-layout.sun { color: var(--ink); }
+.sun .sp-h1, .sun .sp-h2, .sun h1, .sun h2,
+.sun .sp-verdict, .sun .sp-stat, .sun .sp-num { color: var(--navy) !important; }
+.sun .sp-kicker, .sun .sp-waylabel, .sun .sp-role,
+.sun .sp-statl, .sun .sp-numlabel { color: var(--navy) !important; }
+.sun .sp-say, .sun p, .sun li, .sun .sp-body { color: var(--ink) !important; }
+.sun .sp-sub, .sun .sp-fine, .sun .sp-cap { color: rgba(17,17,17,0.72) !important; }
+.sun strong, .sun .gold { color: var(--navy) !important; }
+.sun .sp-rule { background: var(--navy); }
+/* .sp-onimg is a photo treatment; on a flat gold field it is a halo over nothing.
+   🔴 NEVER fix a contrast failure with a text-shadow halo — halo is for type over
+   PHOTOGRAPHY only. Over a flat colour, change the colour. */
+.sun .sp-onimg { color: var(--navy) !important; text-shadow: none !important; }
+.sun .sp-onimg strong { color: var(--ink) !important; }
 
-h1 { font-family: var(--display); color: var(--navy); font-weight: 900; line-height: 1.05; }
-h2 { font-family: var(--display); color: var(--navy); font-weight: 700; }
+
 strong { color: var(--navy); }
 
 /* ─── TYPE SCALE ───────────────────────────────────────────────────────────
@@ -184,27 +199,71 @@ strong { color: var(--navy); }
    the text is CLIPPED, not scrolled, so scrollWidth never exceeds clientWidth.
    NEVER delete a max-width in this block. [RTV8] */
 .sp-kicker {
-  font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em;
-  text-transform: uppercase; color: var(--goldd); margin-bottom: 0.6rem;
+  font-family: var(--body); font-size: var(--t-label); font-weight: 700;
+  letter-spacing: 0.12em; line-height: 1.2;
+  text-transform: uppercase; color: var(--goldi); margin-bottom: 0.6rem;
 }
-.sp-h1  { font-family: var(--display); font-size: 3.1rem;  line-height: 1.03; font-weight: 900; letter-spacing: -0.030em; text-wrap: balance; max-width: 20ch; color: var(--navy); }
-.sp-h2  { font-family: var(--display); font-size: 2.3rem;  line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance; max-width: 26ch; color: var(--navy); }
-.sp-say { font-size: 1.95rem; line-height: 1.22; font-weight: 700; letter-spacing: -0.015em; text-wrap: pretty;  max-width: 34ch; }
-.sp-sub { font-size: 1.35rem; line-height: 1.45; color: var(--fogd); max-width: 46ch; }
+h1, .sp-h1 {
+  font-family: var(--display); font-weight: 900;
+  font-size: var(--t-h1); line-height: 1.02; letter-spacing: -0.012em;
+  color: var(--navy); text-wrap: balance; max-width: 17ch;
+}
+/* 🔴 A REAL STEP DOWN FROM H1, IN WEIGHT AS WELL AS SIZE. Display 700 vs Display 900.
+   The old pair asked for 800 vs 900 against faces at 700/900 only, so both resolved to
+   900 and rendered identically. */
+h2, .sp-h2 {
+  font-family: var(--display); font-weight: 700;
+  font-size: var(--t-h2); line-height: 1.06; letter-spacing: -0.008em;
+  color: var(--navy); text-wrap: balance; max-width: 22ch;
+}
+/* The spoken sentence. Sans 500 — the mid-weight the deck was missing entirely, which is
+   why every non-body element rendered at 800 and the deck shouted. */
+.sp-say {
+  font-family: var(--body); font-weight: 500;
+  font-size: var(--t-say); line-height: 1.20; letter-spacing: 0;
+  text-wrap: pretty; max-width: 26ch; color: var(--ink);
+}
+.sp-sub {
+  font-family: var(--body); font-weight: 500;
+  font-size: var(--t-lead); line-height: 1.32; color: var(--fogd); max-width: 40ch;
+}
+.sp-split .sp-h1 { font-size: var(--t-h1s); max-width: 15ch; }
+.sp-split .sp-h2 { font-size: var(--t-h2);  max-width: 19ch; }
+.sp-split .sp-say { font-size: var(--t-lead); max-width: 24ch; }
+.sp-split .sp-sub { font-size: var(--t-body); max-width: 30ch; }
+
+/* 🔴 BODY COPY IS A DECISION, NOT AN INHERITANCE. The old rule set size only, so leading
+   came from the UnoCSS prose default at 1.8 and `strong` inherited a different weight AND
+   colour AND line-height, striping every emphasised paragraph. Set them together. */
+.slidev-layout :where(p, li) {
+  font-family: var(--body); font-weight: 400;
+  font-size: var(--t-body); line-height: 1.45; color: var(--ink);
+}
+.slidev-layout :where(p, li) strong { font-weight: 700; color: var(--navy); }
+
+/* 🔴 IF YOU NEVER WROTE A ::marker RULE YOU SHIPPED THE BROWSER'S. The deck had none:
+   20px square glyphs, padding-left 0, marker at 67.6px and bullet TEXT at 96.3px — a
+   broken left axis on every bulleted slide. Hang the marker in the margin so bullet text
+   aligns to the same optical axis as the kicker above it. */
+.slidev-layout ul { list-style: none; padding-left: 0; }
+.slidev-layout ul > li { position: relative; padding-left: 1.15em; margin-bottom: 0.5em; }
+.slidev-layout ul > li::before {
+  content: ''; position: absolute; left: 0; top: 0.62em;
+  width: 0.42em; height: 0.42em; border-radius: 50%;
+  background: var(--gold);
+}
+:is(.night, .ink) ul > li::before { background: var(--goldl); }
 .sp-cap { font-size: 1rem; color: var(--fogd); line-height: 1.4; margin-top: 0.6rem; }
 
 /* Inside a split the text has less room, so the caps tighten with it. Without this
    a 14-word sp-h2 written full-width overflows the moment it lands in a 50% column. */
-.sp-split .sp-h1  { font-size: 2.5rem;  max-width: 15ch; }
-.sp-split .sp-h2  { font-size: 1.95rem; max-width: 19ch; }
-.sp-split .sp-say { font-size: 1.6rem;  max-width: 24ch; }
-.sp-split .sp-sub { font-size: 1.15rem; max-width: 30ch; }
+
 
 .text-center .sp-h1, .text-center .sp-h2,
 .text-center .sp-say, .text-center .sp-sub { margin-left: auto; margin-right: auto; }
 
 /* Body text never below the text-2xl equivalent. Split the slide, never shrink. */
-.slidev-layout :where(p, li) { font-size: 1.25rem; }
+
 
 /* ─── COMPOSITION PRIMITIVES ───────────────────────────────────────────── */
 .sp-split { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 3rem; align-items: center; height: 100%; }
@@ -248,6 +307,11 @@ strong { color: var(--navy); }
    Replaces v1's `absolute inset-0 opacity-30` pattern, which washed the image out
    to a grey smear AND was being nested inside <v-clicks>. */
 .sp-bleed   { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* .fit — for the VSL scene frames, which are 1920x861 crops (the burned caption band is
+   cut off) landing on a 16:9 slide. `contain` on a navy ground letterboxes deliberately
+   and reads as intentional; `cover` would crop their typography. Replaces 12 copies of an
+   inline `style="object-fit: contain; background:#1B365D"`. */
+.sp-bleed.fit { object-fit: contain; background: var(--navy); }
 .sp-scrim   { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(27, 54, 93, 0.95) 0%, rgba(27, 54, 93, 0.80) 40%, rgba(27, 54, 93, 0.45) 66%, rgba(27, 54, 93, 0.12) 100%); }
 .sp-scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(27, 54, 93, 0.93) 0%, rgba(27, 54, 93, 0.58) 44%, rgba(27, 54, 93, 0.24) 72%, rgba(27, 54, 93, 0.06) 100%); }
 .sp-scrim-c { position: absolute; inset: 0; background: rgba(27, 54, 93, 0.78); }
@@ -269,8 +333,8 @@ strong { color: var(--navy); }
 .sp-card.good { background: #E4F4EA; border-color: var(--green); border-width: 2px; }
 .sp-card.bad  { background: #FBE6E3; border-color: var(--red);   border-width: 2px; }
 .sp-card.gate { background: #FAF2DF; border-color: var(--goldd); border-width: 2px; }
-.sp-card-t { font-size: 1.2rem; font-weight: 800; letter-spacing: -0.01em; }
-.sp-card-s { font-size: 1rem; color: var(--fogd); line-height: 1.4; }
+.sp-card-t { font-family: var(--body); font-size: var(--t-lead); font-weight: 700; letter-spacing: -0.01em; line-height: 1.25; }
+.sp-card-s { font-family: var(--body); font-size: var(--t-body); font-weight: 400; color: var(--fogd); line-height: 1.4; }
 
 :is(.night, .ink, .sun) .sp-card { background: rgba(255, 255, 255, 0.07); border-color: rgba(255, 255, 255, 0.18); color: #FFFFFF; }
 :is(.night, .ink, .sun) .sp-card.good { background: rgba(39, 174, 96, 0.22); border-color: var(--green); }
@@ -278,37 +342,37 @@ strong { color: var(--navy); }
 :is(.night, .ink, .sun) .sp-card.gate { background: rgba(197, 165, 90, 0.22); border-color: var(--gold); }
 :is(.night, .ink, .sun) .sp-card-s { color: var(--cream); }
 
-.sp-stat  { font-family: var(--display); font-size: 4.2rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; color: var(--navy); font-variant-numeric: tabular-nums; }
+.sp-stat  { font-family: var(--display); font-size: var(--t-stat); font-weight: 900; letter-spacing: -0.015em; line-height: 0.95; color: var(--navy); font-variant-numeric: tabular-nums; }
 .sp-statl { font-size: 1rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--fogd); }
-.sp-num   { font-family: var(--display); font-size: 5.6rem; font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; color: var(--gold); font-variant-numeric: tabular-nums; }
-.sp-num.bad  { color: var(--red); }
-.sp-num.good { color: var(--green); }
+.sp-num   { font-family: var(--display); font-size: var(--t-hero); font-weight: 900; line-height: 0.95; letter-spacing: -0.015em; color: var(--goldi); font-variant-numeric: tabular-nums; }
+.sp-num.bad  { color: var(--redd); }
+.sp-num.good { color: var(--greend); }
 .sp-numlabel { font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fogd); }
-:is(.night, .ink, .sun) .sp-stat { color: var(--gold); }
+:is(.night, .ink) .sp-stat { color: var(--goldl); }
 :is(.night, .ink, .sun) .sp-statl, :is(.night, .ink, .sun) .sp-numlabel { color: var(--cream); }
 
 /* ─── THE TWO-SCORECARD DEVICE ─────────────────────────────────────────────
    This deck's single most important comparison: classroom grade vs exam score.
    It recurs at least six times, so it is a component, not a one-off. */
 .sp-vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.4rem; align-items: stretch; }
-.sp-vs-mid { display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.1rem; letter-spacing: 0.12em; color: var(--fogd); }
+.sp-vs-mid { display: flex; align-items: center; justify-content: center; font-family: var(--body); font-weight: 800; font-size: var(--t-label); letter-spacing: 0.12em; color: var(--fogd); }
 :is(.night, .ink, .sun) .sp-vs-mid { color: #FFFFFF; }
 .sp-old, .sp-new { border-radius: 12px; padding: 1.2rem 1.4rem; border-width: 2px; border-style: solid; }
 .sp-old { background: #FBE6E3; border-color: var(--red); }
 .sp-new { background: #E4F4EA; border-color: var(--green); }
 :is(.night, .ink, .sun) .sp-old { background: rgba(192, 57, 43, 0.22); border-color: var(--red); color: #FFFFFF; }
 :is(.night, .ink, .sun) .sp-new { background: rgba(39, 174, 96, 0.22); border-color: var(--green); color: #FFFFFF; }
-.sp-waylabel { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.75; margin-bottom: 0.45rem; }
+.sp-waylabel { font-family: var(--body); font-size: var(--t-label); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; margin-bottom: 0.45rem; }
 
 /* ─── THE T/F QUIZ CARD ────────────────────────────────────────────────────
    Five pop-quiz questions share one frame, so the audience learns the shape once
    and then only has to read the new sentence. */
 .sp-quiz { border: 2px solid var(--gold); border-radius: 16px; padding: 1.8rem 2.2rem; background: rgba(197, 165, 90, 0.12); }
-.sp-quiz-n { font-size: 0.85rem; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.9rem; }
-.sp-quiz-q { font-family: var(--display); font-size: 2rem; line-height: 1.2; font-weight: 700; max-width: 32ch; }
-.sp-verdict { font-family: var(--display); font-size: 6rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; }
-.sp-verdict.f { color: var(--red); }
-.sp-verdict.t { color: var(--green); }
+.sp-quiz-n { font-size: var(--t-label); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--goldl); margin-bottom: 0.9rem; }
+.sp-quiz-q { font-family: var(--display); font-size: var(--t-h2); line-height: 1.06; font-weight: 700; letter-spacing: -0.008em; max-width: 22ch; }
+.sp-verdict { font-family: var(--display); font-size: var(--t-hero); font-weight: 900; letter-spacing: -0.015em; line-height: 0.95; }
+.sp-verdict.f { color: var(--redd); }
+.sp-verdict.t { color: var(--greend); }
 
 /* ─── THE RUBRIC GRID ──────────────────────────────────────────────────────
    The demonstration scores Essay A against Essay B on five criteria. It is
@@ -322,17 +386,17 @@ strong { color: var(--navy); }
 
 /* ─── MISC ─────────────────────────────────────────────────────────────── */
 .sp-chip { display: inline-block; background: rgba(197, 165, 90, 0.18); border: 1px solid var(--gold); color: var(--goldd); border-radius: 999px; padding: 0.28rem 0.85rem; font-size: 0.95rem; font-weight: 700; margin: 0.2rem 0.25rem; }
-:is(.night, .ink, .sun) .sp-chip { color: var(--gold); }
+:is(.night, .ink) .sp-chip { color: var(--goldl); }
 .sp-rule { height: 3px; width: 68px; background: var(--gold); border-radius: 2px; margin: 1rem 0; }
 .text-center .sp-rule { margin-left: auto; margin-right: auto; }
-.sp-fine { font-size: 0.82rem; color: var(--fogd); line-height: 1.35; }
+.sp-fine { font-family: var(--body); font-size: var(--t-micro); font-weight: 700; color: var(--fogd); line-height: 1.35; }
 :is(.night, .ink, .sun) .sp-fine { color: var(--cream); opacity: 0.85; }
 
 /* v1 utility classes — KEPT. The deck body still references them. */
-.gold { color: var(--gold); }
+.gold { color: var(--goldi); }
 .navy { color: var(--navy); }
-.red { color: var(--red); }
-.green { color: var(--green); }
+.red { color: var(--redd); }
+.green { color: var(--greend); }
 .big-number { font-family: var(--display); font-size: 5rem; font-weight: 900; color: var(--gold); }
 .highlight { background: rgba(197, 165, 90, 0.13); padding: 0.5rem 1rem; border-radius: 0.5rem; border-left: 4px solid var(--gold); }
 

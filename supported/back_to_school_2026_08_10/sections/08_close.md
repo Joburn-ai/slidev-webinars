@@ -6,7 +6,7 @@ class: nomark night
 <!-- slide:130 — S8. Set up the give. -->
 
 <div class="text-center">
-<div class="text-2xl" style="color:#fff;">
+<div style="color:#fff;">
 <v-clicks>
 
 <div>Normally we would charge for something like this, because the value is real.</div>
@@ -117,7 +117,7 @@ layout: two-cols
 
 <div class="sp-kicker">What is inside</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - **The AP Diagnostic.** Where your teen actually stands against the real rubrics, not classroom grades.
@@ -151,7 +151,7 @@ layout: two-cols
 
 <div class="sp-kicker">And around it</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - **Live group classes and office hours** through the term.
@@ -225,7 +225,7 @@ layout: two-cols
 
 <div class="sp-kicker">Your free AP Game Plan Call</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - We map your teen's AP courses to <strong>possible college credit and merit aid.</strong>
@@ -269,7 +269,7 @@ class: nomark night
 
 <div class="sp-card bad mx-auto mt-8" style="max-width: 34rem;">
   <div class="sp-waylabel">BOOKING LINK NOT SET</div>
-  <div class="sp-card-t mt-2" style="font-size:1.1rem;">Replace before Aug 26. Verify the calendar has open slots.</div>
+  <div class="sp-card-t mt-2">Replace before Aug 26. Verify the calendar has open slots.</div>
 </div>
 </div>
 

@@ -22,7 +22,10 @@ info: |
   "results vary". Named students NABILA, LAURA, AVERY only. "Certified AP teacher",
   never "College Board certified". No National AP Scholar. No absolute claims.
   No em-dash character anywhere.
-transition: slide-left
+transition: none
+clickAnimation: fade-in up
+fonts:
+  provider: none
 mdc: true
 drawings:
   persist: false
@@ -39,7 +42,7 @@ class: text-center bleed
 
 <img src="/images/supported-logo.png" alt="SupportED Tutoring" class="w-52 mb-10 opacity-95" />
 
-<div class="sp-h1 sp-onimg" style="max-width: 24ch; font-size: 3.8rem;">The Back-to-School Game Plan</div>
+<div class="sp-h1 sp-onimg" style="max-width: 24ch;">The Back-to-School Game Plan</div>
 
 <div class="sp-say sp-onimg mt-5" style="color: #C5A55A;">That Turns a 3 Into a 5</div>
 
@@ -64,7 +67,7 @@ class: nomark night
 <!-- divider:S1 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Section 1</div>
+<div class="sp-kicker">Section 1</div>
 <div class="sp-h1 sp-onimg mx-auto">Pop Quiz</div>
 <div class="sp-rule"></div>
 <div class="sp-sub sp-onimg mx-auto">Five statements. Two of them will surprise you.</div>
@@ -86,7 +89,7 @@ class: nomark ink
 <!-- divider:S2 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Section 2</div>
+<div class="sp-kicker">Section 2</div>
 <div class="sp-h1 sp-onimg mx-auto">What Is Really Going On</div>
 <div class="sp-rule"></div>
 <div class="sp-sub sp-onimg mx-auto">This part is not about your teen. It is about a system that changed.</div>
@@ -109,7 +112,7 @@ class: nomark night
 <!-- divider:S3 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Section 3</div>
+<div class="sp-kicker">Section 3</div>
 <div class="sp-h1 sp-onimg mx-auto">Who Is Talking</div>
 <div class="sp-rule"></div>
 <div class="sp-sub sp-onimg mx-auto">Fair question. Short answer.</div>
@@ -131,7 +134,7 @@ class: nomark night
 <!-- divider:S4 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Section 4</div>
+<div class="sp-kicker">Section 4</div>
 <div class="sp-h1 sp-onimg mx-auto">The 3 Breakthroughs</div>
 <div class="sp-rule"></div>
 <div class="sp-sub sp-onimg mx-auto">That separate a 5 from a 3.</div>
@@ -154,9 +157,9 @@ class: nomark sun
 <!-- divider:S5 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#FFFFFF; opacity:0.85;">Section 5</div>
+<div class="sp-kicker">Section 5</div>
 <div class="sp-h1 sp-onimg mx-auto">Let's Do This Together</div>
-<div class="sp-rule" style="background:#FFFFFF;"></div>
+<div class="sp-rule"></div>
 <div class="sp-sub sp-onimg mx-auto">Two real essays. You grade them. Live.</div>
 </div>
 
@@ -177,7 +180,7 @@ class: nomark night
 <!-- divider:S6 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Section 6</div>
+<div class="sp-kicker">Section 6</div>
 <div class="sp-h1 sp-onimg mx-auto">Let's Lock In What Just Happened</div>
 <div class="sp-rule"></div>
 </div>
@@ -202,9 +205,9 @@ class: nomark sun
 <!-- divider:S8 -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#FFFFFF; opacity:0.85;">Section 8</div>
+<div class="sp-kicker">Section 8</div>
 <div class="sp-h1 sp-onimg mx-auto">The Back-to-School Game Plan</div>
-<div class="sp-rule" style="background:#FFFFFF;"></div>
+<div class="sp-rule"></div>
 <div class="sp-sub sp-onimg mx-auto">What we build with you, and how to get it.</div>
 </div>
 

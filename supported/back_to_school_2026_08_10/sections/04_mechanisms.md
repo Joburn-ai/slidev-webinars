@@ -34,7 +34,7 @@ class: bleed
 
 <!-- slide:053b — SCENE FRAME, lifted from the VSL render (scene 08_three_fixes). -->
 
-<img class="sp-bleed" src="/images/scene/08_three_fixes.png" alt="The same three fixes." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/08_three_fixes.png" alt="The same three fixes." />
 
 <!--
 SPOKEN: "And across all of them it came back to the same three fixes."
@@ -52,7 +52,7 @@ class: nomark night
 <!-- slide:054 — S4 · B1 marker. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Breakthrough 1</div>
+<div class="sp-kicker">Breakthrough 1</div>
 <div class="sp-h1 sp-onimg mx-auto">AP Insider Intelligence</div>
 <div class="sp-rule mx-auto"></div>
 </div>
@@ -71,7 +71,7 @@ layout: center
 <div class="sp-h1 mx-auto">The AP exam is not a content test.</div>
 
 <v-click>
-<div class="sp-h1 mt-8 mx-auto gold">It is a <strong>skill test.</strong></div>
+<div class="sp-h1 mt-8 mx-auto gold">It is a <span v-mark.circle.orange="2"><strong>skill test.</strong></span></div>
 </v-click>
 </div>
 
@@ -89,7 +89,7 @@ layout: two-cols
 
 <div class="sp-kicker">Why school cannot close this</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - Your teen's teacher covers <strong>content.</strong> That is their job.
@@ -154,14 +154,14 @@ layout: default
 <div class="sp-vs mt-8 mx-auto" style="max-width: 56rem;">
   <div class="sp-old">
     <div class="sp-waylabel">Content knowledge</div>
-    <div class="sp-card-t" style="font-size:1.35rem;">What the teacher covers</div>
+    <div class="sp-card-t">What the teacher covers</div>
     <div class="sp-card-s mt-3">Textbooks. Notes. Homework.</div>
     <div class="sp-card-s mt-4"><strong>Necessary, but not sufficient.</strong></div>
   </div>
   <div class="sp-vs-mid">+</div>
   <div class="sp-new">
     <div class="sp-waylabel">Exam performance</div>
-    <div class="sp-card-t" style="font-size:1.35rem;">What the grader scores</div>
+    <div class="sp-card-t">What the grader scores</div>
     <div class="sp-card-s mt-3">Skill application. Format. Strategy.</div>
     <div class="sp-card-s mt-4"><strong>This is where the points live.</strong></div>
   </div>
@@ -185,7 +185,7 @@ class: bleed
 
 <!-- slide:059 — S4 · B1. The diagnostic principle, full frame from the VSL render. -->
 
-<img class="sp-bleed" src="/images/vsl/slide_20_bloodwork.png" alt="Good medicine measures first. Run the blood work, read it, then prescribe." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/vsl/slide_20_bloodwork.png" alt="Good medicine measures first. Run the blood work, read it, then prescribe." />
 
 <!--
 SPOKEN: "Think about how good medicine works. Nobody prescribes before they've run the
@@ -206,7 +206,7 @@ class: bleed
 
 <!-- slide:059b — SCENE FRAME, lifted from the VSL render (scene 25_mrb). -->
 
-<img class="sp-bleed" src="/images/scene/25_mrb.png" alt="Measure. Read. Build. In that order." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/scene/25_mrb.png" alt="Measure. Read. Build. In that order." />
 
 <!--
 SPOKEN: "Measure. Read. Build. In that order. That order is the whole thing."
@@ -230,7 +230,7 @@ class: nomark sun
 <!--
 SPOKEN: "We call it the Rubric Flip."
 
-Gold ground, 2 of 3 in the deck. Naming the mechanism makes it ownable and repeatable.
+Gold ground. Naming the mechanism makes it ownable and repeatable.
 -->
 
 ---
@@ -259,7 +259,7 @@ class: bleed
 
 <!-- slide:062 — S4 · B1. The diagnostic, made concrete. Full frame. -->
 
-<img class="sp-bleed" src="/images/vsl/slide_22_step1.png" alt="Step one, measure. The AP Skills Diagnostic measures the exact skill the exam scores and shows where your child is losing points, before exam day." style="object-fit: contain; background:#1B365D;" />
+<img class="sp-bleed fit" src="/images/vsl/slide_22_step1.png" alt="Step one, measure. The AP Skills Diagnostic measures the exact skill the exam scores and shows where your child is losing points, before exam day." />
 
 <!--
 SPOKEN: "Step one is measure. We run an AP Skills Diagnostic. It measures the exact skill
@@ -277,7 +277,7 @@ layout: two-cols
 
 <div class="sp-kicker">Week one</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - A full diagnostic. Real practice exam, <strong>real conditions.</strong>
@@ -290,7 +290,7 @@ layout: two-cols
 </div>
 
 <v-click>
-<div class="sp-say mt-8" style="font-size:1.5rem;">Not "study harder". <strong>Study this. In this format. Because this earns points.</strong></div>
+<div class="sp-say mt-8">Not "study harder". <strong>Study this. In this format. Because this earns points.</strong></div>
 </v-click>
 
 ::right::
@@ -375,7 +375,7 @@ class: nomark night
 <!-- slide:067 — S4 · B2 marker. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Breakthrough 2</div>
+<div class="sp-kicker">Breakthrough 2</div>
 <div class="sp-h1 sp-onimg mx-auto">Response Mastery</div>
 <div class="sp-rule mx-auto"></div>
 </div>
@@ -392,7 +392,7 @@ layout: two-cols
 
 <div class="sp-kicker">Here is what happens on exam day</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - Your teen knows the content. They have studied.
@@ -488,7 +488,7 @@ class: nomark sun
 <!--
 SPOKEN: "We call them Response Blueprints."
 
-Gold ground, 3 of 3. This is the last gold slide before the close.
+Gold ground. The last gear-change before the demonstration.
 -->
 
 ---
@@ -499,7 +499,7 @@ layout: two-cols
 
 <div class="sp-kicker">A blueprint for every question type</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - How to write a DBQ that hits <strong>every rubric point.</strong>
@@ -538,7 +538,7 @@ layout: default
 <div>
 <div class="sp-kicker">Practised until it is automatic</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - Your teen practises until it is automatic.
@@ -617,7 +617,7 @@ class: nomark night
 <!-- slide:076 — S4 · B3 marker. -->
 
 <div class="text-center">
-<div class="sp-kicker" style="color:#C5A55A;">Breakthrough 3</div>
+<div class="sp-kicker">Breakthrough 3</div>
 <div class="sp-h1 sp-onimg mx-auto">Pre-Grade Confidence</div>
 <div class="sp-rule mx-auto"></div>
 </div>
@@ -656,7 +656,7 @@ layout: two-cols
 
 <div class="sp-kicker">Most students walk in blind</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - They have studied. They have done the homework.
@@ -690,7 +690,7 @@ class: nomark ink
 <!-- slide:079 — S4 · B3. The line that names the problem. -->
 
 <div class="text-center">
-<div class="sp-h1 sp-onimg mx-auto" style="font-size:4rem;">Hope is not a strategy.</div>
+<div class="sp-h1 sp-onimg mx-auto">Hope is not a strategy.</div>
 </div>
 
 <!--
@@ -710,7 +710,7 @@ layout: default
 <div class="sp-kicker">The mechanism</div>
 <div class="sp-h2">The Pre-Grade Confidence System</div>
 
-<div class="text-2xl mt-6">
+<div class="mt-6">
 <v-clicks>
 
 - <strong>Four or more</strong> full-length practice exams, real conditions.
@@ -732,15 +732,10 @@ layout: default
 </div>
 </div>
 
-<v-click>
-<div class="sp-h2 text-center mt-8 mx-auto">By practice exam four, <span class="gold">they know.</span></div>
-</v-click>
-
 <!--
 SPOKEN: "Four or more full length practice exams under real conditions. Scored against
 official rubrics by certified AP teachers. And after each one, a Score Forecast Report.
-Projected score, gaps named, and the drills to close them. By practice exam four, they
-know." [click x5]
+Projected score, gaps named, and the drills to close them." [click x4]
 
 🔴 SAY "CERTIFIED AP TEACHERS". Never "College Board certified".
 -->
@@ -749,6 +744,26 @@ know." [click x5]
 layout: default
 class: text-center
 ---
+
+---
+layout: center
+---
+
+<!-- slide:080b — S4 · B3. The payoff line, given its own frame.
+     SPLIT OUT 2026-08-15: it used to sit under the four-bullet split on 080. At the
+     corrected display size the column overflowed the frame by 8px — caught by
+     scripts/overflow_check.py, invisible to any scrollWidth assertion because Slidev
+     clips. The fix is a second slide, never a smaller headline. -->
+
+<div class="text-center">
+<div class="sp-h1 mx-auto">By practice exam four, <span class="gold">they know.</span></div>
+</div>
+
+<!--
+SPOKEN: "And by practice exam four, they know."
+
+Let it land on its own. This is the sentence the entire third breakthrough exists to earn.
+-->
 
 <!-- slide:081 — S4 · B3. The moment, made concrete. -->
 
@@ -796,7 +811,7 @@ layout: two-cols
 
 <div class="sp-kicker">One of our students</div>
 
-<div class="text-2xl mt-4">
+<div class="mt-4">
 <v-clicks>
 
 - A year-round athlete. Very little spare time.
