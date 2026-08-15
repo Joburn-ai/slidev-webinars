@@ -3,6 +3,52 @@
    (This deck was missing it until 2026-08-15.) */
 @import '../../styles/carbon-toolbar-icons.css';
 
+/* ─── TYPEFACES ────────────────────────────────────────────────────────────
+   🔴 SELF-HOSTED ON PURPOSE. This is a LIVE webinar deck. A Google Fonts @import
+   is one network hiccup away from the whole deck falling back to system-ui mid-
+   presentation, and nobody would notice until it was on screen. These are served
+   from public/fonts/, so the deck renders identically with the wifi unplugged.
+
+   🔴 THE PAIRING IS NOT A PREFERENCE, IT IS A MATCH. The VSL scene frames placed
+   full-bleed through this deck were rendered with Merriweather (display serif) and
+   Manrope (body sans) — the TTFs are in the VSL render's assets/fonts/. Using any
+   other pairing would make every full-bleed scene slide visibly clash with the
+   slide before it. Source of truth:
+     06_Clients/supported/05_assets_and_deliverables/vsl_v3_render/assets/fonts/
+
+   Both shipped as static instances cut from the variable originals (Merriweather
+   pinned wdth=100 opsz=32; weights we actually use only). 814KB total.
+
+   BEFORE THIS BLOCK EXISTED the deck declared `font-family: Inter` and never loaded
+   Inter, so every slide silently rendered in system-ui. That is what "the fonts look
+   generic" was. */
+@font-face {
+  font-family: 'Merriweather'; font-style: normal; font-weight: 700; font-display: block;
+  src: url('/fonts/Merriweather-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Merriweather'; font-style: normal; font-weight: 900; font-display: block;
+  src: url('/fonts/Merriweather-900.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Manrope'; font-style: normal; font-weight: 400; font-display: block;
+  src: url('/fonts/Manrope-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Manrope'; font-style: normal; font-weight: 600; font-display: block;
+  src: url('/fonts/Manrope-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Manrope'; font-style: normal; font-weight: 800; font-display: block;
+  src: url('/fonts/Manrope-800.woff2') format('woff2');
+}
+
+:root {
+  --display: 'Merriweather', Georgia, 'Times New Roman', serif;
+  --body: 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+
 /* =============================================================================
    SUPPORTED — BACK-TO-SCHOOL WEBINAR · STYLE SYSTEM v2
    LIFTED, NOT INVENTED. Provenance of every block is marked.
@@ -56,7 +102,7 @@
 .slidev-layout {
   background: var(--paper);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--body);
   padding: 2.4rem 3.2rem;
   position: relative;          /* absolute children must not escape to the viewport */
   overflow: hidden;
@@ -121,8 +167,8 @@
 .sun .sp-kicker, .sun strong, .sun .gold { color: #FFFFFF; }
 .sun .sp-sub { color: rgba(255, 255, 255, 0.88); }
 
-h1 { color: var(--navy); font-weight: 900; line-height: 1.05; }
-h2 { color: var(--navy); font-weight: 700; }
+h1 { font-family: var(--display); color: var(--navy); font-weight: 900; line-height: 1.05; }
+h2 { font-family: var(--display); color: var(--navy); font-weight: 700; }
 strong { color: var(--navy); }
 
 /* ─── TYPE SCALE ───────────────────────────────────────────────────────────
@@ -141,8 +187,8 @@ strong { color: var(--navy); }
   font-size: 0.82rem; font-weight: 800; letter-spacing: 0.16em;
   text-transform: uppercase; color: var(--goldd); margin-bottom: 0.6rem;
 }
-.sp-h1  { font-size: 3.1rem;  line-height: 1.03; font-weight: 900; letter-spacing: -0.030em; text-wrap: balance; max-width: 20ch; color: var(--navy); }
-.sp-h2  { font-size: 2.3rem;  line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance; max-width: 26ch; color: var(--navy); }
+.sp-h1  { font-family: var(--display); font-size: 3.1rem;  line-height: 1.03; font-weight: 900; letter-spacing: -0.030em; text-wrap: balance; max-width: 20ch; color: var(--navy); }
+.sp-h2  { font-family: var(--display); font-size: 2.3rem;  line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance; max-width: 26ch; color: var(--navy); }
 .sp-say { font-size: 1.95rem; line-height: 1.22; font-weight: 700; letter-spacing: -0.015em; text-wrap: pretty;  max-width: 34ch; }
 .sp-sub { font-size: 1.35rem; line-height: 1.45; color: var(--fogd); max-width: 46ch; }
 .sp-cap { font-size: 1rem; color: var(--fogd); line-height: 1.4; margin-top: 0.6rem; }
@@ -232,9 +278,9 @@ strong { color: var(--navy); }
 :is(.night, .ink, .sun) .sp-card.gate { background: rgba(197, 165, 90, 0.22); border-color: var(--gold); }
 :is(.night, .ink, .sun) .sp-card-s { color: var(--cream); }
 
-.sp-stat  { font-size: 4.2rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; color: var(--navy); font-variant-numeric: tabular-nums; }
+.sp-stat  { font-family: var(--display); font-size: 4.2rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; color: var(--navy); font-variant-numeric: tabular-nums; }
 .sp-statl { font-size: 1rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--fogd); }
-.sp-num   { font-size: 5.6rem; font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; color: var(--gold); font-variant-numeric: tabular-nums; }
+.sp-num   { font-family: var(--display); font-size: 5.6rem; font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; color: var(--gold); font-variant-numeric: tabular-nums; }
 .sp-num.bad  { color: var(--red); }
 .sp-num.good { color: var(--green); }
 .sp-numlabel { font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fogd); }
@@ -259,8 +305,8 @@ strong { color: var(--navy); }
    and then only has to read the new sentence. */
 .sp-quiz { border: 2px solid var(--gold); border-radius: 16px; padding: 1.8rem 2.2rem; background: rgba(197, 165, 90, 0.12); }
 .sp-quiz-n { font-size: 0.85rem; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.9rem; }
-.sp-quiz-q { font-size: 2rem; line-height: 1.2; font-weight: 700; max-width: 32ch; }
-.sp-verdict { font-size: 6rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; }
+.sp-quiz-q { font-family: var(--display); font-size: 2rem; line-height: 1.2; font-weight: 700; max-width: 32ch; }
+.sp-verdict { font-family: var(--display); font-size: 6rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1; }
 .sp-verdict.f { color: var(--red); }
 .sp-verdict.t { color: var(--green); }
 
@@ -287,7 +333,7 @@ strong { color: var(--navy); }
 .navy { color: var(--navy); }
 .red { color: var(--red); }
 .green { color: var(--green); }
-.big-number { font-size: 5rem; font-weight: 900; color: var(--gold); }
+.big-number { font-family: var(--display); font-size: 5rem; font-weight: 900; color: var(--gold); }
 .highlight { background: rgba(197, 165, 90, 0.13); padding: 0.5rem 1rem; border-radius: 0.5rem; border-left: 4px solid var(--gold); }
 
 /* ─── THE CORNER WATERMARK ─────────────────────────────────────────────────
