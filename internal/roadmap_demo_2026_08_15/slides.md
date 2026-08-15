@@ -1,9 +1,11 @@
 ---
 theme: default
-title: "Roadmap Demo — Your 72-Hour Window"
+title: "Roadmap Demo — Two Paths, Three Gates"
 info: |
   The explainer at the top of the roadmap. Plays after password entry.
-  Built on the frozen FF DECK SYSTEM v1. See _VISUAL_MAP.md.
+  Two paths (quick / deep), three gates (problem / solution / path), reward on completion.
+  Roadmap + gate screenshots are PLACEHOLDERS — the roadmap redesign fills them.
+  Goodie screenshots are REAL (from the bonus PDF). Built on frozen FF DECK SYSTEM v1.
 class: peak
 colorSchema: light
 transition: none
@@ -18,10 +20,7 @@ layout: center
 <div class="rt-tag live">LIVE · 72:00:00</div>
 <div class="rt-h1 mt-8">That countdown is real.<br>You just started it.</div>
 
-<!--
-SPOKEN: That countdown at the top of the page? It is real. And you just started it.
-TEMPO: FRAME. Let it land.
--->
+<!-- SPOKEN: That countdown at the top of the page is real. And you just started it. -->
 
 ---
 layout: center
@@ -34,9 +33,7 @@ class: peak
 <div class="rt-numlabel mt-4">your window · running now</div>
 <div class="rt-say mt-10 mx-auto">The second you typed your password, the clock began.</div>
 
-<!--
-SPOKEN: The second you typed your password, your seventy-two hours began.
--->
+<!-- SPOKEN: The second you typed your password, your seventy-two hours began. -->
 
 ---
 layout: center
@@ -45,11 +42,9 @@ class: peak
 
 <!-- slide:demo-03 -->
 
-<div class="rt-say mx-auto">It only runs forward. There is no pause button.</div>
+<div class="rt-say mx-auto">Finish inside the window, and the reward is yours.</div>
 
-<!--
-SPOKEN: It only runs forward. No pause button.
--->
+<!-- SPOKEN: Finish inside that window, and you unlock a reward. More on that in a second. -->
 
 ---
 layout: center
@@ -57,28 +52,32 @@ layout: center
 
 <!-- slide:demo-04 -->
 
-<div class="rt-kicker">The deal</div>
-<div class="rt-h1 mt-6">Here is what you unlocked.</div>
+<div class="rt-kicker">First, a choice</div>
+<div class="rt-h1 mt-6">Two ways through this.</div>
 
-<!--
-SPOKEN: So here is exactly what you just unlocked.
-TEMPO: divider, pace up from here.
--->
+<!-- SPOKEN: But first, a choice. There are two ways through this. -->
 
 ---
-layout: center
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:demo-05 -->
 
-<div class="rt-card gate mx-auto" style="max-width: 34rem;">
-  <div class="rt-card-t">Work through your roadmap.</div>
-  <div class="rt-card-s mt-3">Hit three checkpoints. Inside 72 hours.</div>
+<div class="rt-grid c2 mt-4">
+  <div class="rt-card">
+    <span class="path-tag rec">The quick way</span>
+    <div class="rt-card-t" style="margin-top:0.9rem;">Short on time?</div>
+    <div class="rt-card-s mt-2">The condensed version. The core of how to solve your problem, and get to the outcome you came for.</div>
+  </div>
+  <div class="rt-card">
+    <span class="path-tag deep">The deep way</span>
+    <div class="rt-card-t" style="margin-top:0.9rem;">Got the space?</div>
+    <div class="rt-card-s mt-2">The full roadmap. Every move, in order, for when you have the time, energy, and attention to go all in.</div>
+  </div>
 </div>
 
-<!--
-SPOKEN: Work through your roadmap, hit three checkpoints, all inside seventy-two hours.
--->
+<!-- SPOKEN: Path one, the quick way, condensed, for when you are genuinely short on time. Path two, the deep way, the full roadmap, when you can go all in. -->
 
 ---
 layout: center
@@ -87,32 +86,20 @@ class: peak
 
 <!-- slide:demo-06 -->
 
-<div class="rt-say mx-auto">The checkpoints are not <span class="rt-strike">tests</span>.</div>
+<div class="rt-h1 mx-auto">We won't judge you on your situation.</div>
+<div v-click class="rt-say mt-8" style="color: var(--gold);">You know it better than we do. Choose.</div>
 
-<!--
-SPOKEN: Now, the checkpoints are not tests.
--->
+<!-- SPOKEN: We are not going to judge you based on your situation. You understand it better than we do. So make the call. CLICK: 1 -->
 
 ---
-layout: default
-class: flex flex-col justify-center
+layout: center
 ---
 
 <!-- slide:demo-07 -->
 
-<div class="rt-split auto">
-  <div>
-    <div class="rt-kicker">Each checkpoint</div>
-    <div class="rt-h2 mt-4">Asks you one thing.</div>
-  </div>
-  <div class="rt-visual">
-    <div class="rt-card"><div class="rt-card-t">One question.</div><div class="rt-card-s mt-2">Thirty seconds. That is the whole ask.</div></div>
-  </div>
-</div>
+<div class="rt-say mx-auto" style="color: var(--teal);">Genuinely slammed? Take the quick way. You still get the fix.</div>
 
-<!--
-SPOKEN: Each one asks you a single thing. Thirty seconds.
--->
+<!-- SPOKEN: If you are genuinely slammed, honestly, take the quick way. You still walk away with the core of how to solve this. -->
 
 ---
 layout: center
@@ -121,12 +108,10 @@ class: peak
 
 <!-- slide:demo-08 -->
 
-<div class="rt-num" style="font-size: 3.6rem; max-width: 26ch; margin: 0 auto; line-height: 1.05;">Did we nail where you are actually stuck?</div>
+<div class="rt-kicker">Either path</div>
+<div class="rt-h1 mt-6">Three gates.</div>
 
-<!--
-SPOKEN: Did we nail where you are actually stuck?
-TEMPO: STOP. This is the core question. Let it sit.
--->
+<!-- SPOKEN: And either path takes you through the same three gates. -->
 
 ---
 layout: default
@@ -135,61 +120,69 @@ class: flex flex-col justify-center
 
 <!-- slide:demo-09 -->
 
-<div class="rt-split flip auto">
+<div class="rt-split auto">
   <div>
-    <div class="rt-h2">Read it back to us.</div>
-    <div class="rt-sub mt-5">Honestly. It is feedback, not a grade.</div>
+    <div class="rt-kicker">Gate one</div>
+    <div class="rt-h2 mt-4">Understand the problem.</div>
+    <div class="rt-sub mt-5">Your constraint, named. The real one, not the symptom.</div>
   </div>
   <div class="rt-visual">
-    <div style="display:flex; flex-direction:column; gap:0.8rem; width:100%;">
-      <div class="rt-card good"><div class="rt-card-t">Nailed it</div></div>
-      <div class="rt-card bad"><div class="rt-card-t">You missed</div></div>
-    </div>
+    <div class="shot-ph"><div><div class="lab">Roadmap screenshot</div><div class="cap">The constraint page. Drop the real capture here.</div></div></div>
   </div>
 </div>
 
-<!--
-SPOKEN: Read it back to us. Honestly.
--->
-
----
-layout: center
----
-
-<!-- slide:demo-10 -->
-
-<div class="rt-h1 mx-auto">If we missed, say so.</div>
-
-<!--
-SPOKEN: And if we missed, say so.
--->
-
----
-layout: center
----
-
-<!-- slide:demo-11 -->
-
-<div class="rt-say mx-auto">That is how this gets sharper.</div>
-
-<!--
-SPOKEN: That is how this whole thing gets sharper.
--->
+<!-- SPOKEN: Gate one, understand the problem. Your actual constraint, named. -->
 
 ---
 layout: default
 class: flex flex-col justify-center
 ---
 
+<!-- slide:demo-10 -->
+
+<div class="rt-split flip auto">
+  <div>
+    <div class="rt-kicker">Gate two</div>
+    <div class="rt-h2 mt-4">Understand the solution.</div>
+    <div class="rt-sub mt-5">The moves that fix it, in the order they actually work.</div>
+  </div>
+  <div class="rt-visual">
+    <div class="shot-ph"><div><div class="lab">Roadmap screenshot</div><div class="cap">The plan / the moves. Drop the real capture here.</div></div></div>
+  </div>
+</div>
+
+<!-- SPOKEN: Gate two, understand the solution. The moves that fix it, in order. -->
+
+---
+layout: default
+class: flex flex-col justify-center
+---
+
+<!-- slide:demo-11 -->
+
+<div class="rt-split auto">
+  <div>
+    <div class="rt-kicker">Gate three</div>
+    <div class="rt-h2 mt-4">See your path forward.</div>
+    <div class="rt-sub mt-5">Your next steps, your real options, and the honest alternatives.</div>
+  </div>
+  <div class="rt-visual">
+    <div class="shot-ph"><div><div class="lab">Roadmap screenshot</div><div class="cap">The pathways / next steps. Drop the real capture here.</div></div></div>
+  </div>
+</div>
+
+<!-- SPOKEN: Gate three, see your path forward. Your next steps, your options, and the honest alternatives. -->
+
+---
+layout: center
+class: peak
+---
+
 <!-- slide:demo-12 -->
 
-<div class="rt-h2">The next person through gets a better version.</div>
-<div v-click class="rt-say mt-8" style="color: var(--teal);">Because you did.</div>
+<div class="rt-say mx-auto">Pass all three inside your 72 hours.</div>
 
-<!--
-SPOKEN: The next person who comes through gets a better version. Because you did.
-CLICK: 1, on "because you did".
--->
+<!-- SPOKEN: Pass all three, inside your seventy-two hours. -->
 
 ---
 layout: center
@@ -198,259 +191,120 @@ class: peak
 
 <!-- slide:demo-13 -->
 
-<div class="rt-h1 mx-auto">You are helping someone<br>you will never meet.</div>
+<div class="rt-kicker" style="color: var(--gold);">What you get</div>
+<div class="rt-h1 mt-6">Your reward.</div>
 
-<!--
-SPOKEN: You are helping someone you will never meet.
-TEMPO: LAND.
--->
+<!-- SPOKEN: And here is what you get for finishing. -->
 
 ---
-layout: center
-class: peak
+layout: default
+class: flex flex-col justify-center
 ---
 
 <!-- slide:demo-14 -->
-
-<div class="rt-kicker">Why 72 hours</div>
-<div class="rt-h1 mt-6">Why not a week?</div>
-
-<!--
-SPOKEN: So why seventy-two hours, and not a week?
-TEMPO: rehook.
--->
-
----
-layout: default
-class: flex flex-col justify-center
----
-
-<!-- slide:demo-15 -->
-
-<div class="rt-grid c2 mt-4">
-  <div class="rt-card bad"><div class="rt-card-t">Give it longer</div><div class="rt-card-s mt-2">and you forget.</div></div>
-  <div class="rt-card bad"><div class="rt-card-t">Give it less</div><div class="rt-card-s mt-2">and life gets in the way.</div></div>
-</div>
-
-<!--
-SPOKEN: Give it longer, you forget. Give it less, life gets in the way.
--->
-
----
-layout: center
----
-
-<!-- slide:demo-16 -->
-
-<div class="rt-say mx-auto" style="color: var(--teal);">72 hours is the honest sweet spot.</div>
-
-<!--
-SPOKEN: Seventy-two hours is the honest sweet spot.
--->
-
----
-layout: center
----
-
-<!-- slide:demo-17 -->
-
-<div class="rt-h1 mx-auto">Do it, and you have proven something.</div>
-
-<!--
-SPOKEN: Do this inside the window, and you have proven something.
--->
-
----
-layout: center
-class: peak
----
-
-<!-- slide:demo-18 -->
-
-<div class="rt-h1 mx-auto">Not to us. To yourself.</div>
-<div v-click class="rt-say mt-8" style="color: var(--gold);">That you are an action-taker.</div>
-
-<!--
-SPOKEN: Not to us. To yourself. That you are an action-taker.
-CLICK: 1.
-TEMPO: STOP.
--->
-
----
-layout: center
----
-
-<!-- slide:demo-19 -->
-
-<div class="rt-say mx-auto">And those are the people this works for.</div>
-
-<!--
-SPOKEN: And those are exactly the people this works for.
--->
-
----
-layout: center
-class: peak
----
-
-<!-- slide:demo-20 -->
-
-<div class="rt-kicker" style="color: var(--gold);">What you get</div>
-<div class="rt-h1 mt-6">Here is your reward.</div>
-
-<!--
-SPOKEN: And here is what you get for finishing.
-TEMPO: FRAME.
--->
-
----
-layout: default
-class: flex flex-col justify-center
----
-
-<!-- slide:demo-21 -->
 
 <div class="rt-split auto">
   <div>
     <div class="rt-kicker">The reward</div>
     <div class="rt-h2 mt-4">A done-for-you ad.</div>
-    <div class="rt-sub mt-5">Written for your funnel. You do nothing.</div>
+    <div class="rt-sub mt-5">Written for your funnel. You do nothing but finish.</div>
   </div>
   <div class="rt-visual">
-    <div class="rt-proofcard"><div class="rt-card-t">Your ad</div><div class="rt-card-s mt-2">Built off proven messaging, not a template.</div></div>
+    <div class="shot-ph"><div><div class="lab">Reward preview</div><div class="cap">The ad we write you. Sample drops here.</div></div></div>
   </div>
 </div>
 
-<!--
-SPOKEN: A done-for-you ad, written for your funnel.
--->
+<!-- SPOKEN: A done-for-you ad, written for your funnel. -->
 
 ---
 layout: center
 class: peak
 ---
 
-<!-- slide:demo-22 -->
+<!-- slide:demo-15 -->
 
 <div class="rt-num">$500K-$1M</div>
 <div class="rt-numlabel mt-4">driven by this exact messaging</div>
 
-<!--
-SPOKEN: Built off the exact messaging that has driven between five hundred thousand and a million dollars.
-TEMPO: STOP.
--->
+<!-- SPOKEN: Built off the exact messaging that has driven between five hundred thousand and a million dollars. TEMPO: STOP -->
 
 ---
 layout: center
 class: peak
 ---
 
-<!-- slide:demo-23 -->
+<!-- slide:demo-16 -->
 
 <div class="rt-h1 mx-auto">In <span class="rt-strike">pipeline</span>?</div>
 <div v-click class="rt-say mt-8" style="color: var(--teal);">Closed. Money in the door.</div>
 
-<!--
-SPOKEN: Not pipeline. Closed. Actual money in the door.
-CLICK: 1.
--->
+<!-- SPOKEN: Not pipeline. Closed. Actual money in the door. CLICK: 1 -->
 
 ---
 layout: default
 class: flex flex-col justify-center
 ---
 
-<!-- slide:demo-24 -->
+<!-- slide:demo-17 -->
 
 <div class="rt-kicker">We build it for you, on two conditions</div>
 <div class="rt-grid c2 mt-8">
-  <div class="rt-card"><div class="rt-card-t">You finish.</div><div class="rt-card-s mt-2">All three checkpoints.</div></div>
+  <div class="rt-card"><div class="rt-card-t">You finish.</div><div class="rt-card-s mt-2">Either path counts.</div></div>
   <div class="rt-card"><div class="rt-card-t">Inside 72 hours.</div><div class="rt-card-s mt-2">The window you just started.</div></div>
 </div>
 
-<!--
-SPOKEN: We build it for you. On two conditions. You finish, and you do it inside your seventy-two hours.
--->
+<!-- SPOKEN: We build it for you, on two conditions. You finish, either path, inside your seventy-two hours. -->
 
 ---
-layout: center
+layout: default
+class: flex flex-col justify-center
 ---
 
-<!-- slide:demo-25 -->
+<!-- slide:demo-18 -->
 
-<div class="rt-tag warn">the clock is running</div>
-<div class="rt-h1 mt-6 mx-auto">Finish inside the window.</div>
+<div class="rt-kicker">And the goodies are yours to keep</div>
+<div class="rt-h2 mt-3">Real tools, not theory.</div>
+<div class="rt-grid c2 mt-6">
+  <div class="shot-frame"><img src="/img/goodie-a-1.png" alt="The Funnel Diagnostic Walkthrough, cover"></div>
+  <div class="shot-frame"><img src="/img/goodie-b-3.png" alt="The Funnel Diagnostic Walkthrough, the ten gates"></div>
+</div>
 
-<!--
-SPOKEN: So finish inside the window.
--->
+<!-- SPOKEN: And the goodies are yours to keep either way. Real tools, built by us. This is one of them. -->
 
 ---
 layout: center
 class: peak
 ---
 
-<!-- slide:demo-26 -->
+<!-- slide:demo-19 -->
 
-<div class="rt-grid c3 items-end">
-  <div class="text-center"><div class="rt-stat">3</div><div class="rt-numlabel mt-2">checkpoints</div></div>
+<div class="rt-grid c4 items-end">
+  <div class="text-center"><div class="rt-stat">2</div><div class="rt-numlabel mt-2">paths</div></div>
+  <div class="text-center"><div class="rt-stat">3</div><div class="rt-numlabel mt-2">gates</div></div>
   <div class="text-center"><div class="rt-stat">72</div><div class="rt-numlabel mt-2">hours</div></div>
   <div class="text-center"><div class="rt-stat">1</div><div class="rt-numlabel mt-2">reward</div></div>
 </div>
 
-<!--
-SPOKEN: Three checkpoints. Seventy-two hours. One reward.
-TEMPO: LAND.
--->
+<!-- SPOKEN: Two paths, three gates, seventy-two hours, one reward. TEMPO: LAND -->
 
 ---
 layout: center
 ---
 
-<!-- slide:demo-27 -->
+<!-- slide:demo-20 -->
 
-<div class="rt-h1 mx-auto">Scroll down. Start reading.</div>
+<div class="rt-h1 mx-auto">Pick your path. Start reading.</div>
 
-<!--
-SPOKEN: So scroll down, and start reading.
--->
-
----
-layout: default
-class: flex flex-col justify-center
----
-
-<!-- slide:demo-28 -->
-
-<div class="rt-split flip auto">
-  <div>
-    <div class="rt-h2">Watch them light up as you go.</div>
-  </div>
-  <div class="rt-visual">
-    <div style="display:flex; flex-direction:column; gap:0.8rem; width:100%;">
-      <div class="rt-card good"><div class="rt-card-t">Checkpoint one</div></div>
-      <div class="rt-card"><div class="rt-card-t">Checkpoint two</div></div>
-      <div class="rt-card"><div class="rt-card-t">Checkpoint three</div></div>
-    </div>
-  </div>
-</div>
-
-<!--
-SPOKEN: And watch the checkpoints light up as you go.
-CLICK: none. The first mark is pre-lit (good) to show the state.
--->
+<!-- SPOKEN: So pick your path, and start reading. -->
 
 ---
 layout: center
 class: peak
 ---
 
-<!-- slide:demo-29 -->
+<!-- slide:demo-21 -->
 
 <div class="rt-tag live">72:00:00 · running</div>
 <div class="rt-h1 mt-8 mx-auto">Let's go.</div>
 
-<!--
-SPOKEN: Let's go.
-TEMPO: LAND. Hold two seconds, then cut.
--->
+<!-- SPOKEN: Let's go. TEMPO: LAND, hold two seconds, cut. -->
