@@ -40,19 +40,35 @@ class: text-center bleed
 
 <div class="relative h-full flex flex-col items-center justify-center">
 
-<img src="/images/supported-logo.png" alt="SupportED Tutoring" class="w-52 mb-10 opacity-95" />
+<img src="/images/supported-logo.png" alt="SupportED Tutoring" class="w-36 mb-6 opacity-95" />
 
-<div class="sp-h1 sp-onimg" style="max-width: 24ch;">The Back-to-School Game Plan</div>
+<div class="sp-h1 sp-onimg mx-auto">The Back-to-School Game Plan</div>
 
-<div class="sp-say sp-onimg mt-5" style="color: #C5A55A;">That Turns a 3 Into a 5</div>
+<div class="sp-say sp-onimg mt-4 mx-auto" style="color:#D8BC77;">How to turn a 3 into a 5 on the AP exam</div>
 
-<div class="sp-sub sp-onimg mt-10" style="opacity: 0.75;">Starting in 2 minutes</div>
+<div class="sp-cover-host mt-8">
+  <img class="sp-portrait round" src="/images/dr-joe.jpg" alt="Dr Joe Sebestyen" />
+  <div class="text-left">
+    <div class="sp-name sp-onimg">Dr. Joe Sebestyen</div>
+    <div class="sp-role" style="color:#D8BC77;">Doctorate in Educational Leadership</div>
+  </div>
+</div>
+
+<div class="sp-sub sp-onimg mt-8 mx-auto" style="opacity:0.75;">Starting in 2 minutes</div>
 
 </div>
 
 <!--
 🔴 HOLDING SLIDE. Music up, camera off. Do not start on this slide — advance once, then
 go live. Nothing is spoken here.
+
+🔴 THE OUTCOME LINE IS A LIVE DECISION. John, 2026-08-15: "the back to school game plan
+that GUARANTEES a five on the AP exam. We just want the outcome very, very clear."
+This currently reads "How to turn a 3 into a 5 on the AP exam", which states the outcome
+without promising it. See the note at the top of slides.md before changing it.
+
+Joe's face is on the cover per the same review, so the room knows who is talking before
+he opens his mouth.
 -->
 
 ---

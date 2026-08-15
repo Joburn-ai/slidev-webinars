@@ -324,15 +324,23 @@ h2, .sp-h2 {
   border: 1px solid var(--fog); box-shadow: 0 14px 38px rgba(27, 54, 93, 0.22);
   display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 18%;
 }
-.sp-name  { font-size: 1.15rem; font-weight: 800; letter-spacing: -0.01em; margin-top: 0.6rem; }
-.sp-role  { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; color: var(--goldd); margin-top: 0.2rem; }
-:is(.night, .ink, .sun) .sp-role { color: var(--gold); }
+.sp-portrait.round { border-radius: 50%; aspect-ratio: 1 / 1; }
+.sp-name  { font-family: var(--body); font-size: var(--t-lead); font-weight: 700; letter-spacing: -0.01em; margin-top: 0.6rem; line-height: 1.2; }
+.sp-role  { font-family: var(--body); font-size: var(--t-label); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--goldi); margin-top: 0.2rem; }
+:is(.night, .ink) .sp-role { color: var(--goldl); }
+.sun .sp-role { color: var(--navy); }
+
+/* Cover host block: face beside name, so the room knows who is talking before he speaks. */
+.sp-cover-host { display: flex; align-items: center; gap: 1.1rem; }
+.sp-cover-host .sp-portrait { width: 96px; flex: none; border-color: rgba(255,255,255,0.35); }
+.sp-cover-host .sp-name { margin-top: 0; }
+.sp-cover-host .sp-role { margin-top: 3px; }
 
 /* ─── CARDS, STATS, CONTRAST ───────────────────────────────────────────── */
 .sp-card { background: #F5F6F8; border: 1px solid var(--fog); border-radius: 10px; padding: 1.1rem 1.25rem; }
 .sp-card.good { background: #E4F4EA; border-color: var(--green); border-width: 2px; }
 .sp-card.bad  { background: #FBE6E3; border-color: var(--red);   border-width: 2px; }
-.sp-card.gate { background: #FAF2DF; border-color: var(--goldd); border-width: 2px; }
+.sp-card.gate { background: #FAF2DF; border-color: var(--goldi); border-width: 2px; }
 .sp-card-t { font-family: var(--body); font-size: var(--t-lead); font-weight: 700; letter-spacing: -0.01em; line-height: 1.25; }
 .sp-card-s { font-family: var(--body); font-size: var(--t-body); font-weight: 400; color: var(--fogd); line-height: 1.4; }
 
@@ -385,8 +393,26 @@ h2, .sp-h2 {
 .sp-rubric .b { background: #E4F4EA; border: 1px solid var(--green); text-align: center; font-weight: 800; }
 
 /* ─── MISC ─────────────────────────────────────────────────────────────── */
-.sp-chip { display: inline-block; background: rgba(197, 165, 90, 0.18); border: 1px solid var(--gold); color: var(--goldd); border-radius: 999px; padding: 0.28rem 0.85rem; font-size: 0.95rem; font-weight: 700; margin: 0.2rem 0.25rem; }
+.sp-chip { display: inline-block; background: rgba(197, 165, 90, 0.18); border: 1px solid var(--gold); color: var(--goldi); border-radius: 999px; padding: 0.28rem 0.85rem; font-size: 0.95rem; font-weight: 700; margin: 0.2rem 0.25rem; }
 :is(.night, .ink) .sp-chip { color: var(--goldl); }
+/* 🔴 THE CALLOUT BAR. John 2026-08-15: the pen ask needs "a reminder call out at the top
+   with like an exclamation marker", because getting a pen into their hand is what turns a
+   viewer into a participant. Loud on purpose. */
+.sp-callout {
+  display: inline-flex; align-items: center; gap: .6rem;
+  background: var(--gold); color: var(--ink);
+  font-family: var(--body); font-weight: 700; font-size: var(--t-label);
+  letter-spacing: .06em; text-transform: uppercase;
+  padding: .55rem 1.4rem .55rem 1.1rem; border-radius: 999px;
+  box-shadow: 0 8px 26px rgba(0,0,0,.35);
+}
+.sp-callout::before {
+  content: '!'; display: inline-flex; align-items: center; justify-content: center;
+  width: 1.45em; height: 1.45em; border-radius: 50%;
+  background: var(--navy); color: var(--gold);
+  font-family: var(--display); font-weight: 900; font-size: .95em; line-height: 1;
+}
+
 .sp-rule { height: 3px; width: 68px; background: var(--gold); border-radius: 2px; margin: 1rem 0; }
 .text-center .sp-rule { margin-left: auto; margin-right: auto; }
 .sp-fine { font-family: var(--body); font-size: var(--t-micro); font-weight: 700; color: var(--fogd); line-height: 1.35; }

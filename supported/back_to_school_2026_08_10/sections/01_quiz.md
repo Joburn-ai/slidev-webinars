@@ -2,13 +2,20 @@
 layout: two-cols
 ---
 
-<!-- slide:006 — S1. Frame the quiz. It is for the PARENT, and that reframe is the hook. -->
+<!-- slide:006 — S1. MERGED opener: the reframe and the rules on one slide.
+     John 2026-08-15: "now we have redundant slide seven and slide eight kind of serve the
+     same purpose." They did — one said "a pop quiz, not for your teen, for you" and the
+     next said "five true or false statements, type T or F". Same job, two frames. -->
 
 <div class="sp-kicker">Before anything else</div>
-<div class="sp-h2">A pop quiz.</div>
+<div class="sp-h2">Five true or false statements.</div>
 
 <v-click>
 <div class="sp-say mt-8">Not for your teen. For <strong>you.</strong></div>
+</v-click>
+
+<v-click>
+<div class="sp-sub mt-6">Type <strong>T</strong> or <strong>F</strong> in the chat. At least two of these will surprise you.</div>
 </v-click>
 
 ::right::
@@ -18,36 +25,17 @@ layout: two-cols
 </div>
 
 <!--
-SPOKEN: "Before anything else, a pop quiz. Not for your teen. For you." [click]
+SPOKEN, verbatim off the January script: "Welcome everyone. To kick off, I have five simple
+true/false questions about AP exams and college admissions. Your answers are critical to
+your teen's college success and your family's financial future. I'll ask you a question and
+you type T for True or F for False in the chat. Ready? Let's see what you really know."
+[click] [click]
 
 🔴 THE REFRAME IS THE HOOK. They came expecting to hear about their kid. Landing it on
 THEM is the pattern interrupt. Say "for you" slowly and let it sit for a beat.
--->
 
----
-layout: center
----
-
-<!-- slide:007 — S1. Set the rules and pre-frame the surprise. -->
-
-<div class="text-center">
-<div class="sp-h1 mx-auto">Five True or False statements.</div>
-
-<v-click>
-<div class="sp-say mt-8 mx-auto">Type <strong>T</strong> or <strong>F</strong> in the chat.</div>
-</v-click>
-
-<v-click>
-<div class="sp-sub mt-6 mx-auto">At least two of these will surprise you.</div>
-</v-click>
-</div>
-
-<!--
-SPOKEN: "Five true or false statements. Type T or F in the chat. At least two of these
-will surprise you." [click] [click]
-
-"At least two will surprise you" is the open loop. It buys attention through all five.
-Do not skip it.
+"At least two of these will surprise you" is the open loop. It buys attention through all
+five. Do not skip it.
 -->
 
 ---
@@ -59,7 +47,7 @@ class: nomark night
 
 <div class="sp-quiz mx-auto" style="max-width: 46rem;">
 <div class="sp-quiz-n">Question 1 &middot; True or False</div>
-<div class="sp-quiz-q sp-onimg">The first report card of the year tells you whether your teen is on track for a 4 or a 5.</div>
+<div class="sp-quiz-q sp-onimg">Your teen's class grade and their first report card tell you whether they are on track for a 4 or a 5.</div>
 </div>
 
 <div class="sp-sub sp-onimg text-center mt-8" style="opacity:0.8;">Type T or F</div>
@@ -101,6 +89,10 @@ class: bleed text-center
 
 <div class="relative h-full flex flex-col items-center justify-center">
 <div class="sp-h1 sp-onimg mx-auto">This is the trap almost every family walks into.</div>
+
+<v-click>
+<div class="sp-say sp-onimg mt-8 mx-auto">Every single year. I have watched it happen over and over.</div>
+</v-click>
 </div>
 
 <!--
@@ -121,9 +113,9 @@ layout: two-cols
 <div>
 <v-clicks>
 
-- Early grades matter. But they measure the work your teen is <strong>already good at.</strong>
+- Early grades matter, and grades <strong>do</strong> matter. But they measure the work your teen is <strong>already good at.</strong>
 
-- The skills the AP exam rewards are barely taught in school, so early grades <strong>hide</strong> the gap.
+- So early grades <strong>hide</strong> the gap rather than reveal it.
 
 - Your teen walks into the fall <strong>reactive</strong> and spends the year catching up.
 
@@ -151,6 +143,45 @@ from reactive to ahead." [click x5]
 
 🔴 THIS IS THE SEASONAL URGENCY BEAT and it is the reason the webinar is in August rather
 than January. The deadline is the school calendar, not a countdown timer. Never invent one.
+-->
+
+---
+layout: default
+class: text-center
+---
+
+<!-- slide:011b — S1 · Q1. BLOOM'S TAXONOMY. Added on John's review 2026-08-15. -->
+
+<div class="sp-kicker">Why the class cannot show you</div>
+<div class="sp-h2 mx-auto">They are not even testing the same level of thinking.</div>
+
+<div class="sp-vs mt-10 mx-auto" style="max-width: 56rem;">
+  <div class="sp-old">
+    <div class="sp-waylabel">Most class work</div>
+    <div class="sp-card-t mt-2">Remember &middot; Understand</div>
+    <div class="sp-card-s mt-3">The bottom of Bloom's taxonomy. Recall it, explain it, hand it back.</div>
+  </div>
+  <div class="sp-vs-mid">VS</div>
+  <div class="sp-new">
+    <div class="sp-waylabel">The AP exam</div>
+    <div class="sp-card-t mt-2">Analyse &middot; Evaluate &middot; Create</div>
+    <div class="sp-card-s mt-3">The top of it. Build an argument, under time, on a problem they have never seen.</div>
+  </div>
+</div>
+
+<!--
+SPOKEN: "There's a reason for this, and it's not effort. Most class work sits at the bottom
+of Bloom's taxonomy: remember and understand. Recall it, explain it, hand it back. The AP
+exam lives at the top: analyse, evaluate, create. They are not testing the same level of
+thinking, so a grade at one level tells you almost nothing about performance at the other."
+
+🔴 ADDED ON JOHN'S REVIEW, 2026-08-15: "they talk about like, remember and understand, not
+the other levels of Bloom's taxonomy. I don't think we mention Bloom's taxonomy in here."
+We did not. It is the cleanest mechanical explanation in the whole deck for WHY the grade
+and the score come apart, and it is a framework parents half-recognise from school, which
+makes it land as explanation rather than as marketing.
+
+Keep it to one slide. Do not teach all six levels.
 -->
 
 ---

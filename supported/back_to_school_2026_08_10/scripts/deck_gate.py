@@ -51,7 +51,7 @@ BANNED = [
 # such exemption — that is the whole point of the gate.
 NOTE_FLAG_MARKERS = ('not cleared', 'do not say', 'do not reinstate', 'cut', 'banned',
                      'claim change', 'never say', 'never "', 'not in the cleared set',
-                     'claim rule', 'claim discipline', 'claim boundary', 'hard block',
+                     'claim rule', 'claim discipline', 'claim boundary', 'hard block', 'live decision',
                      'name removed', 'must not be', 'is not defensible', 'claim note')
 
 # 🔴 `{{FOO}}` is VUE INTERPOLATION in Slidev, not a literal placeholder: it evaluates
@@ -198,6 +198,16 @@ def main():
              if not re.sub(r'<!--.*?-->', '', b, flags=re.S).strip()]
     if empty:
         fails.append(f'G4b blank slides (frontmatter with no body): {empty}')
+
+    # ── G4c TWO SLIDES FUSED INTO ONE ─────────────────────────────────────
+    # 🔴 Inserting a slide without a trailing `---` separator silently FUSES it with the
+    # next one: two headlines, two bodies, one frame, and the orphaned frontmatter shows
+    # up elsewhere as a blank slide. Bit me twice on 2026-08-15. A slide carrying more
+    # than one `slide:NNN` marker comment is the tell.
+    fused = [i for i, (_, _, b) in enumerate(slides, 1)
+             if len(re.findall(r'<!--\s*slide:', b)) > 1]
+    if fused:
+        fails.append(f'G4c fused slides (missing --- separator): {fused}')
 
     # ── G5 assets exist ───────────────────────────────────────────────────
     missing = set()

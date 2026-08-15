@@ -760,6 +760,11 @@ SPOKEN: "And by practice exam four, they know."
 Let it land on its own. This is the sentence the entire third breakthrough exists to earn.
 -->
 
+---
+layout: default
+class: text-center
+---
+
 <!-- slide:081 — S4 · B3. The moment, made concrete. -->
 
 <div class="sp-kicker">Three weeks before the exam</div>
