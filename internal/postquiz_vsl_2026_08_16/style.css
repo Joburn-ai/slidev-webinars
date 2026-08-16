@@ -748,3 +748,20 @@
    slide 42, which overflowed the moment the caption moved above it. 54rem vs the
    default 64rem is ~16% less height, which is exactly the caption's block. */
 .rt-cap + .rt-cropbox { max-width: 54rem; }
+
+/* ── v2 TYPE-METRIC FIX, 2026-08-16 ─────────────────────────────────────────
+   🔴 THE "CLIPPED OUT WEIRDLY" BUG JOHN REPORTED, AND IT WAS ARITHMETIC.
+   Measured on the live deck: .rt-h1's line box was 6px SHORTER than its own
+   glyphs on all 76 instances, and .rt-big's was 26px shorter on 12. The display
+   face has taller ascenders and deeper descenders than the fallback these
+   line-heights were tuned against, and Slidev's overflow:hidden means the excess
+   is CLIPPED rather than scrolled -- so no scroll assertion could ever catch it.
+   Line-height alone is not enough: the padding is what gives the descender room
+   inside a flex column that has already computed its height. */
+.rt-h1  { line-height: 1.12; padding-bottom: 0.06em; }
+.rt-big { line-height: 0.98; padding-block: 0.04em 0.10em; }
+.rt-row3 .rt-big { padding-block: 0.04em 0.10em; }
+
+/* Framed evidence, never bleeding. A screenshot that bleeds reads as decoration;
+   framed reads as evidence. Used by the ("shot", ...) and ("wall", ...) kinds. */
+.rt-shot.wall { aspect-ratio: 16/10; object-fit: cover; object-position: top center; }

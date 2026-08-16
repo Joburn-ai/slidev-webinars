@@ -116,8 +116,31 @@ def esc(s):
 
 
 def build(choke_idx, title, consequence=None, team_choked=False, out_name="bowtie.svg",
-          beam=None, beam_label=None, show_ghost=True, seen_label=None):
+          beam=None, beam_label=None, show_ghost=True, seen_label=None,
+          show_stages=True, wings=False, ceiling=False, fade_downstream=False,
+          hatch=False, feedback=None):
     """beam: index of the stage an EXTERNAL cause is striking.
+
+    ── THE CONSTRAINT-CASCADE KWARGS (added 2026-08-16) ──────────────────────────
+    show_stages=False     drop the stage tick+label loop and the team-bar text, so the
+                          frame is the SHAPE alone (used to introduce the bowtie before
+                          any stage is named).
+    wings=True            NARROWS / THE KNOT / WIDENS brackets, ported from
+                          quiz-hub/scripts/build_roadmap_diagrams.py. They NAME the three
+                          regions of the shape; they do not argue. Drawn ONLY in the safe
+                          band y 92..200 (below the 80px crop, above the band at y 220).
+    ceiling=True          the literal lid: a dashed ember horizontal at the choke's own
+                          half-height, running from the choke to the right edge. Nothing
+                          downstream can be taller than the bottleneck passes.
+    fade_downstream=True  ticks + stage names after the choke drop to FOG/0.35 so the eye
+                          reads "past here nothing happens" before it reads a word.
+    hatch=True            45-degree ember hatch filling the gap between the healthy ghost
+                          band and the live band, DOWNSTREAM OF THE CHOKE ONLY -- the
+                          hatched area is the throughput the constraint is eating.
+    feedback=(f, t)       a routed dashed ember arrow from stage f back into stage t,
+                          i.e. back pressure. Routed BELOW everything (y 820, verified
+                          clear: the team bar ends at 788 and its text sits at 764) and
+                          jogged around the stage labels, never through one.
 
     John, 2026-08-11: "sometimes the constraint is sort of invisible... a foundational thing
     you're not even aware of, because you're looking at the mechanics of it but you're not
@@ -151,6 +174,35 @@ def build(choke_idx, title, consequence=None, team_choked=False, out_name="bowti
       '</linearGradient></defs>')
     a(f'<path d="{band_path(X, T)}" fill="url(#g)"/>')
 
+    # ── THE HATCH: the throughput the constraint is eating, downstream only ───────
+    # One evenodd path (ghost outline + live outline) gives the RING between them; a
+    # clip from the choke to the right edge keeps it downstream, where the loss is.
+    if hatch and choke_idx is not None:
+        cxh = X[choke_idx]
+        a('<defs>'
+          '<pattern id="hx" width="12" height="12" patternUnits="userSpaceOnUse" '
+          'patternTransform="rotate(45)">'
+          f'<line x1="0" y1="0" x2="0" y2="12" stroke="{EMBER}" stroke-width="3"/>'
+          '</pattern>'
+          f'<clipPath id="hxc"><rect x="{cxh:.1f}" y="0" width="{W-cxh:.1f}" height="{H}"/>'
+          '</clipPath></defs>')
+        a(f'<path d="{band_path(X, T_base)} {band_path(X, T)}" fill-rule="evenodd" '
+          f'fill="url(#hx)" opacity="0.10" clip-path="url(#hxc)"/>')
+
+    # ── THE WINGS: the three regions of the shape, named ──────────────────────────
+    if wings:
+        # Spans re-registered against THIS geometry. quiz-hub uses (0,1)/(2,3)/(4,8),
+        # which on a 1600-wide canvas puts the "THE KNOT" bracket ENDING at the pinch and
+        # its label centred out on the narrowing slope -- the word names the wrong piece
+        # of the shape. (0,2)/(2,4)/(4,8) tiles the whole span with no gaps and centres
+        # THE KNOT exactly on PAYMENT, which is where the knot actually is.
+        for i0, i1, label in ((0, 2, "NARROWS"), (2, 4, "THE KNOT"), (4, 8, "WIDENS")):
+            xa, xb = X[i0], X[i1]
+            a(f'<path d="M {xa:.1f} 192 L {xa:.1f} 180 L {xb:.1f} 180 L {xb:.1f} 192" '
+              f'fill="none" stroke="{FOG}" stroke-width="1.6"/>')
+            a(f'<text x="{(xa+xb)/2:.1f}" y="166" font-size="16" font-weight="800" '
+              f'fill="{FOGD}" text-anchor="middle" letter-spacing="1.8">{esc(label)}</text>')
+
     # Title
     a(f'<text x="{LEFT}" y="72" font-size="17" font-weight="800" letter-spacing="3.4" '
       f'fill="{TEAL}">THE BOWTIE SCAN</text>')
@@ -169,15 +221,32 @@ def build(choke_idx, title, consequence=None, team_choked=False, out_name="bowti
       f'letter-spacing="-1">{esc(title)}</text>')
 
     # Stage ticks + labels
-    for i, ((name, _), x, t) in enumerate(zip(STAGES, X, T)):
-        hh = half(t)
-        a(f'<line x1="{x:.1f}" y1="{MID-MAXHALF-14:.1f}" x2="{x:.1f}" y2="{MID+MAXHALF+14:.1f}" '
-          f'stroke="{FOG}" stroke-width="1" opacity="0.30"/>')
-        ty = MID + MAXHALF + 46
-        col = EMBER if (choke_idx is not None and i == choke_idx) else FOGD
-        wgt = 900 if (choke_idx is not None and i == choke_idx) else 700
-        a(f'<text x="{x:.1f}" y="{ty}" font-size="15" font-weight="{wgt}" fill="{col}" '
-          f'text-anchor="middle" letter-spacing="1.1">{esc(name)}</text>')
+    if show_stages:
+        for i, ((name, _), x, t) in enumerate(zip(STAGES, X, T)):
+            hh = half(t)
+            dim = fade_downstream and choke_idx is not None and i > choke_idx
+            # 🔴 The tick's own baseline opacity is 0.30. Downstream it goes to 0.12
+            # (0.30 x 0.35) -- writing the literal 0.35 onto the tick would make the dead
+            # half of the diagram BRIGHTER than the live half, which is the opposite of
+            # the instruction's intent. The 0.35 lands on the label text, as specified.
+            top_i = "0.12" if dim else "0.30"
+            a(f'<line x1="{x:.1f}" y1="{MID-MAXHALF-14:.1f}" x2="{x:.1f}" y2="{MID+MAXHALF+14:.1f}" '
+              f'stroke="{FOG}" stroke-width="1" opacity="{top_i}"/>')
+            ty = MID + MAXHALF + 46
+            col = EMBER if (choke_idx is not None and i == choke_idx) else FOGD
+            wgt = 900 if (choke_idx is not None and i == choke_idx) else 700
+            op = ' opacity="0.35"' if dim else ''
+            if dim:
+                col = FOG
+            a(f'<text x="{x:.1f}" y="{ty}" font-size="15" font-weight="{wgt}" fill="{col}"{op} '
+              f'text-anchor="middle" letter-spacing="1.1">{esc(name)}</text>')
+
+    # ── THE CEILING: the lid the constraint puts on everything after it ───────────
+    if ceiling and choke_idx is not None:
+        cxc, hhc = X[choke_idx], half(T[choke_idx])
+        a(f'<path d="M {cxc:.1f} {MID-hhc:.1f} L {RIGHT} {MID-hhc:.1f} '
+          f'M {cxc:.1f} {MID+hhc:.1f} L {RIGHT} {MID+hhc:.1f}" fill="none" '
+          f'stroke="{EMBER}" stroke-width="2" stroke-dasharray="6 5"/>')
 
     # The choke marker
     if choke_idx is not None:
@@ -190,19 +259,70 @@ def build(choke_idx, title, consequence=None, team_choked=False, out_name="bowti
             y = MID + sgn * (hh + 26)
             a(f'<path d="M {cx-30:.1f} {y - sgn*26:.1f} L {cx:.1f} {y:.1f} L {cx+30:.1f} {y - sgn*26:.1f}" '
               f'fill="none" stroke="{EMBER}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>')
-        a(f'<rect x="{cx-104:.1f}" y="{MID-MAXHALF-78:.1f}" width="208" height="40" rx="7" fill="{EMBER}"/>')
-        a(f'<text x="{cx:.1f}" y="{MID-MAXHALF-51:.1f}" font-size="16" font-weight="900" fill="{STAR}" '
+        # 🔴 The chip is centred on the choke, which hangs it off the canvas the moment the
+        # choke is stage 0 or stage 8 -- neither of which any earlier state used, so nothing
+        # caught it until ATTENTION got its own frame. Clamp to the left/right margins.
+        # This is a no-op for every pre-existing file: their chokes are 1,2,3,5,7, all of
+        # which already sit inside the clamp.
+        chip_x = min(max(cx - 104, LEFT - 24), RIGHT + 24 - 208)
+        a(f'<rect x="{chip_x:.1f}" y="{MID-MAXHALF-78:.1f}" width="208" height="40" rx="7" fill="{EMBER}"/>')
+        a(f'<text x="{chip_x+104:.1f}" y="{MID-MAXHALF-51:.1f}" font-size="16" font-weight="900" fill="{STAR}" '
           f'text-anchor="middle" letter-spacing="1.6">YOUR CONSTRAINT</text>')
 
     # Team / operations layer -- the script says plenty of businesses are not stuck on marketing.
     ty0 = MID + MAXHALF + 86
     tfill = EMBER if team_choked else FOG
     top_ = 0.16 if team_choked else 0.10
-    a(f'<rect x="{LEFT-24}" y="{ty0}" width="{RIGHT-LEFT+48}" height="62" rx="10" '
-      f'fill="{tfill}" opacity="{top_}" stroke="{tfill}" stroke-width="{3 if team_choked else 1}"/>')
-    a(f'<text x="{(LEFT+RIGHT)/2:.1f}" y="{ty0+38}" font-size="16" font-weight="800" '
-      f'fill="{EMBER if team_choked else FOGD}" text-anchor="middle" letter-spacing="2.2">'
-      f'TEAM &amp; DAY-TO-DAY OPERATIONS{" &#8212; THE CONSTRAINT" if team_choked else ""}</text>')
+    # On a back-pressure frame the loop lands ON operations, so the bar is ember-stroked
+    # (outline only -- the fill stays neutral, because the TEAM is not the constraint here,
+    # it is what absorbs the constraint).
+    if feedback is not None:
+        # 🔴 `opacity` on the rect fades the STROKE as well as the fill, so an ember outline
+        # written that way renders grey and the emphasis is silently lost -- exactly what the
+        # first render of this frame did. Use fill-opacity so only the fill is knocked back.
+        # Kept as a separate branch so the two pre-existing bar variants stay byte-identical.
+        a(f'<rect x="{LEFT-24}" y="{ty0}" width="{RIGHT-LEFT+48}" height="62" rx="10" '
+          f'fill="{tfill}" fill-opacity="{top_}" stroke="{EMBER}" stroke-width="3"/>')
+    else:
+        a(f'<rect x="{LEFT-24}" y="{ty0}" width="{RIGHT-LEFT+48}" height="62" rx="10" '
+          f'fill="{tfill}" opacity="{top_}" stroke="{tfill}" stroke-width="{3 if team_choked else 1}"/>')
+    if show_stages:
+        a(f'<text x="{(LEFT+RIGHT)/2:.1f}" y="{ty0+38}" font-size="16" font-weight="800" '
+          f'fill="{EMBER if team_choked else FOGD}" text-anchor="middle" letter-spacing="2.2">'
+          f'TEAM &amp; DAY-TO-DAY OPERATIONS{" &#8212; THE CONSTRAINT" if team_choked else ""}</text>')
+
+    # ── BACK PRESSURE: a routed feedback arrow from one stage into an earlier one ──
+    # 🔴 EVERY VERTEX HERE IS A CLEARANCE DECISION, not a shape preference:
+    #   y 820  -- the only free lane. Stage labels sit at 686, the team bar spans
+    #             726..788 and its text baseline is 764. 820 is under all of it and
+    #             still 40 above the calibrated H=860.
+    #   x +46 off the choke -- the choke draws a 5px ember rule and 60-wide pincers at
+    #             X[from]; starting on top of them reads as a thicker choke, not an arrow.
+    #   the right-hand descent at X[from]+252 -- threaded between the ACTIVATION label
+    #             (ends ~1030) and SUCCESS (starts ~1122), and clear of the team bar's
+    #             centred text (ends ~980).
+    #   the left-hand ascent at X[to]-52 -- clear of the CAPTURE label's left edge (~261),
+    #             then a short jog so the ARROWHEAD ITSELF is vertical, pointing up into
+    #             the band rather than glancing off it.
+    if feedback is not None:
+        fi, ti = feedback
+        fx, tx2 = X[fi], X[ti]
+        y_start = MID + half(T[fi])
+        drop_x = fx + 46
+        right_x = fx + 252
+        rise_x = tx2 - 52
+        tip_y = MID + half(T[ti]) - 4
+        a(f'<path d="M {drop_x:.1f} {y_start:.1f} L {drop_x:.1f} 648 L {right_x:.1f} 648 '
+          f'L {right_x:.1f} 820 L {rise_x:.1f} 820 L {rise_x:.1f} 620 L {tx2:.1f} 620 '
+          f'L {tx2:.1f} {tip_y+14:.1f}" fill="none" stroke="{EMBER}" stroke-width="4" '
+          f'stroke-dasharray="9 6" stroke-linecap="round" stroke-linejoin="round"/>')
+        a(f'<path d="M {tx2:.1f} {tip_y:.1f} L {tx2-14:.1f} {tip_y+28:.1f} '
+          f'L {tx2+14:.1f} {tip_y+28:.1f} Z" fill="{EMBER}"/>')
+        # ONE two-word chip, sitting on the wire in the y 800..852 safe band.
+        cw, cx2 = 190, 660
+        a(f'<rect x="{cx2-cw/2:.1f}" y="800" width="{cw}" height="40" rx="7" fill="{EMBER}"/>')
+        a(f'<text x="{cx2:.1f}" y="827" font-size="15" font-weight="900" fill="{STAR}" '
+          f'text-anchor="middle" letter-spacing="1.6">BACK PRESSURE</text>')
 
     # ── THE BEAM: an external cause, drawn from off-canvas onto one stage ──────
     if beam is not None:
@@ -311,7 +431,30 @@ ROOT = [
          out_name="root_3_beam_activation.svg"),
 ]
 
+# ── THE CONSTRAINT CASCADE (2026-08-16) ──────────────────────────────────────────
+# Two setup frames that teach the SHAPE with nothing named on it, then the pinch walked
+# stage by stage with the three new devices switched on together: the CEILING (the lid),
+# the HATCH (the throughput being eaten) and the FADE (past here, nothing happens).
+# 🔴 bt_ prefix on every one. Nothing above is touched -- these are additional files, and
+# the STAGES list is deliberately unchanged so all 11 existing outputs keep their geometry.
+CASCADE = [
+    dict(choke_idx=None, title="", show_stages=False, show_ghost=False,
+         out_name="bt_a_shape.svg"),
+    dict(choke_idx=None, title="", show_stages=False, wings=True, show_ghost=False,
+         out_name="bt_b_wings.svg"),
+    dict(choke_idx=0, title="It can sit at ATTENTION", ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c0_attention.svg"),
+    dict(choke_idx=1, title="It can sit at CAPTURE", ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c1_capture.svg"),
+    dict(choke_idx=2, title="It can sit at CONVERSION", ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c2_conversion.svg"),
+    dict(choke_idx=3, title="It can sit at PAYMENT", ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c3_payment.svg"),
+    dict(choke_idx=4, title="It can sit at ONBOARDING", feedback=(4, 1), ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c4_onboarding_loop.svg"),
+]
+
 if __name__ == "__main__":
-    for s in STATES + MOVES + ROOT:
+    for s in STATES + MOVES + ROOT + CASCADE:
         p = build(**s)
         print(f"wrote {p.name} ({p.stat().st_size} bytes)")
