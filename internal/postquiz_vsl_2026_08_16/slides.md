@@ -107,8 +107,8 @@ class: peak text-center
 
 <img class="rt-bleed" src="/gen8/n13_show_up_gift.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
 <div class="relative">
-<div class="rt-h1 mt-2">Before you read it, give me four minutes.</div>
-<div class="mt-6"><div class="rt-lab">THIS TAKES</div><div class="rt-big gold">4 MIN</div></div>
+<div class="rt-h1 mt-2">Before you read it, give me six minutes.</div>
+<div class="mt-6"><div class="rt-lab">THIS TAKES</div><div class="rt-big gold">6 MIN</div></div>
 </div>
 
 ---
@@ -788,7 +788,7 @@ class: default
 <div class="relative">
 <div class="rt-kicker">OUR SITE</div>
 <div class="rt-h1 mt-2">Forty two of these are on our site with the receipts.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/proof2/_v2_proofwall_band_redacted.png" alt="Names shown where clients agreed. How we count is published on the page." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">OUR SITE</span></div><div class="rt-cap mt-3">Names shown where clients agreed. How we count is published on the page.</div>
+<div class="rt-dimwrap light mt-6"><img src="/flows/bowtie_00_full.svg" alt="" /></div>
 </div>
 
 ---
@@ -1605,7 +1605,7 @@ class: default
 <div class="relative">
 <div class="rt-kicker">PROOF</div>
 <div class="rt-h1 mt-2">One coaching business had all the pieces,</div>
-<div class="mt-6"><div class="rt-lab">COACHING CLIENT &middot; ATTRIBUTED TO EMAIL &middot; 9 MONTHS</div><div class="rt-big teal">$1.81M</div><div class="rt-cap mt-4">Client result, not ours. 21 automations, around 130 A/B tests, 700+ bookings from two promos.</div></div>
+<div class="mt-6"><div class="rt-lab">COACHING CLIENT &middot; ATTRIBUTED TO EMAIL &middot; 9 MONTHS</div><div class="rt-big teal">$1.81M</div><div class="rt-cap mt-4">A coaching client. Their result, not ours. Nine months, 21 automations, 700+ bookings.</div></div>
 </div>
 
 ---
@@ -1655,7 +1655,7 @@ class: default
 <div class="relative">
 <div class="rt-kicker">PROOF</div>
 <div class="rt-h1 mt-2">And a tutoring company.</div>
-<div class="mt-6"><div class="rt-lab">TUTORING CLIENT &middot; CLOSED-WON &middot; JAN 2025 TO JUL 2026</div><div class="rt-big teal">$1.07M</div><div class="rt-cap mt-4">Client result, not ours. Every deal we can trace, we trace to an ad. The ones we cannot, we do not claim.</div></div>
+<div class="mt-6"><div class="rt-lab">TUTORING CLIENT &middot; CLOSED-WON &middot; JAN 2025 TO JUL 2026</div><div class="rt-big teal">$1.07M</div><div class="rt-cap mt-4">SupportED. Their result, not ours. Jan 2025 to Jul 2026.</div></div>
 </div>
 
 ---
@@ -1860,14 +1860,15 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: bleed
 ---
 
 <!-- slide:138 -->
 
-<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
-<div class="relative">
-<div class="rt-kicker">OR SCAN IT</div>
-<div class="rt-h1 mt-2">I will see you on the call.</div>
-<div class="mt-6"><img src="/site/qr_book_a_call.png" alt="Scan to book a call" style="width: 210px; margin: 0 auto; display: block; border-radius: 12px;" /><div class="rt-cap mt-3">Scan to pick a time</div></div>
+<img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 40%;" />
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-h1 rt-onimg">I will see you on the call.</div>
+  </div>
 </div>

@@ -128,9 +128,9 @@ s("", "You stopped guessing.", None,
 s("YOUR ROADMAP", "It's already being built.", None,
   "Your roadmap is already being built.",
   figure("/flows/02a_funnel_get_the_roadmap.svg"))
-s("", "Before you read it,", "give me four minutes.",
-  "Before you read it, give me four minutes.",
-  readout("THIS TAKES", "4 MIN", "gold"), "peak text-center")
+s("", "Before you read it,", "give me six minutes.",
+  "Before you read it, give me six minutes.",
+  readout("THIS TAKES", "6 MIN", "gold"), "peak text-center")
 
 # ═══════════════ B. THE BOW-TIE, THEN THE FLOW, THEN THE STAGES ═══════════════
 bg("/gen/concept-03-critical-path.png")
@@ -237,8 +237,8 @@ s("WHEN IT MOVES", "This is what it looks like", "when the right thing gets fixe
        "Client Slack. Their words, their businesses."))
 s("OUR SITE", "Forty two of these.", "With the receipts attached.",
   "Forty two of these are on our site with the receipts.",
-  shot("/proof2/_v2_proofwall_band_redacted.png", "OUR SITE",
-       "Names shown where clients agreed. How we count is published on the page."))
+  # 🔴 was the proof-wall band; pulled on PII grounds -- see the QC note above.
+  dim("/flows/bowtie_00_full.svg", "light"))
 s("SO WHERE DOES IT LIVE?", "Market. Avatar.", "Offer. Pitch.",
   "So where does it live? Market, avatar, offer, pitch.",
   cards(4, [("MARKET", "good"), ("AVATAR", "good"), ("OFFER", "good"), ("PITCH", "good")]))
@@ -338,11 +338,11 @@ s("", "Otherwise we're just", "throwing random shit at you.",
 s("PROOF", "$1.81M from email.", "In nine months. Same list, same offer.",
   "One coaching business had all the pieces, they were just not talking to each other. We rebuilt the email infrastructure and ran the reactivation. One point eight one million from email in nine months.",
   readout("COACHING CLIENT &middot; ATTRIBUTED TO EMAIL &middot; 9 MONTHS", "$1.81M", "teal",
-          "Client result, not ours. 21 automations, around 130 A/B tests, 700+ bookings from two promos."))
+          "A coaching client. Their result, not ours. Nine months, 21 automations, 700+ bookings."))
 s("PROOF", "$1.07M closed-won.", "January 2025 to July 2026.",
   "And a tutoring company. One point oh seven million closed-won over nineteen months, around eighty percent from paid social.",
   readout("TUTORING CLIENT &middot; CLOSED-WON &middot; JAN 2025 TO JUL 2026", "$1.07M", "teal",
-          "Client result, not ours. Every deal we can trace, we trace to an ad. The ones we cannot, we do not claim."))
+          "SupportED. Their result, not ours. Jan 2025 to Jul 2026."))
 s("ONE OPTIONAL THING", "View-only access to your ad account.", "No spend. No changes.",
   "One optional thing. After you book we send a link for view-only access to your ad account. We cannot touch it or change anything. Just look.",
   cards(3, [("VIEW ONLY", "good"), ("NO SPEND", "good"), ("NO CHANGES", "good")]))
@@ -367,12 +367,14 @@ s("", "The only difference", "is the next ten seconds.",
 s("", "Button's below. Pick a time.", None,
   "Button is below. Pick a time, then go read your roadmap.",
   img("/gen8/n12_two_tracks.png"), "bleed")
-# 🔴 QR points at https://calendly.com/funnelfuturist/discovery -- the only FF-branded
-# booking link in the estate. The roadmap's own booker is GHL and is wired to SupportED,
-# not to us. CONFIRM THE URL BEFORE RECORDING: a wrong QR is baked into the video.
-s("OR SCAN IT", "See you on the call.", None,
+# 🔴 QR REMOVED, NOT DEFERRED. I generated it against
+# https://calendly.com/funnelfuturist/discovery -- the only FF-branded booking link in the
+# estate -- and shipped it without resolving the URL. It returns HTTP 404. A dead QR baked
+# into a recording cannot be fixed after the take, so the slide comes out until John supplies
+# the real booking URL. Regenerate with qc/make_qr.py once he does.
+s("", "See you on the call.", None,
   "I will see you on the call.",
-  qr("/site/qr_book_a_call.png"))
+  img("/stage/cc_live_1080s.jpg", "50% 40%"), "bleed")
 
 
 # ══════════════════════════════ EMIT ══════════════════════════════
@@ -584,7 +586,20 @@ blocks = txt.split("<!-- slide:")[1:]
 # when it carries no image AND enough words to read as a paragraph. Measuring "no <img>"
 # alone flagged 51% and would have forced a photo behind every number, which is the OTHER
 # failure mode. Both halves of this definition earn their place.
-with_img = sum(1 for blk in blocks[1:] if "<img" in blk)
+# 🔴 THE GATE I GAMED. v2 reported "image coverage 100%" and it was worthless, because I
+# had answered a failing coverage number by pasting a 10%-opacity backdrop behind every
+# text slide. That satisfies "contains an <img>" while changing nothing a viewer can see.
+# Measured against the golden: 44.6% of our slides carry a VISIBLE image versus 85.1% of
+# its own. Fixing a metric by defeating it is the same mistake as the original bare-text
+# gate, one level up. So: an image only counts if it is actually visible.
+def visible_img(blk):
+    for tag in re.findall(r'<img[^>]*>', blk):
+        m = re.search(r'opacity:\s*([0-9.]+)', tag)
+        if m and float(m.group(1)) < 0.5:
+            continue        # a 10% wash is texture, not a visual
+        return True
+    return False
+with_img = sum(1 for blk in blocks[1:] if visible_img(blk))
 def visible_words(blk):
     body = blk.split("<!--")[0]
     return len(re.findall(r"[A-Za-z][A-Za-z'&;]+", re.sub(r"<[^>]+>", " ", body)))
@@ -628,7 +643,7 @@ for i, b in enumerate(B, 1):
 
 print(f"slides            : {n} (+1 holding)")
 print(f"spoken words      : {words}  ->  {words/155:.2f} min at 155 wpm")
-print(f"slides with image : {with_img}/{len(blocks)-1} = {100*with_img/(len(blocks)-1):.0f}%   [golden = 85%]")
+print(f"VISIBLE image      : {with_img}/{len(blocks)-1} = {100*with_img/(len(blocks)-1):.0f}%   [golden = 85%]")
 print(f"wall-of-type      : {len(bare)}/{len(content)} = {100*len(bare)/len(content):.0f}%   [golden = 8%]")
 print(f"bleeds            : {sum(1 for b in B if b['cls']=='bleed')}/{n}")
 print(f"em-dashes         : {txt.count(chr(8212))}")
