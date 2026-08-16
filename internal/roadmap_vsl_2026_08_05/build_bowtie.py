@@ -452,7 +452,22 @@ CASCADE = [
          fade_downstream=True, hatch=True, out_name="bt_c3_payment.svg"),
     dict(choke_idx=4, title="It can sit at ONBOARDING", feedback=(4, 1), ceiling=True,
          fade_downstream=True, hatch=True, out_name="bt_c4_onboarding_loop.svg"),
-]
+
+    # John, 2026-08-16: "we can show it can sit at activation, it can sit at success, it
+    # can sit at retention, it can sit at referral, and all of them introduce more
+    # constraints. And the one we want to show at referral is where it feeds back into
+    # ATTENTION, because referral is another type of attention. So we want a full loop."
+    dict(choke_idx=5, title="It can sit at ACTIVATION", feedback=(5, 2), ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c5_activation.svg"),
+    dict(choke_idx=6, title="It can sit at SUCCESS", feedback=(6, 3), ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c6_success.svg"),
+    dict(choke_idx=7, title="It can sit at RETENTION", feedback=(7, 1), ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c7_retention.svg"),
+    # 🔴 THE FULL LOOP. Referral feeds all the way back to ATTENTION, because referral IS
+    # attention. This is the frame that closes the bow-tie into a cycle rather than a line,
+    # and it is the only one where the arrow spans the whole canvas.
+    dict(choke_idx=8, title="It can sit at REFERRAL", feedback=(8, 0), ceiling=True,
+         fade_downstream=True, hatch=True, out_name="bt_c8_referral_loop.svg"),]
 
 if __name__ == "__main__":
     for s in STATES + MOVES + ROOT + CASCADE:

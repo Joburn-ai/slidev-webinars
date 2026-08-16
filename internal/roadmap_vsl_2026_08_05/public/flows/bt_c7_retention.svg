@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 860" width="1600" height="860" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+<rect width="1600" height="860" fill="#FAF6EA"/>
+<path d="M 120.0 220.0 C 206.2 220.0 206.2 273.9 292.5 273.9 C 378.8 273.9 378.8 338.9 465.0 338.9 C 551.2 338.9 551.2 389.6 637.5 389.6 C 723.8 389.6 723.8 338.9 810.0 338.9 C 896.2 338.9 896.2 300.2 982.5 300.2 C 1068.8 300.2 1068.8 273.9 1155.0 273.9 C 1241.2 273.9 1241.2 247.1 1327.5 247.1 C 1413.8 247.1 1413.8 220.0 1500.0 220.0 L 1500.0 640.0 C 1413.8 640.0 1413.8 612.9 1327.5 612.9 C 1241.2 612.9 1241.2 586.1 1155.0 586.1 C 1068.8 586.1 1068.8 559.8 982.5 559.8 C 896.2 559.8 896.2 521.1 810.0 521.1 C 723.8 521.1 723.8 470.4 637.5 470.4 C 551.2 470.4 551.2 521.1 465.0 521.1 C 378.8 521.1 378.8 586.1 292.5 586.1 C 206.2 586.1 206.2 640.0 120.0 640.0 Z" fill="#7A9199" opacity="0.16"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2BB3A0"/><stop offset="100%" stop-color="#209080"/></linearGradient></defs>
+<path d="M 120.0 220.0 C 206.2 220.0 206.2 273.9 292.5 273.9 C 378.8 273.9 378.8 338.9 465.0 338.9 C 551.2 338.9 551.2 389.6 637.5 389.6 C 723.8 389.6 723.8 338.9 810.0 338.9 C 896.2 338.9 896.2 300.2 982.5 300.2 C 1068.8 300.2 1068.8 273.9 1155.0 273.9 C 1241.2 273.9 1241.2 371.3 1327.5 371.3 C 1413.8 371.3 1413.8 371.3 1500.0 371.3 L 1500.0 488.7 C 1413.8 488.7 1413.8 488.7 1327.5 488.7 C 1241.2 488.7 1241.2 586.1 1155.0 586.1 C 1068.8 586.1 1068.8 559.8 982.5 559.8 C 896.2 559.8 896.2 521.1 810.0 521.1 C 723.8 521.1 723.8 470.4 637.5 470.4 C 551.2 470.4 551.2 521.1 465.0 521.1 C 378.8 521.1 378.8 586.1 292.5 586.1 C 206.2 586.1 206.2 640.0 120.0 640.0 Z" fill="url(#g)"/>
+<defs><pattern id="hx" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#C4552F" stroke-width="3"/></pattern><clipPath id="hxc"><rect x="1327.5" y="0" width="272.5" height="860"/></clipPath></defs>
+<path d="M 120.0 220.0 C 206.2 220.0 206.2 273.9 292.5 273.9 C 378.8 273.9 378.8 338.9 465.0 338.9 C 551.2 338.9 551.2 389.6 637.5 389.6 C 723.8 389.6 723.8 338.9 810.0 338.9 C 896.2 338.9 896.2 300.2 982.5 300.2 C 1068.8 300.2 1068.8 273.9 1155.0 273.9 C 1241.2 273.9 1241.2 247.1 1327.5 247.1 C 1413.8 247.1 1413.8 220.0 1500.0 220.0 L 1500.0 640.0 C 1413.8 640.0 1413.8 612.9 1327.5 612.9 C 1241.2 612.9 1241.2 586.1 1155.0 586.1 C 1068.8 586.1 1068.8 559.8 982.5 559.8 C 896.2 559.8 896.2 521.1 810.0 521.1 C 723.8 521.1 723.8 470.4 637.5 470.4 C 551.2 470.4 551.2 521.1 465.0 521.1 C 378.8 521.1 378.8 586.1 292.5 586.1 C 206.2 586.1 206.2 640.0 120.0 640.0 Z M 120.0 220.0 C 206.2 220.0 206.2 273.9 292.5 273.9 C 378.8 273.9 378.8 338.9 465.0 338.9 C 551.2 338.9 551.2 389.6 637.5 389.6 C 723.8 389.6 723.8 338.9 810.0 338.9 C 896.2 338.9 896.2 300.2 982.5 300.2 C 1068.8 300.2 1068.8 273.9 1155.0 273.9 C 1241.2 273.9 1241.2 371.3 1327.5 371.3 C 1413.8 371.3 1413.8 371.3 1500.0 371.3 L 1500.0 488.7 C 1413.8 488.7 1413.8 488.7 1327.5 488.7 C 1241.2 488.7 1241.2 586.1 1155.0 586.1 C 1068.8 586.1 1068.8 559.8 982.5 559.8 C 896.2 559.8 896.2 521.1 810.0 521.1 C 723.8 521.1 723.8 470.4 637.5 470.4 C 551.2 470.4 551.2 521.1 465.0 521.1 C 378.8 521.1 378.8 586.1 292.5 586.1 C 206.2 586.1 206.2 640.0 120.0 640.0 Z" fill-rule="evenodd" fill="url(#hx)" opacity="0.10" clip-path="url(#hxc)"/>
+<text x="120" y="72" font-size="17" font-weight="800" letter-spacing="3.4" fill="#209080">THE BOWTIE SCAN</text>
+<text x="120" y="124" font-size="40" font-weight="900" fill="#0A2230" letter-spacing="-1">It can sit at RETENTION</text>
+<line x1="120.0" y1="206.0" x2="120.0" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="120.0" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">ATTENTION</text>
+<line x1="292.5" y1="206.0" x2="292.5" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="292.5" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">CAPTURE</text>
+<line x1="465.0" y1="206.0" x2="465.0" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="465.0" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">CONVERSION</text>
+<line x1="637.5" y1="206.0" x2="637.5" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="637.5" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">PAYMENT</text>
+<line x1="810.0" y1="206.0" x2="810.0" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="810.0" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">ONBOARDING</text>
+<line x1="982.5" y1="206.0" x2="982.5" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="982.5" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">ACTIVATION</text>
+<line x1="1155.0" y1="206.0" x2="1155.0" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="1155.0" y="686" font-size="15" font-weight="700" fill="#5C7078" text-anchor="middle" letter-spacing="1.1">SUCCESS</text>
+<line x1="1327.5" y1="206.0" x2="1327.5" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.30"/>
+<text x="1327.5" y="686" font-size="15" font-weight="900" fill="#C4552F" text-anchor="middle" letter-spacing="1.1">RETENTION</text>
+<line x1="1500.0" y1="206.0" x2="1500.0" y2="654.0" stroke="#7A9199" stroke-width="1" opacity="0.12"/>
+<text x="1500.0" y="686" font-size="15" font-weight="700" fill="#7A9199" opacity="0.35" text-anchor="middle" letter-spacing="1.1">REFERRAL</text>
+<path d="M 1327.5 371.3 L 1500 371.3 M 1327.5 488.7 L 1500 488.7" fill="none" stroke="#C4552F" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="1327.5" y1="210.0" x2="1327.5" y2="650.0" stroke="#C4552F" stroke-width="5"/>
+<path d="M 1297.5 371.3 L 1327.5 345.3 L 1357.5 371.3" fill="none" stroke="#C4552F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1297.5 488.7 L 1327.5 514.7 L 1357.5 488.7" fill="none" stroke="#C4552F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1223.5" y="142.0" width="208" height="40" rx="7" fill="#C4552F"/>
+<text x="1327.5" y="169.0" font-size="16" font-weight="900" fill="#FAF6EA" text-anchor="middle" letter-spacing="1.6">YOUR CONSTRAINT</text>
+<rect x="96" y="726" width="1428" height="62" rx="10" fill="#7A9199" fill-opacity="0.1" stroke="#C4552F" stroke-width="3"/>
+<text x="810.0" y="764" font-size="16" font-weight="800" fill="#5C7078" text-anchor="middle" letter-spacing="2.2">TEAM &amp; DAY-TO-DAY OPERATIONS</text>
+<path d="M 1373.5 488.7 L 1373.5 648 L 1579.5 648 L 1579.5 820 L 240.5 820 L 240.5 620 L 292.5 620 L 292.5 596.1" fill="none" stroke="#C4552F" stroke-width="4" stroke-dasharray="9 6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 292.5 582.1 L 278.5 610.1 L 306.5 610.1 Z" fill="#C4552F"/>
+<rect x="565.0" y="800" width="190" height="40" rx="7" fill="#C4552F"/>
+<text x="660.0" y="827" font-size="15" font-weight="900" fill="#FAF6EA" text-anchor="middle" letter-spacing="1.6">BACK PRESSURE</text>
+</svg>

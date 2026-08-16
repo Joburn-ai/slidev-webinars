@@ -53,6 +53,48 @@ PUB  = HERE / "public"
 # fade; this flips it in one line once John rules.
 CASCADE_MODE = "fade"
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+# 🔴 THE SCRIPT GOES ON THE SCREEN. THIS IS THE 400 SLIDE HACK.
+#
+# John, 2026-08-16: "I don't want there to be speaker notes for the entire script. I just
+# want the entire script on the screen so people can read along with it. I just want the
+# VSL script literally word-for-word on the slides. That's the point of the 400 slide hack.
+# I don't know why we got away from that."
+#
+# He is right and v1/v2 had it backwards: the script sat in the speaker notes and the slide
+# carried a paraphrase. That is a support deck, not a Fladlien deck. Now the SPOKEN LINE IS
+# THE SLIDE, chunked to Fladlien density, and the picture persists underneath while the
+# words advance.
+#
+# Chunking rule: split on sentence boundaries first, then on clause boundaries for anything
+# still over MAXW. Never split mid-clause -- a chunk has to be a readable unit, because the
+# viewer is reading it while hearing it.
+MAXW = 13
+
+def chunk(text):
+    out, buf = [], []
+    parts = re.split(r'(?<=[.!?])\s+', text.strip())
+    for p in parts:
+        w = p.split()
+        if len(w) <= MAXW:
+            out.append(p); continue
+        # too long: break on clause punctuation, then on length as a last resort
+        seg, cur = [], []
+        for tok in re.split(r'(,|;| -- )', p):
+            if tok in (',', ';', ' -- '):
+                if cur: cur[-1] += tok.strip() if tok != ' -- ' else ''
+                continue
+            words = tok.split()
+            if not words: continue
+            if len(cur) + len(words) > MAXW and cur:
+                seg.append(" ".join(cur)); cur = words
+            else:
+                cur += words
+        if cur: seg.append(" ".join(cur))
+        out.extend(seg or [p])
+    return [c.strip() for c in out if c.strip()]
+
 B = []
 BG = [None]   # current sectional backdrop; set with bg() as the arc moves
 
@@ -64,7 +106,8 @@ def s(kicker, head, sub=None, note="", visual=None, cls="default", tr=None):
 
 # Visual kinds. Every one maps to CSS that ALREADY EXISTS in style.css -- v1's fault was
 # that the generator had no path to most of it.
-def plate(p):                    return ("plate", p)
+def plate(p):                    return ("plate", p)     # 1600x860 bow-tie family ONLY
+def figure(p):                   return ("figure", p)    # wide/thin SVGs at natural aspect
 def shot(p, tag=None, cap=None): return ("shot", p, tag, cap)
 def wall(ps, cap=None):          return ("wall", ps, cap)
 def cards(n, items):             return ("cards", n, items)
@@ -72,20 +115,21 @@ def oldnew(o, n, lo="OBVIOUS", ln="INVISIBLE"): return ("oldnew", o, n, lo, ln)
 def readout(lab, big, tone="", cap=None):       return ("readout", lab, big, tone, cap)
 def img(p, focal=None):          return ("img", p, focal)
 def dim(p, mode="light"):        return ("dim", p, mode)
+def qr(p):                       return ("qr", p)
 
 # ═════════════════════════════ A. PRE-OPEN ═════════════════════════════
 bg("/gen8/n13_show_up_gift.png")
 s("", "First, congrats.", "You did something most people never do.",
-  "First, congrats. You did something most people in this market never do.",
+  "First, congrats. You did something most people never do.",
   img("/gen8/n13_show_up_gift.png"), "bleed")
 s("", "You stopped guessing.", None,
   "You stopped guessing.",
-  readout("WHAT MOST PEOPLE NEVER DO", "STOP GUESSING", "teal"), "peak text-center")
+  img("/gen8/n13_show_up_gift.png"), "bleed")
 s("YOUR ROADMAP", "It's already being built.", None,
   "Your roadmap is already being built.",
-  plate("/flows/02a_funnel_get_the_roadmap.svg"))
+  figure("/flows/02a_funnel_get_the_roadmap.svg"))
 s("", "Before you read it,", "give me four minutes.",
-  "Before you read it, give me four minutes. One piece will not make sense otherwise.",
+  "Before you read it, give me four minutes.",
   readout("THIS TAKES", "4 MIN", "gold"), "peak text-center")
 
 # ═══════════════ B. THE BOW-TIE, THEN THE FLOW, THEN THE STAGES ═══════════════
@@ -108,10 +152,10 @@ s("EVERY STEP", "Attention. Capture. Conversion.", "Then payment, onboarding, ac
 
 # ── the cascade: the constraint moves, and downstream dies differently each time ──
 s("ATTENTION", "It can sit at the very front.", None,
-  "It can sit anywhere. At attention everything downstream is starved. You cannot capture leads you never got.",
+  "It can sit anywhere. At attention everything downstream is starved.",
   plate("/flows/bt_c0_attention.svg"), "default", "fade")
 s("CAPTURE", "You get seen.", "It doesn't turn into leads.",
-  "One step in it changes. You are getting attention. It is not turning into leads.",
+  "One step in it changes. You get attention. It does not turn into leads.",
   plate("/flows/bt_c1_capture.svg"), "default", "fade")
 s("CONVERSION", "You get leads.", "They don't turn into clients.",
   "At conversion you have the leads. They are not turning into buyers.",
@@ -120,8 +164,22 @@ s("PAYMENT", "At the knot itself.", None,
   "Or it sits at the knot itself.",
   plate("/flows/bt_c3_payment.svg"), "default", "fade")
 s("ONBOARDING", "It pushes back", "on everything in front of it.",
-  "Behind the sale it is worse. Onboarding makes you busy, and busy stops you filling the top. It pushes back on everything in front.",
+  "Behind the sale it is worse. Onboarding makes you busy, and busy stops you filling the top.",
   plate("/flows/bt_c4_onboarding_loop.svg"), "default", "fade")
+s("ACTIVATION", "They bought.", "They never switched on.",
+  "At activation they bought and never switched on.",
+  plate("/flows/bt_c5_activation.svg"), "default", "fade")
+s("SUCCESS", "They use it.", "They do not win with it.",
+  "At success they use it and still do not win, so there is nothing to refer.",
+  plate("/flows/bt_c6_success.svg"), "default", "fade")
+s("RETENTION", "They leave.", "So you refill the top forever.",
+  "At retention they leave, so you spend everything refilling the top.",
+  plate("/flows/bt_c7_retention.svg"), "default", "fade")
+# 🔴 THE LOOP CLOSES. John: "the one we want to show at referral is where it feeds back
+# into ATTENTION, because referral is another type of attention. So we want a full loop."
+s("REFERRAL", "And referral closes the loop.", None,
+  "And referral closes the loop, because a referral is just attention from someone else. Choke it and you pay for every lead.",
+  plate("/flows/bt_c8_referral_loop.svg"), "default", "fade")
 s("", "And what you can see", "is not always what is causing it.",
   "And what you can see is not always what is causing it.",
   plate("/flows/root_2_beam.svg"), "default", "fade")
@@ -136,12 +194,12 @@ s("", "You know a pipe is leaking", 'somewhere in "the west wing."',
   img("/gen8/n10_blind_spot.png"), "bleed")
 s("", "Okay. But which pipe?", None,
   "Okay, but which pipe? The wing is not the fix. The bolt is.",
-  readout("THE FIX IS", "ONE BOLT", "ember", "Not the wing. The bolt."), "peak text-center")
+  cards(2, [("THE WING", ""), ("THE BOLT", "bad")]))
 s("THE ZOOM", "The quiz gets you to the wing.", "It cannot get you to the bolt.",
   "The quiz gets you to the wing. It cannot get you to the bolt.",
   cards(3, [("THE HOUSE", ""), ("THE WING", "good"), ("THE BOLT", "bad")]))
 s("INSIDE CONVERSION", "Script? Pre-call framing?", "Headline? The order of the offer?",
-  "Say yours came back conversion. Script? Pre-call framing? Headline? Offer order? Four different fixes.",
+  "Say yours came back conversion. Script? Pre-call framing? Headline? Offer order?",
   cards(4, [("SCRIPT", ""), ("PRE-CALL FRAMING", ""), ("HEADLINE", ""), ("OFFER ORDER", "bad")]))
 
 # ═════════════════════ D. CONSTRAINT BLINDNESS ═════════════════════
@@ -150,8 +208,8 @@ s("THE EPIDEMIC", "There's an epidemic in this market.", None,
   "This is what nobody is looking at. There is an epidemic in this market.",
   img("/gen/concept-06-information-abundance.png"), "bleed")
 s("", "I call it constraint blindness.", None,
-  "I call it constraint blindness.",
-  readout("THE EPIDEMIC", "CONSTRAINT BLINDNESS", "gold"), "peak text-center")
+  'I call it "constraint blindness". It is very hard to see our own constraints.',
+  shot("/gen8/n09_label_inside_the_jar.png"))
 s("", "Stuck at 10K. At 50K. At 100K.", "You feel it. You can't see it.",
   "People are stuck at ten K, fifty K, a hundred K. They feel it. They cannot see it.",
   img("/gen8/n01_buried_in_advice.png"), "bleed")
@@ -162,7 +220,7 @@ s("HOW IT WORKS", "One constraint at a time.", "One thing holding the whole syst
   "At any moment your business has one constraint. One thing holding the whole system back. Not five. One.",
   img("/gen8/n08_one_constraint_gate.png"), "bleed")
 s("", "Fix anything else", "and the number does not move.",
-  "And fixing anything else does nothing. Double your effort on the wrong lever and the number does not move.",
+  "And fixing anything else does nothing. Double your effort on the wrong lever and nothing moves.",
   readout("WHAT YOU GET FOR FIXING THE WRONG THING", "0", "ember"), "peak text-center")
 
 # ═════════════════════ E. SOCIAL PROOF, FRONT-LOADED ═════════════════════
@@ -178,11 +236,11 @@ s("WHEN IT MOVES", "This is what it looks like", "when the right thing gets fixe
         "/proof2/_v2_vsl-husband-cry-2025-08_redacted.png"],
        "Client Slack. Their words, their businesses."))
 s("OUR SITE", "Forty two of these.", "With the receipts attached.",
-  "Forty two of these are on our site with the receipts attached.",
+  "Forty two of these are on our site with the receipts.",
   shot("/proof2/_v2_proofwall_band_redacted.png", "OUR SITE",
        "Names shown where clients agreed. How we count is published on the page."))
 s("SO WHERE DOES IT LIVE?", "Market. Avatar.", "Offer. Pitch.",
-  "So where does it live? Four places. Market, avatar, offer, pitch.",
+  "So where does it live? Market, avatar, offer, pitch.",
   cards(4, [("MARKET", "good"), ("AVATAR", "good"), ("OFFER", "good"), ("PITCH", "good")]))
 s("MARKET", "Is it big enough?", "Or: what have they already been sold?",
   "Market. Obvious is, is it big enough. Invisible is what they have already been sold.",
@@ -194,14 +252,14 @@ s("AVATAR", "Demographics?", "Or: what do they actually believe?",
   "Avatar. Obvious is demographics. Invisible is their criteria for yes.",
   oldnew("AGE. INCOME.", "THEIR CRITERIA FOR YES"))
 s("OFFER", "Price and deliverables?", "Or the economics underneath?",
-  "Offer. Obvious is price and deliverables. Invisible is the economics underneath it.",
+  "Offer. Obvious is price and deliverables. Invisible is the economics.",
   oldnew("PRICE. DELIVERABLES.", "WHAT YOU CAN SPEND TO GET ONE"))
 s("PITCH", "The script?", "Or the order?",
   "Pitch. Obvious is the script. Invisible is the order. Which belief lands first.",
   oldnew("THE SCRIPT", "THE ORDER"))
 s("PITCH", "Ask too early,", "and it isn't heard as a bad offer.",
   "Ask before that belief lands and it does not read as a bad offer. It reads as, I do not trust this guy.",
-  readout("WHAT THEY ACTUALLY HEAR", "“I don't trust<br/>this guy.”", "ember"), "peak text-center")
+  oldnew("A BAD OFFER", "I DON'T TRUST THIS GUY", "WHAT YOU SENT", "WHAT LANDED"))
 s("AND A FIFTH", "Your personal profile.", "How you show up before you speak.",
   "And a fifth underneath it all. Your personal profile. What people think before you speak.",
   cards(5, [("MARKET", ""), ("AVATAR", ""), ("OFFER", ""), ("PITCH", ""), ("YOU", "good")]))
@@ -215,54 +273,54 @@ s("", "You can't fix", "what you can't see.",
 # ═════════════════════ G. THE ROADMAP AND THE GATE ═════════════════════
 bg("/gen/concept-03-critical-path.png")
 s("THE GOOD NEWS", "Your answers already told us", "which one you're stuck behind.",
-  "That is the bad news. The good news is your answers already told us which one.",
-  plate("/flows/02a_roadmap_funnel_flow.svg"))
+  "The good news is your answers already told us which one.",
+  figure("/flows/02a_roadmap_funnel_flow.svg"))
 s("", "Not a generic PDF.", "The sequence for your situation.",
-  "That is the roadmap. Not a generic PDF. What to fix first, what to leave, and the order.",
+  "That is the roadmap. Not a generic PDF. What to fix first, what to leave, the order.",
   cards(3, [("FIX FIRST", "good"), ("LEAVE FOR NOW", ""), ("THE ORDER", "good")]))
 s("", "The order matters", "way more than the effort.",
   "Because the order matters way more than the effort.",
   readout("THE WHOLE THESIS", "ORDER &gt; EFFORT", "teal"), "peak text-center")
 s("IT'S ON ITS WAY", "Your roadmap is en route.", "Confirm your call first.",
-  "Your roadmap is en route. Do one thing before you open it. Confirm your call. The roadmap gets you to the wing. The call gets you to the bolt.",
+  "Your roadmap is en route. Confirm your call before you open it. The roadmap gets you to the wing. The call gets you to the bolt.",
   cards(2, [("ROADMAP", "good"), ("THE CALL", "bad")]))
 
 # ═════════════════════ H. THE CALL ═════════════════════
 bg("/gen8/n14_built_by_hand.png")
 s("THE CALL", "A small number of seats.", "With me, or with Phoenix.",
-  "So we are opening a small number of seats, with me or with Phoenix.",
+  "So we are opening a small number of seats, with me or Phoenix.",
   ("team", None))
 # 🔴 SLIDE-45 FIX (John flagged it). v1 ran: "Let me be really clear" -> "about what this
 # call is NOT" -> then a big WHAT IT IS NOT card, so the LABEL ARRIVED AFTER THE LINE IT
 # LABELS, and the card restated the sub. The label is now the kicker, at the top of frame,
 # where a label belongs.
 s("WHAT THIS CALL IS NOT", "Let me be really clear.", "We will not pitch you a single thing.",
-  "Let me be clear about what this call is not. We are not going to pitch you a single fucking thing. I mean that literally.",
+  "Let me be clear what this call is not. We are not going to pitch you a single fucking thing. I mean that literally.",
   readout("PITCH COUNT, ON THE CALL", "0", "ember"), "peak text-center")
 s("", "We can't, even if we wanted to.", "We don't have enough information yet.",
   "We could not even if we wanted to. We do not have enough information yet.",
   img("/gen8/n07_ai_cant_see_you.png", "50% 50%"), "bleed")
 s("", "And we don't want", "to work with everybody.",
   "And honestly, we do not want to work with everybody. That sounds like a nightmare.",
-  readout("HOW MANY PEOPLE WE WANT", "NOT EVERYBODY", ""), "peak text-center")
+  img("/stage/cc_live_1080s.jpg", "50% 42%"), "bleed")
 s("", "A few people, deeply.", "Not a lot of people, shallowly.",
-  "We would rather work with a few people deeply than a lot shallowly. So most people on these calls, we do not. That is the point.",
+  "We would rather work with a few people deeply than a lot shallowly. So most people on these calls, we do not.",
   oldnew("MANY, SHALLOW", "FEW, DEEP", "NOT US", "US"))
 s("SO WHAT HAPPENS", "We ask what the quiz couldn't.", None,
-  "Instead we ask what the quiz could not, and pressure-test it against your real numbers.",
+  "Instead we ask what the quiz could not, and pressure-test it against your numbers.",
   img("/gen/concept-09-audit-magnifier.png", "50% 45%"), "bleed")
 s("THE TWO GAPS", "Revenue now, and where you want it.", "Client count now, and where you want that.",
   "We work off two gaps. Revenue now versus where you want it. Client count now versus that.",
   oldnew("WHERE YOU ARE", "WHERE YOU WANT TO BE", "TODAY", "THE GOAL"))
 s("", "Then we build the 30, 60, 90.", "On the call, with you.",
-  "Then we build you a thirty, sixty, ninety day plan, on the call with you.",
-  plate("/flows/02b_funnel_the_call.svg"))
+  "Then we build a thirty, sixty, ninety day plan, on the call with you.",
+  figure("/flows/02b_funnel_the_call.svg"))
 s("", "Reverse-engineered from your goal.", "What has to be true at 90. At 60. At 30.",
-  "We reverse-engineer it backwards. What has to be true at ninety days, at sixty, at thirty, down to daily.",
+  "We reverse-engineer it backwards. What has to be true at ninety days, sixty, thirty, down to daily.",
   cards(4, [("GOAL", ""), ("90", ""), ("60", ""), ("30", "good")]))
 s("", "That's the deliverable.", "You leave with it either way.",
   "That is the deliverable. You leave with it whether we speak again or not.",
-  readout("YOU KEEP THE PLAN", "EITHER WAY", "teal"), "peak text-center")
+  cards(2, [("WE WORK TOGETHER", ""), ("WE DON'T", "good")]))
 
 # ═════════════════════ I. THE AUDIT BRANCH AND THE PROOF ═════════════════════
 bg("/gen/concept-09-audit-magnifier.png")
@@ -278,18 +336,18 @@ s("", "Otherwise we're just", "throwing random shit at you.",
 # unverified figure, and our public site says $1.81M, so a prospect finds the contradiction
 # in one click. Shipping the register-verified number. John's call to override.
 s("PROOF", "$1.81M from email.", "In nine months. Same list, same offer.",
-  "One coaching business had all the pieces, they were just not talking to each other. We rebuilt the email infrastructure and ran the reactivation. One point eight one million from email in nine months. Same list, same offer.",
+  "One coaching business had all the pieces, they were just not talking to each other. We rebuilt the email infrastructure and ran the reactivation. One point eight one million from email in nine months.",
   readout("COACHING CLIENT &middot; ATTRIBUTED TO EMAIL &middot; 9 MONTHS", "$1.81M", "teal",
           "Client result, not ours. 21 automations, around 130 A/B tests, 700+ bookings from two promos."))
 s("PROOF", "$1.07M closed-won.", "January 2025 to July 2026.",
-  "And a tutoring company. One point oh seven million closed-won over nineteen months. Around eighty percent traces to paid social.",
+  "And a tutoring company. One point oh seven million closed-won over nineteen months, around eighty percent from paid social.",
   readout("TUTORING CLIENT &middot; CLOSED-WON &middot; JAN 2025 TO JUL 2026", "$1.07M", "teal",
           "Client result, not ours. Every deal we can trace, we trace to an ad. The ones we cannot, we do not claim."))
 s("ONE OPTIONAL THING", "View-only access to your ad account.", "No spend. No changes.",
-  "One optional thing. After you book we send a link for view-only access to your ad account. We cannot touch it, spend anything or change anything. Just look.",
+  "One optional thing. After you book we send a link for view-only access to your ad account. We cannot touch it or change anything. Just look.",
   cards(3, [("VIEW ONLY", "good"), ("NO SPEND", "good"), ("NO CHANGES", "good")]))
 s("", "We show up", "with the diagnosis half-built.",
-  "Then we go through it before the call, so we are not asking what your CPA is. Not running ads? Send your funnel link instead.",
+  "Then we go through it before the call, so we are not asking what your CPA is.",
   img("/gen/concept-09-audit-magnifier.png", "50% 45%"), "bleed")
 
 # ═════════════════════ J. THE CLOSE ═════════════════════
@@ -301,14 +359,20 @@ s("", "Ninety days pass either way.", None,
   "Ninety days pass either way.",
   img("/gen/concept-08-two-roads.png", "50% 60%"), "bleed")
 s("", "Ninety days older.", "Or ninety days older, holding a plan you executed.",
-  "You are either ninety days older, or ninety days older and past the thing holding you.",
+  "You are either ninety days older, or ninety days older and past it.",
   oldnew("90 DAYS OLDER", "90 DAYS OLDER, AND PAST IT", "DO NOTHING", "DO THIS"))
 s("", "The only difference", "is the next ten seconds.",
   "The only difference is what you do in the next ten seconds.",
   readout("THE ONLY DIFFERENCE", "10 SECONDS", "gold"), "peak text-center")
-s("", "Button's below. Pick a time.", "Then go read your roadmap.",
+s("", "Button's below. Pick a time.", None,
   "Button is below. Pick a time, then go read your roadmap.",
   img("/gen8/n12_two_tracks.png"), "bleed")
+# 🔴 QR points at https://calendly.com/funnelfuturist/discovery -- the only FF-branded
+# booking link in the estate. The roadmap's own booker is GHL and is wired to SupportED,
+# not to us. CONFIRM THE URL BEFORE RECORDING: a wrong QR is baked into the video.
+s("OR SCAN IT", "See you on the call.", None,
+  "I will see you on the call.",
+  qr("/site/qr_book_a_call.png"))
 
 
 # ══════════════════════════════ EMIT ══════════════════════════════
@@ -354,7 +418,23 @@ Nothing is spoken here.
 -->
 '''
 
-def esc(t): return t if t else ""
+def esc(t):
+    """Visible text. Straight quotes become typographic ones so a quoted phrase reads
+    right AND cannot terminate a nearby attribute."""
+    if not t: return ""
+    t = str(t)
+    t = re.sub(r'"([^"]*)"', r'&ldquo;\1&rdquo;', t)
+    return t
+
+def attr(t):
+    """🔴 ATTRIBUTE VALUES ARE NOT TEXT. Vue's parser rejects an attribute name containing
+    a quote, so a script line like: I call it "constraint blindness" -- dropped verbatim
+    into alt="..." -- fails the BUILD, not the render. It cost a stale deploy: the build
+    errored, dist stayed 30 minutes old, and the site served the previous version while
+    looking fine. Escape here, always."""
+    if not t: return ""
+    return (str(t).replace("&", "&amp;").replace('"', "&quot;")
+            .replace("<", "&lt;").replace(">", "&gt;"))
 
 def card_grid(n, items):
     cells = "".join(f'<div class="rt-card {tone}"><div class="rt-card-t">{t}</div></div>'
@@ -363,92 +443,103 @@ def card_grid(n, items):
 
 BLEED_N = 0
 out = [HEAD]
+SLIDE = 0
 
-for i, b in enumerate(B, start=1):
+def render(b, line, first, idx):
+    """One slide. `line` is a chunk of the spoken script and IS the visible copy."""
+    global BLEED_N
     v, cls = b["visual"], b["cls"]
     body, fm_cls = [], cls
     fm_extra = f"transition: {b['tr']}\n" if b.get("tr") else ""
     kind = v[0] if v else None
 
-    # ── plate: a full-bleed SVG that carries its own baked title band. NO deck h1 --
-    # emitting one gives two headlines and the white gutter v1 shipped on route 7.
+    # The kicker only ever appears on the FIRST chunk of a beat. Repeating a section label
+    # on every slide of a run is noise, and it was one source of the say-it-twice problem.
+    kick = b["kicker"] if (first and b["kicker"]) else ""
+
     if kind == "plate":
+        # 1600x860 only. The SVG carries its own baked title band, so the script line sits
+        # in a frosted strip over it rather than fighting the artwork.
         fm_cls = "plate"
-        body.append(f'<div class="rt-cropbox"><img src="{v[1]}" alt="{esc(b["head"])}" /></div>')
+        body.append(f'<div class="rt-cropbox"><img src="{v[1]}" alt="{attr(line)}" /></div>')
+        body.append('<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">')
+        body.append(f'  <div class="rt-frost"><div class="rt-say">{esc(line)}</div></div>')
+        body.append('</div>')
     elif kind == "img":
-        BLEED_N += 1
-        right = BLEED_N % 2 == 0     # counts BLEEDS, not beats -- v1 alternated on the
-        scrim = "rt-scrim-r" if right else "rt-scrim"   # beat index, so two bleeds one
+        if first: BLEED_N += 1
+        right = BLEED_N % 2 == 0
+        scrim = "rt-scrim-r" if right else "rt-scrim"
         align, ta = ("items-end", "right") if right else ("items-start", "left")
-        focal = v[2] or "50% 38%"    # slide apart landed on the same side
-        body.append(f'<img class="rt-bleed" src="{v[1]}" alt="{esc(b["head"])}" style="object-position: {focal};" />')
+        focal = v[2] or "50% 38%"
+        body.append(f'<img class="rt-bleed" src="{v[1]}" alt="" style="object-position: {focal};" />')
         body.append(f'<div class="{scrim}"></div>')
         body.append(f'<div class="relative h-full flex flex-col justify-center {align}" style="padding: 0 3.2rem;">')
-        body.append(f'  <div style="max-width: 54%; text-align: {ta};">')
-        if b["kicker"]: body.append(f'    <div class="rt-kicker" style="color: var(--tealb);">{esc(b["kicker"])}</div>')
-        body.append(f'    <div class="rt-h1 rt-onimg">{esc(b["head"])}</div>')
-        if b["sub"]: body.append(f'    <div class="rt-sub rt-onimg mt-6" v-click style="color: var(--parch);">{esc(b["sub"])}</div>')
+        body.append(f'  <div style="max-width: 56%; text-align: {ta};">')
+        if kick: body.append(f'    <div class="rt-kicker" style="color: var(--tealb);">{esc(kick)}</div>')
+        body.append(f'    <div class="rt-h1 rt-onimg">{esc(line)}</div>')
         body.append('  </div>')
         body.append('</div>')
     else:
-        # 🔴 THE SECTIONAL BACKDROP. Measured on the golden: 85% of its slides carry an
-        # image. v1 sat at 37% and v2 at 49%, and the gap is entirely these CSS-widget
-        # slides floating on flat cream -- which is precisely what reads as a wall of type
-        # even when the word count is low. A heavily dimmed, desaturated backdrop gives the
-        # frame depth without competing with the number in front of it.
         if b.get("bg"):
             body.append(f'<img class="rt-bleed" src="{b["bg"]}" alt="" aria-hidden="true" '
                         f'style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />')
             body.append('<div class="relative">')
-        if b["kicker"]: body.append(f'<div class="rt-kicker">{esc(b["kicker"])}</div>')
-        body.append(f'<div class="rt-h1 mt-2">{esc(b["head"])}</div>')
-        # 🔴 An oldnew slide NEVER prints the sub. The two cards are the contrast, so a sub
-        # beside them restates it at a second size -- which is exactly the DUP-COPY defect,
-        # and stacking headline + sub + two labelled cards is what made these read as walls
-        # of type. Headline, then the pair. Nothing else.
-        show_sub = bool(b["sub"]) and kind != "oldnew"
-        if show_sub: body.append(f'<div class="rt-sub mt-5" v-click>{esc(b["sub"])}</div>')
-        vc = '' if show_sub else ' v-click'   # animate the payoff, never the picture
-        if kind == "cards":
-            body.append(f'<div class="mt-7"{vc} style="overflow: visible;">{card_grid(v[1], v[2])}</div>')
-        elif kind == "oldnew":
-            _, o, n_, lo, ln = v
-            body.append(f'<div class="rt-grid c2 mt-7"{vc} style="overflow: visible;">'
-                        f'<div class="rt-old"><div class="rt-waylabel">{lo}</div><div class="rt-card-t">{o}</div></div>'
-                        f'<div class="rt-new"><div class="rt-waylabel">{ln}</div><div class="rt-card-t">{n_}</div></div></div>')
-        elif kind == "readout":
-            _, lab, big, tone, cap = v
-            body.append(f'<div class="mt-6"{vc}><div class="rt-lab">{lab}</div>'
-                        f'<div class="rt-big {tone}">{big}</div>'
-                        + (f'<div class="rt-cap mt-4">{cap}</div>' if cap else '') + '</div>')
-        elif kind == "shot":
-            _, p, tag, cap = v
-            # 🔴 A framed shot needs its HEIGHT bounded, same lesson as the plate SVGs: the
-            # slide is a fixed box, and an unbounded image pushes the type out of it. Slide
-            # 24 overflowed by three elements before this.
-            body.append(f'<div class="rt-imgwrap mt-5" style="max-height: 46vh; overflow: hidden;"{vc}>'
-                        f'<img class="rt-shot" src="{p}" alt="{esc(cap or b["head"])}" style="max-height: 46vh; width: auto; margin: 0 auto; display: block;" />'
-                        + (f'<span class="rt-tag live">{tag}</span>' if tag else '') + '</div>'
-                        + (f'<div class="rt-cap mt-3">{cap}</div>' if cap else ''))
-        elif kind == "wall":
-            _, ps, cap = v
-            tiles = "".join(f'<img class="rt-shot wall" src="{p}" alt="Client message" />' for p in ps)
-            body.append(f'<div class="rt-grid c{len(ps)} mt-6"{vc}>{tiles}</div>'
-                        + (f'<div class="rt-cap mt-3">{cap}</div>' if cap else ''))
-        elif kind == "dim":
-            _, p, mode = v
-            body.append(f'<div class="rt-dimwrap {mode} mt-6"{vc}><img src="{p}" alt="{esc(b["head"])}" /></div>')
-        elif kind == "team":
-            body.append(f'<div class="rt-grid c2 mt-7"{vc} style="max-width: 430px; margin-inline: auto;">'
-                        '<div><img class="rt-portrait round" src="/team/john-headshot-direct.jpg" alt="John Coburn" style="width:126px; margin:0 auto;" />'
-                        '<div class="rt-name">John</div><div class="rt-role">Co-founder</div></div>'
-                        '<div><img class="rt-portrait round" src="/team/phoenix-headshot.png" alt="Phoenix Bohannon" style="width:126px; margin:0 auto;" />'
-                        '<div class="rt-name">Phoenix</div><div class="rt-role">Co-founder</div></div></div>')
-
-    if kind not in ("plate", "img") and b.get("bg"): body.append('</div>')
+        if kick: body.append(f'<div class="rt-kicker">{esc(kick)}</div>')
+        body.append(f'<div class="rt-h1 mt-2">{esc(line)}</div>')
+        # The supporting graphic renders on the FIRST chunk only and then persists visually
+        # via the transition; repeating a card under every line is what made the deck feel
+        # like it was restating itself.
+        if first:
+            if kind == "cards":
+                body.append(f'<div class="mt-7" style="overflow: visible;">{card_grid(v[1], v[2])}</div>')
+            elif kind == "oldnew":
+                _, o, n_, lo, ln = v
+                body.append(f'<div class="rt-grid c2 mt-7" style="overflow: visible;">'
+                            f'<div class="rt-old"><div class="rt-waylabel">{lo}</div><div class="rt-card-t">{o}</div></div>'
+                            f'<div class="rt-new"><div class="rt-waylabel">{ln}</div><div class="rt-card-t">{n_}</div></div></div>')
+            elif kind == "readout":
+                _, lab, big, tone, cap = v
+                body.append(f'<div class="mt-6"><div class="rt-lab">{lab}</div>'
+                            f'<div class="rt-big {tone}">{big}</div>'
+                            + (f'<div class="rt-cap mt-4">{cap}</div>' if cap else '') + '</div>')
+            elif kind == "figure":
+                # wide/thin SVG at its natural aspect, bounded both ways
+                body.append(f'<div class="rt-figure mt-6"><img src="{v[1]}" alt="{attr(line)}" '
+                            f'style="max-width: 92%; max-height: 34vh; width: auto; margin: 0 auto; display: block;" /></div>')
+            elif kind == "shot":
+                _, p, tag, cap = v
+                body.append(f'<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;">'
+                            f'<img class="rt-shot" src="{p}" alt="{attr(cap or line)}" '
+                            f'style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" />'
+                            + (f'<span class="rt-tag live">{tag}</span>' if tag else '') + '</div>'
+                            + (f'<div class="rt-cap mt-3">{cap}</div>' if cap else ''))
+            elif kind == "wall":
+                _, ps, cap = v
+                tiles = "".join(f'<img class="rt-shot wall" src="{p}" alt="Client message" />' for p in ps)
+                body.append(f'<div class="rt-grid c{len(ps)} mt-6">{tiles}</div>'
+                            + (f'<div class="rt-cap mt-3">{cap}</div>' if cap else ''))
+            elif kind == "dim":
+                _, p, mode = v
+                body.append(f'<div class="rt-dimwrap {mode} mt-6"><img src="{p}" alt="" /></div>')
+            elif kind == "team":
+                body.append('<div class="rt-grid c2 mt-7" style="max-width: 430px; margin-inline: auto;">'
+                            '<div><img class="rt-portrait round" src="/team/john-headshot-direct.jpg" alt="John Coburn" style="width:126px; margin:0 auto;" />'
+                            '<div class="rt-name">John</div><div class="rt-role">Co-founder</div></div>'
+                            '<div><img class="rt-portrait round" src="/team/phoenix-headshot.png" alt="Phoenix Bohannon" style="width:126px; margin:0 auto;" />'
+                            '<div class="rt-name">Phoenix</div><div class="rt-role">Co-founder</div></div></div>')
+            elif kind == "qr":
+                body.append(f'<div class="mt-6"><img src="{v[1]}" alt="Scan to book a call" '
+                            f'style="width: 210px; margin: 0 auto; display: block; border-radius: 12px;" />'
+                            f'<div class="rt-cap mt-3">Scan to pick a time</div></div>')
+        if b.get("bg"): body.append('</div>')
 
     fm = f"---\nlayout: default\nclass: {fm_cls}\n{fm_extra}---\n"
-    out.append(fm + f"\n<!-- slide:{i:02d} -->\n\n" + "\n".join(body) + f"\n\n<!--\n{b['note']}\n-->\n")
+    return fm + f"\n<!-- slide:{idx:02d} -->\n\n" + "\n".join(body) + "\n"
+
+for b in B:
+    for k, line in enumerate(chunk(b["note"])):
+        SLIDE += 1
+        out.append(render(b, line, k == 0, SLIDE))
 
 OUT.write_text("\n".join(out))
 txt = OUT.read_text()
