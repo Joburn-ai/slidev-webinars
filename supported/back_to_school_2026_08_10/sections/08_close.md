@@ -185,40 +185,153 @@ the fear from Section 2 of not knowing what is happening. Say it slowly.
 layout: center
 class: nomark ink
 ---
+layout: default
+class: text-center
+---
 
-<!-- slide:134 — S8. 🔴 THE BONUS IS NAMED BUT NOT PITCHED. This is the booking-only ruling. -->
+<!-- slide:134 — S8. 🔴 THE REVEAL OF THE BACK-TO-SCHOOL SPECIAL. -->
+
+<div class="sp-kicker">Because it is back to school</div>
+<div class="sp-h1 mx-auto">We are doing something special this month.</div>
+
+<div class="sp-vs mt-10 mx-auto" style="max-width: 54rem;">
+  <div class="sp-card gate">
+    <div class="sp-waylabel">Normally</div>
+    <div class="sp-num" style="opacity:.45; text-decoration: line-through;">$3,800</div>
+    <div class="sp-card-s mt-2">The published investment for the full programme.</div>
+  </div>
+  <div class="sp-vs-mid">&rarr;</div>
+  <div class="sp-card good">
+    <div class="sp-waylabel">This month</div>
+    <div class="sp-num good">&minus;$500</div>
+    <div class="sp-card-s mt-2">A back-to-school credit, applied when you enrol off your call.</div>
+  </div>
+</div>
+
+<!--
+SPOKEN: "And because it's back to school, we're doing something special this month. The
+published investment for the full programme is $3,800. This month there's a $500
+back-to-school credit on it."
+
+🔴 R-0 RULING, JOHN 2026-08-15. This SUPERSEDES the earlier booking-only ruling. The
+product reveal, the price and the credit are now ON STAGE. The ask is still to BOOK A CALL,
+not to buy from the deck. There is no checkout here and there must never be one.
+
+🔴 $3,800 IS THE DEFENSIBLE ANCHOR. It is published on the website and has been charged 19
+times in won-deal history. Do not invent a higher one to make the discount look bigger.
+
+⚠️ The credit is applied ON THE CALL, at enrolment. Say that plainly. If anyone reads it as
+"$500 off just for showing up", you have a refund conversation later.
+-->
+
+---
+layout: default
+class: text-center
+---
+
+<!-- slide:134b — S8. 🔴 THE DEADLINE, WITH THE LIVE CLOCK. -->
+
+<div class="sp-kicker">And it has an end date</div>
+<div class="sp-h2 mx-auto">The credit runs to the end of the month.</div>
+
+<div class="mt-10 flex justify-center">
+  <Countdown />
+</div>
+
+<!--
+SPOKEN: "And it runs to the end of the month. Midnight Eastern on Monday the 31st. That
+clock is real, and when it hits zero the credit is gone."
+
+🔴 THE CLOCK IS LIVE AND IT IS COMPUTED FROM AN ABSOLUTE UTC INSTANT
+(2026-09-01T03:59:59Z), which IS 23:59:59 America/New_York on Mon 31 Aug. Verified by
+calculation. It is not a local-time string, so the presenter's laptop and a replay viewer
+in another zone see the same number.
+
+⚠️ ON THE NIGHT IT WILL READ ABOUT "5 DAYS". That is honest but it is soft. The urgency on
+the night comes from the FAST-ACTION BONUSES on the next slide, which attach to booking
+BEFORE THEY LEAVE THIS WEBINAR. Two different things, one clock. Do not add a second timer.
+
+🔴 IT DEGRADES: past the deadline it shows the closed state, never negative numbers, so the
+replay does not show "-3 days".
+-->
+
+---
+layout: default
+---
+
+<!-- slide:134c — S8. 🔴 FAST-ACTION BONUSES. This is the urgency for TONIGHT. -->
 
 <div class="text-center">
-<div class="sp-h2 sp-onimg mx-auto gold">There is a back-to-school bonus on it this month.</div>
+<div class="sp-kicker">Book before you leave tonight</div>
+<div class="sp-h2 mx-auto">Three things you only get for booking from this webinar.</div>
+</div>
 
+<div class="sp-grid c3 mt-8">
 <v-click>
-<div class="sp-say sp-onimg mt-10 mx-auto">I am not going to pitch it at you here.</div>
+  <div class="sp-card gate">
+    <div class="sp-waylabel">Fast action 1</div>
+    <div class="sp-card-t mt-2">The AP Skills Diagnostic, run first</div>
+    <div class="sp-card-s mt-3">You walk into the call already knowing where the gap is, instead of using the call to find it.</div>
+  </div>
 </v-click>
-
 <v-click>
-<div class="sp-h2 sp-onimg mt-10 mx-auto">We walk through it on the call, and only if it fits.</div>
+  <div class="sp-card gate">
+    <div class="sp-waylabel">Fast action 2</div>
+    <div class="sp-card-t mt-2">Your teen's subject-specific rubric pack</div>
+    <div class="sp-card-s mt-3">The actual scoring criteria for their exam, in plain language, whether or not you ever work with us.</div>
+  </div>
+</v-click>
+<v-click>
+  <div class="sp-card gate">
+    <div class="sp-waylabel">Fast action 3</div>
+    <div class="sp-card-t mt-2">First pick of the term's coaching slots</div>
+    <div class="sp-card-s mt-3">Live attendees book ahead of the replay list. The good times go first and they do not come back.</div>
+  </div>
 </v-click>
 </div>
 
 <!--
-SPOKEN: "There is a back-to-school bonus on it this month. I'm not going to pitch it at you
-here. We walk through it on the call, and only if it fits." [click x2]
+SPOKEN: "Now, if you book before you leave tonight, there are three things you get that
+nobody else does. One, we run the AP Skills Diagnostic first, so you walk into your call
+already knowing where the gap is instead of spending the call finding it. Two, your teen's
+subject-specific rubric pack, the actual scoring criteria in plain language, and that's
+yours whether or not you ever work with us. And three, first pick of this term's coaching
+slots. Live attendees book ahead of the replay list, and the good times go first."
+[click x4]
 
-🔴🔴 LOCKED RULING, JOHN 2026-08-15: THIS WEBINAR IS BOOKING-ONLY. No price, no value stack,
-no countdown is spoken from the stage. The bonus is named and deliberately left unpriced,
-because that is the reason the call is worth fifteen minutes.
+🔴 THIS SLIDE IS THE REAL URGENCY OF THE NIGHT, not the countdown. The credit runs five
+more days; these do not. "Tonight, not tomorrow" is the whole mechanism, and it lands on
+its own frame next so it is not competing with three cards for attention.
 
-🔴 CONSEQUENCE THAT MUST BE HELD ELSEWHERE: the $500 discount and the bonus expiry run in
-the EMAIL AND SALES PAGE TRACK, not here. Do not let a stage version of the deadline creep
-back into this slide. If it does, the promise made on slide 129 ("not sell you anything")
-is broken.
-
-⚠️ If someone asks the price in chat, the answer is: "That's exactly what the call is for.
-I'd rather look at your teen's situation before I talk numbers."
+🔴🔴 BLOCKED ON JOE, AND THIS IS A HARD GATE. Every one of these three must be something we
+can actually deliver, this term, without new build. If any cannot be, CUT IT rather than
+soften it. A fast-action bonus that does not arrive is the fastest way to lose a room that
+just trusted you. Confirm all three in writing before this runs.
 -->
 
 ---
-layout: two-cols
+layout: center
+class: nomark sun
+---
+
+<!-- slide:134d — S8. The fast-action mechanism, on its own frame. -->
+
+<div class="text-center">
+<div class="sp-h1 mx-auto">These are for people who book tonight.</div>
+
+<v-click>
+<div class="sp-h2 mt-8 mx-auto">Not tomorrow.</div>
+</v-click>
+</div>
+
+<!--
+SPOKEN: "And these are for people who book tonight. Not tomorrow." [click]
+
+Gold ground, and the last gear-change of the deck. Say it plainly and do not apologise for
+it. The credit runs another five days; these three do not, and that difference is the only
+reason anyone books before they close the tab.
+-->
+
 ---
 
 <!-- slide:135 — S8. What the call actually is. -->
@@ -262,15 +375,18 @@ class: nomark night
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Book Your Free AP Game Plan Call</div>
 
-<div class="sp-card gate mx-auto mt-10" style="max-width: 26rem;">
-  <div class="sp-waylabel">QR CODE NOT YET GENERATED</div>
-  <div class="sp-card-s mt-2">Blocked on the verified booking URL. See notes.</div>
+<div class="sp-booknow mt-8">
+  <img class="sp-qr" src="/images/qr/qr_booking.png" alt="Scan to book your free AP Game Plan Call" />
+  <div class="text-left">
+    <div class="sp-say sp-onimg">Scan it, or use the link in the chat.</div>
+    <div class="sp-sub sp-onimg mt-3">It takes about 40 seconds. Pick a time that suits you.</div>
+    <div class="sp-card bad mt-4" style="max-width: 26rem;">
+      <div class="sp-waylabel">BOOKING URL NOT VERIFIED</div>
+      <div class="sp-card-s mt-1">Run scripts/make_qr.py --url once a calendar with open slots is confirmed.</div>
+    </div>
+  </div>
 </div>
 
-<div class="sp-card bad mx-auto mt-8" style="max-width: 34rem;">
-  <div class="sp-waylabel">BOOKING LINK NOT SET</div>
-  <div class="sp-card-t mt-2">Replace before Aug 26. Verify the calendar has open slots.</div>
-</div>
 </div>
 
 <!--
@@ -373,11 +489,18 @@ class: nomark
 
 # The Back-to-School Game Plan
 
-## That Turns a 3 Into a 5
+## Book your free AP Game Plan Call
 
-<div class="sp-sub mt-10">SupportED Tutoring &middot; Dr. Joe Sebestyen</div>
+<div class="sp-booknow mt-8 justify-center">
+  <img class="sp-qr" src="/images/qr/qr_booking_close.png" alt="Scan to book your free AP Game Plan Call" />
+  <div class="text-left">
+    <Countdown compact label="$500 credit expires in" />
+  </div>
+</div>
 
-<div class="sp-fine mt-8">Results vary by student. Credit and aid policies vary by institution.</div>
+<div class="sp-sub mt-8">SupportED Tutoring &middot; Dr. Joe Sebestyen</div>
+
+<div class="sp-fine mt-6">Results vary by student. Credit and aid policies vary by institution.</div>
 
 <!--
 LEAVE THIS SLIDE UP FOR THE ENTIRE Q&A. It is the last thing on screen while people are
