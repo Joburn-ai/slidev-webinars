@@ -200,6 +200,35 @@ bg("/gen/concept-03-critical-path.png")
 # John's explicit order: "we show just sort of like the traditional bow tie funnel diagram.
 # And then we show the flow after that. And then attention capture conversion payment
 # onboarding activation success retention referral."
+# ═════════════ B0. THE CANON BOW-TIE, SHOWN PLAIN ═════════════
+# 🔴 John, after reviewing the live deck: "I do want to show our CANON bowtie funnel, and
+# just the diagram of it, so it's as clear as possible."
+#
+# AND THE DECK WAS OFF-CANON. Its bowtie_00_full.svg labels 9 stages ending PAYMENT ...
+# RETENTION ... REFERRAL. The canon shipped to production on 2026-08-17 (quiz-hub
+# lib/bowtie.ts, REF_bowtie_funnel_model_2026_08_17.md) is ELEVEN stages in THREE regions:
+#   ACQUISITION  Attention · Capture · Conversion · Close
+#   DELIVERY     Onboard · Activate · Succeed · Retain      <- the knot
+#   COMPOUNDING  Review · Refer · Ascend
+# Differences that matter: CLOSE not payment · RETAIN sits inside delivery · REVIEW and
+# ASCEND exist · it ends on ASCEND, not referral. A prospect gets the canon diagram in the
+# quiz delivery email, so a VSL drawing a different one contradicts our own funnel.
+# These renders are the SAME source as the emails: quiz-hub/public/images/bowtie (2x).
+bg(None)
+s("THE MODEL", "This is the whole thing.", "One diagram, eleven steps.",
+  "Before anything else, here is the whole model on one screen.",
+  img("/canon/bowtie-hunch_no_proof.png"), "bleed")
+s("IT NARROWS, THEN IT WIDENS", "Acquisition. Delivery. Compounding.", None,
+  "It narrows down to the sale, then it widens back out. Acquisition, delivery, compounding.",
+  # NOT a third consecutive bleed -- contained, so the three-region structure is readable
+  # rather than cropped by object-fit:cover.
+  shot("/canon/bowtie-hunch_no_proof.png", "THE CANON MODEL",
+       "Eleven steps, three regions. The same diagram the delivery email carries."))
+s("THE RIGHT SIDE FEEDS THE LEFT", "The journey doesn't end at the purchase.", None,
+  "And the right side feeds the left. The journey does not end when they pay you.",
+  img("/canon/bowtie-hunch_no_proof.png"), "bleed")
+
+bg("/gen/concept-03-critical-path.png")
 s("", "Your results screen showed you an area.", None,
   "So. Your results screen just showed you an area.",
   plate("/flows/bt_a_shape.svg"), "default", "fade")
@@ -247,23 +276,61 @@ s("", "And what you can see", "is not always what is causing it.",
   "And what you can see is not always what is causing it.",
   plate("/flows/root_2_beam.svg"), "default", "fade")
 
+# ═════════════ B1. THE DASHBOARD YOU NEVER GOT ═════════════
+# 🔴 John's analogy, and it is HIS WORDING, not my paraphrase of it. Source: Google Doc
+# 10aiUyH6UlcSeFCnHM5cI90roHR9JT9hftk2r7dttjMc, tab "Foundation Problem" (t.0), section
+# "Your car does not have the dashboard it should", repeated in the "Smaller YT Version" tab.
+#
+# Why it belongs here rather than replacing the mansion: the mansion answers WHERE
+# (west wing -> which bolt). This answers WHY YOU CANNOT SEE IT, and then it earns the
+# close, because the last beat is the reason to have someone on your team instead of paying
+# a mechanic per repair. The mansion locates; the dashboard explains and sells.
+bg("/gen8/n07_ai_cant_see_you.png")
+s("THE CHECK ENGINE LIGHT", "One bulb. No information.", "Something's wrong somewhere, good luck.",
+  "Think about the check engine light. One bulb. No information. Something is wrong somewhere, good luck.",
+  readout("WHAT YOUR DASHBOARD TELLS YOU", "1 BULB", "ember"), "peak text-center")
+s("", "The tech to do better", "has existed for twenty years.",
+  "The technology to do better has existed for twenty years.",
+  img("/gen8/n02_rising_cost_curve.png", "50% 40%"), "bleed")
+s("AN F1 TEAM", "The temperature of every brake.", "The wear on every tyre.",
+  "An F1 team knows the temperature of every brake and the wear on every tyre.",
+  cards(3, [("EVERY BRAKE", "good"), ("EVERY TYRE", "good"), ("EVERY COMPONENT", "good")]))
+s("", "And which component will fail", "two laps before it fails.",
+  "And which component is going to fail two laps before it fails.",
+  readout("WARNING, IN LAPS", "2 AHEAD", "teal"), "peak text-center")
+s("THE PIT WALL", "One voice tells the driver", "the single thing that matters right now.",
+  "A pit wall reads all of it, and one voice tells the driver the single thing that matters right now.",
+  img("/gen8/n08_one_constraint_gate.png"), "bleed")
+s("", "Your car could have that screen.", "It does not.",
+  "Your car could have that screen. It does not.",
+  oldnew("ONE BULB", "THE WHOLE CAR", "WHAT YOU HAVE", "WHAT EXISTS"))
+# the line that makes the whole analogy land. Do not soften it.
+s("AND HERE'S WHY", "The entire repair industry", "would quietly cease to exist.",
+  "Because if it did, the entire repair industry would quietly cease to exist.",
+  img("/gen/concept-05-blame-cascade.png", "50% 45%"), "bleed")
+s("", "Your business works the same way.", "And for the same reason.",
+  "Your business works the same way, and for the same reason.",
+  plate("/flows/bowtie_00_full.svg"), "default", "fade")
+# 🔴 THE BEAT THAT EARNS THE CLOSE. John: "you still need someone to help set those systems
+# up, otherwise you pay the mechanic every single time instead of someone on your team."
+s("", "Somebody still has to", "install the sensors.",
+  "And somebody still has to install the sensors.",
+  cards(2, [("PAY A MECHANIC EVERY TIME", "bad"), ("SOMEONE ON YOUR TEAM", "good")]))
+s("", "Otherwise you're paying per repair", "forever.",
+  "Otherwise you are paying a mechanic every single time, instead of having somebody on your team who can read the car.",
+  img("/gen8/n05_stack_of_attempts.png"), "bleed")
+
 # ═════════════════════ C. THE MANSION ═════════════════════
 bg("/gen8/n10_blind_spot.png")
 s("", "An area is not a thing.", None,
   "But an area is not a thing.",
   oldnew("AN AREA", "A THING", "WHAT YOU GOT", "WHAT YOU NEED"))
-s("", "You know a pipe is leaking", 'somewhere in "the west wing."',
-  "It is like being told a pipe is leaking in the west wing.",
-  img("/gen8/n10_blind_spot.png"), "bleed")
+
 s("", "Okay. But which pipe?", None,
   "Okay, but which pipe? The wing is not the fix. The bolt is.",
   cards(2, [("THE WING", ""), ("THE BOLT", "bad")]))
-s("THE ZOOM", "The quiz gets you to the wing.", "It cannot get you to the bolt.",
-  "The quiz gets you to the wing. It cannot get you to the bolt.",
-  cards(3, [("THE HOUSE", ""), ("THE WING", "good"), ("THE BOLT", "bad")]))
-s("INSIDE CONVERSION", "Script? Pre-call framing?", "Headline? The order of the offer?",
-  "Say yours came back conversion. Script? Pre-call framing? Headline? Offer order?",
-  cards(4, [("SCRIPT", ""), ("PRE-CALL FRAMING", ""), ("HEADLINE", ""), ("OFFER ORDER", "bad")]))
+
+
 
 # ═════════════════════ D. CONSTRAINT BLINDNESS ═════════════════════
 bg("/gen/concept-06-information-abundance.png")
@@ -659,9 +726,23 @@ def render(b, line, first, idx):
             # left-to-right gradient over it -- 0.94 opaque at the left edge, 0.10 at the
             # right. The type sits on a dark band and stays legible while the photograph is
             # genuinely visible across the right of frame. The image is content, not texture.
+            # 🔴 THE SCRIM HAS TO MATCH THE TEXT ALIGNMENT. John, looking at the live deck:
+            # "some of the text blends with the background". He is right, and it was my bug.
+            # .rt-scrim is a LEFT-TO-RIGHT gradient -- 0.94 opaque at the left edge falling to
+            # 0.10 at the right. That is correct for left-aligned type and WRONG for the 11
+            # centred slides, whose text lands on the 0.10 end with nothing behind it.
+            # Directional ground for left-aligned copy, uniform ground for centred copy.
+            centred = "text-center" in b["cls"]
+            ground = 0.55 if centred else 0.82
             body.append(f'<img class="rt-bleed" src="{b["bg"]}" alt="" aria-hidden="true" '
-                        f'style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />')
-            body.append('<div class="rt-scrim"></div>')
+                        f'style="opacity:{ground}; filter:grayscale(0.20); object-position:50% 40%;" />')
+            if centred:
+                # uniform veil, strong enough for white type at any x-position, still clearly
+                # a photograph rather than a flat panel
+                body.append('<div style="position:absolute; inset:0; '
+                            'background:rgba(10,34,48,0.72);"></div>')
+            else:
+                body.append('<div class="rt-scrim"></div>')
             body.append('<div class="relative">')
         if kick: body.append(f'<div class="rt-kicker">{esc(kick)}</div>')
         body.append(f'<div class="rt-h1 mt-2">{esc(line)}</div>')
@@ -811,7 +892,19 @@ words = sum(len(b["note"].split()) for b in B)
 # ⚠️ SO THIS IS A DECISION FOR JOHN, not a gate to loosen quietly: shoot 8:32 with both, or
 # lift the mansion in the edit and land nearer 7:45. The gate allows the built scope and
 # fails anything past it.
-if words / 155 > 8.7: fail.append(f"RUNTIME {words/155:.2f} min > 8.70 (script 7:32 + cascade/mansion ~0:85)")
+# 🔴 RUNTIME, WITH THE ARITHMETIC SHOWN so the cut is a decision and not a surprise.
+# John's refined script, full cut ...................... 7:32
+#   + the canon bow-tie shown plain (B0, 3 beats) ...... ~0:20   he asked for this
+#   + the constraint cascade, attention->referral ...... ~0:40   "I like the constraint
+#                                                                demonstration throughout"
+#   + the F1 dashboard / check-engine-light (B1) ....... ~1:05   his own doc's wording
+#   + the mansion remnant (2 beats) .................... ~0:10
+#   = the built deck .................................. ~9:40
+# ⚠️ THAT IS LONG for a post-quiz VSL and every second of it is something John asked for, so
+# the trade is his: drop the mansion remnant (-0:10), drop the F1 close-earning beats and
+# keep only the check-engine open (-0:35), or lift the five [SHORT CUT] passages from the
+# script in the edit (-1:00). The gate allows the built scope and fails past it.
+if words / 155 > 9.8: fail.append(f"RUNTIME {words/155:.2f} min > 9.80 (see the arithmetic above)")
 if txt.count("—"): fail.append(f"EM-DASH x{txt.count(chr(8212))}")
 
 over = [(i, len(b['head'].split()) + len((b['sub'] or '').split())) for i, b in enumerate(B, 1)
