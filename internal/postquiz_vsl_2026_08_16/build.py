@@ -128,9 +128,72 @@ s("", "You stopped guessing.", None,
 s("YOUR ROADMAP", "It's already being built.", None,
   "Your roadmap is already being built.",
   figure("/flows/02a_funnel_get_the_roadmap.svg"))
-s("", "Before you read it,", "give me six minutes.",
-  "Before you read it, give me six minutes.",
-  readout("THIS TAKES", "6 MIN", "gold"), "peak text-center")
+s("", "Before you read it,", "give me seven minutes.",
+  "Before you read it, give me seven minutes.",
+  readout("THIS TAKES", "7 MIN", "gold"), "peak text-center")
+
+# ═════════════════════ A2. THE TEE-UP: TRUST RECESSION ═════════════════════
+# 🔴 THIS ENTIRE BEAT WAS MISSING FROM v2. John's refined script opens on the trust
+# recession and it had NO slides at all -- while /gen/concept-07-trust-recession.png sat
+# unused on disk, generated for exactly this. 38 of 203 assets were referenced; this
+# section is the largest single reason.
+#
+# The four rejects get ONE SLIDE EACH. That is the 400-hack rhythm and it is lifted from
+# John's own AP ads, where the failed solutions stack before the mechanism is named. Prose
+# was flattening proven copy.
+bg("/gen/concept-07-trust-recession.png")
+s("", "Everybody's talking about", "the trust recession.",
+  "Everybody is talking about the trust recession.",
+  img("/gen/concept-07-trust-recession.png"), "bleed")
+s("", "Ads don't land like they used to.", None,
+  "Ads do not land like they used to.",
+  img("/gen8/n02_rising_cost_curve.png", "50% 40%"), "bleed")
+s("", "Calls don't close.", None,
+  "Calls do not close.",
+  shot("/gen/char-02-lost.png"))
+s("", "People go quiet on you", "after they already said they were in.",
+  "People go quiet on you after they already said they were in.",
+  shot("/gen/char-01-stuck.png"))
+s("", "It's real.", "But almost everybody has the cause wrong.",
+  "It is real. But almost everybody has the cause wrong.",
+  oldnew("IT'S REAL", "THE CAUSE IS WRONG", "WHAT THEY SEE", "WHAT THEY MISS"))
+s("THE MARKET'S ANSWER", "\"It's a trust problem.", "So I need more proof.\"",
+  "The market looks at it and says, it is a trust problem, so I need more proof.",
+  shot("/gen8/n06_report_framework_deck.png"))
+# ── the stack. One reject per slide. ──
+s("", "More testimonials.", None, "So they go get more testimonials.",
+  readout("ATTEMPT 01", "MORE TESTIMONIALS", "ember"), "peak text-center")
+s("", "More authority.", None, "More authority.",
+  readout("ATTEMPT 02", "MORE AUTHORITY", "ember"), "peak text-center")
+s("", "More content.", None, "More content.",
+  readout("ATTEMPT 03", "MORE CONTENT", "ember"), "peak text-center")
+s("", "More case studies.", None, "More case studies.",
+  readout("ATTEMPT 04", "MORE CASE STUDIES", "ember"), "peak text-center")
+s("", "And nothing changes.", None,
+  "And nothing changes.",
+  img("/gen8/n05_stack_of_attempts.png"), "bleed")
+s("HERE'S WHY", "Trust doesn't evaporate.", "It breaks at a specific point.",
+  "Here is why. Trust does not evaporate. It breaks at a specific point.",
+  plate("/flows/root_1_mechanics.svg"), "default", "fade")
+s("", "And that point", "is almost always a constraint.",
+  "And that point is almost always a constraint. Either in how you sell, or in what happens after somebody buys.",
+  plate("/flows/bowtie_00_full.svg"), "default", "fade")
+s("", "Nobody distrusts you", "for no reason.",
+  "Nobody distrusts you for no reason. Something upstream did not line up.",
+  img("/gen/concept-05-blame-cascade.png", "50% 45%"), "bleed")
+# 🔴 CREDIBILITY MOVED TO ~1:00 (John's note). It was buried at 5:30 inside the ads-access
+# paragraph. Here it buys the Core Four, which is the driest stretch and the likeliest drop.
+# ⚠️ "DOZENS" IS JOHN'S OPEN ITEM -- he asked for a real number and I will not invent one.
+# The wall count (42) is verified on funnelfuturist.com/proof and is used as the floor.
+s("AND I'M NOT GUESSING", "We've been inside these businesses.", "Same thing every time.",
+  "And I am not guessing. We have been inside these businesses, and it is the same thing every time.",
+  wall(["/site/ff-case-file-001-supported-tutoring--hero.png",
+        "/site/ff-case-file-002-clients-community--hero.png",
+        "/site/ff-proof-index--hero.png"],
+       "Two case files and a wall of wins, published with how we count."))
+s("", "One thing's holding it.", "And it's almost never what they called us about.",
+  "One thing is holding it, and it is almost never the thing they called us about.",
+  oldnew("WHAT THEY CALLED ABOUT", "WHAT WAS ACTUALLY HOLDING IT", "THE SYMPTOM", "THE CONSTRAINT"))
 
 # ═══════════════ B. THE BOW-TIE, THEN THE FLOW, THEN THE STAGES ═══════════════
 bg("/gen/concept-03-critical-path.png")
@@ -210,9 +273,12 @@ s("THE EPIDEMIC", "There's an epidemic in this market.", None,
 s("", "I call it constraint blindness.", None,
   'I call it "constraint blindness". It is very hard to see our own constraints.',
   shot("/gen8/n09_label_inside_the_jar.png"))
+# 🔴 THE RECURRING CHARACTER, finally used. The skill mandates one avatar cut-out at the
+# emotional beats (deck_production §4.1) and v2 used ZERO of the six states sitting on disk.
+# stuck -> wall -> realising -> winning, tracking the viewer's own state through the arc.
 s("", "Stuck at 10K. At 50K. At 100K.", "You feel it. You can't see it.",
   "People are stuck at ten K, fifty K, a hundred K. They feel it. They cannot see it.",
-  img("/gen8/n01_buried_in_advice.png"), "bleed")
+  shot("/gen/char-01-stuck.png"))
 s("", "So you work harder", "on whatever's in front of you.",
   "So you work harder on whatever is in front of you.",
   shot("/gen8/n17_working_hard_right_things.png"))
@@ -237,8 +303,12 @@ s("WHEN IT MOVES", "This is what it looks like", "when the right thing gets fixe
        "Client Slack. Their words, their businesses."))
 s("OUR SITE", "Forty two of these.", "With the receipts attached.",
   "Forty two of these are on our site with the receipts.",
-  # 🔴 was the proof-wall band; pulled on PII grounds -- see the QC note above.
-  dim("/flows/bowtie_00_full.svg", "light"))
+  # Restored 2026-08-16 on John's clearance ("put the social proof in the screenshots and
+  # stuff in the deck, that's fine"). Redacted variant: first name + last initial, our site's
+  # own convention. Two third-party names inside the capture (@Justine, Lakshman) are still
+  # unredacted -- flagged to John, not a build blocker.
+  shot("/proof2/_v2_proofwall_band_redacted.png", "OUR SITE",
+       "Names shown where clients agreed. How we count is published on the page."))
 s("SO WHERE DOES IT LIVE?", "Market. Avatar.", "Offer. Pitch.",
   "So where does it live? Market, avatar, offer, pitch.",
   cards(4, [("MARKET", "good"), ("AVATAR", "good"), ("OFFER", "good"), ("PITCH", "good")]))
@@ -260,9 +330,10 @@ s("PITCH", "The script?", "Or the order?",
 s("PITCH", "Ask too early,", "and it isn't heard as a bad offer.",
   "Ask before that belief lands and it does not read as a bad offer. It reads as, I do not trust this guy.",
   oldnew("A BAD OFFER", "I DON'T TRUST THIS GUY", "WHAT YOU SENT", "WHAT LANDED"))
-s("AND A FIFTH", "Your personal profile.", "How you show up before you speak.",
-  "And a fifth underneath it all. Your personal profile. What people think before you speak.",
-  cards(5, [("MARKET", ""), ("AVATAR", ""), ("OFFER", ""), ("PITCH", ""), ("YOU", "good")]))
+# 🔴 THE FIFTH BOX IS OUT, per John's refinement: "You say 'four places', then add a fifth.
+# It diluted the count." It was already flagged as a cut candidate in the source script. If
+# personal profile matters it belongs in the roadmap, not in the taxonomy slide that just
+# promised four.
 s("", "The overt is what everyone stares at.", "The covert is where it lives.",
   "That is constraint blindness. The overt is what everyone stares at. The covert is where it lives.",
   oldnew("WHAT EVERYONE STARES AT", "WHERE IT ACTUALLY LIVES", "OVERT", "COVERT"))
@@ -330,19 +401,103 @@ s("AND WHERE IT FITS", "Ads. Email. CRM.", "Whichever one the constraint is actu
 s("", "Otherwise we're just", "throwing random shit at you.",
   "Because unless we know that, we are just throwing random shit at you.",
   img("/gen8/n05_stack_of_attempts.png"), "bleed")
-# 🔴 CLAIM CORRECTED. v1 said $2.4M, taken from John's script. Our own brand board claims
-# discipline reads: "only register-verified numbers -- C&C $1.81M from email in 9 months
-# (total engagement tracked ~$2.4M before tracking stopped, June 2024)". $2.4M is the
-# unverified figure, and our public site says $1.81M, so a prospect finds the contradiction
-# in one click. Shipping the register-verified number. John's call to override.
-s("PROOF", "$1.81M from email.", "In nine months. Same list, same offer.",
-  "One coaching business had all the pieces, they were just not talking to each other. We rebuilt the email infrastructure and ran the reactivation. One point eight one million from email in nine months.",
-  readout("COACHING CLIENT &middot; ATTRIBUTED TO EMAIL &middot; 9 MONTHS", "$1.81M", "teal",
-          "A coaching client. Their result, not ours. Nine months, 21 automations, 700+ bookings."))
-s("PROOF", "$1.07M closed-won.", "January 2025 to July 2026.",
-  "And a tutoring company. One point oh seven million closed-won over nineteen months, around eighty percent from paid social.",
-  readout("TUTORING CLIENT &middot; CLOSED-WON &middot; JAN 2025 TO JUL 2026", "$1.07M", "teal",
-          "SupportED. Their result, not ours. Jan 2025 to Jul 2026."))
+# ═══════════════ I2. THE PROOF -- THE CONSTRAINT SEQUENCE, ON A REAL PERSON ═══════════════
+# 🔴 THIS BEAT WAS ALSO MISSING ENTIRELY. v2 carried two bare readouts ($2.39M, $1.2M) and
+# no story. John's refinement replaces them with Dr. Joe, and the reason is right: Dr. Joe
+# IS the mechanism -- three constraints in sequence, each invisible until the one ahead of it
+# cleared -- whereas Chris is a bigger single number with a much smaller story.
+#
+# EVERY FIGURE BELOW IS VERBATIM FROM funnelfuturist.com/proof, fetched and checked
+# 2026-08-17. $648,022 · $630,071 · $1.27M+ · $16K->$50K · $1.81M · 42 wins.
+#
+# 🔴 TWO CORRECTIONS TO JOHN'S DRAFT, both because the page is the authority:
+#   1. The page says "$250 CPA, down from $400-450". The draft said "four fifty", which is
+#      the flattering end of our own range. Shipping FOUR HUNDRED -- the conservative end,
+#      same bottom-of-band rule the roadmap uses. Smaller claim, unarguable.
+#   2. $630,071 is 2026 through July, NOT more of 2025. Written so it cannot read as one year.
+# ⚠️ The page never names Chris's company. "Clients & Community" is NOT said here -- that is
+#    John's disclosure call, flagged, not assumed.
+bg("/proof2/meet-dr-joe-portrait.png")
+s("CASE FILE 001", "Dr. Joe was a vice principal.", "Running a tutoring company on nights and weekends.",
+  "Here is what that looks like when somebody runs it in order. Dr. Joe was a vice principal, running a tutoring company on nights and weekends.",
+  shot("/proof2/meet-dr-joe-portrait.png", "CASE FILE 001", "Dr. Joe Sebestyen, SupportED Tutoring."))
+s("", "He came to us thinking", "he had a lead problem.",
+  "He came to us thinking he had a lead problem. Everybody thinks they have a lead problem.",
+  shot("/proof2/meet-dr-joe-jan-2026.png", "CASE FILE 001",
+       "SupportED Tutoring. Published at funnelfuturist.com/proof."))
+s("CONSTRAINT 1", "He didn't. It was the funnel.", "It leaked them before anybody talked to them.",
+  "He did not. It was the funnel, and it leaked most of them before anybody ever talked to them.",
+  plate("/flows/bt_c1_capture.svg"), "default", "fade")
+s("CONSTRAINT 1 &middot; CLEARED", "$400 to acquire a customer.", "Down to $250 after the rebuild.",
+  "Four hundred dollars to acquire a customer. We rebuilt it. Four hundred came down to two fifty.",
+  readout("COST TO ACQUIRE A CUSTOMER", "$400 &rarr; $250", "teal",
+          "Their dashboards, not ours. Published as $250 CPA, down from $400-450 before the rebuild."))
+s("", "Then a new constraint opened up.", None,
+  "Then a new constraint opened up.",
+  shot("/gen/char-04-realising.png"))
+s("", "You clear one,", "the next one steps forward.",
+  "You clear one, the next one steps forward. It was always standing right behind it.",
+  plate("/flows/root_2_beam.svg"), "default", "fade")
+s("CONSTRAINT 2", "Leads nobody was working.", "No sales operation. So we built one.",
+  "Now he had leads nobody was working. No sales operation. So we built him one.",
+  wall(["/proof2/sales-tracking-system-transformation.png",
+        "/proof2/setter-assistant-jan-2026.png",
+        "/proof2/sales-tracking-update.png"],
+       "The sales operation going in. Their Slack, their words."))
+s("CONSTRAINT 3", "A system nobody was trained to run.", "So we put talent in the seats.",
+  "Clearing that opened the next one. People. A system nobody was trained to run. So we put talent in the seats.",
+  plate("/flows/bowtie_03_team.svg"), "default", "fade")
+s("THE ORDER", "Funnel. Then sales.", "Then the people.",
+  "Funnel. Then sales. Then the people. In that order.",
+  cards(3, [("FUNNEL", "good"), ("SALES", "good"), ("PEOPLE", "good")]))
+s("", "$16K a month to $50K.", None,
+  "Sixteen thousand a month to fifty.",
+  readout("MONTHLY REVENUE &middot; 2023 &rarr; 2025", "$16K &rarr; $50K", "teal",
+          "The client's own words, published on our proof page."))
+s("2025", "$648,022 closed.", None,
+  "Six hundred forty-eight thousand closed in 2025.",
+  readout("FILE 001 &middot; 2025 REVENUE CLOSED", "$648,022", "gold",
+          "Client KPI dashboards. Odd numbers because they are counted, not rounded."))
+s("2026", "And another $630,071", "in the first seven months of this year.",
+  "And another six hundred thirty thousand in the first seven months of this year.",
+  wall(["/proof2/cash-collected.png",
+        "/proof2/cash-collection-growth.png",
+        "/proof2/consecutive-revenue-milestones.png"],
+       "$630,071 through July 2026, with a $164K peak month in March."))
+s("", "His side hustle", "out-earned his day job.",
+  "His side hustle out-earned his day job.",
+  shot("/gen/char-06-winning.png"))
+# 🔴 THE POINT OF THE WHOLE STORY. Do not cut this beat to save runtime -- without it the
+# sequence is three nice numbers instead of the mechanism.
+s("HERE'S THE PART I WANT YOU TO HEAR", "Not one of those three", "was visible on day one.",
+  "Here is the part I want you to hear. Not one of those three was visible on day one. Not to him, not to us.",
+  cards(3, [("FUNNEL", ""), ("SALES", ""), ("PEOPLE", "bad")]))
+s("", "You can't see the second one", "until you clear the first.",
+  "You cannot see the second one until you clear the first. It is hiding behind it.",
+  plate("/flows/root_3_beam_activation.svg"), "default", "fade")
+s("", "That's why the order matters", "more than the effort.",
+  "That is why the order matters more than the effort. That is the whole job.",
+  readout("THE WHOLE JOB", "ORDER &gt; EFFORT", "teal"), "peak text-center")
+# ── Chris. Bigger number, smaller story, so it gets one beat, not eleven. ──
+s("CASE FILE 002", "Chris. Same process.", "His constraint was email.",
+  "Chris, same process. His constraint was email.",
+  shot("/site/ff-case-file-002-clients-community--hero.png", "CASE FILE 002",
+       "Published with how we count. $1.81M attributed to the inbox."))
+s("", "$1.81M from the inbox", "in nine months.",
+  "One point eight one million dollars from the inbox in nine months.",
+  readout("FILE 002 &middot; EMAIL, 9 MONTHS", "$1.81M", "gold",
+          "Attributed to the inbox. $140K collected from email in a single month at peak."))
+# ── the wall, and the line that costs nothing ──
+s("THE WALL", "Forty-two more on our site.", "Dates and screenshots attached.",
+  "Forty-two more on our site, dates and screenshots attached. Every number I said is on that page.",
+  wall(["/proof2/_v2_proofwall_band_redacted.png",
+        "/site/ff-proof-index--full.png",
+        "/proof2/_v2_how_we_count.png"],
+       "The wall, the index, and how we count -- all published."))
+s("", "Go check them.", None,
+  "Go check them.",
+  readout("THE WHOLE POINT", "GO CHECK THEM", "gold",
+          "Almost nobody clicks. The willingness to be checked is the payload."))
 s("ONE OPTIONAL THING", "View-only access to your ad account.", "No spend. No changes.",
   "One optional thing. After you book we send a link for view-only access to your ad account. We cannot touch it or change anything. Just look.",
   cards(3, [("VIEW ONLY", "good"), ("NO SPEND", "good"), ("NO CHANGES", "good")]))
@@ -364,9 +519,21 @@ s("", "Ninety days older.", "Or ninety days older, holding a plan you executed."
 s("", "The only difference", "is the next ten seconds.",
   "The only difference is what you do in the next ten seconds.",
   readout("THE ONLY DIFFERENCE", "10 SECONDS", "gold"), "peak text-center")
-s("", "Button's below. Pick a time.", None,
-  "Button is below. Pick a time, then go read your roadmap.",
+# 🔴 CTA NOW SAYS WHAT ACTUALLY HAPPENS, per John's refinement, lifted from his own AP ads
+# which spell out click -> form -> book -> here is what we cover. "Button's below" left them
+# guessing, and naming the two links gives the ads-access ask its third placement alongside
+# the confirmation email and the SMS.
+s("", "Button's below.", "Click it, pick a time.",
+  "Button is below. Click it, pick a time.",
   img("/gen8/n12_two_tracks.png"), "bleed")
+s("WHAT ARRIVES", "A confirmation with two links.", "Both of them are yours to keep.",
+  "And you will get a confirmation with two links. Your roadmap, and the ad account link.",
+  cards(2, [("YOUR ROADMAP", "good"), ("AD ACCOUNT LINK", "good")]))
+# 🔴 THE SHOW-RATE LINE. The two videos now point at each other: this one ends on the button
+# instead of the inbox, and the roadmap demo mentions the booked call. That was the quiet leak.
+s("", "Pick the time first.", "Then go read the roadmap.",
+  "Pick the time first. Then go read the roadmap. It hits harder with the call already on the books.",
+  oldnew("READ IT, MAYBE BOOK", "BOOK IT, THEN READ", "THE LEAK", "THE ORDER"))
 # 🔴 QR REMOVED, NOT DEFERRED. I generated it against
 # https://calendly.com/funnelfuturist/discovery -- the only FF-branded booking link in the
 # estate -- and shipped it without resolving the URL. It returns HTTP 404. A dead QR baked
@@ -483,8 +650,18 @@ def render(b, line, first, idx):
         body.append('</div>')
     else:
         if b.get("bg"):
+            # 🔴 WAS opacity:0.10 -- that is the gamed backdrop, and it deserved to fail. A
+            # 10% wash is invisible to a viewer, so the gate was right to discount it and the
+            # deck was right to read as 44.6% covered.
+            #
+            # This is the GOLDEN'S actual pattern instead (slides_v8 gets 85.1% this way):
+            # the sectional ground renders at full strength and .rt-scrim lays a
+            # left-to-right gradient over it -- 0.94 opaque at the left edge, 0.10 at the
+            # right. The type sits on a dark band and stays legible while the photograph is
+            # genuinely visible across the right of frame. The image is content, not texture.
             body.append(f'<img class="rt-bleed" src="{b["bg"]}" alt="" aria-hidden="true" '
-                        f'style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />')
+                        f'style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />')
+            body.append('<div class="rt-scrim"></div>')
             body.append('<div class="relative">')
         if kick: body.append(f'<div class="rt-kicker">{esc(kick)}</div>')
         body.append(f'<div class="rt-h1 mt-2">{esc(line)}</div>')
@@ -618,7 +795,23 @@ if re.search(r'class="rt-plate', txt): fail.append("BANNED rt-plate around text:
 if re.search(r'rt-cell(?![a-z-])', txt): fail.append("rt-cell outside .rt-rail: nowrap + overflow:hidden clips silently")
 
 words = sum(len(b["note"].split()) for b in B)
-if words / 155 > 6.0: fail.append(f"RUNTIME {words/155:.2f} min > 6.00")
+# 🔴 THE TARGET IS THE FULL CUT NOW, not the 6:00 the v2 deck was written to. John's
+# refined script is 1,167 spoken words = 7:32 for the full cut, and 1,010 = 6:31 for the
+# recommended cut, which is assembled by lifting the five [SHORT CUT] passages in the edit.
+# "Record the full cut, run the recommended cut." So the deck must carry the FULL script and
+# the gate has to allow it -- a gate set to the shorter cut would force the proof story out,
+# which is the single most valuable thing the refinement added.
+# 🔴 THE DECK IS DELIBERATELY LONGER THAN THE SCRIPT, and this number says why rather than
+# hiding it. John's refined script full cut = 1,167 words = 7:32. This deck runs ~1,320 =
+# 8:32, because it ALSO carries two beats he asked for separately and confirmed he likes:
+#   · the bow-tie cascade, attention -> referral looping back (section B, ~11 beats)
+#     John: "I like the way the bowtie funnel looks as it flows"
+#   · the west-wing / which-bolt mansion (section C)
+# Those are ~85 seconds that exist in the DECK and not in the script text.
+# ⚠️ SO THIS IS A DECISION FOR JOHN, not a gate to loosen quietly: shoot 8:32 with both, or
+# lift the mansion in the edit and land nearer 7:45. The gate allows the built scope and
+# fails anything past it.
+if words / 155 > 8.7: fail.append(f"RUNTIME {words/155:.2f} min > 8.70 (script 7:32 + cascade/mansion ~0:85)")
 if txt.count("—"): fail.append(f"EM-DASH x{txt.count(chr(8212))}")
 
 over = [(i, len(b['head'].split()) + len((b['sub'] or '').split())) for i, b in enumerate(B, 1)

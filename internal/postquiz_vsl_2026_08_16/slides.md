@@ -91,7 +91,8 @@ class: default
 
 <!-- slide:04 -->
 
-<img class="rt-bleed" src="/gen8/n13_show_up_gift.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n13_show_up_gift.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">YOUR ROADMAP</div>
 <div class="rt-h1 mt-2">Your roadmap is already being built.</div>
@@ -105,10 +106,195 @@ class: peak text-center
 
 <!-- slide:05 -->
 
-<img class="rt-bleed" src="/gen8/n13_show_up_gift.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n13_show_up_gift.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-h1 mt-2">Before you read it, give me six minutes.</div>
-<div class="mt-6"><div class="rt-lab">THIS TAKES</div><div class="rt-big gold">6 MIN</div></div>
+<div class="rt-h1 mt-2">Before you read it, give me seven minutes.</div>
+<div class="mt-6"><div class="rt-lab">THIS TAKES</div><div class="rt-big gold">7 MIN</div></div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:06 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-h1 rt-onimg">Everybody is talking about the trust recession.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:07 -->
+
+<img class="rt-bleed" src="/gen8/n02_rising_cost_curve.png" alt="" style="object-position: 50% 40%;" />
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-h1 rt-onimg">Ads do not land like they used to.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:08 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Calls do not close.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-02-lost.png" alt="Calls do not close." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:09 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">People go quiet on you after they already said they were in.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-01-stuck.png" alt="People go quiet on you after they already said they were in." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:10 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">It is real.</div>
+<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">WHAT THEY SEE</div><div class="rt-card-t">IT'S REAL</div></div><div class="rt-new"><div class="rt-waylabel">WHAT THEY MISS</div><div class="rt-card-t">THE CAUSE IS WRONG</div></div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:11 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">But almost everybody has the cause wrong.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:12 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">THE MARKET'S ANSWER</div>
+<div class="rt-h1 mt-2">The market looks at it and says, it is a trust problem,</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen8/n06_report_framework_deck.png" alt="The market looks at it and says, it is a trust problem," style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:13 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">so I need more proof.</div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:14 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">So they go get more testimonials.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 01</div><div class="rt-big ember">MORE TESTIMONIALS</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:15 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">More authority.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 02</div><div class="rt-big ember">MORE AUTHORITY</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:16 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">More content.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 03</div><div class="rt-big ember">MORE CONTENT</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:17 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">More case studies.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 04</div><div class="rt-big ember">MORE CASE STUDIES</div></div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:18 -->
+
+<img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-h1 rt-onimg">And nothing changes.</div>
+  </div>
 </div>
 
 ---
@@ -117,7 +303,170 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:06 -->
+<!-- slide:19 -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="Here is why." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Here is why.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:20 -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="Trust does not evaporate." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Trust does not evaporate.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:21 -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="It breaks at a specific point." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It breaks at a specific point.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:22 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="And that point is almost always a constraint." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">And that point is almost always a constraint.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:23 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Either in how you sell, or in what happens after somebody buys." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Either in how you sell, or in what happens after somebody buys.</div></div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:24 -->
+
+<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-h1 rt-onimg">Nobody distrusts you for no reason.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:25 -->
+
+<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-h1 rt-onimg">Something upstream did not line up.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:26 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">AND I'M NOT GUESSING</div>
+<div class="rt-h1 mt-2">And I am not guessing.</div>
+<div class="rt-grid c3 mt-6"><img class="rt-shot wall" src="/site/ff-case-file-001-supported-tutoring--hero.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-case-file-002-clients-community--hero.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-proof-index--hero.png" alt="Client message" /></div><div class="rt-cap mt-3">Two case files and a wall of wins, published with how we count.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:27 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">We have been inside these businesses,</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:28 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">and it is the same thing every time.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:29 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">One thing is holding it,</div>
+<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">THE SYMPTOM</div><div class="rt-card-t">WHAT THEY CALLED ABOUT</div></div><div class="rt-new"><div class="rt-waylabel">THE CONSTRAINT</div><div class="rt-card-t">WHAT WAS ACTUALLY HOLDING IT</div></div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:30 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">and it is almost never the thing they called us about.</div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:31 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_a_shape.svg" alt="So." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -130,7 +479,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:07 -->
+<!-- slide:32 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_a_shape.svg" alt="Your results screen just showed you an area." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -143,7 +492,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:08 -->
+<!-- slide:33 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_b_wings.svg" alt="This is the shape of every business." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -156,7 +505,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:09 -->
+<!-- slide:34 -->
 
 <div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="It narrows down to a knot, then it widens back out." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -169,7 +518,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:10 -->
+<!-- slide:35 -->
 
 <div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Every step a customer takes with you." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -182,7 +531,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:11 -->
+<!-- slide:36 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c0_attention.svg" alt="It can sit anywhere." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -195,7 +544,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:12 -->
+<!-- slide:37 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c0_attention.svg" alt="At attention everything downstream is starved." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -208,7 +557,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:13 -->
+<!-- slide:38 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="One step in it changes." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -221,7 +570,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:14 -->
+<!-- slide:39 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="You get attention." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -234,7 +583,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:15 -->
+<!-- slide:40 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="It does not turn into leads." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -247,7 +596,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:16 -->
+<!-- slide:41 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c2_conversion.svg" alt="At conversion you have the leads." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -260,7 +609,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:17 -->
+<!-- slide:42 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c2_conversion.svg" alt="They are not turning into buyers." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -273,7 +622,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:18 -->
+<!-- slide:43 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c3_payment.svg" alt="Or it sits at the knot itself." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -286,7 +635,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:19 -->
+<!-- slide:44 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c4_onboarding_loop.svg" alt="Behind the sale it is worse." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -299,7 +648,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:20 -->
+<!-- slide:45 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c4_onboarding_loop.svg" alt="Onboarding makes you busy, and busy stops you filling the top." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -312,7 +661,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:21 -->
+<!-- slide:46 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c5_activation.svg" alt="At activation they bought and never switched on." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -325,7 +674,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:22 -->
+<!-- slide:47 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c6_success.svg" alt="At success they use it and still do not win," /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -338,7 +687,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:23 -->
+<!-- slide:48 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c6_success.svg" alt="so there is nothing to refer." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -351,7 +700,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:24 -->
+<!-- slide:49 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c7_retention.svg" alt="At retention they leave, so you spend everything refilling the top." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -364,7 +713,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:25 -->
+<!-- slide:50 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="And referral closes the loop," /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -377,7 +726,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:26 -->
+<!-- slide:51 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="because a referral is just attention from someone else." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -390,7 +739,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:27 -->
+<!-- slide:52 -->
 
 <div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="Choke it and you pay for every lead." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -403,7 +752,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:28 -->
+<!-- slide:53 -->
 
 <div class="rt-cropbox"><img src="/flows/root_2_beam.svg" alt="And what you can see is not always what is causing it." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -415,9 +764,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:29 -->
+<!-- slide:54 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">But an area is not a thing.</div>
 <div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">WHAT YOU GOT</div><div class="rt-card-t">AN AREA</div></div><div class="rt-new"><div class="rt-waylabel">WHAT YOU NEED</div><div class="rt-card-t">A THING</div></div></div>
@@ -428,7 +778,7 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:30 -->
+<!-- slide:55 -->
 
 <img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim"></div>
@@ -443,9 +793,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:31 -->
+<!-- slide:56 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Okay, but which pipe?</div>
 <div class="mt-7" style="overflow: visible;"><div class="rt-grid c2"><div class="rt-card "><div class="rt-card-t">THE WING</div></div><div class="rt-card bad"><div class="rt-card-t">THE BOLT</div></div></div></div>
@@ -456,9 +807,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:32 -->
+<!-- slide:57 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The wing is not the fix.</div>
 </div>
@@ -468,9 +820,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:33 -->
+<!-- slide:58 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The bolt is.</div>
 </div>
@@ -480,9 +833,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:34 -->
+<!-- slide:59 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">THE ZOOM</div>
 <div class="rt-h1 mt-2">The quiz gets you to the wing.</div>
@@ -494,9 +848,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:35 -->
+<!-- slide:60 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">It cannot get you to the bolt.</div>
 </div>
@@ -506,9 +861,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:36 -->
+<!-- slide:61 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">INSIDE CONVERSION</div>
 <div class="rt-h1 mt-2">Say yours came back conversion.</div>
@@ -520,9 +876,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:37 -->
+<!-- slide:62 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Script?</div>
 </div>
@@ -532,9 +889,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:38 -->
+<!-- slide:63 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Pre-call framing?</div>
 </div>
@@ -544,9 +902,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:39 -->
+<!-- slide:64 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Headline?</div>
 </div>
@@ -556,9 +915,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:40 -->
+<!-- slide:65 -->
 
-<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Offer order?</div>
 </div>
@@ -568,7 +928,7 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:41 -->
+<!-- slide:66 -->
 
 <img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim-r"></div>
@@ -584,7 +944,7 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:42 -->
+<!-- slide:67 -->
 
 <img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim-r"></div>
@@ -599,9 +959,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:43 -->
+<!-- slide:68 -->
 
-<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">I call it &ldquo;constraint blindness&rdquo;.</div>
 <div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen8/n09_label_inside_the_jar.png" alt="I call it &quot;constraint blindness&quot;." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
@@ -612,56 +973,12 @@ layout: default
 class: default
 ---
 
-<!-- slide:44 -->
+<!-- slide:69 -->
 
-<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">It is very hard to see our own constraints.</div>
-</div>
-
----
-layout: default
-class: bleed
----
-
-<!-- slide:45 -->
-
-<img class="rt-bleed" src="/gen8/n01_buried_in_advice.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-h1 rt-onimg">People are stuck at ten K, fifty K, a hundred K.</div>
-  </div>
-</div>
-
----
-layout: default
-class: bleed
----
-
-<!-- slide:46 -->
-
-<img class="rt-bleed" src="/gen8/n01_buried_in_advice.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-h1 rt-onimg">They feel it.</div>
-  </div>
-</div>
-
----
-layout: default
-class: bleed
----
-
-<!-- slide:47 -->
-
-<img class="rt-bleed" src="/gen8/n01_buried_in_advice.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-h1 rt-onimg">They cannot see it.</div>
-  </div>
 </div>
 
 ---
@@ -669,9 +986,50 @@ layout: default
 class: default
 ---
 
-<!-- slide:48 -->
+<!-- slide:70 -->
 
-<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">People are stuck at ten K, fifty K, a hundred K.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-01-stuck.png" alt="People are stuck at ten K, fifty K, a hundred K." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:71 -->
+
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">They feel it.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:72 -->
+
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">They cannot see it.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:73 -->
+
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">So you work harder on whatever is in front of you.</div>
 <div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen8/n17_working_hard_right_things.png" alt="So you work harder on whatever is in front of you." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
@@ -682,12 +1040,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:49 -->
+<!-- slide:74 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-kicker" style="color: var(--tealb);">HOW IT WORKS</div>
     <div class="rt-h1 rt-onimg">At any moment your business has one constraint.</div>
   </div>
@@ -698,12 +1056,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:50 -->
+<!-- slide:75 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">One thing holding the whole system back.</div>
   </div>
 </div>
@@ -713,12 +1071,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:51 -->
+<!-- slide:76 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Not five.</div>
   </div>
 </div>
@@ -728,12 +1086,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:52 -->
+<!-- slide:77 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">One.</div>
   </div>
 </div>
@@ -743,9 +1101,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:53 -->
+<!-- slide:78 -->
 
-<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">And fixing anything else does nothing.</div>
 <div class="mt-6"><div class="rt-lab">WHAT YOU GET FOR FIXING THE WRONG THING</div><div class="rt-big ember">0</div></div>
@@ -756,9 +1115,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:54 -->
+<!-- slide:79 -->
 
-<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Double your effort on the wrong lever and nothing moves.</div>
 </div>
@@ -768,9 +1128,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:55 -->
+<!-- slide:80 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">WHEN IT MOVES</div>
 <div class="rt-h1 mt-2">This is what it looks like when the right one gets fixed.</div>
@@ -782,13 +1143,14 @@ layout: default
 class: default
 ---
 
-<!-- slide:56 -->
+<!-- slide:81 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">OUR SITE</div>
 <div class="rt-h1 mt-2">Forty two of these are on our site with the receipts.</div>
-<div class="rt-dimwrap light mt-6"><img src="/flows/bowtie_00_full.svg" alt="" /></div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/proof2/_v2_proofwall_band_redacted.png" alt="Names shown where clients agreed. How we count is published on the page." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">OUR SITE</span></div><div class="rt-cap mt-3">Names shown where clients agreed. How we count is published on the page.</div>
 </div>
 
 ---
@@ -796,9 +1158,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:57 -->
+<!-- slide:82 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">SO WHERE DOES IT LIVE?</div>
 <div class="rt-h1 mt-2">So where does it live?</div>
@@ -810,9 +1173,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:58 -->
+<!-- slide:83 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Market, avatar, offer, pitch.</div>
 </div>
@@ -822,9 +1186,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:59 -->
+<!-- slide:84 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">MARKET</div>
 <div class="rt-h1 mt-2">Market.</div>
@@ -836,9 +1201,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:60 -->
+<!-- slide:85 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Obvious is, is it big enough.</div>
 </div>
@@ -848,9 +1214,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:61 -->
+<!-- slide:86 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Invisible is what they have already been sold.</div>
 </div>
@@ -860,12 +1227,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:62 -->
+<!-- slide:87 -->
 
 <img class="rt-bleed" src="/gen8/n15_market_moving_past.png" alt="" style="object-position: 50% 30%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-kicker" style="color: var(--tealb);">MARKET</div>
     <div class="rt-h1 rt-onimg">If you are the fourth person to say the same thing,</div>
   </div>
@@ -876,12 +1243,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:63 -->
+<!-- slide:88 -->
 
 <img class="rt-bleed" src="/gen8/n15_market_moving_past.png" alt="" style="object-position: 50% 30%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">you are not fighting for attention.</div>
   </div>
 </div>
@@ -891,12 +1258,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:64 -->
+<!-- slide:89 -->
 
 <img class="rt-bleed" src="/gen8/n15_market_moving_past.png" alt="" style="object-position: 50% 30%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">You are fighting a memory.</div>
   </div>
 </div>
@@ -906,9 +1273,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:65 -->
+<!-- slide:90 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">AVATAR</div>
 <div class="rt-h1 mt-2">Avatar.</div>
@@ -920,9 +1288,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:66 -->
+<!-- slide:91 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Obvious is demographics.</div>
 </div>
@@ -932,9 +1301,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:67 -->
+<!-- slide:92 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Invisible is their criteria for yes.</div>
 </div>
@@ -944,9 +1314,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:68 -->
+<!-- slide:93 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">OFFER</div>
 <div class="rt-h1 mt-2">Offer.</div>
@@ -958,9 +1329,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:69 -->
+<!-- slide:94 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Obvious is price and deliverables.</div>
 </div>
@@ -970,9 +1342,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:70 -->
+<!-- slide:95 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Invisible is the economics.</div>
 </div>
@@ -982,9 +1355,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:71 -->
+<!-- slide:96 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">PITCH</div>
 <div class="rt-h1 mt-2">Pitch.</div>
@@ -996,9 +1370,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:72 -->
+<!-- slide:97 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Obvious is the script.</div>
 </div>
@@ -1008,9 +1383,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:73 -->
+<!-- slide:98 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Invisible is the order.</div>
 </div>
@@ -1020,9 +1396,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:74 -->
+<!-- slide:99 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Which belief lands first.</div>
 </div>
@@ -1032,9 +1409,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:75 -->
+<!-- slide:100 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">PITCH</div>
 <div class="rt-h1 mt-2">Ask before that belief lands and it does not read as a bad offer.</div>
@@ -1046,9 +1424,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:76 -->
+<!-- slide:101 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">It reads as, I do not trust this guy.</div>
 </div>
@@ -1058,47 +1437,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:77 -->
+<!-- slide:102 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
-<div class="relative">
-<div class="rt-kicker">AND A FIFTH</div>
-<div class="rt-h1 mt-2">And a fifth underneath it all.</div>
-<div class="mt-7" style="overflow: visible;"><div class="rt-grid c5"><div class="rt-card "><div class="rt-card-t">MARKET</div></div><div class="rt-card "><div class="rt-card-t">AVATAR</div></div><div class="rt-card "><div class="rt-card-t">OFFER</div></div><div class="rt-card "><div class="rt-card-t">PITCH</div></div><div class="rt-card good"><div class="rt-card-t">YOU</div></div></div></div>
-</div>
-
----
-layout: default
-class: default
----
-
-<!-- slide:78 -->
-
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
-<div class="relative">
-<div class="rt-h1 mt-2">Your personal profile.</div>
-</div>
-
----
-layout: default
-class: default
----
-
-<!-- slide:79 -->
-
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
-<div class="relative">
-<div class="rt-h1 mt-2">What people think before you speak.</div>
-</div>
-
----
-layout: default
-class: default
----
-
-<!-- slide:80 -->
-
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">That is constraint blindness.</div>
 <div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">OVERT</div><div class="rt-card-t">WHAT EVERYONE STARES AT</div></div><div class="rt-new"><div class="rt-waylabel">COVERT</div><div class="rt-card-t">WHERE IT ACTUALLY LIVES</div></div></div>
@@ -1109,9 +1451,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:81 -->
+<!-- slide:103 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The overt is what everyone stares at.</div>
 </div>
@@ -1121,9 +1464,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:82 -->
+<!-- slide:104 -->
 
-<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The covert is where it lives.</div>
 </div>
@@ -1133,12 +1477,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:83 -->
+<!-- slide:105 -->
 
 <img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">And you cannot fix what you cannot see.</div>
   </div>
 </div>
@@ -1148,12 +1492,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:84 -->
+<!-- slide:106 -->
 
 <img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Which is why you do everything right and stay stuck.</div>
   </div>
 </div>
@@ -1163,9 +1507,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:85 -->
+<!-- slide:107 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">THE GOOD NEWS</div>
 <div class="rt-h1 mt-2">The good news is your answers already told us which one.</div>
@@ -1177,9 +1522,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:86 -->
+<!-- slide:108 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">That is the roadmap.</div>
 <div class="mt-7" style="overflow: visible;"><div class="rt-grid c3"><div class="rt-card good"><div class="rt-card-t">FIX FIRST</div></div><div class="rt-card "><div class="rt-card-t">LEAVE FOR NOW</div></div><div class="rt-card good"><div class="rt-card-t">THE ORDER</div></div></div></div>
@@ -1190,9 +1536,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:87 -->
+<!-- slide:109 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Not a generic PDF.</div>
 </div>
@@ -1202,9 +1549,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:88 -->
+<!-- slide:110 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">What to fix first, what to leave, the order.</div>
 </div>
@@ -1214,9 +1562,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:89 -->
+<!-- slide:111 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Because the order matters way more than the effort.</div>
 <div class="mt-6"><div class="rt-lab">THE WHOLE THESIS</div><div class="rt-big teal">ORDER &gt; EFFORT</div></div>
@@ -1227,9 +1576,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:90 -->
+<!-- slide:112 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">IT'S ON ITS WAY</div>
 <div class="rt-h1 mt-2">Your roadmap is en route.</div>
@@ -1241,9 +1591,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:91 -->
+<!-- slide:113 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Confirm your call before you open it.</div>
 </div>
@@ -1253,9 +1604,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:92 -->
+<!-- slide:114 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The roadmap gets you to the wing.</div>
 </div>
@@ -1265,9 +1617,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:93 -->
+<!-- slide:115 -->
 
-<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The call gets you to the bolt.</div>
 </div>
@@ -1277,9 +1630,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:94 -->
+<!-- slide:116 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">THE CALL</div>
 <div class="rt-h1 mt-2">So we are opening a small number of seats, with me or Phoenix.</div>
@@ -1291,9 +1645,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:95 -->
+<!-- slide:117 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">WHAT THIS CALL IS NOT</div>
 <div class="rt-h1 mt-2">Let me be clear what this call is not.</div>
@@ -1305,9 +1660,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:96 -->
+<!-- slide:118 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">We are not going to pitch you a single fucking thing.</div>
 </div>
@@ -1317,9 +1673,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:97 -->
+<!-- slide:119 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">I mean that literally.</div>
 </div>
@@ -1329,12 +1686,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:98 -->
+<!-- slide:120 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" style="object-position: 50% 50%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">We could not even if we wanted to.</div>
   </div>
 </div>
@@ -1344,12 +1701,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:99 -->
+<!-- slide:121 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" style="object-position: 50% 50%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">We do not have enough information yet.</div>
   </div>
 </div>
@@ -1359,12 +1716,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:100 -->
+<!-- slide:122 -->
 
 <img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 42%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">And honestly, we do not want to work with everybody.</div>
   </div>
 </div>
@@ -1374,12 +1731,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:101 -->
+<!-- slide:123 -->
 
 <img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 42%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">That sounds like a nightmare.</div>
   </div>
 </div>
@@ -1389,9 +1746,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:102 -->
+<!-- slide:124 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">We would rather work with a few people deeply than a lot shallowly.</div>
 <div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">NOT US</div><div class="rt-card-t">MANY, SHALLOW</div></div><div class="rt-new"><div class="rt-waylabel">US</div><div class="rt-card-t">FEW, DEEP</div></div></div>
@@ -1402,9 +1760,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:103 -->
+<!-- slide:125 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">So most people on these calls, we do not.</div>
 </div>
@@ -1414,12 +1773,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:104 -->
+<!-- slide:126 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-kicker" style="color: var(--tealb);">SO WHAT HAPPENS</div>
     <div class="rt-h1 rt-onimg">Instead we ask what the quiz could not,</div>
   </div>
@@ -1430,12 +1789,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:105 -->
+<!-- slide:127 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">and pressure-test it against your numbers.</div>
   </div>
 </div>
@@ -1445,9 +1804,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:106 -->
+<!-- slide:128 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">THE TWO GAPS</div>
 <div class="rt-h1 mt-2">We work off two gaps.</div>
@@ -1459,9 +1819,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:107 -->
+<!-- slide:129 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Revenue now versus where you want it.</div>
 </div>
@@ -1471,9 +1832,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:108 -->
+<!-- slide:130 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Client count now versus that.</div>
 </div>
@@ -1483,9 +1845,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:109 -->
+<!-- slide:131 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Then we build a thirty, sixty, ninety day plan,</div>
 <div class="rt-figure mt-6"><img src="/flows/02b_funnel_the_call.svg" alt="Then we build a thirty, sixty, ninety day plan," style="max-width: 92%; max-height: 34vh; width: auto; margin: 0 auto; display: block;" /></div>
@@ -1496,9 +1859,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:110 -->
+<!-- slide:132 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">on the call with you.</div>
 </div>
@@ -1508,9 +1872,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:111 -->
+<!-- slide:133 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">We reverse-engineer it backwards.</div>
 <div class="mt-7" style="overflow: visible;"><div class="rt-grid c4"><div class="rt-card "><div class="rt-card-t">GOAL</div></div><div class="rt-card "><div class="rt-card-t">90</div></div><div class="rt-card "><div class="rt-card-t">60</div></div><div class="rt-card good"><div class="rt-card-t">30</div></div></div></div>
@@ -1521,9 +1886,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:112 -->
+<!-- slide:134 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">What has to be true at ninety days, sixty, thirty, down to daily.</div>
 </div>
@@ -1533,9 +1899,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:113 -->
+<!-- slide:135 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">That is the deliverable.</div>
 <div class="mt-7" style="overflow: visible;"><div class="rt-grid c2"><div class="rt-card "><div class="rt-card-t">WE WORK TOGETHER</div></div><div class="rt-card good"><div class="rt-card-t">WE DON'T</div></div></div></div>
@@ -1546,9 +1913,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:114 -->
+<!-- slide:136 -->
 
-<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen8/n14_built_by_hand.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">You leave with it whether we speak again or not.</div>
 </div>
@@ -1558,9 +1926,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:115 -->
+<!-- slide:137 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">AND WHERE IT FITS</div>
 <div class="rt-h1 mt-2">And where it makes sense we branch into an audit.</div>
@@ -1572,9 +1941,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:116 -->
+<!-- slide:138 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Ads, email or CRM, depending where the constraint is.</div>
 </div>
@@ -1584,12 +1954,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:117 -->
+<!-- slide:139 -->
 
 <img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Because unless we know that, we are just throwing random shit at you.</div>
   </div>
 </div>
@@ -1599,13 +1969,14 @@ layout: default
 class: default
 ---
 
-<!-- slide:118 -->
+<!-- slide:140 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-kicker">PROOF</div>
-<div class="rt-h1 mt-2">One coaching business had all the pieces,</div>
-<div class="mt-6"><div class="rt-lab">COACHING CLIENT &middot; ATTRIBUTED TO EMAIL &middot; 9 MONTHS</div><div class="rt-big teal">$1.81M</div><div class="rt-cap mt-4">A coaching client. Their result, not ours. Nine months, 21 automations, 700+ bookings.</div></div>
+<div class="rt-kicker">CASE FILE 001</div>
+<div class="rt-h1 mt-2">Here is what that looks like when somebody runs it in order.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/proof2/meet-dr-joe-portrait.png" alt="Dr. Joe Sebestyen, SupportED Tutoring." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">CASE FILE 001</span></div><div class="rt-cap mt-3">Dr. Joe Sebestyen, SupportED Tutoring.</div>
 </div>
 
 ---
@@ -1613,11 +1984,12 @@ layout: default
 class: default
 ---
 
-<!-- slide:119 -->
+<!-- slide:141 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-h1 mt-2">they were just not talking to each other.</div>
+<div class="rt-h1 mt-2">Dr.</div>
 </div>
 
 ---
@@ -1625,11 +1997,12 @@ layout: default
 class: default
 ---
 
-<!-- slide:120 -->
+<!-- slide:142 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-h1 mt-2">We rebuilt the email infrastructure and ran the reactivation.</div>
+<div class="rt-h1 mt-2">Joe was a vice principal, running a tutoring company on nights and weekends.</div>
 </div>
 
 ---
@@ -1637,11 +2010,13 @@ layout: default
 class: default
 ---
 
-<!-- slide:121 -->
+<!-- slide:143 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-h1 mt-2">One point eight one million from email in nine months.</div>
+<div class="rt-h1 mt-2">He came to us thinking he had a lead problem.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/proof2/meet-dr-joe-jan-2026.png" alt="SupportED Tutoring. Published at funnelfuturist.com/proof." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">CASE FILE 001</span></div><div class="rt-cap mt-3">SupportED Tutoring. Published at funnelfuturist.com/proof.</div>
 </div>
 
 ---
@@ -1649,13 +2024,51 @@ layout: default
 class: default
 ---
 
-<!-- slide:122 -->
+<!-- slide:144 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-kicker">PROOF</div>
-<div class="rt-h1 mt-2">And a tutoring company.</div>
-<div class="mt-6"><div class="rt-lab">TUTORING CLIENT &middot; CLOSED-WON &middot; JAN 2025 TO JUL 2026</div><div class="rt-big teal">$1.07M</div><div class="rt-cap mt-4">SupportED. Their result, not ours. Jan 2025 to Jul 2026.</div></div>
+<div class="rt-h1 mt-2">Everybody thinks they have a lead problem.</div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:145 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="He did not." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">He did not.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:146 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="It was the funnel," /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It was the funnel,</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:147 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="and it leaked most of them before anybody ever talked to them." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">and it leaked most of them before anybody ever talked to them.</div></div>
 </div>
 
 ---
@@ -1663,11 +2076,14 @@ layout: default
 class: default
 ---
 
-<!-- slide:123 -->
+<!-- slide:148 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-h1 mt-2">One point oh seven million closed-won over nineteen months,</div>
+<div class="rt-kicker">CONSTRAINT 1 &middot; CLEARED</div>
+<div class="rt-h1 mt-2">Four hundred dollars to acquire a customer.</div>
+<div class="mt-6"><div class="rt-lab">COST TO ACQUIRE A CUSTOMER</div><div class="rt-big teal">$400 &rarr; $250</div><div class="rt-cap mt-4">Their dashboards, not ours. Published as $250 CPA, down from $400-450 before the rebuild.</div></div>
 </div>
 
 ---
@@ -1675,11 +2091,12 @@ layout: default
 class: default
 ---
 
-<!-- slide:124 -->
+<!-- slide:149 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
-<div class="rt-h1 mt-2">around eighty percent from paid social.</div>
+<div class="rt-h1 mt-2">We rebuilt it.</div>
 </div>
 
 ---
@@ -1687,9 +2104,446 @@ layout: default
 class: default
 ---
 
-<!-- slide:125 -->
+<!-- slide:150 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Four hundred came down to two fifty.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:151 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Then a new constraint opened up.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-04-realising.png" alt="Then a new constraint opened up." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:152 -->
+
+<div class="rt-cropbox"><img src="/flows/root_2_beam.svg" alt="You clear one, the next one steps forward." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">You clear one, the next one steps forward.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:153 -->
+
+<div class="rt-cropbox"><img src="/flows/root_2_beam.svg" alt="It was always standing right behind it." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It was always standing right behind it.</div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:154 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">CONSTRAINT 2</div>
+<div class="rt-h1 mt-2">Now he had leads nobody was working.</div>
+<div class="rt-grid c3 mt-6"><img class="rt-shot wall" src="/proof2/sales-tracking-system-transformation.png" alt="Client message" /><img class="rt-shot wall" src="/proof2/setter-assistant-jan-2026.png" alt="Client message" /><img class="rt-shot wall" src="/proof2/sales-tracking-update.png" alt="Client message" /></div><div class="rt-cap mt-3">The sales operation going in. Their Slack, their words.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:155 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">No sales operation.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:156 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">So we built him one.</div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:157 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_03_team.svg" alt="Clearing that opened the next one." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Clearing that opened the next one.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:158 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_03_team.svg" alt="People." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">People.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:159 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_03_team.svg" alt="A system nobody was trained to run." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">A system nobody was trained to run.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:160 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_03_team.svg" alt="So we put talent in the seats." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">So we put talent in the seats.</div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:161 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">THE ORDER</div>
+<div class="rt-h1 mt-2">Funnel.</div>
+<div class="mt-7" style="overflow: visible;"><div class="rt-grid c3"><div class="rt-card good"><div class="rt-card-t">FUNNEL</div></div><div class="rt-card good"><div class="rt-card-t">SALES</div></div><div class="rt-card good"><div class="rt-card-t">PEOPLE</div></div></div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:162 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Then sales.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:163 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Then the people.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:164 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">In that order.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:165 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Sixteen thousand a month to fifty.</div>
+<div class="mt-6"><div class="rt-lab">MONTHLY REVENUE &middot; 2023 &rarr; 2025</div><div class="rt-big teal">$16K &rarr; $50K</div><div class="rt-cap mt-4">The client's own words, published on our proof page.</div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:166 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">2025</div>
+<div class="rt-h1 mt-2">Six hundred forty-eight thousand closed in 2025.</div>
+<div class="mt-6"><div class="rt-lab">FILE 001 &middot; 2025 REVENUE CLOSED</div><div class="rt-big gold">$648,022</div><div class="rt-cap mt-4">Client KPI dashboards. Odd numbers because they are counted, not rounded.</div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:167 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">2026</div>
+<div class="rt-h1 mt-2">And another six hundred thirty thousand in the first seven months of this year.</div>
+<div class="rt-grid c3 mt-6"><img class="rt-shot wall" src="/proof2/cash-collected.png" alt="Client message" /><img class="rt-shot wall" src="/proof2/cash-collection-growth.png" alt="Client message" /><img class="rt-shot wall" src="/proof2/consecutive-revenue-milestones.png" alt="Client message" /></div><div class="rt-cap mt-3">$630,071 through July 2026, with a $164K peak month in March.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:168 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">His side hustle out-earned his day job.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-06-winning.png" alt="His side hustle out-earned his day job." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:169 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">HERE'S THE PART I WANT YOU TO HEAR</div>
+<div class="rt-h1 mt-2">Here is the part I want you to hear.</div>
+<div class="mt-7" style="overflow: visible;"><div class="rt-grid c3"><div class="rt-card "><div class="rt-card-t">FUNNEL</div></div><div class="rt-card "><div class="rt-card-t">SALES</div></div><div class="rt-card bad"><div class="rt-card-t">PEOPLE</div></div></div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:170 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Not one of those three was visible on day one.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:171 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Not to him, not to us.</div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:172 -->
+
+<div class="rt-cropbox"><img src="/flows/root_3_beam_activation.svg" alt="You cannot see the second one until you clear the first." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">You cannot see the second one until you clear the first.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:173 -->
+
+<div class="rt-cropbox"><img src="/flows/root_3_beam_activation.svg" alt="It is hiding behind it." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It is hiding behind it.</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:174 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">That is why the order matters more than the effort.</div>
+<div class="mt-6"><div class="rt-lab">THE WHOLE JOB</div><div class="rt-big teal">ORDER &gt; EFFORT</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:175 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">That is the whole job.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:176 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">CASE FILE 002</div>
+<div class="rt-h1 mt-2">Chris, same process.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/site/ff-case-file-002-clients-community--hero.png" alt="Published with how we count. $1.81M attributed to the inbox." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">CASE FILE 002</span></div><div class="rt-cap mt-3">Published with how we count. $1.81M attributed to the inbox.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:177 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">His constraint was email.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:178 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">One point eight one million dollars from the inbox in nine months.</div>
+<div class="mt-6"><div class="rt-lab">FILE 002 &middot; EMAIL, 9 MONTHS</div><div class="rt-big gold">$1.81M</div><div class="rt-cap mt-4">Attributed to the inbox. $140K collected from email in a single month at peak.</div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:179 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">THE WALL</div>
+<div class="rt-h1 mt-2">Forty-two more on our site, dates and screenshots attached.</div>
+<div class="rt-grid c3 mt-6"><img class="rt-shot wall" src="/proof2/_v2_proofwall_band_redacted.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-proof-index--full.png" alt="Client message" /><img class="rt-shot wall" src="/proof2/_v2_how_we_count.png" alt="Client message" /></div><div class="rt-cap mt-3">The wall, the index, and how we count -- all published.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:180 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Every number I said is on that page.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:181 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Go check them.</div>
+<div class="mt-6"><div class="rt-lab">THE WHOLE POINT</div><div class="rt-big gold">GO CHECK THEM</div><div class="rt-cap mt-4">Almost nobody clicks. The willingness to be checked is the payload.</div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:182 -->
+
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">ONE OPTIONAL THING</div>
 <div class="rt-h1 mt-2">One optional thing.</div>
@@ -1701,9 +2555,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:126 -->
+<!-- slide:183 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">After you book we send a link for view-only access to your ad account.</div>
 </div>
@@ -1713,9 +2568,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:127 -->
+<!-- slide:184 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">We cannot touch it or change anything.</div>
 </div>
@@ -1725,9 +2581,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:128 -->
+<!-- slide:185 -->
 
-<img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Just look.</div>
 </div>
@@ -1737,12 +2594,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:129 -->
+<!-- slide:186 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">Then we go through it before the call,</div>
   </div>
 </div>
@@ -1752,12 +2609,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:130 -->
+<!-- slide:187 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">so we are not asking what your CPA is.</div>
   </div>
 </div>
@@ -1767,9 +2624,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:131 -->
+<!-- slide:188 -->
 
-<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">You are not spending money here.</div>
 <div class="mt-6"><div class="rt-lab">WHAT THIS COSTS YOU</div><div class="rt-big teal">30 MIN</div></div>
@@ -1780,9 +2638,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:132 -->
+<!-- slide:189 -->
 
-<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">You are spending thirty minutes.</div>
 </div>
@@ -1792,12 +2651,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:133 -->
+<!-- slide:190 -->
 
 <img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" style="object-position: 50% 60%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Ninety days pass either way.</div>
   </div>
 </div>
@@ -1807,9 +2666,10 @@ layout: default
 class: default
 ---
 
-<!-- slide:134 -->
+<!-- slide:191 -->
 
-<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">You are either ninety days older, or ninety days older and past it.</div>
 <div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">DO NOTHING</div><div class="rt-card-t">90 DAYS OLDER</div></div><div class="rt-new"><div class="rt-waylabel">DO THIS</div><div class="rt-card-t">90 DAYS OLDER, AND PAST IT</div></div></div>
@@ -1820,9 +2680,10 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:135 -->
+<!-- slide:192 -->
 
-<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.10; filter:grayscale(0.55) contrast(0.9); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">The only difference is what you do in the next ten seconds.</div>
 <div class="mt-6"><div class="rt-lab">THE ONLY DIFFERENCE</div><div class="rt-big gold">10 SECONDS</div></div>
@@ -1833,12 +2694,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:136 -->
+<!-- slide:193 -->
 
 <img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">Button is below.</div>
   </div>
 </div>
@@ -1848,14 +2709,82 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:137 -->
+<!-- slide:194 -->
 
 <img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-h1 rt-onimg">Pick a time, then go read your roadmap.</div>
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-h1 rt-onimg">Click it, pick a time.</div>
   </div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:195 -->
+
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">WHAT ARRIVES</div>
+<div class="rt-h1 mt-2">And you will get a confirmation with two links.</div>
+<div class="mt-7" style="overflow: visible;"><div class="rt-grid c2"><div class="rt-card good"><div class="rt-card-t">YOUR ROADMAP</div></div><div class="rt-card good"><div class="rt-card-t">AD ACCOUNT LINK</div></div></div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:196 -->
+
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Your roadmap, and the ad account link.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:197 -->
+
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Pick the time first.</div>
+<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">THE LEAK</div><div class="rt-card-t">READ IT, MAYBE BOOK</div></div><div class="rt-new"><div class="rt-waylabel">THE ORDER</div><div class="rt-card-t">BOOK IT, THEN READ</div></div></div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:198 -->
+
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Then go read the roadmap.</div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:199 -->
+
+<img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">It hits harder with the call already on the books.</div>
 </div>
 
 ---
@@ -1863,12 +2792,12 @@ layout: default
 class: bleed
 ---
 
-<!-- slide:138 -->
+<!-- slide:200 -->
 
 <img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 40%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">I will see you on the call.</div>
   </div>
 </div>
