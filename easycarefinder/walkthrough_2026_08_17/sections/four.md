@@ -230,6 +230,38 @@ Where it stops working: it's big. The person looking after her has a lot of peop
 -->
 
 ---
+class: g-green
+---
+
+<!-- slide:fk-12b -->
+<div class="absolute inset-0 flex flex-col justify-center px-24 z-10 text-left">
+  <div class="ecf-label mb-5">The question almost nobody asks on a tour</div>
+  <div class="ecf-head">How many residents does one caregiver have?</div>
+  <div v-click class="ecf-sub mt-7">Ask it about the night shift, not about the tour.</div>
+</div>
+
+<!--
+Here's a question almost nobody asks on a tour, and you should. How many residents does one caregiver have? And ask it about the night shift, not about the middle of the day when you're standing there, because the answer is usually different. I'm not going to give you a number, because it varies by building and by shift and anyone who quotes you one number for the whole industry is guessing. Ask each place you visit, and write down what they say.
+-->
+
+---
+class: g-cream ecf-onwhite
+---
+
+<!-- slide:fk-12c -->
+<div class="absolute inset-0 flex flex-col justify-center px-20 z-10">
+  <div class="ecf-label mb-6">And the second thing size does</div>
+  <div class="grid grid-cols-2 gap-8">
+    <div v-click class="ecf-card"><h3>People move on.</h3><p class="mt-2">The person who learned her routine may not be the person on shift next month.</p></div>
+    <div v-click class="ecf-card ecf-card-amber"><h3>The small things travel worst.</h3><p class="mt-2">That she takes her tea weak. That she will not say when she is cold.</p></div>
+  </div>
+</div>
+
+<!--
+And there's a second thing that size does, which is about turnover. In any large staffed operation, people move on. That's not a criticism, it's just how big rosters work. But it means the person who learned her routine may not be the person on shift next month. And the things that get lost first are the small ones. That she takes her tea weak. That she won't tell anybody when she's cold. Those are the details that make a day good or bad, and they're the hardest ones to hand over.
+-->
+
+---
 layout: cover
 class: g-deep ecf-onimg
 ---
@@ -300,6 +332,40 @@ class: g-cream ecf-onwhite
 
 <!--
 Where it stops working: there's less going on. If she wants a busy place and a calendar of activities, a house with six people in it may feel small to her, and you should take that seriously. Who it suits: somebody who'd rather be somewhere quiet and properly noticed than somewhere busy and be one of a hundred.
+-->
+
+---
+class: g-green
+---
+
+<!-- slide:fk-16b -->
+<div class="absolute inset-0 flex flex-col justify-center px-24 z-10 text-left">
+  <div class="ecf-sub mb-4">Ask the same question here.</div>
+  <div class="ecf-head">A licensed small home has six residents.</div>
+  <div v-click class="ecf-head ecf-mark mt-4">At most. That part is not a promise, it is the licence.</div>
+</div>
+
+<!--
+Ask the exact same question here, and notice that part of the answer is already fixed. A licensed small home has six residents at most. That's not a promise anybody is making you, that's what the licence says. In the homes I work with, the number of people one caregiver is looking after is a great deal smaller than it is in a big building. Ask each one, and you'll see the difference for yourself.
+-->
+
+---
+class: g-cream ecf-onwhite
+---
+
+<!-- slide:fk-16c -->
+<div class="absolute inset-0 flex flex-col justify-center px-20 z-10">
+  <div class="ecf-label mb-6">What that actually looks like</div>
+  <div class="grid grid-cols-3 gap-6">
+    <div v-click class="ecf-card"><p>They know what she had for lunch.</p></div>
+    <div v-click class="ecf-card"><p>They know she does not like her food spicy.</p></div>
+    <div v-click class="ecf-card ecf-card-amber"><p>They notice she is off, before it becomes a problem.</p></div>
+  </div>
+  <div v-click class="ecf-sub mt-9 text-center" style="color:var(--ecf-ink)">None of that is on a website. It is what a small number of people does to attention.</div>
+</div>
+
+<!--
+And here's what that actually looks like day to day. They know what she had for lunch. They know she doesn't like her food spicy. They notice when she's off, before it turns into a problem. None of that is on a website and none of it is a promise about a particular house. It's just what a small number of people does to how much attention any one person gets.
 -->
 
 ---

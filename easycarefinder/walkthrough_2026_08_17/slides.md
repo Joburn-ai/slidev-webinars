@@ -1,6 +1,6 @@
 ---
 theme: default
-title: The Four Kinds of Place, and Which One Fits
+title: How To Tell Which Kind Of Care Home Actually Fits Her
 titleTemplate: '%s'
 info: |
   Easy Care Finder / Sagar Singh. The WALKTHROUGH video, the belief asset in the show-up system.

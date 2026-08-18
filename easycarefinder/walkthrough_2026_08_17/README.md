@@ -1,4 +1,4 @@
-# The Four Kinds of Place — Easy Care Finder walkthrough deck
+# How To Tell Which Kind Of Care Home Actually Fits Her — walkthrough deck
 
 **The belief asset in the show-up system.** Singh records voice over these slides. About 9 minutes.
 
@@ -6,7 +6,7 @@
 |---|---|
 | **Live deck** | https://ecf-walkthrough.vercel.app |
 | **Google Slides** | https://docs.google.com/presentation/d/1S8Zlg8060EdNSA2s2NwwjAesqcppXpSZG0yeZNu4Lms/edit |
-| **PDF** | `ecf_walkthrough.pdf` (47 pages) |
+| **PDF** | `ecf_walkthrough.pdf` (51 pages) |
 | **Script, source of truth** | `06_Clients/easycarefinder/02_funnels_and_copy/show_up_system_2026_08_13.md` §5.2 |
 | **Per-slide plan** | `_VISUAL_MAP.md` |
 | **QC vs goldens** | `_QC_GOLDEN_COMPARISON.md` |
