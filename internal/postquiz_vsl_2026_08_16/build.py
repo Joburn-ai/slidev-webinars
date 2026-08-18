@@ -137,6 +137,50 @@ s("", "Before you read it,", "give me seven minutes.",
   "Before you read it, give me seven minutes.",
   readout("THIS TAKES", "7 MIN", "gold"), "peak text-center")
 
+# ═════════════ B1. THE DASHBOARD YOU NEVER GOT ═════════════
+# 🔴 John's analogy, and it is HIS WORDING, not my paraphrase of it. Source: Google Doc
+# 10aiUyH6UlcSeFCnHM5cI90roHR9JT9hftk2r7dttjMc, tab "Foundation Problem" (t.0), section
+# "Your car does not have the dashboard it should", repeated in the "Smaller YT Version" tab.
+#
+# Why it belongs here rather than replacing the mansion: the mansion answers WHERE
+# (west wing -> which bolt). This answers WHY YOU CANNOT SEE IT, and then it earns the
+# close, because the last beat is the reason to have someone on your team instead of paying
+# a mechanic per repair. The mansion locates; the dashboard explains and sells.
+bg("/gen8/n07_ai_cant_see_you.png")
+s("THE CHECK ENGINE LIGHT", "One bulb. No information.", "Something's wrong somewhere, good luck.",
+  "Think about the check engine light. One bulb. No information. Something is wrong somewhere, good luck.",
+  readout("WHAT YOUR DASHBOARD TELLS YOU", "1 BULB", "ember"), "peak text-center")
+s("", "The tech to do better", "has existed for twenty years.",
+  "The technology to do better has existed for twenty years.",
+  img("/gen8/n02_rising_cost_curve.png", "50% 40%"), "bleed")
+s("AN F1 TEAM", "The temperature of every brake.", "The wear on every tyre.",
+  "An F1 team knows the temperature of every brake and the wear on every tyre.",
+  cards(3, [("EVERY BRAKE", "good"), ("EVERY TYRE", "good"), ("EVERY COMPONENT", "good")]))
+s("", "And which component will fail", "two laps before it fails.",
+  "And which component is going to fail two laps before it fails.",
+  readout("WARNING, IN LAPS", "2 AHEAD", "teal"), "peak text-center")
+s("THE PIT WALL", "One voice tells the driver", "the single thing that matters right now.",
+  "A pit wall reads all of it, and one voice tells the driver the single thing that matters right now.",
+  img("/gen8/n08_one_constraint_gate.png"), "bleed")
+s("", "Your car could have that screen.", "It does not.",
+  "Your car could have that screen. It does not.",
+  oldnew("ONE BULB", "THE WHOLE CAR", "WHAT YOU HAVE", "WHAT EXISTS"))
+# the line that makes the whole analogy land. Do not soften it.
+s("AND HERE'S WHY", "The entire repair industry", "would quietly cease to exist.",
+  "Because if it did, the entire repair industry would quietly cease to exist.",
+  img("/gen/concept-05-blame-cascade.png", "50% 45%"), "bleed")
+s("", "Your business works the same way.", "And for the same reason.",
+  "Your business works the same way, and for the same reason.",
+  plate("/flows/bowtie_00_full.svg"), "default", "fade")
+# 🔴 THE BEAT THAT EARNS THE CLOSE. John: "you still need someone to help set those systems
+# up, otherwise you pay the mechanic every single time instead of someone on your team."
+s("", "Somebody still has to", "install the sensors.",
+  "And somebody still has to install the sensors.",
+  cards(2, [("PAY A MECHANIC EVERY TIME", "bad"), ("SOMEONE ON YOUR TEAM", "good")]))
+s("", "Otherwise you're paying per repair", "forever.",
+  "Otherwise you are paying a mechanic every single time, instead of having somebody on your team who can read the car.",
+  img("/gen8/n05_stack_of_attempts.png"), "bleed")
+
 # ═════════════════════ A2. THE TEE-UP: TRUST RECESSION ═════════════════════
 # 🔴 THIS ENTIRE BEAT WAS MISSING FROM v2. John's refined script opens on the trust
 # recession and it had NO slides at all -- while /gen/concept-07-trust-recession.png sat
@@ -152,7 +196,8 @@ s("", "Everybody's talking about", "the trust recession.",
   img("/gen/concept-07-trust-recession.png"), "bleed")
 s("", "Ads don't land like they used to.", None,
   "Ads do not land like they used to.",
-  img("/gen8/n02_rising_cost_curve.png", "50% 40%"), "bleed")
+  # contained, not a third consecutive bleed -- the cost curve reads better uncropped anyway
+  shot("/gen8/n02_rising_cost_curve.png"))
 s("", "Calls don't close.", None,
   "Calls do not close.",
   cutout("/gen/char-02-lost.png"))
@@ -280,50 +325,6 @@ s("REFERRAL", "And referral closes the loop.", None,
 s("", "And what you can see", "is not always what is causing it.",
   "And what you can see is not always what is causing it.",
   plate("/flows/root_2_beam.svg"), "default", "fade")
-
-# ═════════════ B1. THE DASHBOARD YOU NEVER GOT ═════════════
-# 🔴 John's analogy, and it is HIS WORDING, not my paraphrase of it. Source: Google Doc
-# 10aiUyH6UlcSeFCnHM5cI90roHR9JT9hftk2r7dttjMc, tab "Foundation Problem" (t.0), section
-# "Your car does not have the dashboard it should", repeated in the "Smaller YT Version" tab.
-#
-# Why it belongs here rather than replacing the mansion: the mansion answers WHERE
-# (west wing -> which bolt). This answers WHY YOU CANNOT SEE IT, and then it earns the
-# close, because the last beat is the reason to have someone on your team instead of paying
-# a mechanic per repair. The mansion locates; the dashboard explains and sells.
-bg("/gen8/n07_ai_cant_see_you.png")
-s("THE CHECK ENGINE LIGHT", "One bulb. No information.", "Something's wrong somewhere, good luck.",
-  "Think about the check engine light. One bulb. No information. Something is wrong somewhere, good luck.",
-  readout("WHAT YOUR DASHBOARD TELLS YOU", "1 BULB", "ember"), "peak text-center")
-s("", "The tech to do better", "has existed for twenty years.",
-  "The technology to do better has existed for twenty years.",
-  img("/gen8/n02_rising_cost_curve.png", "50% 40%"), "bleed")
-s("AN F1 TEAM", "The temperature of every brake.", "The wear on every tyre.",
-  "An F1 team knows the temperature of every brake and the wear on every tyre.",
-  cards(3, [("EVERY BRAKE", "good"), ("EVERY TYRE", "good"), ("EVERY COMPONENT", "good")]))
-s("", "And which component will fail", "two laps before it fails.",
-  "And which component is going to fail two laps before it fails.",
-  readout("WARNING, IN LAPS", "2 AHEAD", "teal"), "peak text-center")
-s("THE PIT WALL", "One voice tells the driver", "the single thing that matters right now.",
-  "A pit wall reads all of it, and one voice tells the driver the single thing that matters right now.",
-  img("/gen8/n08_one_constraint_gate.png"), "bleed")
-s("", "Your car could have that screen.", "It does not.",
-  "Your car could have that screen. It does not.",
-  oldnew("ONE BULB", "THE WHOLE CAR", "WHAT YOU HAVE", "WHAT EXISTS"))
-# the line that makes the whole analogy land. Do not soften it.
-s("AND HERE'S WHY", "The entire repair industry", "would quietly cease to exist.",
-  "Because if it did, the entire repair industry would quietly cease to exist.",
-  img("/gen/concept-05-blame-cascade.png", "50% 45%"), "bleed")
-s("", "Your business works the same way.", "And for the same reason.",
-  "Your business works the same way, and for the same reason.",
-  plate("/flows/bowtie_00_full.svg"), "default", "fade")
-# 🔴 THE BEAT THAT EARNS THE CLOSE. John: "you still need someone to help set those systems
-# up, otherwise you pay the mechanic every single time instead of someone on your team."
-s("", "Somebody still has to", "install the sensors.",
-  "And somebody still has to install the sensors.",
-  cards(2, [("PAY A MECHANIC EVERY TIME", "bad"), ("SOMEONE ON YOUR TEAM", "good")]))
-s("", "Otherwise you're paying per repair", "forever.",
-  "Otherwise you are paying a mechanic every single time, instead of having somebody on your team who can read the car.",
-  img("/gen8/n05_stack_of_attempts.png"), "bleed")
 
 # ═════════════════════ C. THE MANSION ═════════════════════
 bg("/gen8/n10_blind_spot.png")
@@ -551,8 +552,8 @@ s("", "That's why the order matters", "more than the effort.",
   "That is why the order matters more than the effort. That is the whole job.",
   readout("THE WHOLE JOB", "ORDER &gt; EFFORT", "teal"), "peak text-center")
 # ── Chris. Bigger number, smaller story, so it gets one beat, not eleven. ──
-s("CASE FILE 002", "Chris. Same process.", "His constraint was email.",
-  "Chris, same process. His constraint was email.",
+s("CASE FILE 002", "Chris at Clients &amp; Community.", "Same process. His constraint was email.",
+  "Chris at Clients and Community, same process. His constraint was email.",
   shot("/site/ff-case-file-002-clients-community--hero.png", "CASE FILE 002",
        "Published with how we count. $1.81M attributed to the inbox."))
 s("", "$1.81M from the inbox", "in nine months.",

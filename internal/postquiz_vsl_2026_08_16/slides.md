@@ -115,723 +115,10 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed peak
+class: peak text-center
 ---
 
 <!-- slide:06 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-h1 rt-onimg">Everybody is talking about the trust recession.</div>
-  </div>
-</div>
-
----
-layout: default
-class: bleed peak
----
-
-<!-- slide:07 -->
-
-<img class="rt-bleed" src="/gen8/n02_rising_cost_curve.png" alt="" style="object-position: 50% 40%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
-    <div class="rt-h1 rt-onimg">Ads do not land like they used to.</div>
-  </div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:08 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">Calls do not close.</div>
-<div class="mt-4" style="text-align:center;"><img src="/gen/char-02-lost.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:09 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">People go quiet on you after they already said they were in.</div>
-<div class="mt-4" style="text-align:center;"><img src="/gen/char-01-stuck.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:10 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">It is real.</div>
-<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">WHAT THEY SEE</div><div class="rt-card-t">IT'S REAL</div></div><div class="rt-new"><div class="rt-waylabel">WHAT THEY MISS</div><div class="rt-card-t">THE CAUSE IS WRONG</div></div></div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:11 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">But almost everybody has the cause wrong.</div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:12 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-kicker">THE MARKET'S ANSWER</div>
-<div class="rt-h1 mt-2">The market looks at it and says, it is a trust problem,</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen8/n06_report_framework_deck.png" alt="The market looks at it and says, it is a trust problem," style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:13 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">so I need more proof.</div>
-</div>
-
----
-layout: default
-class: peak text-center
----
-
-<!-- slide:14 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
-<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">So they go get more testimonials.</div>
-<div class="mt-6"><div class="rt-lab">ATTEMPT 01</div><div class="rt-big ember">MORE TESTIMONIALS</div></div>
-</div>
-
----
-layout: default
-class: peak text-center
----
-
-<!-- slide:15 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
-<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">More authority.</div>
-<div class="mt-6"><div class="rt-lab">ATTEMPT 02</div><div class="rt-big ember">MORE AUTHORITY</div></div>
-</div>
-
----
-layout: default
-class: peak text-center
----
-
-<!-- slide:16 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
-<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">More content.</div>
-<div class="mt-6"><div class="rt-lab">ATTEMPT 03</div><div class="rt-big ember">MORE CONTENT</div></div>
-</div>
-
----
-layout: default
-class: peak text-center
----
-
-<!-- slide:17 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
-<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">More case studies.</div>
-<div class="mt-6"><div class="rt-lab">ATTEMPT 04</div><div class="rt-big ember">MORE CASE STUDIES</div></div>
-</div>
-
----
-layout: default
-class: bleed peak
----
-
-<!-- slide:18 -->
-
-<img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-h1 rt-onimg">And nothing changes.</div>
-  </div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:19 -->
-
-<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="Here is why." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Here is why.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:20 -->
-
-<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="Trust does not evaporate." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Trust does not evaporate.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:21 -->
-
-<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="It breaks at a specific point." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">It breaks at a specific point.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:22 -->
-
-<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="And that point is almost always a constraint." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">And that point is almost always a constraint.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:23 -->
-
-<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Either in how you sell, or in what happens after somebody buys." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Either in how you sell, or in what happens after somebody buys.</div></div>
-</div>
-
----
-layout: default
-class: bleed peak
----
-
-<!-- slide:24 -->
-
-<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
-    <div class="rt-h1 rt-onimg">Nobody distrusts you for no reason.</div>
-  </div>
-</div>
-
----
-layout: default
-class: bleed peak
----
-
-<!-- slide:25 -->
-
-<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
-    <div class="rt-h1 rt-onimg">Something upstream did not line up.</div>
-  </div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:26 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-kicker">AND I'M NOT GUESSING</div>
-<div class="rt-h1 mt-2">And I am not guessing.</div>
-<div class="rt-grid c3 mt-6"><img class="rt-shot wall" src="/site/ff-case-file-001-supported-tutoring--hero.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-case-file-002-clients-community--hero.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-proof-index--hero.png" alt="Client message" /></div><div class="rt-cap mt-3">Two case files and a wall of wins, published with how we count.</div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:27 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">We have been inside these businesses,</div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:28 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">and it is the same thing every time.</div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:29 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">One thing is holding it,</div>
-<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">THE SYMPTOM</div><div class="rt-card-t">WHAT THEY CALLED ABOUT</div></div><div class="rt-new"><div class="rt-waylabel">THE CONSTRAINT</div><div class="rt-card-t">WHAT WAS ACTUALLY HOLDING IT</div></div></div>
-</div>
-
----
-layout: default
-class: default peak
----
-
-<!-- slide:30 -->
-
-<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
-<div class="rt-scrim"></div>
-<div class="relative">
-<div class="rt-h1 mt-2">and it is almost never the thing they called us about.</div>
-</div>
-
----
-layout: default
-class: bleed
----
-
-<!-- slide:31 -->
-
-<img class="rt-bleed" src="/canon/bowtie-hunch_no_proof.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
-    <div class="rt-kicker" style="color: var(--tealb);">THE MODEL</div>
-    <div class="rt-h1 rt-onimg">Before anything else, here is the whole model on one screen.</div>
-  </div>
-</div>
-
----
-layout: default
-class: default
----
-
-<!-- slide:32 -->
-
-<div class="rt-kicker">IT NARROWS, THEN IT WIDENS</div>
-<div class="rt-h1 mt-2">It narrows down to the sale, then it widens back out.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/canon/bowtie-hunch_no_proof.png" alt="Eleven steps, three regions. The same diagram the delivery email carries." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">THE CANON MODEL</span></div><div class="rt-cap mt-3">Eleven steps, three regions. The same diagram the delivery email carries.</div>
-
----
-layout: default
-class: default
----
-
-<!-- slide:33 -->
-
-<div class="rt-h1 mt-2">Acquisition, delivery, compounding.</div>
-
----
-layout: default
-class: bleed
----
-
-<!-- slide:34 -->
-
-<img class="rt-bleed" src="/canon/bowtie-hunch_no_proof.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
-    <div class="rt-kicker" style="color: var(--tealb);">THE RIGHT SIDE FEEDS THE LEFT</div>
-    <div class="rt-h1 rt-onimg">And the right side feeds the left.</div>
-  </div>
-</div>
-
----
-layout: default
-class: bleed
----
-
-<!-- slide:35 -->
-
-<img class="rt-bleed" src="/canon/bowtie-hunch_no_proof.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
-    <div class="rt-h1 rt-onimg">The journey does not end when they pay you.</div>
-  </div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:36 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_a_shape.svg" alt="So." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">So.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:37 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_a_shape.svg" alt="Your results screen just showed you an area." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Your results screen just showed you an area.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:38 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_b_wings.svg" alt="This is the shape of every business." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">This is the shape of every business.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:39 -->
-
-<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="It narrows down to a knot, then it widens back out." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">It narrows down to a knot, then it widens back out.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:40 -->
-
-<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Every step a customer takes with you." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Every step a customer takes with you.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:41 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c0_attention.svg" alt="It can sit anywhere." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">It can sit anywhere.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:42 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c0_attention.svg" alt="At attention everything downstream is starved." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">At attention everything downstream is starved.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:43 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="One step in it changes." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">One step in it changes.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:44 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="You get attention." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">You get attention.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:45 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="It does not turn into leads." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">It does not turn into leads.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:46 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c2_conversion.svg" alt="At conversion you have the leads." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">At conversion you have the leads.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:47 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c2_conversion.svg" alt="They are not turning into buyers." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">They are not turning into buyers.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:48 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c3_payment.svg" alt="Or it sits at the knot itself." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Or it sits at the knot itself.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:49 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c4_onboarding_loop.svg" alt="Behind the sale it is worse." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Behind the sale it is worse.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:50 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c4_onboarding_loop.svg" alt="Onboarding makes you busy, and busy stops you filling the top." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Onboarding makes you busy, and busy stops you filling the top.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:51 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c5_activation.svg" alt="At activation they bought and never switched on." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">At activation they bought and never switched on.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:52 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c6_success.svg" alt="At success they use it and still do not win," /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">At success they use it and still do not win,</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:53 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c6_success.svg" alt="so there is nothing to refer." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">so there is nothing to refer.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:54 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c7_retention.svg" alt="At retention they leave, so you spend everything refilling the top." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">At retention they leave, so you spend everything refilling the top.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:55 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="And referral closes the loop," /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">And referral closes the loop,</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:56 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="because a referral is just attention from someone else." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">because a referral is just attention from someone else.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:57 -->
-
-<div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="Choke it and you pay for every lead." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">Choke it and you pay for every lead.</div></div>
-</div>
-
----
-layout: default
-class: plate
-transition: fade
----
-
-<!-- slide:58 -->
-
-<div class="rt-cropbox"><img src="/flows/root_2_beam.svg" alt="And what you can see is not always what is causing it." /></div>
-<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
-  <div class="rt-frost"><div class="rt-say">And what you can see is not always what is causing it.</div></div>
-</div>
-
----
-layout: default
-class: peak text-center
----
-
-<!-- slide:59 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
@@ -846,7 +133,7 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:60 -->
+<!-- slide:07 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
@@ -859,7 +146,7 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:61 -->
+<!-- slide:08 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
@@ -872,7 +159,7 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:62 -->
+<!-- slide:09 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
@@ -885,7 +172,7 @@ layout: default
 class: bleed peak
 ---
 
-<!-- slide:63 -->
+<!-- slide:10 -->
 
 <img class="rt-bleed" src="/gen8/n02_rising_cost_curve.png" alt="" style="object-position: 50% 40%;" />
 <div class="rt-scrim"></div>
@@ -900,7 +187,7 @@ layout: default
 class: default peak
 ---
 
-<!-- slide:64 -->
+<!-- slide:11 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
@@ -915,7 +202,7 @@ layout: default
 class: peak text-center
 ---
 
-<!-- slide:65 -->
+<!-- slide:12 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
@@ -929,7 +216,7 @@ layout: default
 class: bleed peak
 ---
 
-<!-- slide:66 -->
+<!-- slide:13 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim-r"></div>
@@ -945,7 +232,7 @@ layout: default
 class: bleed peak
 ---
 
-<!-- slide:67 -->
+<!-- slide:14 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim-r"></div>
@@ -960,7 +247,7 @@ layout: default
 class: default peak
 ---
 
-<!-- slide:68 -->
+<!-- slide:15 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
@@ -974,7 +261,7 @@ layout: default
 class: default peak
 ---
 
-<!-- slide:69 -->
+<!-- slide:16 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
@@ -987,7 +274,7 @@ layout: default
 class: bleed peak
 ---
 
-<!-- slide:70 -->
+<!-- slide:17 -->
 
 <img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
 <div class="rt-scrim"></div>
@@ -1004,7 +291,7 @@ class: plate
 transition: fade
 ---
 
-<!-- slide:71 -->
+<!-- slide:18 -->
 
 <div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Your business works the same way, and for the same reason." /></div>
 <div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
@@ -1016,7 +303,7 @@ layout: default
 class: default peak
 ---
 
-<!-- slide:72 -->
+<!-- slide:19 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
@@ -1030,7 +317,7 @@ layout: default
 class: bleed peak
 ---
 
-<!-- slide:73 -->
+<!-- slide:20 -->
 
 <img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim-r"></div>
@@ -1045,7 +332,7 @@ layout: default
 class: bleed peak
 ---
 
-<!-- slide:74 -->
+<!-- slide:21 -->
 
 <img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
 <div class="rt-scrim-r"></div>
@@ -1053,6 +340,718 @@ class: bleed peak
   <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">instead of having somebody on your team who can read the car.</div>
   </div>
+</div>
+
+---
+layout: default
+class: bleed peak
+---
+
+<!-- slide:22 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-h1 rt-onimg">Everybody is talking about the trust recession.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:23 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Ads do not land like they used to.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen8/n02_rising_cost_curve.png" alt="Ads do not land like they used to." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:24 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">Calls do not close.</div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-02-lost.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:25 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">People go quiet on you after they already said they were in.</div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-01-stuck.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:26 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">It is real.</div>
+<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">WHAT THEY SEE</div><div class="rt-card-t">IT'S REAL</div></div><div class="rt-new"><div class="rt-waylabel">WHAT THEY MISS</div><div class="rt-card-t">THE CAUSE IS WRONG</div></div></div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:27 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">But almost everybody has the cause wrong.</div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:28 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">THE MARKET'S ANSWER</div>
+<div class="rt-h1 mt-2">The market looks at it and says, it is a trust problem,</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen8/n06_report_framework_deck.png" alt="The market looks at it and says, it is a trust problem," style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:29 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">so I need more proof.</div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:30 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
+<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">So they go get more testimonials.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 01</div><div class="rt-big ember">MORE TESTIMONIALS</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:31 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
+<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">More authority.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 02</div><div class="rt-big ember">MORE AUTHORITY</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:32 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
+<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">More content.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 03</div><div class="rt-big ember">MORE CONTENT</div></div>
+</div>
+
+---
+layout: default
+class: peak text-center
+---
+
+<!-- slide:33 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
+<div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">More case studies.</div>
+<div class="mt-6"><div class="rt-lab">ATTEMPT 04</div><div class="rt-big ember">MORE CASE STUDIES</div></div>
+</div>
+
+---
+layout: default
+class: bleed peak
+---
+
+<!-- slide:34 -->
+
+<img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-h1 rt-onimg">And nothing changes.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:35 -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="Here is why." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Here is why.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:36 -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="Trust does not evaporate." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Trust does not evaporate.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:37 -->
+
+<div class="rt-cropbox"><img src="/flows/root_1_mechanics.svg" alt="It breaks at a specific point." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It breaks at a specific point.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:38 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="And that point is almost always a constraint." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">And that point is almost always a constraint.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:39 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Either in how you sell, or in what happens after somebody buys." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Either in how you sell, or in what happens after somebody buys.</div></div>
+</div>
+
+---
+layout: default
+class: bleed peak
+---
+
+<!-- slide:40 -->
+
+<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-h1 rt-onimg">Nobody distrusts you for no reason.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: bleed peak
+---
+
+<!-- slide:41 -->
+
+<img class="rt-bleed" src="/gen/concept-05-blame-cascade.png" alt="" style="object-position: 50% 45%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-h1 rt-onimg">Something upstream did not line up.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:42 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-kicker">AND I'M NOT GUESSING</div>
+<div class="rt-h1 mt-2">And I am not guessing.</div>
+<div class="rt-grid c3 mt-6"><img class="rt-shot wall" src="/site/ff-case-file-001-supported-tutoring--hero.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-case-file-002-clients-community--hero.png" alt="Client message" /><img class="rt-shot wall" src="/site/ff-proof-index--hero.png" alt="Client message" /></div><div class="rt-cap mt-3">Two case files and a wall of wins, published with how we count.</div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:43 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">We have been inside these businesses,</div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:44 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">and it is the same thing every time.</div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:45 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">One thing is holding it,</div>
+<div class="rt-grid c2 mt-7" style="overflow: visible;"><div class="rt-old"><div class="rt-waylabel">THE SYMPTOM</div><div class="rt-card-t">WHAT THEY CALLED ABOUT</div></div><div class="rt-new"><div class="rt-waylabel">THE CONSTRAINT</div><div class="rt-card-t">WHAT WAS ACTUALLY HOLDING IT</div></div></div>
+</div>
+
+---
+layout: default
+class: default peak
+---
+
+<!-- slide:46 -->
+
+<img class="rt-bleed" src="/gen/concept-07-trust-recession.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<div class="rt-scrim"></div>
+<div class="relative">
+<div class="rt-h1 mt-2">and it is almost never the thing they called us about.</div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:47 -->
+
+<img class="rt-bleed" src="/canon/bowtie-hunch_no_proof.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
+    <div class="rt-kicker" style="color: var(--tealb);">THE MODEL</div>
+    <div class="rt-h1 rt-onimg">Before anything else, here is the whole model on one screen.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:48 -->
+
+<div class="rt-kicker">IT NARROWS, THEN IT WIDENS</div>
+<div class="rt-h1 mt-2">It narrows down to the sale, then it widens back out.</div>
+<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/canon/bowtie-hunch_no_proof.png" alt="Eleven steps, three regions. The same diagram the delivery email carries." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">THE CANON MODEL</span></div><div class="rt-cap mt-3">Eleven steps, three regions. The same diagram the delivery email carries.</div>
+
+---
+layout: default
+class: default
+---
+
+<!-- slide:49 -->
+
+<div class="rt-h1 mt-2">Acquisition, delivery, compounding.</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:50 -->
+
+<img class="rt-bleed" src="/canon/bowtie-hunch_no_proof.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-kicker" style="color: var(--tealb);">THE RIGHT SIDE FEEDS THE LEFT</div>
+    <div class="rt-h1 rt-onimg">And the right side feeds the left.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: bleed
+---
+
+<!-- slide:51 -->
+
+<img class="rt-bleed" src="/canon/bowtie-hunch_no_proof.png" alt="" style="object-position: 50% 38%;" />
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
+    <div class="rt-h1 rt-onimg">The journey does not end when they pay you.</div>
+  </div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:52 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_a_shape.svg" alt="So." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">So.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:53 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_a_shape.svg" alt="Your results screen just showed you an area." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Your results screen just showed you an area.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:54 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_b_wings.svg" alt="This is the shape of every business." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">This is the shape of every business.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:55 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="It narrows down to a knot, then it widens back out." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It narrows down to a knot, then it widens back out.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:56 -->
+
+<div class="rt-cropbox"><img src="/flows/bowtie_00_full.svg" alt="Every step a customer takes with you." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Every step a customer takes with you.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:57 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c0_attention.svg" alt="It can sit anywhere." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It can sit anywhere.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:58 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c0_attention.svg" alt="At attention everything downstream is starved." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">At attention everything downstream is starved.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:59 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="One step in it changes." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">One step in it changes.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:60 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="You get attention." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">You get attention.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:61 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c1_capture.svg" alt="It does not turn into leads." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">It does not turn into leads.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:62 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c2_conversion.svg" alt="At conversion you have the leads." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">At conversion you have the leads.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:63 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c2_conversion.svg" alt="They are not turning into buyers." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">They are not turning into buyers.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:64 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c3_payment.svg" alt="Or it sits at the knot itself." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Or it sits at the knot itself.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:65 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c4_onboarding_loop.svg" alt="Behind the sale it is worse." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Behind the sale it is worse.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:66 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c4_onboarding_loop.svg" alt="Onboarding makes you busy, and busy stops you filling the top." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Onboarding makes you busy, and busy stops you filling the top.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:67 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c5_activation.svg" alt="At activation they bought and never switched on." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">At activation they bought and never switched on.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:68 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c6_success.svg" alt="At success they use it and still do not win," /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">At success they use it and still do not win,</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:69 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c6_success.svg" alt="so there is nothing to refer." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">so there is nothing to refer.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:70 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c7_retention.svg" alt="At retention they leave, so you spend everything refilling the top." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">At retention they leave, so you spend everything refilling the top.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:71 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="And referral closes the loop," /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">And referral closes the loop,</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:72 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="because a referral is just attention from someone else." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">because a referral is just attention from someone else.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:73 -->
+
+<div class="rt-cropbox"><img src="/flows/bt_c8_referral_loop.svg" alt="Choke it and you pay for every lead." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">Choke it and you pay for every lead.</div></div>
+</div>
+
+---
+layout: default
+class: plate
+transition: fade
+---
+
+<!-- slide:74 -->
+
+<div class="rt-cropbox"><img src="/flows/root_2_beam.svg" alt="And what you can see is not always what is causing it." /></div>
+<div class="absolute left-0 right-0" style="bottom: 4.5%; padding: 0 4rem;">
+  <div class="rt-frost"><div class="rt-say">And what you can see is not always what is causing it.</div></div>
 </div>
 
 ---
@@ -1117,9 +1116,9 @@ class: bleed peak
 <!-- slide:79 -->
 
 <img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-kicker" style="color: var(--tealb);">THE EPIDEMIC</div>
     <div class="rt-h1 rt-onimg">This is what nobody is looking at.</div>
   </div>
@@ -1133,9 +1132,9 @@ class: bleed peak
 <!-- slide:80 -->
 
 <img class="rt-bleed" src="/gen/concept-06-information-abundance.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">There is an epidemic in this market.</div>
   </div>
 </div>
@@ -1229,9 +1228,9 @@ class: bleed peak
 <!-- slide:87 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-kicker" style="color: var(--tealb);">HOW IT WORKS</div>
     <div class="rt-h1 rt-onimg">At any moment your business has one constraint.</div>
   </div>
@@ -1245,9 +1244,9 @@ class: bleed peak
 <!-- slide:88 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">One thing holding the whole system back.</div>
   </div>
 </div>
@@ -1260,9 +1259,9 @@ class: bleed peak
 <!-- slide:89 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Not five.</div>
   </div>
 </div>
@@ -1275,9 +1274,9 @@ class: bleed peak
 <!-- slide:90 -->
 
 <img class="rt-bleed" src="/gen8/n08_one_constraint_gate.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">One.</div>
   </div>
 </div>
@@ -1416,9 +1415,9 @@ class: bleed peak
 <!-- slide:100 -->
 
 <img class="rt-bleed" src="/gen8/n15_market_moving_past.png" alt="" style="object-position: 50% 30%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-kicker" style="color: var(--tealb);">MARKET</div>
     <div class="rt-h1 rt-onimg">If you are the fourth person to say the same thing,</div>
   </div>
@@ -1432,9 +1431,9 @@ class: bleed peak
 <!-- slide:101 -->
 
 <img class="rt-bleed" src="/gen8/n15_market_moving_past.png" alt="" style="object-position: 50% 30%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">you are not fighting for attention.</div>
   </div>
 </div>
@@ -1447,9 +1446,9 @@ class: bleed peak
 <!-- slide:102 -->
 
 <img class="rt-bleed" src="/gen8/n15_market_moving_past.png" alt="" style="object-position: 50% 30%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">You are fighting a memory.</div>
   </div>
 </div>
@@ -1666,9 +1665,9 @@ class: bleed peak
 <!-- slide:118 -->
 
 <img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">And you cannot fix what you cannot see.</div>
   </div>
 </div>
@@ -1681,9 +1680,9 @@ class: bleed peak
 <!-- slide:119 -->
 
 <img class="rt-bleed" src="/gen8/n10_blind_spot.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Which is why you do everything right and stay stuck.</div>
   </div>
 </div>
@@ -1875,9 +1874,9 @@ class: bleed peak
 <!-- slide:133 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" style="object-position: 50% 50%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">We could not even if we wanted to.</div>
   </div>
 </div>
@@ -1890,9 +1889,9 @@ class: bleed peak
 <!-- slide:134 -->
 
 <img class="rt-bleed" src="/gen8/n07_ai_cant_see_you.png" alt="" style="object-position: 50% 50%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">We do not have enough information yet.</div>
   </div>
 </div>
@@ -1905,9 +1904,9 @@ class: bleed peak
 <!-- slide:135 -->
 
 <img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 42%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">And honestly, we do not want to work with everybody.</div>
   </div>
 </div>
@@ -1920,9 +1919,9 @@ class: bleed peak
 <!-- slide:136 -->
 
 <img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 42%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">That sounds like a nightmare.</div>
   </div>
 </div>
@@ -1962,9 +1961,9 @@ class: bleed peak
 <!-- slide:139 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-kicker" style="color: var(--tealb);">SO WHAT HAPPENS</div>
     <div class="rt-h1 rt-onimg">Instead we ask what the quiz could not,</div>
   </div>
@@ -1978,9 +1977,9 @@ class: bleed peak
 <!-- slide:140 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">and pressure-test it against your numbers.</div>
   </div>
 </div>
@@ -2143,9 +2142,9 @@ class: bleed peak
 <!-- slide:152 -->
 
 <img class="rt-bleed" src="/gen8/n05_stack_of_attempts.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Because unless we know that, we are just throwing random shit at you.</div>
   </div>
 </div>
@@ -2648,7 +2647,7 @@ class: default peak
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">CASE FILE 002</div>
-<div class="rt-h1 mt-2">Chris, same process.</div>
+<div class="rt-h1 mt-2">Chris at Clients and Community, same process.</div>
 <div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/site/ff-case-file-002-clients-community--hero.png" alt="Published with how we count. $1.81M attributed to the inbox." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /><span class="rt-tag live">CASE FILE 002</span></div><div class="rt-cap mt-3">Published with how we count. $1.81M attributed to the inbox.</div>
 </div>
 
@@ -2783,9 +2782,9 @@ class: bleed peak
 <!-- slide:199 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">Then we go through it before the call,</div>
   </div>
 </div>
@@ -2798,9 +2797,9 @@ class: bleed peak
 <!-- slide:200 -->
 
 <img class="rt-bleed" src="/gen/concept-09-audit-magnifier.png" alt="" style="object-position: 50% 45%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">so we are not asking what your CPA is.</div>
   </div>
 </div>
@@ -2840,9 +2839,9 @@ class: bleed peak
 <!-- slide:203 -->
 
 <img class="rt-bleed" src="/gen/concept-08-two-roads.png" alt="" style="object-position: 50% 60%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">Ninety days pass either way.</div>
   </div>
 </div>
@@ -2883,9 +2882,9 @@ class: bleed peak
 <!-- slide:206 -->
 
 <img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">Button is below.</div>
   </div>
 </div>
@@ -2898,9 +2897,9 @@ class: bleed peak
 <!-- slide:207 -->
 
 <img class="rt-bleed" src="/gen8/n12_two_tracks.png" alt="" style="object-position: 50% 38%;" />
-<div class="rt-scrim"></div>
-<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: left;">
+<div class="rt-scrim-r"></div>
+<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: right;">
     <div class="rt-h1 rt-onimg">Click it, pick a time.</div>
   </div>
 </div>
@@ -2981,9 +2980,9 @@ class: bleed peak
 <!-- slide:213 -->
 
 <img class="rt-bleed" src="/stage/cc_live_1080s.jpg" alt="" style="object-position: 50% 40%;" />
-<div class="rt-scrim-r"></div>
-<div class="relative h-full flex flex-col justify-center items-end" style="padding: 0 3.2rem;">
-  <div style="max-width: 56%; text-align: right;">
+<div class="rt-scrim"></div>
+<div class="relative h-full flex flex-col justify-center items-start" style="padding: 0 3.2rem;">
+  <div style="max-width: 56%; text-align: left;">
     <div class="rt-h1 rt-onimg">I will see you on the call.</div>
   </div>
 </div>
