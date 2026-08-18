@@ -11,9 +11,21 @@
 | **Per-slide plan** | `_VISUAL_MAP.md` |
 | **QC vs goldens** | `_QC_GOLDEN_COMPARISON.md` |
 
-## How Singh uses it
-Open the live deck, press `p` for presenter mode. **The speaker notes are the script, verbatim.**
-Read them. Do not improvise, and specifically do not improvise a number.
+## 🔴 The slides are NOT the script
+
+The deck carries about **two words of visible copy per slide**, on purpose: one idea, seven words
+maximum. **The 1,759-word script lives in the speaker notes.** There is nothing to read off the
+slide face itself.
+
+Three ways to get the script while recording, whichever suits:
+
+| | |
+|---|---|
+| **Live deck, presenter mode** | https://ecf-walkthrough.vercel.app/presenter/1 — current slide, next slide, and the notes |
+| **Google Slides** | View, then Presenter view. The same notes are in there. |
+| **The read-along script** | A document: slide number, what is on screen, the exact line. Built for the realistic setup, which is the deck on one screen and this on a phone. |
+
+Do not improvise, and specifically **do not improvise a number.**
 
 ## Rebuild
 ```bash
