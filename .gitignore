@@ -43,3 +43,6 @@ dist-rv6/
 # QC screenshots are build artefacts, not source.
 **/qc/
 __pycache__/
+
+# transient before/after QC build
+_qc_before/
