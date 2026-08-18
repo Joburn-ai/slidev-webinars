@@ -116,6 +116,11 @@ def readout(lab, big, tone="", cap=None):       return ("readout", lab, big, ton
 def img(p, focal=None):          return ("img", p, focal)
 def dim(p, mode="light"):        return ("dim", p, mode)
 def qr(p):                       return ("qr", p)
+# 🔴 CUTOUT. The character PNGs ARE transparent RGBA (alpha min 0), but shot() wraps them in
+# .rt-shot's white card, so a cut-out figure rendered as a white box floating on a dark
+# ground -- which is what John saw. deck_production 4.1 is explicit: "Transparent PNG --
+# drops onto any slide, any ground." This kind is the bare image, no card, no frame.
+def cutout(p, h="52vh"):         return ("cutout", p, h)
 
 # ═════════════════════════════ A. PRE-OPEN ═════════════════════════════
 bg("/gen8/n13_show_up_gift.png")
@@ -150,10 +155,10 @@ s("", "Ads don't land like they used to.", None,
   img("/gen8/n02_rising_cost_curve.png", "50% 40%"), "bleed")
 s("", "Calls don't close.", None,
   "Calls do not close.",
-  shot("/gen/char-02-lost.png"))
+  cutout("/gen/char-02-lost.png"))
 s("", "People go quiet on you", "after they already said they were in.",
   "People go quiet on you after they already said they were in.",
-  shot("/gen/char-01-stuck.png"))
+  cutout("/gen/char-01-stuck.png"))
 s("", "It's real.", "But almost everybody has the cause wrong.",
   "It is real. But almost everybody has the cause wrong.",
   oldnew("IT'S REAL", "THE CAUSE IS WRONG", "WHAT THEY SEE", "WHAT THEY MISS"))
@@ -345,7 +350,7 @@ s("", "I call it constraint blindness.", None,
 # stuck -> wall -> realising -> winning, tracking the viewer's own state through the arc.
 s("", "Stuck at 10K. At 50K. At 100K.", "You feel it. You can't see it.",
   "People are stuck at ten K, fifty K, a hundred K. They feel it. They cannot see it.",
-  shot("/gen/char-01-stuck.png"))
+  cutout("/gen/char-01-stuck.png"))
 s("", "So you work harder", "on whatever's in front of you.",
   "So you work harder on whatever is in front of you.",
   shot("/gen8/n17_working_hard_right_things.png"))
@@ -501,7 +506,7 @@ s("CONSTRAINT 1 &middot; CLEARED", "$400 to acquire a customer.", "Down to $250 
           "Their dashboards, not ours. Published as $250 CPA, down from $400-450 before the rebuild."))
 s("", "Then a new constraint opened up.", None,
   "Then a new constraint opened up.",
-  shot("/gen/char-04-realising.png"))
+  cutout("/gen/char-04-realising.png"))
 s("", "You clear one,", "the next one steps forward.",
   "You clear one, the next one steps forward. It was always standing right behind it.",
   plate("/flows/root_2_beam.svg"), "default", "fade")
@@ -533,7 +538,7 @@ s("2026", "And another $630,071", "in the first seven months of this year.",
        "$630,071 through July 2026, with a $164K peak month in March."))
 s("", "His side hustle", "out-earned his day job.",
   "His side hustle out-earned his day job.",
-  shot("/gen/char-06-winning.png"))
+  cutout("/gen/char-06-winning.png"))
 # 🔴 THE POINT OF THE WHOLE STORY. Do not cut this beat to save runtime -- without it the
 # sequence is three nice numbers instead of the mechanism.
 s("HERE'S THE PART I WANT YOU TO HEAR", "Not one of those three", "was visible on day one.",
@@ -787,12 +792,35 @@ def render(b, line, first, idx):
                             '<div class="rt-name">John</div><div class="rt-role">Co-founder</div></div>'
                             '<div><img class="rt-portrait round" src="/team/phoenix-headshot.png" alt="Phoenix Bohannon" style="width:126px; margin:0 auto;" />'
                             '<div class="rt-name">Phoenix</div><div class="rt-role">Co-founder</div></div></div>')
+            elif kind == "cutout":
+                _, p_, h_ = v
+                body.append(f'<div class="mt-4" style="text-align:center;">'
+                            f'<img src="{p_}" alt="" style="max-height:{h_}; width:auto; '
+                            f'margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>')
             elif kind == "qr":
                 body.append(f'<div class="mt-6"><img src="{v[1]}" alt="Scan to book a call" '
                             f'style="width: 210px; margin: 0 auto; display: block; border-radius: 12px;" />'
                             f'<div class="rt-cap mt-3">Scan to pick a time</div></div>')
         if b.get("bg"): body.append('</div>')
 
+    # 🔴 A DARK GROUND REQUIRES THE DARK TOKEN SET. This is the bug John screenshotted:
+    # "People go quiet on you..." rendered as dark navy type on a dark navy photograph,
+    # essentially unreadable.
+    #
+    # .slidev-layout is `background: var(--paper) /* #FFF */; color: var(--ink) /* #0A2230 */`
+    # -- a LIGHT slide with DARK text. `peak` is the only class that flips the whole token
+    # set (background void, color star, plus every .peak .rt-* override for cards, numbers,
+    # captions and chips). When I raised the sectional backdrop from the invisible 0.10 to a
+    # real 0.82 I gave those slides a dark ground and left the text dark.
+    #
+    # So: any slide carrying a sectional ground gets `peak`. Fixing the scrim alone was
+    # treating the symptom -- the ground and the type have to move together, always.
+    # ⚠️ EXCEPT plate. `.slidev-layout.plate` is a WHITE ground (var(--paper)) and its
+    # specificity beats `.peak`, so the ground would stay white while every `.peak .rt-*`
+    # rule flipped the type to light -- light text on white, the same defect inverted. Plate
+    # slides carry their line in a .rt-frost bar that already handles its own contrast.
+    if b.get("bg") and "peak" not in fm_cls and "plate" not in fm_cls:
+        fm_cls = f"{fm_cls} peak".strip()
     fm = f"---\nlayout: default\nclass: {fm_cls}\n{fm_extra}---\n"
     return fm + f"\n<!-- slide:{idx:02d} -->\n\n" + "\n".join(body) + "\n"
 
@@ -811,7 +839,7 @@ fail, missing, bad_bleed = [], [], []
 def paths_of(b):
     v = b["visual"]
     if not v: return []
-    if v[0] in ("img", "plate", "dim", "shot"): return [v[1]]
+    if v[0] in ("img", "plate", "dim", "shot", "cutout"): return [v[1]]
     if v[0] == "wall": return list(v[1])
     if v[0] == "team": return ["/team/john-headshot-direct.jpg", "/team/phoenix-headshot.png"]
     return []

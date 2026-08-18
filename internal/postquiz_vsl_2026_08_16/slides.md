@@ -41,7 +41,7 @@ Nothing is spoken here.
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:01 -->
@@ -56,7 +56,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:02 -->
@@ -71,7 +71,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:03 -->
@@ -86,7 +86,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:04 -->
@@ -115,7 +115,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:06 -->
@@ -130,7 +130,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:07 -->
@@ -145,7 +145,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:08 -->
@@ -154,12 +154,12 @@ class: default
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Calls do not close.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-02-lost.png" alt="Calls do not close." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-02-lost.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
 </div>
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:09 -->
@@ -168,12 +168,12 @@ class: default
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">People go quiet on you after they already said they were in.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-01-stuck.png" alt="People go quiet on you after they already said they were in." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-01-stuck.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
 </div>
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:10 -->
@@ -187,7 +187,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:11 -->
@@ -200,7 +200,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:12 -->
@@ -215,7 +215,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:13 -->
@@ -284,7 +284,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:18 -->
@@ -364,7 +364,7 @@ transition: fade
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:24 -->
@@ -379,7 +379,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:25 -->
@@ -394,7 +394,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:26 -->
@@ -409,7 +409,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:27 -->
@@ -422,7 +422,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:28 -->
@@ -435,7 +435,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:29 -->
@@ -449,7 +449,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:30 -->
@@ -882,7 +882,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:63 -->
@@ -897,7 +897,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:64 -->
@@ -926,7 +926,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:66 -->
@@ -942,7 +942,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:67 -->
@@ -957,7 +957,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:68 -->
@@ -971,7 +971,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:69 -->
@@ -984,7 +984,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:70 -->
@@ -1013,7 +1013,7 @@ transition: fade
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:72 -->
@@ -1027,7 +1027,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:73 -->
@@ -1042,7 +1042,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:74 -->
@@ -1057,7 +1057,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:75 -->
@@ -1071,7 +1071,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:76 -->
@@ -1085,7 +1085,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:77 -->
@@ -1098,7 +1098,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:78 -->
@@ -1111,7 +1111,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:79 -->
@@ -1127,7 +1127,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:80 -->
@@ -1142,7 +1142,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:81 -->
@@ -1156,7 +1156,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:82 -->
@@ -1169,7 +1169,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:83 -->
@@ -1178,12 +1178,12 @@ class: default
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">People are stuck at ten K, fifty K, a hundred K.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-01-stuck.png" alt="People are stuck at ten K, fifty K, a hundred K." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-01-stuck.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
 </div>
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:84 -->
@@ -1196,7 +1196,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:85 -->
@@ -1209,7 +1209,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:86 -->
@@ -1223,7 +1223,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:87 -->
@@ -1239,7 +1239,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:88 -->
@@ -1254,7 +1254,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:89 -->
@@ -1269,7 +1269,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:90 -->
@@ -1311,7 +1311,7 @@ class: peak text-center
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:93 -->
@@ -1326,7 +1326,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:94 -->
@@ -1341,7 +1341,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:95 -->
@@ -1356,7 +1356,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:96 -->
@@ -1369,7 +1369,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:97 -->
@@ -1384,7 +1384,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:98 -->
@@ -1397,7 +1397,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:99 -->
@@ -1410,7 +1410,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:100 -->
@@ -1426,7 +1426,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:101 -->
@@ -1441,7 +1441,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:102 -->
@@ -1456,7 +1456,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:103 -->
@@ -1471,7 +1471,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:104 -->
@@ -1484,7 +1484,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:105 -->
@@ -1497,7 +1497,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:106 -->
@@ -1512,7 +1512,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:107 -->
@@ -1525,7 +1525,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:108 -->
@@ -1538,7 +1538,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:109 -->
@@ -1553,7 +1553,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:110 -->
@@ -1566,7 +1566,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:111 -->
@@ -1579,7 +1579,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:112 -->
@@ -1592,7 +1592,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:113 -->
@@ -1607,7 +1607,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:114 -->
@@ -1620,7 +1620,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:115 -->
@@ -1634,7 +1634,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:116 -->
@@ -1647,7 +1647,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:117 -->
@@ -1660,7 +1660,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:118 -->
@@ -1675,7 +1675,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:119 -->
@@ -1690,7 +1690,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:120 -->
@@ -1705,7 +1705,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:121 -->
@@ -1719,7 +1719,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:122 -->
@@ -1732,7 +1732,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:123 -->
@@ -1759,7 +1759,7 @@ class: peak text-center
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:125 -->
@@ -1774,7 +1774,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:126 -->
@@ -1787,7 +1787,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:127 -->
@@ -1800,7 +1800,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:128 -->
@@ -1813,7 +1813,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:129 -->
@@ -1869,7 +1869,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:133 -->
@@ -1884,7 +1884,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:134 -->
@@ -1899,7 +1899,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:135 -->
@@ -1914,7 +1914,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:136 -->
@@ -1929,7 +1929,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:137 -->
@@ -1943,7 +1943,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:138 -->
@@ -1956,7 +1956,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:139 -->
@@ -1972,7 +1972,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:140 -->
@@ -1987,7 +1987,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:141 -->
@@ -2002,7 +2002,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:142 -->
@@ -2015,7 +2015,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:143 -->
@@ -2028,7 +2028,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:144 -->
@@ -2042,7 +2042,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:145 -->
@@ -2055,7 +2055,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:146 -->
@@ -2069,7 +2069,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:147 -->
@@ -2082,7 +2082,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:148 -->
@@ -2096,7 +2096,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:149 -->
@@ -2109,7 +2109,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:150 -->
@@ -2124,7 +2124,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:151 -->
@@ -2137,7 +2137,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:152 -->
@@ -2152,7 +2152,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:153 -->
@@ -2167,7 +2167,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:154 -->
@@ -2180,7 +2180,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:155 -->
@@ -2193,7 +2193,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:156 -->
@@ -2207,7 +2207,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:157 -->
@@ -2259,7 +2259,7 @@ transition: fade
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:161 -->
@@ -2274,7 +2274,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:162 -->
@@ -2287,7 +2287,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:163 -->
@@ -2300,7 +2300,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:164 -->
@@ -2309,7 +2309,7 @@ class: default
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Then a new constraint opened up.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-04-realising.png" alt="Then a new constraint opened up." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-04-realising.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
 </div>
 
 ---
@@ -2340,7 +2340,7 @@ transition: fade
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:167 -->
@@ -2355,7 +2355,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:168 -->
@@ -2368,7 +2368,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:169 -->
@@ -2433,7 +2433,7 @@ transition: fade
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:174 -->
@@ -2448,7 +2448,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:175 -->
@@ -2461,7 +2461,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:176 -->
@@ -2474,7 +2474,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:177 -->
@@ -2487,7 +2487,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:178 -->
@@ -2501,7 +2501,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:179 -->
@@ -2516,7 +2516,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:180 -->
@@ -2531,7 +2531,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:181 -->
@@ -2540,12 +2540,12 @@ class: default
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">His side hustle out-earned his day job.</div>
-<div class="rt-imgwrap mt-5" style="max-height: 44vh; overflow: hidden;"><img class="rt-shot" src="/gen/char-06-winning.png" alt="His side hustle out-earned his day job." style="max-height: 44vh; width: auto; margin: 0 auto; display: block;" /></div>
+<div class="mt-4" style="text-align:center;"><img src="/gen/char-06-winning.png" alt="" style="max-height:52vh; width:auto; margin:0 auto; display:block; filter: drop-shadow(0 18px 34px rgba(0,0,0,0.42));" /></div>
 </div>
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:182 -->
@@ -2560,7 +2560,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:183 -->
@@ -2573,7 +2573,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:184 -->
@@ -2639,7 +2639,7 @@ class: peak text-center
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:189 -->
@@ -2654,7 +2654,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:190 -->
@@ -2667,7 +2667,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:191 -->
@@ -2681,7 +2681,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:192 -->
@@ -2696,7 +2696,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:193 -->
@@ -2709,7 +2709,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:194 -->
@@ -2723,7 +2723,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:195 -->
@@ -2738,7 +2738,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:196 -->
@@ -2751,7 +2751,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:197 -->
@@ -2764,7 +2764,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:198 -->
@@ -2777,7 +2777,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:199 -->
@@ -2792,7 +2792,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:200 -->
@@ -2834,7 +2834,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:203 -->
@@ -2849,7 +2849,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:204 -->
@@ -2877,7 +2877,7 @@ class: peak text-center
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:206 -->
@@ -2892,7 +2892,7 @@ class: bleed
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:207 -->
@@ -2907,7 +2907,7 @@ class: bleed
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:208 -->
@@ -2922,7 +2922,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:209 -->
@@ -2935,7 +2935,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:210 -->
@@ -2949,7 +2949,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:211 -->
@@ -2962,7 +2962,7 @@ class: default
 
 ---
 layout: default
-class: default
+class: default peak
 ---
 
 <!-- slide:212 -->
@@ -2975,7 +2975,7 @@ class: default
 
 ---
 layout: default
-class: bleed
+class: bleed peak
 ---
 
 <!-- slide:213 -->
