@@ -48,3 +48,7 @@ __pycache__/
 _qc_before/
 easycarefinder/walkthrough_2026_08_17/dist/
 easycarefinder/walkthrough_2026_08_17/node_modules/
+# Exported decks are DELIVERABLES and go to Drive, not to git. The Fladlien export is 130MB, which
+# GitHub rejects outright, and a PDF in git is a binary nobody can diff.
+easycarefinder/**/*.pdf
+easycarefinder/**/dist/

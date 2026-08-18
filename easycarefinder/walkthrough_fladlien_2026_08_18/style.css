@@ -1,0 +1,79 @@
+/* 🔴 MANDATORY FIRST LINE. Without it the whole Slidev toolbar renders blank. */
+@import '../../styles/carbon-toolbar-icons.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+/* Easy Care Finder brand, read off the live site. */
+:root{
+  --ecf-green:#1D5C4D; --ecf-green-deep:#123A30; --ecf-gold:#A87910;
+  --ecf-cream:#FBF7F1; --ecf-ink:#211F1B; --ecf-grey:#7A766E;
+}
+
+.slidev-layout{ font-family:'Source Sans 3',system-ui,sans-serif; color:var(--ecf-ink); }
+.slidev-layout h1,.slidev-layout h2,.ecf-h{ font-family:'Source Serif 4',Georgia,serif; font-weight:600; letter-spacing:-.01em; }
+
+/* GROUNDS ARE CLASSES, never `background:` frontmatter.
+   Slidev 52 puts no inline style on .slidev-layout, so a [style*=] selector cannot fire and you get
+   white text on a white ground, silently. This is the fix and it must stay a class. */
+.g-cream{ background:var(--ecf-cream); }
+.g-green{ background:var(--ecf-green); color:var(--ecf-cream); }
+.g-green h1,.g-green h2,.g-green .ecf-h{ color:var(--ecf-cream); }
+.g-deep { background:var(--ecf-green-deep); color:var(--ecf-cream); }
+.g-deep h1,.g-deep h2,.g-deep .ecf-h{ color:var(--ecf-cream); }
+
+.ecf-bleed{ width:100%; height:100%; object-fit:cover; }
+.ecf-scrim-b{ position:absolute; inset:auto 0 0 0; height:78%;
+  background:linear-gradient(to top, rgba(18,58,48,.96) 0%, rgba(18,58,48,.90) 34%, rgba(18,58,48,.62) 62%, rgba(18,58,48,0) 100%); }
+.ecf-scrim-l{ position:absolute; inset:0 auto 0 0; width:66%;
+  background:linear-gradient(to right, rgba(18,58,48,.93) 0%, rgba(18,58,48,.70) 55%, rgba(18,58,48,0) 100%); }
+.ecf-dim{ position:absolute; inset:0; background:rgba(18,58,48,.72); }
+
+/* Type scale. Nothing below text-2xl, per the visual law. */
+.ecf-hero  { font-size:4.4rem; line-height:1.02; font-family:'Source Serif 4',serif; font-weight:600; }
+.ecf-head  { font-size:3.2rem; line-height:1.06; font-family:'Source Serif 4',serif; font-weight:600; }
+.ecf-sub   { font-size:1.9rem; line-height:1.35; color:var(--ecf-grey); }
+.ecf-onwhite .ecf-sub{ color:var(--ecf-grey); }
+.g-green .ecf-sub,.g-deep .ecf-sub,.ecf-onimg .ecf-sub{ color:rgba(251,247,241,.86); }
+.ecf-stat  { font-family:'Source Serif 4',serif; font-weight:700; font-size:11rem; line-height:.86;
+             color:var(--ecf-gold); letter-spacing:-.03em; }
+.ecf-kicker{ font-size:1.05rem; letter-spacing:.16em; text-transform:uppercase; font-weight:600;
+             color:var(--ecf-gold); }
+/* Contrast is arithmetic, not vibes. Brand gold on a photographic ground failed to read on every
+   hero slide in the first render. On an image or a dark field the kicker uses a LIGHTER gold. */
+.ecf-onimg .ecf-kicker,.g-green .ecf-kicker,.g-deep .ecf-kicker{ color:#EBCE86; }
+
+/* Cards used by the REVEAL-CARDS and TWO-COL treatments. */
+.ecf-card{ background:#fff; border:1px solid rgba(33,31,27,.10); border-radius:14px; padding:2.1rem 2.2rem;
+           box-shadow:0 2px 14px rgba(18,58,48,.07);
+           /* Cards carry short copy, so without a floor they shrink to a chip and leave a dead band
+              of cream across the middle of the slide. This is that fix. */
+           min-height:15rem; display:flex; flex-direction:column; justify-content:center; }
+.ecf-card-amber{ background:#FDF6E7; border-color:rgba(168,121,16,.35); }
+.ecf-card h3{ font-family:'Source Serif 4',serif; font-size:1.85rem; font-weight:600; margin:0 0 .35rem; }
+.ecf-card p { font-size:1.5rem; line-height:1.4; margin:0; color:var(--ecf-ink); }
+.ecf-label{ font-size:.95rem; letter-spacing:.13em; text-transform:uppercase; font-weight:600; color:var(--ecf-gold); }
+
+.ecf-rule{ height:3px; width:78px; background:var(--ecf-gold); border-radius:2px; }
+.ecf-mark{ color:var(--ecf-gold); }
+.ecf-wordmark{ font-family:'Source Sans 3',sans-serif; font-weight:700; font-size:1.5rem; }
+.ecf-wordmark .e{ color:var(--ecf-gold); }
+
+/* Footer used on the disclosure slides only. */
+.ecf-foot{ position:absolute; left:0; right:0; bottom:0; padding:1rem 3.2rem; font-size:1.05rem; line-height:1.35;
+           color:rgba(251,247,241,.62); background:rgba(18,58,48,.55); }
+.g-cream .ecf-foot{ color:var(--ecf-grey); background:rgba(33,31,27,.05); }
+
+/* Fladlien build: a third type size for the longer 15-30 word content lines, still well above the
+   text-2xl floor the spec sets. Never shrink below this; split the slide instead. */
+.ecf-mid { font-size:2.35rem; line-height:1.22; font-family:'Source Serif 4',serif; font-weight:600; }
+.g-green .ecf-mid,.g-deep .ecf-mid,.ecf-onimg .ecf-mid{ color:var(--ecf-cream); }
+
+/* Every slide carries a visual. The statement slides (green and cream) previously had none, which put
+   42% of the deck bare against a 5% ceiling. They now sit on a ghosted photograph from their own
+   section: enough texture to read as a designed slide, far enough back that the type still wins.
+   Type still wins because contrast is arithmetic: the veil is opaque, the photo is behind it. */
+.ecf-ghost   { position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+               filter:blur(7px) saturate(.72); transform:scale(1.06); }
+.veil-green  { position:absolute; inset:0; background:rgba(29,92,77,.91); }
+.veil-deep   { position:absolute; inset:0; background:rgba(18,58,48,.90); }
+.veil-cream  { position:absolute; inset:0; background:rgba(251,247,241,.93); }

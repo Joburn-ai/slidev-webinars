@@ -1,0 +1,1028 @@
+[
+ {
+  "src": "op-02",
+  "i": 0,
+  "text": "I'm going to walk you through the four kinds of place your mom could actually go into,",
+  "words": 17
+ },
+ {
+  "src": "op-02",
+  "i": 1,
+  "text": "what each one is really like from the inside, and who each one suits.",
+  "words": 14
+ },
+ {
+  "src": "op-03",
+  "i": 0,
+  "text": "I'm not going to pitch you anything.",
+  "words": 7
+ },
+ {
+  "src": "op-03",
+  "i": 1,
+  "text": "Almost nobody explains this to families, and it's the thing that decides everything else.",
+  "words": 14
+ },
+ {
+  "src": "op-04",
+  "i": 0,
+  "text": "A few minutes that should help you whether or not you end up working with me.",
+  "words": 16
+ },
+ {
+  "src": "op-05",
+  "i": 0,
+  "text": "Let me guess where you are, and tell me if I'm wrong. Something happened.",
+  "words": 14
+ },
+ {
+  "src": "op-05",
+  "i": 1,
+  "text": "A fall, a phone call from a hospital,",
+  "words": 8
+ },
+ {
+  "src": "op-05",
+  "i": 2,
+  "text": "or a slow year of things getting harder that finally reached a point where it can't carry on.",
+  "words": 18
+ },
+ {
+  "src": "op-06",
+  "i": 0,
+  "text": "And suddenly you've got days to sort something out, not months.",
+  "words": 11
+ },
+ {
+  "src": "op-07",
+  "i": 0,
+  "text": "So you've been calling places one at a time, waiting on people to call you back,",
+  "words": 16
+ },
+ {
+  "src": "op-07",
+  "i": 1,
+  "text": "and every website you land on wants your phone number before it'll tell you anything.",
+  "words": 15
+ },
+ {
+  "src": "op-08",
+  "i": 0,
+  "text": "Every website you land on wants your phone number before it'll tell you anything.",
+  "words": 14
+ },
+ {
+  "src": "op-09",
+  "i": 0,
+  "text": "Here's what I want you to know.",
+  "words": 7
+ },
+ {
+  "src": "op-09",
+  "i": 1,
+  "text": "You haven't done anything wrong and you're not behind.",
+  "words": 9
+ },
+ {
+  "src": "op-10",
+  "i": 0,
+  "text": "The tools you've been handed are bad.",
+  "words": 7
+ },
+ {
+  "src": "op-10",
+  "i": 1,
+  "text": "You're not missing something obvious.",
+  "words": 5
+ },
+ {
+  "src": "op-11",
+  "i": 0,
+  "text": "So let's fix the map, because the map is what's broken.",
+  "words": 11
+ },
+ {
+  "src": "op-12",
+  "i": 0,
+  "text": "When you search online, what comes back is the places that pay to come back.",
+  "words": 15
+ },
+ {
+  "src": "op-12",
+  "i": 1,
+  "text": "The big directories can only show you the homes in their paid network.",
+  "words": 13
+ },
+ {
+  "src": "op-13",
+  "i": 0,
+  "text": "So what you're looking at isn't the options near you.",
+  "words": 10
+ },
+ {
+  "src": "op-13",
+  "i": 1,
+  "text": "It's the advertising near you.",
+  "words": 5
+ },
+ {
+  "src": "op-13",
+  "i": 2,
+  "text": "The real list is longer, and a lot of it looks nothing like what you're picturing.",
+  "words": 16
+ },
+ {
+  "src": "fk-00",
+  "i": 0,
+  "text": "So let me walk you through all four kinds, honestly,",
+  "words": 10
+ },
+ {
+  "src": "fk-00",
+  "i": 1,
+  "text": "including the ones I don't place people into.",
+  "words": 8
+ },
+ {
+  "src": "fk-01",
+  "i": 0,
+  "text": "One.",
+  "words": 1
+ },
+ {
+  "src": "fk-01",
+  "i": 1,
+  "text": "Help that comes to the house. Nobody moves.",
+  "words": 8
+ },
+ {
+  "src": "fk-01",
+  "i": 2,
+  "text": "Somebody comes in a few hours a day, or a few days a week,",
+  "words": 14
+ },
+ {
+  "src": "fk-01",
+  "i": 3,
+  "text": "and helps with what's got hard.",
+  "words": 6
+ },
+ {
+  "src": "fk-02",
+  "i": 0,
+  "text": "Somebody comes in a few hours a day, or a few days a week,",
+  "words": 14
+ },
+ {
+  "src": "fk-02",
+  "i": 1,
+  "text": "and helps with what has got hard.",
+  "words": 7
+ },
+ {
+  "src": "fk-03",
+  "i": 0,
+  "text": "What's good about it: she stays in her own home, with her own things.",
+  "words": 14
+ },
+ {
+  "src": "fk-04",
+  "i": 0,
+  "text": "Where it stops working: it's help during the hours somebody is there.",
+  "words": 12
+ },
+ {
+  "src": "fk-04",
+  "i": 1,
+  "text": "It's the hours in between that families struggle with, and the nights especially.",
+  "words": 13
+ },
+ {
+  "src": "fk-04",
+  "i": 2,
+  "text": "Who it suits: somebody who's managing, mostly, and needs a hand rather than someone around.",
+  "words": 15
+ },
+ {
+  "src": "fk-05",
+  "i": 0,
+  "text": "Two.",
+  "words": 1
+ },
+ {
+  "src": "fk-05",
+  "i": 1,
+  "text": "An apartment where older people live.",
+  "words": 6
+ },
+ {
+  "src": "fk-05",
+  "i": 2,
+  "text": "A building, or a cluster of little houses, and everybody there is older.",
+  "words": 13
+ },
+ {
+  "src": "fk-05",
+  "i": 3,
+  "text": "Usually a dining room, activities, a front desk, a ride to appointments.",
+  "words": 12
+ },
+ {
+  "src": "fk-06",
+  "i": 0,
+  "text": "A building, or a cluster of little houses, and everybody there is older.",
+  "words": 13
+ },
+ {
+  "src": "fk-06",
+  "i": 1,
+  "text": "Usually a dining room, activities, a front desk, a ride to appointments.",
+  "words": 12
+ },
+ {
+  "src": "fk-07",
+  "i": 0,
+  "text": "What's good about it: she's independent, but she's not alone all day.",
+  "words": 12
+ },
+ {
+  "src": "fk-08",
+  "i": 0,
+  "text": "Where it stops working: the hands-on help is limited.",
+  "words": 9
+ },
+ {
+  "src": "fk-08",
+  "i": 1,
+  "text": "If she needs somebody with her to get up, get washed, get to bed,",
+  "words": 14
+ },
+ {
+  "src": "fk-08",
+  "i": 2,
+  "text": "this generally isn't set up for that.",
+  "words": 7
+ },
+ {
+  "src": "fk-08",
+  "i": 3,
+  "text": "Who it suits: somebody still fairly independent who mostly needs company and fewer stairs.",
+  "words": 14
+ },
+ {
+  "src": "fk-09",
+  "i": 0,
+  "text": "Three. The large community.",
+  "words": 4
+ },
+ {
+  "src": "fk-09",
+  "i": 1,
+  "text": "This is the one most people picture.",
+  "words": 7
+ },
+ {
+  "src": "fk-09",
+  "i": 2,
+  "text": "A big building, a lot of residents, staff on site around the clock, a lobby,",
+  "words": 15
+ },
+ {
+  "src": "fk-09",
+  "i": 3,
+  "text": "a dining room, a calendar of things on.",
+  "words": 8
+ },
+ {
+  "src": "fk-10",
+  "i": 0,
+  "text": "A big building, a lot of residents, staff on site around the clock, a lobby,",
+  "words": 15
+ },
+ {
+  "src": "fk-10",
+  "i": 1,
+  "text": "a dining room, a calendar of things on.",
+  "words": 8
+ },
+ {
+  "src": "fk-11",
+  "i": 0,
+  "text": "What's good about it: there's always somebody there,",
+  "words": 8
+ },
+ {
+  "src": "fk-11",
+  "i": 1,
+  "text": "and for some families it's genuinely the right answer.",
+  "words": 9
+ },
+ {
+  "src": "fk-11",
+  "i": 2,
+  "text": "If she's social and she'd enjoy a busy place, that matters.",
+  "words": 11
+ },
+ {
+  "src": "fk-12",
+  "i": 0,
+  "text": "Where it stops working: it's big.",
+  "words": 6
+ },
+ {
+  "src": "fk-12",
+  "i": 1,
+  "text": "The person looking after her has a lot of people to look after,",
+  "words": 13
+ },
+ {
+  "src": "fk-12",
+  "i": 2,
+  "text": "and how she does depends on which building you pick and who happens to be working there.",
+  "words": 17
+ },
+ {
+  "src": "fk-12",
+  "i": 3,
+  "text": "Who it suits: somebody sociable who'd rather be somewhere busy than somewhere quiet.",
+  "words": 13
+ },
+ {
+  "src": "fk-12b",
+  "i": 0,
+  "text": "Here's a question almost nobody asks on a tour, and you should.",
+  "words": 12
+ },
+ {
+  "src": "fk-12b",
+  "i": 1,
+  "text": "How many residents does one caregiver have?",
+  "words": 7
+ },
+ {
+  "src": "fk-12b",
+  "i": 2,
+  "text": "And ask it about the night shift,",
+  "words": 7
+ },
+ {
+  "src": "fk-12b",
+  "i": 3,
+  "text": "not about the middle of the day when you're standing there,",
+  "words": 11
+ },
+ {
+  "src": "fk-12b",
+  "i": 4,
+  "text": "because the answer is usually different.",
+  "words": 6
+ },
+ {
+  "src": "fk-12b",
+  "i": 5,
+  "text": "I'm not going to give you a number,",
+  "words": 8
+ },
+ {
+  "src": "fk-12b",
+  "i": 6,
+  "text": "because it varies by building and by shift and anyone who quotes you one number for",
+  "words": 16
+ },
+ {
+  "src": "fk-12b",
+  "i": 7,
+  "text": "the whole industry is guessing.",
+  "words": 5
+ },
+ {
+  "src": "fk-12b",
+  "i": 8,
+  "text": "Ask each place you visit, and write down what they say.",
+  "words": 11
+ },
+ {
+  "src": "fk-12c",
+  "i": 0,
+  "text": "And there's a second thing that size does, which is about turnover.",
+  "words": 12
+ },
+ {
+  "src": "fk-12c",
+  "i": 1,
+  "text": "In any large staffed operation, people move on.",
+  "words": 8
+ },
+ {
+  "src": "fk-12c",
+  "i": 2,
+  "text": "That's not a criticism, it's just how big rosters work.",
+  "words": 10
+ },
+ {
+  "src": "fk-12c",
+  "i": 3,
+  "text": "But it means the person who learned her routine may not be the person on shift next month.",
+  "words": 18
+ },
+ {
+  "src": "fk-12c",
+  "i": 4,
+  "text": "And the things that get lost first are the small ones.",
+  "words": 11
+ },
+ {
+  "src": "fk-12c",
+  "i": 5,
+  "text": "That she takes her tea weak.",
+  "words": 6
+ },
+ {
+  "src": "fk-12c",
+  "i": 6,
+  "text": "That she won't tell anybody when she's cold.",
+  "words": 8
+ },
+ {
+  "src": "fk-12c",
+  "i": 7,
+  "text": "Those are the details that make a day good or bad,",
+  "words": 11
+ },
+ {
+  "src": "fk-12c",
+  "i": 8,
+  "text": "and they're the hardest ones to hand over.",
+  "words": 8
+ },
+ {
+  "src": "fk-13",
+  "i": 0,
+  "text": "Four. The small home.",
+  "words": 4
+ },
+ {
+  "src": "fk-13",
+  "i": 1,
+  "text": "Most families have never heard of this one, so I'll spend a bit longer here. It's a house.",
+  "words": 18
+ },
+ {
+  "src": "fk-13",
+  "i": 2,
+  "text": "An ordinary house, on an ordinary street,",
+  "words": 7
+ },
+ {
+  "src": "fk-13",
+  "i": 3,
+  "text": "with a front door and a kitchen and a yard.",
+  "words": 10
+ },
+ {
+  "src": "fk-13",
+  "i": 4,
+  "text": "Six residents, or fewer.",
+  "words": 4
+ },
+ {
+  "src": "fk-13",
+  "i": 5,
+  "text": "It's licensed by the state exactly like the big ones are,",
+  "words": 11
+ },
+ {
+  "src": "fk-13",
+  "i": 6,
+  "text": "and around here it's usually called a board and care, or just a small home.",
+  "words": 15
+ },
+ {
+  "src": "fk-14",
+  "i": 0,
+  "text": "A front door, a kitchen and a yard.",
+  "words": 8
+ },
+ {
+  "src": "fk-14",
+  "i": 1,
+  "text": "Six residents, or fewer.",
+  "words": 4
+ },
+ {
+  "src": "fk-14",
+  "i": 2,
+  "text": "Licensed by the state exactly like the big ones are.",
+  "words": 10
+ },
+ {
+  "src": "fk-15",
+  "i": 0,
+  "text": "What's good about it: six residents.",
+  "words": 6
+ },
+ {
+  "src": "fk-15",
+  "i": 1,
+  "text": "That's the whole thing.",
+  "words": 4
+ },
+ {
+  "src": "fk-15",
+  "i": 2,
+  "text": "Six people means somebody notices when she doesn't finish her breakfast.",
+  "words": 11
+ },
+ {
+  "src": "fk-15",
+  "i": 3,
+  "text": "Somebody's pushing the envelope to make sure she's drinking her water and eating her food.",
+  "words": 15
+ },
+ {
+  "src": "fk-15",
+  "i": 4,
+  "text": "Somebody notices she's off before it becomes a problem.",
+  "words": 9
+ },
+ {
+  "src": "fk-15",
+  "i": 5,
+  "text": "That's not a promise about any particular house.",
+  "words": 8
+ },
+ {
+  "src": "fk-15",
+  "i": 6,
+  "text": "It's what six instead of a hundred does to the arithmetic.",
+  "words": 11
+ },
+ {
+  "src": "fk-16",
+  "i": 0,
+  "text": "Where it stops working: there's less going on.",
+  "words": 8
+ },
+ {
+  "src": "fk-16",
+  "i": 1,
+  "text": "If she wants a busy place and a calendar of activities,",
+  "words": 11
+ },
+ {
+  "src": "fk-16",
+  "i": 2,
+  "text": "a house with six people in it may feel small to her,",
+  "words": 12
+ },
+ {
+  "src": "fk-16",
+  "i": 3,
+  "text": "and you should take that seriously.",
+  "words": 6
+ },
+ {
+  "src": "fk-16",
+  "i": 4,
+  "text": "Who it suits: somebody who'd rather be somewhere quiet and properly noticed than somewhere busy and",
+  "words": 16
+ },
+ {
+  "src": "fk-16",
+  "i": 5,
+  "text": "be one of a hundred.",
+  "words": 5
+ },
+ {
+  "src": "fk-16b",
+  "i": 0,
+  "text": "Ask the exact same question here, and notice that part of the answer is already fixed.",
+  "words": 16
+ },
+ {
+  "src": "fk-16b",
+  "i": 1,
+  "text": "A licensed small home has six residents at most.",
+  "words": 9
+ },
+ {
+  "src": "fk-16b",
+  "i": 2,
+  "text": "That's not a promise anybody is making you, that's what the licence says.",
+  "words": 13
+ },
+ {
+  "src": "fk-16b",
+  "i": 3,
+  "text": "In the homes I work with,",
+  "words": 6
+ },
+ {
+  "src": "fk-16b",
+  "i": 4,
+  "text": "the number of people one caregiver is looking after is a great deal smaller than it",
+  "words": 16
+ },
+ {
+  "src": "fk-16b",
+  "i": 5,
+  "text": "is in a big building.",
+  "words": 5
+ },
+ {
+  "src": "fk-16b",
+  "i": 6,
+  "text": "Ask each one, and you'll see the difference for yourself.",
+  "words": 10
+ },
+ {
+  "src": "fk-16c",
+  "i": 0,
+  "text": "And here's what that actually looks like day to day.",
+  "words": 10
+ },
+ {
+  "src": "fk-16c",
+  "i": 1,
+  "text": "They know what she had for lunch.",
+  "words": 7
+ },
+ {
+  "src": "fk-16c",
+  "i": 2,
+  "text": "They know she doesn't like her food spicy.",
+  "words": 8
+ },
+ {
+  "src": "fk-16c",
+  "i": 3,
+  "text": "They notice when she's off, before it turns into a problem.",
+  "words": 11
+ },
+ {
+  "src": "fk-16c",
+  "i": 4,
+  "text": "None of that is on a website and none of it is a promise about a particular house.",
+  "words": 18
+ },
+ {
+  "src": "fk-16c",
+  "i": 5,
+  "text": "It's just what a small number of people does to how much attention any one person gets.",
+  "words": 17
+ },
+ {
+  "src": "fk-17",
+  "i": 0,
+  "text": "That's not a promise about any particular house.",
+  "words": 8
+ },
+ {
+  "src": "fk-17",
+  "i": 1,
+  "text": "It's what six instead of a hundred does to the arithmetic.",
+  "words": 11
+ },
+ {
+  "src": "wh-01",
+  "i": 0,
+  "text": "So why has nobody told you about these?",
+  "words": 8
+ },
+ {
+  "src": "wh-02",
+  "i": 0,
+  "text": "Because they don't advertise.",
+  "words": 4
+ },
+ {
+  "src": "wh-02",
+  "i": 1,
+  "text": "They fill through word of mouth.",
+  "words": 6
+ },
+ {
+  "src": "wh-02",
+  "i": 2,
+  "text": "A nurse who knows the owner, a neighbor,",
+  "words": 8
+ },
+ {
+  "src": "wh-02",
+  "i": 3,
+  "text": "somebody's daughter who moved her mother in two years ago and told a friend.",
+  "words": 14
+ },
+ {
+  "src": "wh-02",
+  "i": 4,
+  "text": "They're not buying ads, and the directories only list places that pay to be listed.",
+  "words": 15
+ },
+ {
+  "src": "wh-03",
+  "i": 0,
+  "text": "So a large part of what's actually available near you is invisible from a search bar. Not hidden. Just never advertised.",
+  "words": 21
+ },
+ {
+  "src": "wh-04",
+  "i": 0,
+  "text": "And here's the part no amount of research fixes.",
+  "words": 9
+ },
+ {
+  "src": "wh-05",
+  "i": 0,
+  "text": "Even if you had the full list,",
+  "words": 7
+ },
+ {
+  "src": "wh-05",
+  "i": 1,
+  "text": "it wouldn't tell you what a place is like at four in the afternoon on a Tuesday.",
+  "words": 17
+ },
+ {
+  "src": "wh-05",
+  "i": 2,
+  "text": "Whether the person working there sits with her at breakfast,",
+  "words": 10
+ },
+ {
+  "src": "wh-05",
+  "i": 3,
+  "text": "or puts the plate down and walks off.",
+  "words": 8
+ },
+ {
+  "src": "wh-05",
+  "i": 4,
+  "text": "Whether it's quiet because it's calm, or quiet because nobody's talking to anybody.",
+  "words": 13
+ },
+ {
+  "src": "wh-06",
+  "i": 0,
+  "text": "That's not on a website.",
+  "words": 5
+ },
+ {
+  "src": "wh-06",
+  "i": 1,
+  "text": "It comes from somebody having stood in the kitchen.",
+  "words": 9
+ },
+ {
+  "src": "cl-01",
+  "i": 0,
+  "text": "Which is what I do.",
+  "words": 5
+ },
+ {
+  "src": "cl-01",
+  "i": 1,
+  "text": "And let me say the awkward parts out loud rather than have you find them later.",
+  "words": 16
+ },
+ {
+  "src": "cl-02",
+  "i": 0,
+  "text": "I've owned care homes myself.",
+  "words": 5
+ },
+ {
+  "src": "cl-02",
+  "i": 1,
+  "text": "So I know these places from the inside,",
+  "words": 8
+ },
+ {
+  "src": "cl-02",
+  "i": 2,
+  "text": "and I know which questions get you a straight answer on a tour.",
+  "words": 13
+ },
+ {
+  "src": "cl-03",
+  "i": 0,
+  "text": "And I get paid by the home.",
+  "words": 7
+ },
+ {
+  "src": "cl-03",
+  "i": 1,
+  "text": "When a family picks a place and moves in, that home pays me a referral fee.",
+  "words": 16
+ },
+ {
+  "src": "cl-03",
+  "i": 2,
+  "text": "You pay nothing, not now and not later.",
+  "words": 8
+ },
+ {
+  "src": "cl-04",
+  "i": 0,
+  "text": "Now, you should hear the obvious problem with that, so I'll say it myself.",
+  "words": 14
+ },
+ {
+  "src": "cl-04",
+  "i": 1,
+  "text": "I own homes, and I get paid by homes,",
+  "words": 9
+ },
+ {
+  "src": "cl-04",
+  "i": 2,
+  "text": "so I'm exactly the person you should be a little skeptical of.",
+  "words": 12
+ },
+ {
+  "src": "cl-04",
+  "i": 3,
+  "text": "The only answer I've got is this.",
+  "words": 7
+ },
+ {
+  "src": "cl-04",
+  "i": 4,
+  "text": "I'll tell you when one of my own homes isn't right for her.",
+  "words": 13
+ },
+ {
+  "src": "cl-04",
+  "i": 5,
+  "text": "My reputation around here is worth a great deal more to me than filling one bed.",
+  "words": 16
+ },
+ {
+  "src": "cl-05",
+  "i": 0,
+  "text": "So here's what our call actually is.",
+  "words": 7
+ },
+ {
+  "src": "cl-06",
+  "i": 0,
+  "text": "One.",
+  "words": 1
+ },
+ {
+  "src": "cl-06",
+  "i": 1,
+  "text": "You tell me what's happening with her.",
+  "words": 7
+ },
+ {
+  "src": "cl-06",
+  "i": 2,
+  "text": "How she's getting around, how her days and her nights are going,",
+  "words": 12
+ },
+ {
+  "src": "cl-06",
+  "i": 3,
+  "text": "what a home would need to be set up for, roughly what works financially,",
+  "words": 14
+ },
+ {
+  "src": "cl-06",
+  "i": 4,
+  "text": "and who she actually is. Two.",
+  "words": 6
+ },
+ {
+  "src": "cl-06",
+  "i": 5,
+  "text": "I go through what's genuinely open right now and come back with two or three.",
+  "words": 15
+ },
+ {
+  "src": "cl-06",
+  "i": 6,
+  "text": "Not a list of everything.",
+  "words": 5
+ },
+ {
+  "src": "cl-06",
+  "i": 7,
+  "text": "Two or three I'd be comfortable putting my own mother in. Three.",
+  "words": 12
+ },
+ {
+  "src": "cl-06",
+  "i": 8,
+  "text": "We go and see them.",
+  "words": 5
+ },
+ {
+  "src": "cl-06",
+  "i": 9,
+  "text": "I come with you, and I'll tell you honestly what I think of each one,",
+  "words": 15
+ },
+ {
+  "src": "cl-06",
+  "i": 10,
+  "text": "including the ones I own.",
+  "words": 5
+ },
+ {
+  "src": "cl-07",
+  "i": 0,
+  "text": "And the catch, since you're waiting for one.",
+  "words": 8
+ },
+ {
+  "src": "cl-07",
+  "i": 1,
+  "text": "There's no fee to you at any point, and nothing to sign to have the conversation.",
+  "words": 16
+ },
+ {
+  "src": "cl-08",
+  "i": 0,
+  "text": "I work in Sacramento and Placer County only,",
+  "words": 8
+ },
+ {
+  "src": "cl-08",
+  "i": 1,
+  "text": "so if you're outside those two I'll tell you straight rather than guess.",
+  "words": 13
+ },
+ {
+  "src": "cl-08",
+  "i": 2,
+  "text": "And if you decide she's staying home for now, that's a fine outcome,",
+  "words": 13
+ },
+ {
+  "src": "cl-08",
+  "i": 3,
+  "text": "and I'll still tell you what I'd do.",
+  "words": 8
+ },
+ {
+  "src": "cl-09",
+  "i": 0,
+  "text": "Three quick things and I'll let you go.",
+  "words": 8
+ },
+ {
+  "src": "cl-09",
+  "i": 1,
+  "text": "Save my number, the one on this page.",
+  "words": 8
+ },
+ {
+  "src": "cl-09",
+  "i": 2,
+  "text": "That's what'll text you and that's what'll ring when we talk.",
+  "words": 11
+ },
+ {
+  "src": "cl-09",
+  "i": 3,
+  "text": "Reply to my text.",
+  "words": 4
+ },
+ {
+  "src": "cl-09",
+  "i": 4,
+  "text": "One word is plenty.",
+  "words": 4
+ },
+ {
+  "src": "cl-09",
+  "i": 5,
+  "text": "And be there if you can.",
+  "words": 6
+ },
+ {
+  "src": "cl-09",
+  "i": 6,
+  "text": "I'll have gone through what's open before I call you,",
+  "words": 10
+ },
+ {
+  "src": "cl-09",
+  "i": 7,
+  "text": "so I'll have something real to tell you.",
+  "words": 8
+ },
+ {
+  "src": "cl-10",
+  "i": 0,
+  "text": "If something comes up, text me.",
+  "words": 6
+ },
+ {
+  "src": "cl-10",
+  "i": 1,
+  "text": "It's me who answers. Talk soon.",
+  "words": 6
+ }
+]
