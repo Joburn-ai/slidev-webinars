@@ -46,3 +46,5 @@ __pycache__/
 
 # transient before/after QC build
 _qc_before/
+easycarefinder/walkthrough_2026_08_17/dist/
+easycarefinder/walkthrough_2026_08_17/node_modules/
