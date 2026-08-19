@@ -498,6 +498,11 @@ s("", "He came to us thinking", "he had a lead problem.",
   "He came to us thinking he had a lead problem. Everybody thinks they have a lead problem.",
   shot("/proof2/meet-dr-joe-jan-2026.png", "CASE FILE 001",
        "SupportED Tutoring. Published at funnelfuturist.com/proof."))
+# 🔴 RESET THE GROUND. bg() persists until it is changed, so Dr. Joe's PORTRAIT was the
+# sectional wash behind every later beat in this section -- a named client's face sitting
+# under "Then sales." and under dollar figures he did not say. Found by screenshotting slide
+# 176, not by any gate. A real person's likeness is never wallpaper.
+bg("/gen/concept-03-critical-path.png")
 s("CONSTRAINT 1", "He didn't. It was the funnel.", "It leaked them before anybody talked to them.",
   "He did not. It was the funnel, and it leaked most of them before anybody ever talked to them.",
   plate("/flows/bt_c1_capture.svg"), "default", "fade")

@@ -2263,7 +2263,7 @@ class: default peak
 
 <!-- slide:161 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">CONSTRAINT 1 &middot; CLEARED</div>
@@ -2278,7 +2278,7 @@ class: default peak
 
 <!-- slide:162 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">We rebuilt it.</div>
@@ -2291,7 +2291,7 @@ class: default peak
 
 <!-- slide:163 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Four hundred came down to two fifty.</div>
@@ -2304,7 +2304,7 @@ class: default peak
 
 <!-- slide:164 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Then a new constraint opened up.</div>
@@ -2344,7 +2344,7 @@ class: default peak
 
 <!-- slide:167 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">CONSTRAINT 2</div>
@@ -2359,7 +2359,7 @@ class: default peak
 
 <!-- slide:168 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">No sales operation.</div>
@@ -2372,7 +2372,7 @@ class: default peak
 
 <!-- slide:169 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">So we built him one.</div>
@@ -2437,7 +2437,7 @@ class: default peak
 
 <!-- slide:174 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">THE ORDER</div>
@@ -2452,7 +2452,7 @@ class: default peak
 
 <!-- slide:175 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Then sales.</div>
@@ -2465,7 +2465,7 @@ class: default peak
 
 <!-- slide:176 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Then the people.</div>
@@ -2478,7 +2478,7 @@ class: default peak
 
 <!-- slide:177 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">In that order.</div>
@@ -2491,7 +2491,7 @@ class: default peak
 
 <!-- slide:178 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Sixteen thousand a month to fifty.</div>
@@ -2505,7 +2505,7 @@ class: default peak
 
 <!-- slide:179 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">2025</div>
@@ -2520,7 +2520,7 @@ class: default peak
 
 <!-- slide:180 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">2026</div>
@@ -2535,7 +2535,7 @@ class: default peak
 
 <!-- slide:181 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">His side hustle out-earned his day job.</div>
@@ -2549,7 +2549,7 @@ class: default peak
 
 <!-- slide:182 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">HERE'S THE PART I WANT YOU TO HEAR</div>
@@ -2564,7 +2564,7 @@ class: default peak
 
 <!-- slide:183 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Not one of those three was visible on day one.</div>
@@ -2577,7 +2577,7 @@ class: default peak
 
 <!-- slide:184 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Not to him, not to us.</div>
@@ -2616,7 +2616,7 @@ class: peak text-center
 
 <!-- slide:187 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">That is why the order matters more than the effort.</div>
@@ -2630,7 +2630,7 @@ class: peak text-center
 
 <!-- slide:188 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.55; filter:grayscale(0.20); object-position:50% 40%;" />
 <div style="position:absolute; inset:0; background:rgba(10,34,48,0.72);"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">That is the whole job.</div>
@@ -2643,7 +2643,7 @@ class: default peak
 
 <!-- slide:189 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">CASE FILE 002</div>
@@ -2658,7 +2658,7 @@ class: default peak
 
 <!-- slide:190 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">His constraint was email.</div>
@@ -2671,7 +2671,7 @@ class: default peak
 
 <!-- slide:191 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">One point eight one million dollars from the inbox in nine months.</div>
@@ -2685,7 +2685,7 @@ class: default peak
 
 <!-- slide:192 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">THE WALL</div>
@@ -2700,7 +2700,7 @@ class: default peak
 
 <!-- slide:193 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Every number I said is on that page.</div>
@@ -2713,7 +2713,7 @@ class: default peak
 
 <!-- slide:194 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Go check them.</div>
@@ -2727,7 +2727,7 @@ class: default peak
 
 <!-- slide:195 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-kicker">ONE OPTIONAL THING</div>
@@ -2742,7 +2742,7 @@ class: default peak
 
 <!-- slide:196 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">After you book we send a link for view-only access to your ad account.</div>
@@ -2755,7 +2755,7 @@ class: default peak
 
 <!-- slide:197 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">We cannot touch it or change anything.</div>
@@ -2768,7 +2768,7 @@ class: default peak
 
 <!-- slide:198 -->
 
-<img class="rt-bleed" src="/proof2/meet-dr-joe-portrait.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
+<img class="rt-bleed" src="/gen/concept-03-critical-path.png" alt="" aria-hidden="true" style="opacity:0.82; filter:grayscale(0.20); object-position:50% 40%;" />
 <div class="rt-scrim"></div>
 <div class="relative">
 <div class="rt-h1 mt-2">Just look.</div>
