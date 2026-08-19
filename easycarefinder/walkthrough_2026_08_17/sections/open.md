@@ -48,6 +48,22 @@ A few minutes that should help you whether or not you end up working with me.
 -->
 
 ---
+class: g-cream ecf-onwhite
+---
+
+<!-- slide:op-04b -->
+<div class="absolute inset-0 flex flex-col justify-center px-24 z-10 text-left">
+  <div class="ecf-kicker mb-4">One small thing before we start</div>
+  <div class="ecf-head">I am going to say "she".</div>
+  <div v-click class="ecf-sub mt-6">Most of the people I place are women, so it is the easier word.</div>
+  <div v-click class="ecf-head ecf-mark mt-5">If it is your dad, every word of this is the same.</div>
+</div>
+
+<!--
+One small thing before we start. I'm going to say "she" the whole way through this, because most of the people I help place are women and it's just the easier word. If it's your dad, or your husband, or you're looking for yourself, every single thing in here is exactly the same.
+-->
+
+---
 layout: cover
 class: g-deep ecf-onimg
 ---

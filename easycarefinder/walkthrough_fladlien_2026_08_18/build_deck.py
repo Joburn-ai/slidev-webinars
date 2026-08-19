@@ -17,6 +17,7 @@ import json, re, os
 beats=json.load(open('_beats.json'))
 
 SECTION_IMG = {
+ 'op-conv':'c02_kitchen_table',
  'cover':'c01_four_doors','op-01':'c01_four_doors','op-02':'c01_four_doors','op-03':'c02_kitchen_table',
  'op-04':'c02_kitchen_table','op-05':'c03_phone_dusk','op-06':'c03_phone_dusk','op-07':'c03_phone_dusk',
  'op-08':'c04_form_wall','op-09':'c04_form_wall','op-10':'c05_broken_map','op-11':'c05_broken_map',
@@ -33,8 +34,8 @@ SECTION_IMG = {
  'cl-05':'c13_shortlist_table','cl-06':'c13_shortlist_table','cl-07':'c13_shortlist_table',
  'cl-08':'c02_kitchen_table','cl-09':'c02_kitchen_table','cl-10':'c02_kitchen_table',
 }
-KICKER = {'op':'Where you are','fk':'The four kinds','wh':'Why they are invisible','cl':'How this works','co':'Easy Care Finder'}
-def kicker(sid): return KICKER.get(sid[:2],'Easy Care Finder')
+KICKER = {'op-conv':'One small thing first','op':'Where you are','fk':'The four kinds','wh':'Why they are invisible','cl':'How this works','co':'Easy Care Finder'}
+def kicker(sid): return KICKER.get(sid, KICKER.get(sid[:2],'Easy Care Finder'))
 
 def esc(t): return t.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')
 
