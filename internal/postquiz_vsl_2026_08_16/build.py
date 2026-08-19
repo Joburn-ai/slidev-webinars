@@ -127,6 +127,14 @@ bg("/gen8/n13_show_up_gift.png")
 s("", "First, congrats.", "You did something most people never do.",
   "First, congrats. You did something most people never do.",
   img("/gen8/n13_show_up_gift.png"), "bleed")
+# John's opener weave (2026-08-19): frame the quiz as the important act, then tie
+# diagnosing the constraint to GROWTH and the goals they actually want.
+s("", "You just finished", "one of the most important quizzes of your life.",
+  "You just finished one of the most important quizzes of your life. Maybe the single most important one.",
+  readout("YOU JUST FINISHED", "the most important quiz of your life", "gold"), "peak text-center")
+s("", "Finding your constraint", "is how you actually grow.",
+  "Because finding your one real constraint, and diagnosing it, is how you grow. It is how you finally hit the goals you actually want.",
+  readout("DIAGNOSE IT", "that is how you grow", "gold"), "peak text-center")
 s("", "You stopped guessing.", None,
   "You stopped guessing.",
   img("/gen8/n13_show_up_gift.png"), "bleed")
