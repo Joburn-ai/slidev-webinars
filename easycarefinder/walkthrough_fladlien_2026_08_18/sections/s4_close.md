@@ -129,8 +129,8 @@ class: g-green
 <div class="absolute inset-0 flex flex-col justify-center px-24 z-10 text-left">
   <div class="ecf-kicker mb-3">How this works</div>
   <div class="ecf-rule mb-7"></div>
-  <div class="ecf-head">I own homes, and I get</div>
-  <div v-click class="ecf-head ecf-mark mt-2">paid by homes,</div>
+  <div class="ecf-head">I get paid by the</div>
+  <div v-click class="ecf-head ecf-mark mt-2">homes I recommend,</div>
 </div>
 
 ---
@@ -347,7 +347,8 @@ class: g-cream ecf-onwhite
 <div class="absolute inset-0 flex flex-col justify-center px-24 z-10 text-left">
   <div class="ecf-kicker mb-3">How this works</div>
   <div class="ecf-rule mb-7"></div>
-  <div class="ecf-hero">including the ones I own.</div>
+  <div class="ecf-hero">even the ones I would rather</div>
+  <div v-click class="ecf-hero ecf-mark mt-2">place her in.</div>
 </div>
 
 ---

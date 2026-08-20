@@ -64,15 +64,15 @@ class: g-green
 
 <!-- slide:cl-04 -->
 <div class="absolute inset-0 flex flex-col justify-center px-24 z-10 text-left">
-  <div class="ecf-sub mb-5">I own homes, and I get paid by homes.</div>
+  <div class="ecf-sub mb-5">I get paid by the homes.</div>
   <div class="ecf-head">So I am exactly the person</div>
   <div class="ecf-head">you should be a little skeptical of.</div>
-  <div v-click class="ecf-hero ecf-mark mt-8">I will tell you when one of mine is not right for her.</div>
+  <div v-click class="ecf-hero ecf-mark mt-8">I will tell you when a home is not right for her.</div>
 </div>
 <div class="ecf-foot">🔴 OPEN: attorney-cleared disclosure wording required before this slide is recorded.</div>
 
 <!--
-Now, you should hear the obvious problem with that, so I'll say it myself. I own homes, and I get paid by homes, so I'm exactly the person you should be a little skeptical of. The only answer I've got is this. I'll tell you when one of my own homes isn't right for her. My reputation around here is worth a great deal more to me than filling one bed.
+Now, you should hear the obvious problem with that, so I'll say it myself. I get paid by the homes I recommend, so I'm exactly the person you should be a little skeptical of. The only answer I've got is this. I'll tell you when one of my own homes isn't right for her. My reputation around here is worth a great deal more to me than filling one bed.
 -->
 
 ---
@@ -99,12 +99,12 @@ class: g-cream ecf-onwhite
   <div class="grid grid-cols-3 gap-7">
     <div v-click class="ecf-card"><div class="ecf-label mb-2">One</div><h3>You tell me about her.</h3><p class="mt-2">Her days, her nights, what a home would need to be set up for, and who she actually is.</p></div>
     <div v-click class="ecf-card"><div class="ecf-label mb-2">Two</div><h3>I go and look.</h3><p class="mt-2">I come back with two or three. Not a list of everything.</p></div>
-    <div v-click class="ecf-card ecf-card-amber"><div class="ecf-label mb-2">Three</div><h3>We go and see them.</h3><p class="mt-2">I come with you, and I tell you honestly what I think of each one. Including the ones I own.</p></div>
+    <div v-click class="ecf-card ecf-card-amber"><div class="ecf-label mb-2">Three</div><h3>We go and see them.</h3><p class="mt-2">I come with you, and I tell you honestly what I think of each one.</p></div>
   </div>
 </div>
 
 <!--
-One. You tell me what's happening with her. How she's getting around, how her days and her nights are going, what a home would need to be set up for, roughly what works financially, and who she actually is. Two. I go through what's genuinely open right now and come back with two or three. Not a list of everything. Two or three I'd be comfortable putting my own mother in. Three. We go and see them. I come with you, and I'll tell you honestly what I think of each one, including the ones I own.
+One. You tell me what's happening with her. How she's getting around, how her days and her nights are going, what a home would need to be set up for, roughly what works financially, and who she actually is. Two. I go through what's genuinely open right now and come back with two or three. Not a list of everything. Two or three I'd be comfortable putting my own mother in. Three. We go and see them. I come with you, and I'll tell you honestly what I think of each one, even the ones I would rather place her in.
 -->
 
 ---
