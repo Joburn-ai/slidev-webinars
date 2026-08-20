@@ -182,9 +182,6 @@ the fear from Section 2 of not knowing what is happening. Say it slowly.
 -->
 
 ---
-layout: center
-class: nomark ink
----
 layout: default
 class: text-center
 ---

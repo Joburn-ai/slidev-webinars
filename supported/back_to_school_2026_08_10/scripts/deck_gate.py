@@ -99,6 +99,14 @@ def read_deck(spine='slides.md'):
                             fm[m.group(1)] = m.group(2).strip()
                     i = j + 1
                     continue
+                # 🔴 Not frontmatter-shaped, but in Slidev a bare `---` is STILL a slide
+                # separator; the frontmatter block after it is optional. The old code did
+                # `i += 1` here, which SWALLOWED the separator and silently fused a
+                # frontmatter-less slide into its neighbour. That is what produced the
+                # "G4c fused slides" report on 2026-08-20: the deck was correct and the
+                # gate was wrong. Treat it as a separator with empty frontmatter.
+                flush()
+                cur, fm = [], {}
                 i += 1
                 continue
             cur.append(ln)
