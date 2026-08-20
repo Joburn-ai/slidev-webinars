@@ -116,7 +116,7 @@ class: bleed text-center
 
 <div class="relative h-full flex flex-col items-center justify-center">
 
-<div class="sp-callout">Before we start &mdash; grab a pen and paper</div>
+<div class="sp-callout">Before we start, grab a pen and paper</div>
 
 <div class="sp-h1 sp-onimg mx-auto mt-6">You are going to want to take notes tonight.</div>
 

@@ -130,6 +130,21 @@ def main():
     n = len(slides)
     fails, warns = [], []
 
+    # ── G0 em-dash in VISIBLE text ────────────────────────────────────────
+    # The deck's own frontmatter declares "No em-dash character anywhere", and the
+    # gate never checked it. Scope matters: speaker notes are internal (Joe reads
+    # them), so only what the AUDIENCE sees is a violation. `&mdash;` counts — an
+    # entity renders as the character, which is how one slipped onto slide 5.
+    emdash = []
+    for idx, (_, _, body) in enumerate(slides, 1):
+        visible = re.sub(r'<!--.*?-->', '', body, flags=re.S)
+        hits = visible.count('—') + visible.count('&mdash;')
+        if hits:
+            emdash.append((idx, hits))
+    if emdash:
+        fails.append('G0 em-dash in visible slide text: '
+                     + ', '.join(f'slide {i} x{h}' for i, h in emdash))
+
     # ── G1 visual coverage ────────────────────────────────────────────────
     bare = [i for i, (_, _, b) in enumerate(slides, 1) if not VISUAL.search(b)]
     cov = 100 * (n - len(bare)) / n
