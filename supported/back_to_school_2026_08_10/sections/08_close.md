@@ -30,7 +30,7 @@ catching up. So tonight, for everyone here who wants it, it's free." [click x4]
 
 🔴 "IT IS FREE" REFERS TO THE CALL AND THE PLAN, NOT THE PROGRAMME. Be unambiguous about
 that or you will create a refund conversation later. If anyone asks in chat, answer plainly:
-"The Game Plan call is free. The coaching programme is paid, and we only talk about that if
+"The triage call is free. The coaching programme is paid, and we only talk about that if
 it's a fit."
 -->
 
@@ -333,16 +333,16 @@ reason anyone books before they close the tab.
 
 <!-- slide:135 — S8. What the call actually is. -->
 
-<div class="sp-kicker">Your free AP Game Plan Call</div>
+<div class="sp-kicker">Your free AP Triage Call</div>
 
 <div class="mt-4">
 <v-clicks>
 
-- We map your teen's AP courses to <strong>possible college credit and merit aid.</strong>
+- <strong>Fifteen minutes</strong> with our team, to look at your teen's actual AP courses and where they are starting from.
 
-- We build a <strong>simple term plan,</strong> so May feels like review rather than catch-up.
+- You leave knowing <strong>which scores are realistically in reach</strong> this year, and what the next step is.
 
-- It is personal, it is free for attendees, and it is the fastest way to know what the next few months should look like.
+- If we are a fit, that is where the full Game Plan session gets booked. If we are not, we will tell you.
 
 </v-clicks>
 </div>
@@ -354,10 +354,22 @@ reason anyone books before they close the tab.
 </div>
 
 <!--
-SPOKEN: "On the call we map your teen's AP courses to possible college credit and merit
-aid. We build a simple term plan so that May feels like review rather than catch-up. It's
-personal, it's free for attendees, and it's the fastest way to know what the next few
-months should actually look like." [click x3]
+SPOKEN: "It's fifteen minutes with our team, and we look at your teen's actual AP courses
+and where they're starting from. You leave that call knowing which scores are realistically
+in reach this year, and what the next step is. And if we're a fit, that's where the full
+Game Plan session gets booked. If we're not, we'll tell you." [click x3]
+
+🔴 ROUTING CHANGE, JOHN 2026-08-21. This was "your free AP Game Plan Call" and it now books
+a TRIAGE call, the 15-minute AP Initial Consultation, not the 20-minute Game Plan Session.
+
+WHY THE PROMISE SHRANK, and do not quietly grow it back. The old copy promised to map the
+courses to credit and merit aid AND build a term plan. That is the Game Plan session, and it
+is not deliverable in a 15-minute fit call. Promising it on stage and then delivering a
+triage is the fastest way to burn a webinar audience. So the triage promises the two things
+a triage can honestly deliver: a read on what is in reach, and a next step.
+
+The full Game Plan session is now the thing the triage EARNS, which also makes it worth
+something rather than free by default.
 
 Note "possible" college credit. Keep the qualifier.
 -->
@@ -370,10 +382,10 @@ class: nomark night
 <!-- slide:136 — S8. 🔴 THE ASK. THIS SLIDE HAS TWO LIVE BLOCKERS. -->
 
 <div class="text-center">
-<div class="sp-h1 sp-onimg mx-auto">Book Your Free AP Game Plan Call</div>
+<div class="sp-h1 sp-onimg mx-auto">Book Your Free AP Triage Call</div>
 
 <div class="sp-booknow mt-8">
-  <img class="sp-qr" src="/images/qr/qr_booking.png" alt="Scan to book your free AP Game Plan Call" />
+  <img class="sp-qr" src="/images/qr/qr_booking.png" alt="Scan to book your free AP Triage Call" />
   <div class="text-left">
     <div class="sp-say sp-onimg">Scan it, or use the link in the chat.</div>
     <div class="sp-sub sp-onimg mt-3">It takes about 40 seconds. Pick a time that suits you.</div>
@@ -387,7 +399,7 @@ class: nomark night
 </div>
 
 <!--
-SPOKEN: "Book your free AP Game Plan Call." Point at the QR code. Then paste the link into
+SPOKEN: "Book your free AP Triage Call." Point at the QR code. Then paste the link into
 the chat yourself, live, while you are still talking.
 
 🔴🔴 TWO HARD BLOCKERS ON THIS SLIDE. IT CANNOT GO LIVE AS IT STANDS.
@@ -486,10 +498,10 @@ class: nomark
 
 # The Back-to-School Game Plan
 
-## Book your free AP Game Plan Call
+## Book your free AP Triage Call
 
 <div class="sp-booknow mt-8 justify-center">
-  <img class="sp-qr" src="/images/qr/qr_booking_close.png" alt="Scan to book your free AP Game Plan Call" />
+  <img class="sp-qr" src="/images/qr/qr_booking_close.png" alt="Scan to book your free AP Triage Call" />
   <div class="text-left">
     <Countdown compact label="$500 credit expires in" />
   </div>
