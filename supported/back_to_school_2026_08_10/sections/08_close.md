@@ -386,7 +386,7 @@ class: text-center night
 <v-click>
   <div class="sp-card">
     <div class="sp-waylabel">"Is it worth the money?"</div>
-    <div class="sp-card-s mt-2">That is the honest question, and it is what the call is for. If it is not a fit, we will tell you on the call and you keep the plan anyway.</div>
+    <div class="sp-card-s mt-2">That is the honest question, and it is exactly what the call is for. Fifteen minutes tells you whether this is right for your teen.</div>
   </div>
 </v-click>
 </div>
@@ -404,8 +404,11 @@ not a fit we'll tell you on the call, and you keep the plan anyway." [click x3]
 words, before they say it to themselves, is what stops it hardening into a reason not to
 book. Say each one as if you have heard it a hundred times, because Joe has.
 
-🔴 THE THIRD ONE IS THE IMPORTANT ONE and it must stay honest. "If it's not a fit we'll tell
-you on the call" is a promise the call has to keep. Brief whoever runs triage on it.
+🔴 THE THIRD ONE IS THE IMPORTANT ONE and it promises NOTHING FREE. The call's job is to
+find out whether this is right for them, not to hand over a deliverable. John 2026-08-16:
+"the whole purpose of them going on a call is to see if this makes sense for them and they
+can lock in their back to school credit." We want HIGH INTENT on these calls, and a free
+giveaway attracts the opposite.
 -->
 
 ---
@@ -414,29 +417,29 @@ you on the call" is a promise the call has to keep. Brief whoever runs triage on
 
 <div class="text-center">
 <div class="sp-kicker">Book before you leave tonight</div>
-<div class="sp-h2 mx-auto">Three things you only get for booking from this webinar.</div>
+<div class="sp-h2 mx-auto">Three things only for booking tonight.</div>
 </div>
 
-<div class="sp-grid c3 mt-8">
+<div class="sp-grid c3 mt-6">
 <v-click>
   <div class="sp-card gate">
     <div class="sp-waylabel">Fast action 1</div>
     <div class="sp-card-t mt-2">The AP Skills Diagnostic, run first</div>
-    <div class="sp-card-s mt-3">You walk into the call already knowing where the gap is, instead of using the call to find it.</div>
+    <div class="sp-card-s mt-3">You walk into the call already knowing where the gap is.</div>
   </div>
 </v-click>
 <v-click>
   <div class="sp-card gate">
     <div class="sp-waylabel">Fast action 2</div>
-    <div class="sp-card-t mt-2">Your teen's subject-specific rubric pack</div>
-    <div class="sp-card-s mt-3">The actual scoring criteria for their exam, in plain language, whether or not you ever work with us.</div>
+    <div class="sp-card-t mt-2">Priority scheduling on the deeper session</div>
+    <div class="sp-card-s mt-3">Straight through to an enrolment specialist, at a time that suits your week.</div>
   </div>
 </v-click>
 <v-click>
   <div class="sp-card gate">
     <div class="sp-waylabel">Fast action 3</div>
     <div class="sp-card-t mt-2">First pick of the term's coaching slots</div>
-    <div class="sp-card-s mt-3">Live attendees book ahead of the replay list. The good times go first and they do not come back.</div>
+    <div class="sp-card-s mt-3">Live attendees book ahead of the replay list. The good times go first.</div>
   </div>
 </v-click>
 </div>
@@ -444,11 +447,14 @@ you on the call" is a promise the call has to keep. Brief whoever runs triage on
 <!--
 SPOKEN: "Now, if you book before you leave tonight, there are three things you get that
 nobody else does. One, we run the AP Skills Diagnostic first, so you walk into your call
-already knowing where the gap is instead of spending the call finding it. Two, your teen's
-subject-specific rubric pack, the actual scoring criteria in plain language, and that's
-yours whether or not you ever work with us. And three, first pick of this term's coaching
-slots. Live attendees book ahead of the replay list, and the good times go first."
-[click x4]
+already knowing where the gap is instead of spending the call finding it. Two, priority
+scheduling on the deeper session, straight through to an AP enrolment specialist at a time
+that works around your week. And three, first pick of this term's coaching slots. Live
+attendees book ahead of the replay list, and the good times go first." [click x4]
+
+🔴 NOTHING HERE IS FREE-STANDING. Every one of these three attaches to BOOKING AND ATTENDING
+the call, not to walking away with a deliverable. John 2026-08-16 cut the version that gave
+away a rubric pack regardless, because a free giveaway attracts exactly the wrong intent.
 
 🔴 THIS SLIDE IS THE REAL URGENCY OF THE NIGHT, not the countdown. The credit runs five
 more days; these do not. "Tonight, not tomorrow" is the whole mechanism, and it lands on
@@ -484,19 +490,22 @@ reason anyone books before they close the tab.
 -->
 
 ---
+layout: two-cols
+---
 
-<!-- slide:135 — S8. What the call actually is. -->
+<!-- slide:135 — S8. What the call actually is. 🔴 EXPECTATIONS, SET CAREFULLY. -->
 
 <div class="sp-kicker">Your free AP Triage Call</div>
+<div class="sp-h2">Fifteen minutes on the phone with our team.</div>
 
-<div class="mt-4">
+<div class="mt-6">
 <v-clicks>
 
-- <strong>Fifteen minutes</strong> with our team, to look at your teen's actual AP courses and where they are starting from.
+- Your teen's <strong>actual AP courses</strong>, and what you are aiming at this year.
 
-- You leave knowing <strong>which scores are realistically in reach</strong> this year, and what the next step is.
+- If it fits, we set up a deeper session with an <strong>AP enrolment specialist</strong>.
 
-- If we are a fit, that is where the full Game Plan session gets booked. If we are not, we will tell you.
+- That is where you get it <strong>A to Z</strong>, and see how the system works.
 
 </v-clicks>
 </div>
@@ -507,25 +516,29 @@ reason anyone books before they close the tab.
 <img src="/images/concept/c10_climbing_steps.png" alt="Ascending steps rising from navy into gold" />
 </div>
 
+<v-click>
+<div class="sp-say mt-5">Booking tonight locks in your <strong>$500 credit.</strong></div>
+</v-click>
+
 <!--
-SPOKEN: "It's fifteen minutes with our team, and we look at your teen's actual AP courses
-and where they're starting from. You leave that call knowing which scores are realistically
-in reach this year, and what the next step is. And if we're a fit, that's where the full
-Game Plan session gets booked. If we're not, we'll tell you." [click x3]
+SPOKEN: "So the triage call is fifteen minutes on the phone with our team. We go through
+your teen's actual AP courses and what you're aiming at this year. And then if it makes
+sense, we set you up with one of our AP enrolment specialists for a deeper session, and
+that's where you get it A to Z and walk away actually understanding how the system works.
+And booking tonight is what locks in your five hundred dollar back-to-school credit."
+[click x4]
 
-🔴 ROUTING CHANGE, JOHN 2026-08-21. This was "your free AP Triage Call" and it now books
-a TRIAGE call, the 15-minute AP Initial Consultation, not the 20-minute Game Plan Session.
+🔴🔴 EXPECTATIONS, AND JOHN WAS SPECIFIC ABOUT THIS ON 2026-08-16. Read before presenting.
 
-WHY THE PROMISE SHRANK, and do not quietly grow it back. The old copy promised to map the
-courses to credit and merit aid AND build a term plan. That is the Game Plan session, and it
-is not deliverable in a 15-minute fit call. Promising it on stage and then delivering a
-triage is the fastest way to burn a webinar audience. So the triage promises the two things
-a triage can honestly deliver: a read on what is in reach, and a next step.
+  ❌ DO NOT PROMISE THEY WILL LEARN WHICH SCORES ARE REALISTICALLY IN REACH. We cannot know
+     that in fifteen minutes on the phone, and promising it sets up the call to fail.
+  ❌ DO NOT PROMISE ANYTHING FREE ON THE CALL. No free plan, no free roadmap, no "you keep
+     it either way". John: "I don't want to set up expectations the wrong way."
+  ✅ WHAT THE CALL IS FOR: to see whether this makes sense for them, and to lock the credit.
+     That is the honest frame and it is the one that produces HIGH-INTENT calls.
 
-The full Game Plan session is now the thing the triage EARNS, which also makes it worth
-something rather than free by default.
-
-Note "possible" college credit. Keep the qualifier.
+🔴 IT IS A PHONE CALL WITH THE TEAM, then an enrolment specialist if it fits. Two steps, and
+saying both out loud is what stops the triage call being mistaken for the full consultation.
 -->
 
 ---
@@ -542,7 +555,7 @@ class: nomark night
   <img class="sp-qr" src="/images/qr/qr_booking.png" alt="Scan to book your free AP Triage Call" />
   <div class="text-left">
     <div class="sp-say sp-onimg">Scan it, or use the link in the chat.</div>
-    <div class="sp-sub sp-onimg mt-3">It takes about 40 seconds. Pick a time that suits you.</div>
+    <div class="sp-sub sp-onimg mt-3">Takes about 30 seconds. Pick a time that suits you.</div>
   </div>
 </div>
 
@@ -620,28 +633,77 @@ layout: center
 <!-- slide:138 — S8. Lower the stakes. This raises bookings. -->
 
 <div class="text-center">
-<div class="sp-h1 mx-auto">No pressure either way.</div>
+<div class="sp-h1 mx-auto">Picture the year you actually wanted.</div>
 
 <v-click>
-<div class="sp-say mt-10 mx-auto">You leave with a <strong>real plan</strong> whether or not you ever work with us.</div>
+<div class="sp-say mt-10 mx-auto">Your son or daughter walking into this school year with <strong>confidence</strong>, and walking out of May with the <strong>4s and 5s.</strong></div>
 </v-click>
 </div>
 
 <!--
-SPOKEN: "And no pressure either way. You leave with a real plan whether or not you ever
-work with us." [click]
+SPOKEN: "So picture the year you actually wanted. Your son or your daughter walking into
+this school year with real confidence, and walking out of May with the 4s and 5s." [click]
 
-🔴 COUNTERINTUITIVE BUT TRUE: this slide INCREASES bookings. The reason a parent does not
-book is fear of a hard sell. Removing that fear is worth more than another urgency line.
+🔴 REPLACED THE "NO PRESSURE, YOU KEEP THE PLAN ANYWAY" SLIDE, John 2026-08-16. That slide
+promised a free deliverable and it set the wrong expectation for the call. The job of this
+frame is FUTURE PACING instead: put them in the year they want, then let the QR follow.
 
-🔴 AND IT HAS TO BE TRUE ON THE CALL. If the call is a pitch, this sentence is a lie and it
-will cost more in refunds and reputation than it earns in bookings. Brief whoever takes
-these calls on this specific promise.
+⚠️ Future-pacing is not a promise. "Picture" and "walking into" are invitations to imagine,
+not commitments about a score. Keep that grammar. Never turn this into "your teen WILL".
+-->
+
+---
+layout: two-cols
+---
+
+<!-- slide:138b — S8. QUESTIONS. John 2026-08-16 asked for a live Q&A frame with the QR. -->
+
+<div class="sp-kicker">Before we finish</div>
+<div class="sp-h2">What have you got?</div>
+
+<div class="mt-6">
+<v-clicks>
+
+- "Does this work if my teen is already behind?"
+
+- "What if they are taking three APs, not one?"
+
+- "How much time does this actually take each week?"
+
+- "What happens on the call?"
+
+</v-clicks>
+</div>
+
+<div class="sp-sub mt-8">Put yours in the chat. I will take as many as I can.</div>
+
+::right::
+
+<div class="sp-booknow" style="flex-direction: column; align-items: flex-start;">
+  <img class="sp-qr" src="/images/qr/qr_booking.png" alt="Scan to book your free AP Triage Call" />
+  <div class="sp-say mt-4">Book while we do questions.</div>
+  <div class="sp-sub mt-2">Fifteen minutes, on the phone, with our team.</div>
+</div>
+
+<!--
+SPOKEN: "Before we finish, what have you got? Put your questions in the chat and I'll take
+as many as I can. These are the ones I get most." [click x4]
+
+🔴 THE FOUR ON SCREEN ARE PRIMERS, NOT A SCRIPT. They exist so a silent room has something
+to react to. The moment real questions arrive, answer those instead and ignore these.
+
+🔴 THE QR STAYS UP THROUGH THE WHOLE Q&A. This is the highest-intent window of the night:
+everyone still watching has already decided they are interested and is looking for a reason
+to move. Leave it on screen and mention it between answers, without pitching over the top of
+someone's question.
+
+⚠️ If a question is really an objection ("is it worth the money"), answer it honestly and
+route to the call. Do not close from the stage. The call is the close.
 -->
 
 ---
 layout: end
-class: nomark
+class: nomark night
 ---
 
 <!-- slide:139 — S8. End card. Leave it up through Q&A. -->
