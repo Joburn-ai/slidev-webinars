@@ -51,9 +51,6 @@ layout: default
 <div class="sp-sub mx-auto">Here is what we build with you.</div>
 </div>
 
-<div class="mt-10 mx-auto" style="max-width: 46rem;">
-<img class="sp-shot" src="/images/proof/reviews_band_456.png" alt="Excellent, based on 456 reviews" />
-</div>
 
 <!--
 SPOKEN: "It's called the Back-to-School Game Plan. Here's what we build with you."
@@ -113,7 +110,7 @@ If it is not, swap the photo. An implied claim carried by an image is still a cl
 
 ---
 layout: default
-class: text-center
+class: text-center night
 ---
 
 <!-- slide:133c - social proof, standard claims only -->
@@ -126,10 +123,10 @@ class: text-center
   <div class="sp-card good"><div class="sp-num good">89%</div><div class="sp-numlabel mt-2">of our students score 4s or 5s</div></div>
 </v-click>
 <v-click>
-  <div class="sp-card"><div class="sp-num">456</div><div class="sp-numlabel mt-2">reviews from families</div></div>
+  <div class="sp-card"><div class="sp-num">14</div><div class="sp-numlabel mt-2">specialist AP coaches</div></div>
 </v-click>
 <v-click>
-  <div class="sp-card"><div class="sp-num">14</div><div class="sp-numlabel mt-2">specialist AP coaches</div></div>
+  <div class="sp-card"><div class="sp-card-t" style="font-size:1.5rem;">An AP Calculus Reader on the team</div><div class="sp-card-s mt-2">He has scored the real exam.</div></div>
 </v-click>
 </div>
 
@@ -138,18 +135,25 @@ class: text-center
 
 <!--
 SPOKEN: "And this isn't a theory. Eighty-nine percent of our students score 4s or 5s.
-There are four hundred and fifty-six reviews from families on our site. And there are
-fourteen specialist AP coaches behind it, one of whom scores the real exam. Results do
-vary by student." [click x3]
+There are fourteen specialist AP coaches behind it. And one of them is an AP Calculus
+Reader, which means he has sat and scored the real exam. Results do vary by student."
+[click x3]
 
-THE ONLY NUMBERS CLEARED FOR THIS DECK, and each one is checkable:
-   89%          the cleared stat
-   456 reviews  a review COUNT, not a results claim
-   14 coaches   countable on the team page
-   "Trusted by families nationwide" is SupportED's own site language.
+EVERY NUMBER ON THIS SLIDE MUST BE ONE WE CAN 100% STAND BY. That is the test, and it is
+stricter than "is it cleared".
 
-DO NOT ADD a families-helped number. "Over 600 students" has no source on file and does
-not appear on the site. If Joe supplies a substantiated figure it can go here.
+   14 coaches            countable on supportedtutoring.com/supported-team
+   AP Calculus Reader    named on that page, belongs to ONE coach, not the team
+   "Trusted by families nationwide"   SupportED's own site language
+
+REMOVED, and do not put it back without a source:
+   456 reviews    John 2026-08-16: "I don't know if that's true." There ARE stacks of
+                  testimonials, but nobody has counted them, and a precise number we
+                  cannot verify is worse than no number.
+   600+ students  no source on file, appears nowhere on the site.
+
+⚠️ 89% IS NOW THE ONLY UNVERIFIED NUMBER LEFT ON SCREEN. See the note on the positioning
+slide: the national comparator is contested three ways and the 89% has no source doc.
 
 "Results vary by student" stays on screen whenever a score number is shown.
 -->

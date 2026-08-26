@@ -40,3 +40,20 @@ Caught 2026-08-15 by listing `dist/` before the first Vercel deploy.
 
 **Quarantine means removed from the build, not renamed inside it.** Anything in here stays
 outside `public/`.
+
+---
+
+## reviews_band_456.png
+
+🔴 **Removed 2026-08-16. We cannot 100% stand behind the number.**
+
+John: *"I would take out the 456 reviews because I don't know if that's true. We have pages
+with a ton of testimonials, testimonial stacks for days, right? But let's make sure we just
+have that kind of stuff... anything we can't 100% stand by."*
+
+The crop was compliant (rating band only, no names) but the NUMBER itself was lifted from a
+Senja widget screenshot and never verified against the live review count. There genuinely
+are many testimonials; nobody has counted them.
+
+**To bring a review count back:** count them, screenshot the source with a date, and record
+where the number came from. A precise number we cannot defend is worse than no number.

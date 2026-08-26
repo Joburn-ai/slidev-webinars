@@ -12,9 +12,10 @@ layout: default
 <div class="sp-sub mx-auto mt-4">Get settled. Grab a pen and paper, you are going to want to take notes tonight.</div>
 </div>
 
-<div class="mt-12 mx-auto" style="max-width: 46rem;">
-<img class="sp-shot" src="/images/proof/reviews_band_456.png" alt="Excellent, based on 456 reviews" />
+<div class="mt-8 mx-auto" style="max-width: 46rem;">
+<img class="sp-shot" src="/images/proof/team_band.png" alt="The SupportED coaching team" />
 </div>
+
 
 <!--
 SPOKEN: "Hey everyone, welcome in. We're going to start in about two minutes, so grab a
