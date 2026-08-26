@@ -232,6 +232,16 @@ def main():
     if fused:
         fails.append(f'G4c fused slides (missing --- separator): {fused}')
 
+    # ── G4d FRONTMATTER RENDERED AS BODY TEXT ─────────────────────────────
+    # 🔴 A duplicated frontmatter block makes the SECOND copy render as visible body
+    # text on the slide: the audience sees "layout: center / class: nomark night".
+    # The original v1 deck shipped exactly this on its offer-reveal slide.
+    leaked = [i for i, (_, _, b) in enumerate(slides, 1)
+              if re.match(r'^\s*(?:layout|class|background|transition|src)\s*:',
+                          re.sub(r'<!--.*?-->', '', b, flags=re.S).strip())]
+    if leaked:
+        fails.append(f'G4d frontmatter rendering as body text: {leaked}')
+
     # ── G5 assets exist ───────────────────────────────────────────────────
     missing = set()
     for _, _, b in slides:

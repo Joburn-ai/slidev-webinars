@@ -421,6 +421,17 @@ h2, .sp-h2 {
   box-shadow: 0 10px 30px rgba(0,0,0,.28);
 }
 
+/* Value-stack row. Deliberately NOT a card grid: a stack should read as an
+   accumulating list, and cards make eight items look like eight separate things. */
+.sp-stackrow {
+  border-left: 3px solid var(--gold); padding: .35rem 0 .35rem .9rem;
+}
+.sp-stackrow.gate { border-left-width: 5px; background: rgba(197,165,90,.10); border-radius: 0 8px 8px 0; padding: .9rem 1.2rem .9rem 1.2rem; }
+.sp-stackrow-t { font-family: var(--body); font-weight: 700; font-size: var(--t-lead); line-height: 1.25; color: var(--navy); }
+.sp-stackrow-s { font-family: var(--body); font-weight: 400; font-size: var(--t-body); line-height: 1.32; color: var(--fogd); margin-top: .15rem; }
+:is(.night,.ink) .sp-stackrow-t { color: #fff; }
+:is(.night,.ink) .sp-stackrow-s { color: var(--onnavy2); }
+
 .sp-rule { height: 3px; width: 68px; background: var(--gold); border-radius: 2px; margin: 1rem 0; }
 .text-center .sp-rule { margin-left: auto; margin-right: auto; }
 .sp-fine { font-family: var(--body); font-size: var(--t-micro); font-weight: 700; color: var(--fogd); line-height: 1.35; }

@@ -110,75 +110,50 @@ If it is not, swap the photo. An implied claim carried by an image is still a cl
 -->
 
 ---
-layout: two-cols
+layout: default
+class: text-center
 ---
 
-<!-- slide:132 — S8. The core of the plan. -->
+<!-- slide:134 — S8 · VALUE STACK, part 1. 🔴 NO PRICE ANYWHERE ON THIS SLIDE. -->
 
-<div class="sp-kicker">What is inside</div>
+<div class="sp-kicker">What you are actually getting</div>
+<div class="sp-h2 mx-auto">Every piece of this exists to move one number.</div>
 
-<div class="mt-4">
-<v-clicks>
-
-- **The AP Diagnostic.** Where your teen actually stands against the real rubrics, not classroom grades.
-
-- **A personalised AP roadmap.** Targeted at the high-impact gaps only.
-
-- **1:1 skill coaching** with certified AP teachers.
-
-</v-clicks>
-</div>
-
-::right::
-
-<div class="sp-figure">
-<img src="/images/uni/university_testEd_acceptEd.png" alt="The SupportED platform diagnostic view" />
+<div class="sp-grid c2 mt-6" style="max-width: 62rem; margin-inline: auto; text-align: left;">
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">The AP Skills Diagnostic</div><div class="sp-stackrow-s">Where your teen actually stands against the real rubric, not their class grade.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">A personalised AP roadmap</div><div class="sp-stackrow-s">Aimed only at the gaps the diagnostic found. Nothing they already do well.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">1:1 coaching with certified AP teachers</div><div class="sp-stackrow-s">People who have sat in the rooms where graders are trained.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">Structured practice with expert feedback</div><div class="sp-stackrow-s">Scored against the official rubric, every time, by a human who knows it.</div></div>
+</v-click>
 </div>
 
 <!--
-SPOKEN: "Inside it: the AP Diagnostic, which shows where your teen actually stands against
-the real rubrics rather than classroom grades. A personalised AP roadmap targeted only at
-the high-impact gaps. And 1:1 skill coaching with certified AP teachers." [click x3]
+SPOKEN: "So let me show you what you're actually getting. And I want you to notice that
+every single piece of this exists to move one number. The AP Skills Diagnostic, so you know
+where your teen actually stands against the real rubric instead of their class grade. A
+personalised roadmap aimed only at the gaps the diagnostic found, and nothing they already
+do well. One to one coaching with certified AP teachers, people who have sat in the rooms
+where graders get trained. And structured practice with expert feedback, scored against the
+official rubric every time, by a human who knows it." [click x4]
 
-🔴 "CERTIFIED AP TEACHERS". Never "College Board certified".
--->
+🔴🔴 NO PRICE. NOT HERE, NOT ANYWHERE IN THIS DECK. John 2026-08-16: "we don't want to say
+3800. We don't want to put the offer price in there because we're gonna offer like a range
+of prices and services up to like $24,000... I wouldn't include price on the webinar, just
+stack/value, bonuses, back to school discount."
 
----
-layout: two-cols
----
+The $3,800 anchor that was on this slide an hour ago is GONE and must not come back. The
+programme is now a RANGE, sized on the triage call, and naming one number anchors the room
+to the bottom of it.
 
-<!-- slide:133 — S8. The support around it. -->
-
-<div class="sp-kicker">And around it</div>
-
-<div class="mt-4">
-<v-clicks>
-
-- **Live group classes and office hours** through the term.
-
-- **Structured practice** with expert feedback.
-
-- **A family communication channel,** so you are never guessing how it is going.
-
-- **Exam readiness mode** as May approaches. Timed papers, full mocks, dress rehearsals.
-
-</v-clicks>
-</div>
-
-::right::
-
-<div class="sp-figure">
-<img src="/images/uni/university_course_catalog_composite.png" alt="The SupportED course library" />
-</div>
-
-<!--
-SPOKEN: "Around it: live group classes and office hours through the term. Structured
-practice with expert feedback. A family communication channel so you're never guessing how
-it's going. And exam readiness mode as May approaches, with timed papers, full mocks and
-dress rehearsals." [click x4]
-
-The "family communication channel" is the line that lands hardest with parents. It answers
-the fear from Section 2 of not knowing what is happening. Say it slowly.
+🔴 SETUP BEFORE FEATURE (Fladlien failure pattern #6). Each row leads with what it DOES for
+them, not what it is. Never read this list as a feature list.
 -->
 
 ---
@@ -186,44 +161,134 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:134 — S8. 🔴 THE REVEAL OF THE BACK-TO-SCHOOL SPECIAL. -->
+<!-- slide:134a — S8 · VALUE STACK, part 2. The wrapper and the human. -->
 
-<div class="sp-kicker">Because it is back to school</div>
-<div class="sp-h1 mx-auto">We are doing something special this month.</div>
+<div class="sp-kicker">And around all of it</div>
+<div class="sp-h2 mx-auto">The part that stops you guessing for eight months.</div>
 
-<div class="sp-vs mt-10 mx-auto" style="max-width: 54rem;">
-  <div class="sp-card gate">
-    <div class="sp-waylabel">Normally</div>
-    <div class="sp-num" style="opacity:.45; text-decoration: line-through;">$3,800</div>
-    <div class="sp-card-s mt-2">The published investment for the full programme.</div>
-  </div>
-  <div class="sp-vs-mid">&rarr;</div>
-  <div class="sp-card good">
-    <div class="sp-waylabel">This month</div>
-    <div class="sp-num good">&minus;$500</div>
-    <div class="sp-card-s mt-2">A back-to-school credit, applied when you enrol off your call.</div>
-  </div>
+<div class="sp-grid c2 mt-6" style="max-width: 62rem; margin-inline: auto; text-align: left;">
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">Live group classes and office hours</div><div class="sp-stackrow-s">Bring a question the day it comes up, not three weeks later.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">A family communication channel</div><div class="sp-stackrow-s">You are never guessing how it is going.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">Exam readiness mode from spring</div><div class="sp-stackrow-s">Timed papers, full mocks, dress rehearsals.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">The Score Forecast Report</div><div class="sp-stackrow-s">Projected score, gaps named, drills to close them.</div></div>
+</v-click>
 </div>
 
+
 <!--
-SPOKEN: "And because it's back to school, we're doing something special this month. The
-published investment for the full programme is $3,800. This month there's a $500
-back-to-school credit on it."
+SPOKEN: "And around all of that: live group classes and office hours all term, so they bring
+a question the day it comes up instead of three weeks later. A family communication channel,
+so you are never guessing how it is going, and honestly that is the one parents tell us
+matters most. Exam readiness mode from the spring, timed papers and full mocks and dress
+rehearsals, so May becomes review instead of repair. And the Score Forecast Report after
+each practice exam: projected score, gaps named, drills to close them." [click x4]
 
-🔴 R-0 RULING, JOHN 2026-08-15. This SUPERSEDES the earlier booking-only ruling. The
-product reveal, the price and the credit are now ON STAGE. The ask is still to BOOK A CALL,
-not to buy from the deck. There is no checkout here and there must never be one.
-
-🔴 $3,800 IS THE DEFENSIBLE ANCHOR. It is published on the website and has been charged 19
-times in won-deal history. Do not invent a higher one to make the discount look bigger.
-
-⚠️ The credit is applied ON THE CALL, at enrolment. Say that plainly. If anyone reads it as
-"$500 off just for showing up", you have a refund conversation later.
+🔴 THE STACK IS DELIBERATELY SPLIT ACROSS TWO SLIDES. Eight rows on one frame at the
+corrected type size is a wall, and a wall gets skimmed. Four and four, both readable.
 -->
 
 ---
 layout: default
 class: text-center
+---
+
+<!-- slide:133b — S8 · WHO ACTUALLY DOES THE WORK. John 2026-08-16 asked for team proof. -->
+
+<div class="sp-kicker">Who actually does the work</div>
+<div class="sp-h2 mx-auto">Fourteen coaches. One of them is an <strong>AP Calculus Reader.</strong></div>
+
+<div class="mt-6 mx-auto" style="max-width: 54rem;">
+<img class="sp-shot" src="/images/proof/team_band.png" alt="The SupportED coaching team" />
+</div>
+
+<!--
+SPOKEN: "And it's worth saying who actually does this work. There are fourteen coaches, and
+every one of them is a specialist in their subject. One of them is an AP Calculus Reader,
+which means he has sat and scored the real exam. That's the difference I was talking about
+in the first half." [click]
+
+🔴 REAL SCREENSHOT OF THE REAL TEAM PAGE (supportedtutoring.com/supported-team), captured
+2026-08-16. John asked for team proof and it is the cheapest credibility in the deck,
+because it is verifiable: anyone can go and look.
+
+🔴 "AP CALCULUS READER" IS A REAL, VERIFIABLE CREDENTIAL and it is the single best piece of
+proof on that page, because it is the literal evidence for the Section 4 claim that our
+coaches have been in the rooms where the exam gets scored. It belongs to Coach Nicholas.
+Do not generalise it to "our coaches are AP Readers" — ONE of them is.
+
+🔴 STILL NEVER "COLLEGE BOARD CERTIFIED". SupportED's own site carries the line: "an
+independent test preparation and education services provider, NOT affiliated with,
+sponsored by, or endorsed by the College Board." Saying otherwise contradicts their own
+published disclaimer.
+-->
+
+---
+
+<!-- slide:134a1 — S8 · THE AP TRIAGE CALL. John 2026-08-16 named this specifically. -->
+
+<div class="text-center">
+<div class="sp-kicker">And it all starts in one place</div>
+<div class="sp-h1 sp-onimg mx-auto">The AP Triage Call.</div>
+
+<v-click>
+<div class="sp-say sp-onimg mt-8 mx-auto">Where your teen actually is. What you are aiming at. And the shortest honest path between the two.</div>
+</v-click>
+</div>
+
+<!--
+SPOKEN: "And all of it starts in one place. The AP Triage Call. Where your teen actually is
+right now, what you're aiming at, and the shortest honest path between those two things."
+[click]
+
+🔴 IT IS A TRIAGE CALL, NOT A GAME PLAN CALL. John 2026-08-16, and the whole deck was
+renamed for it. Triage is the right word and it is doing real work: it says we FIND OUT
+before we prescribe, which is the same argument as the blood-work analogy in Section 4. A
+"game plan call" sounds like we already know the answer. We do not, and that is the point.
+
+🔴 THIS IS ALSO WHY THERE IS NO PRICE ON STAGE. The programme is a range, and the triage
+call is what sizes it. Naming a number before the triage would contradict the mechanism the
+whole webinar just spent 40 minutes teaching.
+-->
+
+---
+
+<!-- slide:134a2 — S8. 🔴 THE FLADLIEN WORTH QUESTION. Value without a number. -->
+
+<div class="text-center">
+<div class="sp-say sp-onimg mx-auto">Ask yourself honestly.</div>
+
+<v-click>
+<div class="sp-h1 sp-onimg mt-8 mx-auto">What is one AP score actually worth to your family?</div>
+</v-click>
+
+<v-click>
+<div class="sp-sub sp-onimg mt-8 mx-auto">Not to us. To you. In credit, in aid, in the year your teen is about to have.</div>
+</v-click>
+</div>
+
+<!--
+SPOKEN: "So let me ask you honestly. What is one AP score actually worth to your family?
+Not to us. To you. In credit. In aid. In the year your teen is about to have." [click x2]
+
+🔴 THIS IS THE FLADLIEN "WHAT IS IT WORTH" BEAT, and it is doing the job a price reveal
+normally does. John 2026-08-16 asked for exactly this: "really kind of hype up the offer
+stack... not revealing the final bundle stack price."
+
+The mechanism: they assign the value THEMSELVES, silently, and whatever number they land on
+is larger and more personal than any number we could put on a slide. Then the triage call
+finds out what they can actually invest.
+
+🔴 ASK IT AND THEN SHUT UP. Four full seconds. If you fill this silence you have wasted the
+single most valuable pause in the deck. Do not answer your own question.
+-->
+
 ---
 
 <!-- slide:134b — S8. 🔴 THE DEADLINE, WITH THE LIVE CLOCK. -->
@@ -254,6 +319,95 @@ replay does not show "-3 days".
 
 ---
 layout: default
+class: text-center
+---
+
+<!-- slide:134b2 — S8 · THE BONUS GIFT. John 2026-08-16. -->
+
+<div class="sp-callout">Back-to-school bonus</div>
+<div class="sp-h2 mx-auto mt-6">Your teen's Personalised AP College Game Plan.</div>
+
+<div class="sp-grid c3 mt-8" style="max-width: 62rem; margin-inline: auto; text-align: left;">
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">The schools they actually want</div><div class="sp-stackrow-s">Not a generic list. The ones on your kitchen-table shortlist.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">Their credit policies, mapped</div><div class="sp-stackrow-s">What each one gives for a 4, and what it gives for a 5.</div></div>
+</v-click>
+<v-click>
+  <div class="sp-stackrow"><div class="sp-stackrow-t">Which exams are worth the effort</div><div class="sp-stackrow-s">So the work goes where it converts, instead of everywhere at once.</div></div>
+</v-click>
+</div>
+
+<div class="sp-fine mt-8 mx-auto">Credit policies vary by institution and change year to year. We map what is published.</div>
+
+<!--
+SPOKEN: "And because it's back to school, there's a bonus on it this month. We build your
+teen's Personalised AP College Game Plan. Not a generic list, the schools actually on your
+kitchen-table shortlist. We map each one's credit policy: what they give for a 4, and what
+they give for a 5. And then we show you which exams are actually worth the effort, so the
+work goes where it converts instead of everywhere at once." [click x3]
+
+🔴 JOHN 2026-08-16: "the bonus gift is a personalized AP college game plan... their college
+credits mapped out based on where they actually want to go."
+
+🔴 THIS IS THE STRONGEST THING IN THE CLOSE and it is worth more than a discount, because it
+converts an abstract score into a specific dollar outcome AT THE SCHOOLS THEY ALREADY CARE
+ABOUT. It is also the natural setup for the triage call: we cannot build it without talking
+to them.
+
+⚠️ The qualifier stays on screen. Credit policies genuinely do change year to year and we
+map what is PUBLISHED, not what we promise.
+-->
+
+---
+layout: default
+class: text-center night
+---
+
+<!-- slide:134b3 — S8 · OBJECTION PRE-HANDLING. Fladlien: handle it before they think it. -->
+
+<div class="sp-kicker">Before you talk yourself out of it</div>
+<div class="sp-h2 mx-auto">The three things going through your head right now.</div>
+
+<div class="sp-grid c3 mt-6" style="max-width: 64rem; margin-inline: auto; text-align: left;">
+<v-click>
+  <div class="sp-card">
+    <div class="sp-waylabel">"We have tried tutoring"</div>
+    <div class="sp-card-s mt-2">So had almost every family we work with. Tutoring teaches content. Nothing you have tried has taught the scoring skill, because almost nobody teaches it.</div>
+  </div>
+</v-click>
+<v-click>
+  <div class="sp-card">
+    <div class="sp-waylabel">"My teen has no time"</div>
+    <div class="sp-card-s mt-2">That is exactly the argument for measuring first. Time is the scarce thing, so you spend it only on the gap, not on the whole syllabus again.</div>
+  </div>
+</v-click>
+<v-click>
+  <div class="sp-card">
+    <div class="sp-waylabel">"Is it worth the money?"</div>
+    <div class="sp-card-s mt-2">That is the honest question, and it is what the call is for. If it is not a fit, we will tell you on the call and you keep the plan anyway.</div>
+  </div>
+</v-click>
+</div>
+
+<!--
+SPOKEN: "Now before you talk yourself out of this, let me say the three things going through
+your head. One: we've tried tutoring. So had almost every family we work with. Tutoring
+teaches content, and nothing you've tried has taught the scoring skill, because almost
+nobody teaches it. Two: my teen has no time. That's exactly the argument for measuring
+first, because time is the scarce thing and you should only spend it on the gap. And three:
+is it worth the money. That's the honest question, and it's what the call is for. If it's
+not a fit we'll tell you on the call, and you keep the plan anyway." [click x3]
+
+🔴 FLADLIEN OBJECTION PRE-HANDLING, John 2026-08-16. Saying the objection FOR them, in their
+words, before they say it to themselves, is what stops it hardening into a reason not to
+book. Say each one as if you have heard it a hundred times, because Joe has.
+
+🔴 THE THIRD ONE IS THE IMPORTANT ONE and it must stay honest. "If it's not a fit we'll tell
+you on the call" is a promise the call has to keep. Brief whoever runs triage on it.
+-->
+
 ---
 
 <!-- slide:134c — S8. 🔴 FAST-ACTION BONUSES. This is the urgency for TONIGHT. -->
@@ -359,7 +513,7 @@ and where they're starting from. You leave that call knowing which scores are re
 in reach this year, and what the next step is. And if we're a fit, that's where the full
 Game Plan session gets booked. If we're not, we'll tell you." [click x3]
 
-🔴 ROUTING CHANGE, JOHN 2026-08-21. This was "your free AP Game Plan Call" and it now books
+🔴 ROUTING CHANGE, JOHN 2026-08-21. This was "your free AP Triage Call" and it now books
 a TRIAGE call, the 15-minute AP Initial Consultation, not the 20-minute Game Plan Session.
 
 WHY THE PROMISE SHRANK, and do not quietly grow it back. The old copy promised to map the
@@ -389,10 +543,6 @@ class: nomark night
   <div class="text-left">
     <div class="sp-say sp-onimg">Scan it, or use the link in the chat.</div>
     <div class="sp-sub sp-onimg mt-3">It takes about 40 seconds. Pick a time that suits you.</div>
-    <div class="sp-card bad mt-4" style="max-width: 26rem;">
-      <div class="sp-waylabel">BOOKING URL NOT VERIFIED</div>
-      <div class="sp-card-s mt-1">Run scripts/make_qr.py --url once a calendar with open slots is confirmed.</div>
-    </div>
   </div>
 </div>
 

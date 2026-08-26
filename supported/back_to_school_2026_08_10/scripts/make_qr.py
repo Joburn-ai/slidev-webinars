@@ -35,14 +35,15 @@ GOLD = (197, 165, 90)
 # One row per place a person can reach the booking calendar from this promo.
 # content = the specific surface, so two CTAs on the same slide stay distinguishable.
 TAGS = [
-    ('qr_booking',        dict(utm_source='webinar', utm_medium='qr',    utm_campaign='bts_2026_08', utm_content='deck_cta_slide')),
-    ('qr_booking_close',  dict(utm_source='webinar', utm_medium='qr',    utm_campaign='bts_2026_08', utm_content='deck_end_card')),
-    ('link_chat',         dict(utm_source='webinar', utm_medium='chat',  utm_campaign='bts_2026_08', utm_content='zoom_chat_paste')),
-    ('link_email_replay', dict(utm_source='email',   utm_medium='replay', utm_campaign='bts_2026_08', utm_content='noshow_replay')),
-    ('link_email_close',  dict(utm_source='email',   utm_medium='email', utm_campaign='bts_2026_08', utm_content='hard_close_31aug')),
+    ('qr_booking',        dict(utm_source='webinar', utm_medium='qr',    utm_campaign='webinar_back_to_school_aug_2026', utm_content='deck_cta_slide')),
+    ('qr_booking_close',  dict(utm_source='webinar', utm_medium='qr',    utm_campaign='webinar_back_to_school_aug_2026', utm_content='deck_end_card')),
+    ('link_chat',         dict(utm_source='webinar', utm_medium='chat',  utm_campaign='webinar_back_to_school_aug_2026', utm_content='zoom_chat_paste')),
+    ('link_email_replay', dict(utm_source='email',   utm_medium='replay', utm_campaign='webinar_back_to_school_aug_2026', utm_content='noshow_replay')),
+    ('link_email_close',  dict(utm_source='email',   utm_medium='email', utm_campaign='webinar_back_to_school_aug_2026', utm_content='hard_close_31aug')),
 ]
 
-PLACEHOLDER = 'https://BOOKING-URL-NOT-VERIFIED.invalid/book'
+# John 2026-08-16: use this for now, confirm the final one with the team.
+DEFAULT_URL = 'https://acingapexams.com/book-consult-page-w'
 
 
 def tagged(base: str, params: dict) -> str:
@@ -78,8 +79,8 @@ def main() -> int:
     ap.add_argument('--url', default=None, help='the VERIFIED booking URL')
     a = ap.parse_args()
 
-    placeholder = a.url is None
-    base = a.url or PLACEHOLDER
+    base = a.url or DEFAULT_URL
+    placeholder = False
     os.makedirs(OUT, exist_ok=True)
 
     if placeholder:
