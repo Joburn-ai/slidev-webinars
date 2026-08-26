@@ -2,7 +2,9 @@
 layout: center
 ---
 
-<!-- slide:027 — S2. Open the section. -->
+<!--
+ slide:027 — S2. Open the section. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">I know why you are here tonight.</div>
@@ -30,7 +32,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:028 — S2. The absolution, stated as plainly as it can be stated. -->
+<!--
+ slide:028 — S2. The absolution, stated as plainly as it can be stated. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c04_parent_at_kitchen_table.png" alt="A parent at a kitchen table in the evening" />
 <div class="sp-scrim-c"></div>
@@ -53,7 +57,9 @@ Until you take that off them they cannot hear the teaching.
 layout: two-cols
 ---
 
-<!-- slide:029 — S2. The mechanism of the problem: the rules changed. -->
+<!--
+ slide:029 — S2. The mechanism of the problem: the rules changed. 
+-->
 
 <div class="sp-kicker">What actually happened</div>
 
@@ -88,7 +94,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:030 — S2. THE SHIFT, full frame from the VSL render. -->
+<!--
+ slide:030 — S2. THE SHIFT, full frame from the VSL render. 
+-->
 
 <img class="sp-bleed fit" src="/images/vsl/slide_11_not_same.png" alt="An A in the class and a 5 on the exam are not the same thing" />
 
@@ -104,7 +112,9 @@ type. Talk over it.
 layout: default
 ---
 
-<!-- slide:031 — S2. And the schools did not update. This is the anger beat. -->
+<!--
+ slide:031 — S2. And the schools did not update. This is the anger beat. 
+-->
 
 <div class="text-center">
 <div class="sp-h2 mx-auto">And the high schools <strong>never updated</strong> their playbooks.</div>
@@ -138,7 +148,9 @@ teachers. The enemy is the SYSTEM and the information gap, never the individual.
 layout: center
 ---
 
-<!-- slide:032 — S2. The reframe that takes the blame off the child. -->
+<!--
+ slide:032 — S2. The reframe that takes the blame off the child. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">So if your straight-A student is scoring 2s and 3s...</div>
@@ -164,7 +176,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:032b — SCENE FRAME, lifted from the VSL render (scene 12_the_gap). -->
+<!--
+ slide:032b — SCENE FRAME, lifted from the VSL render (scene 12_the_gap). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/12_the_gap.png" alt="There is a gap between the grade and the exam, and you cannot see it." />
 
@@ -181,7 +195,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:033 — S2. Turn from mechanism to their lived experience. -->
+<!--
+ slide:033 — S2. Turn from mechanism to their lived experience. 
+-->
 
 <div class="text-center">
 <div class="sp-h2 sp-onimg mx-auto">Now that you know, let me show you what this looks like <strong>in your house.</strong></div>
@@ -198,7 +214,9 @@ Slow right down.
 layout: two-cols
 ---
 
-<!-- slide:034 — S2 CFA. What they have watched. -->
+<!--
+ slide:034 — S2 CFA. What they have watched. 
+-->
 
 <div class="sp-kicker">You have watched your teen</div>
 
@@ -232,7 +250,9 @@ that every parent thinks "that is my house".
 layout: center
 ---
 
-<!-- slide:035 — S2 CFA. The conference. -->
+<!--
+ slide:035 — S2 CFA. The conference. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">You have sat through a parent-teacher conference.</div>
@@ -255,7 +275,9 @@ teacher is not preparing my kid for that exam." [click] [click]
 layout: default
 ---
 
-<!-- slide:036 — S2 CFA. The money already spent. This sets up the objection pre-handle. -->
+<!--
+ slide:036 — S2 CFA. The money already spent. This sets up the objection pre-handle. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">And you have already tried</div>
@@ -290,7 +312,9 @@ content was never the gap.
 layout: center
 ---
 
-<!-- slide:037 — S2 CFA. The language of uncertainty. This phrase recurs at the payoff. -->
+<!--
+ slide:037 — S2 CFA. The language of uncertainty. This phrase recurs at the payoff. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Your teen is still guessing. Still stressed.</div>
@@ -318,7 +342,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:038 — S2. Escalate from the exam to the trajectory. -->
+<!--
+ slide:038 — S2. Escalate from the exam to the trajectory. 
+-->
 
 <div class="text-center">
 <div class="sp-sub sp-onimg mx-auto">The real fear is not one exam.</div>
@@ -339,7 +365,9 @@ of the first half.
 layout: two-cols
 ---
 
-<!-- slide:039 — S2. What the trajectory costs. ⚠️ CLAIM-SENSITIVE SLIDE. -->
+<!--
+ slide:039 — S2. What the trajectory costs. ⚠️ CLAIM-SENSITIVE SLIDE. 
+-->
 
 <div class="sp-kicker">What a 2 or a 3 actually costs</div>
 
@@ -368,9 +396,6 @@ SPOKEN: "A 2 or a 3 this spring can put their dream school further out of reach.
 and the doors it opens, quietly close. And the tuition you could have offset, you just pay."
 [click x3]
 
-🔴 CLAIM CHANGE, DELIBERATE. The old version of this slide said: "you could pay $200,000 in
-college tuition when the right AP scores could have cut that in half." THAT IS CUT.
-
 WHY: no AP score halves a $200,000 tuition bill. It is not in the cleared set, it is not
 defensible, and it is the kind of line that gets a screenshot taken of it. The rewritten
 version carries the same fear without inventing arithmetic.
@@ -382,7 +407,9 @@ DO NOT reinstate a dollar figure here without Joe's written sign-off on the sour
 layout: default
 ---
 
-<!-- slide:040 — S2. Four real parent quotes, ACCUMULATING. -->
+<!--
+ slide:040 — S2. Four real parent quotes, ACCUMULATING. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">What parents actually say to us</div>
@@ -424,7 +451,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:044 — S2. Catch them. -->
+<!--
+ slide:044 — S2. Catch them. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c08_fog_dissolving.png" alt="Fog clearing over an open path" />
 <div class="sp-scrim-c"></div>
@@ -445,7 +474,9 @@ The catch. Warm. This is the bottom of the emotional dip and the turn upward sta
 layout: center
 ---
 
-<!-- slide:045 — S2. Name the missing thing. -->
+<!--
+ slide:045 — S2. Name the missing thing. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">None of it gave you the one thing you actually need.</div>
@@ -468,7 +499,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:046 — S2 close. -->
+<!--
+ slide:046 — S2 close. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">That ends tonight.</div>

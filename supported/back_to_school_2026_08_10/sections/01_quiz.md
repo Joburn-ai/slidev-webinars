@@ -2,10 +2,7 @@
 layout: two-cols
 ---
 
-<!-- slide:006 — S1. MERGED opener: the reframe and the rules on one slide.
-     John 2026-08-15: "now we have redundant slide seven and slide eight kind of serve the
-     same purpose." They did — one said "a pop quiz, not for your teen, for you" and the
-     next said "five true or false statements, type T or F". Same job, two frames. -->
+
 
 <div class="sp-kicker">Before anything else</div>
 <div class="sp-h2">Five true or false statements.</div>
@@ -43,7 +40,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:008 — S1 · Q1. The SEASONAL question. This one is specific to back-to-school. -->
+<!--
+ slide:008 — S1 · Q1. The SEASONAL question. This one is specific to back-to-school. 
+-->
 
 <div class="sp-quiz mx-auto" style="max-width: 46rem;">
 <div class="sp-quiz-n">Question 1 &middot; True or False</div>
@@ -66,7 +65,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:009 — S1 · Q1 verdict. -->
+<!--
+ slide:009 — S1 · Q1 verdict. 
+-->
 
 <div class="sp-verdict f">FALSE.</div>
 
@@ -82,7 +83,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:010 — S1 · Q1. The trap, named. -->
+<!--
+ slide:010 — S1 · Q1. The trap, named. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c01_report_card_looks_fine.png" alt="A report card that reads as reassuring, with a single shadow falling across it" />
 <div class="sp-scrim-c"></div>
@@ -106,7 +109,9 @@ before you talk over it.
 layout: two-cols
 ---
 
-<!-- slide:011 — S1 · Q1. Why it is false. Five beats, clicked. -->
+<!--
+ slide:011 — S1 · Q1. Why it is false. Five beats, clicked. 
+-->
 
 <div class="sp-kicker">Why that is false</div>
 
@@ -150,7 +155,7 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:011b — S1 · Q1. BLOOM'S TAXONOMY. Added on John's review 2026-08-15. -->
+
 
 <div class="sp-kicker">Why the class cannot show you</div>
 <div class="sp-h2 mx-auto">They are not even testing the same level of thinking.</div>
@@ -175,12 +180,6 @@ of Bloom's taxonomy: remember and understand. Recall it, explain it, hand it bac
 exam lives at the top: analyse, evaluate, create. They are not testing the same level of
 thinking, so a grade at one level tells you almost nothing about performance at the other."
 
-🔴 ADDED ON JOHN'S REVIEW, 2026-08-15: "they talk about like, remember and understand, not
-the other levels of Bloom's taxonomy. I don't think we mention Bloom's taxonomy in here."
-We did not. It is the cleanest mechanical explanation in the whole deck for WHY the grade
-and the score come apart, and it is a framework parents half-recognise from school, which
-makes it land as explanation rather than as marketing.
-
 Keep it to one slide. Do not teach all six levels.
 -->
 
@@ -189,7 +188,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:012 — S1 · Q2. The core misconception. -->
+<!--
+ slide:012 — S1 · Q2. The core misconception. 
+-->
 
 <div class="sp-quiz mx-auto" style="max-width: 46rem;">
 <div class="sp-quiz-n">Question 2 &middot; True or False</div>
@@ -210,7 +211,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:013 — S1 · Q2 verdict. -->
+<!--
+ slide:013 — S1 · Q2 verdict. 
+-->
 
 <div class="sp-verdict f">FALSE.</div>
 
@@ -227,7 +230,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:014 — S1 · Q2. THE TWO SCORECARDS. The deck's single most important image. -->
+<!--
+ slide:014 — S1 · Q2. THE TWO SCORECARDS. The deck's single most important image. 
+-->
 
 <img class="sp-bleed fit" src="/images/vsl/slide_10_grade_vs_score.png" alt="The grade measures did the homework and showed up. The score measures whether they can perform the skill under the timer on a problem they have never seen." />
 
@@ -248,7 +253,9 @@ of it. Slow down. This slide can hold 30 seconds on its own.
 layout: two-cols
 ---
 
-<!-- slide:015 — S1 · Q2. The consequence, in their house. -->
+<!--
+ slide:015 — S1 · Q2. The consequence, in their house. 
+-->
 
 <div class="sp-kicker">Same student, different test</div>
 
@@ -288,7 +295,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:016 — S1 · Q3. -->
+<!--
+ slide:016 — S1 · Q3. 
+-->
 
 <div class="sp-quiz mx-auto" style="max-width: 46rem;">
 <div class="sp-quiz-n">Question 3 &middot; True or False</div>
@@ -306,7 +315,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:017 — S1 · Q3 verdict. -->
+<!--
+ slide:017 — S1 · Q3 verdict. 
+-->
 
 <div class="sp-verdict f">FALSE.</div>
 
@@ -318,7 +329,9 @@ SPOKEN: "False."
 layout: two-cols
 ---
 
-<!-- slide:018 — S1 · Q3. Skill, not recall. -->
+<!--
+ slide:018 — S1 · Q3. Skill, not recall. 
+-->
 
 <div class="sp-kicker">It is a skill, not a fact</div>
 
@@ -357,7 +370,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:018b — SCENE FRAME, lifted from the VSL render (scene 15_why_1). -->
+<!--
+ slide:018b — SCENE FRAME, lifted from the VSL render (scene 15_why_1). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/15_why_1.png" alt="Studying harder just means reading more. Reading is passive, the exam is active." />
 
@@ -374,7 +389,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:019 — S1 · Q4. 🔴 RESTORED from the January script. The strongest of the five. -->
+<!--
+ slide:019 — S1 · Q4. 🔴 RESTORED from the January script. The strongest of the five. 
+-->
 
 <div class="sp-quiz mx-auto" style="max-width: 46rem;">
 <div class="sp-quiz-n">Question 4 &middot; True or False</div>
@@ -402,7 +419,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:020 — S1 · Q4 verdict. The hardest one to say out loud. -->
+<!--
+ slide:020 — S1 · Q4 verdict. The hardest one to say out loud. 
+-->
 
 <div class="sp-verdict f">FALSE.</div>
 
@@ -423,7 +442,9 @@ and you say so explicitly in the next section.
 layout: two-cols
 ---
 
-<!-- slide:021 — S1 · Q4. Effort without strategy. -->
+<!--
+ slide:021 — S1 · Q4. Effort without strategy. 
+-->
 
 <div class="sp-kicker">Effort is necessary. It is not sufficient.</div>
 
@@ -453,11 +474,6 @@ barely taught in school in the first place is the first one to go. Six weeks fro
 gap is set, and it's still invisible in the grade. The teen who starts now walks into May
 doing review, not repair." [click x4]
 
-🔴 THE DIAGRAM WAS RESEASONED 2026-08-15 AND THE COPY FOLLOWS IT. Both used to argue "the
-summer gap: three months off and the skills drain away". That is the AP SUMMER deck's case,
-and on 26 August it argues backwards because summer is already over. Both now argue the
-first six weeks of term, which is this webinar's actual deadline.
-
 ⚠️ NEVER say or imply "your teen is lazy" or "your teen is not working hard enough".
 The whole point of this beat is the opposite: they ARE working hard, at the wrong target.
 -->
@@ -467,7 +483,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:021b — SCENE FRAME, lifted from the VSL render (scene 16_why_2). -->
+<!--
+ slide:021b — SCENE FRAME, lifted from the VSL render (scene 16_why_2). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/16_why_2.png" alt="More content stacks on top of the gap. It never touches it." />
 
@@ -484,7 +502,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:022 — S1 · Q5. The only TRUE. Ends the quiz on hope, not fear. -->
+<!--
+ slide:022 — S1 · Q5. The only TRUE. Ends the quiz on hope, not fear. 
+-->
 
 <div class="sp-quiz mx-auto" style="max-width: 46rem;">
 <div class="sp-quiz-n">Question 5 &middot; True or False</div>
@@ -502,7 +522,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:023 — S1 · Q5 verdict. THE ONLY GREEN VERDICT IN THE DECK. -->
+<!--
+ slide:023 — S1 · Q5 verdict. THE ONLY GREEN VERDICT IN THE DECK. 
+-->
 
 <div class="sp-verdict t">TRUE.</div>
 
@@ -518,7 +540,9 @@ turns the section from "everything you believe is wrong" into "and here is the u
 layout: two-cols
 ---
 
-<!-- slide:024 — S1 · Q5. The tuition lever, stated carefully. -->
+<!--
+ slide:024 — S1 · Q5. The tuition lever, stated carefully. 
+-->
 
 <div class="sp-kicker">Why that one is true</div>
 
@@ -561,7 +585,9 @@ on purpose. Leave it there.
 layout: center
 ---
 
-<!-- slide:025 — S1. Score it. Second chat commitment. -->
+<!--
+ slide:025 — S1. Score it. Second chat commitment. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">How many did you get right?</div>
@@ -580,7 +606,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:026 — S1. The absolution. This is the bridge into Section 2. -->
+<!--
+ slide:026 — S1. The absolution. This is the bridge into Section 2. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c08_fog_dissolving.png" alt="Fog beginning to clear over an open path" />
 <div class="sp-scrim-c"></div>

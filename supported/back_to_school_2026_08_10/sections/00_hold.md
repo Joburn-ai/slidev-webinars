@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<!-- slide:001 — S0 HOLD. Camera on. First words of the night. -->
+<!--
+ slide:001 — S0 HOLD. Camera on. First words of the night. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Back-to-School Game Plan &middot; Live</div>
@@ -25,7 +27,9 @@ Warm, unhurried. Do not start teaching yet. Let the room fill.
 layout: two-cols
 ---
 
-<!-- slide:002 — S0. First chat interaction. Get their hands moving early. -->
+<!--
+ slide:002 — S0. First chat interaction. Get their hands moving early. 
+-->
 
 <div class="sp-kicker">While we wait</div>
 <div class="sp-h2">What AP exam is your teen taking this spring?</div>
@@ -63,16 +67,15 @@ Drop it in the chat."
 🔴 THIS IS THE FIRST COMMITMENT OF THE NIGHT and it is the cheapest one you will ask for.
 A parent who types once will type again. Wait for real volume before moving on. If the chat
 is thin, ask a second time: "Even just the subject. I want to see who is in the room."
-
-The chip wall is deliberately long (20 subjects, John 2026-08-15) so that whatever a parent
-types, they can see it on screen. It is a menu, not a prediction.
 -->
 
 ---
 layout: default
 ---
 
-<!-- slide:003 — S0. Read the chat back. 🔴 NO ASSUMPTIONS ABOUT THE ROOM. -->
+<!--
+ slide:003 — S0. Read the chat back. 🔴 NO ASSUMPTIONS ABOUT THE ROOM. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Reading the room</div>
@@ -93,14 +96,6 @@ reaction each, then move.
   "AP Bio, love it."  ·  "APUSH, big one."  ·  "AP Calc BC, respect."
   "Someone said AP Lit, that's a tough one to prep for."
 
-🔴🔴 THE CARDS ARE DELIBERATELY EMPTY AND MUST STAY EMPTY. John, 2026-08-15: "we can't
-make assumptions on like who's in here, but we can leave space for Joe to write it down
-with the notes."
-
-The previous version PRINTED "AP Bio. Love it. / APUSH. Big one. / AP Calc BC. Respect."
-as though those were the answers. If nobody in the room is taking AP Bio, the slide is
-lying about the audience, and the warmest moment of the first five minutes turns cold.
-
 Print the question. Perform the reaction.
 -->
 
@@ -109,7 +104,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:004 — S0. 🔴 THE PEN ASK. A real instruction, not a throwaway. -->
+<!--
+ slide:004 — S0. 🔴 THE PEN ASK. A real instruction, not a throwaway. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c09_student_desk_timed.png" alt="A desk set for timed work, a clock beside it" />
 <div class="sp-scrim-c"></div>
@@ -135,18 +132,15 @@ SPOKEN, and do not rush this: "Before we start, I want you to grab a pen and pap
 going to want to take notes tonight. If you're on the move, that's understandable. But if
 you can, go and get one, because you'll get so much more out of the next 45 minutes."
 [click] [click]
-
-🔴 THE CALLOUT BAR AT THE TOP IS THE POINT (John, 2026-08-15). The pen ask was previously
-one line that scrolled past. Getting a pen into their hand is what converts a viewer into
-a participant, and a participant is who books a call at the end. Give it real time. Say
-"I'll wait" and actually wait three or four seconds.
 -->
 
 ---
 layout: default
 ---
 
-<!-- slide:005 — S0. Why the pen is worth getting. The stakes, stated plainly. -->
+<!--
+ slide:005 — S0. Why the pen is worth getting. The stakes, stated plainly. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Why it is worth it</div>
@@ -178,10 +172,6 @@ scholarships. And a school year that actually goes the way you wanted it to. The
 much in here that nobody else is talking about. I have not seen anybody teaching this
 stuff. So focus up and pay attention." [click x4]
 
-🔴 NEW SLIDE, John 2026-08-15. The stakes used to be a single clause on the pen slide.
-It gets its own frame with the three concrete forms the money takes, because "tens of
-thousands" is abstract until you say WHERE it comes from.
-
 ⚠️ CLAIM DISCIPLINE. "Tens of thousands" is a RANGE and it is defensible, because AP credit
 does convert to tuition not paid. The qualifier line stays on screen.
    DO NOT SAY: "$40,000", "$2.8 million", "guaranteed credit", "every school".
@@ -192,7 +182,9 @@ does convert to tuition not paid. The qualifier line stays on screen.
 layout: center
 ---
 
-<!-- slide:006 — S0. Do not rely on memory. -->
+<!--
+ slide:006 — S0. Do not rely on memory. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Do not rely on memory.</div>
@@ -217,7 +209,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:007 — S0. The handoff into the quiz. -->
+<!--
+ slide:007 — S0. The handoff into the quiz. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Got your pen?</div>

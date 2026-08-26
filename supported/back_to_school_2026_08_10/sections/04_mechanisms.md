@@ -2,7 +2,9 @@
 layout: center
 ---
 
-<!-- slide:053 — S4. Frame the three. Promise the payoff. -->
+<!--
+ slide:053 — S4. Frame the three. Promise the payoff. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Across the students we coach, I have found <strong>three breakthroughs.</strong></div>
@@ -32,7 +34,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:053b — SCENE FRAME, lifted from the VSL render (scene 08_three_fixes). -->
+<!--
+ slide:053b — SCENE FRAME, lifted from the VSL render (scene 08_three_fixes). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/08_three_fixes.png" alt="The same three fixes." />
 
@@ -49,7 +53,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:054 — S4 · B1 marker. -->
+<!--
+ slide:054 — S4 · B1 marker. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Breakthrough 1</div>
@@ -65,7 +71,9 @@ SPOKEN: "Breakthrough number one. AP Insider Intelligence."
 layout: center
 ---
 
-<!-- slide:055 — S4 · B1. The core claim of the breakthrough. -->
+<!--
+ slide:055 — S4 · B1. The core claim of the breakthrough. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">The AP exam is not a content test.</div>
@@ -85,7 +93,9 @@ Short, declarative, no hedging. This is the thesis of the whole section.
 layout: two-cols
 ---
 
-<!-- slide:056 — S4 · B1. Why the teacher cannot close this gap. -->
+<!--
+ slide:056 — S4 · B1. Why the teacher cannot close this gap. 
+-->
 
 <div class="sp-kicker">Why school cannot close this</div>
 
@@ -121,7 +131,9 @@ Again: NOT an attack on teachers. Same rule as Section 2.
 layout: center
 ---
 
-<!-- slide:057 — S4 · B1. The authority beat. Short and specific. -->
+<!--
+ slide:057 — S4 · B1. The authority beat. Short and specific. 
+-->
 
 <div class="text-center">
 <div class="sp-h2 mx-auto">I have. Our coaches have.</div>
@@ -145,7 +157,9 @@ affiliation or certification. Never let it drift into "College Board certified" 
 layout: default
 ---
 
-<!-- slide:058 — S4 · B1. The two halves, side by side. -->
+<!--
+ slide:058 — S4 · B1. The two halves, side by side. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">The two halves</div>
@@ -183,7 +197,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:059 — S4 · B1. The diagnostic principle, full frame from the VSL render. -->
+<!--
+ slide:059 — S4 · B1. The diagnostic principle, full frame from the VSL render. 
+-->
 
 <img class="sp-bleed fit" src="/images/vsl/slide_20_bloodwork.png" alt="Good medicine measures first. Run the blood work, read it, then prescribe." />
 
@@ -204,7 +220,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:059b — SCENE FRAME, lifted from the VSL render (scene 25_mrb). -->
+<!--
+ slide:059b — SCENE FRAME, lifted from the VSL render (scene 25_mrb). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/25_mrb.png" alt="Measure. Read. Build. In that order." />
 
@@ -221,7 +239,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:060 — S4 · B1. Name the mechanism. -->
+<!--
+ slide:060 — S4 · B1. Name the mechanism. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">The Rubric Flip</div>
@@ -237,7 +257,9 @@ Gold ground. Naming the mechanism makes it ownable and repeatable.
 layout: center
 ---
 
-<!-- slide:061 — S4 · B1. What the flip is. -->
+<!--
+ slide:061 — S4 · B1. What the flip is. 
+-->
 
 <div class="text-center">
 <div class="sp-sub mx-auto">Instead of studying content and hoping it translates...</div>
@@ -257,7 +279,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:062 — S4 · B1. The diagnostic, made concrete. Full frame. -->
+<!--
+ slide:062 — S4 · B1. The diagnostic, made concrete. Full frame. 
+-->
 
 <img class="sp-bleed fit" src="/images/vsl/slide_22_step1.png" alt="Step one, measure. The AP Skills Diagnostic measures the exact skill the exam scores and shows where your child is losing points, before exam day." />
 
@@ -273,7 +297,9 @@ not after."
 layout: two-cols
 ---
 
-<!-- slide:063 — S4 · B1. What the diagnostic actually produces. -->
+<!--
+ slide:063 — S4 · B1. What the diagnostic actually produces. 
+-->
 
 <div class="sp-kicker">Week one</div>
 
@@ -312,7 +338,9 @@ product beats a concept illustration every time at this point in the argument.
 layout: center
 ---
 
-<!-- slide:064 — S4 · B1. The payoff of breakthrough one. -->
+<!--
+ slide:064 — S4 · B1. The payoff of breakthrough one. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">The exam stops feeling unpredictable.</div>
@@ -332,7 +360,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:065 — S4 · B1. ENGAGEMENT GATE 1. -->
+<!--
+ slide:065 — S4 · B1. ENGAGEMENT GATE 1. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">Can you see how knowing what graders look for, rather than what the textbook says, would <strong>change everything?</strong></div>
@@ -353,7 +383,9 @@ If the chat is slow, ask directly: "I need to see it, type YES."
 layout: center
 ---
 
-<!-- slide:066 — S4. Handoff to breakthrough two. -->
+<!--
+ slide:066 — S4. Handoff to breakthrough two. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Good.</div>
@@ -372,7 +404,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:067 — S4 · B2 marker. -->
+<!--
+ slide:067 — S4 · B2 marker. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Breakthrough 2</div>
@@ -388,7 +422,9 @@ SPOKEN: "Breakthrough two. Response Mastery."
 layout: two-cols
 ---
 
-<!-- slide:068 — S4 · B2. The freeze. Concrete, visual, and it is what parents have seen. -->
+<!--
+ slide:068 — S4 · B2. The freeze. Concrete, visual, and it is what parents have seen. 
+-->
 
 <div class="sp-kicker">Here is what happens on exam day</div>
 
@@ -426,7 +462,9 @@ second before you explain it.
 layout: center
 ---
 
-<!-- slide:069 — S4 · B2. Diagnose the freeze correctly. -->
+<!--
+ slide:069 — S4 · B2. Diagnose the freeze correctly. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Not because they do not know the material.</div>
@@ -445,7 +483,9 @@ the response." [click]
 layout: default
 ---
 
-<!-- slide:070 — S4 · B2. Every subject has its own architecture. -->
+<!--
+ slide:070 — S4 · B2. Every subject has its own architecture. 
+-->
 
 <div class="text-center">
 <div class="sp-h2 mx-auto">Every subject has its own <strong>response architecture.</strong></div>
@@ -466,12 +506,6 @@ layout: default
 SPOKEN: "AP History essays are not AP Bio explanations. AP English is not AP Calc. Every
 subject has its own response architecture. And if you miss it, the points simply don't get
 awarded." [click x5]
-
-🔴 CLAIM CHANGE, DELIBERATE. The old slide said "Miss it? 20 to 40 points left on the table.
-Every exam." and an earlier slide said "format traps that cost 10 to 15 points". BOTH CUT.
-Those are precise numeric claims with no source on file, and AP scoring is 1 to 5, so
-"20 to 40 points" is not even a unit the audience can check. Qualitative is stronger here
-AND defensible. Do not reinstate numbers without a cited rubric.
 -->
 
 ---
@@ -479,7 +513,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:071 — S4 · B2. Name the mechanism. -->
+<!--
+ slide:071 — S4 · B2. Name the mechanism. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Response Blueprints</div>
@@ -495,7 +531,9 @@ Gold ground. The last gear-change before the demonstration.
 layout: two-cols
 ---
 
-<!-- slide:072 — S4 · B2. What a blueprint covers. -->
+<!--
+ slide:072 — S4 · B2. What a blueprint covers. 
+-->
 
 <div class="sp-kicker">A blueprint for every question type</div>
 
@@ -532,7 +570,9 @@ out loud: "this is the actual library, thirty four courses". Tangibility beats a
 layout: default
 ---
 
-<!-- slide:073 — S4 · B2. Automaticity, and the timeline. -->
+<!--
+ slide:073 — S4 · B2. Automaticity, and the timeline. 
+-->
 
 <div class="sp-split auto">
 <div>
@@ -564,10 +604,6 @@ SPOKEN: "Your teen practises it until it's automatic. Like running plays in a sp
 don't think, you execute. By week four they know the structure for any prompt in their
 subject. And by week eight, practice scores are typically moving in the right direction."
 [click x5]
-
-🔴 CLAIM CHANGE, DELIBERATE. The old slide said "By Week 8: practice scores hit 4s and 5s
-consistently." THAT IS A PERFORMANCE GUARANTEE ON A TIMELINE and it is not defensible.
-Softened to "typically moving in the right direction". Do not re-tighten it.
 -->
 
 ---
@@ -575,7 +611,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:074 — S4 · B2. ENGAGEMENT GATE 2. -->
+<!--
+ slide:074 — S4 · B2. ENGAGEMENT GATE 2. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">If your teen had a blueprint for <strong>every question type</strong> in May, how much stress would disappear?</div>
@@ -595,7 +633,9 @@ stress, not the teen's score. That is deliberate; the parent is the buyer.
 layout: center
 ---
 
-<!-- slide:075 — S4. Handoff to breakthrough three. -->
+<!--
+ slide:075 — S4. Handoff to breakthrough three. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">One more breakthrough.</div>
@@ -614,7 +654,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:076 — S4 · B3 marker. -->
+<!--
+ slide:076 — S4 · B3 marker. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Breakthrough 3</div>
@@ -630,7 +672,9 @@ SPOKEN: "Breakthrough three. Pre-Grade Confidence."
 layout: center
 ---
 
-<!-- slide:077 — S4 · B3. The question that opens it. -->
+<!--
+ slide:077 — S4 · B3. The question that opens it. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Right now, does your teen <strong>know</strong> what score they will get in May?</div>
@@ -652,7 +696,9 @@ beat between each. This is the payoff of "certainty" from Section 2.
 layout: two-cols
 ---
 
-<!-- slide:078 — S4 · B3. Walking in blind. -->
+<!--
+ slide:078 — S4 · B3. Walking in blind. 
+-->
 
 <div class="sp-kicker">Most students walk in blind</div>
 
@@ -687,7 +733,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:079 — S4 · B3. The line that names the problem. -->
+<!--
+ slide:079 — S4 · B3. The line that names the problem. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Hope is not a strategy.</div>
@@ -703,7 +751,9 @@ Five words on black. Full stop. This is the most quotable line in the deck; let 
 layout: default
 ---
 
-<!-- slide:080 — S4 · B3. The system, laid out. -->
+<!--
+ slide:080 — S4 · B3. The system, laid out. 
+-->
 
 <div class="sp-split auto">
 <div>
@@ -744,11 +794,7 @@ Projected score, gaps named, and the drills to close them." [click x4]
 layout: center
 ---
 
-<!-- slide:080b — S4 · B3. The payoff line, given its own frame.
-     SPLIT OUT 2026-08-15: it used to sit under the four-bullet split on 080. At the
-     corrected display size the column overflowed the frame by 8px — caught by
-     scripts/overflow_check.py, invisible to any scrollWidth assertion because Slidev
-     clips. The fix is a second slide, never a smaller headline. -->
+
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">By practice exam four, <span class="gold">they know.</span></div>
@@ -765,7 +811,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:081 — S4 · B3. The moment, made concrete. -->
+<!--
+ slide:081 — S4 · B3. The moment, made concrete. 
+-->
 
 <div class="sp-kicker">Three weeks before the exam</div>
 <div class="sp-say mx-auto mt-2">Fourth practice test done. The report comes back.</div>
@@ -789,7 +837,9 @@ The number on it is whatever the work says it is."
 layout: center
 ---
 
-<!-- slide:082 — S4 · B3. THE CALLBACK. Pays off the phrase planted in Section 2. -->
+<!--
+ slide:082 — S4 · B3. THE CALLBACK. Pays off the phrase planted in Section 2. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">How does that feel next to <span style="opacity:0.5;">"I think I did okay"?</span></div>
@@ -807,7 +857,7 @@ The contrast is the entire point of the section.
 layout: two-cols
 ---
 
-<!-- slide:083 — S4 · B3. The student story. ⚠️ NAME REMOVED, NEEDS A CLEARED STORY. -->
+
 
 <div class="sp-kicker">One of our students</div>
 
@@ -840,9 +890,6 @@ SPOKEN: "One of our students was a year-round athlete. Very little spare time. C
 the four practice exams anyway. Walked into APUSH like it was a Tuesday. Got a five."
 [click x4]
 
-🔴🔴 NAME REMOVED ON PURPOSE. This slide used to say "Student named Bryce". BRYCE IS NOT IN
-THE CLEARED SET. The cleared names are NABILA, LAURA and AVERY, and only those three.
-
    👉 OPEN ITEM FOR JOE: either confirm Bryce is cleared with a signed testimonial on file,
       or give us the equivalent story for Nabila, Laura or Avery and we will name them and
       put their photo on this slide. Until then it runs unnamed.
@@ -855,7 +902,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:084 — S4 · B3. ENGAGEMENT GATE 3. The biggest one. -->
+<!--
+ slide:084 — S4 · B3. ENGAGEMENT GATE 3. The biggest one. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">How powerful would it be for your teen to walk in <strong>knowing</strong>, rather than hoping, because they have already done it four times?</div>

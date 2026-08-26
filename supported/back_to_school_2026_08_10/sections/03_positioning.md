@@ -2,7 +2,9 @@
 layout: center
 ---
 
-<!-- slide:047 — S3. Pre-empt the question rather than announcing yourself. -->
+<!--
+ slide:047 — S3. Pre-empt the question rather than announcing yourself. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Who am I?</div>
@@ -23,7 +25,9 @@ is the whole trick of this section.
 layout: two-cols
 ---
 
-<!-- slide:048 — S3. Negative positioning first. What you are NOT. -->
+<!--
+ slide:048 — S3. Negative positioning first. What you are NOT. 
+-->
 
 <div class="sp-kicker">First, what I am not</div>
 
@@ -58,7 +62,9 @@ brag.
 layout: default
 ---
 
-<!-- slide:049 — S3. The person. -->
+<!--
+ slide:049 — S3. The person. 
+-->
 
 <div class="sp-split auto">
 <div>
@@ -92,11 +98,6 @@ this happen from the inside." [click] [click]
 NEVER say "College Board certified". The January script says "College Board Certified in AP
 instruction" and that phrasing is NOT cleared and must not be spoken.
 
-🔴🔴 A SECOND PHOTO WAS REMOVED FROM THIS SLIDE ON 2026-08-15 AND MUST NOT COME BACK.
-`joe-conf.png` showed Joe speaking at a "GLOBAL INNOVATION SUMMIT". It is AI-GENERATED:
-its XMP carries DigitalSourceType=trainedAlgorithmicMedia and Credit=Google AI, and the
-Google Gemini four-point sparkle watermark is visible in the bottom-right corner.
-
 It was a fabricated image of a real, named person at a named event, sitting on the one
 slide whose whole job is credibility. It is now in public/_quarantine/ with the evidence.
 If a stage shot is wanted here, get a REAL photograph from Joe.
@@ -107,7 +108,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:050 — S3. 🔴 THE CLAIM SLIDE. The cleared statistic appears HERE and NOWHERE ELSE. -->
+<!--
+ slide:050 — S3. 🔴 THE CLAIM SLIDE. The cleared statistic appears HERE and NOWHERE ELSE. 
+-->
 
 <div class="sp-kicker">The numbers</div>
 
@@ -134,17 +137,6 @@ Results vary by student."
 🔴🔴 READ THIS BEFORE YOU PRESENT. THIS IS THE ONLY CLEARED STATISTIC IN THE DECK AND IT
 APPEARS EXACTLY ONCE, HERE.
 
-  ✅ CLEARED:  "89% of our students score 4s or 5s versus about 22% nationally"
-               + "results vary", said once.
-  ❌ NOT CLEARED, DO NOT SAY:
-     - "over 600 students" (was on this slide, CUT, no source on file)
-     - "saved families over $2.8 million"
-     - "every AP credit is worth $1,500 to $3,000"
-     - "worth at least $50,000 in long-term value"
-     - "$11,774 minimum over four years"
-     - "College Board certified"
-     - National AP Scholar (Joe killed this himself)
-
 🔴 THE 22 vs 35 CONFLICT, UNRESOLVED AS OF 2026-08-15. Joe habitually says the national
 number is "about 30 to 40%, I'd say about 35%". THE EMAILS SAY 22%. If Joe says 35 on
 stage while the emails say 22, the proof stack contradicts itself in front of the buyers.
@@ -158,7 +150,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:050b — SCENE FRAME, lifted from the VSL render (scene 06_no_sense). -->
+<!--
+ slide:050b — SCENE FRAME, lifted from the VSL render (scene 06_no_sense). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/06_no_sense.png" alt="For years I watched something that made no sense." />
 
@@ -174,7 +168,9 @@ a headline on top of it. Talk over it.
 layout: center
 ---
 
-<!-- slide:051 — S3. The why. This is what actually builds trust, not the stat. -->
+<!--
+ slide:051 — S3. The why. This is what actually builds trust, not the stat. 
+-->
 
 <div class="text-center">
 <div class="sp-h2 mx-auto">But here is what matters to me.</div>
@@ -202,7 +198,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:052 — S3 close. Hand off into the teaching. -->
+<!--
+ slide:052 — S3 close. Hand off into the teaching. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c10_climbing_steps.png" alt="Ascending steps rising from navy into gold" />
 <div class="sp-scrim-c"></div>

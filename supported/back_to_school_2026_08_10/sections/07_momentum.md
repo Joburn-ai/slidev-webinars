@@ -2,7 +2,9 @@
 layout: center
 ---
 
-<!-- slide:122 — S7. Frame the ladder. -->
+<!--
+ slide:122 — S7. Frame the ladder. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Before I show you what is next.</div>
@@ -28,7 +30,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:123 — S7 · Q1. -->
+<!--
+ slide:123 — S7 · Q1. 
+-->
 
 <div class="sp-num">1</div>
 <div class="sp-h2 mx-auto mt-6">Can you feel how <strong>different</strong> this is from every other AP prep solution you have seen?</div>
@@ -42,7 +46,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:124 — S7 · Q2. -->
+<!--
+ slide:124 — S7 · Q2. 
+-->
 
 <div class="sp-num">2</div>
 <div class="sp-h2 mx-auto mt-6">Has it been eye-opening that the gap between a 3 and a 5 is not effort?</div>
@@ -64,7 +70,9 @@ layout: default
 class: text-center nomark night
 ---
 
-<!-- slide:125 — S7 · Q3. Navy, to break the run and mark the halfway point. -->
+<!--
+ slide:125 — S7 · Q3. Navy, to break the run and mark the halfway point. 
+-->
 
 <div class="sp-num">3</div>
 <div class="sp-h2 sp-onimg mx-auto mt-6">Are you starting to see that your teen's <strong>potential</strong> was never the problem?</div>
@@ -85,7 +93,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:126 — S7 · Q4. -->
+<!--
+ slide:126 — S7 · Q4. 
+-->
 
 <div class="sp-num">4</div>
 <div class="sp-h2 mx-auto mt-6">Can you see the advantage in coaches who have actually <strong>graded</strong> AP exams?</div>
@@ -93,10 +103,6 @@ class: text-center
 <!--
 SPOKEN: "Can you see it? Coaches who have actually graded AP exams. That's a real
 advantage."
-
-⚠️ CLAIM CHANGE. The old slide said "That's an UNFAIR advantage." Softened to "a real
-advantage". "Unfair" reads as gaming the system, which is the opposite of what this
-programme is, and it is the kind of word that gets clipped out of context.
 -->
 
 ---
@@ -104,7 +110,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:127 — S7 · Q5. -->
+<!--
+ slide:127 — S7 · Q5. 
+-->
 
 <div class="sp-num">5</div>
 <div class="sp-h2 mx-auto mt-6">Would knowing your teen's projected score <strong>before</strong> exam day change how this term feels?</div>
@@ -112,10 +120,6 @@ class: text-center
 <!--
 SPOKEN: "Wouldn't you agree that knowing your teen's projected score before exam day would
 change how this whole term feels?"
-
-🔴 CLAIM CHANGE, DELIBERATE. The old slide said it "would kill 90% of your stress." CUT.
-That is an invented statistic about someone else's emotional state. The rewritten version
-asks the same question without pretending to measure it.
 -->
 
 ---
@@ -123,7 +127,9 @@ layout: default
 class: text-center nomark night
 ---
 
-<!-- slide:128 — S7 · Q6. Navy, because it is the one that carries the money frame. -->
+<!--
+ slide:128 — S7 · Q6. Navy, because it is the one that carries the money frame. 
+-->
 
 <div class="sp-num">6</div>
 <div class="sp-h2 sp-onimg mx-auto mt-6">And the right AP scores could genuinely change <strong>what you pay for college.</strong></div>
@@ -132,14 +138,6 @@ class: text-center nomark night
 
 <!--
 SPOKEN: "And the right AP scores could genuinely change what you pay for college."
-
-🔴🔴 CLAIM CHANGE, THE MOST IMPORTANT ONE IN THIS SECTION. The old slide said:
-"The right AP scores could save your family $100,000+."
-
-THAT IS CUT AND MUST NOT BE REINSTATED. There is no source for it, it is roughly double the
-already-uncleared $50,000 figure in the January script, and it is the single most
-screenshot-able line in the deck. The rewritten version keeps the financial frame and
-claims nothing specific.
 -->
 
 ---
@@ -147,7 +145,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:129 — S7 close. THE TURN. Everything after this is the ask. -->
+<!--
+ slide:129 — S7 close. THE TURN. Everything after this is the ask. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">Here is what I want to do for you this term.</div>

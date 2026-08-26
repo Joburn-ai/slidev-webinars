@@ -2,7 +2,9 @@
 layout: center
 ---
 
-<!-- slide:085 — S5. Set up the demonstration. Show, do not tell. -->
+<!--
+ slide:085 — S5. Set up the demonstration. Show, do not tell. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">I do not want you to take my word for it.</div>
@@ -26,7 +28,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:086 — S5. The instruction. -->
+<!--
+ slide:086 — S5. The instruction. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Grab your pen.</div>
@@ -47,7 +51,9 @@ where they pick it up again.
 layout: default
 ---
 
-<!-- slide:087 — S5. The setup, stated precisely. -->
+<!--
+ slide:087 — S5. The setup, stated precisely. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">The setup</div>
@@ -83,7 +89,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:087b — SCENE FRAME, lifted from the VSL render (scene 07_a_vs_3). -->
+<!--
+ slide:087b — SCENE FRAME, lifted from the VSL render (scene 07_a_vs_3). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/07_a_vs_3.png" alt="The difference between an A in the class and a 3 on the exam." />
 
@@ -100,7 +108,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:088 — S5. The prompt. Give them real reading time. -->
+<!--
+ slide:088 — S5. The prompt. Give them real reading time. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">The prompt</div>
@@ -123,7 +133,9 @@ and the word "extent" is what the whole Thesis criterion turns on later.
 layout: default
 ---
 
-<!-- slide:089 — S5. ESSAY A, verbatim. -->
+<!--
+ slide:089 — S5. ESSAY A, verbatim. 
+-->
 
 <div class="sp-kicker">Response A</div>
 
@@ -140,7 +152,9 @@ The whole point is that it sounds FINE.
 layout: center
 ---
 
-<!-- slide:090 — S5. Name what A is. This is the recognition beat. -->
+<!--
+ slide:090 — S5. Name what A is. This is the recognition beat. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Does that look familiar?</div>
@@ -158,10 +172,6 @@ layout: center
 SPOKEN: "Does that look familiar? That is what an A-grade classroom essay looks like.
 Facts, events, knowledge. And I want to be clear, it is not a bad piece of work." [click x2]
 
-🔴 CLAIM CHANGE. The old slide said "Most teachers give this a 90%." CUT. No source, and it
-puts a number on other people's grading. "This is what an A-grade classroom essay looks
-like" makes the same point and is an observation rather than a statistic.
-
 ⚠️ BE GENEROUS ABOUT ESSAY A. Some parent in that room has a kid who writes exactly like
 this. If you mock it, you mock their child.
 -->
@@ -171,7 +181,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:091 — S5. The turn. -->
+<!--
+ slide:091 — S5. The turn. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">So what did the AP grader give it?</div>
@@ -188,7 +200,9 @@ what carries attention through the next slide.
 layout: default
 ---
 
-<!-- slide:092 — S5. ESSAY B, verbatim. -->
+<!--
+ slide:092 — S5. ESSAY B, verbatim. 
+-->
 
 <div class="sp-kicker">Response B</div>
 
@@ -204,7 +218,9 @@ SPOKEN: Read it out loud at the same pace as Essay A.
 layout: center
 ---
 
-<!-- slide:093 — S5. Pre-empt the cynical read. -->
+<!--
+ slide:093 — S5. Pre-empt the cynical read. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Seems fancier.</div>
@@ -231,7 +247,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:094 — S5. THE COMMITMENT. They must guess before the reveal. -->
+<!--
+ slide:094 — S5. THE COMMITMENT. They must guess before the reveal. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Which one scored a 5?</div>
@@ -252,7 +270,9 @@ slides are just you talking about rubrics.
 layout: center
 ---
 
-<!-- slide:095 — S5. Acknowledge the split. -->
+<!--
+ slide:095 — S5. Acknowledge the split. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">I see a mix. Good.</div>
@@ -275,7 +295,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:096 — S5. Establish the rubric's authority. -->
+<!--
+ slide:096 — S5. Establish the rubric's authority. 
+-->
 
 <div class="text-center">
 <div class="sp-h2 sp-onimg mx-auto">This is the <strong>actual</strong> rubric AP graders use.</div>
@@ -299,7 +321,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:097 — S5 · C1. Criterion 1. -->
+<!--
+ slide:097 — S5 · C1. Criterion 1. 
+-->
 
 <div class="sp-kicker">Criterion 1 of 5</div>
 <div class="sp-h1 mx-auto">Contextualization</div>
@@ -323,7 +347,9 @@ context." [click x2]
 layout: two-cols
 ---
 
-<!-- slide:098 — S5 · C1. Essay A under the criterion. -->
+<!--
+ slide:098 — S5 · C1. Essay A under the criterion. 
+-->
 
 <div class="sp-kicker">Response A says</div>
 
@@ -360,7 +386,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:099 — S5 · C1. A scores zero. -->
+<!--
+ slide:099 — S5 · C1. A scores zero. 
+-->
 
 <div class="sp-verdict f">NO.</div>
 
@@ -376,7 +404,9 @@ SPOKEN: "No. Zero points. It jumps straight into 'the Revolution happened.'" [cl
 layout: two-cols
 ---
 
-<!-- slide:100 — S5 · C1. Essay B under the criterion. -->
+<!--
+ slide:100 — S5 · C1. Essay B under the criterion. 
+-->
 
 <div class="sp-kicker">Response B says</div>
 
@@ -407,7 +437,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:101 — S5 · C1. B scores one. -->
+<!--
+ slide:101 — S5 · C1. B scores one. 
+-->
 
 <div class="sp-verdict t">YES.</div>
 
@@ -425,7 +457,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:102 — S5. RUNNING SCOREBOARD 1. -->
+<!--
+ slide:102 — S5. RUNNING SCOREBOARD 1. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Running score</div>
@@ -449,7 +483,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:103 — S5 · C2. Criterion 2. -->
+<!--
+ slide:103 — S5 · C2. Criterion 2. 
+-->
 
 <div class="sp-kicker">Criterion 2 of 5</div>
 <div class="sp-h1 mx-auto">Thesis</div>
@@ -468,7 +504,9 @@ establishes a line of reasoning." [click]
 layout: center
 ---
 
-<!-- slide:104 — S5 · C2. The word the whole criterion turns on. -->
+<!--
+ slide:104 — S5 · C2. The word the whole criterion turns on. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">The prompt said <strong>"evaluate the extent."</strong></div>
@@ -495,7 +533,9 @@ tomorrow morning, make it this.
 layout: two-cols
 ---
 
-<!-- slide:105 — S5 · C2. A's thesis. -->
+<!--
+ slide:105 — S5 · C2. A's thesis. 
+-->
 
 <div class="sp-kicker">Response A thesis</div>
 
@@ -525,7 +565,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:106 — S5 · C2. A scores zero again. -->
+<!--
+ slide:106 — S5 · C2. A scores zero again. 
+-->
 
 <div class="sp-verdict f">NO.</div>
 
@@ -541,7 +583,9 @@ SPOKEN: "No. Zero. It's generic. 'Major turning point' says nothing about extent
 layout: two-cols
 ---
 
-<!-- slide:107 — S5 · C2. B's thesis. -->
+<!--
+ slide:107 — S5 · C2. B's thesis. 
+-->
 
 <div class="sp-kicker">Response B thesis</div>
 
@@ -573,7 +617,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:108 — S5 · C2. B scores again, and here is why. -->
+<!--
+ slide:108 — S5 · C2. B scores again, and here is why. 
+-->
 
 <div class="sp-verdict t">YES.</div>
 
@@ -595,7 +641,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:109 — S5. RUNNING SCOREBOARD 2. -->
+<!--
+ slide:109 — S5. RUNNING SCOREBOARD 2. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Running score</div>
@@ -615,7 +663,9 @@ SPOKEN: "A still has zero. B has two."
 layout: center
 ---
 
-<!-- slide:110 — S5. The interpretation. -->
+<!--
+ slide:110 — S5. The interpretation. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Same students. Same knowledge.</div>
@@ -634,7 +684,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:111 — S5. Land it on their child, and note how early we are. -->
+<!--
+ slide:111 — S5. Land it on their child, and note how early we are. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">Your teen with an A in class. Now losing points on the exam.</div>
@@ -657,7 +709,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:112 — S5. The remaining three, compressed. Tempo increases here on purpose. -->
+<!--
+ slide:112 — S5. The remaining three, compressed. Tempo increases here on purpose. 
+-->
 
 <div class="sp-kicker">Three criteria left</div>
 <div class="sp-h2 mx-auto">The gap gets wider.</div>
@@ -694,7 +748,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- slide:113 — S5. FINAL SCORE. The payoff of the whole exercise. -->
+<!--
+ slide:113 — S5. FINAL SCORE. The payoff of the whole exercise. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Final score</div>
@@ -716,7 +772,9 @@ Let it sit. This is the number the whole section was built to deliver.
 layout: default
 ---
 
-<!-- slide:114 — S5. What the scores mean. ⚠️ CLAIM-SENSITIVE. -->
+<!--
+ slide:114 — S5. What the scores mean. ⚠️ CLAIM-SENSITIVE. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">What that means in practice</div>
@@ -742,18 +800,15 @@ layout: default
 SPOKEN: "In practice, a 2 out of 7 is likely a 2 or a 3 on the exam, which is below the
 threshold most colleges use for credit. A 7 out of 7 is likely a 5, which is in credit
 range at a lot of institutions. And credit policies do vary."
-
-🔴 CLAIM CHANGE, DELIBERATE. The old slide said Essay B was worth "$3,000 to $8,000 saved."
-CUT. There is no source on file for that range, it varies wildly by institution and credit
-hour, and it is exactly the sort of number that gets quoted back at you. The credit-range
-framing carries the same weight and is true.
 -->
 
 ---
 layout: center
 ---
 
-<!-- slide:115 — S5. The equaliser. This protects the parent's child. -->
+<!--
+ slide:115 — S5. The equaliser. This protects the parent's child. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">Both students knew the material.</div>
@@ -785,7 +840,9 @@ layout: cover
 class: bleed text-center
 ---
 
-<!-- slide:116 — S5. Name the thing. -->
+<!--
+ slide:116 — S5. Name the thing. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c03_iceberg_grade.png" alt="An iceberg, a small tip above water and a vast mass below" />
 <div class="sp-scrim-c"></div>
@@ -806,7 +863,9 @@ layout: cover
 class: bleed
 ---
 
-<!-- slide:116b — SCENE FRAME, lifted from the VSL render (scene 14_villain_name). -->
+<!--
+ slide:116b — SCENE FRAME, lifted from the VSL render (scene 14_villain_name). 
+-->
 
 <img class="sp-bleed fit" src="/images/scene/14_villain_name.png" alt="A skills gap you were never given a way to see." />
 
@@ -823,7 +882,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:117 — S5. The emotional capture. -->
+<!--
+ slide:117 — S5. The emotional capture. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Type MIND BLOWN in the chat.</div>
@@ -841,7 +902,9 @@ feel loud.
 layout: center
 ---
 
-<!-- slide:118 — S5 close. The bridge to the ask. -->
+<!--
+ slide:118 — S5 close. The bridge to the ask. 
+-->
 
 <div class="text-center">
 <div class="sp-say mx-auto">If your teen writes like Response A right now...</div>

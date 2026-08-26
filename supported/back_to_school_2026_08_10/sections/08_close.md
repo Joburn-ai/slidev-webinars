@@ -3,7 +3,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:130 — S8. Set up the give. -->
+<!--
+ slide:130 — S8. Set up the give. 
+-->
 
 <div class="text-center">
 <div style="color:#fff;">
@@ -38,7 +40,9 @@ it's a fit."
 layout: default
 ---
 
-<!-- slide:131 — S8. THE REVEAL. -->
+<!--
+ slide:131 — S8. THE REVEAL. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">What you are getting</div>
@@ -54,10 +58,6 @@ layout: default
 <!--
 SPOKEN: "It's called the Back-to-School Game Plan. Here's what we build with you."
 
-🔴 THIS SLIDE WAS REBUILT. The old version stacked three student portraits, a full wall-of-
-reviews screenshot AND a full-bleed concept image on one slide. Five competing images, and
-the reviews screenshot was squeezed to 42% width where it was an illegible grey smear.
-
 🔴 THE REVIEWS SCREENSHOT IS NOW A CROPPED BAND, AND THAT IS A COMPLIANCE FIX, NOT A DESIGN
 ONE. The full screenshot names roughly ten families who are NOT in the cleared set and
 carries claims including "$240,000 in scholarships" and an SAT score jump. The band shows
@@ -69,7 +69,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:131b — S8. THE CLEARED STUDENTS. Three real faces, no claims attached. -->
+<!--
+ slide:131b — S8. THE CLEARED STUDENTS. Three real faces, no claims attached. 
+-->
 
 <div class="sp-kicker">Students we have coached</div>
 <div class="sp-h2 mx-auto">Real families. Real terms. Real work.</div>
@@ -114,7 +116,49 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:134 — S8 · VALUE STACK, part 1. 🔴 NO PRICE ANYWHERE ON THIS SLIDE. -->
+<!-- slide:133c - social proof, standard claims only -->
+
+<div class="sp-kicker">Where this comes from</div>
+<div class="sp-h2 mx-auto">Not a theory. A track record.</div>
+
+<div class="sp-grid c3 mt-8" style="max-width: 58rem; margin-inline: auto;">
+<v-click>
+  <div class="sp-card good"><div class="sp-num good">89%</div><div class="sp-numlabel mt-2">of our students score 4s or 5s</div></div>
+</v-click>
+<v-click>
+  <div class="sp-card"><div class="sp-num">456</div><div class="sp-numlabel mt-2">reviews from families</div></div>
+</v-click>
+<v-click>
+  <div class="sp-card"><div class="sp-num">14</div><div class="sp-numlabel mt-2">specialist AP coaches</div></div>
+</v-click>
+</div>
+
+<div class="sp-sub mt-8 mx-auto">Trusted by families nationwide.</div>
+<div class="sp-fine mt-3 mx-auto">Results vary by student.</div>
+
+<!--
+SPOKEN: "And this isn't a theory. Eighty-nine percent of our students score 4s or 5s.
+There are four hundred and fifty-six reviews from families on our site. And there are
+fourteen specialist AP coaches behind it, one of whom scores the real exam. Results do
+vary by student." [click x3]
+
+THE ONLY NUMBERS CLEARED FOR THIS DECK, and each one is checkable:
+   89%          the cleared stat
+   456 reviews  a review COUNT, not a results claim
+   14 coaches   countable on the team page
+   "Trusted by families nationwide" is SupportED's own site language.
+
+DO NOT ADD a families-helped number. "Over 600 students" has no source on file and does
+not appear on the site. If Joe supplies a substantiated figure it can go here.
+
+"Results vary by student" stays on screen whenever a score number is shown.
+-->
+
+---
+
+<!--
+ slide:134 — S8 · VALUE STACK, part 1. 🔴 NO PRICE ANYWHERE ON THIS SLIDE. 
+-->
 
 <div class="sp-kicker">What you are actually getting</div>
 <div class="sp-h2 mx-auto">Every piece of this exists to move one number.</div>
@@ -142,18 +186,6 @@ personalised roadmap aimed only at the gaps the diagnostic found, and nothing th
 do well. One to one coaching with certified AP teachers, people who have sat in the rooms
 where graders get trained. And structured practice with expert feedback, scored against the
 official rubric every time, by a human who knows it." [click x4]
-
-🔴🔴 NO PRICE. NOT HERE, NOT ANYWHERE IN THIS DECK. John 2026-08-16: "we don't want to say
-3800. We don't want to put the offer price in there because we're gonna offer like a range
-of prices and services up to like $24,000... I wouldn't include price on the webinar, just
-stack/value, bonuses, back to school discount."
-
-The $3,800 anchor that was on this slide an hour ago is GONE and must not come back. The
-programme is now a RANGE, sized on the triage call, and naming one number anchors the room
-to the bottom of it.
-
-🔴 SETUP BEFORE FEATURE (Fladlien failure pattern #6). Each row leads with what it DOES for
-them, not what it is. Never read this list as a feature list.
 -->
 
 ---
@@ -161,7 +193,9 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:134a — S8 · VALUE STACK, part 2. The wrapper and the human. -->
+<!--
+ slide:134a — S8 · VALUE STACK, part 2. The wrapper and the human. 
+-->
 
 <div class="sp-kicker">And around all of it</div>
 <div class="sp-h2 mx-auto">The part that stops you guessing for eight months.</div>
@@ -189,9 +223,6 @@ so you are never guessing how it is going, and honestly that is the one parents 
 matters most. Exam readiness mode from the spring, timed papers and full mocks and dress
 rehearsals, so May becomes review instead of repair. And the Score Forecast Report after
 each practice exam: projected score, gaps named, drills to close them." [click x4]
-
-🔴 THE STACK IS DELIBERATELY SPLIT ACROSS TWO SLIDES. Eight rows on one frame at the
-corrected type size is a wall, and a wall gets skimmed. Four and four, both readable.
 -->
 
 ---
@@ -199,7 +230,7 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:133b — S8 · WHO ACTUALLY DOES THE WORK. John 2026-08-16 asked for team proof. -->
+
 
 <div class="sp-kicker">Who actually does the work</div>
 <div class="sp-h2 mx-auto">Fourteen coaches. One of them is an <strong>AP Calculus Reader.</strong></div>
@@ -231,7 +262,7 @@ published disclaimer.
 
 ---
 
-<!-- slide:134a1 — S8 · THE AP TRIAGE CALL. John 2026-08-16 named this specifically. -->
+
 
 <div class="text-center">
 <div class="sp-kicker">And it all starts in one place</div>
@@ -247,11 +278,6 @@ SPOKEN: "And all of it starts in one place. The AP Triage Call. Where your teen 
 right now, what you're aiming at, and the shortest honest path between those two things."
 [click]
 
-🔴 IT IS A TRIAGE CALL, NOT A GAME PLAN CALL. John 2026-08-16, and the whole deck was
-renamed for it. Triage is the right word and it is doing real work: it says we FIND OUT
-before we prescribe, which is the same argument as the blood-work analogy in Section 4. A
-"game plan call" sounds like we already know the answer. We do not, and that is the point.
-
 🔴 THIS IS ALSO WHY THERE IS NO PRICE ON STAGE. The programme is a range, and the triage
 call is what sizes it. Naming a number before the triage would contradict the mechanism the
 whole webinar just spent 40 minutes teaching.
@@ -259,7 +285,9 @@ whole webinar just spent 40 minutes teaching.
 
 ---
 
-<!-- slide:134a2 — S8. 🔴 THE FLADLIEN WORTH QUESTION. Value without a number. -->
+<!--
+ slide:134a2 — S8. 🔴 THE FLADLIEN WORTH QUESTION. Value without a number. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">Ask yourself honestly.</div>
@@ -277,10 +305,6 @@ whole webinar just spent 40 minutes teaching.
 SPOKEN: "So let me ask you honestly. What is one AP score actually worth to your family?
 Not to us. To you. In credit. In aid. In the year your teen is about to have." [click x2]
 
-🔴 THIS IS THE FLADLIEN "WHAT IS IT WORTH" BEAT, and it is doing the job a price reveal
-normally does. John 2026-08-16 asked for exactly this: "really kind of hype up the offer
-stack... not revealing the final bundle stack price."
-
 The mechanism: they assign the value THEMSELVES, silently, and whatever number they land on
 is larger and more personal than any number we could put on a slide. Then the triage call
 finds out what they can actually invest.
@@ -291,7 +315,9 @@ single most valuable pause in the deck. Do not answer your own question.
 
 ---
 
-<!-- slide:134b — S8. 🔴 THE DEADLINE, WITH THE LIVE CLOCK. -->
+<!--
+ slide:134b — S8. 🔴 THE DEADLINE, WITH THE LIVE CLOCK. 
+-->
 
 <div class="sp-kicker">And it has an end date</div>
 <div class="sp-h2 mx-auto">The credit runs to the end of the month.</div>
@@ -303,11 +329,6 @@ single most valuable pause in the deck. Do not answer your own question.
 <!--
 SPOKEN: "And it runs to the end of the month. Midnight Eastern on Monday the 31st. That
 clock is real, and when it hits zero the credit is gone."
-
-🔴 THE CLOCK IS LIVE AND IT IS COMPUTED FROM AN ABSOLUTE UTC INSTANT
-(2026-09-01T03:59:59Z), which IS 23:59:59 America/New_York on Mon 31 Aug. Verified by
-calculation. It is not a local-time string, so the presenter's laptop and a replay viewer
-in another zone see the same number.
 
 ⚠️ ON THE NIGHT IT WILL READ ABOUT "5 DAYS". That is honest but it is soft. The urgency on
 the night comes from the FAST-ACTION BONUSES on the next slide, which attach to booking
@@ -322,10 +343,34 @@ layout: default
 class: text-center
 ---
 
-<!-- slide:134b2 — S8 · THE BONUS GIFT. John 2026-08-16. -->
 
-<div class="sp-callout">Back-to-school bonus</div>
-<div class="sp-h2 mx-auto mt-6">Your teen's Personalised AP College Game Plan.</div>
+
+<div class="sp-callout">The Back-to-School Game Plan</div>
+<div class="sp-h2 mx-auto mt-6">Two things, and you lock both by booking tonight.</div>
+
+<div class="sp-vs mt-8 mx-auto" style="max-width: 52rem;">
+  <div class="sp-card good"><div class="sp-waylabel">One</div><div class="sp-card-t mt-1">$500 back-to-school credit</div></div>
+  <div class="sp-vs-mid">+</div>
+  <div class="sp-card gate"><div class="sp-waylabel">Two</div><div class="sp-card-t mt-1">Personalised AP College Game Plan</div></div>
+</div>
+
+<div class="sp-sub mt-8 mx-auto">And booking tonight is what locks both.</div>
+
+<!--
+SPOKEN: "So the Back-to-School Game Plan is two things, and you lock both by booking
+tonight. One, the five hundred dollar back-to-school credit. Two, we build your teen's
+Personalised AP College Game Plan. Let me show you what that second one actually is."
+-->
+
+---
+layout: default
+class: text-center
+---
+
+<!-- slide:134b2b - what the college game plan actually is -->
+
+<div class="sp-kicker">The Personalised AP College Game Plan</div>
+<div class="sp-h2 mx-auto">Their credits, mapped at the schools they actually want.</div>
 
 <div class="sp-grid c3 mt-8" style="max-width: 62rem; margin-inline: auto; text-align: left;">
 <v-click>
@@ -342,14 +387,12 @@ class: text-center
 <div class="sp-fine mt-8 mx-auto">Credit policies vary by institution and change year to year. We map what is published.</div>
 
 <!--
-SPOKEN: "And because it's back to school, there's a bonus on it this month. We build your
-teen's Personalised AP College Game Plan. Not a generic list, the schools actually on your
+SPOKEN: "So the Back-to-School Game Plan is two things, and you lock both by booking
+tonight. One, the five hundred dollar back-to-school credit. Two, we build your teen's
+Personalised AP College Game Plan. Not a generic list, the schools actually on your
 kitchen-table shortlist. We map each one's credit policy: what they give for a 4, and what
 they give for a 5. And then we show you which exams are actually worth the effort, so the
 work goes where it converts instead of everywhere at once." [click x3]
-
-🔴 JOHN 2026-08-16: "the bonus gift is a personalized AP college game plan... their college
-credits mapped out based on where they actually want to go."
 
 🔴 THIS IS THE STRONGEST THING IN THE CLOSE and it is worth more than a discount, because it
 converts an abstract score into a specific dollar outcome AT THE SCHOOLS THEY ALREADY CARE
@@ -365,7 +408,9 @@ layout: default
 class: text-center night
 ---
 
-<!-- slide:134b3 — S8 · OBJECTION PRE-HANDLING. Fladlien: handle it before they think it. -->
+<!--
+ slide:134b3 — S8 · OBJECTION PRE-HANDLING. Fladlien: handle it before they think it. 
+-->
 
 <div class="sp-kicker">Before you talk yourself out of it</div>
 <div class="sp-h2 mx-auto">The three things going through your head right now.</div>
@@ -399,21 +444,13 @@ nobody teaches it. Two: my teen has no time. That's exactly the argument for mea
 first, because time is the scarce thing and you should only spend it on the gap. And three:
 is it worth the money. That's the honest question, and it's what the call is for. If it's
 not a fit we'll tell you on the call, and you keep the plan anyway." [click x3]
-
-🔴 FLADLIEN OBJECTION PRE-HANDLING, John 2026-08-16. Saying the objection FOR them, in their
-words, before they say it to themselves, is what stops it hardening into a reason not to
-book. Say each one as if you have heard it a hundred times, because Joe has.
-
-🔴 THE THIRD ONE IS THE IMPORTANT ONE and it promises NOTHING FREE. The call's job is to
-find out whether this is right for them, not to hand over a deliverable. John 2026-08-16:
-"the whole purpose of them going on a call is to see if this makes sense for them and they
-can lock in their back to school credit." We want HIGH INTENT on these calls, and a free
-giveaway attracts the opposite.
 -->
 
 ---
 
-<!-- slide:134c — S8. 🔴 FAST-ACTION BONUSES. This is the urgency for TONIGHT. -->
+<!--
+ slide:134c — S8. 🔴 FAST-ACTION BONUSES. This is the urgency for TONIGHT. 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Book before you leave tonight</div>
@@ -452,18 +489,9 @@ scheduling on the deeper session, straight through to an AP enrolment specialist
 that works around your week. And three, first pick of this term's coaching slots. Live
 attendees book ahead of the replay list, and the good times go first." [click x4]
 
-🔴 NOTHING HERE IS FREE-STANDING. Every one of these three attaches to BOOKING AND ATTENDING
-the call, not to walking away with a deliverable. John 2026-08-16 cut the version that gave
-away a rubric pack regardless, because a free giveaway attracts exactly the wrong intent.
-
 🔴 THIS SLIDE IS THE REAL URGENCY OF THE NIGHT, not the countdown. The credit runs five
 more days; these do not. "Tonight, not tomorrow" is the whole mechanism, and it lands on
 its own frame next so it is not competing with three cards for attention.
-
-🔴🔴 BLOCKED ON JOE, AND THIS IS A HARD GATE. Every one of these three must be something we
-can actually deliver, this term, without new build. If any cannot be, CUT IT rather than
-soften it. A fast-action bonus that does not arrive is the fastest way to lose a room that
-just trusted you. Confirm all three in writing before this runs.
 -->
 
 ---
@@ -471,7 +499,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- slide:134d — S8. The fast-action mechanism, on its own frame. -->
+<!--
+ slide:134d — S8. The fast-action mechanism, on its own frame. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">These are for people who book tonight.</div>
@@ -493,7 +523,9 @@ reason anyone books before they close the tab.
 layout: two-cols
 ---
 
-<!-- slide:135 — S8. What the call actually is. 🔴 EXPECTATIONS, SET CAREFULLY. -->
+<!--
+ slide:135 — S8. What the call actually is. 🔴 EXPECTATIONS, SET CAREFULLY. 
+-->
 
 <div class="sp-kicker">Your free AP Triage Call</div>
 <div class="sp-h2">Fifteen minutes on the phone with our team.</div>
@@ -546,7 +578,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:136 — S8. 🔴 THE ASK. THIS SLIDE HAS TWO LIVE BLOCKERS. -->
+<!--
+ slide:136 — S8. 🔴 THE ASK. THIS SLIDE HAS TWO LIVE BLOCKERS. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 sp-onimg mx-auto">Book Your Free AP Triage Call</div>
@@ -589,7 +623,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- slide:137 — S8. Real urgency, from the school calendar. -->
+<!--
+ slide:137 — S8. Real urgency, from the school calendar. 
+-->
 
 <div class="text-center">
 <div class="sp-say sp-onimg mx-auto">School has already started. The syllabus has landed, and nothing has gone wrong yet.</div>
@@ -609,11 +645,6 @@ yet. That makes this the best possible moment to build the plan. Slots each week
 limited, and live attendees get first pick. One action tonight: book the call."
 [click x2]
 
-🔴 THIS SLIDE WAS REWRITTEN. The old version said "[SAY THE MONTH]" and its note listed
-three options of which TWO WERE BOTH LABELLED "AUGUST" and contradicted each other: one
-said "school has just started", the other said "school is just weeks away". A presenter
-reading that live has to guess.
-
 This deck is dated for WEDNESDAY 26 AUGUST 2026, by which point school has started in most
 US districts. The August line is now written into the slide directly, so there is nothing
 to choose at the podium.
@@ -630,7 +661,9 @@ Do not add a timer.
 layout: center
 ---
 
-<!-- slide:138 — S8. Lower the stakes. This raises bookings. -->
+<!--
+ slide:138 — S8. Lower the stakes. This raises bookings. 
+-->
 
 <div class="text-center">
 <div class="sp-h1 mx-auto">Picture the year you actually wanted.</div>
@@ -644,10 +677,6 @@ layout: center
 SPOKEN: "So picture the year you actually wanted. Your son or your daughter walking into
 this school year with real confidence, and walking out of May with the 4s and 5s." [click]
 
-🔴 REPLACED THE "NO PRESSURE, YOU KEEP THE PLAN ANYWAY" SLIDE, John 2026-08-16. That slide
-promised a free deliverable and it set the wrong expectation for the call. The job of this
-frame is FUTURE PACING instead: put them in the year they want, then let the QR follow.
-
 ⚠️ Future-pacing is not a promise. "Picture" and "walking into" are invitations to imagine,
 not commitments about a score. Keep that grammar. Never turn this into "your teen WILL".
 -->
@@ -656,7 +685,7 @@ not commitments about a score. Keep that grammar. Never turn this into "your tee
 layout: two-cols
 ---
 
-<!-- slide:138b — S8. QUESTIONS. John 2026-08-16 asked for a live Q&A frame with the QR. -->
+
 
 <div class="sp-kicker">Before we finish</div>
 <div class="sp-h2">What have you got?</div>
@@ -706,7 +735,9 @@ layout: end
 class: nomark night
 ---
 
-<!-- slide:139 — S8. End card. Leave it up through Q&A. -->
+<!--
+ slide:139 — S8. End card. Leave it up through Q&A. 
+-->
 
 # The Back-to-School Game Plan
 

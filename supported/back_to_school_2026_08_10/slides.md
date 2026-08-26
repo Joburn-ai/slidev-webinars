@@ -33,7 +33,9 @@ layout: cover
 class: text-center bleed
 ---
 
-<!-- slide:000 — HOLDING SLIDE. Runs on the loop before the room fills. -->
+<!--
+ slide:000 — HOLDING SLIDE. Runs on the loop before the room fills. 
+-->
 
 <img class="sp-bleed" src="/images/concept/c04_parent_at_kitchen_table.png" alt="A parent at a kitchen table in the evening, laptop open" />
 <div class="sp-scrim-b"></div>
@@ -62,11 +64,6 @@ class: text-center bleed
 🔴 HOLDING SLIDE. Music up, camera off. Do not start on this slide — advance once, then
 go live. Nothing is spoken here.
 
-🔴 THE OUTCOME LINE IS A LIVE DECISION. John, 2026-08-15: "the back to school game plan
-that GUARANTEES a five on the AP exam. We just want the outcome very, very clear."
-This currently reads "How to turn a 3 into a 5 on the AP exam", which states the outcome
-without promising it. See the note at the top of slides.md before changing it.
-
 Joe's face is on the cover per the same review, so the room knows who is talking before
 he opens his mouth.
 -->
@@ -80,7 +77,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- divider:S1 -->
+<!--
+ divider:S1 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 1</div>
@@ -102,7 +101,9 @@ layout: center
 class: nomark ink
 ---
 
-<!-- divider:S2 -->
+<!--
+ divider:S2 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 2</div>
@@ -125,7 +126,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- divider:S3 -->
+<!--
+ divider:S3 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 3</div>
@@ -147,7 +150,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- divider:S4 -->
+<!--
+ divider:S4 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 4</div>
@@ -170,7 +175,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- divider:S5 -->
+<!--
+ divider:S5 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 5</div>
@@ -193,7 +200,9 @@ layout: center
 class: nomark night
 ---
 
-<!-- divider:S6 -->
+<!--
+ divider:S6 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 6</div>
@@ -218,7 +227,9 @@ layout: center
 class: nomark sun
 ---
 
-<!-- divider:S8 -->
+<!--
+ divider:S8 
+-->
 
 <div class="text-center">
 <div class="sp-kicker">Section 8</div>
